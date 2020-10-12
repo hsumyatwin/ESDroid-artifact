@@ -1,0 +1,599 @@
+0ZZZ<init>:de.freewarepoint.whohasmystuff.ListLentObjects:specialinvoke $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent: void <init>()>()
+1ZZZ<init>:de.freewarepoint.whohasmystuff.AbstractListIntent:specialinvoke $r0.<android.app.ListActivity: void <init>()>()
+2ZZZonCreate:de.freewarepoint.whohasmystuff.AbstractListIntent:specialinvoke $r0.<android.app.ListActivity: void onCreate(android.os.Bundle)>($r1)
+3ZZZonCreate:de.freewarepoint.whohasmystuff.AbstractListIntent:virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent: void setContentView(int)>(2130903042)
+4ZZZonCreate:de.freewarepoint.whohasmystuff.AbstractListIntent:$i0 = virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent: int getIntentTitle()>()
+5ZZZonCreate:de.freewarepoint.whohasmystuff.AbstractListIntent:virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent: void setTitle(int)>($i0)
+6ZZZonCreate:de.freewarepoint.whohasmystuff.AbstractListIntent:$r2 = new de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter
+7ZZZonCreate:de.freewarepoint.whohasmystuff.AbstractListIntent:specialinvoke $r2.<de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter: void <init>(android.content.Context)>($r0)
+8ZZZ<init>:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:specialinvoke $r0.<java.lang.Object: void <init>()>()
+9ZZZ<init>:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r0.<de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter: android.content.Context mCtx> = $r1
+10ZZZonCreate:de.freewarepoint.whohasmystuff.AbstractListIntent:$r0.<de.freewarepoint.whohasmystuff.AbstractListIntent: de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter mDbHelper> = $r2
+11ZZZonCreate:de.freewarepoint.whohasmystuff.AbstractListIntent:$r2 = $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent: de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter mDbHelper>
+12ZZZonCreate:de.freewarepoint.whohasmystuff.AbstractListIntent:virtualinvoke $r2.<de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter: de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter open()>()
+13ZZZopen:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r3 = new de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter$DatabaseHelper
+14ZZZopen:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r1 = $r0.<de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter: android.content.Context mCtx>
+15ZZZopen:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:specialinvoke $r3.<de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter$DatabaseHelper: void <init>(android.content.Context)>($r1)
+16ZZZ<init>:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter$DatabaseHelper:specialinvoke $r0.<android.database.sqlite.SQLiteOpenHelper: void <init>(android.content.Context,java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>($r1, "data", null, 3)
+17ZZZopen:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r0.<de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter: de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter$DatabaseHelper mDbHelper> = $r3
+18ZZZopen:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r3 = $r0.<de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter: de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter$DatabaseHelper mDbHelper>
+19ZZZopen:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r2 = virtualinvoke $r3.<de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter$DatabaseHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>()
+20ZZZopen:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r0.<de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter: android.database.sqlite.SQLiteDatabase mDb> = $r2
+21ZZZonCreate:de.freewarepoint.whohasmystuff.AbstractListIntent:virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent: void fillData()>()
+22ZZZfillData:de.freewarepoint.whohasmystuff.AbstractListIntent:$r1 = new java.text.SimpleDateFormat
+23ZZZfillData:de.freewarepoint.whohasmystuff.AbstractListIntent:specialinvoke $r1.<java.text.SimpleDateFormat: void <init>(java.lang.String)>("yyyy-MM-dd HH:mm:ss")
+24ZZZfillData:de.freewarepoint.whohasmystuff.AbstractListIntent:$r2 = new java.util.GregorianCalendar
+25ZZZfillData:de.freewarepoint.whohasmystuff.AbstractListIntent:specialinvoke $r2.<java.util.GregorianCalendar: void <init>()>()
+26ZZZfillData:de.freewarepoint.whohasmystuff.AbstractListIntent:$r3 = specialinvoke $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent: android.widget.SimpleCursorAdapter getLentObjects()>()
+27ZZZgetLentObjects:de.freewarepoint.whohasmystuff.AbstractListIntent:$r1 = virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent: android.database.Cursor getDisplayedObjects()>()
+28ZZZgetDisplayedObjects:de.freewarepoint.whohasmystuff.ListLentObjects:$r2 = $r0.<de.freewarepoint.whohasmystuff.ListLentObjects: de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter mDbHelper>
+29ZZZgetDisplayedObjects:de.freewarepoint.whohasmystuff.ListLentObjects:$r1 = virtualinvoke $r2.<de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter: android.database.Cursor fetchLentObjects()>()
+30ZZZfetchLentObjects:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r2 = $r0.<de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter: android.database.sqlite.SQLiteDatabase mDb>
+31ZZZfetchLentObjects:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r3 = newarray (java.lang.String)[8]
+32ZZZfetchLentObjects:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r3[0] = "_id"
+33ZZZfetchLentObjects:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r3[1] = "description"
+34ZZZfetchLentObjects:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r3[2] = "type"
+35ZZZfetchLentObjects:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r3[3] = "date"
+36ZZZfetchLentObjects:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r3[4] = "person"
+37ZZZfetchLentObjects:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r3[5] = "person_key"
+38ZZZfetchLentObjects:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r3[6] = "back"
+39ZZZfetchLentObjects:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r3[7] = "calendar_entry"
+40ZZZfetchLentObjects:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r1 = virtualinvoke $r2.<android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>("lentobjects", $r3, "back=0", null, null, null, "date ASC")
+41ZZZgetLentObjects:de.freewarepoint.whohasmystuff.AbstractListIntent:$r0.<de.freewarepoint.whohasmystuff.AbstractListIntent: android.database.Cursor mLentObjectCursor> = $r1
+42ZZZgetLentObjects:de.freewarepoint.whohasmystuff.AbstractListIntent:$r1 = $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent: android.database.Cursor mLentObjectCursor>
+43ZZZgetLentObjects:de.freewarepoint.whohasmystuff.AbstractListIntent:virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent: void startManagingCursor(android.database.Cursor)>($r1)
+44ZZZgetLentObjects:de.freewarepoint.whohasmystuff.AbstractListIntent:$r2 = newarray (java.lang.String)[3]
+45ZZZgetLentObjects:de.freewarepoint.whohasmystuff.AbstractListIntent:$r2[0] = "description"
+46ZZZgetLentObjects:de.freewarepoint.whohasmystuff.AbstractListIntent:$r2[1] = "person"
+47ZZZgetLentObjects:de.freewarepoint.whohasmystuff.AbstractListIntent:$r2[2] = "date"
+48ZZZgetLentObjects:de.freewarepoint.whohasmystuff.AbstractListIntent:$r3 = newarray (int)[3]
+49ZZZgetLentObjects:de.freewarepoint.whohasmystuff.AbstractListIntent:$r3[0] = 2131165201
+50ZZZgetLentObjects:de.freewarepoint.whohasmystuff.AbstractListIntent:$r3[1] = 2131165202
+51ZZZgetLentObjects:de.freewarepoint.whohasmystuff.AbstractListIntent:$r3[2] = 2131165203
+52ZZZgetLentObjects:de.freewarepoint.whohasmystuff.AbstractListIntent:$r4 = new android.widget.SimpleCursorAdapter
+53ZZZgetLentObjects:de.freewarepoint.whohasmystuff.AbstractListIntent:$r1 = $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent: android.database.Cursor mLentObjectCursor>
+54ZZZgetLentObjects:de.freewarepoint.whohasmystuff.AbstractListIntent:specialinvoke $r4.<android.widget.SimpleCursorAdapter: void <init>(android.content.Context,int,android.database.Cursor,java.lang.String[],int[])>($r0, 2130903043, $r1, $r2, $r3)
+55ZZZfillData:de.freewarepoint.whohasmystuff.AbstractListIntent:$r4 = new de.freewarepoint.whohasmystuff.AbstractListIntent$2
+56ZZZfillData:de.freewarepoint.whohasmystuff.AbstractListIntent:specialinvoke $r4.<de.freewarepoint.whohasmystuff.AbstractListIntent$2: void <init>(de.freewarepoint.whohasmystuff.AbstractListIntent,java.text.DateFormat,java.util.Calendar)>($r0, $r1, $r2)
+57ZZZ<init>:de.freewarepoint.whohasmystuff.AbstractListIntent$2:$r0.<de.freewarepoint.whohasmystuff.AbstractListIntent$2: de.freewarepoint.whohasmystuff.AbstractListIntent this$0> = $r1
+58ZZZ<init>:de.freewarepoint.whohasmystuff.AbstractListIntent$2:$r0.<de.freewarepoint.whohasmystuff.AbstractListIntent$2: java.text.DateFormat val$df> = $r2
+59ZZZ<init>:de.freewarepoint.whohasmystuff.AbstractListIntent$2:$r0.<de.freewarepoint.whohasmystuff.AbstractListIntent$2: java.util.Calendar val$now> = $r3
+60ZZZ<init>:de.freewarepoint.whohasmystuff.AbstractListIntent$2:specialinvoke $r0.<java.lang.Object: void <init>()>()
+61ZZZfillData:de.freewarepoint.whohasmystuff.AbstractListIntent:virtualinvoke $r3.<android.widget.SimpleCursorAdapter: void setViewBinder(android.widget.SimpleCursorAdapter$ViewBinder)>($r4)
+62ZZZfillData:de.freewarepoint.whohasmystuff.AbstractListIntent:virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent: void setListAdapter(android.widget.ListAdapter)>($r3)
+63ZZZonCreate:de.freewarepoint.whohasmystuff.AbstractListIntent:$r3 = virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent: android.widget.ListView getListView()>()
+64ZZZonCreate:de.freewarepoint.whohasmystuff.AbstractListIntent:$r4 = new de.freewarepoint.whohasmystuff.AbstractListIntent$1
+65ZZZonCreate:de.freewarepoint.whohasmystuff.AbstractListIntent:specialinvoke $r4.<de.freewarepoint.whohasmystuff.AbstractListIntent$1: void <init>(de.freewarepoint.whohasmystuff.AbstractListIntent)>($r0)
+66ZZZ<init>:de.freewarepoint.whohasmystuff.AbstractListIntent$1:$r0.<de.freewarepoint.whohasmystuff.AbstractListIntent$1: de.freewarepoint.whohasmystuff.AbstractListIntent this$0> = $r1
+67ZZZ<init>:de.freewarepoint.whohasmystuff.AbstractListIntent$1:specialinvoke $r0.<java.lang.Object: void <init>()>()
+68ZZZonCreate:de.freewarepoint.whohasmystuff.AbstractListIntent:virtualinvoke $r3.<android.widget.ListView: void setOnItemClickListener(android.widget.AdapterView$OnItemClickListener)>($r4)
+69ZZZonCreate:de.freewarepoint.whohasmystuff.AbstractListIntent:virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent: void registerForContextMenu(android.view.View)>($r3)
+70ZZZsetViewValue:de.freewarepoint.whohasmystuff.AbstractListIntent$2:if $i0 != 3 goto return 0
+71ZZZsetViewValue:de.freewarepoint.whohasmystuff.AbstractListIntent$2:if $i0 != 3 goto return 0
+72ZZZsetViewValue:de.freewarepoint.whohasmystuff.AbstractListIntent$2:$r4 = new java.util.GregorianCalendar
+73ZZZsetViewValue:de.freewarepoint.whohasmystuff.AbstractListIntent$2:specialinvoke $r4.<java.util.GregorianCalendar: void <init>()>()
+74ZZZsetViewValue:de.freewarepoint.whohasmystuff.AbstractListIntent$2:$r5 = $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent$2: java.text.DateFormat val$df>
+75ZZZsetViewValue:de.freewarepoint.whohasmystuff.AbstractListIntent$2:$r6 = interfaceinvoke $r2.<android.database.Cursor: java.lang.String getString(int)>($i0)
+76ZZZsetViewValue:de.freewarepoint.whohasmystuff.AbstractListIntent$2:$r7 = virtualinvoke $r5.<java.text.DateFormat: java.util.Date parse(java.lang.String)>($r6)
+77ZZZsetViewValue:de.freewarepoint.whohasmystuff.AbstractListIntent$2:$l1 = virtualinvoke $r7.<java.util.Date: long getTime()>()
+78ZZZsetViewValue:de.freewarepoint.whohasmystuff.AbstractListIntent$2:virtualinvoke $r4.<java.util.Calendar: void setTimeInMillis(long)>($l1)
+79ZZZsetViewValue:de.freewarepoint.whohasmystuff.AbstractListIntent$2:$r1 = virtualinvoke $r1.<android.view.View: android.view.View findViewById(int)>(2131165203)
+80ZZZsetViewValue:de.freewarepoint.whohasmystuff.AbstractListIntent$2:$r8 = (android.widget.TextView) $r1
+81ZZZsetViewValue:de.freewarepoint.whohasmystuff.AbstractListIntent$2:$r9 = $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent$2: de.freewarepoint.whohasmystuff.AbstractListIntent this$0>
+82ZZZsetViewValue:de.freewarepoint.whohasmystuff.AbstractListIntent$2:$r10 = $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent$2: java.util.Calendar val$now>
+83ZZZsetViewValue:de.freewarepoint.whohasmystuff.AbstractListIntent$2:$r6 = staticinvoke <de.freewarepoint.whohasmystuff.AbstractListIntent: java.lang.String access$1(de.freewarepoint.whohasmystuff.AbstractListIntent,java.util.Calendar,java.util.Calendar)>($r9, $r4, $r10)
+84ZZZaccess$1:de.freewarepoint.whohasmystuff.AbstractListIntent:$r3 = specialinvoke $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent: java.lang.String getTimeDifference(java.util.Calendar,java.util.Calendar)>($r1, $r2)
+85ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$z0 = virtualinvoke $r2.<java.util.Calendar: boolean before(java.lang.Object)>($r1)
+86ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:if $z0 == 0 goto $i1 = virtualinvoke $r2.<java.util.Calendar: int get(int)>(1)
+87ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$i1 = virtualinvoke $r2.<java.util.Calendar: int get(int)>(1)
+88ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$i2 = virtualinvoke $r1.<java.util.Calendar: int get(int)>(1)
+90ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$r3 = new java.util.GregorianCalendar
+91ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:specialinvoke $r3.<java.util.GregorianCalendar: void <init>()>()
+92ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$l0 = virtualinvoke $r1.<java.util.Calendar: long getTimeInMillis()>()
+93ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:virtualinvoke $r3.<java.util.Calendar: void setTimeInMillis(long)>($l0)
+94ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$i2 = virtualinvoke $r2.<java.util.Calendar: int get(int)>(1)
+95ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:virtualinvoke $r3.<java.util.Calendar: void set(int,int)>(1, $i2)
+96ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$z0 = virtualinvoke $r2.<java.util.Calendar: boolean before(java.lang.Object)>($r3)
+97ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:if $z0 == 0 goto (branch)
+98ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:if $i1 <= 1 goto (branch)
+99ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:if $i1 <= 0 goto $i1 = virtualinvoke $r1.<java.util.Calendar: int get(int)>(1)
+100ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$i1 = virtualinvoke $r1.<java.util.Calendar: int get(int)>(1)
+101ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$i1 = $i1 * 12
+102ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$i2 = virtualinvoke $r1.<java.util.Calendar: int get(int)>(2)
+103ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$i1 = $i1 + $i2
+104ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$i2 = virtualinvoke $r2.<java.util.Calendar: int get(int)>(1)
+105ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$i2 = $i2 * 12
+106ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$i3 = virtualinvoke $r2.<java.util.Calendar: int get(int)>(2)
+107ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$i2 = $i2 + $i3
+108ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$i1 = $i2 - $i1
+109ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$r3 = new java.util.GregorianCalendar
+110ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:specialinvoke $r3.<java.util.GregorianCalendar: void <init>()>()
+111ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$l0 = virtualinvoke $r1.<java.util.Calendar: long getTimeInMillis()>()
+112ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:virtualinvoke $r3.<java.util.Calendar: void setTimeInMillis(long)>($l0)
+113ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$i2 = virtualinvoke $r2.<java.util.Calendar: int get(int)>(1)
+114ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:virtualinvoke $r3.<java.util.Calendar: void set(int,int)>(1, $i2)
+115ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$i2 = virtualinvoke $r2.<java.util.Calendar: int get(int)>(2)
+116ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:virtualinvoke $r3.<java.util.Calendar: void set(int,int)>(2, $i2)
+117ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$z0 = virtualinvoke $r2.<java.util.Calendar: boolean before(java.lang.Object)>($r3)
+118ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:if $z0 == 0 goto (branch)
+119ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:if $i1 <= 1 goto (branch)
+120ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:if $i1 <= 0 goto $l0 = virtualinvoke $r2.<java.util.Calendar: long getTimeInMillis()>()
+121ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$l0 = virtualinvoke $r2.<java.util.Calendar: long getTimeInMillis()>()
+122ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$l4 = virtualinvoke $r1.<java.util.Calendar: long getTimeInMillis()>()
+123ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$l0 = $l0 - $l4
+124ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$l0 = $l0 / 86400000L
+125ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$i1 = (int) $l0
+126ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$i2 = $i1 / 7
+127ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:if $i2 <= 1 goto (branch)
+128ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:if $i2 <= 0 goto (branch)
+129ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:if $i1 <= 1 goto (branch)
+130ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:if $i1 <= 0 goto (branch)
+131ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:if $i1 != 0 goto $r5 = virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent: java.lang.String getString(int)>(2130968611)
+132ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$r5 = virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent: java.lang.String getString(int)>(2130968610)
+133ZZZsetViewValue:de.freewarepoint.whohasmystuff.AbstractListIntent$2:virtualinvoke $r8.<android.widget.TextView: void setText(java.lang.CharSequence)>($r6)
+134ZZZsetViewValue:de.freewarepoint.whohasmystuff.AbstractListIntent$2:if $i0 != 3 goto return 0
+135ZZZsetViewValue:de.freewarepoint.whohasmystuff.AbstractListIntent$2:if $i0 != 3 goto return 0
+136ZZZsetViewValue:de.freewarepoint.whohasmystuff.AbstractListIntent$2:$r4 = new java.util.GregorianCalendar
+137ZZZsetViewValue:de.freewarepoint.whohasmystuff.AbstractListIntent$2:specialinvoke $r4.<java.util.GregorianCalendar: void <init>()>()
+138ZZZsetViewValue:de.freewarepoint.whohasmystuff.AbstractListIntent$2:$r5 = $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent$2: java.text.DateFormat val$df>
+139ZZZsetViewValue:de.freewarepoint.whohasmystuff.AbstractListIntent$2:$r6 = interfaceinvoke $r2.<android.database.Cursor: java.lang.String getString(int)>($i0)
+140ZZZsetViewValue:de.freewarepoint.whohasmystuff.AbstractListIntent$2:$r7 = virtualinvoke $r5.<java.text.DateFormat: java.util.Date parse(java.lang.String)>($r6)
+141ZZZsetViewValue:de.freewarepoint.whohasmystuff.AbstractListIntent$2:$l1 = virtualinvoke $r7.<java.util.Date: long getTime()>()
+142ZZZsetViewValue:de.freewarepoint.whohasmystuff.AbstractListIntent$2:virtualinvoke $r4.<java.util.Calendar: void setTimeInMillis(long)>($l1)
+143ZZZsetViewValue:de.freewarepoint.whohasmystuff.AbstractListIntent$2:$r1 = virtualinvoke $r1.<android.view.View: android.view.View findViewById(int)>(2131165203)
+144ZZZsetViewValue:de.freewarepoint.whohasmystuff.AbstractListIntent$2:$r8 = (android.widget.TextView) $r1
+145ZZZsetViewValue:de.freewarepoint.whohasmystuff.AbstractListIntent$2:$r9 = $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent$2: de.freewarepoint.whohasmystuff.AbstractListIntent this$0>
+146ZZZsetViewValue:de.freewarepoint.whohasmystuff.AbstractListIntent$2:$r10 = $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent$2: java.util.Calendar val$now>
+147ZZZsetViewValue:de.freewarepoint.whohasmystuff.AbstractListIntent$2:$r6 = staticinvoke <de.freewarepoint.whohasmystuff.AbstractListIntent: java.lang.String access$1(de.freewarepoint.whohasmystuff.AbstractListIntent,java.util.Calendar,java.util.Calendar)>($r9, $r4, $r10)
+148ZZZaccess$1:de.freewarepoint.whohasmystuff.AbstractListIntent:$r3 = specialinvoke $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent: java.lang.String getTimeDifference(java.util.Calendar,java.util.Calendar)>($r1, $r2)
+149ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$z0 = virtualinvoke $r2.<java.util.Calendar: boolean before(java.lang.Object)>($r1)
+150ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:if $z0 == 0 goto $i1 = virtualinvoke $r2.<java.util.Calendar: int get(int)>(1)
+151ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$i1 = virtualinvoke $r2.<java.util.Calendar: int get(int)>(1)
+152ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$i2 = virtualinvoke $r1.<java.util.Calendar: int get(int)>(1)
+154ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$r3 = new java.util.GregorianCalendar
+155ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:specialinvoke $r3.<java.util.GregorianCalendar: void <init>()>()
+156ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$l0 = virtualinvoke $r1.<java.util.Calendar: long getTimeInMillis()>()
+157ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:virtualinvoke $r3.<java.util.Calendar: void setTimeInMillis(long)>($l0)
+158ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$i2 = virtualinvoke $r2.<java.util.Calendar: int get(int)>(1)
+159ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:virtualinvoke $r3.<java.util.Calendar: void set(int,int)>(1, $i2)
+160ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$z0 = virtualinvoke $r2.<java.util.Calendar: boolean before(java.lang.Object)>($r3)
+161ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:if $z0 == 0 goto (branch)
+162ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:if $i1 <= 1 goto (branch)
+163ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:if $i1 <= 0 goto $i1 = virtualinvoke $r1.<java.util.Calendar: int get(int)>(1)
+164ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$i1 = virtualinvoke $r1.<java.util.Calendar: int get(int)>(1)
+165ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$i1 = $i1 * 12
+166ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$i2 = virtualinvoke $r1.<java.util.Calendar: int get(int)>(2)
+167ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$i1 = $i1 + $i2
+168ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$i2 = virtualinvoke $r2.<java.util.Calendar: int get(int)>(1)
+169ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$i2 = $i2 * 12
+170ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$i3 = virtualinvoke $r2.<java.util.Calendar: int get(int)>(2)
+171ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$i2 = $i2 + $i3
+172ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$i1 = $i2 - $i1
+173ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$r3 = new java.util.GregorianCalendar
+174ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:specialinvoke $r3.<java.util.GregorianCalendar: void <init>()>()
+175ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$l0 = virtualinvoke $r1.<java.util.Calendar: long getTimeInMillis()>()
+176ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:virtualinvoke $r3.<java.util.Calendar: void setTimeInMillis(long)>($l0)
+177ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$i2 = virtualinvoke $r2.<java.util.Calendar: int get(int)>(1)
+178ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:virtualinvoke $r3.<java.util.Calendar: void set(int,int)>(1, $i2)
+179ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$i2 = virtualinvoke $r2.<java.util.Calendar: int get(int)>(2)
+180ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:virtualinvoke $r3.<java.util.Calendar: void set(int,int)>(2, $i2)
+181ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$z0 = virtualinvoke $r2.<java.util.Calendar: boolean before(java.lang.Object)>($r3)
+182ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:if $z0 == 0 goto (branch)
+183ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:if $i1 <= 1 goto (branch)
+184ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:if $i1 <= 0 goto $l0 = virtualinvoke $r2.<java.util.Calendar: long getTimeInMillis()>()
+185ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$l0 = virtualinvoke $r2.<java.util.Calendar: long getTimeInMillis()>()
+186ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$l4 = virtualinvoke $r1.<java.util.Calendar: long getTimeInMillis()>()
+187ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$l0 = $l0 - $l4
+188ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$l0 = $l0 / 86400000L
+189ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$i1 = (int) $l0
+190ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$i2 = $i1 / 7
+191ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:if $i2 <= 1 goto (branch)
+192ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:if $i2 <= 0 goto (branch)
+193ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:if $i1 <= 1 goto (branch)
+194ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:if $i1 <= 0 goto (branch)
+195ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:if $i1 != 0 goto $r5 = virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent: java.lang.String getString(int)>(2130968611)
+196ZZZgetTimeDifference:de.freewarepoint.whohasmystuff.AbstractListIntent:$r5 = virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent: java.lang.String getString(int)>(2130968610)
+197ZZZsetViewValue:de.freewarepoint.whohasmystuff.AbstractListIntent$2:virtualinvoke $r8.<android.widget.TextView: void setText(java.lang.CharSequence)>($r6)
+198ZZZonCreateOptionsMenu:de.freewarepoint.whohasmystuff.ListLentObjects:$r2 = virtualinvoke $r0.<de.freewarepoint.whohasmystuff.ListLentObjects: android.view.MenuInflater getMenuInflater()>()
+199ZZZonCreateOptionsMenu:de.freewarepoint.whohasmystuff.ListLentObjects:virtualinvoke $r2.<android.view.MenuInflater: void inflate(int,android.view.Menu)>(2131099648, $r1)
+200ZZZonItemClick:de.freewarepoint.whohasmystuff.AbstractListIntent$1:$r3 = $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent$1: de.freewarepoint.whohasmystuff.AbstractListIntent this$0>
+201ZZZonItemClick:de.freewarepoint.whohasmystuff.AbstractListIntent$1:staticinvoke <de.freewarepoint.whohasmystuff.AbstractListIntent: void access$0(de.freewarepoint.whohasmystuff.AbstractListIntent,int,long)>($r3, $i0, $l1)
+202ZZZaccess$0:de.freewarepoint.whohasmystuff.AbstractListIntent:specialinvoke $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent: void launchEditActivity(int,long)>($i0, $l1)
+203ZZZlaunchEditActivity:de.freewarepoint.whohasmystuff.AbstractListIntent:$r1 = $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent: android.database.Cursor mLentObjectCursor>
+204ZZZlaunchEditActivity:de.freewarepoint.whohasmystuff.AbstractListIntent:interfaceinvoke $r1.<android.database.Cursor: boolean moveToPosition(int)>($i0)
+205ZZZlaunchEditActivity:de.freewarepoint.whohasmystuff.AbstractListIntent:$r4 = new android.os.Bundle
+206ZZZlaunchEditActivity:de.freewarepoint.whohasmystuff.AbstractListIntent:specialinvoke $r4.<android.os.Bundle: void <init>()>()
+207ZZZlaunchEditActivity:de.freewarepoint.whohasmystuff.AbstractListIntent:$i0 = virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent: int getEditAction()>()
+208ZZZlaunchEditActivity:de.freewarepoint.whohasmystuff.AbstractListIntent:virtualinvoke $r4.<android.os.Bundle: void putInt(java.lang.String,int)>("action_type", $i0)
+209ZZZlaunchEditActivity:de.freewarepoint.whohasmystuff.AbstractListIntent:virtualinvoke $r4.<android.os.Bundle: void putLong(java.lang.String,long)>("_id", $l1)
+210ZZZlaunchEditActivity:de.freewarepoint.whohasmystuff.AbstractListIntent:$i0 = interfaceinvoke $r1.<android.database.Cursor: int getColumnIndexOrThrow(java.lang.String)>("description")
+211ZZZlaunchEditActivity:de.freewarepoint.whohasmystuff.AbstractListIntent:$r6 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i0)
+212ZZZlaunchEditActivity:de.freewarepoint.whohasmystuff.AbstractListIntent:virtualinvoke $r4.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("description", $r6)
+213ZZZlaunchEditActivity:de.freewarepoint.whohasmystuff.AbstractListIntent:$i0 = interfaceinvoke $r1.<android.database.Cursor: int getColumnIndexOrThrow(java.lang.String)>("type")
+214ZZZlaunchEditActivity:de.freewarepoint.whohasmystuff.AbstractListIntent:$i0 = interfaceinvoke $r1.<android.database.Cursor: int getInt(int)>($i0)
+215ZZZlaunchEditActivity:de.freewarepoint.whohasmystuff.AbstractListIntent:virtualinvoke $r4.<android.os.Bundle: void putInt(java.lang.String,int)>("type", $i0)
+216ZZZlaunchEditActivity:de.freewarepoint.whohasmystuff.AbstractListIntent:$r2 = new java.text.SimpleDateFormat
+217ZZZlaunchEditActivity:de.freewarepoint.whohasmystuff.AbstractListIntent:specialinvoke $r2.<java.text.SimpleDateFormat: void <init>(java.lang.String)>("yyyy-MM-dd HH:mm:ss")
+218ZZZlaunchEditActivity:de.freewarepoint.whohasmystuff.AbstractListIntent:$i0 = interfaceinvoke $r1.<android.database.Cursor: int getColumnIndexOrThrow(java.lang.String)>("date")
+219ZZZlaunchEditActivity:de.freewarepoint.whohasmystuff.AbstractListIntent:$r6 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i0)
+220ZZZlaunchEditActivity:de.freewarepoint.whohasmystuff.AbstractListIntent:$r7 = virtualinvoke $r2.<java.text.DateFormat: java.util.Date parse(java.lang.String)>($r6)
+221ZZZlaunchEditActivity:de.freewarepoint.whohasmystuff.AbstractListIntent:$l1 = virtualinvoke $r7.<java.util.Date: long getTime()>()
+222ZZZlaunchEditActivity:de.freewarepoint.whohasmystuff.AbstractListIntent:virtualinvoke $r4.<android.os.Bundle: void putLong(java.lang.String,long)>("date", $l1)
+223ZZZlaunchEditActivity:de.freewarepoint.whohasmystuff.AbstractListIntent:$i0 = interfaceinvoke $r1.<android.database.Cursor: int getColumnIndexOrThrow(java.lang.String)>("person")
+224ZZZlaunchEditActivity:de.freewarepoint.whohasmystuff.AbstractListIntent:$r6 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i0)
+225ZZZlaunchEditActivity:de.freewarepoint.whohasmystuff.AbstractListIntent:virtualinvoke $r4.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("person", $r6)
+226ZZZlaunchEditActivity:de.freewarepoint.whohasmystuff.AbstractListIntent:$i0 = interfaceinvoke $r1.<android.database.Cursor: int getColumnIndexOrThrow(java.lang.String)>("person_key")
+227ZZZlaunchEditActivity:de.freewarepoint.whohasmystuff.AbstractListIntent:$r6 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i0)
+228ZZZlaunchEditActivity:de.freewarepoint.whohasmystuff.AbstractListIntent:virtualinvoke $r4.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("person_key", $r6)
+229ZZZlaunchEditActivity:de.freewarepoint.whohasmystuff.AbstractListIntent:$r5 = new android.content.Intent
+230ZZZlaunchEditActivity:de.freewarepoint.whohasmystuff.AbstractListIntent:specialinvoke $r5.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r0, class "Lde/freewarepoint/whohasmystuff/AddObject;")
+231ZZZlaunchEditActivity:de.freewarepoint.whohasmystuff.AbstractListIntent:virtualinvoke $r5.<android.content.Intent: android.content.Intent setAction(java.lang.String)>("android.intent.action.EDIT")
+232ZZZlaunchEditActivity:de.freewarepoint.whohasmystuff.AbstractListIntent:virtualinvoke $r5.<android.content.Intent: android.content.Intent putExtras(android.os.Bundle)>($r4)
+233ZZZlaunchEditActivity:de.freewarepoint.whohasmystuff.AbstractListIntent:virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent: void startActivityForResult(android.content.Intent,int)>($r5, 2)
+234ZZZ<init>:de.freewarepoint.whohasmystuff.AddObject:specialinvoke $r0.<android.app.Activity: void <init>()>()
+235ZZZ<init>:de.freewarepoint.whohasmystuff.AddObject:$r0.<de.freewarepoint.whohasmystuff.AddObject: java.lang.String LAST_USED_CALENDAR> = "LastUsedCalendar"
+236ZZZ<init>:de.freewarepoint.whohasmystuff.AddObject:$r1 = new de.freewarepoint.whohasmystuff.AddObject$1
+237ZZZ<init>:de.freewarepoint.whohasmystuff.AddObject:specialinvoke $r1.<de.freewarepoint.whohasmystuff.AddObject$1: void <init>(de.freewarepoint.whohasmystuff.AddObject)>($r0)
+238ZZZ<init>:de.freewarepoint.whohasmystuff.AddObject$1:$r0.<de.freewarepoint.whohasmystuff.AddObject$1: de.freewarepoint.whohasmystuff.AddObject this$0> = $r1
+239ZZZ<init>:de.freewarepoint.whohasmystuff.AddObject$1:specialinvoke $r0.<java.lang.Object: void <init>()>()
+240ZZZ<init>:de.freewarepoint.whohasmystuff.AddObject:$r0.<de.freewarepoint.whohasmystuff.AddObject: android.app.DatePickerDialog$OnDateSetListener mDateSetListener> = $r1
+241ZZZ<init>:de.freewarepoint.whohasmystuff.AddObject:$r2 = new de.freewarepoint.whohasmystuff.AddObject$2
+242ZZZ<init>:de.freewarepoint.whohasmystuff.AddObject:specialinvoke $r2.<de.freewarepoint.whohasmystuff.AddObject$2: void <init>(de.freewarepoint.whohasmystuff.AddObject)>($r0)
+243ZZZ<init>:de.freewarepoint.whohasmystuff.AddObject$2:$r0.<de.freewarepoint.whohasmystuff.AddObject$2: de.freewarepoint.whohasmystuff.AddObject this$0> = $r1
+244ZZZ<init>:de.freewarepoint.whohasmystuff.AddObject$2:specialinvoke $r0.<java.lang.Object: void <init>()>()
+245ZZZ<init>:de.freewarepoint.whohasmystuff.AddObject:$r0.<de.freewarepoint.whohasmystuff.AddObject: android.app.DatePickerDialog$OnDateSetListener mReturnDateSetListener> = $r2
+246ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:specialinvoke $r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)
+247ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AddObject: void setContentView(int)>(2130903040)
+248ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AddObject: void setTitle(int)>(2130968590)
+249ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r3 = virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AddObject: android.view.View findViewById(int)>(2131165189)
+250ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r4 = (android.widget.EditText) $r3
+251ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r0.<de.freewarepoint.whohasmystuff.AddObject: android.widget.EditText mDescriptionText> = $r4
+252ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r3 = virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AddObject: android.view.View findViewById(int)>(2131165190)
+253ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r5 = (android.widget.Spinner) $r3
+254ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r0.<de.freewarepoint.whohasmystuff.AddObject: android.widget.Spinner mTypeSpinner> = $r5
+255ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r3 = virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AddObject: android.view.View findViewById(int)>(2131165192)
+256ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r4 = (android.widget.EditText) $r3
+257ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r0.<de.freewarepoint.whohasmystuff.AddObject: android.widget.EditText mPersonName> = $r4
+258ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r3 = virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AddObject: android.view.View findViewById(int)>(2131165185)
+259ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r6 = (android.widget.Button) $r3
+260ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r0.<de.freewarepoint.whohasmystuff.AddObject: android.widget.Button mAddButton> = $r6
+261ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r3 = virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AddObject: android.view.View findViewById(int)>(2131165186)
+262ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r6 = (android.widget.Button) $r3
+263ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r0.<de.freewarepoint.whohasmystuff.AddObject: android.widget.Button mCancelButton> = $r6
+264ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r3 = virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AddObject: android.view.View findViewById(int)>(2131165188)
+265ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r6 = (android.widget.Button) $r3
+266ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r0.<de.freewarepoint.whohasmystuff.AddObject: android.widget.Button mDeleteButton> = $r6
+267ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r3 = virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AddObject: android.view.View findViewById(int)>(2131165187)
+268ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r6 = (android.widget.Button) $r3
+269ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r0.<de.freewarepoint.whohasmystuff.AddObject: android.widget.Button mReturnedButton> = $r6
+270ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r3 = virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AddObject: android.view.View findViewById(int)>(2131165191)
+271ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r6 = (android.widget.Button) $r3
+272ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r0.<de.freewarepoint.whohasmystuff.AddObject: android.widget.Button mPickDate> = $r6
+273ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r3 = virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AddObject: android.view.View findViewById(int)>(2131165200)
+274ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r6 = (android.widget.Button) $r3
+275ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r0.<de.freewarepoint.whohasmystuff.AddObject: android.widget.Button mPickReturnDate> = $r6
+276ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r3 = virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AddObject: android.view.View findViewById(int)>(2131165197)
+277ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r5 = (android.widget.Spinner) $r3
+278ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r0.<de.freewarepoint.whohasmystuff.AddObject: android.widget.Spinner mCalendarSpinner> = $r5
+279ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r3 = virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AddObject: android.view.View findViewById(int)>(2131165195)
+280ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r7 = (android.widget.CheckBox) $r3
+281ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r3 = virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AddObject: android.view.View findViewById(int)>(2131165193)
+282ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r8 = (android.widget.ImageButton) $r3
+283ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r9 = new de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter
+284ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:specialinvoke $r9.<de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter: void <init>(android.content.Context)>($r0)
+285ZZZ<init>:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:specialinvoke $r0.<java.lang.Object: void <init>()>()
+286ZZZ<init>:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r0.<de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter: android.content.Context mCtx> = $r1
+287ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r0.<de.freewarepoint.whohasmystuff.AddObject: de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter mDbHelper> = $r9
+288ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r9 = $r0.<de.freewarepoint.whohasmystuff.AddObject: de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter mDbHelper>
+289ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r9.<de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter: de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter open()>()
+290ZZZopen:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r3 = new de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter$DatabaseHelper
+291ZZZopen:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r1 = $r0.<de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter: android.content.Context mCtx>
+292ZZZopen:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:specialinvoke $r3.<de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter$DatabaseHelper: void <init>(android.content.Context)>($r1)
+293ZZZ<init>:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter$DatabaseHelper:specialinvoke $r0.<android.database.sqlite.SQLiteOpenHelper: void <init>(android.content.Context,java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>($r1, "data", null, 3)
+294ZZZopen:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r0.<de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter: de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter$DatabaseHelper mDbHelper> = $r3
+295ZZZopen:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r3 = $r0.<de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter: de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter$DatabaseHelper mDbHelper>
+296ZZZopen:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r2 = virtualinvoke $r3.<de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter$DatabaseHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>()
+297ZZZopen:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r0.<de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter: android.database.sqlite.SQLiteDatabase mDb> = $r2
+298ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r10 = staticinvoke <android.widget.ArrayAdapter: android.widget.ArrayAdapter createFromResource(android.content.Context,int,int)>($r0, 2131034112, 17367048)
+299ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r10.<android.widget.ArrayAdapter: void setDropDownViewResource(int)>(17367049)
+300ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r5 = $r0.<de.freewarepoint.whohasmystuff.AddObject: android.widget.Spinner mTypeSpinner>
+301ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r5.<android.widget.Spinner: void setAdapter(android.widget.SpinnerAdapter)>($r10)
+302ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r11 = virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AddObject: android.content.Intent getIntent()>()
+303ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r1 = virtualinvoke $r11.<android.content.Intent: android.os.Bundle getExtras()>()
+304ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("action_type")
+305ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:if $i0 != 0 goto $z0 = virtualinvoke $r1.<android.os.Bundle: boolean containsKey(java.lang.String)>("_id")
+306ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$z0 = virtualinvoke $r1.<android.os.Bundle: boolean containsKey(java.lang.String)>("_id")
+307ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:if $z0 == 0 goto $r2 = new java.util.Date
+308ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:specialinvoke $r0.<de.freewarepoint.whohasmystuff.AddObject: void initalizeValuesFromBundle(android.os.Bundle)>($r1)
+309ZZZinitalizeValuesFromBundle:de.freewarepoint.whohasmystuff.AddObject:$i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("action_type")
+310ZZZinitalizeValuesFromBundle:de.freewarepoint.whohasmystuff.AddObject:if $i0 == 1 goto virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AddObject: void setTitle(int)>(2130968591)
+311ZZZinitalizeValuesFromBundle:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AddObject: void setTitle(int)>(2130968591)
+312ZZZinitalizeValuesFromBundle:de.freewarepoint.whohasmystuff.AddObject:$r2 = $r0.<de.freewarepoint.whohasmystuff.AddObject: android.widget.Button mAddButton>
+313ZZZinitalizeValuesFromBundle:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r2.<android.widget.Button: void setText(int)>(2130968588)
+314ZZZinitalizeValuesFromBundle:de.freewarepoint.whohasmystuff.AddObject:$r2 = $r0.<de.freewarepoint.whohasmystuff.AddObject: android.widget.Button mCancelButton>
+315ZZZinitalizeValuesFromBundle:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r2.<android.widget.Button: void setVisibility(int)>(8)
+316ZZZinitalizeValuesFromBundle:de.freewarepoint.whohasmystuff.AddObject:if $i0 != 1 goto (branch)
+317ZZZinitalizeValuesFromBundle:de.freewarepoint.whohasmystuff.AddObject:$r2 = $r0.<de.freewarepoint.whohasmystuff.AddObject: android.widget.Button mDeleteButton>
+318ZZZinitalizeValuesFromBundle:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r2.<android.widget.Button: void setVisibility(int)>(8)
+319ZZZinitalizeValuesFromBundle:de.freewarepoint.whohasmystuff.AddObject:$l1 = virtualinvoke $r1.<android.os.Bundle: long getLong(java.lang.String)>("_id")
+320ZZZinitalizeValuesFromBundle:de.freewarepoint.whohasmystuff.AddObject:$r3 = staticinvoke <java.lang.Long: java.lang.Long valueOf(long)>($l1)
+321ZZZinitalizeValuesFromBundle:de.freewarepoint.whohasmystuff.AddObject:$r0.<de.freewarepoint.whohasmystuff.AddObject: java.lang.Long mRowId> = $r3
+322ZZZinitalizeValuesFromBundle:de.freewarepoint.whohasmystuff.AddObject:$r4 = $r0.<de.freewarepoint.whohasmystuff.AddObject: android.widget.EditText mDescriptionText>
+323ZZZinitalizeValuesFromBundle:de.freewarepoint.whohasmystuff.AddObject:$r5 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("description")
+324ZZZinitalizeValuesFromBundle:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r4.<android.widget.EditText: void setText(java.lang.CharSequence)>($r5)
+325ZZZinitalizeValuesFromBundle:de.freewarepoint.whohasmystuff.AddObject:$r6 = $r0.<de.freewarepoint.whohasmystuff.AddObject: android.widget.Spinner mTypeSpinner>
+326ZZZinitalizeValuesFromBundle:de.freewarepoint.whohasmystuff.AddObject:$i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("type")
+327ZZZinitalizeValuesFromBundle:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r6.<android.widget.Spinner: void setSelection(int)>($i0)
+328ZZZinitalizeValuesFromBundle:de.freewarepoint.whohasmystuff.AddObject:$r4 = $r0.<de.freewarepoint.whohasmystuff.AddObject: android.widget.EditText mPersonName>
+329ZZZinitalizeValuesFromBundle:de.freewarepoint.whohasmystuff.AddObject:$r5 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("person")
+330ZZZinitalizeValuesFromBundle:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r4.<android.widget.EditText: void setText(java.lang.CharSequence)>($r5)
+331ZZZinitalizeValuesFromBundle:de.freewarepoint.whohasmystuff.AddObject:$r5 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("person")
+332ZZZinitalizeValuesFromBundle:de.freewarepoint.whohasmystuff.AddObject:$r0.<de.freewarepoint.whohasmystuff.AddObject: java.lang.String originalName> = $r5
+333ZZZinitalizeValuesFromBundle:de.freewarepoint.whohasmystuff.AddObject:$r5 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("person_key")
+334ZZZinitalizeValuesFromBundle:de.freewarepoint.whohasmystuff.AddObject:$r0.<de.freewarepoint.whohasmystuff.AddObject: java.lang.String originalPersonKey> = $r5
+335ZZZinitalizeValuesFromBundle:de.freewarepoint.whohasmystuff.AddObject:$r7 = new java.util.Date
+336ZZZinitalizeValuesFromBundle:de.freewarepoint.whohasmystuff.AddObject:$l1 = virtualinvoke $r1.<android.os.Bundle: long getLong(java.lang.String)>("date")
+337ZZZinitalizeValuesFromBundle:de.freewarepoint.whohasmystuff.AddObject:specialinvoke $r7.<java.util.Date: void <init>(long)>($l1)
+338ZZZinitalizeValuesFromBundle:de.freewarepoint.whohasmystuff.AddObject:$r0.<de.freewarepoint.whohasmystuff.AddObject: java.util.Date selectedDate> = $r7
+339ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r7.<android.widget.CheckBox: void setVisibility(int)>(8)
+340ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r2 = $r0.<de.freewarepoint.whohasmystuff.AddObject: java.util.Date selectedDate>
+341ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:specialinvoke $r0.<de.freewarepoint.whohasmystuff.AddObject: void initializeDatePicker(java.util.Date)>($r2)
+342ZZZinitializeDatePicker:de.freewarepoint.whohasmystuff.AddObject:$r3 = $r0.<de.freewarepoint.whohasmystuff.AddObject: android.widget.Button mPickDate>
+343ZZZinitializeDatePicker:de.freewarepoint.whohasmystuff.AddObject:$r2 = new de.freewarepoint.whohasmystuff.AddObject$9
+344ZZZinitializeDatePicker:de.freewarepoint.whohasmystuff.AddObject:specialinvoke $r2.<de.freewarepoint.whohasmystuff.AddObject$9: void <init>(de.freewarepoint.whohasmystuff.AddObject)>($r0)
+345ZZZ<init>:de.freewarepoint.whohasmystuff.AddObject$9:$r0.<de.freewarepoint.whohasmystuff.AddObject$9: de.freewarepoint.whohasmystuff.AddObject this$0> = $r1
+346ZZZ<init>:de.freewarepoint.whohasmystuff.AddObject$9:specialinvoke $r0.<java.lang.Object: void <init>()>()
+347ZZZinitializeDatePicker:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r3.<android.widget.Button: void setOnClickListener(android.view.View$OnClickListener)>($r2)
+348ZZZinitializeDatePicker:de.freewarepoint.whohasmystuff.AddObject:$r4 = staticinvoke <java.util.Calendar: java.util.Calendar getInstance()>()
+349ZZZinitializeDatePicker:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r4.<java.util.Calendar: void setTime(java.util.Date)>($r1)
+350ZZZinitializeDatePicker:de.freewarepoint.whohasmystuff.AddObject:$i0 = virtualinvoke $r4.<java.util.Calendar: int get(int)>(1)
+351ZZZinitializeDatePicker:de.freewarepoint.whohasmystuff.AddObject:$r0.<de.freewarepoint.whohasmystuff.AddObject: int mYear> = $i0
+352ZZZinitializeDatePicker:de.freewarepoint.whohasmystuff.AddObject:$i0 = virtualinvoke $r4.<java.util.Calendar: int get(int)>(2)
+353ZZZinitializeDatePicker:de.freewarepoint.whohasmystuff.AddObject:$r0.<de.freewarepoint.whohasmystuff.AddObject: int mMonth> = $i0
+354ZZZinitializeDatePicker:de.freewarepoint.whohasmystuff.AddObject:$i0 = virtualinvoke $r4.<java.util.Calendar: int get(int)>(5)
+355ZZZinitializeDatePicker:de.freewarepoint.whohasmystuff.AddObject:$r0.<de.freewarepoint.whohasmystuff.AddObject: int mDay> = $i0
+356ZZZinitializeDatePicker:de.freewarepoint.whohasmystuff.AddObject:specialinvoke $r0.<de.freewarepoint.whohasmystuff.AddObject: void updateDisplay()>()
+357ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:$r1 = staticinvoke <java.text.DateFormat: java.text.DateFormat getDateInstance(int)>(1)
+358ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:$r2 = staticinvoke <java.util.Calendar: java.util.Calendar getInstance()>()
+359ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:$i0 = $r0.<de.freewarepoint.whohasmystuff.AddObject: int mYear>
+360ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:$i1 = $r0.<de.freewarepoint.whohasmystuff.AddObject: int mMonth>
+361ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:$i2 = $r0.<de.freewarepoint.whohasmystuff.AddObject: int mDay>
+362ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r2.<java.util.Calendar: void set(int,int,int)>($i0, $i1, $i2)
+363ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:$r3 = $r0.<de.freewarepoint.whohasmystuff.AddObject: android.widget.Button mPickDate>
+364ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:$r4 = virtualinvoke $r2.<java.util.Calendar: java.util.Date getTime()>()
+365ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:$r5 = virtualinvoke $r1.<java.text.DateFormat: java.lang.String format(java.util.Date)>($r4)
+366ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r3.<android.widget.Button: void setText(java.lang.CharSequence)>($r5)
+367ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:$i0 = $r0.<de.freewarepoint.whohasmystuff.AddObject: int mReturnYear>
+368ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:$i1 = $r0.<de.freewarepoint.whohasmystuff.AddObject: int mReturnMonth>
+369ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:$i2 = $r0.<de.freewarepoint.whohasmystuff.AddObject: int mReturnDay>
+370ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r2.<java.util.Calendar: void set(int,int,int)>($i0, $i1, $i2)
+371ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:$r3 = $r0.<de.freewarepoint.whohasmystuff.AddObject: android.widget.Button mPickReturnDate>
+372ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:$r4 = virtualinvoke $r2.<java.util.Calendar: java.util.Date getTime()>()
+373ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:$r5 = virtualinvoke $r1.<java.text.DateFormat: java.lang.String format(java.util.Date)>($r4)
+374ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r3.<android.widget.Button: void setText(java.lang.CharSequence)>($r5)
+375ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r2 = new java.util.Date
+376ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r12 = $r0.<de.freewarepoint.whohasmystuff.AddObject: java.util.Date selectedDate>
+377ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$l1 = virtualinvoke $r12.<java.util.Date: long getTime()>()
+378ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$l1 = $l1 + 1209600000L
+379ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:specialinvoke $r2.<java.util.Date: void <init>(long)>($l1)
+380ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:specialinvoke $r0.<de.freewarepoint.whohasmystuff.AddObject: void initializeReturnDatePicker(java.util.Date)>($r2)
+381ZZZinitializeReturnDatePicker:de.freewarepoint.whohasmystuff.AddObject:$r3 = $r0.<de.freewarepoint.whohasmystuff.AddObject: android.widget.Button mPickReturnDate>
+382ZZZinitializeReturnDatePicker:de.freewarepoint.whohasmystuff.AddObject:$r2 = new de.freewarepoint.whohasmystuff.AddObject$10
+383ZZZinitializeReturnDatePicker:de.freewarepoint.whohasmystuff.AddObject:specialinvoke $r2.<de.freewarepoint.whohasmystuff.AddObject$10: void <init>(de.freewarepoint.whohasmystuff.AddObject)>($r0)
+384ZZZ<init>:de.freewarepoint.whohasmystuff.AddObject$10:$r0.<de.freewarepoint.whohasmystuff.AddObject$10: de.freewarepoint.whohasmystuff.AddObject this$0> = $r1
+385ZZZ<init>:de.freewarepoint.whohasmystuff.AddObject$10:specialinvoke $r0.<java.lang.Object: void <init>()>()
+386ZZZinitializeReturnDatePicker:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r3.<android.widget.Button: void setOnClickListener(android.view.View$OnClickListener)>($r2)
+387ZZZinitializeReturnDatePicker:de.freewarepoint.whohasmystuff.AddObject:$r4 = staticinvoke <java.util.Calendar: java.util.Calendar getInstance()>()
+388ZZZinitializeReturnDatePicker:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r4.<java.util.Calendar: void setTime(java.util.Date)>($r1)
+389ZZZinitializeReturnDatePicker:de.freewarepoint.whohasmystuff.AddObject:$i0 = virtualinvoke $r4.<java.util.Calendar: int get(int)>(1)
+390ZZZinitializeReturnDatePicker:de.freewarepoint.whohasmystuff.AddObject:$r0.<de.freewarepoint.whohasmystuff.AddObject: int mReturnYear> = $i0
+391ZZZinitializeReturnDatePicker:de.freewarepoint.whohasmystuff.AddObject:$i0 = virtualinvoke $r4.<java.util.Calendar: int get(int)>(2)
+392ZZZinitializeReturnDatePicker:de.freewarepoint.whohasmystuff.AddObject:$r0.<de.freewarepoint.whohasmystuff.AddObject: int mReturnMonth> = $i0
+393ZZZinitializeReturnDatePicker:de.freewarepoint.whohasmystuff.AddObject:$i0 = virtualinvoke $r4.<java.util.Calendar: int get(int)>(5)
+394ZZZinitializeReturnDatePicker:de.freewarepoint.whohasmystuff.AddObject:$r0.<de.freewarepoint.whohasmystuff.AddObject: int mReturnDay> = $i0
+395ZZZinitializeReturnDatePicker:de.freewarepoint.whohasmystuff.AddObject:specialinvoke $r0.<de.freewarepoint.whohasmystuff.AddObject: void updateDisplay()>()
+396ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:$r1 = staticinvoke <java.text.DateFormat: java.text.DateFormat getDateInstance(int)>(1)
+397ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:$r2 = staticinvoke <java.util.Calendar: java.util.Calendar getInstance()>()
+398ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:$i0 = $r0.<de.freewarepoint.whohasmystuff.AddObject: int mYear>
+399ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:$i1 = $r0.<de.freewarepoint.whohasmystuff.AddObject: int mMonth>
+400ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:$i2 = $r0.<de.freewarepoint.whohasmystuff.AddObject: int mDay>
+401ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r2.<java.util.Calendar: void set(int,int,int)>($i0, $i1, $i2)
+402ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:$r3 = $r0.<de.freewarepoint.whohasmystuff.AddObject: android.widget.Button mPickDate>
+403ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:$r4 = virtualinvoke $r2.<java.util.Calendar: java.util.Date getTime()>()
+404ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:$r5 = virtualinvoke $r1.<java.text.DateFormat: java.lang.String format(java.util.Date)>($r4)
+405ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r3.<android.widget.Button: void setText(java.lang.CharSequence)>($r5)
+406ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:$i0 = $r0.<de.freewarepoint.whohasmystuff.AddObject: int mReturnYear>
+407ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:$i1 = $r0.<de.freewarepoint.whohasmystuff.AddObject: int mReturnMonth>
+408ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:$i2 = $r0.<de.freewarepoint.whohasmystuff.AddObject: int mReturnDay>
+409ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r2.<java.util.Calendar: void set(int,int,int)>($i0, $i1, $i2)
+410ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:$r3 = $r0.<de.freewarepoint.whohasmystuff.AddObject: android.widget.Button mPickReturnDate>
+411ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:$r4 = virtualinvoke $r2.<java.util.Calendar: java.util.Date getTime()>()
+412ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:$r5 = virtualinvoke $r1.<java.text.DateFormat: java.lang.String format(java.util.Date)>($r4)
+413ZZZupdateDisplay:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r3.<android.widget.Button: void setText(java.lang.CharSequence)>($r5)
+414ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r13 = new de.freewarepoint.whohasmystuff.AddObject$3
+415ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:specialinvoke $r13.<de.freewarepoint.whohasmystuff.AddObject$3: void <init>(de.freewarepoint.whohasmystuff.AddObject)>($r0)
+416ZZZ<init>:de.freewarepoint.whohasmystuff.AddObject$3:$r0.<de.freewarepoint.whohasmystuff.AddObject$3: de.freewarepoint.whohasmystuff.AddObject this$0> = $r1
+418ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r8.<android.widget.ImageButton: void setOnClickListener(android.view.View$OnClickListener)>($r13)
+419ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r14 = new de.freewarepoint.whohasmystuff.AddObject$4
+420ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:specialinvoke $r14.<de.freewarepoint.whohasmystuff.AddObject$4: void <init>(de.freewarepoint.whohasmystuff.AddObject)>($r0)
+421ZZZ<init>:de.freewarepoint.whohasmystuff.AddObject$4:$r0.<de.freewarepoint.whohasmystuff.AddObject$4: de.freewarepoint.whohasmystuff.AddObject this$0> = $r1
+422ZZZ<init>:de.freewarepoint.whohasmystuff.AddObject$4:specialinvoke $r0.<java.lang.Object: void <init>()>()
+423ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r7.<android.widget.CheckBox: void setOnClickListener(android.view.View$OnClickListener)>($r14)
+424ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:specialinvoke $r0.<de.freewarepoint.whohasmystuff.AddObject: void initializeCalendarSpinner()>()
+425ZZZinitializeCalendarSpinner:de.freewarepoint.whohasmystuff.AddObject:$i0 = <android.os.Build$VERSION: int SDK_INT>
+426ZZZinitializeCalendarSpinner:de.freewarepoint.whohasmystuff.AddObject:if $i0 < 14 goto $r3 = specialinvoke $r0.<de.freewarepoint.whohasmystuff.AddObject: android.database.Cursor getCalendarsBeforeICS()>()
+427ZZZinitializeCalendarSpinner:de.freewarepoint.whohasmystuff.AddObject:$r3 = specialinvoke $r0.<de.freewarepoint.whohasmystuff.AddObject: android.database.Cursor getCalendarsForICS()>()
+428ZZZgetCalendarsForICS:de.freewarepoint.whohasmystuff.AddObject:$r2 = virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AddObject: android.content.ContentResolver getContentResolver()>()
+429ZZZgetCalendarsForICS:de.freewarepoint.whohasmystuff.AddObject:$r1 = <android.provider.CalendarContract$Calendars: android.net.Uri CONTENT_URI>
+430ZZZgetCalendarsForICS:de.freewarepoint.whohasmystuff.AddObject:$r3 = <de.freewarepoint.whohasmystuff.AddObject: java.lang.String[] EVENT_PROJECTION>
+431ZZZgetCalendarsForICS:de.freewarepoint.whohasmystuff.AddObject:$r4 = virtualinvoke $r2.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r1, $r3, null, null, null)
+432ZZZinitializeCalendarSpinner:de.freewarepoint.whohasmystuff.AddObject:$r4 = "calendar_displayName"
+433ZZZinitializeCalendarSpinner:de.freewarepoint.whohasmystuff.AddObject:$r5 = virtualinvoke $r0.<de.freewarepoint.whohasmystuff.AddObject: android.content.SharedPreferences getPreferences(int)>(0)
+434ZZZinitializeCalendarSpinner:de.freewarepoint.whohasmystuff.AddObject:$r6 = interfaceinvoke $r5.<android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)>("LastUsedCalendar", null)
+435ZZZinitializeCalendarSpinner:de.freewarepoint.whohasmystuff.AddObject:$r7 = null
+436ZZZinitializeCalendarSpinner:de.freewarepoint.whohasmystuff.AddObject:if $r6 == null goto $r1 = new android.widget.SimpleCursorAdapter
+437ZZZinitializeCalendarSpinner:de.freewarepoint.whohasmystuff.AddObject:$r1 = new android.widget.SimpleCursorAdapter
+438ZZZinitializeCalendarSpinner:de.freewarepoint.whohasmystuff.AddObject:$r2 = newarray (java.lang.String)[1]
+439ZZZinitializeCalendarSpinner:de.freewarepoint.whohasmystuff.AddObject:$r2[0] = $r4
+440ZZZinitializeCalendarSpinner:de.freewarepoint.whohasmystuff.AddObject:$r9 = newarray (int)[1]
+441ZZZinitializeCalendarSpinner:de.freewarepoint.whohasmystuff.AddObject:$r9[0] = 16908308
+442ZZZinitializeCalendarSpinner:de.freewarepoint.whohasmystuff.AddObject:specialinvoke $r1.<android.widget.SimpleCursorAdapter: void <init>(android.content.Context,int,android.database.Cursor,java.lang.String[],int[])>($r0, 17367048, $r3, $r2, $r9)
+443ZZZinitializeCalendarSpinner:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r1.<android.widget.SimpleCursorAdapter: void setDropDownViewResource(int)>(17367049)
+444ZZZinitializeCalendarSpinner:de.freewarepoint.whohasmystuff.AddObject:$r10 = $r0.<de.freewarepoint.whohasmystuff.AddObject: android.widget.Spinner mCalendarSpinner>
+445ZZZinitializeCalendarSpinner:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r10.<android.widget.Spinner: void setAdapter(android.widget.SpinnerAdapter)>($r1)
+446ZZZinitializeCalendarSpinner:de.freewarepoint.whohasmystuff.AddObject:if $r7 == null goto return
+447ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r6 = $r0.<de.freewarepoint.whohasmystuff.AddObject: android.widget.Button mAddButton>
+448ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r15 = new de.freewarepoint.whohasmystuff.AddObject$5
+449ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:specialinvoke $r15.<de.freewarepoint.whohasmystuff.AddObject$5: void <init>(de.freewarepoint.whohasmystuff.AddObject)>($r0)
+450ZZZ<init>:de.freewarepoint.whohasmystuff.AddObject$5:$r0.<de.freewarepoint.whohasmystuff.AddObject$5: de.freewarepoint.whohasmystuff.AddObject this$0> = $r1
+451ZZZ<init>:de.freewarepoint.whohasmystuff.AddObject$5:specialinvoke $r0.<java.lang.Object: void <init>()>()
+452ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r6.<android.widget.Button: void setOnClickListener(android.view.View$OnClickListener)>($r15)
+453ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r6 = $r0.<de.freewarepoint.whohasmystuff.AddObject: android.widget.Button mCancelButton>
+454ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r16 = new de.freewarepoint.whohasmystuff.AddObject$6
+455ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:specialinvoke $r16.<de.freewarepoint.whohasmystuff.AddObject$6: void <init>(de.freewarepoint.whohasmystuff.AddObject)>($r0)
+456ZZZ<init>:de.freewarepoint.whohasmystuff.AddObject$6:$r0.<de.freewarepoint.whohasmystuff.AddObject$6: de.freewarepoint.whohasmystuff.AddObject this$0> = $r1
+457ZZZ<init>:de.freewarepoint.whohasmystuff.AddObject$6:specialinvoke $r0.<java.lang.Object: void <init>()>()
+458ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r6.<android.widget.Button: void setOnClickListener(android.view.View$OnClickListener)>($r16)
+459ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r6 = $r0.<de.freewarepoint.whohasmystuff.AddObject: android.widget.Button mDeleteButton>
+460ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r17 = new de.freewarepoint.whohasmystuff.AddObject$7
+461ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:specialinvoke $r17.<de.freewarepoint.whohasmystuff.AddObject$7: void <init>(de.freewarepoint.whohasmystuff.AddObject)>($r0)
+462ZZZ<init>:de.freewarepoint.whohasmystuff.AddObject$7:$r0.<de.freewarepoint.whohasmystuff.AddObject$7: de.freewarepoint.whohasmystuff.AddObject this$0> = $r1
+463ZZZ<init>:de.freewarepoint.whohasmystuff.AddObject$7:specialinvoke $r0.<java.lang.Object: void <init>()>()
+464ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r6.<android.widget.Button: void setOnClickListener(android.view.View$OnClickListener)>($r17)
+465ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r6 = $r0.<de.freewarepoint.whohasmystuff.AddObject: android.widget.Button mReturnedButton>
+466ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:$r18 = new de.freewarepoint.whohasmystuff.AddObject$8
+467ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:specialinvoke $r18.<de.freewarepoint.whohasmystuff.AddObject$8: void <init>(de.freewarepoint.whohasmystuff.AddObject)>($r0)
+468ZZZ<init>:de.freewarepoint.whohasmystuff.AddObject$8:$r0.<de.freewarepoint.whohasmystuff.AddObject$8: de.freewarepoint.whohasmystuff.AddObject this$0> = $r1
+469ZZZ<init>:de.freewarepoint.whohasmystuff.AddObject$8:specialinvoke $r0.<java.lang.Object: void <init>()>()
+470ZZZonCreate:de.freewarepoint.whohasmystuff.AddObject:virtualinvoke $r6.<android.widget.Button: void setOnClickListener(android.view.View$OnClickListener)>($r18)
+471ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$9:$r2 = $r0.<de.freewarepoint.whohasmystuff.AddObject$9: de.freewarepoint.whohasmystuff.AddObject this$0>
+472ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$9:virtualinvoke $r2.<de.freewarepoint.whohasmystuff.AddObject: void showDialog(int)>(0)
+473ZZZonCreateDialog:de.freewarepoint.whohasmystuff.AddObject:lookupswitch($i0) {     case 0: goto $r1 = new android.app.DatePickerDialog;     case 1: goto $r1 = new android.app.DatePickerDialog;     default: goto return null; }
+474ZZZonCreateDialog:de.freewarepoint.whohasmystuff.AddObject:$r1 = new android.app.DatePickerDialog
+475ZZZonCreateDialog:de.freewarepoint.whohasmystuff.AddObject:$r2 = $r0.<de.freewarepoint.whohasmystuff.AddObject: android.app.DatePickerDialog$OnDateSetListener mDateSetListener>
+476ZZZonCreateDialog:de.freewarepoint.whohasmystuff.AddObject:$i0 = $r0.<de.freewarepoint.whohasmystuff.AddObject: int mYear>
+477ZZZonCreateDialog:de.freewarepoint.whohasmystuff.AddObject:$i1 = $r0.<de.freewarepoint.whohasmystuff.AddObject: int mMonth>
+478ZZZonCreateDialog:de.freewarepoint.whohasmystuff.AddObject:$i2 = $r0.<de.freewarepoint.whohasmystuff.AddObject: int mDay>
+479ZZZonCreateDialog:de.freewarepoint.whohasmystuff.AddObject:specialinvoke $r1.<android.app.DatePickerDialog: void <init>(android.content.Context,android.app.DatePickerDialog$OnDateSetListener,int,int,int)>($r0, $r2, $i0, $i1, $i2)
+480ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r2 = new android.os.Bundle
+481ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:specialinvoke $r2.<android.os.Bundle: void <init>()>()
+482ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r4 = $r0.<de.freewarepoint.whohasmystuff.AddObject$5: de.freewarepoint.whohasmystuff.AddObject this$0>
+483ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r5 = staticinvoke <de.freewarepoint.whohasmystuff.AddObject: java.lang.Long access$11(de.freewarepoint.whohasmystuff.AddObject)>($r4)
+484ZZZaccess$11:de.freewarepoint.whohasmystuff.AddObject:r1 = $r0.<de.freewarepoint.whohasmystuff.AddObject: java.lang.Long mRowId>
+485ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:if $r5 == null goto $r4 = $r0.<de.freewarepoint.whohasmystuff.AddObject$5: de.freewarepoint.whohasmystuff.AddObject this$0>
+486ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r4 = $r0.<de.freewarepoint.whohasmystuff.AddObject$5: de.freewarepoint.whohasmystuff.AddObject this$0>
+487ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r5 = staticinvoke <de.freewarepoint.whohasmystuff.AddObject: java.lang.Long access$11(de.freewarepoint.whohasmystuff.AddObject)>($r4)
+488ZZZaccess$11:de.freewarepoint.whohasmystuff.AddObject:r1 = $r0.<de.freewarepoint.whohasmystuff.AddObject: java.lang.Long mRowId>
+489ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$l0 = virtualinvoke $r5.<java.lang.Long: long longValue()>()
+490ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:virtualinvoke $r2.<android.os.Bundle: void putLong(java.lang.String,long)>("_id", $l0)
+491ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r4 = $r0.<de.freewarepoint.whohasmystuff.AddObject$5: de.freewarepoint.whohasmystuff.AddObject this$0>
+492ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r6 = staticinvoke <de.freewarepoint.whohasmystuff.AddObject: android.widget.EditText access$12(de.freewarepoint.whohasmystuff.AddObject)>($r4)
+493ZZZaccess$12:de.freewarepoint.whohasmystuff.AddObject:r1 = $r0.<de.freewarepoint.whohasmystuff.AddObject: android.widget.EditText mDescriptionText>
+494ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r7 = virtualinvoke $r6.<android.widget.EditText: android.text.Editable getText()>()
+495ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r8 = interfaceinvoke $r7.<android.text.Editable: java.lang.String toString()>()
+496ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:virtualinvoke $r2.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("description", $r8)
+497ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r4 = $r0.<de.freewarepoint.whohasmystuff.AddObject$5: de.freewarepoint.whohasmystuff.AddObject this$0>
+498ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r9 = staticinvoke <de.freewarepoint.whohasmystuff.AddObject: android.widget.Spinner access$13(de.freewarepoint.whohasmystuff.AddObject)>($r4)
+499ZZZaccess$13:de.freewarepoint.whohasmystuff.AddObject:r1 = $r0.<de.freewarepoint.whohasmystuff.AddObject: android.widget.Spinner mTypeSpinner>
+500ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$i1 = virtualinvoke $r9.<android.widget.Spinner: int getSelectedItemPosition()>()
+501ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:virtualinvoke $r2.<android.os.Bundle: void putInt(java.lang.String,int)>("type", $i1)
+502ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r10 = staticinvoke <java.util.Calendar: java.util.Calendar getInstance()>()
+503ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r4 = $r0.<de.freewarepoint.whohasmystuff.AddObject$5: de.freewarepoint.whohasmystuff.AddObject this$0>
+504ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$i1 = staticinvoke <de.freewarepoint.whohasmystuff.AddObject: int access$14(de.freewarepoint.whohasmystuff.AddObject)>($r4)
+505ZZZaccess$14:de.freewarepoint.whohasmystuff.AddObject:i0 = $r0.<de.freewarepoint.whohasmystuff.AddObject: int mYear>
+506ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r4 = $r0.<de.freewarepoint.whohasmystuff.AddObject$5: de.freewarepoint.whohasmystuff.AddObject this$0>
+507ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$i2 = staticinvoke <de.freewarepoint.whohasmystuff.AddObject: int access$15(de.freewarepoint.whohasmystuff.AddObject)>($r4)
+508ZZZaccess$15:de.freewarepoint.whohasmystuff.AddObject:i0 = $r0.<de.freewarepoint.whohasmystuff.AddObject: int mMonth>
+509ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r4 = $r0.<de.freewarepoint.whohasmystuff.AddObject$5: de.freewarepoint.whohasmystuff.AddObject this$0>
+510ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$i3 = staticinvoke <de.freewarepoint.whohasmystuff.AddObject: int access$16(de.freewarepoint.whohasmystuff.AddObject)>($r4)
+511ZZZaccess$16:de.freewarepoint.whohasmystuff.AddObject:i0 = $r0.<de.freewarepoint.whohasmystuff.AddObject: int mDay>
+512ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:virtualinvoke $r10.<java.util.Calendar: void set(int,int,int)>($i1, $i2, $i3)
+513ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r11 = virtualinvoke $r10.<java.util.Calendar: java.util.Date getTime()>()
+514ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$l0 = virtualinvoke $r11.<java.util.Date: long getTime()>()
+515ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:virtualinvoke $r2.<android.os.Bundle: void putLong(java.lang.String,long)>("date", $l0)
+516ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r4 = $r0.<de.freewarepoint.whohasmystuff.AddObject$5: de.freewarepoint.whohasmystuff.AddObject this$0>
+517ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r6 = staticinvoke <de.freewarepoint.whohasmystuff.AddObject: android.widget.EditText access$17(de.freewarepoint.whohasmystuff.AddObject)>($r4)
+518ZZZaccess$17:de.freewarepoint.whohasmystuff.AddObject:r1 = $r0.<de.freewarepoint.whohasmystuff.AddObject: android.widget.EditText mPersonName>
+519ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r7 = virtualinvoke $r6.<android.widget.EditText: android.text.Editable getText()>()
+520ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r8 = interfaceinvoke $r7.<android.text.Editable: java.lang.String toString()>()
+521ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:virtualinvoke $r2.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("person", $r8)
+522ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r4 = $r0.<de.freewarepoint.whohasmystuff.AddObject$5: de.freewarepoint.whohasmystuff.AddObject this$0>
+523ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r6 = staticinvoke <de.freewarepoint.whohasmystuff.AddObject: android.widget.EditText access$17(de.freewarepoint.whohasmystuff.AddObject)>($r4)
+524ZZZaccess$17:de.freewarepoint.whohasmystuff.AddObject:r1 = $r0.<de.freewarepoint.whohasmystuff.AddObject: android.widget.EditText mPersonName>
+525ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r7 = virtualinvoke $r6.<android.widget.EditText: android.text.Editable getText()>()
+526ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r8 = interfaceinvoke $r7.<android.text.Editable: java.lang.String toString()>()
+527ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r4 = $r0.<de.freewarepoint.whohasmystuff.AddObject$5: de.freewarepoint.whohasmystuff.AddObject this$0>
+528ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r12 = staticinvoke <de.freewarepoint.whohasmystuff.AddObject: java.lang.String access$18(de.freewarepoint.whohasmystuff.AddObject)>($r4)
+529ZZZaccess$18:de.freewarepoint.whohasmystuff.AddObject:r1 = $r0.<de.freewarepoint.whohasmystuff.AddObject: java.lang.String originalName>
+530ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$z0 = virtualinvoke $r8.<java.lang.String: boolean equals(java.lang.Object)>($r12)
+531ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:if $z0 == 0 goto $r4 = $r0.<de.freewarepoint.whohasmystuff.AddObject$5: de.freewarepoint.whohasmystuff.AddObject this$0>
+532ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r4 = $r0.<de.freewarepoint.whohasmystuff.AddObject$5: de.freewarepoint.whohasmystuff.AddObject this$0>
+533ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r8 = staticinvoke <de.freewarepoint.whohasmystuff.AddObject: java.lang.String access$19(de.freewarepoint.whohasmystuff.AddObject)>($r4)
+534ZZZaccess$19:de.freewarepoint.whohasmystuff.AddObject:r1 = $r0.<de.freewarepoint.whohasmystuff.AddObject: java.lang.String selectedPersonKey>
+535ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:if $r8 != null goto $r4 = $r0.<de.freewarepoint.whohasmystuff.AddObject$5: de.freewarepoint.whohasmystuff.AddObject this$0>
+536ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r4 = $r0.<de.freewarepoint.whohasmystuff.AddObject$5: de.freewarepoint.whohasmystuff.AddObject this$0>
+537ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r8 = staticinvoke <de.freewarepoint.whohasmystuff.AddObject: java.lang.String access$20(de.freewarepoint.whohasmystuff.AddObject)>($r4)
+538ZZZaccess$20:de.freewarepoint.whohasmystuff.AddObject:r1 = $r0.<de.freewarepoint.whohasmystuff.AddObject: java.lang.String originalPersonKey>
+539ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:virtualinvoke $r2.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("person_key", $r8)
+540ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r4 = $r0.<de.freewarepoint.whohasmystuff.AddObject$5: de.freewarepoint.whohasmystuff.AddObject this$0>
+541ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$z0 = staticinvoke <de.freewarepoint.whohasmystuff.AddObject: boolean access$8(de.freewarepoint.whohasmystuff.AddObject)>($r4)
+542ZZZaccess$8:de.freewarepoint.whohasmystuff.AddObject:z0 = $r0.<de.freewarepoint.whohasmystuff.AddObject: boolean addCalendarEntry>
+543ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:if $z0 == 0 goto $r3 = new android.content.Intent
+544ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r3 = new android.content.Intent
+545ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:specialinvoke $r3.<android.content.Intent: void <init>()>()
+546ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:virtualinvoke $r3.<android.content.Intent: android.content.Intent putExtras(android.os.Bundle)>($r2)
+547ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r4 = $r0.<de.freewarepoint.whohasmystuff.AddObject$5: de.freewarepoint.whohasmystuff.AddObject this$0>
+548ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:virtualinvoke $r4.<de.freewarepoint.whohasmystuff.AddObject: void setResult(int,android.content.Intent)>(-1, $r3)
+549ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:$r4 = $r0.<de.freewarepoint.whohasmystuff.AddObject$5: de.freewarepoint.whohasmystuff.AddObject this$0>
+550ZZZonClick:de.freewarepoint.whohasmystuff.AddObject$5:virtualinvoke $r4.<de.freewarepoint.whohasmystuff.AddObject: void finish()>()
+551ZZZonActivityResult:de.freewarepoint.whohasmystuff.AbstractListIntent:if $i1 != -1 goto (branch)
+552ZZZonActivityResult:de.freewarepoint.whohasmystuff.AbstractListIntent:$r3 = virtualinvoke $r1.<android.content.Intent: android.os.Bundle getExtras()>()
+553ZZZonActivityResult:de.freewarepoint.whohasmystuff.AbstractListIntent:$r4 = specialinvoke $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent: de.freewarepoint.whohasmystuff.LentObject createLentObjectFromBundle(android.os.Bundle)>($r3)
+554ZZZcreateLentObjectFromBundle:de.freewarepoint.whohasmystuff.AbstractListIntent:$r2 = new de.freewarepoint.whohasmystuff.LentObject
+555ZZZcreateLentObjectFromBundle:de.freewarepoint.whohasmystuff.AbstractListIntent:specialinvoke $r2.<de.freewarepoint.whohasmystuff.LentObject: void <init>()>()
+557ZZZcreateLentObjectFromBundle:de.freewarepoint.whohasmystuff.AbstractListIntent:$r3 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("description")
+558ZZZcreateLentObjectFromBundle:de.freewarepoint.whohasmystuff.AbstractListIntent:$r2.<de.freewarepoint.whohasmystuff.LentObject: java.lang.String description> = $r3
+559ZZZcreateLentObjectFromBundle:de.freewarepoint.whohasmystuff.AbstractListIntent:$i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("type")
+560ZZZcreateLentObjectFromBundle:de.freewarepoint.whohasmystuff.AbstractListIntent:$r2.<de.freewarepoint.whohasmystuff.LentObject: int type> = $i0
+561ZZZcreateLentObjectFromBundle:de.freewarepoint.whohasmystuff.AbstractListIntent:$r4 = new java.util.Date
+562ZZZcreateLentObjectFromBundle:de.freewarepoint.whohasmystuff.AbstractListIntent:$l1 = virtualinvoke $r1.<android.os.Bundle: long getLong(java.lang.String)>("date")
+563ZZZcreateLentObjectFromBundle:de.freewarepoint.whohasmystuff.AbstractListIntent:specialinvoke $r4.<java.util.Date: void <init>(long)>($l1)
+564ZZZcreateLentObjectFromBundle:de.freewarepoint.whohasmystuff.AbstractListIntent:$r2.<de.freewarepoint.whohasmystuff.LentObject: java.util.Date date> = $r4
+565ZZZcreateLentObjectFromBundle:de.freewarepoint.whohasmystuff.AbstractListIntent:$r3 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("person")
+566ZZZcreateLentObjectFromBundle:de.freewarepoint.whohasmystuff.AbstractListIntent:$r2.<de.freewarepoint.whohasmystuff.LentObject: java.lang.String personName> = $r3
+567ZZZcreateLentObjectFromBundle:de.freewarepoint.whohasmystuff.AbstractListIntent:$r3 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("person_key")
+568ZZZcreateLentObjectFromBundle:de.freewarepoint.whohasmystuff.AbstractListIntent:$r2.<de.freewarepoint.whohasmystuff.LentObject: java.lang.String personKey> = $r3
+569ZZZonActivityResult:de.freewarepoint.whohasmystuff.AbstractListIntent:$r5 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>("calendar_id")
+570ZZZonActivityResult:de.freewarepoint.whohasmystuff.AbstractListIntent:if $r5 == null goto (branch)
+571ZZZonActivityResult:de.freewarepoint.whohasmystuff.AbstractListIntent:if $i0 != 1 goto (branch)
+573ZZZonActivityResult:de.freewarepoint.whohasmystuff.AbstractListIntent:$l2 = virtualinvoke $r3.<android.os.Bundle: long getLong(java.lang.String)>("_id")
+574ZZZonActivityResult:de.freewarepoint.whohasmystuff.AbstractListIntent:$r7 = staticinvoke <java.lang.Long: java.lang.Long valueOf(long)>($l2)
+575ZZZonActivityResult:de.freewarepoint.whohasmystuff.AbstractListIntent:$r12 = $r0.<de.freewarepoint.whohasmystuff.AbstractListIntent: de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter mDbHelper>
+576ZZZonActivityResult:de.freewarepoint.whohasmystuff.AbstractListIntent:$l2 = virtualinvoke $r7.<java.lang.Long: long longValue()>()
+577ZZZonActivityResult:de.freewarepoint.whohasmystuff.AbstractListIntent:virtualinvoke $r12.<de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter: boolean updateLentObject(long,de.freewarepoint.whohasmystuff.LentObject)>($l2, $r4)
+578ZZZupdateLentObject:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r2 = new android.content.ContentValues
+579ZZZupdateLentObject:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:specialinvoke $r2.<android.content.ContentValues: void <init>()>()
+580ZZZupdateLentObject:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r4 = $r1.<de.freewarepoint.whohasmystuff.LentObject: java.lang.String description>
+581ZZZupdateLentObject:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:virtualinvoke $r2.<android.content.ContentValues: void put(java.lang.String,java.lang.String)>("description", $r4)
+582ZZZupdateLentObject:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$i1 = $r1.<de.freewarepoint.whohasmystuff.LentObject: int type>
+583ZZZupdateLentObject:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r5 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($i1)
+584ZZZupdateLentObject:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:virtualinvoke $r2.<android.content.ContentValues: void put(java.lang.String,java.lang.Integer)>("type", $r5)
+585ZZZupdateLentObject:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r3 = new java.text.SimpleDateFormat
+586ZZZupdateLentObject:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:specialinvoke $r3.<java.text.SimpleDateFormat: void <init>(java.lang.String)>("yyyy-MM-dd HH:mm:ss")
+587ZZZupdateLentObject:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r6 = $r1.<de.freewarepoint.whohasmystuff.LentObject: java.util.Date date>
+588ZZZupdateLentObject:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r4 = virtualinvoke $r3.<java.text.DateFormat: java.lang.String format(java.util.Date)>($r6)
+589ZZZupdateLentObject:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:virtualinvoke $r2.<android.content.ContentValues: void put(java.lang.String,java.lang.String)>("date", $r4)
+590ZZZupdateLentObject:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r4 = $r1.<de.freewarepoint.whohasmystuff.LentObject: java.lang.String personName>
+591ZZZupdateLentObject:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:virtualinvoke $r2.<android.content.ContentValues: void put(java.lang.String,java.lang.String)>("person", $r4)
+592ZZZupdateLentObject:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r4 = $r1.<de.freewarepoint.whohasmystuff.LentObject: java.lang.String personKey>
+593ZZZupdateLentObject:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:virtualinvoke $r2.<android.content.ContentValues: void put(java.lang.String,java.lang.String)>("person_key", $r4)
+594ZZZupdateLentObject:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$i1 = $r1.<de.freewarepoint.whohasmystuff.LentObject: int type>
+595ZZZupdateLentObject:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:if $i1 <= 0 goto $r1.<de.freewarepoint.whohasmystuff.LentObject: int type> = 0
+596ZZZupdateLentObject:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r0.<de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter: android.database.sqlite.SQLiteDatabase mDb> = null
+597ZZZupdateLentObject:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$z0 = specialinvoke $r0.<de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter: boolean updateLentObject(long,android.content.ContentValues)>($l0, $r2)
+598ZZZupdateLentObject:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r2 = $r0.<de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter: android.database.sqlite.SQLiteDatabase mDb>
+599ZZZupdateLentObject:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r3 = new java.lang.StringBuilder
+600ZZZupdateLentObject:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:specialinvoke $r3.<java.lang.StringBuilder: void <init>(java.lang.String)>("_id=")
+601ZZZupdateLentObject:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r3 = virtualinvoke $r3.<java.lang.StringBuilder: java.lang.StringBuilder append(long)>($l0)
+602ZZZupdateLentObject:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$r4 = virtualinvoke $r3.<java.lang.StringBuilder: java.lang.String toString()>()
+603ZZZupdateLentObject:de.freewarepoint.whohasmystuff.database.OpenLendDbAdapter:$i1 = virtualinvoke $r2.<android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>("lentobjects", $r1, $r4, null)

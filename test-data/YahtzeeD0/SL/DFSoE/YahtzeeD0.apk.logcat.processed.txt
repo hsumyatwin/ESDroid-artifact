@@ -1,0 +1,33 @@
+0ZZZ<init>:com.tum.yahtzee.YahtzeeActivity:specialinvoke $r0.<android.app.Activity: void <init>()>()
+1ZZZonCreate:com.tum.yahtzee.YahtzeeActivity:specialinvoke $r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)
+2ZZZonCreate:com.tum.yahtzee.YahtzeeActivity:virtualinvoke $r0.<com.tum.yahtzee.YahtzeeActivity: void setContentView(int)>(2130903041)
+3ZZZonCreate:com.tum.yahtzee.YahtzeeActivity:$r2 = virtualinvoke $r0.<com.tum.yahtzee.YahtzeeActivity: android.view.View findViewById(int)>(2131034126)
+4ZZZonCreate:com.tum.yahtzee.YahtzeeActivity:$r3 = (android.widget.EditText) $r2
+5ZZZonCreate:com.tum.yahtzee.YahtzeeActivity:$r0.<com.tum.yahtzee.YahtzeeActivity: android.widget.EditText playerAmountText> = $r3
+6ZZZonCreate:com.tum.yahtzee.YahtzeeActivity:$r2 = virtualinvoke $r0.<com.tum.yahtzee.YahtzeeActivity: android.view.View findViewById(int)>(2131034128)
+7ZZZonCreate:com.tum.yahtzee.YahtzeeActivity:$r3 = (android.widget.EditText) $r2
+8ZZZonCreate:com.tum.yahtzee.YahtzeeActivity:$r0.<com.tum.yahtzee.YahtzeeActivity: android.widget.EditText roundsText> = $r3
+9ZZZ<init>:com.tum.yahtzee.YahtzeeActivity:specialinvoke $r0.<android.app.Activity: void <init>()>()
+10ZZZonCreate:com.tum.yahtzee.YahtzeeActivity:specialinvoke $r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)
+11ZZZonCreate:com.tum.yahtzee.YahtzeeActivity:virtualinvoke $r0.<com.tum.yahtzee.YahtzeeActivity: void setContentView(int)>(2130903041)
+12ZZZonCreate:com.tum.yahtzee.YahtzeeActivity:$r2 = virtualinvoke $r0.<com.tum.yahtzee.YahtzeeActivity: android.view.View findViewById(int)>(2131034126)
+13ZZZonCreate:com.tum.yahtzee.YahtzeeActivity:$r3 = (android.widget.EditText) $r2
+14ZZZonCreate:com.tum.yahtzee.YahtzeeActivity:$r0.<com.tum.yahtzee.YahtzeeActivity: android.widget.EditText playerAmountText> = $r3
+15ZZZonCreate:com.tum.yahtzee.YahtzeeActivity:$r2 = virtualinvoke $r0.<com.tum.yahtzee.YahtzeeActivity: android.view.View findViewById(int)>(2131034128)
+16ZZZonCreate:com.tum.yahtzee.YahtzeeActivity:$r3 = (android.widget.EditText) $r2
+17ZZZonCreate:com.tum.yahtzee.YahtzeeActivity:$r0.<com.tum.yahtzee.YahtzeeActivity: android.widget.EditText roundsText> = $r3
+18ZZZplay:com.tum.yahtzee.YahtzeeActivity:$r3 = $r0.<com.tum.yahtzee.YahtzeeActivity: android.widget.EditText playerAmountText>
+19ZZZplay:com.tum.yahtzee.YahtzeeActivity:$r4 = virtualinvoke $r3.<android.widget.EditText: android.text.Editable getText()>()
+20ZZZplay:com.tum.yahtzee.YahtzeeActivity:$r5 = interfaceinvoke $r4.<android.text.Editable: java.lang.String toString()>()
+21ZZZplay:com.tum.yahtzee.YahtzeeActivity:$r3 = $r0.<com.tum.yahtzee.YahtzeeActivity: android.widget.EditText roundsText>
+22ZZZplay:com.tum.yahtzee.YahtzeeActivity:$r4 = virtualinvoke $r3.<android.widget.EditText: android.text.Editable getText()>()
+23ZZZplay:com.tum.yahtzee.YahtzeeActivity:$r6 = interfaceinvoke $r4.<android.text.Editable: java.lang.String toString()>()
+24ZZZplay:com.tum.yahtzee.YahtzeeActivity:if $r5 == null goto staticinvoke <com.tum.yahtzee.services.MessageService: void showMessage(android.content.Context,java.lang.String,java.lang.String)>($r0, "Impossible", "Amount of Rounds and Players must not be zero.")
+25ZZZplay:com.tum.yahtzee.YahtzeeActivity:$z0 = virtualinvoke $r5.<java.lang.String: boolean isEmpty()>()
+26ZZZplay:com.tum.yahtzee.YahtzeeActivity:if $z0 != 0 goto staticinvoke <com.tum.yahtzee.services.MessageService: void showMessage(android.content.Context,java.lang.String,java.lang.String)>($r0, "Impossible", "Amount of Rounds and Players must not be zero.")
+27ZZZplay:com.tum.yahtzee.YahtzeeActivity:$i0 = staticinvoke <java.lang.Integer: int parseInt(java.lang.String)>($r5)
+28ZZZplay:com.tum.yahtzee.YahtzeeActivity:if $i0 == 0 goto staticinvoke <com.tum.yahtzee.services.MessageService: void showMessage(android.content.Context,java.lang.String,java.lang.String)>($r0, "Impossible", "Amount of Rounds and Players must not be zero.")
+29ZZZplay:com.tum.yahtzee.YahtzeeActivity:if $r6 == null goto staticinvoke <com.tum.yahtzee.services.MessageService: void showMessage(android.content.Context,java.lang.String,java.lang.String)>($r0, "Impossible", "Amount of Rounds and Players must not be zero.")
+30ZZZplay:com.tum.yahtzee.YahtzeeActivity:$z0 = virtualinvoke $r6.<java.lang.String: boolean isEmpty()>()
+31ZZZplay:com.tum.yahtzee.YahtzeeActivity:if $z0 != 0 goto staticinvoke <com.tum.yahtzee.services.MessageService: void showMessage(android.content.Context,java.lang.String,java.lang.String)>($r0, "Impossible", "Amount of Rounds and Players must not be zero.")
+32ZZZplay:com.tum.yahtzee.YahtzeeActivity:$i0 = staticinvoke <java.lang.Integer: int parseInt(java.lang.String)>($r6)
