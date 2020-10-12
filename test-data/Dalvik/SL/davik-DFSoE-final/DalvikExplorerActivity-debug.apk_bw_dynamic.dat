@@ -1,0 +1,184 @@
+1010ZZZreadFile:org.jessies.dalvikexplorer.Utils:$i0 = lengthof $r4
+1009ZZZreadLines:org.jessies.dalvikexplorer.Utils:$r1[10] = 1
+1008ZZZreadLines:org.jessies.dalvikexplorer.Utils:if $r4 == null goto $r1[10] = 1
+1007ZZZreadLines:org.jessies.dalvikexplorer.Utils:$r1[7] = 1
+1006ZZZreadLines:org.jessies.dalvikexplorer.Utils:$r4 = null
+1005ZZZreadLines:org.jessies.dalvikexplorer.Utils:specialinvoke $r5.<java.io.FileReader: void <init>(java.lang.String)>($r0)
+1004ZZZreadLines:org.jessies.dalvikexplorer.Utils:$r5 = new java.io.FileReader
+1003ZZZreadLines:org.jessies.dalvikexplorer.Utils:$r4 = new java.io.BufferedReader
+1002ZZZreadLines:org.jessies.dalvikexplorer.Utils:specialinvoke $r3.<java.util.ArrayList: void <init>()>()
+1001ZZZreadLines:org.jessies.dalvikexplorer.Utils:$r3 = new java.util.ArrayList
+1000ZZZreadLines:org.jessies.dalvikexplorer.Utils:$r1 = $r2[9]
+999ZZZreadLines:org.jessies.dalvikexplorer.Utils:if $r2 != null goto $r1 = $r2[9]
+998ZZZreadLines:org.jessies.dalvikexplorer.Utils:$r2 = <org.jessies.dalvikexplorer.Utils: boolean[][] $VRc>
+985ZZZaddClass:com.vladium.emma.data.CoverageData:specialinvoke $r4.<com.vladium.emma.data.ICoverageData$DataHolder: void <init>(boolean[][],long)>($r1, $l0)
+984ZZZaddClass:com.vladium.emma.data.CoverageData:$r4 = new com.vladium.emma.data.ICoverageData$DataHolder
+983ZZZaddClass:com.vladium.emma.data.CoverageData:$r3 = $r0.<com.vladium.emma.data.CoverageData: java.util.HashMap m_coverageMap>
+976ZZZ$VRi:org.jessies.dalvikexplorer.Utils:staticinvoke <com.vladium.emma.rt.RT: void r(boolean[][],java.lang.String,long)>($r2, "org/jessies/dalvikexplorer/Utils", -1365192359068501182L)
+975ZZZ$VRi:org.jessies.dalvikexplorer.Utils:$r2[12] = $r3
+974ZZZ$VRi:org.jessies.dalvikexplorer.Utils:$r3 = newarray (boolean)[1]
+973ZZZ$VRi:org.jessies.dalvikexplorer.Utils:$r2[11] = $r3
+972ZZZ$VRi:org.jessies.dalvikexplorer.Utils:$r3 = newarray (boolean)[7]
+971ZZZ$VRi:org.jessies.dalvikexplorer.Utils:$r2[10] = $r3
+969ZZZ$VRi:org.jessies.dalvikexplorer.Utils:$r2[9] = $r3
+968ZZZ$VRi:org.jessies.dalvikexplorer.Utils:$r3 = newarray (boolean)[15]
+967ZZZ$VRi:org.jessies.dalvikexplorer.Utils:$r2[8] = $r3
+966ZZZ$VRi:org.jessies.dalvikexplorer.Utils:$r3 = newarray (boolean)[4]
+964ZZZ$VRi:org.jessies.dalvikexplorer.Utils:$r3 = newarray (boolean)[3]
+963ZZZ$VRi:org.jessies.dalvikexplorer.Utils:$r2[6] = $r3
+962ZZZ$VRi:org.jessies.dalvikexplorer.Utils:$r3 = newarray (boolean)[11]
+961ZZZ$VRi:org.jessies.dalvikexplorer.Utils:$r2[5] = $r3
+960ZZZ$VRi:org.jessies.dalvikexplorer.Utils:$r3 = newarray (boolean)[6]
+959ZZZ$VRi:org.jessies.dalvikexplorer.Utils:$r2[4] = $r3
+958ZZZ$VRi:org.jessies.dalvikexplorer.Utils:$r3 = newarray (boolean)[16]
+957ZZZ$VRi:org.jessies.dalvikexplorer.Utils:$r2[3] = $r3
+955ZZZ$VRi:org.jessies.dalvikexplorer.Utils:$r2[2] = $r3
+953ZZZ$VRi:org.jessies.dalvikexplorer.Utils:$r2[1] = $r3
+951ZZZ$VRi:org.jessies.dalvikexplorer.Utils:$r2[0] = $r3
+949ZZZ$VRi:org.jessies.dalvikexplorer.Utils:<org.jessies.dalvikexplorer.Utils: boolean[][] $VRc> = $r2
+948ZZZ$VRi:org.jessies.dalvikexplorer.Utils:$r2 = (boolean[][]) $r1
+947ZZZ$VRi:org.jessies.dalvikexplorer.Utils:$r1 = staticinvoke <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])>(class "[Z", $r0)
+946ZZZ$VRi:org.jessies.dalvikexplorer.Utils:$r0[0] = 13
+945ZZZ$VRi:org.jessies.dalvikexplorer.Utils:$r0 = newarray (int)[1]
+939ZZZappend:org.jessies.dalvikexplorer.TextViewActivity:virtualinvoke $r0.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($r2)
+938ZZZappend:org.jessies.dalvikexplorer.TextViewActivity:virtualinvoke $r0.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(":</b> ")
+937ZZZappend:org.jessies.dalvikexplorer.TextViewActivity:virtualinvoke $r0.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.CharSequence)>($r1)
+936ZZZappend:org.jessies.dalvikexplorer.TextViewActivity:virtualinvoke $r0.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("<b>")
+935ZZZappend:org.jessies.dalvikexplorer.TextViewActivity:$r4 = $r3[7]
+934ZZZappend:org.jessies.dalvikexplorer.TextViewActivity:if $r3 != null goto $r4 = $r3[7]
+933ZZZappend:org.jessies.dalvikexplorer.TextViewActivity:$r3 = <org.jessies.dalvikexplorer.TextViewActivity: boolean[][] $VRc>
+915ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:staticinvoke <org.jessies.dalvikexplorer.BuildActivity: void append(java.lang.StringBuilder,java.lang.CharSequence,java.lang.Object)>($r11, "Built By", $r7)
+914ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:$r7 = virtualinvoke $r13.<java.lang.StringBuilder: java.lang.String toString()>()
+913ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:$r13 = virtualinvoke $r13.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r7)
+912ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:$r7 = <android.os.Build: java.lang.String HOST>
+911ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:$r13 = virtualinvoke $r13.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("@")
+909ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:$r7 = <android.os.Build: java.lang.String USER>
+895ZZZreadFile:org.jessies.dalvikexplorer.Utils:$r4 = staticinvoke <org.jessies.dalvikexplorer.Utils: java.lang.String[] readLines(java.lang.String)>($r0)
+894ZZZreadFile:org.jessies.dalvikexplorer.Utils:specialinvoke $r1.<java.lang.StringBuilder: void <init>()>()
+893ZZZreadFile:org.jessies.dalvikexplorer.Utils:$r1 = new java.lang.StringBuilder
+892ZZZreadFile:org.jessies.dalvikexplorer.Utils:$r3 = $r2[8]
+891ZZZreadFile:org.jessies.dalvikexplorer.Utils:if $r2 != null goto $r3 = $r2[8]
+890ZZZreadFile:org.jessies.dalvikexplorer.Utils:$r2 = <org.jessies.dalvikexplorer.Utils: boolean[][] $VRc>
+806ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:specialinvoke $r13.<java.lang.StringBuilder: void <init>()>()
+805ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:$r13 = new java.lang.StringBuilder
+795ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:staticinvoke <org.jessies.dalvikexplorer.BuildActivity: void append(java.lang.StringBuilder,java.lang.CharSequence,java.lang.Object)>($r11, "Build Date", $r12)
+794ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:$r12 = staticinvoke <android.text.format.DateFormat: java.lang.CharSequence format(java.lang.CharSequence,long)>("yyyy-MM-dd", $l0)
+793ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:$l0 = <android.os.Build: long TIME>
+783ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:staticinvoke <org.jessies.dalvikexplorer.BuildActivity: void append(java.lang.StringBuilder,java.lang.CharSequence,java.lang.Object)>($r11, "Build Tags", $r7)
+782ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:$r7 = <android.os.Build: java.lang.String TAGS>
+772ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:staticinvoke <org.jessies.dalvikexplorer.BuildActivity: void append(java.lang.StringBuilder,java.lang.CharSequence,java.lang.Object)>($r11, "Build Fingerprint", $r7)
+771ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:$r7 = <android.os.Build: java.lang.String FINGERPRINT>
+760ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:$r7 = <android.os.Build: java.lang.String TYPE>
+750ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:staticinvoke <org.jessies.dalvikexplorer.BuildActivity: void append(java.lang.StringBuilder,java.lang.CharSequence,java.lang.Object)>($r11, "Build", $r7)
+749ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:$r7 = <android.os.Build: java.lang.String DISPLAY>
+748ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:virtualinvoke $r11.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("<p>")
+738ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:staticinvoke <org.jessies.dalvikexplorer.BuildActivity: void append(java.lang.StringBuilder,java.lang.CharSequence,java.lang.Object)>($r11, "OS", $r7)
+737ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:$r7 = <android.os.Build: java.lang.String ID>
+727ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:staticinvoke <org.jessies.dalvikexplorer.BuildActivity: void append(java.lang.StringBuilder,java.lang.CharSequence,java.lang.Object)>($r11, "Radio", $r7)
+706ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:staticinvoke <org.jessies.dalvikexplorer.BuildActivity: void append(java.lang.StringBuilder,java.lang.CharSequence,java.lang.Object)>($r11, "Bootloader", $r7)
+695ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:staticinvoke <org.jessies.dalvikexplorer.BuildActivity: void append(java.lang.StringBuilder,java.lang.CharSequence,java.lang.Object)>($r11, "Serial Number", $r10)
+684ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:staticinvoke <org.jessies.dalvikexplorer.BuildActivity: void append(java.lang.StringBuilder,java.lang.CharSequence,java.lang.Object)>($r11, "Product", $r9)
+683ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:$r9 = <android.os.Build: java.lang.String PRODUCT>
+673ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:staticinvoke <org.jessies.dalvikexplorer.BuildActivity: void append(java.lang.StringBuilder,java.lang.CharSequence,java.lang.Object)>($r11, "Hardware", $r9)
+663ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:staticinvoke <org.jessies.dalvikexplorer.BuildActivity: void append(java.lang.StringBuilder,java.lang.CharSequence,java.lang.Object)>($r11, "Device", $r6)
+662ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:$r6 = <android.os.Build: java.lang.String DEVICE>
+652ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:staticinvoke <org.jessies.dalvikexplorer.BuildActivity: void append(java.lang.StringBuilder,java.lang.CharSequence,java.lang.Object)>($r11, "Board", $r6)
+651ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:$r6 = <android.os.Build: java.lang.String BOARD>
+641ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:staticinvoke <org.jessies.dalvikexplorer.BuildActivity: void append(java.lang.StringBuilder,java.lang.CharSequence,java.lang.Object)>($r11, "Brand", $r6)
+640ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:$r6 = <android.os.Build: java.lang.String BRAND>
+629ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:staticinvoke <org.jessies.dalvikexplorer.BuildActivity: void append(java.lang.StringBuilder,java.lang.CharSequence,java.lang.Object)>($r11, "Model", $r6)
+628ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:$r6 = <android.os.Build: java.lang.String MODEL>
+618ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:staticinvoke <org.jessies.dalvikexplorer.BuildActivity: void append(java.lang.StringBuilder,java.lang.CharSequence,java.lang.Object)>($r11, "Manufacturer", $r6)
+617ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:virtualinvoke $r11.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("<html>")
+616ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:specialinvoke $r11.<java.lang.StringBuilder: void <init>()>()
+615ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:$r11 = new java.lang.StringBuilder
+606ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:$r10 = staticinvoke <org.jessies.dalvikexplorer.BuildActivity: java.lang.String getFieldReflectively(android.os.Build,java.lang.String)>($r4, "SERIAL")
+597ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:$r9 = staticinvoke <org.jessies.dalvikexplorer.BuildActivity: java.lang.String getFieldReflectively(android.os.Build,java.lang.String)>($r4, "HARDWARE")
+588ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:$r8 = staticinvoke <org.jessies.dalvikexplorer.BuildActivity: java.lang.String getFieldReflectively(android.os.Build,java.lang.String)>($r4, "CPU_ABI2")
+579ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:$r7 = staticinvoke <org.jessies.dalvikexplorer.BuildActivity: java.lang.String getFieldReflectively(android.os.Build,java.lang.String)>($r4, "BOOTLOADER")
+570ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:$r6 = staticinvoke <org.jessies.dalvikexplorer.BuildActivity: java.lang.String getFieldReflectively(android.os.Build,java.lang.String)>($r4, "MANUFACTURER")
+561ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:$r5 = staticinvoke <org.jessies.dalvikexplorer.BuildActivity: java.lang.String getFieldReflectively(android.os.Build,java.lang.String)>($r4, "CPU_ABI")
+560ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:specialinvoke $r4.<android.os.Build: void <init>()>()
+559ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:$r4 = new android.os.Build
+558ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:$r2 = $r3[3]
+557ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:if $r3 != null goto $r2 = $r3[3]
+556ZZZgetBuildDetailsAsString:org.jessies.dalvikexplorer.BuildActivity:$r3 = <org.jessies.dalvikexplorer.BuildActivity: boolean[][] $VRc>
+531ZZZonCreate:org.jessies.dalvikexplorer.TextViewActivity:specialinvoke $r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)
+530ZZZonCreate:org.jessies.dalvikexplorer.TextViewActivity:$r2 = $r3[1]
+529ZZZonCreate:org.jessies.dalvikexplorer.TextViewActivity:if $r3 != null goto $r2 = $r3[1]
+528ZZZonCreate:org.jessies.dalvikexplorer.TextViewActivity:$r3 = <org.jessies.dalvikexplorer.TextViewActivity: boolean[][] $VRc>
+525ZZZ<init>:org.jessies.dalvikexplorer.TextViewActivity:specialinvoke $r0.<android.app.Activity: void <init>()>()
+524ZZZ<init>:org.jessies.dalvikexplorer.TextViewActivity:$r2 = $r1[0]
+523ZZZ<init>:org.jessies.dalvikexplorer.TextViewActivity:if $r1 != null goto $r2 = $r1[0]
+522ZZZ<init>:org.jessies.dalvikexplorer.TextViewActivity:$r1 = <org.jessies.dalvikexplorer.TextViewActivity: boolean[][] $VRc>
+517ZZZ<clinit>:org.jessies.dalvikexplorer.BuildActivity:$r1[0] = 1
+502ZZZ$VRi:org.jessies.dalvikexplorer.BuildActivity:staticinvoke <com.vladium.emma.rt.RT: void r(boolean[][],java.lang.String,long)>($r2, "org/jessies/dalvikexplorer/BuildActivity", 5582507878483682723L)
+501ZZZ$VRi:org.jessies.dalvikexplorer.BuildActivity:$r2[6] = $r3
+500ZZZ$VRi:org.jessies.dalvikexplorer.BuildActivity:$r3 = newarray (boolean)[1]
+499ZZZ$VRi:org.jessies.dalvikexplorer.BuildActivity:$r2[5] = $r3
+498ZZZ$VRi:org.jessies.dalvikexplorer.BuildActivity:$r3 = newarray (boolean)[2]
+497ZZZ$VRi:org.jessies.dalvikexplorer.BuildActivity:$r2[4] = $r3
+495ZZZ$VRi:org.jessies.dalvikexplorer.BuildActivity:$r2[3] = $r3
+494ZZZ$VRi:org.jessies.dalvikexplorer.BuildActivity:$r3 = newarray (boolean)[11]
+493ZZZ$VRi:org.jessies.dalvikexplorer.BuildActivity:$r2[2] = $r3
+491ZZZ$VRi:org.jessies.dalvikexplorer.BuildActivity:$r2[1] = $r3
+489ZZZ$VRi:org.jessies.dalvikexplorer.BuildActivity:$r2[0] = $r3
+487ZZZ$VRi:org.jessies.dalvikexplorer.BuildActivity:<org.jessies.dalvikexplorer.BuildActivity: boolean[][] $VRc> = $r2
+486ZZZ$VRi:org.jessies.dalvikexplorer.BuildActivity:$r2 = (boolean[][]) $r1
+485ZZZ$VRi:org.jessies.dalvikexplorer.BuildActivity:$r1 = staticinvoke <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])>(class "[Z", $r0)
+484ZZZ$VRi:org.jessies.dalvikexplorer.BuildActivity:$r0[0] = 7
+483ZZZ$VRi:org.jessies.dalvikexplorer.BuildActivity:$r0 = newarray (int)[1]
+466ZZZ$VRi:org.jessies.dalvikexplorer.TextViewActivity:staticinvoke <com.vladium.emma.rt.RT: void r(boolean[][],java.lang.String,long)>($r2, "org/jessies/dalvikexplorer/TextViewActivity", -5271004591756388969L)
+465ZZZ$VRi:org.jessies.dalvikexplorer.TextViewActivity:$r2[15] = $r3
+464ZZZ$VRi:org.jessies.dalvikexplorer.TextViewActivity:$r3 = newarray (boolean)[1]
+463ZZZ$VRi:org.jessies.dalvikexplorer.TextViewActivity:$r2[14] = $r3
+462ZZZ$VRi:org.jessies.dalvikexplorer.TextViewActivity:$r3 = newarray (boolean)[4]
+461ZZZ$VRi:org.jessies.dalvikexplorer.TextViewActivity:$r2[13] = $r3
+460ZZZ$VRi:org.jessies.dalvikexplorer.TextViewActivity:$r3 = newarray (boolean)[7]
+459ZZZ$VRi:org.jessies.dalvikexplorer.TextViewActivity:$r2[12] = $r3
+457ZZZ$VRi:org.jessies.dalvikexplorer.TextViewActivity:$r2[11] = $r3
+455ZZZ$VRi:org.jessies.dalvikexplorer.TextViewActivity:$r2[10] = $r3
+453ZZZ$VRi:org.jessies.dalvikexplorer.TextViewActivity:$r2[9] = $r3
+451ZZZ$VRi:org.jessies.dalvikexplorer.TextViewActivity:$r2[8] = $r3
+449ZZZ$VRi:org.jessies.dalvikexplorer.TextViewActivity:$r2[7] = $r3
+447ZZZ$VRi:org.jessies.dalvikexplorer.TextViewActivity:$r2[4] = $r3
+445ZZZ$VRi:org.jessies.dalvikexplorer.TextViewActivity:$r2[3] = $r3
+444ZZZ$VRi:org.jessies.dalvikexplorer.TextViewActivity:$r3 = newarray (boolean)[6]
+443ZZZ$VRi:org.jessies.dalvikexplorer.TextViewActivity:$r2[2] = $r3
+441ZZZ$VRi:org.jessies.dalvikexplorer.TextViewActivity:$r2[1] = $r3
+439ZZZ$VRi:org.jessies.dalvikexplorer.TextViewActivity:$r2[0] = $r3
+437ZZZ$VRi:org.jessies.dalvikexplorer.TextViewActivity:<org.jessies.dalvikexplorer.TextViewActivity: boolean[][] $VRc> = $r2
+436ZZZ$VRi:org.jessies.dalvikexplorer.TextViewActivity:$r2 = (boolean[][]) $r1
+435ZZZ$VRi:org.jessies.dalvikexplorer.TextViewActivity:$r1 = staticinvoke <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])>(class "[Z", $r0)
+434ZZZ$VRi:org.jessies.dalvikexplorer.TextViewActivity:$r0[0] = 16
+433ZZZ$VRi:org.jessies.dalvikexplorer.TextViewActivity:$r0 = newarray (int)[1]
+340ZZZgetView:org.jessies.dalvikexplorer.BetterArrayAdapter:$r1 = specialinvoke $r0.<org.jessies.dalvikexplorer.BetterArrayAdapter: android.view.View createViewFromResource(int,android.view.View,android.view.ViewGroup,int)>($i0, $r1, $r2, $i1)
+339ZZZgetView:org.jessies.dalvikexplorer.BetterArrayAdapter:$i1 = $r0.<org.jessies.dalvikexplorer.BetterArrayAdapter: int mResource>
+338ZZZgetView:org.jessies.dalvikexplorer.BetterArrayAdapter:$r4 = $r3[10]
+337ZZZgetView:org.jessies.dalvikexplorer.BetterArrayAdapter:if $r3 != null goto $r4 = $r3[10]
+336ZZZgetView:org.jessies.dalvikexplorer.BetterArrayAdapter:$r3 = <org.jessies.dalvikexplorer.BetterArrayAdapter: boolean[][] $VRc>
+335ZZZgetView:org.jessies.dalvikexplorer.BetterArrayAdapter:$r4[0] = 1
+299ZZZcreateViewFromResource:org.jessies.dalvikexplorer.BetterArrayAdapter:$r3[8] = 1
+298ZZZcreateViewFromResource:org.jessies.dalvikexplorer.BetterArrayAdapter:$r3[6] = 1
+296ZZZcreateViewFromResource:org.jessies.dalvikexplorer.BetterArrayAdapter:virtualinvoke $r8.<android.widget.TextView: void setText(java.lang.CharSequence)>($r9)
+290ZZZcreateViewFromResource:org.jessies.dalvikexplorer.BetterArrayAdapter:$r9 = virtualinvoke $r6.<java.lang.Object: java.lang.String toString()>()
+289ZZZcreateViewFromResource:org.jessies.dalvikexplorer.BetterArrayAdapter:$r8 = (android.widget.TextView) $r1
+288ZZZcreateViewFromResource:org.jessies.dalvikexplorer.BetterArrayAdapter:if $r7 != null goto $r10 = virtualinvoke $r1.<android.view.View: android.view.View findViewById(int)>(16908308)
+287ZZZcreateViewFromResource:org.jessies.dalvikexplorer.BetterArrayAdapter:$r3[3] = 1
+286ZZZcreateViewFromResource:org.jessies.dalvikexplorer.BetterArrayAdapter:$r7 = $r0.<org.jessies.dalvikexplorer.BetterArrayAdapter: java.lang.reflect.Method mSubtitleMethod>
+90ZZZgetCount:org.jessies.dalvikexplorer.BetterArrayAdapter:$r2[0] = 1
+89ZZZgetCount:org.jessies.dalvikexplorer.BetterArrayAdapter:$i0 = interfaceinvoke $r3.<java.util.List: int size()>()
+88ZZZgetCount:org.jessies.dalvikexplorer.BetterArrayAdapter:$r3 = $r0.<org.jessies.dalvikexplorer.BetterArrayAdapter: java.util.List mObjects>
+87ZZZgetCount:org.jessies.dalvikexplorer.BetterArrayAdapter:$r2 = $r1[6]
+86ZZZgetCount:org.jessies.dalvikexplorer.BetterArrayAdapter:if $r1 != null goto $r2 = $r1[6]
+85ZZZgetCount:org.jessies.dalvikexplorer.BetterArrayAdapter:$r1 = <org.jessies.dalvikexplorer.BetterArrayAdapter: boolean[][] $VRc>
+28ZZZ<init>:org.jessies.dalvikexplorer.BetterArrayAdapter:specialinvoke $r0.<android.widget.BaseAdapter: void <init>()>()
+20ZZZonCreate:org.jessies.dalvikexplorer.DalvikExplorerActivity:specialinvoke $r0.<android.app.ListActivity: void onCreate(android.os.Bundle)>($r1)
+19ZZZonCreate:org.jessies.dalvikexplorer.DalvikExplorerActivity:$r3 = $r2[1]
+18ZZZonCreate:org.jessies.dalvikexplorer.DalvikExplorerActivity:if $r2 != null goto $r3 = $r2[1]
+17ZZZonCreate:org.jessies.dalvikexplorer.DalvikExplorerActivity:$r2 = <org.jessies.dalvikexplorer.DalvikExplorerActivity: boolean[][] $VRc>
+16ZZZ<init>:org.jessies.dalvikexplorer.DalvikExplorerActivity:$r2[0] = 1
+15ZZZ<init>:org.jessies.dalvikexplorer.DalvikExplorerActivity:specialinvoke $r0.<android.app.ListActivity: void <init>()>()
+14ZZZ<init>:org.jessies.dalvikexplorer.DalvikExplorerActivity:$r2 = $r1[0]
+13ZZZ<init>:org.jessies.dalvikexplorer.DalvikExplorerActivity:if $r1 != null goto $r2 = $r1[0]
+12ZZZ<init>:org.jessies.dalvikexplorer.DalvikExplorerActivity:$r1 = <org.jessies.dalvikexplorer.DalvikExplorerActivity: boolean[][] $VRc>

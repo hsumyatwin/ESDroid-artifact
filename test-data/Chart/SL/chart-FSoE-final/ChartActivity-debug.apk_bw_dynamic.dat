@@ -1,0 +1,906 @@
+13391ZZZonPreferenceClick:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:virtualinvoke $r5.<es.senselesssolutions.gpl.weightchart.PreferencesActivity: void startActivity(android.content.Intent)>($r2)
+13390ZZZonPreferenceClick:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:specialinvoke $r2.<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>("android.intent.action.VIEW", $r8)
+13389ZZZonPreferenceClick:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r8 = staticinvoke <android.net.Uri: android.net.Uri parse(java.lang.String)>($r7)
+13388ZZZonPreferenceClick:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r7 = virtualinvoke $r6.<es.senselesssolutions.gpl.weightchart.PreferencesActivity: java.lang.String getString(int)>(2131034200)
+13387ZZZonPreferenceClick:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r6 = $r0.<es.senselesssolutions.gpl.weightchart.PreferencesActivity$8: es.senselesssolutions.gpl.weightchart.PreferencesActivity this$0>
+13386ZZZonPreferenceClick:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r2 = new android.content.Intent
+13385ZZZonPreferenceClick:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r5 = $r0.<es.senselesssolutions.gpl.weightchart.PreferencesActivity$8: es.senselesssolutions.gpl.weightchart.PreferencesActivity this$0>
+13384ZZZonPreferenceClick:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r4 = $r3[1]
+13383ZZZonPreferenceClick:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:if $r3 != null goto $r4 = $r3[1]
+13382ZZZonPreferenceClick:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r3 = <es.senselesssolutions.gpl.weightchart.PreferencesActivity$8: boolean[][] $VRc>
+13381ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r3[0] = 1
+13380ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:virtualinvoke $r6.<android.preference.Preference: void setOnPreferenceClickListener(android.preference.Preference$OnPreferenceClickListener)>($r20)
+13373ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:specialinvoke $r20.<es.senselesssolutions.gpl.weightchart.PreferencesActivity$11: void <init>(es.senselesssolutions.gpl.weightchart.PreferencesActivity)>($r0)
+13372ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$11:$r1[0] = 1
+13371ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$11:$r1 = $r0[2]
+13366ZZZaddClass:com.vladium.emma.data.CoverageData:specialinvoke $r4.<com.vladium.emma.data.ICoverageData$DataHolder: void <init>(boolean[][],long)>($r1, $l0)
+13365ZZZaddClass:com.vladium.emma.data.CoverageData:$r4 = new com.vladium.emma.data.ICoverageData$DataHolder
+13364ZZZaddClass:com.vladium.emma.data.CoverageData:$r3 = $r0.<com.vladium.emma.data.CoverageData: java.util.HashMap m_coverageMap>
+13357ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$11:staticinvoke <com.vladium.emma.rt.RT: void r(boolean[][],java.lang.String,long)>($r2, "es/senselesssolutions/gpl/weightchart/PreferencesActivity$11", 4320153530884153606L)
+13356ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$11:$r2[2] = $r3
+13355ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$11:$r3 = newarray (boolean)[1]
+13354ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$11:$r2[1] = $r3
+13352ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$11:$r2[0] = $r3
+13350ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$11:<es.senselesssolutions.gpl.weightchart.PreferencesActivity$11: boolean[][] $VRc> = $r2
+13349ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$11:$r2 = (boolean[][]) $r1
+13348ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$11:$r1 = staticinvoke <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])>(class "[Z", $r0)
+13347ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$11:$r0[0] = 3
+13346ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$11:$r0 = newarray (int)[1]
+13335ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:specialinvoke $r19.<es.senselesssolutions.gpl.weightchart.PreferencesActivity$10: void <init>(es.senselesssolutions.gpl.weightchart.PreferencesActivity)>($r0)
+13334ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$10:$r1[0] = 1
+13333ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$10:$r1 = $r0[2]
+13297ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:specialinvoke $r18.<es.senselesssolutions.gpl.weightchart.PreferencesActivity$9: void <init>(es.senselesssolutions.gpl.weightchart.PreferencesActivity)>($r0)
+13281ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$9:staticinvoke <com.vladium.emma.rt.RT: void r(boolean[][],java.lang.String,long)>($r2, "es/senselesssolutions/gpl/weightchart/PreferencesActivity$9", 4320153509787395610L)
+13280ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$9:$r2[2] = $r3
+13279ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$9:$r3 = newarray (boolean)[1]
+13278ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$9:$r2[1] = $r3
+13276ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$9:$r2[0] = $r3
+13274ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$9:<es.senselesssolutions.gpl.weightchart.PreferencesActivity$9: boolean[][] $VRc> = $r2
+13273ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$9:$r2 = (boolean[][]) $r1
+13272ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$9:$r1 = staticinvoke <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])>(class "[Z", $r0)
+13271ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$9:$r0[0] = 3
+13270ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$9:$r0 = newarray (int)[1]
+13259ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:specialinvoke $r17.<es.senselesssolutions.gpl.weightchart.PreferencesActivity$8: void <init>(es.senselesssolutions.gpl.weightchart.PreferencesActivity)>($r0)
+13258ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r1[0] = 1
+13257ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r1 = $r0[2]
+13243ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:staticinvoke <com.vladium.emma.rt.RT: void r(boolean[][],java.lang.String,long)>($r2, "es/senselesssolutions/gpl/weightchart/PreferencesActivity$8", 4320153515061585109L)
+13242ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r2[2] = $r3
+13241ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r3 = newarray (boolean)[1]
+13240ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r2[1] = $r3
+13238ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r2[0] = $r3
+13236ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:<es.senselesssolutions.gpl.weightchart.PreferencesActivity$8: boolean[][] $VRc> = $r2
+13235ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r2 = (boolean[][]) $r1
+13234ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r1 = staticinvoke <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])>(class "[Z", $r0)
+13233ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r0[0] = 3
+13232ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r0 = newarray (int)[1]
+13221ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:specialinvoke $r16.<es.senselesssolutions.gpl.weightchart.PreferencesActivity$7: void <init>(es.senselesssolutions.gpl.weightchart.PreferencesActivity)>($r0)
+13220ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$7:$r1[0] = 1
+13205ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$7:staticinvoke <com.vladium.emma.rt.RT: void r(boolean[][],java.lang.String,long)>($r2, "es/senselesssolutions/gpl/weightchart/PreferencesActivity$7", 4320153509509806689L)
+13204ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$7:$r2[2] = $r3
+13203ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$7:$r3 = newarray (boolean)[1]
+13202ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$7:$r2[1] = $r3
+13200ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$7:$r2[0] = $r3
+13198ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$7:<es.senselesssolutions.gpl.weightchart.PreferencesActivity$7: boolean[][] $VRc> = $r2
+13197ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$7:$r2 = (boolean[][]) $r1
+13196ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$7:$r1 = staticinvoke <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])>(class "[Z", $r0)
+13195ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$7:$r0[0] = 3
+13194ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$7:$r0 = newarray (int)[1]
+13183ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:specialinvoke $r15.<es.senselesssolutions.gpl.weightchart.PreferencesActivity$6: void <init>(es.senselesssolutions.gpl.weightchart.PreferencesActivity)>($r0)
+13182ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$6:$r1[0] = 1
+13181ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$6:$r1 = $r0[2]
+13167ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$6:staticinvoke <com.vladium.emma.rt.RT: void r(boolean[][],java.lang.String,long)>($r2, "es/senselesssolutions/gpl/weightchart/PreferencesActivity$6", 4320153515061585109L)
+13166ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$6:$r2[2] = $r3
+13165ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$6:$r3 = newarray (boolean)[1]
+13164ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$6:$r2[1] = $r3
+13162ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$6:$r2[0] = $r3
+13160ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$6:<es.senselesssolutions.gpl.weightchart.PreferencesActivity$6: boolean[][] $VRc> = $r2
+13159ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$6:$r2 = (boolean[][]) $r1
+13158ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$6:$r1 = staticinvoke <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])>(class "[Z", $r0)
+13157ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$6:$r0[0] = 3
+13156ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$6:$r0 = newarray (int)[1]
+13145ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:specialinvoke $r14.<es.senselesssolutions.gpl.weightchart.PreferencesActivity$5: void <init>(es.senselesssolutions.gpl.weightchart.PreferencesActivity)>($r0)
+13144ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$5:$r1[0] = 1
+13143ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$5:$r1 = $r0[2]
+13129ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$5:staticinvoke <com.vladium.emma.rt.RT: void r(boolean[][],java.lang.String,long)>($r2, "es/senselesssolutions/gpl/weightchart/PreferencesActivity$5", 4320153509787395610L)
+13128ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$5:$r2[2] = $r3
+13127ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$5:$r3 = newarray (boolean)[1]
+13126ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$5:$r2[1] = $r3
+13124ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$5:$r2[0] = $r3
+13122ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$5:<es.senselesssolutions.gpl.weightchart.PreferencesActivity$5: boolean[][] $VRc> = $r2
+13121ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$5:$r2 = (boolean[][]) $r1
+13120ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$5:$r1 = staticinvoke <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])>(class "[Z", $r0)
+13119ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$5:$r0[0] = 3
+13118ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$5:$r0 = newarray (int)[1]
+13107ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:specialinvoke $r13.<es.senselesssolutions.gpl.weightchart.PreferencesActivity$4: void <init>(es.senselesssolutions.gpl.weightchart.PreferencesActivity)>($r0)
+13106ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$4:$r1[0] = 1
+13105ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$4:$r1 = $r0[2]
+13091ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$4:staticinvoke <com.vladium.emma.rt.RT: void r(boolean[][],java.lang.String,long)>($r2, "es/senselesssolutions/gpl/weightchart/PreferencesActivity$4", 4320153509787395610L)
+13090ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$4:$r2[2] = $r3
+13089ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$4:$r3 = newarray (boolean)[1]
+13088ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$4:$r2[1] = $r3
+13086ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$4:$r2[0] = $r3
+13084ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$4:<es.senselesssolutions.gpl.weightchart.PreferencesActivity$4: boolean[][] $VRc> = $r2
+13083ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$4:$r2 = (boolean[][]) $r1
+13082ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$4:$r1 = staticinvoke <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])>(class "[Z", $r0)
+13081ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$4:$r0[0] = 3
+13080ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$4:$r0 = newarray (int)[1]
+13053ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$3:staticinvoke <com.vladium.emma.rt.RT: void r(boolean[][],java.lang.String,long)>($r2, "es/senselesssolutions/gpl/weightchart/PreferencesActivity$3", 2246114388987704032L)
+13052ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$3:$r2[2] = $r3
+13051ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$3:$r3 = newarray (boolean)[1]
+13050ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$3:$r2[1] = $r3
+13049ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$3:$r3 = newarray (boolean)[4]
+13048ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$3:$r2[0] = $r3
+13046ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$3:<es.senselesssolutions.gpl.weightchart.PreferencesActivity$3: boolean[][] $VRc> = $r2
+13045ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$3:$r2 = (boolean[][]) $r1
+13044ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$3:$r1 = staticinvoke <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])>(class "[Z", $r0)
+13043ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$3:$r0[0] = 3
+13042ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$3:$r0 = newarray (int)[1]
+13031ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:specialinvoke $r11.<es.senselesssolutions.gpl.weightchart.PreferencesActivity$2: void <init>(es.senselesssolutions.gpl.weightchart.PreferencesActivity)>($r0)
+13030ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$2:$r1[0] = 1
+13029ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$2:$r1 = $r0[2]
+13015ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$2:staticinvoke <com.vladium.emma.rt.RT: void r(boolean[][],java.lang.String,long)>($r2, "es/senselesssolutions/gpl/weightchart/PreferencesActivity$2", 4320153509509806689L)
+13014ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$2:$r2[2] = $r3
+13013ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$2:$r3 = newarray (boolean)[1]
+13012ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$2:$r2[1] = $r3
+13010ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$2:$r2[0] = $r3
+13008ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$2:<es.senselesssolutions.gpl.weightchart.PreferencesActivity$2: boolean[][] $VRc> = $r2
+13007ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$2:$r2 = (boolean[][]) $r1
+13006ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$2:$r1 = staticinvoke <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])>(class "[Z", $r0)
+13005ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$2:$r0[0] = 3
+13004ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$2:$r0 = newarray (int)[1]
+12992ZZZ<init>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$1:specialinvoke $r0.<es.senselesssolutions.gpl.weightchart.HeightDialog: void <init>(android.app.Activity)>($r2)
+12991ZZZ<init>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$1:$r0.<es.senselesssolutions.gpl.weightchart.PreferencesActivity$1: es.senselesssolutions.gpl.weightchart.PreferencesActivity this$0> = $r1
+12990ZZZ<init>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$1:$r4 = $r3[0]
+12989ZZZ<init>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$1:if $r3 != null goto $r4 = $r3[0]
+12988ZZZ<init>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$1:$r3 = <es.senselesssolutions.gpl.weightchart.PreferencesActivity$1: boolean[][] $VRc>
+12987ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:specialinvoke $r10.<es.senselesssolutions.gpl.weightchart.PreferencesActivity$1: void <init>(es.senselesssolutions.gpl.weightchart.PreferencesActivity,android.app.Activity)>($r0, $r0)
+12971ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$1:staticinvoke <com.vladium.emma.rt.RT: void r(boolean[][],java.lang.String,long)>($r2, "es/senselesssolutions/gpl/weightchart/PreferencesActivity$1", 4397209120237284456L)
+12970ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$1:$r2[2] = $r3
+12969ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$1:$r3 = newarray (boolean)[1]
+12968ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$1:$r2[1] = $r3
+12966ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$1:$r2[0] = $r3
+12964ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$1:<es.senselesssolutions.gpl.weightchart.PreferencesActivity$1: boolean[][] $VRc> = $r2
+12963ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$1:$r2 = (boolean[][]) $r1
+12962ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$1:$r1 = staticinvoke <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])>(class "[Z", $r0)
+12961ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$1:$r0[0] = 3
+12960ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$1:$r0 = newarray (int)[1]
+12945ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:specialinvoke $r0.<es.senselesssolutions.gpl.weightchart.PreferencesActivity: void updateHeight()>()
+12944ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:virtualinvoke $r6.<android.preference.Preference: void setSummary(java.lang.CharSequence)>($r5)
+12943ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r5 = virtualinvoke $r7.<java.lang.StringBuilder: java.lang.String toString()>()
+12942ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r7 = virtualinvoke $r7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($r9)
+12941ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r9 = virtualinvoke $r8.<android.preference.Preference: java.lang.CharSequence getSummary()>()
+12940ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r8 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.PreferencesActivity: android.preference.Preference findPreference(java.lang.CharSequence)>("weight_unit")
+12939ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r7 = virtualinvoke $r7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" ")
+12938ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r7 = virtualinvoke $r7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r5)
+12937ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r5 = interfaceinvoke $r4.<android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)>("weight_max", "")
+12936ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:specialinvoke $r7.<java.lang.StringBuilder: void <init>()>()
+12935ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r7 = new java.lang.StringBuilder
+12934ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r6 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.PreferencesActivity: android.preference.Preference findPreference(java.lang.CharSequence)>("weight_max")
+12926ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r5 = interfaceinvoke $r4.<android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)>("weight_goal", "")
+12923ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r6 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.PreferencesActivity: android.preference.Preference findPreference(java.lang.CharSequence)>("weight_goal")
+12922ZZZupdateWeightUnit:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r3[5] = 1
+12921ZZZupdateWeightUnit:es.senselesssolutions.gpl.weightchart.PreferencesActivity:virtualinvoke $r4.<android.preference.Preference: void setSummary(java.lang.CharSequence)>($r7)
+12920ZZZupdateWeightUnit:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r7 = virtualinvoke $r9.<java.lang.StringBuilder: java.lang.String toString()>()
+12919ZZZupdateWeightUnit:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r9 = virtualinvoke $r9.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($r11)
+12918ZZZupdateWeightUnit:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r11 = virtualinvoke $r10.<android.preference.Preference: java.lang.CharSequence getSummary()>()
+12916ZZZupdateWeightUnit:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r9 = virtualinvoke $r9.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" ")
+12915ZZZupdateWeightUnit:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r9 = virtualinvoke $r9.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r7)
+12914ZZZupdateWeightUnit:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r7 = interfaceinvoke $r8.<android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)>("weight_max", null)
+12913ZZZupdateWeightUnit:es.senselesssolutions.gpl.weightchart.PreferencesActivity:specialinvoke $r9.<java.lang.StringBuilder: void <init>()>()
+12912ZZZupdateWeightUnit:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r9 = new java.lang.StringBuilder
+12911ZZZupdateWeightUnit:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r4 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.PreferencesActivity: android.preference.Preference findPreference(java.lang.CharSequence)>("weight_max")
+12906ZZZupdateWeightUnit:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r10 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.PreferencesActivity: android.preference.Preference findPreference(java.lang.CharSequence)>("weight_unit")
+12903ZZZupdateWeightUnit:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r7 = interfaceinvoke $r8.<android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)>("weight_goal", null)
+12900ZZZupdateWeightUnit:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r4 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.PreferencesActivity: android.preference.Preference findPreference(java.lang.CharSequence)>("weight_goal")
+12899ZZZupdateWeightUnit:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r8 = staticinvoke <android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)>($r0)
+12897ZZZupdateWeightUnit:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r7 = $r6[$b0]
+12896ZZZupdateWeightUnit:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$b0 = 0
+12895ZZZupdateWeightUnit:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r3[4] = 1
+12894ZZZupdateWeightUnit:es.senselesssolutions.gpl.weightchart.PreferencesActivity:if $z0 == 0 goto $r3[4] = 1
+12893ZZZupdateWeightUnit:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r3[2] = 1
+12892ZZZupdateWeightUnit:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$z0 = virtualinvoke $r7.<java.lang.String: boolean equals(java.lang.Object)>($r1)
+12891ZZZupdateWeightUnit:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r7 = "st"
+12890ZZZupdateWeightUnit:es.senselesssolutions.gpl.weightchart.PreferencesActivity:if $z0 == 0 goto $r7 = "st"
+12889ZZZupdateWeightUnit:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r3[0] = 1
+12887ZZZupdateWeightUnit:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r7 = "lb"
+12886ZZZupdateWeightUnit:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r6 = virtualinvoke $r5.<android.content.res.Resources: java.lang.String[] getStringArray(int)>(2131165187)
+12885ZZZupdateWeightUnit:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r5 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.PreferencesActivity: android.content.res.Resources getResources()>()
+12884ZZZupdateWeightUnit:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r4 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.PreferencesActivity: android.preference.Preference findPreference(java.lang.CharSequence)>("weight_unit")
+12883ZZZupdateWeightUnit:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r3 = $r2[7]
+12882ZZZupdateWeightUnit:es.senselesssolutions.gpl.weightchart.PreferencesActivity:if $r2 != null goto $r3 = $r2[7]
+12881ZZZupdateWeightUnit:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r2 = <es.senselesssolutions.gpl.weightchart.PreferencesActivity: boolean[][] $VRc>
+12876ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:specialinvoke $r0.<android.preference.PreferenceActivity: void onCreate(android.os.Bundle)>($r1)
+12874ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:if $r2 != null goto $r3 = $r2[1]
+12873ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r2 = <es.senselesssolutions.gpl.weightchart.PreferencesActivity: boolean[][] $VRc>
+12872ZZZ<init>:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r2[0] = 1
+12871ZZZ<init>:es.senselesssolutions.gpl.weightchart.PreferencesActivity:specialinvoke $r0.<android.preference.PreferenceActivity: void <init>()>()
+12870ZZZ<init>:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r2 = $r1[0]
+12869ZZZ<init>:es.senselesssolutions.gpl.weightchart.PreferencesActivity:if $r1 != null goto $r2 = $r1[0]
+12868ZZZ<init>:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r1 = <es.senselesssolutions.gpl.weightchart.PreferencesActivity: boolean[][] $VRc>
+12852ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity:staticinvoke <com.vladium.emma.rt.RT: void r(boolean[][],java.lang.String,long)>($r2, "es/senselesssolutions/gpl/weightchart/PreferencesActivity", -1920962277155604566L)
+12851ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r2[11] = $r3
+12850ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r3 = newarray (boolean)[1]
+12849ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r2[10] = $r3
+12847ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r2[9] = $r3
+12845ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r2[8] = $r3
+12844ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r3 = newarray (boolean)[6]
+12843ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r2[7] = $r3
+12841ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r2[6] = $r3
+12839ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r2[5] = $r3
+12837ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r2[4] = $r3
+12835ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r2[3] = $r3
+12833ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r2[2] = $r3
+12832ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r3 = newarray (boolean)[9]
+12831ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r2[1] = $r3
+12829ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r2[0] = $r3
+12827ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity:<es.senselesssolutions.gpl.weightchart.PreferencesActivity: boolean[][] $VRc> = $r2
+12826ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r2 = (boolean[][]) $r1
+12825ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r1 = staticinvoke <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])>(class "[Z", $r0)
+12824ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r0[0] = 12
+12823ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r0 = newarray (int)[1]
+12792ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$z0 = virtualinvoke $r5.<es.senselesssolutions.gpl.weightchart.ChartActivity$3: boolean onOptionsItemSelected(int)>($i0)
+12787ZZZ<init>:es.senselesssolutions.gpl.weightchart.FileCommands:specialinvoke $r0.<java.lang.Object: void <init>()>()
+12786ZZZ<init>:es.senselesssolutions.gpl.weightchart.FileCommands:$r4 = $r3[0]
+12785ZZZ<init>:es.senselesssolutions.gpl.weightchart.FileCommands:if $r3 != null goto $r4 = $r3[0]
+12784ZZZ<init>:es.senselesssolutions.gpl.weightchart.FileCommands:$r3 = <es.senselesssolutions.gpl.weightchart.FileCommands: boolean[][] $VRc>
+12778ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r5.<es.senselesssolutions.gpl.weightchart.ChartActivity$3: void <init>(es.senselesssolutions.gpl.weightchart.ChartActivity,android.app.Activity,es.senselesssolutions.gpl.weightchart.Database)>($r0, $r0, $r6)
+12777ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r6 = $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.Database mDatabase>
+12776ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r5 = new es.senselesssolutions.gpl.weightchart.ChartActivity$3
+12775ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:if $i0 != 2131296293 goto $r5 = new es.senselesssolutions.gpl.weightchart.ChartActivity$3
+12774ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[14] = 1
+12773ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:if $i0 != 2131296291 goto $r2[14] = 1
+12772ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[12] = 1
+12771ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:if $i0 != 2131296290 goto $r2[12] = 1
+12770ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[10] = 1
+12769ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:if $i0 != 2131296289 goto $r2[10] = 1
+12768ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[8] = 1
+12767ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:if $i0 != 2131296288 goto $r2[8] = 1
+12766ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[6] = 1
+12765ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:if $i0 != 2131296287 goto $r2[6] = 1
+12764ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[4] = 1
+12763ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:if $i0 != 2131296286 goto $r2[4] = 1
+12762ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[2] = 1
+12761ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:if $i0 != 2131296292 goto $r2[2] = 1
+12760ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[0] = 1
+12759ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$i0 = interfaceinvoke $r1.<android.view.MenuItem: int getItemId()>()
+12758ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2 = $r3[6]
+12757ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:if $r3 != null goto $r2 = $r3[6]
+12756ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r3 = <es.senselesssolutions.gpl.weightchart.ChartActivity: boolean[][] $VRc>
+12721ZZZonDestroy:es.senselesssolutions.gpl.weightchart.EntryListActivity:virtualinvoke $r3.<es.senselesssolutions.gpl.weightchart.Database: void close()>()
+12720ZZZonDestroy:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r3 = $r0.<es.senselesssolutions.gpl.weightchart.EntryListActivity: es.senselesssolutions.gpl.weightchart.Database mDatabase>
+12719ZZZonDestroy:es.senselesssolutions.gpl.weightchart.EntryListActivity:specialinvoke $r0.<android.app.ListActivity: void onDestroy()>()
+12718ZZZonDestroy:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r2 = $r1[2]
+12717ZZZonDestroy:es.senselesssolutions.gpl.weightchart.EntryListActivity:if $r1 != null goto $r2 = $r1[2]
+12716ZZZonDestroy:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r1 = <es.senselesssolutions.gpl.weightchart.EntryListActivity: boolean[][] $VRc>
+11851ZZZonDraw:es.senselesssolutions.gpl.weightchart.ChartView:virtualinvoke $r4.<es.senselesssolutions.gpl.weightchart.ChartDraw: void draw(android.graphics.Canvas)>($r1)
+11850ZZZonDraw:es.senselesssolutions.gpl.weightchart.ChartView:$r4 = $r0.<es.senselesssolutions.gpl.weightchart.ChartView: es.senselesssolutions.gpl.weightchart.ChartDraw mDraw>
+11849ZZZonDraw:es.senselesssolutions.gpl.weightchart.ChartView:if $r4 == null goto $r3[2] = 1
+11848ZZZonDraw:es.senselesssolutions.gpl.weightchart.ChartView:$r3[0] = 1
+11846ZZZonDraw:es.senselesssolutions.gpl.weightchart.ChartView:$r3 = $r2[3]
+11845ZZZonDraw:es.senselesssolutions.gpl.weightchart.ChartView:if $r2 != null goto $r3 = $r2[3]
+11844ZZZonDraw:es.senselesssolutions.gpl.weightchart.ChartView:$r2 = <es.senselesssolutions.gpl.weightchart.ChartView: boolean[][] $VRc>
+11843ZZZonDraw:es.senselesssolutions.gpl.weightchart.ChartView:$r3[2] = 1
+11842ZZZonDraw:es.senselesssolutions.gpl.weightchart.ChartView:$r3[1] = 1
+10963ZZZonResume:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: void invalidate()>()
+10937ZZZonResume:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r3.<es.senselesssolutions.gpl.weightchart.ChartDraw: void loadPreferences(android.content.Context)>($r0)
+10936ZZZonResume:es.senselesssolutions.gpl.weightchart.ChartActivity:$r3 = $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.ChartDraw mDraw>
+10935ZZZonResume:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r0.<android.app.Activity: void onResume()>()
+10934ZZZonResume:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2 = $r1[3]
+10933ZZZonResume:es.senselesssolutions.gpl.weightchart.ChartActivity:if $r1 != null goto $r2 = $r1[3]
+10932ZZZonResume:es.senselesssolutions.gpl.weightchart.ChartActivity:$r1 = <es.senselesssolutions.gpl.weightchart.ChartActivity: boolean[][] $VRc>
+10921ZZZfillData:es.senselesssolutions.gpl.weightchart.EntryListActivity:specialinvoke $r8.<es.senselesssolutions.gpl.weightchart.EntryListActivity$2: void <init>(es.senselesssolutions.gpl.weightchart.EntryListActivity)>($r0)
+10920ZZZfillData:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r8 = new es.senselesssolutions.gpl.weightchart.EntryListActivity$2
+10919ZZZfillData:es.senselesssolutions.gpl.weightchart.EntryListActivity:specialinvoke $r7.<android.widget.SimpleCursorAdapter: void <init>(android.content.Context,int,android.database.Cursor,java.lang.String[],int[])>($r0, 2130903049, $r6, $r1, $r2)
+10918ZZZfillData:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r2[2] = 2131296284
+10917ZZZfillData:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r2[1] = 2131296283
+10916ZZZfillData:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r2[0] = 2131296282
+10915ZZZfillData:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r2 = newarray (int)[3]
+10914ZZZfillData:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r1[2] = "created_at"
+10913ZZZfillData:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r1[1] = "weight"
+10912ZZZfillData:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r1[0] = "_id"
+10911ZZZfillData:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r1 = newarray (java.lang.String)[3]
+10910ZZZfillData:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r7 = new android.widget.SimpleCursorAdapter
+10909ZZZfillData:es.senselesssolutions.gpl.weightchart.EntryListActivity:virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.EntryListActivity: void startManagingCursor(android.database.Cursor)>($r6)
+10902ZZZfillData:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r6 = virtualinvoke $r5.<es.senselesssolutions.gpl.weightchart.Database: android.database.Cursor query(java.lang.String)>("SELECT _id, weight, created_at FROM weight ORDER BY created_at DESC")
+10901ZZZfillData:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r5 = $r0.<es.senselesssolutions.gpl.weightchart.EntryListActivity: es.senselesssolutions.gpl.weightchart.Database mDatabase>
+10900ZZZfillData:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r3 = $r4[9]
+10899ZZZfillData:es.senselesssolutions.gpl.weightchart.EntryListActivity:if $r4 != null goto $r3 = $r4[9]
+10898ZZZfillData:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r4 = <es.senselesssolutions.gpl.weightchart.EntryListActivity: boolean[][] $VRc>
+10877ZZZonResume:es.senselesssolutions.gpl.weightchart.EntryListActivity:specialinvoke $r0.<android.app.ListActivity: void onResume()>()
+10876ZZZonResume:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r1 = $r2[3]
+10875ZZZonResume:es.senselesssolutions.gpl.weightchart.EntryListActivity:if $r2 != null goto $r1 = $r2[3]
+10874ZZZonResume:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r2 = <es.senselesssolutions.gpl.weightchart.EntryListActivity: boolean[][] $VRc>
+10873ZZZonCreate:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r3[0] = 1
+10872ZZZonCreate:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r0.<es.senselesssolutions.gpl.weightchart.EntryListActivity: es.senselesssolutions.gpl.weightchart.Database mDatabase> = $r5
+10858ZZZ<init>:es.senselesssolutions.gpl.weightchart.Database:specialinvoke $r0.<java.lang.Object: void <init>()>()
+10857ZZZ<init>:es.senselesssolutions.gpl.weightchart.Database:$r2 = $r3[0]
+10856ZZZ<init>:es.senselesssolutions.gpl.weightchart.Database:if $r3 != null goto $r2 = $r3[0]
+10855ZZZ<init>:es.senselesssolutions.gpl.weightchart.Database:$r3 = <es.senselesssolutions.gpl.weightchart.Database: boolean[][] $VRc>
+10854ZZZonCreate:es.senselesssolutions.gpl.weightchart.EntryListActivity:specialinvoke $r5.<es.senselesssolutions.gpl.weightchart.Database: void <init>(android.content.Context)>($r0)
+10853ZZZonCreate:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r5 = new es.senselesssolutions.gpl.weightchart.Database
+10852ZZZonCreate:es.senselesssolutions.gpl.weightchart.EntryListActivity:virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.EntryListActivity: void registerForContextMenu(android.view.View)>($r4)
+10851ZZZonCreate:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r4 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.EntryListActivity: android.widget.ListView getListView()>()
+10850ZZZonCreate:es.senselesssolutions.gpl.weightchart.EntryListActivity:virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.EntryListActivity: void setContentView(int)>(2130903043)
+10849ZZZonCreate:es.senselesssolutions.gpl.weightchart.EntryListActivity:specialinvoke $r0.<android.app.ListActivity: void onCreate(android.os.Bundle)>($r1)
+10848ZZZonCreate:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r3 = $r2[1]
+10847ZZZonCreate:es.senselesssolutions.gpl.weightchart.EntryListActivity:if $r2 != null goto $r3 = $r2[1]
+10846ZZZonCreate:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r2 = <es.senselesssolutions.gpl.weightchart.EntryListActivity: boolean[][] $VRc>
+9282ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.EntryListActivity$2:$r1[0] = 1
+9281ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.EntryListActivity$2:$r1 = $r0[2]
+9267ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity$2:staticinvoke <com.vladium.emma.rt.RT: void r(boolean[][],java.lang.String,long)>($r2, "es/senselesssolutions/gpl/weightchart/EntryListActivity$2", -6957292600607382060L)
+9266ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity$2:$r2[2] = $r3
+9265ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity$2:$r3 = newarray (boolean)[1]
+9264ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity$2:$r2[1] = $r3
+9263ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity$2:$r3 = newarray (boolean)[14]
+9262ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity$2:$r2[0] = $r3
+9260ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity$2:<es.senselesssolutions.gpl.weightchart.EntryListActivity$2: boolean[][] $VRc> = $r2
+9259ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity$2:$r2 = (boolean[][]) $r1
+9258ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity$2:$r1 = staticinvoke <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])>(class "[Z", $r0)
+9257ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity$2:$r0[0] = 3
+9256ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity$2:$r0 = newarray (int)[1]
+9231ZZZonResume:es.senselesssolutions.gpl.weightchart.EntryListActivity:specialinvoke $r0.<es.senselesssolutions.gpl.weightchart.EntryListActivity: void fillData()>()
+9230ZZZonResume:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r0.<es.senselesssolutions.gpl.weightchart.EntryListActivity: double mBmiFactor> = $d0
+9229ZZZonResume:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r1[13] = 1
+9228ZZZonResume:es.senselesssolutions.gpl.weightchart.EntryListActivity:$d0 = 0.0
+9227ZZZonResume:es.senselesssolutions.gpl.weightchart.EntryListActivity:if $i1 <= 0 goto $d0 = 0.0
+9226ZZZonResume:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r1[5] = 1
+9225ZZZonResume:es.senselesssolutions.gpl.weightchart.EntryListActivity:$i1 = interfaceinvoke $r3.<android.content.SharedPreferences: int getInt(java.lang.String,int)>("height", 0)
+9224ZZZonResume:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r0.<es.senselesssolutions.gpl.weightchart.EntryListActivity: int mWeightUnit> = $b0
+9223ZZZonResume:es.senselesssolutions.gpl.weightchart.EntryListActivity:$b0 = 0
+9222ZZZonResume:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r1[4] = 1
+9221ZZZonResume:es.senselesssolutions.gpl.weightchart.EntryListActivity:if $z0 == 0 goto $r1[4] = 1
+9220ZZZonResume:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r1[2] = 1
+9219ZZZonResume:es.senselesssolutions.gpl.weightchart.EntryListActivity:$z0 = virtualinvoke $r5.<java.lang.String: boolean equals(java.lang.Object)>($r4)
+9218ZZZonResume:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r5 = "st"
+9217ZZZonResume:es.senselesssolutions.gpl.weightchart.EntryListActivity:if $z0 == 0 goto $r5 = "st"
+9216ZZZonResume:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r1[0] = 1
+9214ZZZonResume:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r5 = "lb"
+9213ZZZonResume:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r4 = interfaceinvoke $r3.<android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)>("weight_unit", null)
+9212ZZZonResume:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r3 = staticinvoke <android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)>($r0)
+9174ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r1[0] = 1
+9173ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r1 = $r0[13]
+9159ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity:staticinvoke <com.vladium.emma.rt.RT: void r(boolean[][],java.lang.String,long)>($r2, "es/senselesssolutions/gpl/weightchart/EntryListActivity", -6745614520467936058L)
+9158ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r2[13] = $r3
+9157ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r3 = newarray (boolean)[1]
+9156ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r2[12] = $r3
+9154ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r2[11] = $r3
+9152ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r2[10] = $r3
+9150ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r2[9] = $r3
+9148ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r2[8] = $r3
+9147ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r3 = newarray (boolean)[5]
+9146ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r2[7] = $r3
+9144ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r2[6] = $r3
+9142ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r2[5] = $r3
+9141ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r3 = newarray (boolean)[3]
+9140ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r2[4] = $r3
+9138ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r2[3] = $r3
+9137ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r3 = newarray (boolean)[15]
+9136ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r2[2] = $r3
+9134ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r2[1] = $r3
+9132ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r2[0] = $r3
+9130ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity:<es.senselesssolutions.gpl.weightchart.EntryListActivity: boolean[][] $VRc> = $r2
+9129ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r2 = (boolean[][]) $r1
+9128ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r1 = staticinvoke <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])>(class "[Z", $r0)
+9127ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r0[0] = 14
+9126ZZZ$VRi:es.senselesssolutions.gpl.weightchart.EntryListActivity:$r0 = newarray (int)[1]
+8204ZZZsetDays:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: void invalidate()>()
+8203ZZZsetDays:es.senselesssolutions.gpl.weightchart.ChartActivity:$r3.<es.senselesssolutions.gpl.weightchart.ChartDraw: int mDays> = $i0
+8202ZZZsetDays:es.senselesssolutions.gpl.weightchart.ChartActivity:$r3 = $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.ChartDraw mDraw>
+8201ZZZsetDays:es.senselesssolutions.gpl.weightchart.ChartActivity:$r3.<es.senselesssolutions.gpl.weightchart.ChartDraw: float mScrollX> = $f1
+8200ZZZsetDays:es.senselesssolutions.gpl.weightchart.ChartActivity:$f1 = $f1 * $f0
+8198ZZZsetDays:es.senselesssolutions.gpl.weightchart.ChartActivity:$f0 = (float) $i0
+8197ZZZsetDays:es.senselesssolutions.gpl.weightchart.ChartActivity:$f2 = (float) $i1
+8196ZZZsetDays:es.senselesssolutions.gpl.weightchart.ChartActivity:$i1 = $r4.<es.senselesssolutions.gpl.weightchart.ChartDraw: int mDays>
+8195ZZZsetDays:es.senselesssolutions.gpl.weightchart.ChartActivity:$r4 = $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.ChartDraw mDraw>
+8194ZZZsetDays:es.senselesssolutions.gpl.weightchart.ChartActivity:$f1 = $r3.<es.senselesssolutions.gpl.weightchart.ChartDraw: float mScrollX>
+8192ZZZsetDays:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2 = $r1[10]
+8191ZZZsetDays:es.senselesssolutions.gpl.weightchart.ChartActivity:if $r1 != null goto $r2 = $r1[10]
+8190ZZZsetDays:es.senselesssolutions.gpl.weightchart.ChartActivity:$r1 = <es.senselesssolutions.gpl.weightchart.ChartActivity: boolean[][] $VRc>
+8189ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: void setDays(int)>(21)
+8176ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[17] = 1
+8175ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$z0 = specialinvoke $r0.<android.app.Activity: boolean onOptionsItemSelected(android.view.MenuItem)>($r1)
+8173ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[16] = 1
+8121ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$3:staticinvoke <com.vladium.emma.rt.RT: void r(boolean[][],java.lang.String,long)>($r2, "es/senselesssolutions/gpl/weightchart/ChartActivity$3", 4474264727078517329L)
+8120ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$3:$r2[2] = $r3
+8119ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$3:$r3 = newarray (boolean)[1]
+8118ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$3:$r2[1] = $r3
+8116ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$3:$r2[0] = $r3
+8114ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$3:<es.senselesssolutions.gpl.weightchart.ChartActivity$3: boolean[][] $VRc> = $r2
+8113ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$3:$r2 = (boolean[][]) $r1
+8112ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$3:$r1 = staticinvoke <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])>(class "[Z", $r0)
+8111ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$3:$r0[0] = 3
+8110ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$3:$r0 = newarray (int)[1]
+8093ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:staticinvoke <com.vladium.emma.rt.RT: void r(boolean[][],java.lang.String,long)>($r2, "es/senselesssolutions/gpl/weightchart/FileCommands", 8910441783362010591L)
+8092ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r2[31] = $r3
+8091ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r3 = newarray (boolean)[1]
+8090ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r2[30] = $r3
+8088ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r2[29] = $r3
+8086ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r2[28] = $r3
+8084ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r2[27] = $r3
+8082ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r2[26] = $r3
+8080ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r2[25] = $r3
+8078ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r2[24] = $r3
+8076ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r2[23] = $r3
+8074ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r2[22] = $r3
+8072ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r2[21] = $r3
+8070ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r2[20] = $r3
+8068ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r2[19] = $r3
+8067ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r3 = newarray (boolean)[5]
+8066ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r2[18] = $r3
+8065ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r3 = newarray (boolean)[3]
+8064ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r2[17] = $r3
+8063ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r3 = newarray (boolean)[6]
+8062ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r2[16] = $r3
+8060ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r2[15] = $r3
+8058ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r2[14] = $r3
+8056ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r2[13] = $r3
+8055ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r3 = newarray (boolean)[18]
+8054ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r2[12] = $r3
+8053ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r3 = newarray (boolean)[4]
+8052ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r2[11] = $r3
+8050ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r2[10] = $r3
+8048ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r2[9] = $r3
+8046ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r2[8] = $r3
+8044ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r2[7] = $r3
+8042ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r2[6] = $r3
+8040ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r2[5] = $r3
+8038ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r2[4] = $r3
+8036ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r2[3] = $r3
+8034ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r2[1] = $r3
+8032ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r2[0] = $r3
+8030ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:<es.senselesssolutions.gpl.weightchart.FileCommands: boolean[][] $VRc> = $r2
+8029ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r2 = (boolean[][]) $r1
+8028ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r1 = staticinvoke <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])>(class "[Z", $r0)
+8027ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r0[0] = 32
+8026ZZZ$VRi:es.senselesssolutions.gpl.weightchart.FileCommands:$r0 = newarray (int)[1]
+6971ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r10.<es.senselesssolutions.gpl.weightchart.ChartActivity$1: void <init>(es.senselesssolutions.gpl.weightchart.ChartActivity)>($r0)
+6970ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r10 = new es.senselesssolutions.gpl.weightchart.ChartActivity$1
+6969ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r9 = new android.view.GestureDetector
+6963ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r8.<es.senselesssolutions.gpl.weightchart.ChartView: void setChartDraw(es.senselesssolutions.gpl.weightchart.ChartDraw)>($r5)
+6962ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r5 = $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.ChartDraw mDraw>
+6961ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r8 = (es.senselesssolutions.gpl.weightchart.ChartView) $r7
+6960ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r7 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: android.view.View findViewById(int)>(2131296258)
+6868ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartDraw:specialinvoke $r6.<android.graphics.Paint: void <init>(int)>(1)
+6867ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartDraw:$r6 = new android.graphics.Paint
+6866ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartDraw:$r0.<es.senselesssolutions.gpl.weightchart.ChartDraw: android.graphics.Paint mTextBackgroundPaint> = $r6
+6863ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartDraw:$r0.<es.senselesssolutions.gpl.weightchart.ChartDraw: android.graphics.Paint mPlotPaint> = $r6
+6860ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartDraw:$r0.<es.senselesssolutions.gpl.weightchart.ChartDraw: android.graphics.Paint mLinePaint> = $r6
+6857ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartDraw:$r0.<es.senselesssolutions.gpl.weightchart.ChartDraw: android.graphics.Paint mLeftTextPaint> = $r6
+6854ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartDraw:$r0.<es.senselesssolutions.gpl.weightchart.ChartDraw: android.graphics.Paint mLeftTextBackgroundPaint> = $r6
+6851ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartDraw:$r0.<es.senselesssolutions.gpl.weightchart.ChartDraw: android.graphics.Paint mGridPaint> = $r6
+6848ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartDraw:$r0.<es.senselesssolutions.gpl.weightchart.ChartDraw: android.graphics.Paint mGradientPaint> = $r6
+6845ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartDraw:$r0.<es.senselesssolutions.gpl.weightchart.ChartDraw: android.graphics.Paint mBmiPaint> = $r6
+6842ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartDraw:$r0.<es.senselesssolutions.gpl.weightchart.ChartDraw: android.graphics.Paint mBmiBackgroundPaint> = $r6
+6839ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartDraw:$r0.<es.senselesssolutions.gpl.weightchart.ChartDraw: android.graphics.Paint mAveragePaint> = $r6
+6836ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartDraw:$r0.<es.senselesssolutions.gpl.weightchart.ChartDraw: float mScrollX> = 0.0F
+6835ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartDraw:specialinvoke $r0.<java.lang.Object: void <init>()>()
+6834ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartDraw:$r5 = $r4[0]
+6833ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartDraw:if $r4 != null goto $r5 = $r4[0]
+6832ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartDraw:$r4 = <es.senselesssolutions.gpl.weightchart.ChartDraw: boolean[][] $VRc>
+6831ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r5.<es.senselesssolutions.gpl.weightchart.ChartDraw: void <init>(android.content.Context,es.senselesssolutions.gpl.weightchart.Database,java.util.GregorianCalendar)>($r0, $r4, $r6)
+6830ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r6.<java.util.GregorianCalendar: void <init>()>()
+6829ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r6 = new java.util.GregorianCalendar
+6828ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r4 = $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.Database mDatabase>
+6827ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r5 = new es.senselesssolutions.gpl.weightchart.ChartDraw
+6826ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.Database mDatabase> = $r4
+6808ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r4.<es.senselesssolutions.gpl.weightchart.Database: void <init>(android.content.Context)>($r0)
+6807ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r4 = new es.senselesssolutions.gpl.weightchart.Database
+6801ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: void setContentView(int)>(2130903042)
+6800ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)
+6799ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2 = $r3[1]
+6798ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:if $r3 != null goto $r2 = $r3[1]
+6797ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r3 = <es.senselesssolutions.gpl.weightchart.ChartActivity: boolean[][] $VRc>
+6791ZZZonCreateOptionsMenu:es.senselesssolutions.gpl.weightchart.ChartActivity:$r3[0] = 1
+6790ZZZonCreateOptionsMenu:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r4.<android.view.MenuInflater: void inflate(int,android.view.Menu)>(2131230720, $r1)
+6789ZZZonCreateOptionsMenu:es.senselesssolutions.gpl.weightchart.ChartActivity:$r4 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: android.view.MenuInflater getMenuInflater()>()
+6788ZZZonCreateOptionsMenu:es.senselesssolutions.gpl.weightchart.ChartActivity:$r3 = $r2[5]
+6787ZZZonCreateOptionsMenu:es.senselesssolutions.gpl.weightchart.ChartActivity:if $r2 != null goto $r3 = $r2[5]
+6786ZZZonCreateOptionsMenu:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2 = <es.senselesssolutions.gpl.weightchart.ChartActivity: boolean[][] $VRc>
+5039ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r2[71] = 1
+5038ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:if $i2 >= $i0 goto $r2[71] = 1
+5037ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r2[64] = 1
+5036ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r2[70] = 1
+5035ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$i2 = $i2 + 1
+5034ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:virtualinvoke $r4.<java.util.GregorianCalendar: void add(int,int)>(5, 1)
+5033ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:if $i3 != 1 goto virtualinvoke $r4.<java.util.GregorianCalendar: void add(int,int)>(5, 1)
+5032ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r2[68] = 1
+5031ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r2[67] = 1
+5030ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:virtualinvoke $r1.<android.graphics.Canvas: void drawText(java.lang.String,float,float,android.graphics.Paint)>($r16, $f4, $f3, $r10)
+5029ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r16 = virtualinvoke $r15.<java.lang.StringBuilder: java.lang.String toString()>()
+5028ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r15 = virtualinvoke $r15.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($i3)
+5027ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r15 = virtualinvoke $r15.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("")
+5026ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:specialinvoke $r15.<java.lang.StringBuilder: void <init>()>()
+5025ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r15 = new java.lang.StringBuilder
+5024ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:virtualinvoke $r1.<android.graphics.Canvas: void drawText(java.lang.String,float,float,android.graphics.Paint)>($r16, $f4, $f2, $r10)
+5023ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r16 = $r28[$i4]
+5022ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:if $z0 == 0 goto $r16 = $r28[$i4]
+5021ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r2[65] = 1
+5020ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$i4 = $i4 % 7
+5019ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$i4 = $i4 + 5
+5018ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$i4 = virtualinvoke $r4.<java.util.GregorianCalendar: int get(int)>(7)
+5017ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$i3 = virtualinvoke $r4.<java.util.GregorianCalendar: int get(int)>(5)
+5016ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f4 = $f4 / 2.0F
+5015ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f4 = $f4 / $f5
+5014ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f5 = (float) $i0
+5013ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f4 = $f4 + $f5
+5012ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f5 = (float) $i1
+5011ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f4 = $f4 * $f5
+5010ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f5 = (float) $i2
+5009ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f4 = 2.0F * $f4
+5008ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f4 = (float) $i1
+4413ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r2[69] = 1
+4412ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:virtualinvoke $r1.<android.graphics.Canvas: void drawText(java.lang.String,float,float,android.graphics.Paint)>($r16, $f4, $f1, $r9)
+4411ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:virtualinvoke $r1.<android.graphics.Canvas: void drawText(java.lang.String,float,float,android.graphics.Paint)>($r16, $f4, $f1, $r8)
+4410ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r16 = virtualinvoke $r29.<java.text.SimpleDateFormat: java.lang.String format(java.util.Date)>($r30)
+4409ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r30 = virtualinvoke $r4.<java.util.GregorianCalendar: java.util.Date getTime()>()
+4408ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:specialinvoke $r29.<java.text.SimpleDateFormat: void <init>(java.lang.String)>("yyyy-MM")
+4407ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r29 = new java.text.SimpleDateFormat
+4406ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f4 = $f4 - $f5
+4405ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f5 = $f0 / 2.0F
+4314ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r2[63] = 1
+4312ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$i2 = -2
+4311ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r2[62] = 1
+4310ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$z0 = 0
+4309ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:if $b9 >= 0 goto $z0 = 0
+4308ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r2[60] = 1
+4307ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$b9 = $f4 cmpg 2.0F
+4304ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f4 = $f4 / $f0
+4302ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r28 = $r0.<es.senselesssolutions.gpl.weightchart.ChartDraw: java.lang.String[] mWeekdays>
+4301ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f3 = $f3 - $f4
+4300ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f4 = $f0 / 2.0F
+4299ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f3 = (float) $i2
+4298ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f2 = $f2 - $f3
+4297ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f3 = 1.6F * $f0
+4296ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f2 = (float) $i2
+4295ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f1 = $f1 - $f2
+4294ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f2 = 2.7F * $f0
+4293ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f1 = (float) $i2
+4292ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:interfaceinvoke $r17.<android.database.Cursor: void close()>()
+4291ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:if $i6 <= 0 goto interfaceinvoke $r17.<android.database.Cursor: void close()>()
+4290ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r2[3] = 1
+4289ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$i6 = interfaceinvoke $r17.<android.database.Cursor: int getCount()>()
+4282ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r17 = virtualinvoke $r14.<es.senselesssolutions.gpl.weightchart.Database: android.database.Cursor query(java.lang.String)>($r16)
+4280ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r15 = virtualinvoke $r15.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" ORDER BY created_at")
+4279ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r15 = virtualinvoke $r15.<java.lang.StringBuilder: java.lang.StringBuilder append(long)>($l5)
+4278ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$l5 = $l5 / 1000L
+4277ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$l5 = virtualinvoke $r6.<java.util.GregorianCalendar: long getTimeInMillis()>()
+4276ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r15 = virtualinvoke $r15.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" AND created_at < ")
+4273ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$l5 = virtualinvoke $r4.<java.util.GregorianCalendar: long getTimeInMillis()>()
+4272ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r15 = virtualinvoke $r15.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("SELECT weight, created_at FROM weight WHERE created_at >= ")
+4269ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r14 = $r0.<es.senselesssolutions.gpl.weightchart.ChartDraw: es.senselesssolutions.gpl.weightchart.Database mDatabase>
+4268ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:if $i3 >= $i0 goto $r14 = $r0.<es.senselesssolutions.gpl.weightchart.ChartDraw: es.senselesssolutions.gpl.weightchart.Database mDatabase>
+4267ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r2[1] = 1
+4266ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$i3 = $i3 + 7
+4265ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r2[2] = 1
+4264ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:virtualinvoke $r1.<android.graphics.Canvas: void drawLine(float,float,float,float,android.graphics.Paint)>($f3, 0.0F, $f3, $f4, $r7)
+4263ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f4 = (float) $i2
+4262ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f3 = $f3 / $f4
+4261ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f4 = (float) $i0
+4260ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f3 = (float) $i4
+4259ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$i4 = $i1 * $i3
+4236ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$i3 = 5 - $i3
+4235ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r2[0] = 1
+4234ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$i3 = $i3 % 7
+4233ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$i3 = $i3 + 5
+4232ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$i3 = virtualinvoke $r4.<java.util.GregorianCalendar: int get(int)>(7)
+4231ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:virtualinvoke $r13.<android.graphics.Paint: void setStyle(android.graphics.Paint$Style)>($r12)
+4230ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r12 = <android.graphics.Paint$Style: android.graphics.Paint$Style STROKE>
+4229ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:virtualinvoke $r13.<android.graphics.Paint: void setStrokeWidth(float)>(1.0F)
+4228ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:virtualinvoke $r13.<android.graphics.Paint: void setColor(int)>(-16711936)
+4227ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:specialinvoke $r13.<android.graphics.Paint: void <init>(int)>(1)
+4226ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r13 = new android.graphics.Paint
+4225ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:virtualinvoke $r11.<android.graphics.Paint: void setStyle(android.graphics.Paint$Style)>($r12)
+4223ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:virtualinvoke $r11.<android.graphics.Paint: void setStrokeWidth(float)>(1.0F)
+4222ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:virtualinvoke $r11.<android.graphics.Paint: void setColor(int)>(-65536)
+4221ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:specialinvoke $r11.<android.graphics.Paint: void <init>(int)>(1)
+4220ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r11 = new android.graphics.Paint
+4219ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f2 = $f2 - 3.0F
+4217ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f3 = 4.7F * $f0
+4215ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f1 = $f1 - 3.0F
+4213ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f2 = 2.6F * $f0
+4211ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f0 = virtualinvoke $r10.<android.graphics.Paint: float getTextSize()>()
+4210ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r10 = $r0.<es.senselesssolutions.gpl.weightchart.ChartDraw: android.graphics.Paint mTextPaint>
+4209ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r9 = $r0.<es.senselesssolutions.gpl.weightchart.ChartDraw: android.graphics.Paint mLeftTextPaint>
+4208ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r8 = $r0.<es.senselesssolutions.gpl.weightchart.ChartDraw: android.graphics.Paint mLeftTextBackgroundPaint>
+4207ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r7 = $r0.<es.senselesssolutions.gpl.weightchart.ChartDraw: android.graphics.Paint mGridPaint>
+4206ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:virtualinvoke $r4.<java.util.GregorianCalendar: void add(int,int)>(5, $i3)
+4205ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$i3 = -9 - $i0
+4204ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r4 = (java.util.GregorianCalendar) $r5
+4203ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r5 = virtualinvoke $r6.<java.util.GregorianCalendar: java.lang.Object clone()>()
+4202ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:virtualinvoke $r6.<java.util.GregorianCalendar: void add(int,int)>(5, $i3)
+4201ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$i3 = neg $i3
+4200ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r6 = (java.util.GregorianCalendar) $r5
+4199ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r5 = virtualinvoke $r4.<java.util.GregorianCalendar: java.lang.Object clone()>()
+4198ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r4 = $r0.<es.senselesssolutions.gpl.weightchart.ChartDraw: java.util.GregorianCalendar mDate>
+4197ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:virtualinvoke $r1.<android.graphics.Canvas: void translate(float,float)>($f0, 0.0F)
+4196ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f0 = $f0 - $f1
+4195ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f1 = (float) $i4
+4191ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:virtualinvoke $r1.<android.graphics.Canvas: int save()>()
+4190ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$i3 = $i3 + -1
+4189ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$i3 = staticinvoke <java.lang.Math: int round(float)>($f0)
+4188ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f0 = $f0 / $f1
+4187ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f1 = (float) $i1
+4185ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f1 = $r0.<es.senselesssolutions.gpl.weightchart.ChartDraw: float mScrollX>
+4184ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$f0 = (float) $i0
+4183ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$i2 = $r0.<es.senselesssolutions.gpl.weightchart.ChartDraw: int mSizeY>
+4182ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$i1 = $r0.<es.senselesssolutions.gpl.weightchart.ChartDraw: int mSizeX>
+4181ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$i0 = $r0.<es.senselesssolutions.gpl.weightchart.ChartDraw: int mDays>
+4180ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r2 = $r3[3]
+4179ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:if $r3 != null goto $r2 = $r3[3]
+4178ZZZdraw:es.senselesssolutions.gpl.weightchart.ChartDraw:$r3 = <es.senselesssolutions.gpl.weightchart.ChartDraw: boolean[][] $VRc>
+4114ZZZonClick:es.senselesssolutions.gpl.weightchart.HeightDialog$2:virtualinvoke $r4.<es.senselesssolutions.gpl.weightchart.HeightDialog: void done()>()
+4113ZZZonClick:es.senselesssolutions.gpl.weightchart.HeightDialog$2:$r4 = $r0.<es.senselesssolutions.gpl.weightchart.HeightDialog$2: es.senselesssolutions.gpl.weightchart.HeightDialog this$0>
+4112ZZZonClick:es.senselesssolutions.gpl.weightchart.HeightDialog$2:$r3 = $r2[1]
+4111ZZZonClick:es.senselesssolutions.gpl.weightchart.HeightDialog$2:if $r2 != null goto $r3 = $r2[1]
+4110ZZZonClick:es.senselesssolutions.gpl.weightchart.HeightDialog$2:$r2 = <es.senselesssolutions.gpl.weightchart.HeightDialog$2: boolean[][] $VRc>
+4096ZZZcreateHeightUnitDialog:es.senselesssolutions.gpl.weightchart.HeightDialog:specialinvoke $r7.<es.senselesssolutions.gpl.weightchart.HeightDialog$3: void <init>(es.senselesssolutions.gpl.weightchart.HeightDialog)>($r0)
+4080ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog$3:staticinvoke <com.vladium.emma.rt.RT: void r(boolean[][],java.lang.String,long)>($r2, "es/senselesssolutions/gpl/weightchart/HeightDialog$3", 4320153508954628847L)
+4079ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog$3:$r2[2] = $r3
+4078ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog$3:$r3 = newarray (boolean)[1]
+4077ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog$3:$r2[1] = $r3
+4075ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog$3:$r2[0] = $r3
+4073ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog$3:<es.senselesssolutions.gpl.weightchart.HeightDialog$3: boolean[][] $VRc> = $r2
+4072ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog$3:$r2 = (boolean[][]) $r1
+4071ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog$3:$r1 = staticinvoke <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])>(class "[Z", $r0)
+4070ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog$3:$r0[0] = 3
+4069ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog$3:$r0 = newarray (int)[1]
+4059ZZZcreateHeightUnitDialog:es.senselesssolutions.gpl.weightchart.HeightDialog:specialinvoke $r6.<es.senselesssolutions.gpl.weightchart.HeightDialog$2: void <init>(es.senselesssolutions.gpl.weightchart.HeightDialog)>($r0)
+4058ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.HeightDialog$2:$r1[0] = 1
+4057ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.HeightDialog$2:$r1 = $r0[2]
+4043ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog$2:staticinvoke <com.vladium.emma.rt.RT: void r(boolean[][],java.lang.String,long)>($r2, "es/senselesssolutions/gpl/weightchart/HeightDialog$2", 4320153508954628847L)
+4042ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog$2:$r2[2] = $r3
+4041ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog$2:$r3 = newarray (boolean)[1]
+4040ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog$2:$r2[1] = $r3
+4038ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog$2:$r2[0] = $r3
+4036ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog$2:<es.senselesssolutions.gpl.weightchart.HeightDialog$2: boolean[][] $VRc> = $r2
+4035ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog$2:$r2 = (boolean[][]) $r1
+4034ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog$2:$r1 = staticinvoke <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])>(class "[Z", $r0)
+4033ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog$2:$r0[0] = 3
+4032ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog$2:$r0 = newarray (int)[1]
+4022ZZZcreateHeightUnitDialog:es.senselesssolutions.gpl.weightchart.HeightDialog:specialinvoke $r1.<es.senselesssolutions.gpl.weightchart.HeightDialog$1: void <init>(es.senselesssolutions.gpl.weightchart.HeightDialog)>($r0)
+4021ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.HeightDialog$1:$r1[0] = 1
+4020ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.HeightDialog$1:$r1 = $r0[2]
+4006ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog$1:staticinvoke <com.vladium.emma.rt.RT: void r(boolean[][],java.lang.String,long)>($r2, "es/senselesssolutions/gpl/weightchart/HeightDialog$1", 4320153525332375186L)
+4005ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog$1:$r2[2] = $r3
+4004ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog$1:$r3 = newarray (boolean)[1]
+4003ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog$1:$r2[1] = $r3
+4001ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog$1:$r2[0] = $r3
+3999ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog$1:<es.senselesssolutions.gpl.weightchart.HeightDialog$1: boolean[][] $VRc> = $r2
+3998ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog$1:$r2 = (boolean[][]) $r1
+3997ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog$1:$r1 = staticinvoke <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])>(class "[Z", $r0)
+3996ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog$1:$r0[0] = 3
+3995ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog$1:$r0 = newarray (int)[1]
+3985ZZZcreateDialog:es.senselesssolutions.gpl.weightchart.HeightDialog:$r3 = specialinvoke $r0.<es.senselesssolutions.gpl.weightchart.HeightDialog: android.app.Dialog createHeightUnitDialog()>()
+3984ZZZcreateDialog:es.senselesssolutions.gpl.weightchart.HeightDialog:if $i0 != 1 goto $r1[2] = 1
+3983ZZZcreateDialog:es.senselesssolutions.gpl.weightchart.HeightDialog:$r1[0] = 1
+3982ZZZcreateDialog:es.senselesssolutions.gpl.weightchart.HeightDialog:$r1 = $r2[1]
+3981ZZZcreateDialog:es.senselesssolutions.gpl.weightchart.HeightDialog:if $r2 != null goto $r1 = $r2[1]
+3980ZZZcreateDialog:es.senselesssolutions.gpl.weightchart.HeightDialog:$r2 = <es.senselesssolutions.gpl.weightchart.HeightDialog: boolean[][] $VRc>
+3979ZZZonCreateDialog:es.senselesssolutions.gpl.weightchart.ChartActivity:$r5 = virtualinvoke $r3.<es.senselesssolutions.gpl.weightchart.HeightDialog: android.app.Dialog createDialog(int)>($i0)
+3978ZZZonCreateDialog:es.senselesssolutions.gpl.weightchart.ChartActivity:$r3 = $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.HeightDialog mHeightDialog>
+3977ZZZonCreateDialog:es.senselesssolutions.gpl.weightchart.ChartActivity:if $i0 <= 0 goto $r5 = specialinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: android.app.Dialog createWeightUnitDialog()>()
+3976ZZZonCreateDialog:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[2] = 1
+3975ZZZonCreateDialog:es.senselesssolutions.gpl.weightchart.ChartActivity:if $r3 != null goto $r2[2] = 1
+3974ZZZonCreateDialog:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[0] = 1
+3972ZZZonCreateDialog:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2 = $r1[7]
+3971ZZZonCreateDialog:es.senselesssolutions.gpl.weightchart.ChartActivity:if $r1 != null goto $r2 = $r1[7]
+3970ZZZonCreateDialog:es.senselesssolutions.gpl.weightchart.ChartActivity:$r1 = <es.senselesssolutions.gpl.weightchart.ChartActivity: boolean[][] $VRc>
+2115ZZZcreateWeightUnitDialog:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r1.<es.senselesssolutions.gpl.weightchart.ChartActivity$5: void <init>(es.senselesssolutions.gpl.weightchart.ChartActivity)>($r0)
+2114ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.ChartActivity$5:$r1[0] = 1
+2113ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.ChartActivity$5:$r1 = $r0[2]
+2099ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$5:staticinvoke <com.vladium.emma.rt.RT: void r(boolean[][],java.lang.String,long)>($r2, "es/senselesssolutions/gpl/weightchart/ChartActivity$5", 4320153522834074897L)
+2098ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$5:$r2[2] = $r3
+2097ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$5:$r3 = newarray (boolean)[1]
+2096ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$5:$r2[1] = $r3
+2094ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$5:$r2[0] = $r3
+2092ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$5:<es.senselesssolutions.gpl.weightchart.ChartActivity$5: boolean[][] $VRc> = $r2
+2091ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$5:$r2 = (boolean[][]) $r1
+2090ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$5:$r1 = staticinvoke <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])>(class "[Z", $r0)
+2089ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$5:$r0[0] = 3
+2088ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$5:$r0 = newarray (int)[1]
+2078ZZZonCreateDialog:es.senselesssolutions.gpl.weightchart.ChartActivity:$r5 = specialinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: android.app.Dialog createWeightUnitDialog()>()
+2069ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: void showDialog(int)>(0)
+2068ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.HeightDialog mHeightDialog> = $r13
+2060ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartActivity$2:specialinvoke $r0.<es.senselesssolutions.gpl.weightchart.HeightDialog: void <init>(android.app.Activity)>($r2)
+2059ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartActivity$2:$r0.<es.senselesssolutions.gpl.weightchart.ChartActivity$2: es.senselesssolutions.gpl.weightchart.ChartActivity this$0> = $r1
+2058ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartActivity$2:$r4 = $r3[0]
+2057ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartActivity$2:if $r3 != null goto $r4 = $r3[0]
+2056ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartActivity$2:$r3 = <es.senselesssolutions.gpl.weightchart.ChartActivity$2: boolean[][] $VRc>
+2055ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r13.<es.senselesssolutions.gpl.weightchart.ChartActivity$2: void <init>(es.senselesssolutions.gpl.weightchart.ChartActivity,android.app.Activity)>($r0, $r0)
+2039ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$2:staticinvoke <com.vladium.emma.rt.RT: void r(boolean[][],java.lang.String,long)>($r2, "es/senselesssolutions/gpl/weightchart/ChartActivity$2", 4397209127454596402L)
+2038ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$2:$r2[2] = $r3
+2037ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$2:$r3 = newarray (boolean)[1]
+2036ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$2:$r2[1] = $r3
+2034ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$2:$r2[0] = $r3
+2032ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$2:<es.senselesssolutions.gpl.weightchart.ChartActivity$2: boolean[][] $VRc> = $r2
+2031ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$2:$r2 = (boolean[][]) $r1
+2030ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$2:$r1 = staticinvoke <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])>(class "[Z", $r0)
+2029ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$2:$r0[0] = 3
+2028ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$2:$r0 = newarray (int)[1]
+2011ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog:staticinvoke <com.vladium.emma.rt.RT: void r(boolean[][],java.lang.String,long)>($r2, "es/senselesssolutions/gpl/weightchart/HeightDialog", -2527100393390496451L)
+2010ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog:$r2[7] = $r3
+2009ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog:$r3 = newarray (boolean)[1]
+2008ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog:$r2[6] = $r3
+2006ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog:$r2[5] = $r3
+2004ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog:$r2[4] = $r3
+2003ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog:$r3 = newarray (boolean)[11]
+2002ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog:$r2[3] = $r3
+2000ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog:$r2[1] = $r3
+1999ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog:$r3 = newarray (boolean)[7]
+1998ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog:$r2[0] = $r3
+1996ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog:<es.senselesssolutions.gpl.weightchart.HeightDialog: boolean[][] $VRc> = $r2
+1995ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog:$r2 = (boolean[][]) $r1
+1994ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog:$r1 = staticinvoke <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])>(class "[Z", $r0)
+1993ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog:$r0[0] = 8
+1992ZZZ$VRi:es.senselesssolutions.gpl.weightchart.HeightDialog:$r0 = newarray (int)[1]
+1959ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$1:staticinvoke <com.vladium.emma.rt.RT: void r(boolean[][],java.lang.String,long)>($r2, "es/senselesssolutions/gpl/weightchart/ChartActivity$1", 8259003537082286560L)
+1958ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$1:$r2[3] = $r3
+1957ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$1:$r3 = newarray (boolean)[1]
+1956ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$1:$r2[2] = $r3
+1955ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$1:$r3 = newarray (boolean)[3]
+1954ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$1:$r2[1] = $r3
+1952ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$1:$r2[0] = $r3
+1950ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$1:<es.senselesssolutions.gpl.weightchart.ChartActivity$1: boolean[][] $VRc> = $r2
+1949ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$1:$r2 = (boolean[][]) $r1
+1948ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$1:$r1 = staticinvoke <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])>(class "[Z", $r0)
+1947ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$1:$r0[0] = 4
+1946ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartActivity$1:$r0 = newarray (int)[1]
+1785ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartDraw:staticinvoke <com.vladium.emma.rt.RT: void r(boolean[][],java.lang.String,long)>($r2, "es/senselesssolutions/gpl/weightchart/ChartDraw", -5689220280026851207L)
+1784ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartDraw:$r2[4] = $r3
+1783ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartDraw:$r3 = newarray (boolean)[1]
+1782ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartDraw:$r2[3] = $r3
+1781ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartDraw:$r3 = newarray (boolean)[72]
+1780ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartDraw:$r2[2] = $r3
+1779ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartDraw:$r3 = newarray (boolean)[6]
+1778ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartDraw:$r2[1] = $r3
+1777ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartDraw:$r3 = newarray (boolean)[13]
+1776ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartDraw:$r2[0] = $r3
+1774ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartDraw:<es.senselesssolutions.gpl.weightchart.ChartDraw: boolean[][] $VRc> = $r2
+1773ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartDraw:$r2 = (boolean[][]) $r1
+1771ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartDraw:$r0[0] = 5
+1770ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartDraw:$r0 = newarray (int)[1]
+1733ZZZ$VRi:es.senselesssolutions.gpl.weightchart.Database$1:staticinvoke <com.vladium.emma.rt.RT: void r(boolean[][],java.lang.String,long)>($r2, "es/senselesssolutions/gpl/weightchart/Database$1", 6367237125522905675L)
+1732ZZZ$VRi:es.senselesssolutions.gpl.weightchart.Database$1:$r2[3] = $r3
+1731ZZZ$VRi:es.senselesssolutions.gpl.weightchart.Database$1:$r3 = newarray (boolean)[1]
+1730ZZZ$VRi:es.senselesssolutions.gpl.weightchart.Database$1:$r2[2] = $r3
+1728ZZZ$VRi:es.senselesssolutions.gpl.weightchart.Database$1:$r2[1] = $r3
+1726ZZZ$VRi:es.senselesssolutions.gpl.weightchart.Database$1:$r2[0] = $r3
+1724ZZZ$VRi:es.senselesssolutions.gpl.weightchart.Database$1:<es.senselesssolutions.gpl.weightchart.Database$1: boolean[][] $VRc> = $r2
+1723ZZZ$VRi:es.senselesssolutions.gpl.weightchart.Database$1:$r2 = (boolean[][]) $r1
+1722ZZZ$VRi:es.senselesssolutions.gpl.weightchart.Database$1:$r1 = staticinvoke <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])>(class "[Z", $r0)
+1721ZZZ$VRi:es.senselesssolutions.gpl.weightchart.Database$1:$r0[0] = 4
+1720ZZZ$VRi:es.senselesssolutions.gpl.weightchart.Database$1:$r0 = newarray (int)[1]
+1712ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.Database:$r1[0] = 1
+1711ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.Database:$r1 = $r0[8]
+1697ZZZ$VRi:es.senselesssolutions.gpl.weightchart.Database:staticinvoke <com.vladium.emma.rt.RT: void r(boolean[][],java.lang.String,long)>($r2, "es/senselesssolutions/gpl/weightchart/Database", 4682082899898253241L)
+1696ZZZ$VRi:es.senselesssolutions.gpl.weightchart.Database:$r2[8] = $r3
+1695ZZZ$VRi:es.senselesssolutions.gpl.weightchart.Database:$r3 = newarray (boolean)[1]
+1694ZZZ$VRi:es.senselesssolutions.gpl.weightchart.Database:$r2[7] = $r3
+1692ZZZ$VRi:es.senselesssolutions.gpl.weightchart.Database:$r2[6] = $r3
+1690ZZZ$VRi:es.senselesssolutions.gpl.weightchart.Database:$r2[5] = $r3
+1688ZZZ$VRi:es.senselesssolutions.gpl.weightchart.Database:$r2[4] = $r3
+1686ZZZ$VRi:es.senselesssolutions.gpl.weightchart.Database:$r2[3] = $r3
+1684ZZZ$VRi:es.senselesssolutions.gpl.weightchart.Database:$r2[2] = $r3
+1682ZZZ$VRi:es.senselesssolutions.gpl.weightchart.Database:$r2[1] = $r3
+1680ZZZ$VRi:es.senselesssolutions.gpl.weightchart.Database:$r2[0] = $r3
+1678ZZZ$VRi:es.senselesssolutions.gpl.weightchart.Database:<es.senselesssolutions.gpl.weightchart.Database: boolean[][] $VRc> = $r2
+1677ZZZ$VRi:es.senselesssolutions.gpl.weightchart.Database:$r2 = (boolean[][]) $r1
+1676ZZZ$VRi:es.senselesssolutions.gpl.weightchart.Database:$r1 = staticinvoke <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])>(class "[Z", $r0)
+1675ZZZ$VRi:es.senselesssolutions.gpl.weightchart.Database:$r0[0] = 9
+1674ZZZ$VRi:es.senselesssolutions.gpl.weightchart.Database:$r0 = newarray (int)[1]
+1651ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartView:staticinvoke <com.vladium.emma.rt.RT: void r(boolean[][],java.lang.String,long)>($r2, "es/senselesssolutions/gpl/weightchart/ChartView", -1932500498855294300L)
+1650ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartView:$r2[4] = $r3
+1649ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartView:$r3 = newarray (boolean)[1]
+1648ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartView:$r2[3] = $r3
+1647ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartView:$r3 = newarray (boolean)[3]
+1646ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartView:$r2[2] = $r3
+1644ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartView:$r2[1] = $r3
+1642ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartView:$r2[0] = $r3
+1640ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartView:<es.senselesssolutions.gpl.weightchart.ChartView: boolean[][] $VRc> = $r2
+1639ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartView:$r2 = (boolean[][]) $r1
+1638ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartView:$r1 = staticinvoke <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])>(class "[Z", $r0)
+1637ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartView:$r0[0] = 5
+1636ZZZ$VRi:es.senselesssolutions.gpl.weightchart.ChartView:$r0 = newarray (int)[1]
+1628ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r0.<android.app.Activity: void <init>()>()
+1627ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2 = $r1[0]
+1626ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartActivity:if $r1 != null goto $r2 = $r1[0]
+1625ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartActivity:$r1 = <es.senselesssolutions.gpl.weightchart.ChartActivity: boolean[][] $VRc>
+1624ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.ChartActivity:$r1[0] = 1
+1623ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.ChartActivity:$r1 = $r0[15]
+1559ZZZreset:com.vladium.emma.rt.RT:$z0 = virtualinvoke $r4.<com.vladium.util.exit.ExitHookManager: boolean addExitHook(java.lang.Runnable)>($r8)
+1558ZZZreset:com.vladium.emma.rt.RT:$r4 = <com.vladium.emma.rt.RT: com.vladium.util.exit.ExitHookManager EXIT_HOOK_MANAGER>
+1459ZZZ<init>:com.vladium.util.ClassLoaderResolver$DefaultClassLoadStrategy:specialinvoke $r0.<com.vladium.util.ClassLoaderResolver$DefaultClassLoadStrategy: void <init>()>()
+1454ZZZ<init>:com.vladium.util.ClassLoaderResolver$CallerResolver:specialinvoke $r0.<com.vladium.util.ClassLoaderResolver$CallerResolver: void <init>()>()
+1453ZZZ<clinit>:com.vladium.util.ClassLoaderResolver:specialinvoke $r0.<com.vladium.util.ClassLoaderResolver$CallerResolver: void <init>(com.vladium.util.ClassLoaderResolver$1)>(null)
+1452ZZZ<clinit>:com.vladium.util.ClassLoaderResolver:$r0 = new com.vladium.util.ClassLoaderResolver$CallerResolver
+1381ZZZ<clinit>:com.vladium.logging.Logger:specialinvoke $r7.<java.io.PrintWriter: void <init>(java.io.OutputStream,boolean)>($r8, 0)
+1380ZZZ<clinit>:com.vladium.logging.Logger:$r8 = <java.lang.System: java.io.PrintStream out>
+1379ZZZ<clinit>:com.vladium.logging.Logger:$r7 = new java.io.PrintWriter
+1378ZZZ<clinit>:com.vladium.logging.Logger:if $r1 == null goto $r7 = new java.io.PrintWriter
+1377ZZZ<clinit>:com.vladium.logging.Logger:$r1 = virtualinvoke $r5.<java.util.Properties: java.lang.String getProperty(java.lang.String)>("verbosity.filter")
+1361ZZZ<clinit>:com.vladium.logging.Logger:$i0 = staticinvoke <com.vladium.logging.Logger: int stringToLevel(java.lang.String)>($r1)
+1360ZZZ<clinit>:com.vladium.logging.Logger:$r1 = virtualinvoke $r5.<java.util.Properties: java.lang.String getProperty(java.lang.String,java.lang.String)>("verbosity.level", "info")
+1076ZZZcombine:com.vladium.util.Property:specialinvoke $r1.<com.vladium.util.XProperties: void <init>(java.util.Properties)>($r0)
+1075ZZZcombine:com.vladium.util.Property:$r1 = new com.vladium.util.XProperties
+1074ZZZcombine:com.vladium.util.Property:if $r2 != null goto $r1 = new com.vladium.util.XProperties
+1073ZZZcombine:com.vladium.util.Property:if $r0 != null goto (branch)
+1072ZZZgetAppProperties:com.vladium.util.Property:$r8 = staticinvoke <com.vladium.util.Property: java.util.Properties combine(java.util.Properties,java.util.Properties)>($r8, $r5)
+1050ZZZgetAppProperties:com.vladium.util.Property:$r5 = staticinvoke <com.vladium.util.Property: java.util.Properties combine(java.util.Properties,java.util.Properties)>($r7, $r5)
+1031ZZZ<init>:com.vladium.util.Property$FilePropertyLookup:specialinvoke $r0.<com.vladium.util.XProperties: void <init>()>()
+1030ZZZgetLazyPropertiesFromFile:com.vladium.util.Property:specialinvoke $r1.<com.vladium.util.Property$FilePropertyLookup: void <init>(java.io.File)>($r0)
+1029ZZZgetLazyPropertiesFromFile:com.vladium.util.Property:$r1 = new com.vladium.util.Property$FilePropertyLookup
+1014ZZZgetProperties:com.vladium.util.Property:specialinvoke $r3.<com.vladium.util.XProperties: void <init>()>()
+1013ZZZgetProperties:com.vladium.util.Property:$r3 = new com.vladium.util.XProperties
+1012ZZZgetProperties:com.vladium.util.Property:if $r2 == null goto (branch)
+1011ZZZgetProperties:com.vladium.util.Property:$r4 = $r2
+1008ZZZgetProperties:com.vladium.util.Property:$r2 = staticinvoke <com.vladium.util.ResourceLoader: java.io.InputStream getResourceAsStream(java.lang.String,java.lang.ClassLoader)>($r0, $r1)
+1007ZZZgetProperties:com.vladium.util.Property:$r3 = null
+999ZZZ<clinit>:com.vladium.logging.Logger:$r5 = staticinvoke <com.vladium.util.Property: java.util.Properties getAppProperties(java.lang.String,java.lang.ClassLoader)>("emma", $r4)
+998ZZZ<clinit>:com.vladium.logging.Logger:$r4 = virtualinvoke $r3.<java.lang.Class: java.lang.ClassLoader getClassLoader()>()
+997ZZZ<clinit>:com.vladium.logging.Logger:$r3 = class "Lcom/vladium/logging/Logger;"
+996ZZZ<clinit>:com.vladium.logging.Logger:<com.vladium.logging.Logger: com.vladium.logging.Logger$ThreadLocalStack THREAD_LOCAL_STACK> = $r2
+994ZZZ<init>:com.vladium.logging.Logger$ThreadLocalStack:specialinvoke $r0.<com.vladium.logging.Logger$ThreadLocalStack: void <init>()>()
+993ZZZ<clinit>:com.vladium.logging.Logger:specialinvoke $r2.<com.vladium.logging.Logger$ThreadLocalStack: void <init>(com.vladium.logging.Logger$1)>(null)
+992ZZZ<clinit>:com.vladium.logging.Logger:$r2 = new com.vladium.logging.Logger$ThreadLocalStack
+991ZZZ<clinit>:com.vladium.logging.Logger:<com.vladium.logging.Logger: int PREFIX_TO_STRIP_LENGTH> = $i0
+990ZZZ<clinit>:com.vladium.logging.Logger:$i0 = virtualinvoke $r1.<java.lang.String: int length()>()
+989ZZZ<clinit>:com.vladium.logging.Logger:$r1 = "com.vladium."
+988ZZZ<clinit>:com.vladium.logging.Logger:$r0 = null
+953ZZZreset:com.vladium.emma.rt.RT:staticinvoke <com.vladium.emma.rt.RTExitHook: void createClassLoaderClosure()>()
+948ZZZ<init>:com.vladium.emma.rt.RTExitHook:specialinvoke $r0.<java.lang.Object: void <init>()>()
+947ZZZreset:com.vladium.emma.rt.RT:specialinvoke $r8.<com.vladium.emma.rt.RTExitHook: void <init>(java.lang.Class,com.vladium.emma.data.ICoverageData,java.io.File,boolean)>(class "Lcom/vladium/emma/rt/RT;", $r6, $r9, $z0)
+625ZZZwrap:com.vladium.emma.EMMAProperties:$r1 = staticinvoke <com.vladium.util.IProperties$Factory: com.vladium.util.IProperties wrap(java.util.Properties,com.vladium.util.IProperties$IMapper)>($r0, $r2)
+624ZZZwrap:com.vladium.emma.EMMAProperties:$r2 = <com.vladium.emma.report.ReportProperties: com.vladium.util.IProperties$IMapper REPORT_PROPERTY_MAPPER>
+623ZZZwrap:com.vladium.emma.EMMAProperties:if $r0 != null goto $r2 = <com.vladium.emma.report.ReportProperties: com.vladium.util.IProperties$IMapper REPORT_PROPERTY_MAPPER>
+614ZZZ<init>:com.vladium.util.Property$SystemPropertyLookup:specialinvoke $r0.<com.vladium.util.XProperties: void <init>()>()
+609ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r4 = staticinvoke <com.vladium.util.Property: java.util.Properties getSystemProperties(java.lang.String)>("emma")
+604ZZZ<init>:com.vladium.util.IProperties$Factory$PropertiesImpl:specialinvoke $r0.<java.lang.Object: void <init>()>()
+603ZZZwrap:com.vladium.util.IProperties$Factory:specialinvoke $r7.<com.vladium.util.IProperties$Factory$PropertiesImpl: void <init>(java.util.HashMap,com.vladium.util.IProperties$IMapper)>($r2, $r1)
+602ZZZwrap:com.vladium.util.IProperties$Factory:$r7 = new com.vladium.util.IProperties$Factory$PropertiesImpl
+601ZZZwrap:com.vladium.util.IProperties$Factory:if $z0 == 0 goto $r7 = new com.vladium.util.IProperties$Factory$PropertiesImpl
+600ZZZwrap:com.vladium.util.IProperties$Factory:$z0 = interfaceinvoke $r3.<java.util.Enumeration: boolean hasMoreElements()>()
+580ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r9 = staticinvoke <com.vladium.emma.EMMAProperties: com.vladium.util.IProperties wrap(java.util.Properties)>($r4)
+574ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r4 = staticinvoke <com.vladium.util.Property: java.util.Properties getLazyPropertiesFromFile(java.io.File)>($r8)
+573ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r8 = null
+572ZZZgetAppProperties:com.vladium.emma.EMMAProperties:if $r7 == null goto $r8 = null
+571ZZZgetSystemProperty:com.vladium.util.Property:$r0 = staticinvoke <java.lang.System: java.lang.String getProperty(java.lang.String)>($r0)
+560ZZZwrap:com.vladium.util.IProperties$Factory:virtualinvoke $r2.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>($r5, $r6)
+559ZZZwrap:com.vladium.util.IProperties$Factory:$r6 = virtualinvoke $r0.<java.util.Properties: java.lang.String getProperty(java.lang.String)>($r5)
+558ZZZwrap:com.vladium.util.IProperties$Factory:$r5 = (java.lang.String) $r4
+557ZZZwrap:com.vladium.util.IProperties$Factory:$r4 = interfaceinvoke $r3.<java.util.Enumeration: java.lang.Object nextElement()>()
+428ZZZwrap:com.vladium.util.IProperties$Factory:$r3 = virtualinvoke $r0.<java.util.Properties: java.util.Enumeration propertyNames()>()
+427ZZZwrap:com.vladium.util.IProperties$Factory:specialinvoke $r2.<java.util.HashMap: void <init>()>()
+426ZZZwrap:com.vladium.util.IProperties$Factory:$r2 = new java.util.HashMap
+396ZZZgetSystemProperty:com.vladium.util.Property:$r0 = staticinvoke <java.lang.System: java.lang.String getProperty(java.lang.String,java.lang.String)>($r0, $r2)
+395ZZZget:com.vladium.util.Property$SystemRedirectsLookup:$r3 = staticinvoke <com.vladium.util.Property: java.lang.String getSystemProperty(java.lang.String,java.lang.String)>($r5, null)
+394ZZZget:com.vladium.util.Property$SystemRedirectsLookup:if $r5 == null goto return $r3
+393ZZZget:com.vladium.util.Property$SystemRedirectsLookup:$r5 = (java.lang.String) $r1
+392ZZZget:com.vladium.util.Property$SystemRedirectsLookup:$r1 = interfaceinvoke $r4.<java.util.Map: java.lang.Object get(java.lang.Object)>($r1)
+391ZZZget:com.vladium.util.Property$SystemRedirectsLookup:$r4 = $r0.<com.vladium.util.Property$SystemRedirectsLookup: java.util.Map m_systemRedirects>
+390ZZZget:com.vladium.util.Property$SystemRedirectsLookup:if $r4 == null goto return $r3
+388ZZZget:com.vladium.util.Property$SystemRedirectsLookup:if $r3 != null goto return $r3
+387ZZZget:com.vladium.util.Property$SystemRedirectsLookup:$r3 = (java.lang.String) $r2
+386ZZZget:com.vladium.util.Property$SystemRedirectsLookup:$r2 = specialinvoke $r0.<com.vladium.util.XProperties: java.lang.Object get(java.lang.Object)>($r1)
+385ZZZget:com.vladium.util.Property$SystemRedirectsLookup:if $z0 != 0 goto $r2 = specialinvoke $r0.<com.vladium.util.XProperties: java.lang.Object get(java.lang.Object)>($r1)
+384ZZZget:com.vladium.util.Property$SystemRedirectsLookup:$z0 = $r1 instanceof java.lang.String
+294ZZZput:com.vladium.util.ObjectIntMap:specialinvoke $r5.<com.vladium.util.ObjectIntMap$Entry: void <init>(java.lang.Object,int,com.vladium.util.ObjectIntMap$Entry)>($r1, $i0, $r3)
+293ZZZput:com.vladium.util.ObjectIntMap:$r5 = new com.vladium.util.ObjectIntMap$Entry
+292ZZZput:com.vladium.util.ObjectIntMap:$r3 = $r2[$i1]
+291ZZZput:com.vladium.util.ObjectIntMap:$i1 = $i1 % $i2
+290ZZZput:com.vladium.util.ObjectIntMap:$i2 = lengthof $r2
+289ZZZput:com.vladium.util.ObjectIntMap:$i1 = $i1 & 2147483647
+288ZZZput:com.vladium.util.ObjectIntMap:$r2 = $r0.<com.vladium.util.ObjectIntMap: com.vladium.util.ObjectIntMap$Entry[] m_buckets>
+287ZZZput:com.vladium.util.ObjectIntMap:if $i2 < $i3 goto $r2 = $r0.<com.vladium.util.ObjectIntMap: com.vladium.util.ObjectIntMap$Entry[] m_buckets>
+286ZZZput:com.vladium.util.ObjectIntMap:$i3 = $r0.<com.vladium.util.ObjectIntMap: int m_sizeThreshold>
+285ZZZput:com.vladium.util.ObjectIntMap:$i2 = $r0.<com.vladium.util.ObjectIntMap: int m_size>
+284ZZZput:com.vladium.util.ObjectIntMap:if $r3 == null goto $i2 = $r0.<com.vladium.util.ObjectIntMap: int m_size>
+283ZZZput:com.vladium.util.ObjectIntMap:$r3 = null
+282ZZZput:com.vladium.util.ObjectIntMap:if $r3 == null goto $r3 = null
+281ZZZput:com.vladium.util.ObjectIntMap:$r3 = $r2[$i2]
+279ZZZput:com.vladium.util.ObjectIntMap:$i2 = $i2 % $i3
+278ZZZput:com.vladium.util.ObjectIntMap:$i3 = lengthof $r2
+276ZZZput:com.vladium.util.ObjectIntMap:$i2 = $i1 & 2147483647
+275ZZZput:com.vladium.util.ObjectIntMap:$i1 = virtualinvoke $r1.<java.lang.Object: int hashCode()>()
+274ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("line", 4)
+266ZZZ<init>:com.vladium.util.ObjectIntMap$Entry:specialinvoke $r0.<java.lang.Object: void <init>()>()
+216ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("method", 2)
+158ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("name", 0)
+136ZZZ<clinit>:com.vladium.emma.report.ReportProperties:specialinvoke $r1.<com.vladium.util.ObjectIntMap: void <init>()>()
+133ZZZ<clinit>:com.vladium.emma.report.ReportProperties:$r1 = new com.vladium.util.ObjectIntMap
+132ZZZ<clinit>:com.vladium.emma.report.ReportProperties:<com.vladium.emma.report.ReportProperties: com.vladium.util.IProperties$IMapper REPORT_PROPERTY_MAPPER> = $r0
+129ZZZ<clinit>:com.vladium.emma.report.ReportProperties:specialinvoke $r0.<com.vladium.emma.report.ReportProperties$ReportPropertyMapper: void <init>(com.vladium.emma.report.ReportProperties$1)>(null)
+128ZZZ<clinit>:com.vladium.emma.report.ReportProperties:$r0 = new com.vladium.emma.report.ReportProperties$ReportPropertyMapper
+121ZZZ<init>:com.vladium.util.Property$SystemRedirectsLookup:specialinvoke $r0.<com.vladium.util.XProperties: void <init>()>()
+116ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r4 = staticinvoke <com.vladium.util.Property: java.util.Properties getSystemPropertyRedirects(java.util.Map)>($r1)
+115ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r1 = <com.vladium.emma.EMMAProperties: java.util.Map SYSTEM_PROPERTY_REDIRECTS>
+114ZZZgetAppProperties:com.vladium.emma.EMMAProperties:if $r3 == null goto $r1 = <com.vladium.emma.EMMAProperties: java.util.Map SYSTEM_PROPERTY_REDIRECTS>
+113ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r3 = (com.vladium.util.IProperties) $r2
+112ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r2 = interfaceinvoke $r1.<java.util.Map: java.lang.Object get(java.lang.Object)>($r0)
+111ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r1 = <com.vladium.emma.EMMAProperties: java.util.Map s_properties>
+73ZZZ<init>:com.vladium.util.exit.ExitHookManager:specialinvoke $r0.<java.lang.Object: void <init>()>()
+70ZZZgetSingleton:com.vladium.util.exit.ExitHookManager:$r1 = new com.vladium.util.exit.ExitHookManager$JRE13ExitHookManager
+69ZZZgetSingleton:com.vladium.util.exit.ExitHookManager:if $z0 == 0 goto $r2 = new java.lang.UnsupportedOperationException
+43ZZZgetSingleton:com.vladium.util.exit.ExitHookManager:$z0 = <com.vladium.util.exit.ExitHookManager: boolean JRE_1_3_PLUS>
+42ZZZgetSingleton:com.vladium.util.exit.ExitHookManager:if $r0 != null goto $r0 = <com.vladium.util.exit.ExitHookManager: com.vladium.util.exit.ExitHookManager s_singleton>
+41ZZZgetSingleton:com.vladium.util.exit.ExitHookManager:$r0 = <com.vladium.util.exit.ExitHookManager: com.vladium.util.exit.ExitHookManager s_singleton>
+0ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.ChartActivity:$r0 = staticinvoke <es.senselesssolutions.gpl.weightchart.ChartActivity: boolean[][] $VRi()>()
