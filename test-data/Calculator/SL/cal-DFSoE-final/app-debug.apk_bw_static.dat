@@ -1,0 +1,40 @@
+8980ZZZonClickPercent:com.muledog.calculator.MainActivity:$r4 = staticinvoke <java.lang.Double: java.lang.Double valueOf(java.lang.String)>($r2)
+-1ZZZonClickPercent:com.muledog.calculator.MainActivity:$r0 := @this: com.muledog.calculator.MainActivity
+-1ZZZonClickPercent:com.muledog.calculator.MainActivity:$r1 := @parameter0: android.view.View
+-1ZZZonClickPercent:com.muledog.calculator.MainActivity:$r2 = $r0.<com.muledog.calculator.MainActivity: java.lang.String display>
+-1ZZZonClickPercent:com.muledog.calculator.MainActivity:$r3 = virtualinvoke $r2.<java.lang.String: java.lang.String[] split(java.lang.String)>("%")
+-1ZZZonClickPercent:com.muledog.calculator.MainActivity:$r2 = $r3[0]
+-1ZZZonClickPercent:com.muledog.calculator.MainActivity:$r4 = staticinvoke <java.lang.Double: java.lang.Double valueOf(java.lang.String)>($r2)
+-1ZZZonClickPercent:com.muledog.calculator.MainActivity:$d0 = virtualinvoke $r4.<java.lang.Double: double doubleValue()>()
+-1ZZZonClickPercent:com.muledog.calculator.MainActivity:$d0 = $d0 / 100.0
+-1ZZZonClickPercent:com.muledog.calculator.MainActivity:$r2 = staticinvoke <java.lang.String: java.lang.String valueOf(double)>($d0)
+-1ZZZonClickPercent:com.muledog.calculator.MainActivity:$r0.<com.muledog.calculator.MainActivity: java.lang.String result> = $r2
+-1ZZZonClickPercent:com.muledog.calculator.MainActivity:$r5 = $r0.<com.muledog.calculator.MainActivity: android.widget.TextView _screen>
+-1ZZZonClickPercent:com.muledog.calculator.MainActivity:$r6 = new java.lang.StringBuilder
+-1ZZZonClickPercent:com.muledog.calculator.MainActivity:specialinvoke $r6.<java.lang.StringBuilder: void <init>()>()
+-1ZZZonClickPercent:com.muledog.calculator.MainActivity:virtualinvoke $r6.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r2)
+-1ZZZonClickPercent:com.muledog.calculator.MainActivity:virtualinvoke $r6.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("\n")
+-1ZZZonClickPercent:com.muledog.calculator.MainActivity:$r2 = $r0.<com.muledog.calculator.MainActivity: java.lang.String result>
+-1ZZZonClickPercent:com.muledog.calculator.MainActivity:$r2 = staticinvoke <java.lang.String: java.lang.String valueOf(java.lang.Object)>($r2)
+-1ZZZonClickPercent:com.muledog.calculator.MainActivity:$r2 = virtualinvoke $r6.<java.lang.StringBuilder: java.lang.String toString()>()
+-1ZZZonClickPercent:com.muledog.calculator.MainActivity:virtualinvoke $r5.<android.widget.TextView: void setText(java.lang.CharSequence)>($r2)
+-1ZZZonClickPercent:com.muledog.calculator.MainActivity:return
+8751ZZZonCreate:com.muledog.calculator.MainActivity:virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r2)
+-1ZZZonCreate:com.muledog.calculator.MainActivity:$r0 := @this: com.muledog.calculator.MainActivity
+-1ZZZonCreate:com.muledog.calculator.MainActivity:$r1 := @parameter0: android.os.Bundle
+-1ZZZonCreate:com.muledog.calculator.MainActivity:specialinvoke $r0.<android.support.v7.app.AppCompatActivity: void onCreate(android.os.Bundle)>($r1)
+-1ZZZonCreate:com.muledog.calculator.MainActivity:virtualinvoke $r0.<com.muledog.calculator.MainActivity: void setContentView(int)>(2131296283)
+-1ZZZonCreate:com.muledog.calculator.MainActivity:$r3 = virtualinvoke $r0.<com.muledog.calculator.MainActivity: android.view.View findViewById(int)>(2131165309)
+-1ZZZonCreate:com.muledog.calculator.MainActivity:$r4 = (android.widget.TextView) $r3
+-1ZZZonCreate:com.muledog.calculator.MainActivity:$r0.<com.muledog.calculator.MainActivity: android.widget.TextView _screen> = $r4
+-1ZZZonCreate:com.muledog.calculator.MainActivity:$r4 = $r0.<com.muledog.calculator.MainActivity: android.widget.TextView _screen>
+-1ZZZonCreate:com.muledog.calculator.MainActivity:$r2 = $r0.<com.muledog.calculator.MainActivity: java.lang.String display>
+-1ZZZonCreate:com.muledog.calculator.MainActivity:virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r2)
+-1ZZZonCreate:com.muledog.calculator.MainActivity:return
+115ZZZ<init>:com.muledog.calculator.MainActivity:$r0.<com.muledog.calculator.MainActivity: java.lang.String currentOperator> = ""
+-1ZZZ<init>:com.muledog.calculator.MainActivity:$r0 := @this: com.muledog.calculator.MainActivity
+-1ZZZ<init>:com.muledog.calculator.MainActivity:specialinvoke $r0.<android.support.v7.app.AppCompatActivity: void <init>()>()
+-1ZZZ<init>:com.muledog.calculator.MainActivity:$r0.<com.muledog.calculator.MainActivity: java.lang.String display> = ""
+-1ZZZ<init>:com.muledog.calculator.MainActivity:$r0.<com.muledog.calculator.MainActivity: java.lang.String currentOperator> = ""
+-1ZZZ<init>:com.muledog.calculator.MainActivity:$r0.<com.muledog.calculator.MainActivity: java.lang.String result> = ""
+-1ZZZ<init>:com.muledog.calculator.MainActivity:return
