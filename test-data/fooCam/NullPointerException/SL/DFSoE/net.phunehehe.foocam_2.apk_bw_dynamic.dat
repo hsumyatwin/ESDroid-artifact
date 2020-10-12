@@ -1,0 +1,31 @@
+404ZZZprocessQueue:net.phunehehe.foocam.MainActivity:$r9 = virtualinvoke $r8.<android.hardware.Camera: android.hardware.Camera$Parameters getParameters()>()
+403ZZZprocessQueue:net.phunehehe.foocam.MainActivity:$r8 = $r0.<net.phunehehe.foocam.MainActivity: android.hardware.Camera camera>
+402ZZZprocessQueue:net.phunehehe.foocam.MainActivity:virtualinvoke $r5.<android.widget.Button: void setText(java.lang.CharSequence)>($r7)
+401ZZZformat:net.phunehehe.foocam.MainActivity:$r2 = staticinvoke <java.lang.String: java.lang.String format(java.lang.String,java.lang.Object[])>($r2, $r1)
+400ZZZformat:net.phunehehe.foocam.MainActivity:$r2 = virtualinvoke $r0.<net.phunehehe.foocam.MainActivity: java.lang.String getString(int)>($i0)
+352ZZZaccess$300:net.phunehehe.foocam.MainActivity:specialinvoke $r0.<net.phunehehe.foocam.MainActivity: void calculateExposureLevels(int)>($i0)
+351ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: void access$300(net.phunehehe.foocam.MainActivity,int)>($r2, $i0)
+325ZZZ<init>:net.phunehehe.foocam.CameraPreview:specialinvoke $r0.<android.view.SurfaceView: void <init>(android.content.Context)>($r1)
+324ZZZonResume:net.phunehehe.foocam.MainActivity:specialinvoke $r1.<net.phunehehe.foocam.CameraPreview: void <init>(android.content.Context,android.hardware.Camera)>($r0, $r2)
+323ZZZonResume:net.phunehehe.foocam.MainActivity:$r2 = $r0.<net.phunehehe.foocam.MainActivity: android.hardware.Camera camera>
+322ZZZonResume:net.phunehehe.foocam.MainActivity:$r1 = new net.phunehehe.foocam.CameraPreview
+321ZZZonResume:net.phunehehe.foocam.MainActivity:if $r2 != null goto $r1 = new net.phunehehe.foocam.CameraPreview
+319ZZZonResume:net.phunehehe.foocam.MainActivity:specialinvoke $r0.<android.app.Activity: void onResume()>()
+49ZZZonCreate:net.phunehehe.foocam.MainActivity:specialinvoke $r0.<net.phunehehe.foocam.MainActivity: void calculateCameraParameters()>()
+48ZZZinitializeCamera:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: android.hardware.Camera camera> = $r1
+47ZZZinitializeCamera:net.phunehehe.foocam.MainActivity:$r1 = staticinvoke <android.hardware.Camera: android.hardware.Camera open(int)>(0)
+33ZZZonCreate:net.phunehehe.foocam.MainActivity:specialinvoke $r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)
+32ZZZ<init>:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: net.phunehehe.foocam.OnItemSelectedListener focusSpinnerListener> = $r4
+28ZZZ<init>:net.phunehehe.foocam.MainActivity:specialinvoke $r4.<net.phunehehe.foocam.MainActivity$4: void <init>(net.phunehehe.foocam.MainActivity)>($r0)
+27ZZZ<init>:net.phunehehe.foocam.MainActivity:$r4 = new net.phunehehe.foocam.MainActivity$4
+26ZZZ<init>:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: net.phunehehe.foocam.OnItemSelectedListener resolutionSpinnerListener> = $r3
+22ZZZ<init>:net.phunehehe.foocam.MainActivity:specialinvoke $r3.<net.phunehehe.foocam.MainActivity$3: void <init>(net.phunehehe.foocam.MainActivity)>($r0)
+20ZZZ<init>:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: net.phunehehe.foocam.OnItemSelectedListener numberOfStopsListener> = $r2
+16ZZZ<init>:net.phunehehe.foocam.MainActivity:specialinvoke $r2.<net.phunehehe.foocam.MainActivity$2: void <init>(net.phunehehe.foocam.MainActivity)>($r0)
+15ZZZ<init>:net.phunehehe.foocam.MainActivity:$r2 = new net.phunehehe.foocam.MainActivity$2
+14ZZZ<init>:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: android.view.View$OnClickListener captureButtonListener> = $r1
+11ZZZ<init>:net.phunehehe.foocam.MainActivity:specialinvoke $r1.<net.phunehehe.foocam.MainActivity$1: void <init>(net.phunehehe.foocam.MainActivity)>($r0)
+10ZZZ<init>:net.phunehehe.foocam.MainActivity:$r1 = new net.phunehehe.foocam.MainActivity$1
+9ZZZ<init>:net.phunehehe.foocam.MainActivity:specialinvoke $r0.<android.app.Activity: void <init>()>()
+1ZZZonPause:net.phunehehe.foocam.MainActivity:specialinvoke $r0.<net.phunehehe.foocam.MainActivity: void releaseCamera()>()
+0ZZZonPause:net.phunehehe.foocam.MainActivity:specialinvoke $r0.<android.app.Activity: void onPause()>()

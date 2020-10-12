@@ -1,0 +1,478 @@
+0ZZZonPause:net.phunehehe.foocam.MainActivity:specialinvoke $r0.<android.app.Activity: void onPause()>()
+1ZZZonPause:net.phunehehe.foocam.MainActivity:specialinvoke $r0.<net.phunehehe.foocam.MainActivity: void releaseCamera()>()
+2ZZZreleaseCamera:net.phunehehe.foocam.MainActivity:$r1 = $r0.<net.phunehehe.foocam.MainActivity: android.hardware.Camera camera>
+3ZZZreleaseCamera:net.phunehehe.foocam.MainActivity:if $r1 == null goto $r2 = $r0.<net.phunehehe.foocam.MainActivity: android.widget.FrameLayout preview>
+4ZZZreleaseCamera:net.phunehehe.foocam.MainActivity:$r1 = $r0.<net.phunehehe.foocam.MainActivity: android.hardware.Camera camera>
+5ZZZreleaseCamera:net.phunehehe.foocam.MainActivity:virtualinvoke $r1.<android.hardware.Camera: void release()>()
+6ZZZreleaseCamera:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: android.hardware.Camera camera> = null
+7ZZZreleaseCamera:net.phunehehe.foocam.MainActivity:$r2 = $r0.<net.phunehehe.foocam.MainActivity: android.widget.FrameLayout preview>
+8ZZZreleaseCamera:net.phunehehe.foocam.MainActivity:virtualinvoke $r2.<android.widget.FrameLayout: void removeAllViews()>()
+9ZZZ<init>:net.phunehehe.foocam.MainActivity:specialinvoke $r0.<android.app.Activity: void <init>()>()
+10ZZZ<init>:net.phunehehe.foocam.MainActivity:$r1 = new net.phunehehe.foocam.MainActivity$1
+11ZZZ<init>:net.phunehehe.foocam.MainActivity:specialinvoke $r1.<net.phunehehe.foocam.MainActivity$1: void <init>(net.phunehehe.foocam.MainActivity)>($r0)
+12ZZZ<init>:net.phunehehe.foocam.MainActivity$1:$r0.<net.phunehehe.foocam.MainActivity$1: net.phunehehe.foocam.MainActivity this$0> = $r1
+13ZZZ<init>:net.phunehehe.foocam.MainActivity$1:specialinvoke $r0.<java.lang.Object: void <init>()>()
+14ZZZ<init>:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: android.view.View$OnClickListener captureButtonListener> = $r1
+15ZZZ<init>:net.phunehehe.foocam.MainActivity:$r2 = new net.phunehehe.foocam.MainActivity$2
+16ZZZ<init>:net.phunehehe.foocam.MainActivity:specialinvoke $r2.<net.phunehehe.foocam.MainActivity$2: void <init>(net.phunehehe.foocam.MainActivity)>($r0)
+17ZZZ<init>:net.phunehehe.foocam.MainActivity$2:$r0.<net.phunehehe.foocam.MainActivity$2: net.phunehehe.foocam.MainActivity this$0> = $r1
+18ZZZ<init>:net.phunehehe.foocam.MainActivity$2:specialinvoke $r0.<net.phunehehe.foocam.OnItemSelectedListener: void <init>()>()
+19ZZZ<init>:net.phunehehe.foocam.OnItemSelectedListener:specialinvoke $r0.<java.lang.Object: void <init>()>()
+20ZZZ<init>:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: net.phunehehe.foocam.OnItemSelectedListener numberOfStopsListener> = $r2
+22ZZZ<init>:net.phunehehe.foocam.MainActivity:specialinvoke $r3.<net.phunehehe.foocam.MainActivity$3: void <init>(net.phunehehe.foocam.MainActivity)>($r0)
+23ZZZ<init>:net.phunehehe.foocam.MainActivity$3:$r0.<net.phunehehe.foocam.MainActivity$3: net.phunehehe.foocam.MainActivity this$0> = $r1
+24ZZZ<init>:net.phunehehe.foocam.MainActivity$3:specialinvoke $r0.<net.phunehehe.foocam.OnItemSelectedListener: void <init>()>()
+25ZZZ<init>:net.phunehehe.foocam.OnItemSelectedListener:specialinvoke $r0.<java.lang.Object: void <init>()>()
+26ZZZ<init>:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: net.phunehehe.foocam.OnItemSelectedListener resolutionSpinnerListener> = $r3
+27ZZZ<init>:net.phunehehe.foocam.MainActivity:$r4 = new net.phunehehe.foocam.MainActivity$4
+28ZZZ<init>:net.phunehehe.foocam.MainActivity:specialinvoke $r4.<net.phunehehe.foocam.MainActivity$4: void <init>(net.phunehehe.foocam.MainActivity)>($r0)
+29ZZZ<init>:net.phunehehe.foocam.MainActivity$4:$r0.<net.phunehehe.foocam.MainActivity$4: net.phunehehe.foocam.MainActivity this$0> = $r1
+30ZZZ<init>:net.phunehehe.foocam.MainActivity$4:specialinvoke $r0.<net.phunehehe.foocam.OnItemSelectedListener: void <init>()>()
+31ZZZ<init>:net.phunehehe.foocam.OnItemSelectedListener:specialinvoke $r0.<java.lang.Object: void <init>()>()
+32ZZZ<init>:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: net.phunehehe.foocam.OnItemSelectedListener focusSpinnerListener> = $r4
+33ZZZonCreate:net.phunehehe.foocam.MainActivity:specialinvoke $r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)
+34ZZZonCreate:net.phunehehe.foocam.MainActivity:$r4 = <net.phunehehe.foocam.MainActivity: java.lang.String CRITTERCISM_APP_ID>
+35ZZZonCreate:net.phunehehe.foocam.MainActivity:if $r4 == null goto virtualinvoke $r0.<net.phunehehe.foocam.MainActivity: void setContentView(int)>(2130903040)
+36ZZZonCreate:net.phunehehe.foocam.MainActivity:virtualinvoke $r0.<net.phunehehe.foocam.MainActivity: void setContentView(int)>(2130903040)
+37ZZZonCreate:net.phunehehe.foocam.MainActivity:$r5 = virtualinvoke $r0.<net.phunehehe.foocam.MainActivity: android.view.View findViewById(int)>(2131165184)
+38ZZZonCreate:net.phunehehe.foocam.MainActivity:$r6 = (android.widget.FrameLayout) $r5
+39ZZZonCreate:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: android.widget.FrameLayout preview> = $r6
+40ZZZonCreate:net.phunehehe.foocam.MainActivity:$r5 = virtualinvoke $r0.<net.phunehehe.foocam.MainActivity: android.view.View findViewById(int)>(2131165188)
+41ZZZonCreate:net.phunehehe.foocam.MainActivity:$r7 = (android.widget.Button) $r5
+42ZZZonCreate:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: android.widget.Button captureButton> = $r7
+43ZZZonCreate:net.phunehehe.foocam.MainActivity:$r7 = $r0.<net.phunehehe.foocam.MainActivity: android.widget.Button captureButton>
+44ZZZonCreate:net.phunehehe.foocam.MainActivity:$r3 = $r0.<net.phunehehe.foocam.MainActivity: android.view.View$OnClickListener captureButtonListener>
+45ZZZonCreate:net.phunehehe.foocam.MainActivity:virtualinvoke $r7.<android.widget.Button: void setOnClickListener(android.view.View$OnClickListener)>($r3)
+46ZZZonCreate:net.phunehehe.foocam.MainActivity:specialinvoke $r0.<net.phunehehe.foocam.MainActivity: void initializeCamera()>()
+47ZZZinitializeCamera:net.phunehehe.foocam.MainActivity:$r1 = staticinvoke <android.hardware.Camera: android.hardware.Camera open(int)>(0)
+48ZZZinitializeCamera:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: android.hardware.Camera camera> = $r1
+49ZZZonCreate:net.phunehehe.foocam.MainActivity:specialinvoke $r0.<net.phunehehe.foocam.MainActivity: void calculateCameraParameters()>()
+50ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r1 = $r0.<net.phunehehe.foocam.MainActivity: android.hardware.Camera camera>
+51ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r2 = virtualinvoke $r1.<android.hardware.Camera: android.hardware.Camera$Parameters getParameters()>()
+52ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r3 = virtualinvoke $r2.<android.hardware.Camera$Parameters: java.util.List getSupportedFocusModes()>()
+53ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: java.util.List focusModes> = $r3
+54ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f1 = virtualinvoke $r2.<android.hardware.Camera$Parameters: float getExposureCompensationStep()>()
+55ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: float exposureCompensationStep> = $f1
+56ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:virtualinvoke $r2.<android.hardware.Camera$Parameters: void setJpegQuality(int)>(100)
+57ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r4 = virtualinvoke $r0.<net.phunehehe.foocam.MainActivity: android.view.WindowManager getWindowManager()>()
+58ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r5 = interfaceinvoke $r4.<android.view.WindowManager: android.view.Display getDefaultDisplay()>()
+59ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = virtualinvoke $r5.<android.view.Display: int getWidth()>()
+60ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f1 = (float) $i0
+61ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = virtualinvoke $r5.<android.view.Display: int getHeight()>()
+62ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f0 = (float) $i0
+63ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f1 = $f1 / $f0
+64ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r3 = virtualinvoke $r2.<android.hardware.Camera$Parameters: java.util.List getSupportedPreviewSizes()>()
+65ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r6 = interfaceinvoke $r3.<java.util.List: java.util.Iterator iterator()>()
+66ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$z0 = interfaceinvoke $r6.<java.util.Iterator: boolean hasNext()>()
+67ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:if $z0 == 0 goto $r9 = new java.util.LinkedList
+68ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r7 = interfaceinvoke $r6.<java.util.Iterator: java.lang.Object next()>()
+69ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r8 = (android.hardware.Camera$Size) $r7
+70ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = $r8.<android.hardware.Camera$Size: int width>
+71ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f0 = (float) $i0
+72ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = $r8.<android.hardware.Camera$Size: int height>
+73ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f2 = (float) $i0
+74ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f0 = $f0 / $f2
+75ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f0 = $f0 - $f1
+76ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f0 = staticinvoke <java.lang.Math: float abs(float)>($f0)
+77ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$d0 = (double) $f0
+78ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$b1 = $d0 cmpg 0.1
+80ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$z0 = interfaceinvoke $r6.<java.util.Iterator: boolean hasNext()>()
+81ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:if $z0 == 0 goto $r9 = new java.util.LinkedList
+82ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r7 = interfaceinvoke $r6.<java.util.Iterator: java.lang.Object next()>()
+83ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r8 = (android.hardware.Camera$Size) $r7
+84ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = $r8.<android.hardware.Camera$Size: int width>
+85ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f0 = (float) $i0
+86ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = $r8.<android.hardware.Camera$Size: int height>
+87ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f2 = (float) $i0
+88ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f0 = $f0 / $f2
+89ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f0 = $f0 - $f1
+90ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f0 = staticinvoke <java.lang.Math: float abs(float)>($f0)
+91ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$d0 = (double) $f0
+92ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$b1 = $d0 cmpg 0.1
+94ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$z0 = interfaceinvoke $r6.<java.util.Iterator: boolean hasNext()>()
+95ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:if $z0 == 0 goto $r9 = new java.util.LinkedList
+96ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r7 = interfaceinvoke $r6.<java.util.Iterator: java.lang.Object next()>()
+97ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r8 = (android.hardware.Camera$Size) $r7
+98ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = $r8.<android.hardware.Camera$Size: int width>
+99ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f0 = (float) $i0
+100ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = $r8.<android.hardware.Camera$Size: int height>
+101ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f2 = (float) $i0
+102ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f0 = $f0 / $f2
+103ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f0 = $f0 - $f1
+104ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f0 = staticinvoke <java.lang.Math: float abs(float)>($f0)
+105ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$d0 = (double) $f0
+106ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$b1 = $d0 cmpg 0.1
+108ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$z0 = interfaceinvoke $r6.<java.util.Iterator: boolean hasNext()>()
+109ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:if $z0 == 0 goto $r9 = new java.util.LinkedList
+110ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r7 = interfaceinvoke $r6.<java.util.Iterator: java.lang.Object next()>()
+111ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r8 = (android.hardware.Camera$Size) $r7
+112ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = $r8.<android.hardware.Camera$Size: int width>
+113ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f0 = (float) $i0
+114ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = $r8.<android.hardware.Camera$Size: int height>
+115ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f2 = (float) $i0
+116ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f0 = $f0 / $f2
+117ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f0 = $f0 - $f1
+118ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f0 = staticinvoke <java.lang.Math: float abs(float)>($f0)
+119ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$d0 = (double) $f0
+120ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$b1 = $d0 cmpg 0.1
+122ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$z0 = interfaceinvoke $r6.<java.util.Iterator: boolean hasNext()>()
+123ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:if $z0 == 0 goto $r9 = new java.util.LinkedList
+124ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r7 = interfaceinvoke $r6.<java.util.Iterator: java.lang.Object next()>()
+125ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r8 = (android.hardware.Camera$Size) $r7
+126ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = $r8.<android.hardware.Camera$Size: int width>
+127ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f0 = (float) $i0
+128ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = $r8.<android.hardware.Camera$Size: int height>
+129ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f2 = (float) $i0
+130ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f0 = $f0 / $f2
+131ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f0 = $f0 - $f1
+132ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f0 = staticinvoke <java.lang.Math: float abs(float)>($f0)
+133ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$d0 = (double) $f0
+134ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$b1 = $d0 cmpg 0.1
+136ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$z0 = interfaceinvoke $r6.<java.util.Iterator: boolean hasNext()>()
+137ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:if $z0 == 0 goto $r9 = new java.util.LinkedList
+138ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r7 = interfaceinvoke $r6.<java.util.Iterator: java.lang.Object next()>()
+139ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r8 = (android.hardware.Camera$Size) $r7
+140ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = $r8.<android.hardware.Camera$Size: int width>
+141ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f0 = (float) $i0
+142ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = $r8.<android.hardware.Camera$Size: int height>
+143ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f2 = (float) $i0
+144ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f0 = $f0 / $f2
+145ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f0 = $f0 - $f1
+146ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f0 = staticinvoke <java.lang.Math: float abs(float)>($f0)
+147ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$d0 = (double) $f0
+148ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$b1 = $d0 cmpg 0.1
+150ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$z0 = interfaceinvoke $r6.<java.util.Iterator: boolean hasNext()>()
+151ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:if $z0 == 0 goto $r9 = new java.util.LinkedList
+152ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r9 = new java.util.LinkedList
+153ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:specialinvoke $r9.<java.util.LinkedList: void <init>()>()
+154ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: java.util.List numberOfStopsList> = $r9
+155ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = virtualinvoke $r2.<android.hardware.Camera$Parameters: int getMinExposureCompensation()>()
+156ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i2 = virtualinvoke $r2.<android.hardware.Camera$Parameters: int getMaxExposureCompensation()>()
+157ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i3 = $i2 + $i0
+158ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i3 = $i3 / 2
+159ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: int midExposureLevel> = $i3
+160ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = $i2 - $i0
+161ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = $i0 + 1
+162ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: int totalStops> = $i0
+163ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = $r0.<net.phunehehe.foocam.MainActivity: int totalStops>
+164ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:if $i0 < 3 goto $r3 = virtualinvoke $r2.<android.hardware.Camera$Parameters: java.util.List getSupportedPictureSizes()>()
+165ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = 3
+166ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i2 = $r0.<net.phunehehe.foocam.MainActivity: int totalStops>
+167ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:if $i0 > $i2 goto $r3 = virtualinvoke $r2.<android.hardware.Camera$Parameters: java.util.List getSupportedPictureSizes()>()
+168ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r3 = $r0.<net.phunehehe.foocam.MainActivity: java.util.List numberOfStopsList>
+169ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r10 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($i0)
+170ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:interfaceinvoke $r3.<java.util.List: boolean add(java.lang.Object)>($r10)
+171ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = $i0 + 2
+172ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i2 = $r0.<net.phunehehe.foocam.MainActivity: int totalStops>
+173ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:if $i0 > $i2 goto $r3 = virtualinvoke $r2.<android.hardware.Camera$Parameters: java.util.List getSupportedPictureSizes()>()
+174ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r3 = $r0.<net.phunehehe.foocam.MainActivity: java.util.List numberOfStopsList>
+175ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r10 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($i0)
+176ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:interfaceinvoke $r3.<java.util.List: boolean add(java.lang.Object)>($r10)
+177ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = $i0 + 2
+178ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i2 = $r0.<net.phunehehe.foocam.MainActivity: int totalStops>
+179ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:if $i0 > $i2 goto $r3 = virtualinvoke $r2.<android.hardware.Camera$Parameters: java.util.List getSupportedPictureSizes()>()
+180ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r3 = $r0.<net.phunehehe.foocam.MainActivity: java.util.List numberOfStopsList>
+181ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r10 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($i0)
+182ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:interfaceinvoke $r3.<java.util.List: boolean add(java.lang.Object)>($r10)
+183ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = $i0 + 2
+184ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i2 = $r0.<net.phunehehe.foocam.MainActivity: int totalStops>
+185ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:if $i0 > $i2 goto $r3 = virtualinvoke $r2.<android.hardware.Camera$Parameters: java.util.List getSupportedPictureSizes()>()
+186ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r3 = $r0.<net.phunehehe.foocam.MainActivity: java.util.List numberOfStopsList>
+187ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r10 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($i0)
+188ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:interfaceinvoke $r3.<java.util.List: boolean add(java.lang.Object)>($r10)
+189ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = $i0 + 2
+190ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i2 = $r0.<net.phunehehe.foocam.MainActivity: int totalStops>
+191ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:if $i0 > $i2 goto $r3 = virtualinvoke $r2.<android.hardware.Camera$Parameters: java.util.List getSupportedPictureSizes()>()
+192ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r3 = $r0.<net.phunehehe.foocam.MainActivity: java.util.List numberOfStopsList>
+193ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r10 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($i0)
+194ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:interfaceinvoke $r3.<java.util.List: boolean add(java.lang.Object)>($r10)
+195ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = $i0 + 2
+196ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i2 = $r0.<net.phunehehe.foocam.MainActivity: int totalStops>
+197ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:if $i0 > $i2 goto $r3 = virtualinvoke $r2.<android.hardware.Camera$Parameters: java.util.List getSupportedPictureSizes()>()
+198ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r3 = $r0.<net.phunehehe.foocam.MainActivity: java.util.List numberOfStopsList>
+199ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r10 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($i0)
+200ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:interfaceinvoke $r3.<java.util.List: boolean add(java.lang.Object)>($r10)
+201ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = $i0 + 2
+202ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i2 = $r0.<net.phunehehe.foocam.MainActivity: int totalStops>
+203ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:if $i0 > $i2 goto $r3 = virtualinvoke $r2.<android.hardware.Camera$Parameters: java.util.List getSupportedPictureSizes()>()
+204ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r3 = virtualinvoke $r2.<android.hardware.Camera$Parameters: java.util.List getSupportedPictureSizes()>()
+205ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: java.util.List resolutions> = $r3
+206ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r11 = new java.util.ArrayList
+207ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r3 = $r0.<net.phunehehe.foocam.MainActivity: java.util.List resolutions>
+208ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = interfaceinvoke $r3.<java.util.List: int size()>()
+209ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:specialinvoke $r11.<java.util.ArrayList: void <init>(int)>($i0)
+210ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: java.util.List resolutionDescriptions> = $r11
+211ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r3 = $r0.<net.phunehehe.foocam.MainActivity: java.util.List resolutions>
+212ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r6 = interfaceinvoke $r3.<java.util.List: java.util.Iterator iterator()>()
+213ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$z0 = interfaceinvoke $r6.<java.util.Iterator: boolean hasNext()>()
+214ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:if $z0 == 0 goto $r1 = $r0.<net.phunehehe.foocam.MainActivity: android.hardware.Camera camera>
+215ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r7 = interfaceinvoke $r6.<java.util.Iterator: java.lang.Object next()>()
+216ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r8 = (android.hardware.Camera$Size) $r7
+217ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r3 = $r0.<net.phunehehe.foocam.MainActivity: java.util.List resolutionDescriptions>
+218ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r12 = new java.lang.StringBuilder
+219ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:specialinvoke $r12.<java.lang.StringBuilder: void <init>()>()
+221ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r12 = virtualinvoke $r12.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($i0)
+222ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r12 = virtualinvoke $r12.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" x ")
+223ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = $r8.<android.hardware.Camera$Size: int height>
+224ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r12 = virtualinvoke $r12.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($i0)
+225ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r13 = virtualinvoke $r12.<java.lang.StringBuilder: java.lang.String toString()>()
+226ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:interfaceinvoke $r3.<java.util.List: boolean add(java.lang.Object)>($r13)
+227ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$z0 = interfaceinvoke $r6.<java.util.Iterator: boolean hasNext()>()
+228ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:if $z0 == 0 goto $r1 = $r0.<net.phunehehe.foocam.MainActivity: android.hardware.Camera camera>
+229ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r7 = interfaceinvoke $r6.<java.util.Iterator: java.lang.Object next()>()
+230ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r8 = (android.hardware.Camera$Size) $r7
+231ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r3 = $r0.<net.phunehehe.foocam.MainActivity: java.util.List resolutionDescriptions>
+232ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r12 = new java.lang.StringBuilder
+233ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:specialinvoke $r12.<java.lang.StringBuilder: void <init>()>()
+235ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r12 = virtualinvoke $r12.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($i0)
+236ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r12 = virtualinvoke $r12.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" x ")
+237ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = $r8.<android.hardware.Camera$Size: int height>
+238ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r12 = virtualinvoke $r12.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($i0)
+239ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r13 = virtualinvoke $r12.<java.lang.StringBuilder: java.lang.String toString()>()
+240ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:interfaceinvoke $r3.<java.util.List: boolean add(java.lang.Object)>($r13)
+241ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$z0 = interfaceinvoke $r6.<java.util.Iterator: boolean hasNext()>()
+242ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:if $z0 == 0 goto $r1 = $r0.<net.phunehehe.foocam.MainActivity: android.hardware.Camera camera>
+243ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r7 = interfaceinvoke $r6.<java.util.Iterator: java.lang.Object next()>()
+244ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r8 = (android.hardware.Camera$Size) $r7
+245ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r3 = $r0.<net.phunehehe.foocam.MainActivity: java.util.List resolutionDescriptions>
+246ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r12 = new java.lang.StringBuilder
+247ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:specialinvoke $r12.<java.lang.StringBuilder: void <init>()>()
+249ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r12 = virtualinvoke $r12.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($i0)
+250ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r12 = virtualinvoke $r12.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" x ")
+251ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = $r8.<android.hardware.Camera$Size: int height>
+252ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r12 = virtualinvoke $r12.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($i0)
+253ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r13 = virtualinvoke $r12.<java.lang.StringBuilder: java.lang.String toString()>()
+254ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:interfaceinvoke $r3.<java.util.List: boolean add(java.lang.Object)>($r13)
+255ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$z0 = interfaceinvoke $r6.<java.util.Iterator: boolean hasNext()>()
+256ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:if $z0 == 0 goto $r1 = $r0.<net.phunehehe.foocam.MainActivity: android.hardware.Camera camera>
+257ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r7 = interfaceinvoke $r6.<java.util.Iterator: java.lang.Object next()>()
+258ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r8 = (android.hardware.Camera$Size) $r7
+259ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r3 = $r0.<net.phunehehe.foocam.MainActivity: java.util.List resolutionDescriptions>
+260ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r12 = new java.lang.StringBuilder
+261ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:specialinvoke $r12.<java.lang.StringBuilder: void <init>()>()
+263ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r12 = virtualinvoke $r12.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($i0)
+264ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r12 = virtualinvoke $r12.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" x ")
+265ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = $r8.<android.hardware.Camera$Size: int height>
+266ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r12 = virtualinvoke $r12.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($i0)
+267ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r13 = virtualinvoke $r12.<java.lang.StringBuilder: java.lang.String toString()>()
+268ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:interfaceinvoke $r3.<java.util.List: boolean add(java.lang.Object)>($r13)
+269ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$z0 = interfaceinvoke $r6.<java.util.Iterator: boolean hasNext()>()
+270ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:if $z0 == 0 goto $r1 = $r0.<net.phunehehe.foocam.MainActivity: android.hardware.Camera camera>
+271ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r7 = interfaceinvoke $r6.<java.util.Iterator: java.lang.Object next()>()
+272ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r8 = (android.hardware.Camera$Size) $r7
+273ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r3 = $r0.<net.phunehehe.foocam.MainActivity: java.util.List resolutionDescriptions>
+274ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r12 = new java.lang.StringBuilder
+275ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:specialinvoke $r12.<java.lang.StringBuilder: void <init>()>()
+277ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r12 = virtualinvoke $r12.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($i0)
+278ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r12 = virtualinvoke $r12.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" x ")
+279ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = $r8.<android.hardware.Camera$Size: int height>
+280ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r12 = virtualinvoke $r12.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($i0)
+281ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r13 = virtualinvoke $r12.<java.lang.StringBuilder: java.lang.String toString()>()
+282ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:interfaceinvoke $r3.<java.util.List: boolean add(java.lang.Object)>($r13)
+283ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$z0 = interfaceinvoke $r6.<java.util.Iterator: boolean hasNext()>()
+284ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:if $z0 == 0 goto $r1 = $r0.<net.phunehehe.foocam.MainActivity: android.hardware.Camera camera>
+285ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r7 = interfaceinvoke $r6.<java.util.Iterator: java.lang.Object next()>()
+286ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r8 = (android.hardware.Camera$Size) $r7
+287ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r3 = $r0.<net.phunehehe.foocam.MainActivity: java.util.List resolutionDescriptions>
+288ZZZonCreate:net.phunehehe.foocam.MainActivity:$r5 = virtualinvoke $r0.<net.phunehehe.foocam.MainActivity: android.view.View findViewById(int)>(2131165185)
+289ZZZonCreate:net.phunehehe.foocam.MainActivity:$r8 = (android.widget.Spinner) $r5
+290ZZZonCreate:net.phunehehe.foocam.MainActivity:$r2 = new android.widget.ArrayAdapter
+291ZZZonCreate:net.phunehehe.foocam.MainActivity:$r9 = $r0.<net.phunehehe.foocam.MainActivity: java.util.List numberOfStopsList>
+292ZZZonCreate:net.phunehehe.foocam.MainActivity:specialinvoke $r2.<android.widget.ArrayAdapter: void <init>(android.content.Context,int,java.util.List)>($r0, 17367048, $r9)
+293ZZZonCreate:net.phunehehe.foocam.MainActivity:virtualinvoke $r2.<android.widget.ArrayAdapter: void setDropDownViewResource(int)>(17367049)
+294ZZZonCreate:net.phunehehe.foocam.MainActivity:virtualinvoke $r8.<android.widget.Spinner: void setAdapter(android.widget.SpinnerAdapter)>($r2)
+295ZZZonCreate:net.phunehehe.foocam.MainActivity:$r10 = $r0.<net.phunehehe.foocam.MainActivity: net.phunehehe.foocam.OnItemSelectedListener numberOfStopsListener>
+296ZZZonCreate:net.phunehehe.foocam.MainActivity:virtualinvoke $r8.<android.widget.Spinner: void setOnItemSelectedListener(android.widget.AdapterView$OnItemSelectedListener)>($r10)
+297ZZZonCreate:net.phunehehe.foocam.MainActivity:$r5 = virtualinvoke $r0.<net.phunehehe.foocam.MainActivity: android.view.View findViewById(int)>(2131165186)
+298ZZZonCreate:net.phunehehe.foocam.MainActivity:$r8 = (android.widget.Spinner) $r5
+299ZZZonCreate:net.phunehehe.foocam.MainActivity:$r2 = new android.widget.ArrayAdapter
+300ZZZonCreate:net.phunehehe.foocam.MainActivity:$r9 = $r0.<net.phunehehe.foocam.MainActivity: java.util.List resolutionDescriptions>
+301ZZZonCreate:net.phunehehe.foocam.MainActivity:specialinvoke $r2.<android.widget.ArrayAdapter: void <init>(android.content.Context,int,java.util.List)>($r0, 17367048, $r9)
+302ZZZonCreate:net.phunehehe.foocam.MainActivity:virtualinvoke $r2.<android.widget.ArrayAdapter: void setDropDownViewResource(int)>(17367049)
+303ZZZonCreate:net.phunehehe.foocam.MainActivity:virtualinvoke $r8.<android.widget.Spinner: void setAdapter(android.widget.SpinnerAdapter)>($r2)
+304ZZZonCreate:net.phunehehe.foocam.MainActivity:$r10 = $r0.<net.phunehehe.foocam.MainActivity: net.phunehehe.foocam.OnItemSelectedListener resolutionSpinnerListener>
+305ZZZonCreate:net.phunehehe.foocam.MainActivity:virtualinvoke $r8.<android.widget.Spinner: void setOnItemSelectedListener(android.widget.AdapterView$OnItemSelectedListener)>($r10)
+306ZZZonCreate:net.phunehehe.foocam.MainActivity:$r5 = virtualinvoke $r0.<net.phunehehe.foocam.MainActivity: android.view.View findViewById(int)>(2131165187)
+307ZZZonCreate:net.phunehehe.foocam.MainActivity:$r8 = (android.widget.Spinner) $r5
+308ZZZonCreate:net.phunehehe.foocam.MainActivity:$r2 = new android.widget.ArrayAdapter
+309ZZZonCreate:net.phunehehe.foocam.MainActivity:$r9 = $r0.<net.phunehehe.foocam.MainActivity: java.util.List focusModes>
+310ZZZonCreate:net.phunehehe.foocam.MainActivity:specialinvoke $r2.<android.widget.ArrayAdapter: void <init>(android.content.Context,int,java.util.List)>($r0, 17367048, $r9)
+311ZZZonCreate:net.phunehehe.foocam.MainActivity:virtualinvoke $r2.<android.widget.ArrayAdapter: void setDropDownViewResource(int)>(17367049)
+312ZZZonCreate:net.phunehehe.foocam.MainActivity:virtualinvoke $r8.<android.widget.Spinner: void setAdapter(android.widget.SpinnerAdapter)>($r2)
+313ZZZonCreate:net.phunehehe.foocam.MainActivity:$r10 = $r0.<net.phunehehe.foocam.MainActivity: net.phunehehe.foocam.OnItemSelectedListener focusSpinnerListener>
+314ZZZonCreate:net.phunehehe.foocam.MainActivity:virtualinvoke $r8.<android.widget.Spinner: void setOnItemSelectedListener(android.widget.AdapterView$OnItemSelectedListener)>($r10)
+315ZZZonResume:net.phunehehe.foocam.MainActivity:specialinvoke $r0.<android.app.Activity: void onResume()>()
+316ZZZonResume:net.phunehehe.foocam.MainActivity:$r2 = $r0.<net.phunehehe.foocam.MainActivity: android.hardware.Camera camera>
+317ZZZonResume:net.phunehehe.foocam.MainActivity:if $r2 != null goto $r1 = new net.phunehehe.foocam.CameraPreview
+318ZZZonResume:net.phunehehe.foocam.MainActivity:$r1 = new net.phunehehe.foocam.CameraPreview
+319ZZZonResume:net.phunehehe.foocam.MainActivity:$r2 = $r0.<net.phunehehe.foocam.MainActivity: android.hardware.Camera camera>
+320ZZZonResume:net.phunehehe.foocam.MainActivity:specialinvoke $r1.<net.phunehehe.foocam.CameraPreview: void <init>(android.content.Context,android.hardware.Camera)>($r0, $r2)
+321ZZZ<init>:net.phunehehe.foocam.CameraPreview:specialinvoke $r0.<android.view.SurfaceView: void <init>(android.content.Context)>($r1)
+322ZZZ<init>:net.phunehehe.foocam.CameraPreview:$r0.<net.phunehehe.foocam.CameraPreview: android.hardware.Camera camera> = $r2
+323ZZZ<init>:net.phunehehe.foocam.CameraPreview:$r3 = virtualinvoke $r0.<net.phunehehe.foocam.CameraPreview: android.view.SurfaceHolder getHolder()>()
+324ZZZ<init>:net.phunehehe.foocam.CameraPreview:$r0.<net.phunehehe.foocam.CameraPreview: android.view.SurfaceHolder surfaceHolder> = $r3
+325ZZZ<init>:net.phunehehe.foocam.CameraPreview:$r3 = $r0.<net.phunehehe.foocam.CameraPreview: android.view.SurfaceHolder surfaceHolder>
+326ZZZ<init>:net.phunehehe.foocam.CameraPreview:interfaceinvoke $r3.<android.view.SurfaceHolder: void addCallback(android.view.SurfaceHolder$Callback)>($r0)
+327ZZZ<init>:net.phunehehe.foocam.CameraPreview:$r3 = $r0.<net.phunehehe.foocam.CameraPreview: android.view.SurfaceHolder surfaceHolder>
+328ZZZ<init>:net.phunehehe.foocam.CameraPreview:interfaceinvoke $r3.<android.view.SurfaceHolder: void setType(int)>(3)
+329ZZZonResume:net.phunehehe.foocam.MainActivity:$r3 = $r0.<net.phunehehe.foocam.MainActivity: android.widget.FrameLayout preview>
+330ZZZonResume:net.phunehehe.foocam.MainActivity:virtualinvoke $r3.<android.widget.FrameLayout: void addView(android.view.View)>($r1)
+331ZZZsurfaceCreated:net.phunehehe.foocam.CameraPreview:specialinvoke $r0.<net.phunehehe.foocam.CameraPreview: void startPreview()>()
+332ZZZstartPreview:net.phunehehe.foocam.CameraPreview:$r2 = $r0.<net.phunehehe.foocam.CameraPreview: android.hardware.Camera camera>
+333ZZZstartPreview:net.phunehehe.foocam.CameraPreview:$r3 = $r0.<net.phunehehe.foocam.CameraPreview: android.view.SurfaceHolder surfaceHolder>
+334ZZZstartPreview:net.phunehehe.foocam.CameraPreview:virtualinvoke $r2.<android.hardware.Camera: void setPreviewDisplay(android.view.SurfaceHolder)>($r3)
+335ZZZstartPreview:net.phunehehe.foocam.CameraPreview:$r2 = $r0.<net.phunehehe.foocam.CameraPreview: android.hardware.Camera camera>
+336ZZZstartPreview:net.phunehehe.foocam.CameraPreview:virtualinvoke $r2.<android.hardware.Camera: void startPreview()>()
+337ZZZsurfaceChanged:net.phunehehe.foocam.CameraPreview:$r1 = $r0.<net.phunehehe.foocam.CameraPreview: android.view.SurfaceHolder surfaceHolder>
+338ZZZsurfaceChanged:net.phunehehe.foocam.CameraPreview:$r2 = interfaceinvoke $r1.<android.view.SurfaceHolder: android.view.Surface getSurface()>()
+339ZZZsurfaceChanged:net.phunehehe.foocam.CameraPreview:if $r2 != null goto $r3 = $r0.<net.phunehehe.foocam.CameraPreview: android.hardware.Camera camera>
+340ZZZsurfaceChanged:net.phunehehe.foocam.CameraPreview:$r3 = $r0.<net.phunehehe.foocam.CameraPreview: android.hardware.Camera camera>
+341ZZZsurfaceChanged:net.phunehehe.foocam.CameraPreview:virtualinvoke $r3.<android.hardware.Camera: void stopPreview()>()
+342ZZZsurfaceChanged:net.phunehehe.foocam.CameraPreview:specialinvoke $r0.<net.phunehehe.foocam.CameraPreview: void startPreview()>()
+343ZZZstartPreview:net.phunehehe.foocam.CameraPreview:$r2 = $r0.<net.phunehehe.foocam.CameraPreview: android.hardware.Camera camera>
+344ZZZstartPreview:net.phunehehe.foocam.CameraPreview:$r3 = $r0.<net.phunehehe.foocam.CameraPreview: android.view.SurfaceHolder surfaceHolder>
+345ZZZstartPreview:net.phunehehe.foocam.CameraPreview:virtualinvoke $r2.<android.hardware.Camera: void setPreviewDisplay(android.view.SurfaceHolder)>($r3)
+346ZZZstartPreview:net.phunehehe.foocam.CameraPreview:$r2 = $r0.<net.phunehehe.foocam.CameraPreview: android.hardware.Camera camera>
+347ZZZstartPreview:net.phunehehe.foocam.CameraPreview:virtualinvoke $r2.<android.hardware.Camera: void startPreview()>()
+348ZZZonItemSelected:net.phunehehe.foocam.MainActivity$2:$r3 = $r0.<net.phunehehe.foocam.MainActivity$2: net.phunehehe.foocam.MainActivity this$0>
+349ZZZonItemSelected:net.phunehehe.foocam.MainActivity$2:$r4 = $r0.<net.phunehehe.foocam.MainActivity$2: net.phunehehe.foocam.MainActivity this$0>
+350ZZZonItemSelected:net.phunehehe.foocam.MainActivity$2:$r5 = staticinvoke <net.phunehehe.foocam.MainActivity: java.util.List access$500(net.phunehehe.foocam.MainActivity)>($r4)
+351ZZZaccess$500:net.phunehehe.foocam.MainActivity:r1 = $r0.<net.phunehehe.foocam.MainActivity: java.util.List numberOfStopsList>
+352ZZZonItemSelected:net.phunehehe.foocam.MainActivity$2:$r6 = interfaceinvoke $r5.<java.util.List: java.lang.Object get(int)>($i0)
+353ZZZonItemSelected:net.phunehehe.foocam.MainActivity$2:$r7 = (java.lang.Integer) $r6
+355ZZZonItemSelected:net.phunehehe.foocam.MainActivity$2:staticinvoke <net.phunehehe.foocam.MainActivity: int access$202(net.phunehehe.foocam.MainActivity,int)>($r3, $i0)
+356ZZZaccess$202:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: int numberOfStops> = $i0
+357ZZZonItemSelected:net.phunehehe.foocam.MainActivity$3:$r3 = $r0.<net.phunehehe.foocam.MainActivity$3: net.phunehehe.foocam.MainActivity this$0>
+358ZZZonItemSelected:net.phunehehe.foocam.MainActivity$3:$r4 = staticinvoke <net.phunehehe.foocam.MainActivity: java.util.List access$600(net.phunehehe.foocam.MainActivity)>($r3)
+359ZZZaccess$600:net.phunehehe.foocam.MainActivity:r1 = $r0.<net.phunehehe.foocam.MainActivity: java.util.List resolutions>
+360ZZZonItemSelected:net.phunehehe.foocam.MainActivity$3:$r5 = interfaceinvoke $r4.<java.util.List: java.lang.Object get(int)>($i0)
+361ZZZonItemSelected:net.phunehehe.foocam.MainActivity$3:$r6 = (android.hardware.Camera$Size) $r5
+362ZZZonItemSelected:net.phunehehe.foocam.MainActivity$3:$r3 = $r0.<net.phunehehe.foocam.MainActivity$3: net.phunehehe.foocam.MainActivity this$0>
+363ZZZonItemSelected:net.phunehehe.foocam.MainActivity$3:$r7 = staticinvoke <net.phunehehe.foocam.MainActivity: android.hardware.Camera access$700(net.phunehehe.foocam.MainActivity)>($r3)
+364ZZZaccess$700:net.phunehehe.foocam.MainActivity:r1 = $r0.<net.phunehehe.foocam.MainActivity: android.hardware.Camera camera>
+365ZZZonItemSelected:net.phunehehe.foocam.MainActivity$3:$r8 = virtualinvoke $r7.<android.hardware.Camera: android.hardware.Camera$Parameters getParameters()>()
+366ZZZonItemSelected:net.phunehehe.foocam.MainActivity$3:$i2 = $r6.<android.hardware.Camera$Size: int width>
+367ZZZonItemSelected:net.phunehehe.foocam.MainActivity$3:$i0 = $r6.<android.hardware.Camera$Size: int height>
+368ZZZonItemSelected:net.phunehehe.foocam.MainActivity$3:virtualinvoke $r8.<android.hardware.Camera$Parameters: void setPictureSize(int,int)>($i2, $i0)
+369ZZZonItemSelected:net.phunehehe.foocam.MainActivity$3:$r3 = $r0.<net.phunehehe.foocam.MainActivity$3: net.phunehehe.foocam.MainActivity this$0>
+370ZZZonItemSelected:net.phunehehe.foocam.MainActivity$3:$r7 = staticinvoke <net.phunehehe.foocam.MainActivity: android.hardware.Camera access$700(net.phunehehe.foocam.MainActivity)>($r3)
+371ZZZaccess$700:net.phunehehe.foocam.MainActivity:r1 = $r0.<net.phunehehe.foocam.MainActivity: android.hardware.Camera camera>
+372ZZZonItemSelected:net.phunehehe.foocam.MainActivity$3:virtualinvoke $r7.<android.hardware.Camera: void setParameters(android.hardware.Camera$Parameters)>($r8)
+373ZZZonItemSelected:net.phunehehe.foocam.MainActivity$4:$r3 = $r0.<net.phunehehe.foocam.MainActivity$4: net.phunehehe.foocam.MainActivity this$0>
+374ZZZonItemSelected:net.phunehehe.foocam.MainActivity$4:$r4 = staticinvoke <net.phunehehe.foocam.MainActivity: java.util.List access$800(net.phunehehe.foocam.MainActivity)>($r3)
+375ZZZaccess$800:net.phunehehe.foocam.MainActivity:r1 = $r0.<net.phunehehe.foocam.MainActivity: java.util.List focusModes>
+376ZZZonItemSelected:net.phunehehe.foocam.MainActivity$4:$r5 = interfaceinvoke $r4.<java.util.List: java.lang.Object get(int)>($i0)
+377ZZZonItemSelected:net.phunehehe.foocam.MainActivity$4:$r6 = (java.lang.String) $r5
+378ZZZonItemSelected:net.phunehehe.foocam.MainActivity$4:$r3 = $r0.<net.phunehehe.foocam.MainActivity$4: net.phunehehe.foocam.MainActivity this$0>
+379ZZZonItemSelected:net.phunehehe.foocam.MainActivity$4:$r7 = staticinvoke <net.phunehehe.foocam.MainActivity: android.hardware.Camera access$700(net.phunehehe.foocam.MainActivity)>($r3)
+380ZZZaccess$700:net.phunehehe.foocam.MainActivity:r1 = $r0.<net.phunehehe.foocam.MainActivity: android.hardware.Camera camera>
+381ZZZonItemSelected:net.phunehehe.foocam.MainActivity$4:$r8 = virtualinvoke $r7.<android.hardware.Camera: android.hardware.Camera$Parameters getParameters()>()
+382ZZZonItemSelected:net.phunehehe.foocam.MainActivity$4:virtualinvoke $r8.<android.hardware.Camera$Parameters: void setFocusMode(java.lang.String)>($r6)
+383ZZZonItemSelected:net.phunehehe.foocam.MainActivity$4:$r3 = $r0.<net.phunehehe.foocam.MainActivity$4: net.phunehehe.foocam.MainActivity this$0>
+384ZZZonItemSelected:net.phunehehe.foocam.MainActivity$4:$r7 = staticinvoke <net.phunehehe.foocam.MainActivity: android.hardware.Camera access$700(net.phunehehe.foocam.MainActivity)>($r3)
+385ZZZaccess$700:net.phunehehe.foocam.MainActivity:r1 = $r0.<net.phunehehe.foocam.MainActivity: android.hardware.Camera camera>
+386ZZZonItemSelected:net.phunehehe.foocam.MainActivity$4:virtualinvoke $r7.<android.hardware.Camera: void setParameters(android.hardware.Camera$Parameters)>($r8)
+387ZZZonItemSelected:net.phunehehe.foocam.MainActivity$4:$z0 = virtualinvoke $r6.<java.lang.String: boolean equals(java.lang.Object)>("auto")
+388ZZZonItemSelected:net.phunehehe.foocam.MainActivity$4:if $z0 != 0 goto $r3 = $r0.<net.phunehehe.foocam.MainActivity$4: net.phunehehe.foocam.MainActivity this$0>
+389ZZZonItemSelected:net.phunehehe.foocam.MainActivity$4:$z0 = virtualinvoke $r6.<java.lang.String: boolean equals(java.lang.Object)>("macro")
+390ZZZonItemSelected:net.phunehehe.foocam.MainActivity$4:if $z0 == 0 goto return
+391ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r2 = $r0.<net.phunehehe.foocam.MainActivity$1: net.phunehehe.foocam.MainActivity this$0>
+392ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r3 = staticinvoke <net.phunehehe.foocam.MainActivity: android.widget.Button access$000(net.phunehehe.foocam.MainActivity)>($r2)
+393ZZZaccess$000:net.phunehehe.foocam.MainActivity:r1 = $r0.<net.phunehehe.foocam.MainActivity: android.widget.Button captureButton>
+394ZZZonClick:net.phunehehe.foocam.MainActivity$1:virtualinvoke $r3.<android.widget.Button: void setClickable(boolean)>(0)
+395ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r2 = $r0.<net.phunehehe.foocam.MainActivity$1: net.phunehehe.foocam.MainActivity this$0>
+396ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r4 = new java.text.SimpleDateFormat
+397ZZZonClick:net.phunehehe.foocam.MainActivity$1:specialinvoke $r4.<java.text.SimpleDateFormat: void <init>(java.lang.String)>("yyyyMMdd_HHmmss_")
+398ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r5 = new java.util.Date
+399ZZZonClick:net.phunehehe.foocam.MainActivity$1:specialinvoke $r5.<java.util.Date: void <init>()>()
+400ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r6 = virtualinvoke $r4.<java.text.SimpleDateFormat: java.lang.String format(java.util.Date)>($r5)
+401ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: java.lang.String access$102(net.phunehehe.foocam.MainActivity,java.lang.String)>($r2, $r6)
+402ZZZaccess$102:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: java.lang.String timestamp> = $r1
+403ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r2 = $r0.<net.phunehehe.foocam.MainActivity$1: net.phunehehe.foocam.MainActivity this$0>
+404ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r7 = $r0.<net.phunehehe.foocam.MainActivity$1: net.phunehehe.foocam.MainActivity this$0>
+405ZZZonClick:net.phunehehe.foocam.MainActivity$1:$i0 = staticinvoke <net.phunehehe.foocam.MainActivity: int access$200(net.phunehehe.foocam.MainActivity)>($r7)
+406ZZZaccess$200:net.phunehehe.foocam.MainActivity:i0 = $r0.<net.phunehehe.foocam.MainActivity: int numberOfStops>
+407ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: void access$300(net.phunehehe.foocam.MainActivity,int)>($r2, $i0)
+408ZZZaccess$300:net.phunehehe.foocam.MainActivity:specialinvoke $r0.<net.phunehehe.foocam.MainActivity: void calculateExposureLevels(int)>($i0)
+409ZZZcalculateExposureLevels:net.phunehehe.foocam.MainActivity:$i1 = $r0.<net.phunehehe.foocam.MainActivity: int totalStops>
+410ZZZcalculateExposureLevels:net.phunehehe.foocam.MainActivity:$i1 = $i1 + -1
+411ZZZcalculateExposureLevels:net.phunehehe.foocam.MainActivity:$i2 = $i0 + -1
+412ZZZcalculateExposureLevels:net.phunehehe.foocam.MainActivity:$i1 = $i1 / $i2
+413ZZZcalculateExposureLevels:net.phunehehe.foocam.MainActivity:$r1 = new java.util.LinkedList
+414ZZZcalculateExposureLevels:net.phunehehe.foocam.MainActivity:specialinvoke $r1.<java.util.LinkedList: void <init>()>()
+415ZZZcalculateExposureLevels:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: java.util.Deque exposureLevels> = $r1
+416ZZZcalculateExposureLevels:net.phunehehe.foocam.MainActivity:$r2 = $r0.<net.phunehehe.foocam.MainActivity: java.util.Deque exposureLevels>
+417ZZZcalculateExposureLevels:net.phunehehe.foocam.MainActivity:$i2 = $r0.<net.phunehehe.foocam.MainActivity: int midExposureLevel>
+418ZZZcalculateExposureLevels:net.phunehehe.foocam.MainActivity:$r3 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($i2)
+419ZZZcalculateExposureLevels:net.phunehehe.foocam.MainActivity:interfaceinvoke $r2.<java.util.Deque: void addLast(java.lang.Object)>($r3)
+420ZZZcalculateExposureLevels:net.phunehehe.foocam.MainActivity:$i2 = $i1
+421ZZZcalculateExposureLevels:net.phunehehe.foocam.MainActivity:$r2 = $r0.<net.phunehehe.foocam.MainActivity: java.util.Deque exposureLevels>
+422ZZZcalculateExposureLevels:net.phunehehe.foocam.MainActivity:$i3 = interfaceinvoke $r2.<java.util.Deque: int size()>()
+424ZZZcalculateExposureLevels:net.phunehehe.foocam.MainActivity:$r2 = $r0.<net.phunehehe.foocam.MainActivity: java.util.Deque exposureLevels>
+425ZZZcalculateExposureLevels:net.phunehehe.foocam.MainActivity:$i3 = $r0.<net.phunehehe.foocam.MainActivity: int midExposureLevel>
+426ZZZcalculateExposureLevels:net.phunehehe.foocam.MainActivity:$i3 = $i3 - $i2
+427ZZZcalculateExposureLevels:net.phunehehe.foocam.MainActivity:$r3 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($i3)
+428ZZZcalculateExposureLevels:net.phunehehe.foocam.MainActivity:interfaceinvoke $r2.<java.util.Deque: void addFirst(java.lang.Object)>($r3)
+429ZZZcalculateExposureLevels:net.phunehehe.foocam.MainActivity:$r2 = $r0.<net.phunehehe.foocam.MainActivity: java.util.Deque exposureLevels>
+430ZZZcalculateExposureLevels:net.phunehehe.foocam.MainActivity:$i3 = $r0.<net.phunehehe.foocam.MainActivity: int midExposureLevel>
+431ZZZcalculateExposureLevels:net.phunehehe.foocam.MainActivity:$i3 = $i3 + $i2
+432ZZZcalculateExposureLevels:net.phunehehe.foocam.MainActivity:$r3 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($i3)
+433ZZZcalculateExposureLevels:net.phunehehe.foocam.MainActivity:interfaceinvoke $r2.<java.util.Deque: void addLast(java.lang.Object)>($r3)
+434ZZZcalculateExposureLevels:net.phunehehe.foocam.MainActivity:$i2 = $i2 + $i1
+435ZZZcalculateExposureLevels:net.phunehehe.foocam.MainActivity:$r2 = $r0.<net.phunehehe.foocam.MainActivity: java.util.Deque exposureLevels>
+436ZZZcalculateExposureLevels:net.phunehehe.foocam.MainActivity:$i3 = interfaceinvoke $r2.<java.util.Deque: int size()>()
+438ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r2 = $r0.<net.phunehehe.foocam.MainActivity$1: net.phunehehe.foocam.MainActivity this$0>
+439ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: boolean access$400(net.phunehehe.foocam.MainActivity)>($r2)
+440ZZZaccess$400:net.phunehehe.foocam.MainActivity:$z0 = specialinvoke $r0.<net.phunehehe.foocam.MainActivity: boolean processQueue()>()
+441ZZZprocessQueue:net.phunehehe.foocam.MainActivity:$r2 = $r0.<net.phunehehe.foocam.MainActivity: java.util.Deque exposureLevels>
+442ZZZprocessQueue:net.phunehehe.foocam.MainActivity:$r3 = interfaceinvoke $r2.<java.util.Deque: java.lang.Object pollFirst()>()
+444ZZZprocessQueue:net.phunehehe.foocam.MainActivity:if $r4 != null goto $i0 = virtualinvoke $r4.<java.lang.Integer: int intValue()>()
+445ZZZprocessQueue:net.phunehehe.foocam.MainActivity:$i0 = virtualinvoke $r4.<java.lang.Integer: int intValue()>()
+446ZZZprocessQueue:net.phunehehe.foocam.MainActivity:$f0 = (float) $i0
+447ZZZprocessQueue:net.phunehehe.foocam.MainActivity:$f1 = $r0.<net.phunehehe.foocam.MainActivity: float exposureCompensationStep>
+448ZZZprocessQueue:net.phunehehe.foocam.MainActivity:$f0 = $f0 * $f1
+449ZZZprocessQueue:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: float currentEv> = $f0
+450ZZZprocessQueue:net.phunehehe.foocam.MainActivity:$r5 = $r0.<net.phunehehe.foocam.MainActivity: android.widget.Button captureButton>
+451ZZZprocessQueue:net.phunehehe.foocam.MainActivity:$r1 = newarray (java.lang.Object)[1]
+452ZZZprocessQueue:net.phunehehe.foocam.MainActivity:$f0 = $r0.<net.phunehehe.foocam.MainActivity: float currentEv>
+453ZZZprocessQueue:net.phunehehe.foocam.MainActivity:$r6 = staticinvoke <java.lang.Float: java.lang.Float valueOf(float)>($f0)
+454ZZZprocessQueue:net.phunehehe.foocam.MainActivity:$r1[0] = $r6
+455ZZZprocessQueue:net.phunehehe.foocam.MainActivity:$r7 = specialinvoke $r0.<net.phunehehe.foocam.MainActivity: java.lang.String format(int,java.lang.Object[])>(2131034115, $r1)
+456ZZZformat:net.phunehehe.foocam.MainActivity:$r2 = virtualinvoke $r0.<net.phunehehe.foocam.MainActivity: java.lang.String getString(int)>($i0)
+457ZZZformat:net.phunehehe.foocam.MainActivity:$r2 = staticinvoke <java.lang.String: java.lang.String format(java.lang.String,java.lang.Object[])>($r2, $r1)
+458ZZZprocessQueue:net.phunehehe.foocam.MainActivity:virtualinvoke $r5.<android.widget.Button: void setText(java.lang.CharSequence)>($r7)
+459ZZZprocessQueue:net.phunehehe.foocam.MainActivity:$r8 = $r0.<net.phunehehe.foocam.MainActivity: android.hardware.Camera camera>
+460ZZZprocessQueue:net.phunehehe.foocam.MainActivity:$r9 = virtualinvoke $r8.<android.hardware.Camera: android.hardware.Camera$Parameters getParameters()>()
+461ZZZprocessQueue:net.phunehehe.foocam.MainActivity:$i0 = virtualinvoke $r4.<java.lang.Integer: int intValue()>()
+462ZZZprocessQueue:net.phunehehe.foocam.MainActivity:virtualinvoke $r9.<android.hardware.Camera$Parameters: void setExposureCompensation(int)>($i0)
+463ZZZprocessQueue:net.phunehehe.foocam.MainActivity:$r8 = $r0.<net.phunehehe.foocam.MainActivity: android.hardware.Camera camera>
+464ZZZprocessQueue:net.phunehehe.foocam.MainActivity:virtualinvoke $r8.<android.hardware.Camera: void setParameters(android.hardware.Camera$Parameters)>($r9)
+465ZZZprocessQueue:net.phunehehe.foocam.MainActivity:$r8 = $r0.<net.phunehehe.foocam.MainActivity: android.hardware.Camera camera>
+466ZZZprocessQueue:net.phunehehe.foocam.MainActivity:virtualinvoke $r8.<android.hardware.Camera: void takePicture(android.hardware.Camera$ShutterCallback,android.hardware.Camera$PictureCallback,android.hardware.Camera$PictureCallback)>(null, null, $r0)
+467ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:$f0 = $r0.<net.phunehehe.foocam.MainActivity: float currentEv>
+468ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:$r5 = specialinvoke $r0.<net.phunehehe.foocam.MainActivity: java.io.File getOutputMediaFile(float)>($f0)
+469ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r2 = "mounted"
+471ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$z0 = virtualinvoke $r2.<java.lang.String: boolean equals(java.lang.Object)>($r3)
+472ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:if $z0 != 0 goto $r1 = new java.io.File
+473ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r1 = new java.io.File
+474ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r2 = <android.os.Environment: java.lang.String DIRECTORY_DCIM>
+475ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r5 = staticinvoke <android.os.Environment: java.io.File getExternalStoragePublicDirectory(java.lang.String)>($r2)
+476ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r2 = virtualinvoke $r0.<net.phunehehe.foocam.MainActivity: java.lang.String getString(int)>(2131034112)
+477ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:specialinvoke $r1.<java.io.File: void <init>(java.io.File,java.lang.String)>($r5, $r2)
+478ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$z0 = virtualinvoke $r1.<java.io.File: boolean exists()>()
+479ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:if $z0 != 0 goto $r5 = new java.io.File
+480ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r5 = new java.io.File
+481ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r6 = newarray (java.lang.Object)[4]
+482ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r2 = virtualinvoke $r1.<java.io.File: java.lang.String getPath()>()
+483ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r6[0] = $r2
+484ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r2 = <java.io.File: java.lang.String separator>
+485ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r6[1] = $r2
+486ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r2 = $r0.<net.phunehehe.foocam.MainActivity: java.lang.String timestamp>
+487ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r6[2] = $r2
+488ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r7 = staticinvoke <java.lang.Float: java.lang.Float valueOf(float)>($f0)
+489ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r6[3] = $r7
+490ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r2 = staticinvoke <java.lang.String: java.lang.String format(java.lang.String,java.lang.Object[])>("%s%s%s%.1f.jpg", $r6)
+491ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:specialinvoke $r5.<java.io.File: void <init>(java.lang.String)>($r2)
+497ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:$r7 = staticinvoke <android.net.Uri: android.net.Uri fromFile(java.io.File)>($r5)
+498ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:specialinvoke r12.<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>("android.intent.action.MEDIA_MOUNTED", $r7)
+499ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:virtualinvoke $r0.<net.phunehehe.foocam.MainActivity: void sendBroadcast(android.content.Intent)>(r12)
