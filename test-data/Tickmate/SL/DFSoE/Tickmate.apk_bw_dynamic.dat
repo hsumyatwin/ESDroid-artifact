@@ -1,0 +1,152 @@
+3092ZZZcursorToTrack:de.smasi.tickmate.database.TracksDataSource:$r3 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(1)
+3091ZZZcursorToTrack:de.smasi.tickmate.database.TracksDataSource:$z0 = 1
+3090ZZZcursorToTrack:de.smasi.tickmate.database.TracksDataSource:$r2 = new de.smasi.tickmate.models.Track
+3089ZZZgetTrack:de.smasi.tickmate.database.TracksDataSource:$r6 = specialinvoke $r0.<de.smasi.tickmate.database.TracksDataSource: de.smasi.tickmate.models.Track cursorToTrack(android.database.Cursor)>($r5)
+3088ZZZgetTrack:de.smasi.tickmate.database.TracksDataSource:interfaceinvoke $r5.<android.database.Cursor: boolean moveToFirst()>()
+3087ZZZgetTrack:de.smasi.tickmate.database.TracksDataSource:$r5 = virtualinvoke $r2.<android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>("tracks", $r1, $r4, null, null, null, null, null)
+3086ZZZgetTrack:de.smasi.tickmate.database.TracksDataSource:$r4 = virtualinvoke $r3.<java.lang.StringBuilder: java.lang.String toString()>()
+3085ZZZgetTrack:de.smasi.tickmate.database.TracksDataSource:virtualinvoke $r3.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($i0)
+3084ZZZgetTrack:de.smasi.tickmate.database.TracksDataSource:virtualinvoke $r3.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("_id = ")
+3083ZZZgetTrack:de.smasi.tickmate.database.TracksDataSource:specialinvoke $r3.<java.lang.StringBuilder: void <init>()>()
+3082ZZZgetTrack:de.smasi.tickmate.database.TracksDataSource:$r3 = new java.lang.StringBuilder
+3081ZZZgetTrack:de.smasi.tickmate.database.TracksDataSource:$r1 = $r0.<de.smasi.tickmate.database.TracksDataSource: java.lang.String[] allColumns>
+3080ZZZgetTrack:de.smasi.tickmate.database.TracksDataSource:$r2 = $r0.<de.smasi.tickmate.database.TracksDataSource: android.database.sqlite.SQLiteDatabase database>
+3073ZZZonActivityResult:de.smasi.tickmate.views.EditTracksActivity:$r4 = virtualinvoke $r3.<de.smasi.tickmate.database.TracksDataSource: de.smasi.tickmate.models.Track getTrack(int)>($i2)
+3072ZZZopen:de.smasi.tickmate.database.TracksDataSource:$r0.<de.smasi.tickmate.database.TracksDataSource: android.database.sqlite.SQLiteDatabase database> = $r1
+3071ZZZopen:de.smasi.tickmate.database.TracksDataSource:$r1 = virtualinvoke $r2.<de.smasi.tickmate.database.DatabaseOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>()
+3070ZZZopen:de.smasi.tickmate.database.TracksDataSource:$r2 = $r0.<de.smasi.tickmate.database.TracksDataSource: de.smasi.tickmate.database.DatabaseOpenHelper dbHelper>
+3069ZZZopen:de.smasi.tickmate.database.TracksDataSource:staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("tickmate", "Opening database")
+3068ZZZopen:de.smasi.tickmate.database.TracksDataSource:if $r1 == null goto staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("tickmate", "Opening database")
+3067ZZZopen:de.smasi.tickmate.database.TracksDataSource:$r1 = $r0.<de.smasi.tickmate.database.TracksDataSource: android.database.sqlite.SQLiteDatabase database>
+3039ZZZonActivityResult:de.smasi.tickmate.views.EditTracksActivity:specialinvoke $r3.<de.smasi.tickmate.database.TracksDataSource: void <init>(android.content.Context)>($r0)
+3038ZZZonActivityResult:de.smasi.tickmate.views.EditTracksActivity:$r3 = new de.smasi.tickmate.database.TracksDataSource
+3037ZZZonActivityResult:de.smasi.tickmate.views.EditTracksActivity:$i2 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String)>("insert_id")
+3036ZZZonActivityResult:de.smasi.tickmate.views.EditTracksActivity:$r2 = virtualinvoke $r1.<android.content.Intent: android.os.Bundle getExtras()>()
+3035ZZZonActivityResult:de.smasi.tickmate.views.EditTracksActivity:if $r2 == null goto virtualinvoke $r0.<de.smasi.tickmate.views.EditTracksActivity: void loadTracks()>()
+3033ZZZonActivityResult:de.smasi.tickmate.views.EditTracksActivity:if $r1 == null goto virtualinvoke $r0.<de.smasi.tickmate.views.EditTracksActivity: void loadTracks()>()
+3022ZZZonListItemClick:de.smasi.tickmate.views.ChooseTrackActivity:virtualinvoke $r7.<de.smasi.tickmate.database.TracksDataSource: void close()>()
+3018ZZZstoreTrack:de.smasi.tickmate.database.TracksDataSource:virtualinvoke $r0.<de.smasi.tickmate.database.TracksDataSource: void close()>()
+3017ZZZstoreTrack:de.smasi.tickmate.database.TracksDataSource:staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("Tickmate", $r3)
+3016ZZZstoreTrack:de.smasi.tickmate.database.TracksDataSource:$r3 = virtualinvoke $r5.<java.lang.StringBuilder: java.lang.String toString()>()
+3015ZZZstoreTrack:de.smasi.tickmate.database.TracksDataSource:virtualinvoke $r5.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($i0)
+2970ZZZonListItemClick:de.smasi.tickmate.views.ChooseTrackActivity:virtualinvoke $r7.<de.smasi.tickmate.database.TracksDataSource: void storeTrack(de.smasi.tickmate.models.Track)>($r6)
+2963ZZZonListItemClick:de.smasi.tickmate.views.ChooseTrackActivity:virtualinvoke $r7.<de.smasi.tickmate.database.TracksDataSource: void open()>()
+2962ZZZ<init>:de.smasi.tickmate.database.TracksDataSource:$r0.<de.smasi.tickmate.database.TracksDataSource: de.smasi.tickmate.database.DatabaseOpenHelper dbHelper> = $r3
+2937ZZZ<init>:de.smasi.tickmate.database.TracksDataSource:specialinvoke $r0.<java.lang.Object: void <init>()>()
+1267ZZZonCreate:de.smasi.tickmate.views.ChooseTrackActivity:specialinvoke $r9.<de.smasi.tickmate.models.Track: void <init>(java.lang.String,java.lang.String)>($r4, $r8)
+1266ZZZonCreate:de.smasi.tickmate.views.ChooseTrackActivity:$r9 = new de.smasi.tickmate.models.Track
+1265ZZZonCreate:de.smasi.tickmate.views.ChooseTrackActivity:if $r8 != null goto $r9 = new de.smasi.tickmate.models.Track
+1264ZZZonCreate:de.smasi.tickmate.views.ChooseTrackActivity:if $r4 == null goto staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>("Tickmate", "tracks.xml. Ignoring entry.")
+1263ZZZonCreate:de.smasi.tickmate.views.ChooseTrackActivity:$r8 = interfaceinvoke $r5.<android.content.res.XmlResourceParser: java.lang.String getAttributeValue(java.lang.String,java.lang.String)>(null, "description")
+1261ZZZonCreate:de.smasi.tickmate.views.ChooseTrackActivity:if $z0 == 0 goto $r4 = interfaceinvoke $r5.<android.content.res.XmlResourceParser: java.lang.String getName()>()
+1260ZZZonCreate:de.smasi.tickmate.views.ChooseTrackActivity:$z0 = virtualinvoke $r4.<java.lang.String: boolean equals(java.lang.Object)>("track")
+1259ZZZonCreate:de.smasi.tickmate.views.ChooseTrackActivity:$r4 = interfaceinvoke $r5.<android.content.res.XmlResourceParser: java.lang.String getName()>()
+1258ZZZonCreate:de.smasi.tickmate.views.ChooseTrackActivity:staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>("XML", $r4)
+1257ZZZonCreate:de.smasi.tickmate.views.ChooseTrackActivity:$r4 = virtualinvoke $r7.<java.lang.StringBuilder: java.lang.String toString()>()
+1256ZZZonCreate:de.smasi.tickmate.views.ChooseTrackActivity:virtualinvoke $r7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r4)
+1254ZZZonCreate:de.smasi.tickmate.views.ChooseTrackActivity:virtualinvoke $r7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Start tag ")
+1253ZZZonCreate:de.smasi.tickmate.views.ChooseTrackActivity:specialinvoke $r7.<java.lang.StringBuilder: void <init>()>()
+1252ZZZonCreate:de.smasi.tickmate.views.ChooseTrackActivity:$r7 = new java.lang.StringBuilder
+1251ZZZonCreate:de.smasi.tickmate.views.ChooseTrackActivity:if $i0 != 2 goto (branch)
+1250ZZZonCreate:de.smasi.tickmate.views.ChooseTrackActivity:if $i0 != 0 goto (branch)
+1249ZZZonCreate:de.smasi.tickmate.views.ChooseTrackActivity:if $i0 == 1 goto $r7 = new java.lang.StringBuilder
+1248ZZZonCreate:de.smasi.tickmate.views.ChooseTrackActivity:$i0 = interfaceinvoke $r5.<android.content.res.XmlResourceParser: int next()>()
+1243ZZZonCreate:de.smasi.tickmate.views.ChooseTrackActivity:virtualinvoke $r7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("End tag ")
+1240ZZZonCreate:de.smasi.tickmate.views.ChooseTrackActivity:if $i0 != 3 goto (branch)
+1235ZZZonCreate:de.smasi.tickmate.views.ChooseTrackActivity:interfaceinvoke $r6.<java.util.List: boolean add(java.lang.Object)>($r9)
+1232ZZZonCreate:de.smasi.tickmate.views.ChooseTrackActivity:virtualinvoke $r9.<de.smasi.tickmate.models.Track: void setIcon(java.lang.String)>($r4)
+1231ZZZonCreate:de.smasi.tickmate.views.ChooseTrackActivity:$r4 = virtualinvoke $r2.<android.content.res.Resources: java.lang.String getResourceEntryName(int)>($i0)
+1230ZZZonCreate:de.smasi.tickmate.views.ChooseTrackActivity:$i0 = interfaceinvoke $r5.<android.content.res.XmlResourceParser: int getAttributeResourceValue(java.lang.String,java.lang.String,int)>(null, "icon", 2130837509)
+1228ZZZ<init>:de.smasi.tickmate.models.Track:$r0.<de.smasi.tickmate.models.Track: int order> = 0
+1227ZZZ<init>:de.smasi.tickmate.models.Track:$r0.<de.smasi.tickmate.models.Track: java.lang.String icon> = "glyphicons_001_leaf_white"
+1226ZZZ<init>:de.smasi.tickmate.models.Track:$r0.<de.smasi.tickmate.models.Track: int iconId> = -1
+1225ZZZ<init>:de.smasi.tickmate.models.Track:$r0.<de.smasi.tickmate.models.Track: java.lang.String description> = $r2
+1224ZZZ<init>:de.smasi.tickmate.models.Track:$r0.<de.smasi.tickmate.models.Track: boolean enabled> = 1
+1223ZZZ<init>:de.smasi.tickmate.models.Track:$r0.<de.smasi.tickmate.models.Track: int id> = 0
+1222ZZZ<init>:de.smasi.tickmate.models.Track:$r0.<de.smasi.tickmate.models.Track: java.lang.String name> = $r1
+1221ZZZ<init>:de.smasi.tickmate.models.Track:specialinvoke $r0.<java.lang.Object: void <init>()>()
+1140ZZZsetIcon:de.smasi.tickmate.models.Track:$r0.<de.smasi.tickmate.models.Track: java.lang.String icon> = $r1
+1139ZZZsetIcon:de.smasi.tickmate.models.Track:$r0.<de.smasi.tickmate.models.Track: int iconId> = -1
+280ZZZonCreate:de.smasi.tickmate.views.ChooseTrackActivity:specialinvoke $r0.<android.app.ListActivity: void onCreate(android.os.Bundle)>($r1)
+277ZZZonOptionsItemSelected:de.smasi.tickmate.views.EditTracksActivity:specialinvoke $r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r0, class "Lde/smasi/tickmate/views/ChooseTrackActivity;")
+276ZZZonOptionsItemSelected:de.smasi.tickmate.views.EditTracksActivity:$r2 = new android.content.Intent
+275ZZZonOptionsItemSelected:de.smasi.tickmate.views.EditTracksActivity:lookupswitch($i0) {     case 2130903048: goto $r2 = new android.content.Intent;     case 2130903049: goto $r2 = new android.content.Intent;     default: goto $z0 = specialinvoke $r0.<android.app.ListActivity: boolean onOptionsItemSelected(android.view.MenuItem)>($r1); }
+274ZZZonOptionsItemSelected:de.smasi.tickmate.views.EditTracksActivity:if $i0 == 16908332 goto staticinvoke <android.support.v4.app.NavUtils: void navigateUpFromSameTask(android.app.Activity)>($r0)
+273ZZZonOptionsItemSelected:de.smasi.tickmate.views.EditTracksActivity:$i0 = interfaceinvoke $r1.<android.view.MenuItem: int getItemId()>()
+261ZZZloadTracks:de.smasi.tickmate.views.EditTracksActivity:specialinvoke $r6.<de.smasi.tickmate.views.TrackListAdapter: void <init>(android.content.Context,de.smasi.tickmate.models.Track[])>($r0, $r3)
+260ZZZloadTracks:de.smasi.tickmate.views.EditTracksActivity:$r6 = new de.smasi.tickmate.views.TrackListAdapter
+256ZZZloadTracks:de.smasi.tickmate.views.EditTracksActivity:virtualinvoke $r1.<de.smasi.tickmate.database.TracksDataSource: void close()>()
+255ZZZloadTracks:de.smasi.tickmate.views.EditTracksActivity:$r3 = (de.smasi.tickmate.models.Track[]) $r5
+254ZZZloadTracks:de.smasi.tickmate.views.EditTracksActivity:$r5 = interfaceinvoke $r4.<java.util.List: java.lang.Object[] toArray(java.lang.Object[])>($r3)
+253ZZZgetTracks:de.smasi.tickmate.database.TracksDataSource:interfaceinvoke $r4.<android.database.Cursor: void close()>()
+252ZZZgetTracks:de.smasi.tickmate.database.TracksDataSource:if $z0 != 0 goto interfaceinvoke $r4.<android.database.Cursor: void close()>()
+251ZZZgetTracks:de.smasi.tickmate.database.TracksDataSource:$z0 = interfaceinvoke $r4.<android.database.Cursor: boolean isAfterLast()>()
+250ZZZgetTracks:de.smasi.tickmate.database.TracksDataSource:interfaceinvoke $r4.<android.database.Cursor: boolean moveToFirst()>()
+249ZZZgetTracks:de.smasi.tickmate.database.TracksDataSource:$r4 = virtualinvoke $r3.<android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>("tracks", $r2, null, null, null, null, "\"order\" ASC", null)
+248ZZZgetTracks:de.smasi.tickmate.database.TracksDataSource:$r2 = $r0.<de.smasi.tickmate.database.TracksDataSource: java.lang.String[] allColumns>
+247ZZZgetTracks:de.smasi.tickmate.database.TracksDataSource:$r3 = $r0.<de.smasi.tickmate.database.TracksDataSource: android.database.sqlite.SQLiteDatabase database>
+238ZZZloadTracks:de.smasi.tickmate.views.EditTracksActivity:$r4 = virtualinvoke $r1.<de.smasi.tickmate.database.TracksDataSource: java.util.List getTracks()>()
+203ZZZloadTracks:de.smasi.tickmate.views.EditTracksActivity:specialinvoke $r1.<de.smasi.tickmate.database.TracksDataSource: void <init>(android.content.Context)>($r0)
+202ZZZloadTracks:de.smasi.tickmate.views.EditTracksActivity:$r1 = new de.smasi.tickmate.database.TracksDataSource
+197ZZZonCreate:de.smasi.tickmate.views.EditTracksActivity:specialinvoke $r0.<android.app.ListActivity: void onCreate(android.os.Bundle)>($r1)
+196ZZZ<init>:de.smasi.tickmate.views.EditTracksActivity:specialinvoke $r0.<android.app.ListActivity: void <init>()>()
+194ZZZeditTracks:de.smasi.tickmate.Tickmate:specialinvoke $r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r0, class "Lde/smasi/tickmate/views/EditTracksActivity;")
+193ZZZeditTracks:de.smasi.tickmate.Tickmate:$r2 = new android.content.Intent
+187ZZZbuildView:de.smasi.tickmate.TickMatrix:virtualinvoke $r1.<de.smasi.tickmate.database.TracksDataSource: void close()>()
+186ZZZbuildView:de.smasi.tickmate.TickMatrix:virtualinvoke $r0.<de.smasi.tickmate.TickMatrix: void addView(android.view.View)>($r6)
+185ZZZbuildView:de.smasi.tickmate.TickMatrix:virtualinvoke $r6.<android.widget.TextView: void setTextColor(int)>($i1)
+184ZZZbuildView:de.smasi.tickmate.TickMatrix:$i1 = virtualinvoke $r8.<android.content.res.Resources: int getColor(int)>(17170437)
+183ZZZbuildView:de.smasi.tickmate.TickMatrix:$r8 = virtualinvoke $r2.<android.content.Context: android.content.res.Resources getResources()>()
+182ZZZbuildView:de.smasi.tickmate.TickMatrix:virtualinvoke $r6.<android.widget.TextView: void setLayoutParams(android.view.ViewGroup$LayoutParams)>($r7)
+181ZZZbuildView:de.smasi.tickmate.TickMatrix:specialinvoke $r7.<android.widget.LinearLayout$LayoutParams: void <init>(int,int)>(-1, -1)
+180ZZZbuildView:de.smasi.tickmate.TickMatrix:$r7 = new android.widget.LinearLayout$LayoutParams
+179ZZZbuildView:de.smasi.tickmate.TickMatrix:virtualinvoke $r6.<android.widget.TextView: void setPadding(int,int,int,int)>(20, 20, 20, 20)
+178ZZZbuildView:de.smasi.tickmate.TickMatrix:virtualinvoke $r6.<android.widget.TextView: void setGravity(int)>(17)
+177ZZZbuildView:de.smasi.tickmate.TickMatrix:virtualinvoke $r6.<android.widget.TextView: void setText(int)>(2131099672)
+176ZZZbuildView:de.smasi.tickmate.TickMatrix:specialinvoke $r6.<android.widget.TextView: void <init>(android.content.Context)>($r2)
+175ZZZbuildView:de.smasi.tickmate.TickMatrix:$r6 = new android.widget.TextView
+174ZZZbuildView:de.smasi.tickmate.TickMatrix:if $i1 != 0 goto $r9 = $r0.<de.smasi.tickmate.TickMatrix: java.util.Calendar displayDay>
+173ZZZbuildView:de.smasi.tickmate.TickMatrix:$i1 = interfaceinvoke $r5.<java.util.List: int size()>()
+157ZZZbuildView:de.smasi.tickmate.TickMatrix:$r5 = virtualinvoke $r1.<de.smasi.tickmate.database.TracksDataSource: java.util.List getActiveTracks()>()
+123ZZZbuildView:de.smasi.tickmate.TickMatrix:specialinvoke $r1.<de.smasi.tickmate.database.TracksDataSource: void <init>(android.content.Context)>($r2)
+122ZZZbuildView:de.smasi.tickmate.TickMatrix:$r1 = new de.smasi.tickmate.database.TracksDataSource
+121ZZZbuildView:de.smasi.tickmate.TickMatrix:virtualinvoke $r0.<de.smasi.tickmate.TickMatrix: void removeAllViews()>()
+120ZZZbuildView:de.smasi.tickmate.TickMatrix:virtualinvoke $r0.<de.smasi.tickmate.TickMatrix: void setOrientation(int)>(1)
+119ZZZbuildView:de.smasi.tickmate.TickMatrix:$r4 = staticinvoke <java.util.Locale: java.util.Locale getDefault()>()
+118ZZZbuildView:de.smasi.tickmate.TickMatrix:$r3 = $r2
+117ZZZbuildView:de.smasi.tickmate.TickMatrix:$r2 = virtualinvoke $r0.<de.smasi.tickmate.TickMatrix: android.content.Context getContext()>()
+114ZZZonResume:de.smasi.tickmate.Tickmate:virtualinvoke $r0.<de.smasi.tickmate.Tickmate: void refresh()>()
+113ZZZonResume:de.smasi.tickmate.Tickmate:specialinvoke $r0.<android.app.Activity: void onResume()>()
+112ZZZonCreate:de.smasi.tickmate.Tickmate:$r0.<de.smasi.tickmate.Tickmate: de.smasi.tickmate.TickMatrix matrix> = $r3
+111ZZZonCreate:de.smasi.tickmate.Tickmate:$r3 = (de.smasi.tickmate.TickMatrix) $r2
+110ZZZonCreate:de.smasi.tickmate.Tickmate:$r2 = virtualinvoke $r0.<de.smasi.tickmate.Tickmate: android.view.View findViewById(int)>(2130903082)
+104ZZZ<init>:de.smasi.tickmate.TickMatrix:specialinvoke $r0.<android.widget.LinearLayout: void <init>(android.content.Context,android.util.AttributeSet)>($r1, $r2)
+103ZZZonCreate:de.smasi.tickmate.Tickmate:virtualinvoke $r0.<de.smasi.tickmate.Tickmate: void setContentView(int)>(2130968582)
+102ZZZonCreate:de.smasi.tickmate.Tickmate:specialinvoke $r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)
+100ZZZonCreateOptionsMenu:de.smasi.tickmate.Tickmate:virtualinvoke $r2.<android.view.MenuInflater: void inflate(int,android.view.Menu)>(2131034116, $r1)
+99ZZZonCreateOptionsMenu:de.smasi.tickmate.Tickmate:$r2 = virtualinvoke $r0.<de.smasi.tickmate.Tickmate: android.view.MenuInflater getMenuInflater()>()
+55ZZZbuildView:de.smasi.tickmate.TickMatrix:virtualinvoke $r1.<de.smasi.tickmate.database.TracksDataSource: void open()>()
+50ZZZ<init>:de.smasi.tickmate.database.DatabaseOpenHelper:specialinvoke $r0.<android.database.sqlite.SQLiteOpenHelper: void <init>(android.content.Context,java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>($r1, "tickmate.db", null, 11)
+44ZZZ<init>:de.smasi.tickmate.database.TracksDataSource:$r3 = staticinvoke <de.smasi.tickmate.database.DatabaseOpenHelper: de.smasi.tickmate.database.DatabaseOpenHelper getInstance(android.content.Context)>($r1)
+43ZZZ<init>:de.smasi.tickmate.database.TracksDataSource:$r1 = virtualinvoke $r1.<android.content.Context: android.content.Context getApplicationContext()>()
+42ZZZ<init>:de.smasi.tickmate.database.TracksDataSource:$r0.<de.smasi.tickmate.database.TracksDataSource: java.lang.String[] allColumnsTicks> = $r2
+41ZZZ<init>:de.smasi.tickmate.database.TracksDataSource:$r2[7] = "second"
+40ZZZ<init>:de.smasi.tickmate.database.TracksDataSource:$r2[6] = "minute"
+39ZZZ<init>:de.smasi.tickmate.database.TracksDataSource:$r2[5] = "hour"
+38ZZZ<init>:de.smasi.tickmate.database.TracksDataSource:$r2[4] = "day"
+37ZZZ<init>:de.smasi.tickmate.database.TracksDataSource:$r2[3] = "month"
+36ZZZ<init>:de.smasi.tickmate.database.TracksDataSource:$r2[2] = "year"
+35ZZZ<init>:de.smasi.tickmate.database.TracksDataSource:$r2[1] = "_track_id"
+34ZZZ<init>:de.smasi.tickmate.database.TracksDataSource:$r2[0] = "_id"
+33ZZZ<init>:de.smasi.tickmate.database.TracksDataSource:$r2 = newarray (java.lang.String)[8]
+32ZZZ<init>:de.smasi.tickmate.database.TracksDataSource:$r0.<de.smasi.tickmate.database.TracksDataSource: java.lang.String[] allColumns> = $r2
+31ZZZ<init>:de.smasi.tickmate.database.TracksDataSource:$r2[6] = "\"order\""
+30ZZZ<init>:de.smasi.tickmate.database.TracksDataSource:$r2[5] = "multiple_entries_per_day"
+29ZZZ<init>:de.smasi.tickmate.database.TracksDataSource:$r2[4] = "icon"
+28ZZZ<init>:de.smasi.tickmate.database.TracksDataSource:$r2[3] = "description"
+27ZZZ<init>:de.smasi.tickmate.database.TracksDataSource:$r2[2] = "enabled"
+26ZZZ<init>:de.smasi.tickmate.database.TracksDataSource:$r2[1] = "name"
+24ZZZ<init>:de.smasi.tickmate.database.TracksDataSource:$r2 = newarray (java.lang.String)[7]
+15ZZZrefresh:de.smasi.tickmate.Tickmate:virtualinvoke $r1.<de.smasi.tickmate.TickMatrix: void buildView()>()
+14ZZZrefresh:de.smasi.tickmate.Tickmate:$r1 = $r0.<de.smasi.tickmate.Tickmate: de.smasi.tickmate.TickMatrix matrix>
+0ZZZ<init>:de.smasi.tickmate.Tickmate:specialinvoke $r0.<android.app.Activity: void <init>()>()
