@@ -1,0 +1,95 @@
+#start monkey test seedNo 0
+import os;
+from subprocess import Popen
+from subprocess import PIPE
+from com.android.monkeyrunner import MonkeyRunner, MonkeyDevice, MonkeyImage
+from com.android.monkeyrunner.MonkeyDevice import takeSnapshot
+from com.android.monkeyrunner.easy import EasyMonkeyDevice
+from com.android.monkeyrunner.easy import By
+from com.android.chimpchat.hierarchyviewer import HierarchyViewer
+from com.android.monkeyrunner import MonkeyView
+import random
+import sys
+import subprocess
+from sys import exit
+from random import randint
+device = MonkeyRunner.waitForConnection()
+package = 'com.mitzuli'
+activity ='com.mitzuli.MainActivity'
+runComponent = package+'/'+activity
+device.startActivity(component=runComponent)
+MonkeyRunner.sleep(0.5)
+MonkeyRunner.sleep(0.5)
+device.touch(631,1112, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(404,65, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(745,1316, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(74,946, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(747,1469, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(780,662, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(68,676, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(563,1742, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(749,276, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(546,1645, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(180,676, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(751,119, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(281,879, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(439,388, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(317,1074, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(182,715, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(790,485, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(689,1029, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(645,648, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(416,1792, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(950,1715, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(297,289, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(158,103, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(591,1756, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(112,1160, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(444,1426, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(1070,918, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(1300,113, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(1020,121, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(1001,127, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(863,125, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(355,1601, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(247,1839, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(80,154, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(253,1868, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(848,1866, 'DOWN_AND_UP')
+MonkeyRunner.sleep(0.5)
+device.touch(428,871, 'DOWN_AND_UP')
