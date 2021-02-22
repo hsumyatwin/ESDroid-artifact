@@ -1,0 +1,48 @@
+131ZZZsetSummary:com.gmail.altakey.effy.ConfigActivity:virtualinvoke $r1.<android.preference.ListPreference: java.lang.CharSequence getSummary()>()
+130ZZZsetSummary:com.gmail.altakey.effy.ConfigActivity:virtualinvoke $r1.<android.preference.ListPreference: void setSummary(java.lang.CharSequence)>($r2)
+129ZZZupdateSummary:com.gmail.altakey.effy.ConfigActivity:specialinvoke $r0.<com.gmail.altakey.effy.ConfigActivity: void setSummary(android.preference.ListPreference,java.lang.CharSequence)>($r3, $r5)
+128ZZZupdateSummary:com.gmail.altakey.effy.ConfigActivity:$r5 = virtualinvoke $r4.<android.preference.ListPreference: java.lang.CharSequence getEntry()>()
+127ZZZupdateSummary:com.gmail.altakey.effy.ConfigActivity:$r4 = $r0.<com.gmail.altakey.effy.ConfigActivity: android.preference.ListPreference pen_alpha>
+126ZZZupdateSummary:com.gmail.altakey.effy.ConfigActivity:$r3 = $r0.<com.gmail.altakey.effy.ConfigActivity: android.preference.ListPreference pen_alpha>
+125ZZZupdateSummary:com.gmail.altakey.effy.ConfigActivity:if $z0 == 0 goto $z0 = virtualinvoke $r2.<java.lang.String: boolean equals(java.lang.Object)>("pen_width")
+124ZZZupdateSummary:com.gmail.altakey.effy.ConfigActivity:$z0 = virtualinvoke $r2.<java.lang.String: boolean equals(java.lang.Object)>("pen_alpha")
+123ZZZupdateSummary:com.gmail.altakey.effy.ConfigActivity:if $z0 == 0 goto $z0 = virtualinvoke $r2.<java.lang.String: boolean equals(java.lang.Object)>("pen_alpha")
+122ZZZupdateSummary:com.gmail.altakey.effy.ConfigActivity:$z0 = virtualinvoke $r2.<java.lang.String: boolean equals(java.lang.Object)>("drop_alpha")
+115ZZZsetSummary:com.gmail.altakey.effy.ConfigActivity:virtualinvoke $r1.<android.preference.ListPreference: void setSummary(java.lang.CharSequence)>($r4)
+114ZZZsetSummary:com.gmail.altakey.effy.ConfigActivity:$r4 = virtualinvoke $r4.<java.lang.String: java.lang.String replace(java.lang.CharSequence,java.lang.CharSequence)>("%", "%%")
+113ZZZsetSummary:com.gmail.altakey.effy.ConfigActivity:$r4 = virtualinvoke $r2.<java.lang.Object: java.lang.String toString()>()
+108ZZZupdateSummary:com.gmail.altakey.effy.ConfigActivity:$r4 = $r0.<com.gmail.altakey.effy.ConfigActivity: android.preference.ListPreference drop_alpha>
+107ZZZupdateSummary:com.gmail.altakey.effy.ConfigActivity:$r3 = $r0.<com.gmail.altakey.effy.ConfigActivity: android.preference.ListPreference drop_alpha>
+100ZZZonCreate:com.gmail.altakey.effy.ConfigActivity:$r0.<com.gmail.altakey.effy.ConfigActivity: android.preference.ListPreference pen_width> = $r4
+99ZZZonCreate:com.gmail.altakey.effy.ConfigActivity:$r4 = (android.preference.ListPreference) $r3
+98ZZZonCreate:com.gmail.altakey.effy.ConfigActivity:$r3 = virtualinvoke $r2.<android.preference.PreferenceScreen: android.preference.Preference findPreference(java.lang.CharSequence)>("pen_width")
+97ZZZonCreate:com.gmail.altakey.effy.ConfigActivity:$r2 = virtualinvoke $r0.<com.gmail.altakey.effy.ConfigActivity: android.preference.PreferenceScreen getPreferenceScreen()>()
+96ZZZonCreate:com.gmail.altakey.effy.ConfigActivity:$r0.<com.gmail.altakey.effy.ConfigActivity: android.preference.ListPreference pen_alpha> = $r4
+94ZZZonCreate:com.gmail.altakey.effy.ConfigActivity:$r3 = virtualinvoke $r2.<android.preference.PreferenceScreen: android.preference.Preference findPreference(java.lang.CharSequence)>("pen_alpha")
+92ZZZonCreate:com.gmail.altakey.effy.ConfigActivity:$r0.<com.gmail.altakey.effy.ConfigActivity: android.preference.ListPreference drop_alpha> = $r4
+90ZZZonCreate:com.gmail.altakey.effy.ConfigActivity:$r3 = virtualinvoke $r2.<android.preference.PreferenceScreen: android.preference.Preference findPreference(java.lang.CharSequence)>("drop_alpha")
+88ZZZonCreate:com.gmail.altakey.effy.ConfigActivity:virtualinvoke $r0.<com.gmail.altakey.effy.ConfigActivity: void addPreferencesFromResource(int)>(2130968576)
+87ZZZonCreate:com.gmail.altakey.effy.ConfigActivity:specialinvoke $r0.<android.preference.PreferenceActivity: void onCreate(android.os.Bundle)>($r1)
+55ZZZonCreate:com.gmail.altakey.effy.MainService:specialinvoke $r0.<com.gmail.altakey.effy.MainService: void showNotifyIcon()>()
+54ZZZonCreate:com.gmail.altakey.effy.MainService:$r0.<com.gmail.altakey.effy.MainService: android.app.NotificationManager notificationManager> = $r2
+53ZZZonCreate:com.gmail.altakey.effy.MainService:$r2 = (android.app.NotificationManager) $r1
+52ZZZonCreate:com.gmail.altakey.effy.MainService:$r1 = virtualinvoke $r0.<com.gmail.altakey.effy.MainService: java.lang.Object getSystemService(java.lang.String)>("notification")
+51ZZZonCreate:com.gmail.altakey.effy.MainService:specialinvoke $r0.<android.app.Service: void onCreate()>()
+47ZZZ<init>:com.gmail.altakey.effy.MainService:specialinvoke $r1.<com.gmail.altakey.effy.MainService$MainBinder: void <init>(com.gmail.altakey.effy.MainService)>($r0)
+46ZZZ<init>:com.gmail.altakey.effy.MainService:$r1 = new com.gmail.altakey.effy.MainService$MainBinder
+45ZZZ<init>:com.gmail.altakey.effy.MainService:$r0.<com.gmail.altakey.effy.MainService: int NOTIFICATION> = 1
+44ZZZ<init>:com.gmail.altakey.effy.MainService:specialinvoke $r0.<android.app.Service: void <init>()>()
+26ZZZonCreate:com.gmail.altakey.effy.MainActivity:specialinvoke $r4.<com.gmail.altakey.effy.MainActivity$1: void <init>(com.gmail.altakey.effy.MainActivity)>($r0)
+25ZZZonCreate:com.gmail.altakey.effy.MainActivity:$r4 = new com.gmail.altakey.effy.MainActivity$1
+24ZZZonCreate:com.gmail.altakey.effy.MainActivity:virtualinvoke $r3.<android.widget.Button: void setText(int)>(2131099652)
+23ZZZonCreate:com.gmail.altakey.effy.MainActivity:virtualinvoke $r2.<android.view.View: void setVisibility(int)>(4)
+22ZZZonCreate:com.gmail.altakey.effy.MainActivity:if $z0 == 0 goto virtualinvoke $r2.<android.view.View: void setVisibility(int)>(4)
+21ZZZonCreate:com.gmail.altakey.effy.MainActivity:$z0 = <com.gmail.altakey.effy.MainService: boolean isRunning>
+20ZZZonCreate:com.gmail.altakey.effy.MainActivity:$r2 = virtualinvoke $r0.<com.gmail.altakey.effy.MainActivity: android.view.View findViewById(int)>(2131296257)
+19ZZZonCreate:com.gmail.altakey.effy.MainActivity:$r3 = (android.widget.Button) $r2
+18ZZZonCreate:com.gmail.altakey.effy.MainActivity:$r2 = virtualinvoke $r0.<com.gmail.altakey.effy.MainActivity: android.view.View findViewById(int)>(2131296256)
+17ZZZonCreate:com.gmail.altakey.effy.MainActivity:virtualinvoke $r0.<com.gmail.altakey.effy.MainActivity: void setContentView(int)>(2130903040)
+16ZZZonCreate:com.gmail.altakey.effy.MainActivity:specialinvoke $r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)
+15ZZZ<init>:com.gmail.altakey.effy.MainActivity:specialinvoke $r0.<android.app.Activity: void <init>()>()
+13ZZZ<init>:com.gmail.altakey.effy.MainActivity$1:specialinvoke $r0.<java.lang.Object: void <init>()>()
+12ZZZ<init>:com.gmail.altakey.effy.MainActivity$1:$r0.<com.gmail.altakey.effy.MainActivity$1: com.gmail.altakey.effy.MainActivity this$0> = $r1
