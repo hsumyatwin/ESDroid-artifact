@@ -1,0 +1,130 @@
+1436ZZZhandleGenericError:me.tripsit.mobile.common.ErrorHandlingActivity:virtualinvoke $r3.<android.app.AlertDialog$Builder: android.app.AlertDialog show()>()
+-1ZZZhandleGenericError:me.tripsit.mobile.common.ErrorHandlingActivity:$r0 := @this: me.tripsit.mobile.common.ErrorHandlingActivity
+-1ZZZhandleGenericError:me.tripsit.mobile.common.ErrorHandlingActivity:$r1 := @parameter0: java.lang.String
+-1ZZZhandleGenericError:me.tripsit.mobile.common.ErrorHandlingActivity:$r3 = new android.app.AlertDialog$Builder
+-1ZZZhandleGenericError:me.tripsit.mobile.common.ErrorHandlingActivity:specialinvoke $r3.<android.app.AlertDialog$Builder: void <init>(android.content.Context)>($r0)
+-1ZZZhandleGenericError:me.tripsit.mobile.common.ErrorHandlingActivity:$r3 = virtualinvoke $r3.<android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setTitle(java.lang.CharSequence)>("Operation failed")
+-1ZZZhandleGenericError:me.tripsit.mobile.common.ErrorHandlingActivity:$r3 = virtualinvoke $r3.<android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setMessage(java.lang.CharSequence)>($r1)
+-1ZZZhandleGenericError:me.tripsit.mobile.common.ErrorHandlingActivity:$r2 = new me.tripsit.mobile.common.ErrorHandlingActivity$1
+-1ZZZhandleGenericError:me.tripsit.mobile.common.ErrorHandlingActivity:specialinvoke $r2.<me.tripsit.mobile.common.ErrorHandlingActivity$1: void <init>(me.tripsit.mobile.common.ErrorHandlingActivity)>($r0)
+-1ZZZhandleGenericError:me.tripsit.mobile.common.ErrorHandlingActivity:$r3 = virtualinvoke $r3.<android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setNeutralButton(int,android.content.DialogInterface$OnClickListener)>(17039370, $r2)
+-1ZZZhandleGenericError:me.tripsit.mobile.common.ErrorHandlingActivity:virtualinvoke $r3.<android.app.AlertDialog$Builder: android.app.AlertDialog show()>()
+-1ZZZhandleGenericError:me.tripsit.mobile.common.ErrorHandlingActivity:return
+1434ZZZ<init>:me.tripsit.mobile.common.ErrorHandlingActivity$1:specialinvoke $r0.<java.lang.Object: void <init>()>()
+-1ZZZ<init>:me.tripsit.mobile.common.ErrorHandlingActivity$1:$r0 := @this: me.tripsit.mobile.common.ErrorHandlingActivity$1
+-1ZZZ<init>:me.tripsit.mobile.common.ErrorHandlingActivity$1:$r1 := @parameter0: me.tripsit.mobile.common.ErrorHandlingActivity
+-1ZZZ<init>:me.tripsit.mobile.common.ErrorHandlingActivity$1:$r0.<me.tripsit.mobile.common.ErrorHandlingActivity$1: me.tripsit.mobile.common.ErrorHandlingActivity this$0> = $r1
+-1ZZZ<init>:me.tripsit.mobile.common.ErrorHandlingActivity$1:specialinvoke $r0.<java.lang.Object: void <init>()>()
+-1ZZZ<init>:me.tripsit.mobile.common.ErrorHandlingActivity$1:return
+1400ZZZgetSharedPreferences:me.tripsit.mobile.common.SharedPreferencesManager:$r2 = virtualinvoke $r0.<android.app.Activity: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)>($r1, 0)
+-1ZZZgetSharedPreferences:me.tripsit.mobile.common.SharedPreferencesManager:$r0 := @parameter0: android.app.Activity
+-1ZZZgetSharedPreferences:me.tripsit.mobile.common.SharedPreferencesManager:$r1 = virtualinvoke $r0.<android.app.Activity: java.lang.String getString(int)>(2131361827)
+-1ZZZgetSharedPreferences:me.tripsit.mobile.common.SharedPreferencesManager:$r2 = virtualinvoke $r0.<android.app.Activity: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)>($r1, 0)
+-1ZZZgetSharedPreferences:me.tripsit.mobile.common.SharedPreferencesManager:return $r2
+324ZZZgetCachedURLResponse:me.tripsit.mobile.common.SharedPreferencesManager:$r0 = interfaceinvoke $r2.<android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)>($r0, null)
+-1ZZZgetCachedURLResponse:me.tripsit.mobile.common.SharedPreferencesManager:$r0 := @parameter0: java.lang.String
+-1ZZZgetCachedURLResponse:me.tripsit.mobile.common.SharedPreferencesManager:$r1 := @parameter1: android.app.Activity
+-1ZZZgetCachedURLResponse:me.tripsit.mobile.common.SharedPreferencesManager:$r2 = staticinvoke <me.tripsit.mobile.common.SharedPreferencesManager: android.content.SharedPreferences getSharedPreferences(android.app.Activity)>($r1)
+-1ZZZgetCachedURLResponse:me.tripsit.mobile.common.SharedPreferencesManager:$r0 = staticinvoke <me.tripsit.mobile.common.SharedPreferencesManager: java.lang.String getResponseKey(java.lang.String,android.app.Activity)>($r0, $r1)
+-1ZZZgetCachedURLResponse:me.tripsit.mobile.common.SharedPreferencesManager:$r0 = interfaceinvoke $r2.<android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)>($r0, null)
+-1ZZZgetCachedURLResponse:me.tripsit.mobile.common.SharedPreferencesManager:return $r0
+316ZZZgetSharedPreferences:me.tripsit.mobile.common.SharedPreferencesManager:$r2 = virtualinvoke $r0.<android.app.Activity: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)>($r1, 0)
+-1ZZZgetSharedPreferences:me.tripsit.mobile.common.SharedPreferencesManager:$r0 := @parameter0: android.app.Activity
+-1ZZZgetSharedPreferences:me.tripsit.mobile.common.SharedPreferencesManager:$r1 = virtualinvoke $r0.<android.app.Activity: java.lang.String getString(int)>(2131361827)
+-1ZZZgetSharedPreferences:me.tripsit.mobile.common.SharedPreferencesManager:$r2 = virtualinvoke $r0.<android.app.Activity: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)>($r1, 0)
+-1ZZZgetSharedPreferences:me.tripsit.mobile.common.SharedPreferencesManager:return $r2
+297ZZZ<init>:me.tripsit.mobile.factsheets.Factsheets$1:specialinvoke $r0.<java.lang.Object: void <init>()>()
+-1ZZZ<init>:me.tripsit.mobile.factsheets.Factsheets$1:$r0 := @this: me.tripsit.mobile.factsheets.Factsheets$1
+-1ZZZ<init>:me.tripsit.mobile.factsheets.Factsheets$1:$r1 := @parameter0: me.tripsit.mobile.factsheets.Factsheets
+-1ZZZ<init>:me.tripsit.mobile.factsheets.Factsheets$1:$r2 := @parameter1: android.widget.AutoCompleteTextView
+-1ZZZ<init>:me.tripsit.mobile.factsheets.Factsheets$1:$r0.<me.tripsit.mobile.factsheets.Factsheets$1: me.tripsit.mobile.factsheets.Factsheets this$0> = $r1
+-1ZZZ<init>:me.tripsit.mobile.factsheets.Factsheets$1:$r0.<me.tripsit.mobile.factsheets.Factsheets$1: android.widget.AutoCompleteTextView val$findViewById> = $r2
+-1ZZZ<init>:me.tripsit.mobile.factsheets.Factsheets$1:specialinvoke $r0.<java.lang.Object: void <init>()>()
+-1ZZZ<init>:me.tripsit.mobile.factsheets.Factsheets$1:return
+279ZZZdownloadFactsheetInfo:me.tripsit.mobile.factsheets.Factsheets:specialinvoke $r1.<me.tripsit.mobile.factsheets.DrugNamesAsyncTask: void <init>(me.tripsit.mobile.factsheets.FactsheetsCallback,me.tripsit.mobile.error.ErrorHandler)>($r0, $r0)
+-1ZZZdownloadFactsheetInfo:me.tripsit.mobile.factsheets.Factsheets:$r0 := @this: me.tripsit.mobile.factsheets.Factsheets
+-1ZZZdownloadFactsheetInfo:me.tripsit.mobile.factsheets.Factsheets:$r1 = new me.tripsit.mobile.factsheets.DrugNamesAsyncTask
+-1ZZZdownloadFactsheetInfo:me.tripsit.mobile.factsheets.Factsheets:specialinvoke $r1.<me.tripsit.mobile.factsheets.DrugNamesAsyncTask: void <init>(me.tripsit.mobile.factsheets.FactsheetsCallback,me.tripsit.mobile.error.ErrorHandler)>($r0, $r0)
+-1ZZZdownloadFactsheetInfo:me.tripsit.mobile.factsheets.Factsheets:$r2 = newarray (android.app.Activity)[1]
+-1ZZZdownloadFactsheetInfo:me.tripsit.mobile.factsheets.Factsheets:$r2[0] = $r0
+-1ZZZdownloadFactsheetInfo:me.tripsit.mobile.factsheets.Factsheets:virtualinvoke $r1.<me.tripsit.mobile.factsheets.DrugNamesAsyncTask: android.os.AsyncTask execute(java.lang.Object[])>($r2)
+-1ZZZdownloadFactsheetInfo:me.tripsit.mobile.factsheets.Factsheets:return
+258ZZZforId:me.tripsit.mobile.common.Theme:if $i0 != $i2 goto $i3 = $i3 + 1
+-1ZZZforId:me.tripsit.mobile.common.Theme:$i0 := @parameter0: int
+-1ZZZforId:me.tripsit.mobile.common.Theme:$r0 = staticinvoke <me.tripsit.mobile.common.Theme: me.tripsit.mobile.common.Theme[] values()>()
+-1ZZZforId:me.tripsit.mobile.common.Theme:$i1 = lengthof $r0
+-1ZZZforId:me.tripsit.mobile.common.Theme:$i3 = 0
+-1ZZZforId:me.tripsit.mobile.common.Theme:if $i3 >= $i1 goto $r1 = <me.tripsit.mobile.common.Theme: me.tripsit.mobile.common.Theme DEFAULT>
+-1ZZZforId:me.tripsit.mobile.common.Theme:$r1 = $r0[$i3]
+-1ZZZforId:me.tripsit.mobile.common.Theme:$i2 = $r1.<me.tripsit.mobile.common.Theme: int id>
+-1ZZZforId:me.tripsit.mobile.common.Theme:if $i0 != $i2 goto $i3 = $i3 + 1
+-1ZZZforId:me.tripsit.mobile.common.Theme:return $r1
+-1ZZZforId:me.tripsit.mobile.common.Theme:$i3 = $i3 + 1
+-1ZZZforId:me.tripsit.mobile.common.Theme:goto [?= (branch)]
+-1ZZZforId:me.tripsit.mobile.common.Theme:$r1 = <me.tripsit.mobile.common.Theme: me.tripsit.mobile.common.Theme DEFAULT>
+246ZZZgetId:me.tripsit.mobile.common.Theme:i0 = $r0.<me.tripsit.mobile.common.Theme: int id>
+-1ZZZgetId:me.tripsit.mobile.common.Theme:$r0 := @this: me.tripsit.mobile.common.Theme
+-1ZZZgetId:me.tripsit.mobile.common.Theme:i0 = $r0.<me.tripsit.mobile.common.Theme: int id>
+-1ZZZgetId:me.tripsit.mobile.common.Theme:return i0
+200ZZZinitialiseWebView:me.tripsit.mobile.chat.Chat:specialinvoke $r5.<me.tripsit.mobile.common.LoadingWebViewClient: void <init>(android.widget.ProgressBar)>($r4)
+-1ZZZinitialiseWebView:me.tripsit.mobile.chat.Chat:$r0 := @this: me.tripsit.mobile.chat.Chat
+-1ZZZinitialiseWebView:me.tripsit.mobile.chat.Chat:$r1 = $r0.<me.tripsit.mobile.chat.Chat: android.webkit.WebView webView>
+-1ZZZinitialiseWebView:me.tripsit.mobile.chat.Chat:if $r1 != null goto return
+-1ZZZinitialiseWebView:me.tripsit.mobile.chat.Chat:$r2 = virtualinvoke $r0.<me.tripsit.mobile.chat.Chat: android.view.View findViewById(int)>(2131230790)
+-1ZZZinitialiseWebView:me.tripsit.mobile.chat.Chat:$r1 = (android.webkit.WebView) $r2
+-1ZZZinitialiseWebView:me.tripsit.mobile.chat.Chat:$r0.<me.tripsit.mobile.chat.Chat: android.webkit.WebView webView> = $r1
+-1ZZZinitialiseWebView:me.tripsit.mobile.chat.Chat:$r3 = virtualinvoke $r1.<android.webkit.WebView: android.webkit.WebSettings getSettings()>()
+-1ZZZinitialiseWebView:me.tripsit.mobile.chat.Chat:virtualinvoke $r3.<android.webkit.WebSettings: void setJavaScriptEnabled(boolean)>(1)
+-1ZZZinitialiseWebView:me.tripsit.mobile.chat.Chat:$r2 = virtualinvoke $r0.<me.tripsit.mobile.chat.Chat: android.view.View findViewById(int)>(2131230789)
+-1ZZZinitialiseWebView:me.tripsit.mobile.chat.Chat:$r4 = (android.widget.ProgressBar) $r2
+-1ZZZinitialiseWebView:me.tripsit.mobile.chat.Chat:$r5 = new me.tripsit.mobile.common.LoadingWebViewClient
+-1ZZZinitialiseWebView:me.tripsit.mobile.chat.Chat:specialinvoke $r5.<me.tripsit.mobile.common.LoadingWebViewClient: void <init>(android.widget.ProgressBar)>($r4)
+-1ZZZinitialiseWebView:me.tripsit.mobile.chat.Chat:virtualinvoke $r1.<android.webkit.WebView: void setWebViewClient(android.webkit.WebViewClient)>($r5)
+-1ZZZinitialiseWebView:me.tripsit.mobile.chat.Chat:$r6 = new me.tripsit.mobile.common.LoadingWebChromeClient
+-1ZZZinitialiseWebView:me.tripsit.mobile.chat.Chat:specialinvoke $r6.<me.tripsit.mobile.common.LoadingWebChromeClient: void <init>(android.widget.ProgressBar)>($r4)
+-1ZZZinitialiseWebView:me.tripsit.mobile.chat.Chat:virtualinvoke $r1.<android.webkit.WebView: void setWebChromeClient(android.webkit.WebChromeClient)>($r6)
+-1ZZZinitialiseWebView:me.tripsit.mobile.chat.Chat:$r7 = virtualinvoke $r0.<me.tripsit.mobile.chat.Chat: android.content.Intent getIntent()>()
+-1ZZZinitialiseWebView:me.tripsit.mobile.chat.Chat:$r8 = virtualinvoke $r7.<android.content.Intent: android.os.Bundle getExtras()>()
+-1ZZZinitialiseWebView:me.tripsit.mobile.chat.Chat:$r9 = virtualinvoke $r8.<android.os.Bundle: java.lang.Object get(java.lang.String)>("url")
+-1ZZZinitialiseWebView:me.tripsit.mobile.chat.Chat:$r10 = (java.lang.String) $r9
+-1ZZZinitialiseWebView:me.tripsit.mobile.chat.Chat:virtualinvoke $r1.<android.webkit.WebView: void loadUrl(java.lang.String)>($r10)
+-1ZZZinitialiseWebView:me.tripsit.mobile.chat.Chat:return
+158ZZZ<init>:me.tripsit.mobile.chat.Chat:$r0.<me.tripsit.mobile.chat.Chat: android.webkit.WebView webView> = null
+-1ZZZ<init>:me.tripsit.mobile.chat.Chat:$r0 := @this: me.tripsit.mobile.chat.Chat
+-1ZZZ<init>:me.tripsit.mobile.chat.Chat:specialinvoke $r0.<me.tripsit.mobile.TripMobileActivity: void <init>()>()
+-1ZZZ<init>:me.tripsit.mobile.chat.Chat:$r0.<me.tripsit.mobile.chat.Chat: android.webkit.WebView webView> = null
+-1ZZZ<init>:me.tripsit.mobile.chat.Chat:return
+96ZZZonCreate:me.tripsit.mobile.Menu:$r2 = staticinvoke <me.tripsit.mobile.builders.LayoutBuilder: android.view.ViewGroup$LayoutParams buildParamsLinearCenterHorizontal()>()
+-1ZZZonCreate:me.tripsit.mobile.Menu:$r0 := @this: me.tripsit.mobile.Menu
+-1ZZZonCreate:me.tripsit.mobile.Menu:$r1 := @parameter0: android.os.Bundle
+-1ZZZonCreate:me.tripsit.mobile.Menu:specialinvoke $r0.<me.tripsit.mobile.TripMobileActivity: void onCreate(android.os.Bundle)>($r1)
+-1ZZZonCreate:me.tripsit.mobile.Menu:$r2 = staticinvoke <me.tripsit.mobile.builders.LayoutBuilder: android.view.ViewGroup$LayoutParams buildParamsLinearCenterHorizontal()>()
+-1ZZZonCreate:me.tripsit.mobile.Menu:$r3 = staticinvoke <me.tripsit.mobile.builders.LayoutBuilder: android.widget.LinearLayout buildLinearLayout(android.app.Activity,int,android.view.ViewGroup$LayoutParams)>($r0, 2130903068, $r2)
+-1ZZZonCreate:me.tripsit.mobile.Menu:virtualinvoke $r0.<me.tripsit.mobile.Menu: void setContentView(android.view.View)>($r3)
+-1ZZZonCreate:me.tripsit.mobile.Menu:return
+52ZZZonCreate:me.tripsit.mobile.Menu:$r2 = staticinvoke <me.tripsit.mobile.builders.LayoutBuilder: android.view.ViewGroup$LayoutParams buildParamsLinearCenterHorizontal()>()
+-1ZZZonCreate:me.tripsit.mobile.Menu:$r0 := @this: me.tripsit.mobile.Menu
+-1ZZZonCreate:me.tripsit.mobile.Menu:$r1 := @parameter0: android.os.Bundle
+-1ZZZonCreate:me.tripsit.mobile.Menu:specialinvoke $r0.<me.tripsit.mobile.TripMobileActivity: void onCreate(android.os.Bundle)>($r1)
+-1ZZZonCreate:me.tripsit.mobile.Menu:$r2 = staticinvoke <me.tripsit.mobile.builders.LayoutBuilder: android.view.ViewGroup$LayoutParams buildParamsLinearCenterHorizontal()>()
+-1ZZZonCreate:me.tripsit.mobile.Menu:$r3 = staticinvoke <me.tripsit.mobile.builders.LayoutBuilder: android.widget.LinearLayout buildLinearLayout(android.app.Activity,int,android.view.ViewGroup$LayoutParams)>($r0, 2130903068, $r2)
+-1ZZZonCreate:me.tripsit.mobile.Menu:virtualinvoke $r0.<me.tripsit.mobile.Menu: void setContentView(android.view.View)>($r3)
+-1ZZZonCreate:me.tripsit.mobile.Menu:return
+14ZZZ<clinit>:me.tripsit.mobile.common.Theme:specialinvoke $r0.<me.tripsit.mobile.common.Theme: void <init>(java.lang.String,int,int,int,java.lang.String)>("DARK", 0, 1, 2131427429, "CLI")
+-1ZZZ<clinit>:me.tripsit.mobile.common.Theme:$r0 = new me.tripsit.mobile.common.Theme
+-1ZZZ<clinit>:me.tripsit.mobile.common.Theme:specialinvoke $r0.<me.tripsit.mobile.common.Theme: void <init>(java.lang.String,int,int,int,java.lang.String)>("DARK", 0, 1, 2131427429, "CLI")
+-1ZZZ<clinit>:me.tripsit.mobile.common.Theme:<me.tripsit.mobile.common.Theme: me.tripsit.mobile.common.Theme DARK> = $r0
+-1ZZZ<clinit>:me.tripsit.mobile.common.Theme:specialinvoke $r0.<me.tripsit.mobile.common.Theme: void <init>(java.lang.String,int,int,int,java.lang.String)>("LIGHT", 1, 2, 2131427433, "Relaxed")
+-1ZZZ<clinit>:me.tripsit.mobile.common.Theme:<me.tripsit.mobile.common.Theme: me.tripsit.mobile.common.Theme LIGHT> = $r0
+-1ZZZ<clinit>:me.tripsit.mobile.common.Theme:$r1 = newarray (me.tripsit.mobile.common.Theme)[2]
+-1ZZZ<clinit>:me.tripsit.mobile.common.Theme:$r0 = <me.tripsit.mobile.common.Theme: me.tripsit.mobile.common.Theme DARK>
+-1ZZZ<clinit>:me.tripsit.mobile.common.Theme:$r1[0] = $r0
+-1ZZZ<clinit>:me.tripsit.mobile.common.Theme:$r0 = <me.tripsit.mobile.common.Theme: me.tripsit.mobile.common.Theme LIGHT>
+-1ZZZ<clinit>:me.tripsit.mobile.common.Theme:$r1[1] = $r0
+-1ZZZ<clinit>:me.tripsit.mobile.common.Theme:<me.tripsit.mobile.common.Theme: me.tripsit.mobile.common.Theme[] $VALUES> = $r1
+-1ZZZ<clinit>:me.tripsit.mobile.common.Theme:<me.tripsit.mobile.common.Theme: me.tripsit.mobile.common.Theme DEFAULT> = $r0
+-1ZZZ<clinit>:me.tripsit.mobile.common.Theme:return
+0ZZZ<init>:me.tripsit.mobile.Menu:specialinvoke $r0.<me.tripsit.mobile.TripMobileActivity: void <init>()>()
+-1ZZZ<init>:me.tripsit.mobile.Menu:$r0 := @this: me.tripsit.mobile.Menu
+-1ZZZ<init>:me.tripsit.mobile.Menu:specialinvoke $r0.<me.tripsit.mobile.TripMobileActivity: void <init>()>()
+-1ZZZ<init>:me.tripsit.mobile.Menu:return
