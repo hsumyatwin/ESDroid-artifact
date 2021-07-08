@@ -1,0 +1,37 @@
+C:\Users\Heather\AppData\Local\Android\Sdk\tools>FLiADD.bat
+11
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+FSoE=1.py
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+FSoE=4.py
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+FSoE=5.py
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+FSoE=9.py
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+FSoE=12.py
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+PT13M9.186S
+Press any key to continue . . .
