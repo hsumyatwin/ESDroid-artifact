@@ -1,0 +1,24 @@
+--------- beginning of system
+--------- beginning of main
+--------- beginning of crash
+06-21 08:59:19.600 18437 18437 E AndroidRuntime: FATAL EXCEPTION: main
+06-21 08:59:19.600 18437 18437 E AndroidRuntime: Process: air.com.yudu.ReaderAIR4697674, PID: 18437
+06-21 08:59:19.600 18437 18437 E AndroidRuntime: java.lang.IllegalStateException: IAB helper is not set up. Can't perform operation: launchPurchaseFlow
+06-21 08:59:19.600 18437 18437 E AndroidRuntime: 	at com.yudu.androidreader.billing.b.e(:3)
+06-21 08:59:19.600 18437 18437 E AndroidRuntime: 	at com.yudu.androidreader.billing.b.a(:18)
+06-21 08:59:19.600 18437 18437 E AndroidRuntime: 	at com.yudu.androidreader.BaseActivity.t(:2)
+06-21 08:59:19.600 18437 18437 E AndroidRuntime: 	at com.yudu.androidreader.BaseActivity.o(:2)
+06-21 08:59:19.600 18437 18437 E AndroidRuntime: 	at com.yudu.androidreader.b.D(:1)
+06-21 08:59:19.600 18437 18437 E AndroidRuntime: 	at com.yudu.androidreader.b.shouldOverrideUrlLoading(:26)
+06-21 08:59:19.600 18437 18437 E AndroidRuntime: 	at android.webkit.WebViewClient.shouldOverrideUrlLoading(WebViewClient.java:73)
+06-21 08:59:19.600 18437 18437 E AndroidRuntime: 	at com.android.webview.chromium.WebViewContentsClientAdapter.shouldOverrideUrlLoading(WebViewContentsClientAdapter.java:354)
+06-21 08:59:19.600 18437 18437 E AndroidRuntime: 	at org.chromium.android_webview.AwContentsClient.shouldIgnoreNavigation(AwContentsClient.java:168)
+06-21 08:59:19.600 18437 18437 E AndroidRuntime: 	at org.chromium.android_webview.AwContentsClientBridge.shouldOverrideUrlLoading(AwContentsClientBridge.java:352)
+06-21 08:59:19.600 18437 18437 E AndroidRuntime: 	at org.chromium.base.SystemMessageHandler.nativeDoRunLoopOnce(Native Method)
+06-21 08:59:19.600 18437 18437 E AndroidRuntime: 	at org.chromium.base.SystemMessageHandler.handleMessage(SystemMessageHandler.java:41)
+06-21 08:59:19.600 18437 18437 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:105)
+06-21 08:59:19.600 18437 18437 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:164)
+06-21 08:59:19.600 18437 18437 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6541)
+06-21 08:59:19.600 18437 18437 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+06-21 08:59:19.600 18437 18437 E AndroidRuntime: 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+06-21 08:59:19.600 18437 18437 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
