@@ -1,0 +1,309 @@
+84556ZZZonCreate:com.sangcomz.fishbundemo.SubActivity:$r6 = virtualinvoke $r6.<android.support.v4.app.FragmentTransaction: android.support.v4.app.FragmentTransaction add(int,android.support.v4.app.Fragment)>($i0, $r2)
+84555ZZZonCreate:com.sangcomz.fishbundemo.SubActivity:$r2 = $r0.<com.sangcomz.fishbundemo.SubActivity: com.sangcomz.fishbundemo.SubFragment subFragment>
+84554ZZZonCreate:com.sangcomz.fishbundemo.SubActivity:$i0 = virtualinvoke $r4.<android.widget.RelativeLayout: int getId()>()
+84553ZZZonCreate:com.sangcomz.fishbundemo.SubActivity:$r4 = $r0.<com.sangcomz.fishbundemo.SubActivity: android.widget.RelativeLayout areaContainer>
+84537ZZZonCreate:com.sangcomz.fishbundemo.SubActivity:$r6 = virtualinvoke $r5.<android.support.v4.app.FragmentManager: android.support.v4.app.FragmentTransaction beginTransaction()>()
+84531ZZZonCreate:com.sangcomz.fishbundemo.SubActivity:$r5 = virtualinvoke $r0.<com.sangcomz.fishbundemo.SubActivity: android.support.v4.app.FragmentManager getSupportFragmentManager()>()
+84530ZZZonCreate:com.sangcomz.fishbundemo.SubActivity:$r0.<com.sangcomz.fishbundemo.SubActivity: com.sangcomz.fishbundemo.SubFragment subFragment> = $r2
+84520ZZZ<init>:com.sangcomz.fishbundemo.SubFragment:specialinvoke $r0.<android.support.v4.app.Fragment: void <init>()>()
+84506ZZZonCreate:com.sangcomz.fishbundemo.SubActivity:$r2 = new com.sangcomz.fishbundemo.SubFragment
+84504ZZZonCreate:com.sangcomz.fishbundemo.SubActivity:$r4 = (android.widget.RelativeLayout) $r3
+84493ZZZonCreate:com.sangcomz.fishbundemo.SubActivity:$r3 = virtualinvoke $r0.<com.sangcomz.fishbundemo.SubActivity: android.view.View findViewById(int)>(2131624062)
+81998ZZZonCreate:com.sangcomz.fishbundemo.SubActivity:virtualinvoke $r0.<com.sangcomz.fishbundemo.SubActivity: void setContentView(int)>(2130968607)
+81534ZZZonCreate:com.sangcomz.fishbundemo.SubActivity:specialinvoke $r0.<android.support.v7.app.AppCompatActivity: void onCreate(android.os.Bundle)>($r1)
+81386ZZZonClick:com.sangcomz.fishbundemo.ChoiceActivity$2:virtualinvoke $r3.<com.sangcomz.fishbundemo.ChoiceActivity: void startActivity(android.content.Intent)>($r2)
+81385ZZZonClick:com.sangcomz.fishbundemo.ChoiceActivity$2:$r3 = $r0.<com.sangcomz.fishbundemo.ChoiceActivity$2: com.sangcomz.fishbundemo.ChoiceActivity this$0>
+81384ZZZonClick:com.sangcomz.fishbundemo.ChoiceActivity$2:specialinvoke $r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r3, class "Lcom/sangcomz/fishbundemo/SubActivity;")
+81382ZZZonClick:com.sangcomz.fishbundemo.ChoiceActivity$2:$r2 = new android.content.Intent
+80890ZZZexecuteDelayedAfterIdleUnsafe:com.squareup.leakcanary.AndroidWatchExecutor:specialinvoke $r2.<com.squareup.leakcanary.AndroidWatchExecutor$2: void <init>(com.squareup.leakcanary.AndroidWatchExecutor,java.lang.Runnable)>($r0, $r1)
+80889ZZZexecuteDelayedAfterIdleUnsafe:com.squareup.leakcanary.AndroidWatchExecutor:$r2 = new com.squareup.leakcanary.AndroidWatchExecutor$2
+80888ZZZexecuteDelayedAfterIdleUnsafe:com.squareup.leakcanary.AndroidWatchExecutor:$r3 = staticinvoke <android.os.Looper: android.os.MessageQueue myQueue()>()
+80880ZZZwatch:com.squareup.leakcanary.RefWatcher:interfaceinvoke $r10.<java.util.concurrent.Executor: void execute(java.lang.Runnable)>($r4)
+80875ZZZwatch:com.squareup.leakcanary.RefWatcher:specialinvoke $r4.<com.squareup.leakcanary.RefWatcher$5: void <init>(com.squareup.leakcanary.RefWatcher,com.squareup.leakcanary.KeyedWeakReference,long)>($r0, $r3, $l0)
+80874ZZZwatch:com.squareup.leakcanary.RefWatcher:$r4 = new com.squareup.leakcanary.RefWatcher$5
+80873ZZZwatch:com.squareup.leakcanary.RefWatcher:$r10 = $r0.<com.squareup.leakcanary.RefWatcher: java.util.concurrent.Executor watchExecutor>
+80864ZZZ<init>:com.squareup.leakcanary.KeyedWeakReference:specialinvoke $r0.<java.lang.ref.WeakReference: void <init>(java.lang.Object,java.lang.ref.ReferenceQueue)>($r1, $r4)
+80863ZZZ<init>:com.squareup.leakcanary.KeyedWeakReference:$r4 = (java.lang.ref.ReferenceQueue) $r5
+80861ZZZ<init>:com.squareup.leakcanary.KeyedWeakReference:$r5 = staticinvoke <com.squareup.leakcanary.Preconditions: java.lang.Object checkNotNull(java.lang.Object,java.lang.String)>($r4, "referenceQueue")
+80860ZZZcheckNotNull:com.squareup.leakcanary.Preconditions:if $r0 != null goto return $r0
+80842ZZZwatch:com.squareup.leakcanary.RefWatcher:virtualinvoke $r0.<com.squareup.leakcanary.RefWatcher: void watch(java.lang.Object,java.lang.String)>($r1, "")
+80839ZZZonActivityDestroyed:com.squareup.leakcanary.ActivityRefWatcher$1:virtualinvoke $r2.<com.squareup.leakcanary.ActivityRefWatcher: void onActivityDestroyed(android.app.Activity)>($r1)
+80838ZZZonActivityDestroyed:com.squareup.leakcanary.ActivityRefWatcher$1:$r2 = $r0.<com.squareup.leakcanary.ActivityRefWatcher$1: com.squareup.leakcanary.ActivityRefWatcher this$0>
+79815ZZZexecute:com.squareup.leakcanary.AndroidWatchExecutor:virtualinvoke $r0.<com.squareup.leakcanary.AndroidWatchExecutor: void executeDelayedAfterIdleUnsafe(java.lang.Runnable)>($r1)
+79814ZZZexecute:com.squareup.leakcanary.AndroidWatchExecutor:if $z0 == 0 goto $r3 = $r0.<com.squareup.leakcanary.AndroidWatchExecutor: android.os.Handler mainHandler>
+78565ZZZonActivityResult:com.sangcomz.fishbundemo.MainActivity:specialinvoke $r0.<android.support.v7.app.AppCompatActivity: void onActivityResult(int,int,android.content.Intent)>($i0, $i1, $r1)
+75304ZZZtakePicture:com.sangcomz.fishbun.util.CameraUtil:$r8 = specialinvoke $r0.<com.sangcomz.fishbun.util.CameraUtil: java.io.File createImageFile(java.lang.String)>($r2)
+75303ZZZtakePicture:com.sangcomz.fishbun.util.CameraUtil:$r7 = null
+75302ZZZtakePicture:com.sangcomz.fishbun.util.CameraUtil:if $r6 == null goto return
+75300ZZZtakePicture:com.sangcomz.fishbun.util.CameraUtil:$r5 = virtualinvoke $r1.<android.app.Activity: android.content.pm.PackageManager getPackageManager()>()
+75286ZZZonClick:com.sangcomz.fishbun.ui.album.AlbumActivity$1:$r6 = virtualinvoke $r5.<com.sangcomz.fishbun.ui.album.AlbumController: java.lang.String getPathDir()>()
+75285ZZZaccess$000:com.sangcomz.fishbun.ui.album.AlbumActivity:r1 = $r0.<com.sangcomz.fishbun.ui.album.AlbumActivity: com.sangcomz.fishbun.ui.album.AlbumController albumController>
+75280ZZZonClick:com.sangcomz.fishbun.ui.album.AlbumActivity$1:$r3 = staticinvoke <com.sangcomz.fishbun.ui.album.AlbumActivity: com.sangcomz.fishbun.ui.album.AlbumController access$000(com.sangcomz.fishbun.ui.album.AlbumActivity)>($r2)
+75279ZZZonClick:com.sangcomz.fishbun.ui.album.AlbumActivity$1:$r2 = $r0.<com.sangcomz.fishbun.ui.album.AlbumActivity$1: com.sangcomz.fishbun.ui.album.AlbumActivity this$0>
+70230ZZZonOptionsItemSelected:com.sangcomz.fishbun.ui.album.AlbumActivity:$z0 = specialinvoke $r0.<android.support.v7.app.AppCompatActivity: boolean onOptionsItemSelected(android.view.MenuItem)>($r1)
+70226ZZZonOptionsItemSelected:com.sangcomz.fishbun.ui.album.AlbumActivity:$i1 = <com.sangcomz.fishbun.R$id: int action_ok>
+70225ZZZonOptionsItemSelected:com.sangcomz.fishbun.ui.album.AlbumActivity:if $i0 != 16908332 goto $i1 = <com.sangcomz.fishbun.R$id: int action_ok>
+70223ZZZonOptionsItemSelected:com.sangcomz.fishbun.ui.album.AlbumActivity:$i0 = interfaceinvoke $r1.<android.view.MenuItem: int getItemId()>()
+44288ZZZsetAlbumList:com.sangcomz.fishbun.ui.album.AlbumActivity:virtualinvoke $r4.<android.widget.TextView: void setText(int)>($i0)
+44287ZZZsetAlbumList:com.sangcomz.fishbun.ui.album.AlbumActivity:$i0 = <com.sangcomz.fishbun.R$string: int msg_no_image>
+44286ZZZsetAlbumList:com.sangcomz.fishbun.ui.album.AlbumActivity:$r4 = $r0.<com.sangcomz.fishbun.ui.album.AlbumActivity: android.widget.TextView progressAlbumText>
+44285ZZZsetAlbumList:com.sangcomz.fishbun.ui.album.AlbumActivity:virtualinvoke $r2.<android.widget.RelativeLayout: void setVisibility(int)>(0)
+44284ZZZsetAlbumList:com.sangcomz.fishbun.ui.album.AlbumActivity:$r2 = $r0.<com.sangcomz.fishbun.ui.album.AlbumActivity: android.widget.RelativeLayout relAlbumEmpty>
+44283ZZZsetAlbumList:com.sangcomz.fishbun.ui.album.AlbumActivity:if $i0 <= 0 goto $r2 = $r0.<com.sangcomz.fishbun.ui.album.AlbumActivity: android.widget.RelativeLayout relAlbumEmpty>
+44282ZZZsetAlbumList:com.sangcomz.fishbun.ui.album.AlbumActivity:$i0 = virtualinvoke $r1.<java.util.ArrayList: int size()>()
+44281ZZZsetAlbumList:com.sangcomz.fishbun.ui.album.AlbumActivity:$r0.<com.sangcomz.fishbun.ui.album.AlbumActivity: java.util.ArrayList albumList> = $r1
+44273ZZZonPostExecute:com.sangcomz.fishbun.ui.album.AlbumController$LoadAlbumList:virtualinvoke $r0.<com.sangcomz.fishbun.ui.album.AlbumController$LoadAlbumList: void onPostExecute(java.util.ArrayList)>($r2)
+44272ZZZonPostExecute:com.sangcomz.fishbun.ui.album.AlbumController$LoadAlbumList:$r2 = (java.util.ArrayList) $r1
+44260ZZZdoInBackground:com.sangcomz.fishbun.ui.album.AlbumController$LoadAlbumList:specialinvoke $r8.<com.sangcomz.fishbun.bean.Album: void <init>(long,java.lang.String,java.lang.String,int)>(0L, $r9, "", 0)
+44259ZZZdoInBackground:com.sangcomz.fishbun.ui.album.AlbumController$LoadAlbumList:$r9 = <com.sangcomz.fishbun.define.Define: java.lang.String TITLE_ALBUM_ALL_VIEW>
+43795ZZZdoInBackground:com.sangcomz.fishbun.ui.album.AlbumController$LoadAlbumList:$r1 = virtualinvoke $r0.<com.sangcomz.fishbun.ui.album.AlbumController$LoadAlbumList: java.util.ArrayList doInBackground(java.lang.Void[])>($r3)
+43794ZZZdoInBackground:com.sangcomz.fishbun.ui.album.AlbumController$LoadAlbumList:$r3 = (java.lang.Void[]) $r2
+43784ZZZ<init>:com.sangcomz.fishbun.ui.album.AlbumController$LoadAlbumList:specialinvoke $r0.<com.sangcomz.fishbun.ui.album.AlbumController$LoadAlbumList: void <init>(com.sangcomz.fishbun.ui.album.AlbumController)>($r1)
+43783ZZZgetAlbumList:com.sangcomz.fishbun.ui.album.AlbumController:specialinvoke $r1.<com.sangcomz.fishbun.ui.album.AlbumController$LoadAlbumList: void <init>(com.sangcomz.fishbun.ui.album.AlbumController,com.sangcomz.fishbun.ui.album.AlbumController$1)>($r0, null)
+43782ZZZgetAlbumList:com.sangcomz.fishbun.ui.album.AlbumController:$r1 = new com.sangcomz.fishbun.ui.album.AlbumController$LoadAlbumList
+34561ZZZcheckPermission:com.sangcomz.fishbun.ui.album.AlbumController:$z0 = virtualinvoke $r1.<com.sangcomz.fishbun.permission.PermissionCheck: boolean CheckStoragePermission()>()
+34559ZZZcheckPermission:com.sangcomz.fishbun.ui.album.AlbumController:$i0 = <android.os.Build$VERSION: int SDK_INT>
+34556ZZZcheckPermission:com.sangcomz.fishbun.ui.album.AlbumController:specialinvoke $r1.<com.sangcomz.fishbun.permission.PermissionCheck: void <init>(android.content.Context)>($r2)
+34555ZZZcheckPermission:com.sangcomz.fishbun.ui.album.AlbumController:$r2 = $r0.<com.sangcomz.fishbun.ui.album.AlbumController: com.sangcomz.fishbun.ui.album.AlbumActivity albumActivity>
+34554ZZZcheckPermission:com.sangcomz.fishbun.ui.album.AlbumController:$r1 = new com.sangcomz.fishbun.permission.PermissionCheck
+34545ZZZ<init>:com.sangcomz.fishbun.ui.album.AlbumController:specialinvoke $r3.<com.sangcomz.fishbun.util.CameraUtil: void <init>()>()
+34544ZZZ<init>:com.sangcomz.fishbun.ui.album.AlbumController:$r3 = new com.sangcomz.fishbun.util.CameraUtil
+34543ZZZ<init>:com.sangcomz.fishbun.ui.album.AlbumController:specialinvoke $r0.<java.lang.Object: void <init>()>()
+34542ZZZinitController:com.sangcomz.fishbun.ui.album.AlbumActivity:specialinvoke $r1.<com.sangcomz.fishbun.ui.album.AlbumController: void <init>(com.sangcomz.fishbun.ui.album.AlbumActivity)>($r0)
+34541ZZZinitController:com.sangcomz.fishbun.ui.album.AlbumActivity:$r1 = new com.sangcomz.fishbun.ui.album.AlbumController
+34425ZZZinitToolBar:com.sangcomz.fishbun.ui.album.AlbumActivity:staticinvoke <com.sangcomz.fishbun.util.UiUtil: void setStatusBarColor(android.app.Activity)>($r0)
+34424ZZZinitToolBar:com.sangcomz.fishbun.ui.album.AlbumActivity:if $i0 < 21 goto $r5 = virtualinvoke $r0.<com.sangcomz.fishbun.ui.album.AlbumActivity: android.support.v7.app.ActionBar getSupportActionBar()>()
+34417ZZZinitToolBar:com.sangcomz.fishbun.ui.album.AlbumActivity:virtualinvoke $r2.<android.support.v7.widget.Toolbar: void setTitleTextColor(int)>($i0)
+34416ZZZinitToolBar:com.sangcomz.fishbun.ui.album.AlbumActivity:$i0 = <com.sangcomz.fishbun.define.Define: int COLOR_ACTION_BAR_TITLE_COLOR>
+34415ZZZinitToolBar:com.sangcomz.fishbun.ui.album.AlbumActivity:virtualinvoke $r2.<android.support.v7.widget.Toolbar: void setBackgroundColor(int)>($i0)
+34414ZZZinitToolBar:com.sangcomz.fishbun.ui.album.AlbumActivity:$i0 = <com.sangcomz.fishbun.define.Define: int COLOR_ACTION_BAR>
+33867ZZZinitToolBar:com.sangcomz.fishbun.ui.album.AlbumActivity:virtualinvoke $r0.<com.sangcomz.fishbun.ui.album.AlbumActivity: void setSupportActionBar(android.support.v7.widget.Toolbar)>($r2)
+33856ZZZinitToolBar:com.sangcomz.fishbun.ui.album.AlbumActivity:virtualinvoke $r4.<android.widget.TextView: void setText(int)>($i0)
+33855ZZZinitToolBar:com.sangcomz.fishbun.ui.album.AlbumActivity:$i0 = <com.sangcomz.fishbun.R$string: int msg_loading_image>
+33854ZZZinitToolBar:com.sangcomz.fishbun.ui.album.AlbumActivity:$r4 = $r0.<com.sangcomz.fishbun.ui.album.AlbumActivity: android.widget.TextView progressAlbumText>
+33853ZZZinitToolBar:com.sangcomz.fishbun.ui.album.AlbumActivity:$r0.<com.sangcomz.fishbun.ui.album.AlbumActivity: android.widget.TextView progressAlbumText> = $r4
+33852ZZZinitToolBar:com.sangcomz.fishbun.ui.album.AlbumActivity:$r4 = (android.widget.TextView) $r1
+33841ZZZinitToolBar:com.sangcomz.fishbun.ui.album.AlbumActivity:$r1 = virtualinvoke $r0.<com.sangcomz.fishbun.ui.album.AlbumActivity: android.view.View findViewById(int)>($i0)
+33829ZZZinitToolBar:com.sangcomz.fishbun.ui.album.AlbumActivity:$i0 = <com.sangcomz.fishbun.R$id: int toolbar_album_bar>
+33828ZZZinitView:com.sangcomz.fishbun.ui.album.AlbumActivity:specialinvoke $r0.<com.sangcomz.fishbun.ui.album.AlbumActivity: void initToolBar()>()
+33827ZZZinitView:com.sangcomz.fishbun.ui.album.AlbumActivity:virtualinvoke $r2.<android.widget.LinearLayout: void setOnClickListener(android.view.View$OnClickListener)>($r3)
+33809ZZZonCreate:com.sangcomz.fishbun.ui.album.AlbumActivity:specialinvoke $r0.<com.sangcomz.fishbun.ui.album.AlbumActivity: void initView()>()
+31103ZZZonCreate:com.sangcomz.fishbun.ui.album.AlbumActivity:virtualinvoke $r0.<com.sangcomz.fishbun.ui.album.AlbumActivity: void setContentView(int)>($i0)
+31102ZZZonCreate:com.sangcomz.fishbun.ui.album.AlbumActivity:$i0 = <com.sangcomz.fishbun.R$layout: int activity_photo_album>
+30674ZZZonCreate:com.sangcomz.fishbun.ui.album.AlbumActivity:specialinvoke $r0.<android.support.v7.app.AppCompatActivity: void onCreate(android.os.Bundle)>($r1)
+30651ZZZ<init>:com.sangcomz.fishbun.ui.album.AlbumActivity:$r0.<com.sangcomz.fishbun.ui.album.AlbumActivity: int defCameraAlbum> = 0
+30650ZZZ<init>:com.sangcomz.fishbun.ui.album.AlbumActivity:$r0.<com.sangcomz.fishbun.ui.album.AlbumActivity: com.sangcomz.fishbun.util.UiUtil uiUtil> = $r2
+30648ZZZ<init>:com.sangcomz.fishbun.ui.album.AlbumActivity:specialinvoke $r2.<com.sangcomz.fishbun.util.UiUtil: void <init>()>()
+30646ZZZ<init>:com.sangcomz.fishbun.ui.album.AlbumActivity:$r0.<com.sangcomz.fishbun.ui.album.AlbumActivity: java.util.ArrayList albumList> = $r1
+30645ZZZ<init>:com.sangcomz.fishbun.ui.album.AlbumActivity:specialinvoke $r1.<java.util.ArrayList: void <init>()>()
+30644ZZZ<init>:com.sangcomz.fishbun.ui.album.AlbumActivity:$r1 = new java.util.ArrayList
+30591ZZZ<init>:com.sangcomz.fishbun.ui.album.AlbumActivity:specialinvoke $r0.<android.support.v7.app.AppCompatActivity: void <init>()>()
+30295ZZZ<init>:com.sangcomz.fishbun.FishBun$BaseProperty:specialinvoke $r0.<java.lang.Object: void <init>()>()
+30292ZZZonOptionsItemSelected:com.sangcomz.fishbundemo.MainActivity:$r2 = staticinvoke <com.sangcomz.fishbun.FishBun: com.sangcomz.fishbun.FishBun$BaseProperty 'with'(android.app.Activity)>($r0)
+30291ZZZonOptionsItemSelected:com.sangcomz.fishbundemo.MainActivity:if $i0 != 2131624116 goto $z0 = specialinvoke $r0.<android.support.v7.app.AppCompatActivity: boolean onOptionsItemSelected(android.view.MenuItem)>($r1)
+30289ZZZonOptionsItemSelected:com.sangcomz.fishbundemo.MainActivity:$i0 = interfaceinvoke $r1.<android.view.MenuItem: int getItemId()>()
+20282ZZZonCreate:com.sangcomz.fishbundemo.MainActivity:specialinvoke $r8.<com.sangcomz.fishbundemo.MainAdapter: void <init>(android.content.Context,com.sangcomz.fishbundemo.MainController,java.util.ArrayList)>($r0, $r7, $r2)
+20281ZZZonCreate:com.sangcomz.fishbundemo.MainActivity:$r2 = $r0.<com.sangcomz.fishbundemo.MainActivity: java.util.ArrayList path>
+20280ZZZonCreate:com.sangcomz.fishbundemo.MainActivity:$r7 = $r0.<com.sangcomz.fishbundemo.MainActivity: com.sangcomz.fishbundemo.MainController mainController>
+20279ZZZonCreate:com.sangcomz.fishbundemo.MainActivity:$r8 = new com.sangcomz.fishbundemo.MainAdapter
+20278ZZZonCreate:com.sangcomz.fishbundemo.MainActivity:$r0.<com.sangcomz.fishbundemo.MainActivity: com.sangcomz.fishbundemo.MainController mainController> = $r7
+20275ZZZ<init>:com.sangcomz.fishbundemo.MainController:specialinvoke $r0.<java.lang.Object: void <init>()>()
+17038ZZZonCreate:com.sangcomz.fishbundemo.MainActivity:specialinvoke $r0.<android.support.v7.app.AppCompatActivity: void onCreate(android.os.Bundle)>($r1)
+17015ZZZ<init>:com.sangcomz.fishbundemo.MainActivity:$r0.<com.sangcomz.fishbundemo.MainActivity: java.util.ArrayList path> = $r1
+17014ZZZ<init>:com.sangcomz.fishbundemo.MainActivity:specialinvoke $r1.<java.util.ArrayList: void <init>()>()
+17013ZZZ<init>:com.sangcomz.fishbundemo.MainActivity:$r1 = new java.util.ArrayList
+16960ZZZ<init>:com.sangcomz.fishbundemo.MainActivity:specialinvoke $r0.<android.support.v7.app.AppCompatActivity: void <init>()>()
+16885ZZZonClick:com.sangcomz.fishbundemo.ChoiceActivity$1:specialinvoke $r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r3, class "Lcom/sangcomz/fishbundemo/MainActivity;")
+16884ZZZonClick:com.sangcomz.fishbundemo.ChoiceActivity$1:$r3 = $r0.<com.sangcomz.fishbundemo.ChoiceActivity$1: com.sangcomz.fishbundemo.ChoiceActivity this$0>
+16883ZZZonClick:com.sangcomz.fishbundemo.ChoiceActivity$1:$r2 = new android.content.Intent
+9400ZZZonCreate:com.sangcomz.fishbundemo.ChoiceActivity:specialinvoke $r0.<android.support.v7.app.AppCompatActivity: void onCreate(android.os.Bundle)>($r1)
+9325ZZZ<init>:com.sangcomz.fishbundemo.ChoiceActivity:specialinvoke $r0.<android.support.v7.app.AppCompatActivity: void <init>()>()
+5898ZZZ<init>:com.sangcomz.fishbundemo.ChoiceActivity$2:specialinvoke $r0.<java.lang.Object: void <init>()>()
+5897ZZZ<init>:com.sangcomz.fishbundemo.ChoiceActivity$2:$r0.<com.sangcomz.fishbundemo.ChoiceActivity$2: com.sangcomz.fishbundemo.ChoiceActivity this$0> = $r1
+5896ZZZonCreate:com.sangcomz.fishbundemo.ChoiceActivity:specialinvoke $r5.<com.sangcomz.fishbundemo.ChoiceActivity$2: void <init>(com.sangcomz.fishbundemo.ChoiceActivity)>($r0)
+5895ZZZonCreate:com.sangcomz.fishbundemo.ChoiceActivity:$r5 = new com.sangcomz.fishbundemo.ChoiceActivity$2
+5894ZZZonCreate:com.sangcomz.fishbundemo.ChoiceActivity:$r3 = $r0.<com.sangcomz.fishbundemo.ChoiceActivity: android.widget.Button btnWithFragment>
+5893ZZZonCreate:com.sangcomz.fishbundemo.ChoiceActivity:virtualinvoke $r3.<android.widget.Button: void setOnClickListener(android.view.View$OnClickListener)>($r4)
+865ZZZwatchActivities:com.squareup.leakcanary.ActivityRefWatcher:virtualinvoke $r0.<com.squareup.leakcanary.ActivityRefWatcher: void stopWatchingActivities()>()
+852ZZZ<init>:com.squareup.leakcanary.ActivityRefWatcher:specialinvoke $r3.<com.squareup.leakcanary.ActivityRefWatcher$1: void <init>(com.squareup.leakcanary.ActivityRefWatcher)>($r0)
+850ZZZ<init>:com.squareup.leakcanary.ActivityRefWatcher:specialinvoke $r0.<java.lang.Object: void <init>()>()
+849ZZZinstallOnIcsPlus:com.squareup.leakcanary.ActivityRefWatcher:specialinvoke $r2.<com.squareup.leakcanary.ActivityRefWatcher: void <init>(android.app.Application,com.squareup.leakcanary.RefWatcher)>($r0, $r1)
+848ZZZinstallOnIcsPlus:com.squareup.leakcanary.ActivityRefWatcher:$r2 = new com.squareup.leakcanary.ActivityRefWatcher
+846ZZZinstallOnIcsPlus:com.squareup.leakcanary.ActivityRefWatcher:$i0 = <android.os.Build$VERSION: int SDK_INT>
+840ZZZ<init>:com.squareup.leakcanary.RefWatcher:specialinvoke $r8.<java.util.concurrent.CopyOnWriteArraySet: void <init>()>()
+839ZZZ<init>:com.squareup.leakcanary.RefWatcher:$r8 = new java.util.concurrent.CopyOnWriteArraySet
+837ZZZ<init>:com.squareup.leakcanary.RefWatcher:$r6 = (com.squareup.leakcanary.ExcludedRefs) $r7
+831ZZZ<init>:com.squareup.leakcanary.RefWatcher:$r7 = staticinvoke <com.squareup.leakcanary.Preconditions: java.lang.Object checkNotNull(java.lang.Object,java.lang.String)>($r5, "heapdumpListener")
+830ZZZ<init>:com.squareup.leakcanary.RefWatcher:$r0.<com.squareup.leakcanary.RefWatcher: com.squareup.leakcanary.HeapDumper heapDumper> = $r4
+829ZZZ<init>:com.squareup.leakcanary.RefWatcher:$r4 = (com.squareup.leakcanary.HeapDumper) $r7
+823ZZZ<init>:com.squareup.leakcanary.RefWatcher:$r7 = staticinvoke <com.squareup.leakcanary.Preconditions: java.lang.Object checkNotNull(java.lang.Object,java.lang.String)>($r3, "gcTrigger")
+822ZZZ<init>:com.squareup.leakcanary.RefWatcher:$r0.<com.squareup.leakcanary.RefWatcher: com.squareup.leakcanary.DebuggerControl debuggerControl> = $r2
+821ZZZ<init>:com.squareup.leakcanary.RefWatcher:$r2 = (com.squareup.leakcanary.DebuggerControl) $r7
+815ZZZ<init>:com.squareup.leakcanary.RefWatcher:$r7 = staticinvoke <com.squareup.leakcanary.Preconditions: java.lang.Object checkNotNull(java.lang.Object,java.lang.String)>($r1, "watchExecutor")
+814ZZZ<init>:com.squareup.leakcanary.RefWatcher:specialinvoke $r0.<java.lang.Object: void <init>()>()
+793ZZZ<init>:com.squareup.leakcanary.RefWatcher:$r7 = staticinvoke <com.squareup.leakcanary.Preconditions: java.lang.Object checkNotNull(java.lang.Object,java.lang.String)>($r4, "heapDumper")
+792ZZZ<init>:com.squareup.leakcanary.RefWatcher:$r0.<com.squareup.leakcanary.RefWatcher: com.squareup.leakcanary.GcTrigger gcTrigger> = $r3
+791ZZZ<init>:com.squareup.leakcanary.RefWatcher:$r3 = (com.squareup.leakcanary.GcTrigger) $r7
+785ZZZ<init>:com.squareup.leakcanary.RefWatcher:$r7 = staticinvoke <com.squareup.leakcanary.Preconditions: java.lang.Object checkNotNull(java.lang.Object,java.lang.String)>($r2, "debuggerControl")
+784ZZZ<init>:com.squareup.leakcanary.RefWatcher:$r0.<com.squareup.leakcanary.RefWatcher: java.util.concurrent.Executor watchExecutor> = $r1
+783ZZZ<init>:com.squareup.leakcanary.RefWatcher:$r1 = (java.util.concurrent.Executor) $r7
+779ZZZ<clinit>:com.squareup.leakcanary.RefWatcher:specialinvoke $r0.<com.squareup.leakcanary.RefWatcher: void <init>(java.util.concurrent.Executor,com.squareup.leakcanary.DebuggerControl,com.squareup.leakcanary.GcTrigger,com.squareup.leakcanary.HeapDumper,com.squareup.leakcanary.HeapDump$Listener,com.squareup.leakcanary.ExcludedRefs)>($r1, $r2, $r3, $r4, $r5, $r6)
+776ZZZ<init>:com.squareup.leakcanary.ExcludedRefs:specialinvoke $r6.<java.util.LinkedHashMap: void <init>(java.util.Map)>($r5)
+775ZZZ<init>:com.squareup.leakcanary.ExcludedRefs:$r6 = new java.util.LinkedHashMap
+774ZZZ<init>:com.squareup.leakcanary.ExcludedRefs:$r0.<com.squareup.leakcanary.ExcludedRefs: java.util.Map classNames> = $r1
+773ZZZ<init>:com.squareup.leakcanary.ExcludedRefs:$r1 = staticinvoke <java.util.Collections: java.util.Map unmodifiableMap(java.util.Map)>($r6)
+772ZZZ<init>:com.squareup.leakcanary.ExcludedRefs:specialinvoke $r6.<java.util.LinkedHashMap: void <init>(java.util.Map)>($r4)
+770ZZZ<init>:com.squareup.leakcanary.ExcludedRefs:$r0.<com.squareup.leakcanary.ExcludedRefs: java.util.Map threadNames> = $r1
+768ZZZ<init>:com.squareup.leakcanary.ExcludedRefs:specialinvoke $r6.<java.util.LinkedHashMap: void <init>(java.util.Map)>($r3)
+766ZZZ<init>:com.squareup.leakcanary.ExcludedRefs:$r0.<com.squareup.leakcanary.ExcludedRefs: java.util.Map staticFieldNameByClassName> = $r1
+764ZZZ<init>:com.squareup.leakcanary.ExcludedRefs:specialinvoke $r6.<java.util.LinkedHashMap: void <init>(java.util.Map)>($r2)
+762ZZZ<init>:com.squareup.leakcanary.ExcludedRefs:$r0.<com.squareup.leakcanary.ExcludedRefs: java.util.Map fieldNameByClassName> = $r1
+760ZZZ<init>:com.squareup.leakcanary.ExcludedRefs:specialinvoke $r6.<java.util.LinkedHashMap: void <init>(java.util.Map)>($r1)
+758ZZZ<init>:com.squareup.leakcanary.ExcludedRefs:specialinvoke $r0.<java.lang.Object: void <init>()>()
+756ZZZbuild:com.squareup.leakcanary.ExcludedRefs$Builder:$r6 = $r0.<com.squareup.leakcanary.ExcludedRefs$Builder: java.util.Map rootSuperClassNames>
+755ZZZbuild:com.squareup.leakcanary.ExcludedRefs$Builder:$r5 = $r0.<com.squareup.leakcanary.ExcludedRefs$Builder: java.util.Map classNames>
+754ZZZbuild:com.squareup.leakcanary.ExcludedRefs$Builder:$r4 = $r0.<com.squareup.leakcanary.ExcludedRefs$Builder: java.util.Map threadNames>
+753ZZZbuild:com.squareup.leakcanary.ExcludedRefs$Builder:$r3 = $r0.<com.squareup.leakcanary.ExcludedRefs$Builder: java.util.Map staticFieldNameByClassName>
+752ZZZbuild:com.squareup.leakcanary.ExcludedRefs$Builder:$r2 = $r0.<com.squareup.leakcanary.ExcludedRefs$Builder: java.util.Map fieldNameByClassName>
+751ZZZbuild:com.squareup.leakcanary.ExcludedRefs$Builder:$r1 = new com.squareup.leakcanary.ExcludedRefs
+742ZZZ<init>:com.squareup.leakcanary.ExcludedRefs$Builder:specialinvoke $r1.<java.util.LinkedHashMap: void <init>()>()
+741ZZZ<init>:com.squareup.leakcanary.ExcludedRefs$Builder:$r1 = new java.util.LinkedHashMap
+740ZZZ<init>:com.squareup.leakcanary.ExcludedRefs$Builder:$r0.<com.squareup.leakcanary.ExcludedRefs$Builder: java.util.Map staticFieldNameByClassName> = $r1
+737ZZZ<init>:com.squareup.leakcanary.ExcludedRefs$Builder:$r0.<com.squareup.leakcanary.ExcludedRefs$Builder: java.util.Map fieldNameByClassName> = $r1
+734ZZZ<init>:com.squareup.leakcanary.ExcludedRefs$Builder:specialinvoke $r0.<java.lang.Object: void <init>()>()
+730ZZZ<clinit>:com.squareup.leakcanary.RefWatcher:specialinvoke $r5.<com.squareup.leakcanary.RefWatcher$4: void <init>()>()
+729ZZZ<clinit>:com.squareup.leakcanary.RefWatcher:$r5 = new com.squareup.leakcanary.RefWatcher$4
+728ZZZ<init>:com.squareup.leakcanary.RefWatcher$3:specialinvoke $r0.<java.lang.Object: void <init>()>()
+724ZZZ<init>:com.squareup.leakcanary.GcTrigger$1:specialinvoke $r0.<java.lang.Object: void <init>()>()
+719ZZZ<clinit>:com.squareup.leakcanary.RefWatcher:specialinvoke $r2.<com.squareup.leakcanary.RefWatcher$2: void <init>()>()
+718ZZZ<clinit>:com.squareup.leakcanary.RefWatcher:$r2 = new com.squareup.leakcanary.RefWatcher$2
+709ZZZ<init>:com.squareup.leakcanary.AndroidWatchExecutor:specialinvoke $r2.<android.os.Handler: void <init>(android.os.Looper)>($r3)
+704ZZZd:com.squareup.leakcanary.CanaryLog:interfaceinvoke $r2.<com.squareup.leakcanary.CanaryLog$Logger: void d(java.lang.String,java.lang.Object[])>($r0, $r1)
+703ZZZd:com.squareup.leakcanary.CanaryLog:if $r2 != null goto interfaceinvoke $r2.<com.squareup.leakcanary.CanaryLog$Logger: void d(java.lang.String,java.lang.Object[])>($r0, $r1)
+702ZZZd:com.squareup.leakcanary.CanaryLog:$r2 = <com.squareup.leakcanary.CanaryLog: com.squareup.leakcanary.CanaryLog$Logger logger>
+701ZZZ<clinit>:com.squareup.leakcanary.CanaryLog:<com.squareup.leakcanary.CanaryLog: com.squareup.leakcanary.CanaryLog$Logger logger> = $r0
+676ZZZrun:com.squareup.leakcanary.internal.LeakCanaryInternals$1:staticinvoke <com.squareup.leakcanary.internal.LeakCanaryInternals: void setEnabledBlocking(android.content.Context,java.lang.Class,boolean)>($r1, $r2, $z0)
+675ZZZrun:com.squareup.leakcanary.internal.LeakCanaryInternals$1:$z0 = $r0.<com.squareup.leakcanary.internal.LeakCanaryInternals$1: boolean val$enabled>
+674ZZZrun:com.squareup.leakcanary.internal.LeakCanaryInternals$1:$r2 = $r0.<com.squareup.leakcanary.internal.LeakCanaryInternals$1: java.lang.Class val$componentClass>
+673ZZZrun:com.squareup.leakcanary.internal.LeakCanaryInternals$1:$r1 = $r0.<com.squareup.leakcanary.internal.LeakCanaryInternals$1: android.content.Context val$appContext>
+667ZZZsetEnabledBlocking:com.squareup.leakcanary.internal.LeakCanaryInternals:specialinvoke $r2.<android.content.ComponentName: void <init>(android.content.Context,java.lang.Class)>($r0, $r1)
+666ZZZsetEnabledBlocking:com.squareup.leakcanary.internal.LeakCanaryInternals:$r2 = new android.content.ComponentName
+657ZZZ<init>:com.squareup.leakcanary.AndroidWatchExecutor:$r3 = staticinvoke <android.os.Looper: android.os.Looper getMainLooper()>()
+656ZZZ<init>:com.squareup.leakcanary.AndroidWatchExecutor:$r2 = new android.os.Handler
+655ZZZ<init>:com.squareup.leakcanary.AndroidWatchExecutor:specialinvoke $r0.<java.lang.Object: void <init>()>()
+646ZZZcleanup:com.squareup.leakcanary.AndroidHeapDumper:staticinvoke <com.squareup.leakcanary.internal.LeakCanaryInternals: void executeOnFileIoThread(java.lang.Runnable)>($r1)
+643ZZZcleanup:com.squareup.leakcanary.AndroidHeapDumper:specialinvoke $r1.<com.squareup.leakcanary.AndroidHeapDumper$1: void <init>(com.squareup.leakcanary.AndroidHeapDumper)>($r0)
+630ZZZ<init>:com.squareup.leakcanary.AndroidHeapDumper:specialinvoke $r0.<java.lang.Object: void <init>()>()
+620ZZZandroidWatcher:com.squareup.leakcanary.LeakCanary:specialinvoke $r4.<com.squareup.leakcanary.AndroidDebuggerControl: void <init>()>()
+619ZZZandroidWatcher:com.squareup.leakcanary.LeakCanary:$r4 = new com.squareup.leakcanary.AndroidDebuggerControl
+616ZZZ<init>:com.squareup.leakcanary.DefaultLeakDirectoryProvider:specialinvoke $r0.<java.lang.Object: void <init>()>()
+613ZZZinstall:com.squareup.leakcanary.LeakCanary:$r4 = staticinvoke <com.squareup.leakcanary.LeakCanary: com.squareup.leakcanary.RefWatcher androidWatcher(android.content.Context,com.squareup.leakcanary.HeapDump$Listener,com.squareup.leakcanary.ExcludedRefs)>($r0, $r3, $r2)
+601ZZZsetEnabled:com.squareup.leakcanary.internal.LeakCanaryInternals:staticinvoke <com.squareup.leakcanary.internal.LeakCanaryInternals: void executeOnFileIoThread(java.lang.Runnable)>($r2)
+589ZZZ<init>:com.squareup.leakcanary.internal.LeakCanaryInternals$1:specialinvoke $r0.<java.lang.Object: void <init>()>()
+587ZZZ<init>:com.squareup.leakcanary.internal.LeakCanaryInternals$1:$r0.<com.squareup.leakcanary.internal.LeakCanaryInternals$1: java.lang.Class val$componentClass> = $r2
+586ZZZ<init>:com.squareup.leakcanary.internal.LeakCanaryInternals$1:$r0.<com.squareup.leakcanary.internal.LeakCanaryInternals$1: android.content.Context val$appContext> = $r1
+580ZZZinstall:com.squareup.leakcanary.LeakCanary:specialinvoke $r3.<com.squareup.leakcanary.ServiceHeapDumpListener: void <init>(android.content.Context,java.lang.Class)>($r0, $r1)
+579ZZZinstall:com.squareup.leakcanary.LeakCanary:$r3 = new com.squareup.leakcanary.ServiceHeapDumpListener
+564ZZZinstall:com.squareup.leakcanary.LeakCanary:staticinvoke <com.squareup.leakcanary.LeakCanary: void enableDisplayLeakActivity(android.content.Context)>($r0)
+563ZZZinstall:com.squareup.leakcanary.LeakCanary:if $z0 == 0 goto staticinvoke <com.squareup.leakcanary.LeakCanary: void enableDisplayLeakActivity(android.content.Context)>($r0)
+562ZZZisInServiceProcess:com.squareup.leakcanary.internal.LeakCanaryInternals:$r9 = virtualinvoke $r6.<android.content.pm.PackageManager: android.content.pm.ServiceInfo getServiceInfo(android.content.ComponentName,int)>($r2, 0)
+561ZZZisInServiceProcess:com.squareup.leakcanary.internal.LeakCanaryInternals:specialinvoke $r2.<android.content.ComponentName: void <init>(android.content.Context,java.lang.Class)>($r0, $r1)
+560ZZZisInServiceProcess:com.squareup.leakcanary.internal.LeakCanaryInternals:$r2 = new android.content.ComponentName
+559ZZZisInServiceProcess:com.squareup.leakcanary.internal.LeakCanaryInternals:$r5 = $r8.<android.content.pm.ApplicationInfo: java.lang.String processName>
+558ZZZisInServiceProcess:com.squareup.leakcanary.internal.LeakCanaryInternals:$r8 = $r7.<android.content.pm.PackageInfo: android.content.pm.ApplicationInfo applicationInfo>
+557ZZZisInServiceProcess:com.squareup.leakcanary.internal.LeakCanaryInternals:$r7 = virtualinvoke $r6.<android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)>($r5, 4)
+556ZZZisInServiceProcess:com.squareup.leakcanary.internal.LeakCanaryInternals:$r5 = virtualinvoke $r0.<android.content.Context: java.lang.String getPackageName()>()
+555ZZZisInServiceProcess:com.squareup.leakcanary.internal.LeakCanaryInternals:$r6 = virtualinvoke $r0.<android.content.Context: android.content.pm.PackageManager getPackageManager()>()
+546ZZZ<init>:com.squareup.leakcanary.internal.LeakCanarySingleThreadFactory:specialinvoke $r0.<java.lang.Object: void <init>()>()
+544ZZZnewSingleThreadExecutor:com.squareup.leakcanary.internal.LeakCanaryInternals:$r2 = new com.squareup.leakcanary.internal.LeakCanarySingleThreadFactory
+511ZZZinstall:com.squareup.leakcanary.LeakCanary:$r2 = virtualinvoke $r1.<com.squareup.leakcanary.ExcludedRefs$Builder: com.squareup.leakcanary.ExcludedRefs build()>()
+493ZZZadd:com.squareup.leakcanary.AndroidExcludedRefs$33:virtualinvoke $r1.<com.squareup.leakcanary.ExcludedRefs$Builder: com.squareup.leakcanary.ExcludedRefs$Builder instanceField(java.lang.String,java.lang.String,boolean)>("android.view.Choreographer$FrameDisplayEventReceiver", "mMessageQueue", 1)
+492ZZZcreateBuilder:com.squareup.leakcanary.AndroidExcludedRefs:virtualinvoke $r4.<com.squareup.leakcanary.AndroidExcludedRefs: void add(com.squareup.leakcanary.ExcludedRefs$Builder)>($r1)
+490ZZZcreateBuilder:com.squareup.leakcanary.AndroidExcludedRefs:$z0 = $r4.<com.squareup.leakcanary.AndroidExcludedRefs: boolean applies>
+489ZZZcreateBuilder:com.squareup.leakcanary.AndroidExcludedRefs:$r4 = (com.squareup.leakcanary.AndroidExcludedRefs) $r3
+488ZZZcreateBuilder:com.squareup.leakcanary.AndroidExcludedRefs:$r3 = interfaceinvoke $r2.<java.util.Iterator: java.lang.Object next()>()
+487ZZZcreateBuilder:com.squareup.leakcanary.AndroidExcludedRefs:if $z0 == 0 goto return $r1
+486ZZZcreateBuilder:com.squareup.leakcanary.AndroidExcludedRefs:$z0 = interfaceinvoke $r2.<java.util.Iterator: boolean hasNext()>()
+480ZZZadd:com.squareup.leakcanary.AndroidExcludedRefs$32:virtualinvoke $r1.<com.squareup.leakcanary.ExcludedRefs$Builder: com.squareup.leakcanary.ExcludedRefs$Builder thread(java.lang.String,boolean)>("LeakCanary-Heap-Dump", 1)
+467ZZZadd:com.squareup.leakcanary.AndroidExcludedRefs$31:virtualinvoke $r1.<com.squareup.leakcanary.ExcludedRefs$Builder: com.squareup.leakcanary.ExcludedRefs$Builder thread(java.lang.String,boolean)>("main", 1)
+454ZZZadd:com.squareup.leakcanary.AndroidExcludedRefs$30:virtualinvoke $r1.<com.squareup.leakcanary.ExcludedRefs$Builder: com.squareup.leakcanary.ExcludedRefs$Builder thread(java.lang.String,boolean)>("FinalizerWatchdogDaemon", 1)
+435ZZZadd:com.squareup.leakcanary.AndroidExcludedRefs$28:virtualinvoke $r1.<com.squareup.leakcanary.ExcludedRefs$Builder: com.squareup.leakcanary.ExcludedRefs$Builder clazz(java.lang.String,boolean)>("java.lang.ref.FinalizerReference", 1)
+429ZZZadd:com.squareup.leakcanary.AndroidExcludedRefs$28:virtualinvoke $r1.<com.squareup.leakcanary.ExcludedRefs$Builder: com.squareup.leakcanary.ExcludedRefs$Builder clazz(java.lang.String,boolean)>("java.lang.ref.Finalizer", 1)
+428ZZZclazz:com.squareup.leakcanary.ExcludedRefs$Builder:interfaceinvoke $r3.<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>($r1, $r2)
+427ZZZclazz:com.squareup.leakcanary.ExcludedRefs$Builder:$r2 = staticinvoke <java.lang.Boolean: java.lang.Boolean valueOf(boolean)>($z0)
+426ZZZclazz:com.squareup.leakcanary.ExcludedRefs$Builder:$r3 = $r0.<com.squareup.leakcanary.ExcludedRefs$Builder: java.util.Map classNames>
+423ZZZadd:com.squareup.leakcanary.AndroidExcludedRefs$28:virtualinvoke $r1.<com.squareup.leakcanary.ExcludedRefs$Builder: com.squareup.leakcanary.ExcludedRefs$Builder clazz(java.lang.String,boolean)>($r3, 1)
+422ZZZadd:com.squareup.leakcanary.AndroidExcludedRefs$28:$r3 = virtualinvoke $r2.<java.lang.Class: java.lang.String getName()>()
+421ZZZadd:com.squareup.leakcanary.AndroidExcludedRefs$28:$r2 = class "Ljava/lang/ref/PhantomReference;"
+413ZZZadd:com.squareup.leakcanary.AndroidExcludedRefs$28:$r2 = class "Ljava/lang/ref/SoftReference;"
+405ZZZadd:com.squareup.leakcanary.AndroidExcludedRefs$28:$r2 = class "Ljava/lang/ref/WeakReference;"
+392ZZZadd:com.squareup.leakcanary.AndroidExcludedRefs$27:virtualinvoke $r1.<com.squareup.leakcanary.ExcludedRefs$Builder: com.squareup.leakcanary.ExcludedRefs$Builder rootSuperClass(java.lang.String,boolean)>("android.os.Binder", 1)
+307ZZZ<init>:com.squareup.leakcanary.AndroidExcludedRefs:specialinvoke $r0.<com.squareup.leakcanary.AndroidExcludedRefs: void <init>(java.lang.String,int,boolean)>($r1, $i0, $z0)
+305ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:specialinvoke $r18.<com.squareup.leakcanary.AndroidExcludedRefs$17: void <init>(java.lang.String,int,boolean)>("SPEN_GESTURE_MANAGER", 16, $z0)
+304ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:$z0 = 0
+303ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:if $z0 == 0 goto $z0 = 0
+302ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:$z0 = virtualinvoke $r16.<java.lang.String: boolean equals(java.lang.Object)>($r17)
+301ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:$r17 = <android.os.Build: java.lang.String MANUFACTURER>
+300ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:$r16 = "samsung"
+299ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:$r18 = new com.squareup.leakcanary.AndroidExcludedRefs$17
+298ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:<com.squareup.leakcanary.AndroidExcludedRefs: com.squareup.leakcanary.AndroidExcludedRefs DEVICE_POLICY_MANAGER__SETTINGS_OBSERVER> = $r15
+293ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:specialinvoke $r15.<com.squareup.leakcanary.AndroidExcludedRefs$16: void <init>(java.lang.String,int,boolean)>("DEVICE_POLICY_MANAGER__SETTINGS_OBSERVER", 15, $z0)
+288ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:$r16 = "motorola"
+287ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:$r15 = new com.squareup.leakcanary.AndroidExcludedRefs$16
+286ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:<com.squareup.leakcanary.AndroidExcludedRefs: com.squareup.leakcanary.AndroidExcludedRefs APP_WIDGET_HOST_CALLBACKS> = $r14
+281ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:specialinvoke $r14.<com.squareup.leakcanary.AndroidExcludedRefs$15: void <init>(java.lang.String,int,boolean)>("APP_WIDGET_HOST_CALLBACKS", 14, $z0)
+279ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:if $i0 >= 22 goto $z0 = 0
+278ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:$i0 = <android.os.Build$VERSION: int SDK_INT>
+277ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:$r14 = new com.squareup.leakcanary.AndroidExcludedRefs$15
+276ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:<com.squareup.leakcanary.AndroidExcludedRefs: com.squareup.leakcanary.AndroidExcludedRefs USER_MANAGER__SINSTANCE> = $r13
+271ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:specialinvoke $r13.<com.squareup.leakcanary.AndroidExcludedRefs$14: void <init>(java.lang.String,int,boolean)>("USER_MANAGER__SINSTANCE", 13, $z0)
+269ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:if $i0 > 22 goto $z0 = 0
+267ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:if $i0 < 16 goto $z0 = 0
+265ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:$r13 = new com.squareup.leakcanary.AndroidExcludedRefs$14
+264ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:<com.squareup.leakcanary.AndroidExcludedRefs: com.squareup.leakcanary.AndroidExcludedRefs MEDIA_SCANNER_CONNECTION> = $r12
+255ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:$r12 = new com.squareup.leakcanary.AndroidExcludedRefs$13
+254ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:<com.squareup.leakcanary.AndroidExcludedRefs: com.squareup.leakcanary.AndroidExcludedRefs ACCOUNT_MANAGER> = $r11
+249ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:specialinvoke $r11.<com.squareup.leakcanary.AndroidExcludedRefs$12: void <init>(java.lang.String,int,boolean)>("ACCOUNT_MANAGER", 11, $z0)
+245ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:if $i0 <= 5 goto $z0 = 0
+243ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:$r11 = new com.squareup.leakcanary.AndroidExcludedRefs$12
+242ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:<com.squareup.leakcanary.AndroidExcludedRefs: com.squareup.leakcanary.AndroidExcludedRefs SPEECH_RECOGNIZER> = $r10
+237ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:specialinvoke $r10.<com.squareup.leakcanary.AndroidExcludedRefs$11: void <init>(java.lang.String,int,boolean)>("SPEECH_RECOGNIZER", 10, $z0)
+235ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:if $i0 >= 21 goto $z0 = 0
+233ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:$r10 = new com.squareup.leakcanary.AndroidExcludedRefs$11
+232ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:<com.squareup.leakcanary.AndroidExcludedRefs: com.squareup.leakcanary.AndroidExcludedRefs ACTIVITY_CHOOSE_MODEL> = $r9
+227ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:specialinvoke $r9.<com.squareup.leakcanary.AndroidExcludedRefs$10: void <init>(java.lang.String,int,boolean)>("ACTIVITY_CHOOSE_MODEL", 9, $z0)
+223ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:if $i0 <= 14 goto $z0 = 0
+221ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:$r9 = new com.squareup.leakcanary.AndroidExcludedRefs$10
+220ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:<com.squareup.leakcanary.AndroidExcludedRefs: com.squareup.leakcanary.AndroidExcludedRefs SPELL_CHECKER_SESSION> = $r8
+209ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:$r8 = new com.squareup.leakcanary.AndroidExcludedRefs$9
+208ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:<com.squareup.leakcanary.AndroidExcludedRefs: com.squareup.leakcanary.AndroidExcludedRefs LAYOUT_TRANSITION> = $r7
+203ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:specialinvoke $r7.<com.squareup.leakcanary.AndroidExcludedRefs$8: void <init>(java.lang.String,int,boolean)>("LAYOUT_TRANSITION", 7, $z0)
+199ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:if $i0 < 14 goto $z0 = 0
+197ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:$r7 = new com.squareup.leakcanary.AndroidExcludedRefs$8
+196ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:<com.squareup.leakcanary.AndroidExcludedRefs: com.squareup.leakcanary.AndroidExcludedRefs INPUT_METHOD_MANAGER__ROOT_VIEW> = $r6
+191ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:specialinvoke $r6.<com.squareup.leakcanary.AndroidExcludedRefs$7: void <init>(java.lang.String,int,boolean)>("INPUT_METHOD_MANAGER__ROOT_VIEW", 6, $z0)
+187ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:if $i0 < 15 goto $z0 = 0
+185ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:$r6 = new com.squareup.leakcanary.AndroidExcludedRefs$7
+184ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:<com.squareup.leakcanary.AndroidExcludedRefs: com.squareup.leakcanary.AndroidExcludedRefs INPUT_METHOD_MANAGER__SERVED_VIEW> = $r5
+179ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:specialinvoke $r5.<com.squareup.leakcanary.AndroidExcludedRefs$6: void <init>(java.lang.String,int,boolean)>("INPUT_METHOD_MANAGER__SERVED_VIEW", 5, $z0)
+177ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:if $i0 > 23 goto $z0 = 0
+173ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:$r5 = new com.squareup.leakcanary.AndroidExcludedRefs$6
+172ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:<com.squareup.leakcanary.AndroidExcludedRefs: com.squareup.leakcanary.AndroidExcludedRefs BLOCKING_QUEUE> = $r4
+167ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:specialinvoke $r4.<com.squareup.leakcanary.AndroidExcludedRefs$5: void <init>(java.lang.String,int,boolean)>("BLOCKING_QUEUE", 4, $z0)
+163ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:$r4 = new com.squareup.leakcanary.AndroidExcludedRefs$5
+162ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:<com.squareup.leakcanary.AndroidExcludedRefs: com.squareup.leakcanary.AndroidExcludedRefs TEXT_LINE__SCACHED> = $r3
+157ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:specialinvoke $r3.<com.squareup.leakcanary.AndroidExcludedRefs$4: void <init>(java.lang.String,int,boolean)>("TEXT_LINE__SCACHED", 3, $z0)
+153ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:$r3 = new com.squareup.leakcanary.AndroidExcludedRefs$4
+152ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:<com.squareup.leakcanary.AndroidExcludedRefs: com.squareup.leakcanary.AndroidExcludedRefs MEDIA_SESSION_LEGACY_HELPER__SINSTANCE> = $r2
+147ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:specialinvoke $r2.<com.squareup.leakcanary.AndroidExcludedRefs$3: void <init>(java.lang.String,int,boolean)>("MEDIA_SESSION_LEGACY_HELPER__SINSTANCE", 2, $z0)
+145ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:if $i0 != 21 goto $z0 = 0
+143ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:$r2 = new com.squareup.leakcanary.AndroidExcludedRefs$3
+142ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:<com.squareup.leakcanary.AndroidExcludedRefs: com.squareup.leakcanary.AndroidExcludedRefs SPAN_CONTROLLER> = $r1
+137ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:specialinvoke $r1.<com.squareup.leakcanary.AndroidExcludedRefs$2: void <init>(java.lang.String,int,boolean)>("SPAN_CONTROLLER", 1, $z0)
+135ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:if $i0 > 19 goto $z0 = 0
+133ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:$r1 = new com.squareup.leakcanary.AndroidExcludedRefs$2
+132ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:<com.squareup.leakcanary.AndroidExcludedRefs: com.squareup.leakcanary.AndroidExcludedRefs ACTIVITY_CLIENT_RECORD__NEXT_IDLE> = $r0
+127ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:specialinvoke $r0.<com.squareup.leakcanary.AndroidExcludedRefs$1: void <init>(java.lang.String,int,boolean)>("ACTIVITY_CLIENT_RECORD__NEXT_IDLE", 0, $z0)
+125ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:if $i0 > 21 goto $z0 = 0
+123ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:if $i0 < 19 goto $z0 = 0
+121ZZZ<clinit>:com.squareup.leakcanary.AndroidExcludedRefs:$r0 = new com.squareup.leakcanary.AndroidExcludedRefs$1

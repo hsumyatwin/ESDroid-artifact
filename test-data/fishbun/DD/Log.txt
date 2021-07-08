@@ -1,0 +1,44 @@
+93
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+FSoE=1.py
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+FSoE=2.py
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+FSoE=3.py
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+FSoE=6.py
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+FSoE=8.py
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+FSoE=12.py
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+FSoE=14.py
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+FSoE=15.py
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+FSoE=16.py
+PT17M5.91S
+Press any key to continue . . .
