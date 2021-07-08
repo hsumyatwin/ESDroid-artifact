@@ -1,0 +1,104 @@
+C:\Users\Heather\AppData\Local\Android\Sdk\tools>FLiADD.bat
+94
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+FSoE=1.py
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+FSoE=2.py
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+FSoE=5.py
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+FSoE=20.py
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+PT33M54.563S
+Press any key to continue . . .
