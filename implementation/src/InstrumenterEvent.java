@@ -22,46 +22,22 @@ import soot.jimple.LookupSwitchStmt;
 import soot.jimple.Stmt;
 import soot.jimple.StringConstant;
 import soot.jimple.SwitchStmt;
+import soot.jimple.infoflow.android.SetupApplication;
+import soot.jimple.infoflow.android.config.SootConfigForAndroid;
 import soot.options.Options;
 
 public class InstrumenterEvent {
 	
 	public static void main(String[] args) {
-		String domainName="com.ringdroid";//"org.liberty.android.fantastischmemo";
-		String apk ="RingdroidSelectActivity-debug.apk";//"AnyMemo-dev-debug.apk";
-		String apklocation="C:\\Users\\ \eclipse-workspace\\FLiAD\\apk\\";
-		//String apklocationSoot="C:\\Users\\ \eclipse-workspace\\FLiAD\\sootOutput\\";
-		String apkplatform="C:\\Users\\ \AppData\\Local\\Android\\Sdk\\platforms\\";
-		args = ("-w -allow-phantom-refs -process-multiple-dex -android-jars "+apkplatform+" -src-prec apk -output-format dex -process-path "+apklocation+apk).split(" ");
-		
-		//Runtime rt = Runtime.getRuntime();
-		//try {
-			//Process pr = rt.exec("java -jar map.jar time.rel test.txt debug");
-			//rt.exec("cmd /c copy "+apklocation+"aa.txt "+apklocation+"bb.txt");
-			//rt.exec("cmd /c chmod 777 "+apklocation+"sootOutput\\"+apk);
-			//rt.exec("cmd /c copy "+apklocationSoot+apk+" "+apklocationSoot+apk+".bk "); 
-			//rt.exec("cmd /c jarsigner.exe -keystore keystore.jks -storepass hsu99999 "+apklocationSoot+apk +" key9");
-		//} catch (IOException e) {
-			// TODO Auto-generated catch block
-			//e.printStackTrace();
-		//}		
-		//System.exit(0);
-		
-		
+		String domainName="com.muledog.calculator";
 		Options.v().set_src_prec(Options.src_prec_apk);		
+		//output as APK, too//-f J
 		Options.v().set_output_format(Options.output_format_dex);
 		Options.v().force_android_jar();
-		Options.v().set_keep_line_number(true);
-		Options.v().set_allow_phantom_refs(true);
-		//Options.v().set_process_dir(Collections.singletonList(args[3]));
-		
         // resolve the PrintStream and System soot-classes
 		Scene.v().addBasicClass("java.io.PrintStream",SootClass.SIGNATURES);
-		Scene.v().addBasicClass("java.lang.System",SootClass.SIGNATURES);
-		Scene.v().allowsPhantomRefs();
+        Scene.v().addBasicClass("java.lang.System",SootClass.SIGNATURES);
 
-		
-		
         PackManager.v().getPack("jtp").add(new Transform("jtp.myInstrumenter", new BodyTransformer() {
 
 			@Override
@@ -305,7 +281,6 @@ public class InstrumenterEvent {
 		            }
 		};
 		setupApplication.setSootConfig(sootConf);*/
-		
 		
 	}
 
