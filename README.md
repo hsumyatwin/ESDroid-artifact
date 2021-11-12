@@ -19,7 +19,7 @@ ESDroid is in Python and Java. You can find the source code under "implementatio
    
 5. Make sure that either your emulator is running or the phone is connected and accessible via adb.    
    Run following command. This will log if the exception occurs.
-   >**adb logcat NotFoundException:E *:S > C:\Users\Heather\AppData\Local\Android\Sdk\tools\logerr.txt**
+   >**adb logcat Exception:E *:S > C:\Users\Heather\AppData\Local\Android\Sdk\tools\logerr.txt**
    
    Change the package name and activity name (i.e., ACTION_MAIN/an entry point for the application) in FLiADFSoE.py. 
    [E.g., package = 'com.muledog.calculator', activity ='com.muledog.calculator.MainActivity']
@@ -30,13 +30,13 @@ ESDroid is in Python and Java. You can find the source code under "implementatio
    Stop the logging command.
     
 6. Run the following commands and then run the app on your emulator/real phone. This will collect the required log file for ESDroid.
-   >**adb logcat NotFoundException:E *:S > C:\Users\Heather\AppData\Local\Android\Sdk\tools\logerr.txt**
+   >**adb logcat Exception:E *:S > C:\Users\Heather\AppData\Local\Android\Sdk\tools\logerr.txt**
    
    >**adb logcat | find "FLiAD:" > <apk_file>.logcat.txt**     
    
    >[E.g., adb logcat | find "FLiAD:" > app-debug.apk.logcat.txt]
    
-7. Change exceptionType, className, lineNumber in FLiADDmin3.java. 
+7. Change exceptionType, className, lineNumber (i.e., the failure point) got from logerr.txt at step 5 in FLiADDmin3.java. 
    >[E.g., NumberFormatException, MainActivity, 117]
    Run FLiADD.bat. This will simplify the event sequence. After you finish with running FLiADD.bat, stop the above command. 
    
