@@ -56,7 +56,7 @@ import soot.toolkits.scalar.UnitValueBoxPair;
 
 public class FLiADDs {	
 	public static String SourcesSinks;
-	public static String platformPath;
+	public static String platformPath="";
 	
 	//domain
 	static String domainName;
@@ -91,7 +91,7 @@ public class FLiADDs {
         Options.v().set_src_prec(6);
         Options.v().set_keep_offset(false);
 		config.getCallbackConfig().setEnableCallbacks(true);
-		config.getAnalysisFileConfig().setSourceSinkFile("C:\\Users\\ \\eclipse-workspace\\AndroidSlicer-master\\AndroidSlicer-master\\tool\\SourcesAndSinks.txt");
+		config.getAnalysisFileConfig().setSourceSinkFile("C:\\Users\\Heather\\eclipse-workspace\\AndroidSlicer-master\\AndroidSlicer-master\\tool\\SourcesAndSinks.txt");
 		Options.v().set_src_prec(Options.src_prec_apk);
 		Options.v().set_force_android_jar(platFormDir+androidJar);
 		Options.v().set_android_api_version(26);
@@ -131,24 +131,27 @@ public class FLiADDs {
 	
 	public static void main(String args[]) {		
 		try {
+			System.out.println("test");
+			//args = {"apk","folder","FSoE/DFSoE","final/test","domain","oldString","oldWord","newWord","pointtoSlice"};
+			//args =new String[] {"ch.blinkenlights.android.vanilla_11000.apk","VanillaR","FSoE","final","ch.blinkenlights.android.vanilla","Lch/blinkenlights/android/vanilla/","Lch/","ch/","153205"};
 			LocalTime previousT = LocalTime.now();
-			String apkLocation="C:\\Users\\ \\eclipse-workspace\\FLiAD\\apk\\";
-			String apk="net.phunehehe.foocam_2.apk";
-			String androidJar="android-26\\android.jar";
-			String location="C:\\Users\\ \\eclipse-workspace\\FLiAD\\DS\\";
+			//String apkLocation="C:\\Users\\Heather\\eclipse-workspace\\FLiAD\\apk\\2process\\";
+			String apk=args[0];//"net.phunehehe.foocam_2.apk";
+			String androidJar="android-26/android.jar";
+			String location="";//"C:\\Users\\Heather\\eclipse-workspace\\FLiAD\\DS\\2process\\"+args[1]+"\\"+args[2]+"\\";
 			boolean justTrace = false;
-			String option = "final";//"test" or "final";//args[0];
-			String fileToParse = location+apk+".logcat.txt";
-			String pathApk = apkLocation+apk+"";
-			String outFile = location+apk+".logcat.processed.txt";
-			platformPath = ("C:\\Users\\ \\AppData\\Local\\Android\\Sdk\\platforms\\");//args[4];
-			domainName="net.phunehehe";//"org.liberty.android.fantastischmemo";
-			oldString="Lnet/phunehehe/";//"Lorg/liberty/android/fantastischmemo/";
-			newString=oldString.replace("Lnet/", "net/");//bytecode - reference single L - removing
+			String option ="final";// "final";//"test" or "final";//args[0]; test for preSlice.sh and final for ESDroid.sh
+			String fileToParse = apk+".logcat.txt";
+			String pathApk = apk;
+			String outFile = apk+".logcat.processed.txt";
+			platformPath = (args[2]);// ("C:\\Users\\Heather\\AppData\\Local\\Android\\Sdk\\platforms\\");//args[4];
+			domainName=args[1];//"net.phunehehe.foocam";//"org.liberty.android.fantastischmemo";
+			oldString="Lcom/";//"Lnet/phunehehe/foocam/";//"Lorg/liberty/android/fantastischmemo/";
+			newString=oldString.replace("Lcom/", "com/");//("Lcom/", "com/");//bytecode - reference single L - removing
 			//SourcesSinks = args[5];
 			
 			//backward slicing
-			int posToSliceBW = 908;//10297;//9850;//-1;
+			int posToSliceBW = Integer.parseInt(args[4]) ;//810;//10297;//9850;//-1;
 			endP = posToSliceBW;
 			
 			//forward slicing
@@ -453,7 +456,7 @@ public class FLiADDs {
 					//unitString.put(u.toString().replace(oldString, newString).replace(";\"", "\""), u);//why ; there and needed to replace?
 					unitString.put(u.toString(), u);//why ; there and needed to replace?
 					//System.out.println(unitString);
-					if(mt.getName().equals("onPictureTaken")) {// && mt.getDeclaringClass().getName().equals("org.liberty.android.fantastischmemo.ui.QuizActivity")) {
+					if(mt.getName().equals("fetchthis")) {// && mt.getDeclaringClass().getName().equals("nerd.tuxmobil.fahrplan.congress.fetcher")) {
 						//System.out.println("hello...u="+u.toString());
 						//System.out.println("hello...u="+unitString.get(u.toString().replace(oldString, newString).replace(";\"", "\"")));
 					}
@@ -467,15 +470,42 @@ public class FLiADDs {
 				
 				Map<Integer, String> temp = mapTrace.get(key);
 				//System.out.println("Entering:"+mt.getName()+",class "+mt.getDeclaringClass().getName());
-				if(mt.getName().equals("onOptionsItemSelected") && mt.getDeclaringClass().getName().equals("org.liberty.android.fantastischmemo.ui.QuizActivity")) {
+				//if(mt.getName().equals("onOptionsItemSelected") && mt.getDeclaringClass().getName().equals("org.liberty.android.fantastischmemo.ui.QuizActivity")) {
 				//System.out.println("hello...temp="+temp.size()+","+temp);
 				//System.out.println("hello...unitString="+unitString.size()+","+unitString);
-				}
+				//}
 				for (Integer key1 : temp.keySet()) {
-					if(temp.get(key1).contains("onPictureTaken") || key1==499) {
+					//if(temp.get(key1).contains("onPictureTaken") || key1==499) {
 						//System.out.println(">>>>"+unitString.keySet().contains(temp.get(key1)));
 						//System.out.println(temp.get(key1));
-					}
+					//}
+					//special case start
+					/*if(key1==264451) {
+						System.out.println("264451---"+temp.get(key1));
+						//System.out.println("10598---"+temp.get(key1));
+
+						Unit unit = unitString.get("r21 = new com.squareup.okhttp.Request$Builder");
+						//if(mt.getName().equals("onOptionsItemSelected") && mt.getDeclaringClass().getName().equals("org.liberty.android.fantastischmemo.ui.QuizActivity")) {
+							//System.out.println("hello...unit="+unit);
+							//}
+						System.out.println("unitString="+unitString);
+						i++;
+						InstructionUnits iu = new InstructionUnits();
+						iu.setMethod(mt);
+						iu.setUnit(unit);
+						iu.setLineNo(key1);
+						System.out.println(i+"ZZZ"+mt.getName()+":"+mt.getDeclaringClass().getName()+":"+unit);
+						iu.setSootUnitId();
+						try {
+							// System.out.println("This is filled up! "+ins[key1].getUnitId());
+						} catch (Exception ex) {
+
+						}
+						ins[key1] = iu;
+						listUnis.add(iu);
+					continue;
+					}*/
+					//special case end
 					if (unitString.keySet().contains(temp.get(key1))) {
 						Unit unit = unitString.get(temp.get(key1));
 						if(mt.getName().equals("onOptionsItemSelected") && mt.getDeclaringClass().getName().equals("org.liberty.android.fantastischmemo.ui.QuizActivity")) {
@@ -501,6 +531,14 @@ public class FLiADDs {
 
 		}
 		System.out.println("i:" + i + "size:" + listUnis.size());
+		//System.out.println( "special case 1 -:" + listUnis.get(87274).getUnit());//special case
+		//System.out.println( "special case 2 -:" + listUnis.get(87275).getUnit());//special case
+		//System.out.println( "special case 1 -:" + ins[10597].getUnit());//special case
+		//System.out.println( "special case 2 -:" + ins[10598].getUnit());//special case
+		//System.out.println( "special case 1 -:" + ins[10597].getUnitId());//special case
+		//System.out.println( "special case 2 -:" + ins[10598].getUnitId());//special case
+		//System.out.println( "special case 1 -:" + ins[10597].getLineNo());//special case
+		//System.out.println( "special case 2 -:" + ins[10598].getLineNo());//special case
 		// Map <String, InstructionUnits> mapIns = new LinkedHashMap<>();
 		Input input = new Input();
 		i = 0;
@@ -691,10 +729,14 @@ public class FLiADDs {
 
 	Map<String, InstructionUnits> getChunkBW(int pos, Input input) {
 		InstructionUnits iu = input.mapKeyUnits.get(input.mapNoKey.get(pos));
-		String currentMethod = iu.getMethod().getName();
-		String currentClass = iu.getMethod().getDeclaringClass().toString();
+		String currentMethod = "";
+		if(iu!=null && iu.getMethod()!=null && iu.getMethod().getName()!=null)
+			currentMethod=iu.getMethod().getName();
+		String currentClass = "";
+		if(iu!=null && iu.getMethod()!=null && iu.getMethod().getDeclaringClass()!=null)
+			currentClass = iu.getMethod().getDeclaringClass().toString();
 		Map<String, InstructionUnits> chunk = new LinkedHashMap<String, InstructionUnits>();
-		chunk.put(iu.getUnitId(), iu);//first unit
+		if(iu!=null) chunk.put(iu.getUnitId(), iu);//first unit
 		int p = pos - 1;
 		while (p >= 0) {
 			iu = input.mapKeyUnits.get(input.mapNoKey.get(p));
@@ -880,6 +922,10 @@ public class FLiADDs {
 			if (position == 1683) {
 				int kkr = 0;
 			}
+			/*if(position == 87275)//special case
+			{
+				System.out.println("here special case="+input.mapKeyUnits.get(input.mapNoKey.get(position)));
+			}*/
 			String nextKey = input.mapNoKey.get(position);
 			InstructionUnits nextUnit = input.mapKeyUnits.get(nextKey);
 			if (nextUnit == null || nextUnit.getUnit() == null) {
