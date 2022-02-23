@@ -50,7 +50,7 @@ ESDroid is in Python and Java. You can find the source code under "implementatio
 
 9. Run the ESDroid script for the app and then enter the number (i.e., from app-debug.apk.logcat.processed.txt) that you picked from previous step:
 
-   >**./ESDroid.sh <apk_file> <post_ToSlice>**
+   >**./ESDroid.sh <apk_file> <package_name> <post_ToSlice>**
    
    >[E.g., ./ESDroid.sh app-debug.apk com.muledog.calculator 8980]
         
