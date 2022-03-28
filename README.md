@@ -56,6 +56,46 @@ ESDroid is in Python and Java. You can find the source code under "implementatio
         
    Finally, you will have the slices files wrt your slicing criteria
 
+#Replication package
+
+This replication package is structured as follows:
+
+```
+    /
+    .
+    |--- implementation/   The implementation including libraries and source code
+    |--- test-data/   The list of apps tested
+    |--- tool/   	The working directory including the scripts
+```
+
+Each of the folders listed above are described in details in the remaining of this readme.
+
+1. Implementation (Experiment apps)
+
+```
+implementation
+    .
+    |--- lib   The list of dependencies.   
+    |--- src  The source code of ESDroid. 
+```
+
+1. Test data (Experiment apps)
+
+```
+test-data
+    .
+    |--- AndroidSlicer   The experiment apps that compared against with AndroidSlicer.    
+    |--- Mandoline  The experiment apps that compared against with AndroidSlicer. 
+```
+
+1. The working folder
+
+```
+tool
+    .
+    |--- resources  The required resources.   
+    |--- sootOutput The directory for instrumented apps.
+```
 
 # Note
 Hsu: I have used Ubuntu, Window command line and emulator since I run ESDroid on Windows OS.
