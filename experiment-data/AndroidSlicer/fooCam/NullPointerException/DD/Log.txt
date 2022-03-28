@@ -1,9 +1,0 @@
-3
-Emulator Ready For Run!!!!
-Script Run Finished!!!! Ready to read Log?
-FSoE=1.py
-Emulator Ready For Run!!!!
-Script Run Finished!!!! Ready to read Log?
-FSoE=2.py
-PT1M17.233S
-Press any key to continue . . .

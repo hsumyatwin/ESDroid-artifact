@@ -1,7 +1,0 @@
-https://github.com/mpietrzak/apv
-version: v_0.2.6 
-API : 26
-package name : cx.hell.android
-  
-
-

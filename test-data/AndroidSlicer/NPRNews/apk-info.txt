@@ -1,4 +1,0 @@
-Version : only one source code folder found at https://code.google.com/archive/p/npr-android-app/source/default/source
-API key generation : https://dev.npr.org/console/application/2662
-API : 26
-package name :org.npr.android.news
