@@ -79,7 +79,7 @@ implementation
     |--- src  The source code of ESDroid. 
 ```
 
-1. Test data (Experiment apps)
+2. Test data (Experiment apps)
 
 ```
 test-data
@@ -88,7 +88,7 @@ test-data
     |--- Mandoline  The experiment apps that compared against with AndroidSlicer. 
 ```
 
-1. Working folder
+3. Working folder
 
 ```
 tool
