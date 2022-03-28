@@ -1,0 +1,138 @@
+386ZZZonClick:caldwell.ben.bites.MethodList$5:$r10 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(java.lang.String)>($r7)
+-1ZZZonClick:caldwell.ben.bites.MethodList$5:$r0 := @this: caldwell.ben.bites.MethodList$5
+-1ZZZonClick:caldwell.ben.bites.MethodList$5:$r1 := @parameter0: android.content.DialogInterface
+-1ZZZonClick:caldwell.ben.bites.MethodList$5:$i0 := @parameter1: int
+-1ZZZonClick:caldwell.ben.bites.MethodList$5:$r2 = new android.content.ContentValues
+-1ZZZonClick:caldwell.ben.bites.MethodList$5:specialinvoke $r2.<android.content.ContentValues: void <init>()>()
+-1ZZZonClick:caldwell.ben.bites.MethodList$5:$l1 = <caldwell.ben.bites.Bites: long mRecipeId>
+-1ZZZonClick:caldwell.ben.bites.MethodList$5:$r3 = staticinvoke <java.lang.Long: java.lang.Long valueOf(long)>($l1)
+-1ZZZonClick:caldwell.ben.bites.MethodList$5:virtualinvoke $r2.<android.content.ContentValues: void put(java.lang.String,java.lang.Long)>("recipe_id", $r3)
+-1ZZZonClick:caldwell.ben.bites.MethodList$5:$r4 = $r0.<caldwell.ben.bites.MethodList$5: caldwell.ben.bites.MethodList this$0>
+-1ZZZonClick:caldwell.ben.bites.MethodList$5:$r5 = staticinvoke <caldwell.ben.bites.MethodList: android.widget.EditText access$0(caldwell.ben.bites.MethodList)>($r4)
+-1ZZZonClick:caldwell.ben.bites.MethodList$5:$r6 = virtualinvoke $r5.<android.widget.EditText: android.text.Editable getText()>()
+-1ZZZonClick:caldwell.ben.bites.MethodList$5:$r7 = interfaceinvoke $r6.<android.text.Editable: java.lang.String toString()>()
+-1ZZZonClick:caldwell.ben.bites.MethodList$5:virtualinvoke $r2.<android.content.ContentValues: void put(java.lang.String,java.lang.String)>("text", $r7)
+-1ZZZonClick:caldwell.ben.bites.MethodList$5:$r8 = staticinvoke <caldwell.ben.bites.MethodList: android.widget.TextView access$1(caldwell.ben.bites.MethodList)>($r4)
+-1ZZZonClick:caldwell.ben.bites.MethodList$5:$r9 = virtualinvoke $r8.<android.widget.TextView: java.lang.CharSequence getText()>()
+-1ZZZonClick:caldwell.ben.bites.MethodList$5:$r7 = interfaceinvoke $r9.<java.lang.CharSequence: java.lang.String toString()>()
+-1ZZZonClick:caldwell.ben.bites.MethodList$5:$r10 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(java.lang.String)>($r7)
+-1ZZZonClick:caldwell.ben.bites.MethodList$5:$i0 = virtualinvoke $r10.<java.lang.Integer: int intValue()>()
+-1ZZZonClick:caldwell.ben.bites.MethodList$5:$r10 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($i0)
+-1ZZZonClick:caldwell.ben.bites.MethodList$5:virtualinvoke $r2.<android.content.ContentValues: void put(java.lang.String,java.lang.Integer)>("step", $r10)
+-1ZZZonClick:caldwell.ben.bites.MethodList$5:$r11 = $r0.<caldwell.ben.bites.MethodList$5: caldwell.ben.bites.MethodList this$0>
+-1ZZZonClick:caldwell.ben.bites.MethodList$5:$r12 = virtualinvoke $r11.<caldwell.ben.bites.MethodList: android.content.ContentResolver getContentResolver()>()
+-1ZZZonClick:caldwell.ben.bites.MethodList$5:$r13 = <caldwell.ben.bites.RecipeBook$Methods: android.net.Uri CONTENT_URI>
+-1ZZZonClick:caldwell.ben.bites.MethodList$5:$r13 = virtualinvoke $r12.<android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>($r13, $r2)
+-1ZZZonClick:caldwell.ben.bites.MethodList$5:staticinvoke <caldwell.ben.bites.MethodList: void access$3(caldwell.ben.bites.MethodList,android.net.Uri)>($r4, $r13)
+-1ZZZonClick:caldwell.ben.bites.MethodList$5:return
+-1ZZZonClick:caldwell.ben.bites.MethodList$5:$r14 := @caughtexception
+-1ZZZonClick:caldwell.ben.bites.MethodList$5:$r10 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(0)
+-1ZZZonClick:caldwell.ben.bites.MethodList$5:throw $r14
+383ZZZaccess$1:caldwell.ben.bites.MethodList:r1 = $r0.<caldwell.ben.bites.MethodList: android.widget.TextView mDialogStep>
+-1ZZZaccess$1:caldwell.ben.bites.MethodList:$r0 := @parameter0: caldwell.ben.bites.MethodList
+-1ZZZaccess$1:caldwell.ben.bites.MethodList:r1 = $r0.<caldwell.ben.bites.MethodList: android.widget.TextView mDialogStep>
+-1ZZZaccess$1:caldwell.ben.bites.MethodList:return r1
+357ZZZ<init>:caldwell.ben.bites.MethodList$5:specialinvoke $r0.<java.lang.Object: void <init>()>()
+-1ZZZ<init>:caldwell.ben.bites.MethodList$5:$r0 := @this: caldwell.ben.bites.MethodList$5
+-1ZZZ<init>:caldwell.ben.bites.MethodList$5:$r1 := @parameter0: caldwell.ben.bites.MethodList
+-1ZZZ<init>:caldwell.ben.bites.MethodList$5:$r0.<caldwell.ben.bites.MethodList$5: caldwell.ben.bites.MethodList this$0> = $r1
+-1ZZZ<init>:caldwell.ben.bites.MethodList$5:specialinvoke $r0.<java.lang.Object: void <init>()>()
+-1ZZZ<init>:caldwell.ben.bites.MethodList$5:return
+336ZZZonOptionsItemSelected:caldwell.ben.bites.MethodList:virtualinvoke $r0.<caldwell.ben.bites.MethodList: void showDialog(int)>(3)
+-1ZZZonOptionsItemSelected:caldwell.ben.bites.MethodList:$r0 := @this: caldwell.ben.bites.MethodList
+-1ZZZonOptionsItemSelected:caldwell.ben.bites.MethodList:$r1 := @parameter0: android.view.MenuItem
+-1ZZZonOptionsItemSelected:caldwell.ben.bites.MethodList:$i0 = interfaceinvoke $r1.<android.view.MenuItem: int getItemId()>()
+-1ZZZonOptionsItemSelected:caldwell.ben.bites.MethodList:lookupswitch($i0) {     case 3: goto virtualinvoke $r0.<caldwell.ben.bites.MethodList: void showDialog(int)>(3);     default: goto $z0 = specialinvoke $r0.<android.app.ListActivity: boolean onOptionsItemSelected(android.view.MenuItem)>($r1); }
+-1ZZZonOptionsItemSelected:caldwell.ben.bites.MethodList:$z0 = specialinvoke $r0.<android.app.ListActivity: boolean onOptionsItemSelected(android.view.MenuItem)>($r1)
+-1ZZZonOptionsItemSelected:caldwell.ben.bites.MethodList:return $z0
+-1ZZZonOptionsItemSelected:caldwell.ben.bites.MethodList:virtualinvoke $r0.<caldwell.ben.bites.MethodList: void showDialog(int)>(3)
+-1ZZZonOptionsItemSelected:caldwell.ben.bites.MethodList:$r2 = $r0.<caldwell.ben.bites.MethodList: android.widget.EditText mDialogEdit>
+-1ZZZonOptionsItemSelected:caldwell.ben.bites.MethodList:virtualinvoke $r2.<android.widget.EditText: void setText(java.lang.CharSequence)>("")
+-1ZZZonOptionsItemSelected:caldwell.ben.bites.MethodList:$r3 = $r0.<caldwell.ben.bites.MethodList: android.widget.TextView mDialogStep>
+-1ZZZonOptionsItemSelected:caldwell.ben.bites.MethodList:virtualinvoke $r3.<android.widget.TextView: void setText(java.lang.CharSequence)>("")
+-1ZZZonOptionsItemSelected:caldwell.ben.bites.MethodList:goto [?= $z0 = specialinvoke $r0.<android.app.ListActivity: boolean onOptionsItemSelected(android.view.MenuItem)>($r1)]
+318ZZZonResume:caldwell.ben.bites.MethodList:virtualinvoke $r8.<android.widget.TextView: void setText(java.lang.CharSequence)>($r4)
+-1ZZZonResume:caldwell.ben.bites.MethodList:$r0 := @this: caldwell.ben.bites.MethodList
+-1ZZZonResume:caldwell.ben.bites.MethodList:specialinvoke $r0.<android.app.ListActivity: void onResume()>()
+-1ZZZonResume:caldwell.ben.bites.MethodList:$r1 = <caldwell.ben.bites.RecipeBook$Methods: android.net.Uri CONTENT_URI>
+-1ZZZonResume:caldwell.ben.bites.MethodList:$r2 = <caldwell.ben.bites.MethodList: java.lang.String[] PROJECTION>
+-1ZZZonResume:caldwell.ben.bites.MethodList:$r3 = new java.lang.StringBuilder
+-1ZZZonResume:caldwell.ben.bites.MethodList:specialinvoke $r3.<java.lang.StringBuilder: void <init>(java.lang.String)>("recipe_id=")
+-1ZZZonResume:caldwell.ben.bites.MethodList:$l0 = <caldwell.ben.bites.Bites: long mRecipeId>
+-1ZZZonResume:caldwell.ben.bites.MethodList:$r3 = virtualinvoke $r3.<java.lang.StringBuilder: java.lang.StringBuilder append(long)>($l0)
+-1ZZZonResume:caldwell.ben.bites.MethodList:$r4 = virtualinvoke $r3.<java.lang.StringBuilder: java.lang.String toString()>()
+-1ZZZonResume:caldwell.ben.bites.MethodList:$r5 = virtualinvoke $r0.<caldwell.ben.bites.MethodList: android.database.Cursor managedQuery(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r1, $r2, $r4, null, "step ASC")
+-1ZZZonResume:caldwell.ben.bites.MethodList:$r0.<caldwell.ben.bites.MethodList: android.database.Cursor mCursor> = $r5
+-1ZZZonResume:caldwell.ben.bites.MethodList:$r6 = new android.widget.SimpleCursorAdapter
+-1ZZZonResume:caldwell.ben.bites.MethodList:$r5 = $r0.<caldwell.ben.bites.MethodList: android.database.Cursor mCursor>
+-1ZZZonResume:caldwell.ben.bites.MethodList:$r2 = newarray (java.lang.String)[2]
+-1ZZZonResume:caldwell.ben.bites.MethodList:$r2[0] = "step"
+-1ZZZonResume:caldwell.ben.bites.MethodList:$r2[1] = "text"
+-1ZZZonResume:caldwell.ben.bites.MethodList:$r7 = newarray (int)[2]
+-1ZZZonResume:caldwell.ben.bites.MethodList:$r7[0] = 2131296265
+-1ZZZonResume:caldwell.ben.bites.MethodList:$r7[1] = 2131296266
+-1ZZZonResume:caldwell.ben.bites.MethodList:specialinvoke $r6.<android.widget.SimpleCursorAdapter: void <init>(android.content.Context,int,android.database.Cursor,java.lang.String[],int[])>($r0, 2130903047, $r5, $r2, $r7)
+-1ZZZonResume:caldwell.ben.bites.MethodList:virtualinvoke $r0.<caldwell.ben.bites.MethodList: void setListAdapter(android.widget.ListAdapter)>($r6)
+-1ZZZonResume:caldwell.ben.bites.MethodList:$r8 = $r0.<caldwell.ben.bites.MethodList: android.widget.TextView mHeader>
+-1ZZZonResume:caldwell.ben.bites.MethodList:$r4 = <caldwell.ben.bites.Bites: java.lang.String mRecipeName>
+-1ZZZonResume:caldwell.ben.bites.MethodList:virtualinvoke $r8.<android.widget.TextView: void setText(java.lang.CharSequence)>($r4)
+-1ZZZonResume:caldwell.ben.bites.MethodList:return
+279ZZZonCreate:caldwell.ben.bites.MethodList:virtualinvoke $r6.<android.widget.ListView: void setOnCreateContextMenuListener(android.view.View$OnCreateContextMenuListener)>($r0)
+-1ZZZonCreate:caldwell.ben.bites.MethodList:$r0 := @this: caldwell.ben.bites.MethodList
+-1ZZZonCreate:caldwell.ben.bites.MethodList:$r1 := @parameter0: android.os.Bundle
+-1ZZZonCreate:caldwell.ben.bites.MethodList:specialinvoke $r0.<android.app.ListActivity: void onCreate(android.os.Bundle)>($r1)
+-1ZZZonCreate:caldwell.ben.bites.MethodList:$r2 = virtualinvoke $r0.<caldwell.ben.bites.MethodList: android.content.Intent getIntent()>()
+-1ZZZonCreate:caldwell.ben.bites.MethodList:$r3 = virtualinvoke $r2.<android.content.Intent: android.net.Uri getData()>()
+-1ZZZonCreate:caldwell.ben.bites.MethodList:if $r3 != null goto virtualinvoke $r0.<caldwell.ben.bites.MethodList: void setContentView(int)>(2130903048)
+-1ZZZonCreate:caldwell.ben.bites.MethodList:$r3 = <caldwell.ben.bites.RecipeBook$Methods: android.net.Uri CONTENT_URI>
+-1ZZZonCreate:caldwell.ben.bites.MethodList:virtualinvoke $r2.<android.content.Intent: android.content.Intent setData(android.net.Uri)>($r3)
+-1ZZZonCreate:caldwell.ben.bites.MethodList:virtualinvoke $r0.<caldwell.ben.bites.MethodList: void setContentView(int)>(2130903048)
+-1ZZZonCreate:caldwell.ben.bites.MethodList:$r4 = virtualinvoke $r0.<caldwell.ben.bites.MethodList: android.view.View findViewById(int)>(2131296267)
+-1ZZZonCreate:caldwell.ben.bites.MethodList:$r5 = (android.widget.TextView) $r4
+-1ZZZonCreate:caldwell.ben.bites.MethodList:$r0.<caldwell.ben.bites.MethodList: android.widget.TextView mHeader> = $r5
+-1ZZZonCreate:caldwell.ben.bites.MethodList:$r6 = virtualinvoke $r0.<caldwell.ben.bites.MethodList: android.widget.ListView getListView()>()
+-1ZZZonCreate:caldwell.ben.bites.MethodList:virtualinvoke $r6.<android.widget.ListView: void setOnCreateContextMenuListener(android.view.View$OnCreateContextMenuListener)>($r0)
+-1ZZZonCreate:caldwell.ben.bites.MethodList:return
+265ZZZ<init>:caldwell.ben.bites.MethodList:specialinvoke $r0.<android.app.ListActivity: void <init>()>()
+-1ZZZ<init>:caldwell.ben.bites.MethodList:$r0 := @this: caldwell.ben.bites.MethodList
+-1ZZZ<init>:caldwell.ben.bites.MethodList:specialinvoke $r0.<android.app.ListActivity: void <init>()>()
+-1ZZZ<init>:caldwell.ben.bites.MethodList:return
+52ZZZonCreate:caldwell.ben.bites.RecipeBookProvider:$r1 = virtualinvoke $r0.<caldwell.ben.bites.RecipeBookProvider: android.content.Context getContext()>()
+-1ZZZonCreate:caldwell.ben.bites.RecipeBookProvider:$r0 := @this: caldwell.ben.bites.RecipeBookProvider
+-1ZZZonCreate:caldwell.ben.bites.RecipeBookProvider:$r2 = new caldwell.ben.bites.RecipeBookProvider$DatabaseHelper
+-1ZZZonCreate:caldwell.ben.bites.RecipeBookProvider:$r1 = virtualinvoke $r0.<caldwell.ben.bites.RecipeBookProvider: android.content.Context getContext()>()
+-1ZZZonCreate:caldwell.ben.bites.RecipeBookProvider:specialinvoke $r2.<caldwell.ben.bites.RecipeBookProvider$DatabaseHelper: void <init>(android.content.Context)>($r1)
+-1ZZZonCreate:caldwell.ben.bites.RecipeBookProvider:$r0.<caldwell.ben.bites.RecipeBookProvider: caldwell.ben.bites.RecipeBookProvider$DatabaseHelper mOpenHelper> = $r2
+-1ZZZonCreate:caldwell.ben.bites.RecipeBookProvider:return 1
+52ZZZonCreate:caldwell.ben.bites.RecipeBookProvider:$r1 = virtualinvoke $r0.<caldwell.ben.bites.RecipeBookProvider: android.content.Context getContext()>()
+-1ZZZonCreate:caldwell.ben.bites.RecipeBookProvider:$r0 := @this: caldwell.ben.bites.RecipeBookProvider
+-1ZZZonCreate:caldwell.ben.bites.RecipeBookProvider:$r2 = new caldwell.ben.bites.RecipeBookProvider$DatabaseHelper
+-1ZZZonCreate:caldwell.ben.bites.RecipeBookProvider:$r1 = virtualinvoke $r0.<caldwell.ben.bites.RecipeBookProvider: android.content.Context getContext()>()
+-1ZZZonCreate:caldwell.ben.bites.RecipeBookProvider:specialinvoke $r2.<caldwell.ben.bites.RecipeBookProvider$DatabaseHelper: void <init>(android.content.Context)>($r1)
+-1ZZZonCreate:caldwell.ben.bites.RecipeBookProvider:$r0.<caldwell.ben.bites.RecipeBookProvider: caldwell.ben.bites.RecipeBookProvider$DatabaseHelper mOpenHelper> = $r2
+-1ZZZonCreate:caldwell.ben.bites.RecipeBookProvider:return 1
+49ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("modified", "modified")
+-1ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:$r0 = new android.content.UriMatcher
+-1ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:specialinvoke $r0.<android.content.UriMatcher: void <init>(int)>(-1)
+-1ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:<caldwell.ben.bites.RecipeBookProvider: android.content.UriMatcher sUriMatcher> = $r0
+-1ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:$r0 = <caldwell.ben.bites.RecipeBookProvider: android.content.UriMatcher sUriMatcher>
+-1ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r0.<android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>("caldwell.ben.provider.RecipeBook", "recipes/", 1)
+-1ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r0.<android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>("caldwell.ben.provider.RecipeBook", "recipes/#", 2)
+-1ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r0.<android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>("caldwell.ben.provider.RecipeBook", "ingredients/", 3)
+-1ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r0.<android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>("caldwell.ben.provider.RecipeBook", "ingredients/#", 4)
+-1ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r0.<android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>("caldwell.ben.provider.RecipeBook", "methods/", 5)
+-1ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r0.<android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>("caldwell.ben.provider.RecipeBook", "methods/#", 6)
+-1ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:$r1 = new java.util.HashMap
+-1ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:specialinvoke $r1.<java.util.HashMap: void <init>()>()
+-1ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:<caldwell.ben.bites.RecipeBookProvider: java.util.HashMap sRecipesProjectionMap> = $r1
+-1ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:$r1 = <caldwell.ben.bites.RecipeBookProvider: java.util.HashMap sRecipesProjectionMap>
+-1ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("_id", "_id")
+-1ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("title", "title")
+-1ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("created", "created")
+-1ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("modified", "modified")
+-1ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("recipe_ID", "recipe_ID")
+-1ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("text", "text")
+-1ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("status", "status")
+-1ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("recipe_id", "recipe_id")
+-1ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("step", "step")
+-1ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:return

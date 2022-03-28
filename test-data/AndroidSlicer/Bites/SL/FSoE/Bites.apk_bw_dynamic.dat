@@ -1,0 +1,156 @@
+2106ZZZonClick:caldwell.ben.bites.MethodList$5:$r10 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(java.lang.String)>($r7)
+2105ZZZonClick:caldwell.ben.bites.MethodList$5:$r7 = interfaceinvoke $r9.<java.lang.CharSequence: java.lang.String toString()>()
+2104ZZZonClick:caldwell.ben.bites.MethodList$5:$r9 = virtualinvoke $r8.<android.widget.TextView: java.lang.CharSequence getText()>()
+2103ZZZaccess$1:caldwell.ben.bites.MethodList:r1 = $r0.<caldwell.ben.bites.MethodList: android.widget.TextView mDialogStep>
+2080ZZZonCreateDialog:caldwell.ben.bites.MethodList:specialinvoke $r12.<caldwell.ben.bites.MethodList$6: void <init>(caldwell.ben.bites.MethodList)>($r0)
+2079ZZZonCreateDialog:caldwell.ben.bites.MethodList:$r12 = new caldwell.ben.bites.MethodList$6
+2078ZZZonCreateDialog:caldwell.ben.bites.MethodList:$r4 = virtualinvoke $r4.<android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setPositiveButton(int,android.content.DialogInterface$OnClickListener)>(2131165211, $r11)
+2077ZZZ<init>:caldwell.ben.bites.MethodList$5:specialinvoke $r0.<java.lang.Object: void <init>()>()
+2076ZZZ<init>:caldwell.ben.bites.MethodList$5:$r0.<caldwell.ben.bites.MethodList$5: caldwell.ben.bites.MethodList this$0> = $r1
+2070ZZZonCreateDialog:caldwell.ben.bites.MethodList:specialinvoke $r4.<android.app.AlertDialog$Builder: void <init>(android.content.Context)>($r0)
+2069ZZZonCreateDialog:caldwell.ben.bites.MethodList:$r4 = new android.app.AlertDialog$Builder
+2068ZZZonCreateDialog:caldwell.ben.bites.MethodList:$r0.<caldwell.ben.bites.MethodList: android.widget.TextView mDialogStep> = $r3
+2067ZZZonCreateDialog:caldwell.ben.bites.MethodList:$r3 = (android.widget.EditText) $r2
+2066ZZZonCreateDialog:caldwell.ben.bites.MethodList:$r2 = virtualinvoke $r2.<android.view.View: android.view.View findViewById(int)>(2131296258)
+2065ZZZonCreateDialog:caldwell.ben.bites.MethodList:$r2 = $r0.<caldwell.ben.bites.MethodList: android.view.View mDialogView>
+2064ZZZonCreateDialog:caldwell.ben.bites.MethodList:$r0.<caldwell.ben.bites.MethodList: android.widget.EditText mDialogEdit> = $r3
+2062ZZZonCreateDialog:caldwell.ben.bites.MethodList:$r2 = virtualinvoke $r2.<android.view.View: android.view.View findViewById(int)>(2131296259)
+2060ZZZonCreateDialog:caldwell.ben.bites.MethodList:$r0.<caldwell.ben.bites.MethodList: android.view.View mDialogView> = $r2
+2059ZZZonCreateDialog:caldwell.ben.bites.MethodList:$r2 = virtualinvoke $r1.<android.view.LayoutInflater: android.view.View inflate(int,android.view.ViewGroup)>(2130903042, null)
+2058ZZZonCreateDialog:caldwell.ben.bites.MethodList:lookupswitch($i0) {     case 1: goto $r2 = virtualinvoke $r1.<android.view.LayoutInflater: android.view.View inflate(int,android.view.ViewGroup)>(2130903042, null);     case 2: goto $r2 = virtualinvoke $r1.<android.view.LayoutInflater: android.view.View inflate(int,android.view.ViewGroup)>(2130903040, null);     case 3: goto $r2 = virtualinvoke $r1.<android.view.LayoutInflater: android.view.View inflate(int,android.view.ViewGroup)>(2130903042, null);     default: goto return null; }
+2057ZZZonCreateDialog:caldwell.ben.bites.MethodList:$r1 = staticinvoke <android.view.LayoutInflater: android.view.LayoutInflater 'from'(android.content.Context)>($r0)
+2056ZZZonOptionsItemSelected:caldwell.ben.bites.MethodList:virtualinvoke $r0.<caldwell.ben.bites.MethodList: void showDialog(int)>(3)
+2055ZZZonOptionsItemSelected:caldwell.ben.bites.MethodList:lookupswitch($i0) {     case 3: goto virtualinvoke $r0.<caldwell.ben.bites.MethodList: void showDialog(int)>(3);     default: goto $z0 = specialinvoke $r0.<android.app.ListActivity: boolean onOptionsItemSelected(android.view.MenuItem)>($r1); }
+2054ZZZonOptionsItemSelected:caldwell.ben.bites.MethodList:$i0 = interfaceinvoke $r1.<android.view.MenuItem: int getItemId()>()
+2039ZZZonCreateOptionsMenu:caldwell.ben.bites.MethodList:specialinvoke $r0.<android.app.ListActivity: boolean onCreateOptionsMenu(android.view.Menu)>($r1)
+2038ZZZonResume:caldwell.ben.bites.MethodList:virtualinvoke $r8.<android.widget.TextView: void setText(java.lang.CharSequence)>($r4)
+2037ZZZonResume:caldwell.ben.bites.MethodList:$r4 = <caldwell.ben.bites.Bites: java.lang.String mRecipeName>
+2036ZZZonResume:caldwell.ben.bites.MethodList:$r8 = $r0.<caldwell.ben.bites.MethodList: android.widget.TextView mHeader>
+2035ZZZonResume:caldwell.ben.bites.MethodList:virtualinvoke $r0.<caldwell.ben.bites.MethodList: void setListAdapter(android.widget.ListAdapter)>($r6)
+2034ZZZonResume:caldwell.ben.bites.MethodList:specialinvoke $r6.<android.widget.SimpleCursorAdapter: void <init>(android.content.Context,int,android.database.Cursor,java.lang.String[],int[])>($r0, 2130903047, $r5, $r2, $r7)
+2033ZZZonResume:caldwell.ben.bites.MethodList:$r7[1] = 2131296266
+2032ZZZonResume:caldwell.ben.bites.MethodList:$r7[0] = 2131296265
+2031ZZZonResume:caldwell.ben.bites.MethodList:$r7 = newarray (int)[2]
+2030ZZZonResume:caldwell.ben.bites.MethodList:$r2[1] = "text"
+2029ZZZonResume:caldwell.ben.bites.MethodList:$r2[0] = "step"
+2028ZZZonResume:caldwell.ben.bites.MethodList:$r2 = newarray (java.lang.String)[2]
+2027ZZZonResume:caldwell.ben.bites.MethodList:$r5 = $r0.<caldwell.ben.bites.MethodList: android.database.Cursor mCursor>
+2026ZZZonResume:caldwell.ben.bites.MethodList:$r6 = new android.widget.SimpleCursorAdapter
+2025ZZZonResume:caldwell.ben.bites.MethodList:$r0.<caldwell.ben.bites.MethodList: android.database.Cursor mCursor> = $r5
+2000ZZZonResume:caldwell.ben.bites.MethodList:specialinvoke $r0.<android.app.ListActivity: void onResume()>()
+1999ZZZonCreate:caldwell.ben.bites.MethodList:virtualinvoke $r6.<android.widget.ListView: void setOnCreateContextMenuListener(android.view.View$OnCreateContextMenuListener)>($r0)
+1998ZZZonCreate:caldwell.ben.bites.MethodList:$r6 = virtualinvoke $r0.<caldwell.ben.bites.MethodList: android.widget.ListView getListView()>()
+1997ZZZonCreate:caldwell.ben.bites.MethodList:$r0.<caldwell.ben.bites.MethodList: android.widget.TextView mHeader> = $r5
+1996ZZZonCreate:caldwell.ben.bites.MethodList:$r5 = (android.widget.TextView) $r4
+1995ZZZonCreate:caldwell.ben.bites.MethodList:$r4 = virtualinvoke $r0.<caldwell.ben.bites.MethodList: android.view.View findViewById(int)>(2131296267)
+1994ZZZonCreate:caldwell.ben.bites.MethodList:virtualinvoke $r0.<caldwell.ben.bites.MethodList: void setContentView(int)>(2130903048)
+1993ZZZonCreate:caldwell.ben.bites.MethodList:virtualinvoke $r2.<android.content.Intent: android.content.Intent setData(android.net.Uri)>($r3)
+1992ZZZonCreate:caldwell.ben.bites.MethodList:$r3 = <caldwell.ben.bites.RecipeBook$Methods: android.net.Uri CONTENT_URI>
+1991ZZZonCreate:caldwell.ben.bites.MethodList:if $r3 != null goto virtualinvoke $r0.<caldwell.ben.bites.MethodList: void setContentView(int)>(2130903048)
+1990ZZZonCreate:caldwell.ben.bites.MethodList:$r3 = virtualinvoke $r2.<android.content.Intent: android.net.Uri getData()>()
+1989ZZZonCreate:caldwell.ben.bites.MethodList:$r2 = virtualinvoke $r0.<caldwell.ben.bites.MethodList: android.content.Intent getIntent()>()
+1988ZZZonCreate:caldwell.ben.bites.MethodList:specialinvoke $r0.<android.app.ListActivity: void onCreate(android.os.Bundle)>($r1)
+1960ZZZquery:caldwell.ben.bites.RecipeBookProvider:$r13 = virtualinvoke $r6.<android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>($r12, $r2, $r3, $r4, null, null, $r5)
+1959ZZZquery:caldwell.ben.bites.RecipeBookProvider:$r12 = virtualinvoke $r11.<caldwell.ben.bites.RecipeBookProvider$DatabaseHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>()
+1958ZZZquery:caldwell.ben.bites.RecipeBookProvider:$r11 = $r0.<caldwell.ben.bites.RecipeBookProvider: caldwell.ben.bites.RecipeBookProvider$DatabaseHelper mOpenHelper>
+1957ZZZquery:caldwell.ben.bites.RecipeBookProvider:if $z0 == 0 goto (branch)
+1956ZZZquery:caldwell.ben.bites.RecipeBookProvider:$z0 = staticinvoke <android.text.TextUtils: boolean isEmpty(java.lang.CharSequence)>($r5)
+1955ZZZquery:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r6.<android.database.sqlite.SQLiteQueryBuilder: void setProjectionMap(java.util.Map)>($r10)
+1954ZZZquery:caldwell.ben.bites.RecipeBookProvider:$r10 = <caldwell.ben.bites.RecipeBookProvider: java.util.HashMap sRecipesProjectionMap>
+1953ZZZquery:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r6.<android.database.sqlite.SQLiteQueryBuilder: void setTables(java.lang.String)>("recipes")
+1952ZZZquery:caldwell.ben.bites.RecipeBookProvider:lookupswitch($i0) {     case 1: goto virtualinvoke $r6.<android.database.sqlite.SQLiteQueryBuilder: void setTables(java.lang.String)>("recipes");     case 2: goto virtualinvoke $r6.<android.database.sqlite.SQLiteQueryBuilder: void setTables(java.lang.String)>("recipes");     case 3: goto virtualinvoke $r6.<android.database.sqlite.SQLiteQueryBuilder: void setTables(java.lang.String)>("ingredients");     case 4: goto virtualinvoke $r6.<android.database.sqlite.SQLiteQueryBuilder: void setTables(java.lang.String)>("ingredients");     case 5: goto virtualinvoke $r6.<android.database.sqlite.SQLiteQueryBuilder: void setTables(java.lang.String)>("methods");     case 6: goto virtualinvoke $r6.<android.database.sqlite.SQLiteQueryBuilder: void setTables(java.lang.String)>("methods");     default: goto $r8 = new java.lang.IllegalArgumentException; }
+1951ZZZquery:caldwell.ben.bites.RecipeBookProvider:$i0 = virtualinvoke $r7.<android.content.UriMatcher: int match(android.net.Uri)>($r1)
+1950ZZZquery:caldwell.ben.bites.RecipeBookProvider:$r7 = <caldwell.ben.bites.RecipeBookProvider: android.content.UriMatcher sUriMatcher>
+1949ZZZquery:caldwell.ben.bites.RecipeBookProvider:specialinvoke $r6.<android.database.sqlite.SQLiteQueryBuilder: void <init>()>()
+1948ZZZquery:caldwell.ben.bites.RecipeBookProvider:$r6 = new android.database.sqlite.SQLiteQueryBuilder
+1941ZZZonResume:caldwell.ben.bites.RecipeList:specialinvoke $r0.<android.app.ListActivity: void onResume()>()
+1940ZZZonCreateOptionsMenu:caldwell.ben.bites.RecipeList:interfaceinvoke $r4.<android.view.MenuItem: android.view.MenuItem setIcon(int)>(17301577)
+1939ZZZonCreateOptionsMenu:caldwell.ben.bites.RecipeList:$r4 = interfaceinvoke $r1.<android.view.Menu: android.view.MenuItem add(int,int,int,int)>(0, 5, 0, 2131165217)
+1924ZZZonCreateOptionsMenu:caldwell.ben.bites.RecipeList:specialinvoke $r0.<android.app.ListActivity: boolean onCreateOptionsMenu(android.view.Menu)>($r1)
+1923ZZZonResume:caldwell.ben.bites.RecipeList:virtualinvoke $r9.<android.widget.TextView: void setText(java.lang.CharSequence)>($r3)
+1922ZZZonResume:caldwell.ben.bites.RecipeList:$r3 = <caldwell.ben.bites.Bites: java.lang.String mRecipeName>
+1921ZZZonResume:caldwell.ben.bites.RecipeList:$r9 = $r0.<caldwell.ben.bites.RecipeList: android.widget.TextView mHeader>
+1920ZZZonResume:caldwell.ben.bites.RecipeList:<caldwell.ben.bites.Bites: java.lang.String mRecipeName> = ""
+1919ZZZonResume:caldwell.ben.bites.RecipeList:<caldwell.ben.bites.Bites: long mRecipeId> = 0L
+1918ZZZonResume:caldwell.ben.bites.RecipeList:if $z0 != 0 goto <caldwell.ben.bites.Bites: long mRecipeId> = 0L
+1917ZZZonResume:caldwell.ben.bites.RecipeList:$z0 = interfaceinvoke $r6.<android.database.Cursor: boolean isBeforeFirst()>()
+1916ZZZonResume:caldwell.ben.bites.RecipeList:$r6 = $r0.<caldwell.ben.bites.RecipeList: android.database.Cursor mCursor>
+1915ZZZonResume:caldwell.ben.bites.RecipeList:interfaceinvoke $r6.<android.database.Cursor: boolean moveToFirst()>()
+1913ZZZonResume:caldwell.ben.bites.RecipeList:virtualinvoke $r0.<caldwell.ben.bites.RecipeList: void setListAdapter(android.widget.ListAdapter)>($r7)
+1884ZZZonResume:caldwell.ben.bites.RecipeList:$r6 = virtualinvoke $r0.<caldwell.ben.bites.RecipeList: android.database.Cursor managedQuery(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r4, $r5, null, null, $r3)
+1883ZZZonResume:caldwell.ben.bites.RecipeList:$r5 = <caldwell.ben.bites.RecipeList: java.lang.String[] PROJECTION>
+1882ZZZonResume:caldwell.ben.bites.RecipeList:$r4 = <caldwell.ben.bites.RecipeBook$Recipes: android.net.Uri CONTENT_URI>
+1881ZZZonResume:caldwell.ben.bites.RecipeList:$r3 = interfaceinvoke $r2.<android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)>($r3, "modified DESC")
+1880ZZZonResume:caldwell.ben.bites.RecipeList:$r3 = virtualinvoke $r0.<caldwell.ben.bites.RecipeList: java.lang.String getString(int)>(2131165195)
+1879ZZZonResume:caldwell.ben.bites.RecipeList:$r2 = $r0.<caldwell.ben.bites.RecipeList: android.content.SharedPreferences mPrefs>
+1862ZZZonResume:caldwell.ben.bites.RecipeList:specialinvoke $r7.<caldwell.ben.bites.RecipeList$RecipeAdapter: void <init>(caldwell.ben.bites.RecipeList,android.content.Context,int,android.database.Cursor,java.lang.String[],int[])>($r0, $r0, 2130903050, $r6, $r5, $r1)
+1861ZZZonResume:caldwell.ben.bites.RecipeList:$r1[0] = 2131296275
+1860ZZZonResume:caldwell.ben.bites.RecipeList:$r1 = newarray (int)[1]
+1859ZZZonResume:caldwell.ben.bites.RecipeList:$r5[0] = "title"
+1858ZZZonResume:caldwell.ben.bites.RecipeList:$r5 = newarray (java.lang.String)[1]
+1856ZZZonResume:caldwell.ben.bites.RecipeList:$r7 = new caldwell.ben.bites.RecipeList$RecipeAdapter
+1855ZZZonResume:caldwell.ben.bites.RecipeList:$r0.<caldwell.ben.bites.RecipeList: android.database.Cursor mCursor> = $r6
+1799ZZZquery:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r6.<android.database.sqlite.SQLiteQueryBuilder: void setTables(java.lang.String)>("ingredients")
+1793ZZZonResume:caldwell.ben.bites.IngredientList:$r7 = virtualinvoke $r0.<caldwell.ben.bites.IngredientList: android.database.Cursor managedQuery(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r3, $r4, $r6, null, "text ASC")
+1792ZZZonResume:caldwell.ben.bites.IngredientList:$r6 = virtualinvoke $r5.<java.lang.StringBuilder: java.lang.String toString()>()
+1791ZZZonResume:caldwell.ben.bites.IngredientList:$r5 = virtualinvoke $r5.<java.lang.StringBuilder: java.lang.StringBuilder append(long)>($l0)
+1790ZZZonResume:caldwell.ben.bites.IngredientList:$l0 = <caldwell.ben.bites.Bites: long mRecipeId>
+1789ZZZonResume:caldwell.ben.bites.IngredientList:specialinvoke $r5.<java.lang.StringBuilder: void <init>(java.lang.String)>("recipe_ID=")
+1788ZZZonResume:caldwell.ben.bites.IngredientList:$r5 = new java.lang.StringBuilder
+1787ZZZonResume:caldwell.ben.bites.IngredientList:$r4 = <caldwell.ben.bites.IngredientList: java.lang.String[] PROJECTION>
+1786ZZZonResume:caldwell.ben.bites.IngredientList:$r3 = <caldwell.ben.bites.RecipeBook$Ingredients: android.net.Uri CONTENT_URI>
+1785ZZZonResume:caldwell.ben.bites.IngredientList:specialinvoke $r0.<android.app.ListActivity: void onResume()>()
+1737ZZZonResume:caldwell.ben.bites.IngredientList:specialinvoke $r11.<caldwell.ben.bites.IngredientList$IngredientAdapter: void <init>(caldwell.ben.bites.IngredientList,android.content.Context,int,android.database.Cursor,java.lang.String[],int[])>($r0, $r0, 2130903045, $r7, $r4, $r1)
+1736ZZZonResume:caldwell.ben.bites.IngredientList:$r1[1] = 2131296263
+1735ZZZonResume:caldwell.ben.bites.IngredientList:$r1[0] = 2131296262
+1734ZZZonResume:caldwell.ben.bites.IngredientList:$r1 = newarray (int)[2]
+1733ZZZonResume:caldwell.ben.bites.IngredientList:$r4[1] = "status"
+1732ZZZonResume:caldwell.ben.bites.IngredientList:$r4[0] = "text"
+1731ZZZonResume:caldwell.ben.bites.IngredientList:$r4 = newarray (java.lang.String)[2]
+1730ZZZonResume:caldwell.ben.bites.IngredientList:$r7 = $r0.<caldwell.ben.bites.IngredientList: android.database.Cursor mCursor>
+1729ZZZonResume:caldwell.ben.bites.IngredientList:$r11 = new caldwell.ben.bites.IngredientList$IngredientAdapter
+1728ZZZonResume:caldwell.ben.bites.IngredientList:if $b2 == 0 goto $r11 = new caldwell.ben.bites.IngredientList$IngredientAdapter
+1727ZZZonResume:caldwell.ben.bites.IngredientList:$b2 = $l0 cmp $l1
+1726ZZZonResume:caldwell.ben.bites.IngredientList:$l1 = <caldwell.ben.bites.Bites: long mRecipeId>
+1725ZZZonResume:caldwell.ben.bites.IngredientList:$l0 = $r0.<caldwell.ben.bites.IngredientList: long mLastRecipe>
+1724ZZZonResume:caldwell.ben.bites.IngredientList:$r0.<caldwell.ben.bites.IngredientList: android.database.Cursor mCursor> = $r7
+1628ZZZquery:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r6.<android.database.sqlite.SQLiteQueryBuilder: void setTables(java.lang.String)>("methods")
+340ZZZonCreate:caldwell.ben.bites.IngredientList:$r0.<caldwell.ben.bites.IngredientList: long mLastRecipe> = 0L
+339ZZZonCreate:caldwell.ben.bites.IngredientList:virtualinvoke $r6.<android.widget.ListView: void setOnCreateContextMenuListener(android.view.View$OnCreateContextMenuListener)>($r0)
+338ZZZonCreate:caldwell.ben.bites.IngredientList:$r6 = virtualinvoke $r0.<caldwell.ben.bites.IngredientList: android.widget.ListView getListView()>()
+337ZZZonCreate:caldwell.ben.bites.IngredientList:$r0.<caldwell.ben.bites.IngredientList: android.widget.TextView mHeader> = $r5
+336ZZZonCreate:caldwell.ben.bites.IngredientList:$r5 = (android.widget.TextView) $r4
+335ZZZonCreate:caldwell.ben.bites.IngredientList:$r4 = virtualinvoke $r0.<caldwell.ben.bites.IngredientList: android.view.View findViewById(int)>(2131296264)
+334ZZZonCreate:caldwell.ben.bites.IngredientList:virtualinvoke $r0.<caldwell.ben.bites.IngredientList: void setContentView(int)>(2130903046)
+333ZZZonCreate:caldwell.ben.bites.IngredientList:virtualinvoke $r2.<android.content.Intent: android.content.Intent setData(android.net.Uri)>($r3)
+326ZZZonCreate:caldwell.ben.bites.IngredientList:specialinvoke $r0.<android.app.ListActivity: void onCreate(android.os.Bundle)>($r1)
+325ZZZ<init>:caldwell.ben.bites.IngredientList:specialinvoke $r0.<android.app.ListActivity: void <init>()>()
+265ZZZ<init>:caldwell.ben.bites.MethodList:specialinvoke $r0.<android.app.ListActivity: void <init>()>()
+183ZZZonCreate:caldwell.ben.bites.RecipeList:specialinvoke $r0.<android.app.ListActivity: void onCreate(android.os.Bundle)>($r1)
+165ZZZonCreate:caldwell.ben.bites.Bites:specialinvoke $r0.<android.app.TabActivity: void onCreate(android.os.Bundle)>($r1)
+54ZZZ<init>:caldwell.ben.bites.RecipeBookProvider$DatabaseHelper:specialinvoke $r0.<android.database.sqlite.SQLiteOpenHelper: void <init>(android.content.Context,java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>($r1, "recipe_book.db", null, 2)
+52ZZZonCreate:caldwell.ben.bites.RecipeBookProvider:$r1 = virtualinvoke $r0.<caldwell.ben.bites.RecipeBookProvider: android.content.Context getContext()>()
+51ZZZonCreate:caldwell.ben.bites.RecipeBookProvider:$r2 = new caldwell.ben.bites.RecipeBookProvider$DatabaseHelper
+49ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("modified", "modified")
+48ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:$r1 = <caldwell.ben.bites.RecipeBookProvider: java.util.HashMap sRecipesProjectionMap>
+47ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("created", "created")
+45ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("text", "text")
+43ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("step", "step")
+41ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("recipe_id", "recipe_id")
+39ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("_id", "_id")
+33ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("status", "status")
+29ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("recipe_ID", "recipe_ID")
+21ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("title", "title")
+17ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:<caldwell.ben.bites.RecipeBookProvider: java.util.HashMap sRecipesProjectionMap> = $r1
+16ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:specialinvoke $r1.<java.util.HashMap: void <init>()>()
+15ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:$r1 = new java.util.HashMap
+14ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r0.<android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>("caldwell.ben.provider.RecipeBook", "methods/#", 6)
+13ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:$r0 = <caldwell.ben.bites.RecipeBookProvider: android.content.UriMatcher sUriMatcher>
+12ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r0.<android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>("caldwell.ben.provider.RecipeBook", "methods/", 5)
+10ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r0.<android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>("caldwell.ben.provider.RecipeBook", "ingredients/#", 4)
+8ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r0.<android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>("caldwell.ben.provider.RecipeBook", "ingredients/", 3)
+6ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r0.<android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>("caldwell.ben.provider.RecipeBook", "recipes/#", 2)
+4ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:virtualinvoke $r0.<android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>("caldwell.ben.provider.RecipeBook", "recipes/", 1)
+2ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:<caldwell.ben.bites.RecipeBookProvider: android.content.UriMatcher sUriMatcher> = $r0
+1ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:specialinvoke $r0.<android.content.UriMatcher: void <init>(int)>(-1)
+0ZZZ<clinit>:caldwell.ben.bites.RecipeBookProvider:$r0 = new android.content.UriMatcher

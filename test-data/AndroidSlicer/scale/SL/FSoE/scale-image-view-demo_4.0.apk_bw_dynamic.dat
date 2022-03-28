@@ -1,0 +1,555 @@
+295078ZZZopenGitHub:com.davemorrissey.labs.subscaleview.sample.MainActivity:virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.sample.MainActivity: void startActivity(android.content.Intent)>($r1)
+295077ZZZopenGitHub:com.davemorrissey.labs.subscaleview.sample.MainActivity:virtualinvoke $r1.<android.content.Intent: android.content.Intent setData(android.net.Uri)>($r2)
+295076ZZZopenGitHub:com.davemorrissey.labs.subscaleview.sample.MainActivity:$r2 = staticinvoke <android.net.Uri: android.net.Uri parse(java.lang.String)>("https://github_black.com/davemorrissey/subsampling-scale-image-view")
+295075ZZZopenGitHub:com.davemorrissey.labs.subscaleview.sample.MainActivity:specialinvoke $r1.<android.content.Intent: void <init>(java.lang.String)>("android.intent.action.VIEW")
+295074ZZZopenGitHub:com.davemorrissey.labs.subscaleview.sample.MainActivity:$r1 = new android.content.Intent
+295073ZZZaccess$openGitHub:com.davemorrissey.labs.subscaleview.sample.MainActivity:specialinvoke $r0.<com.davemorrissey.labs.subscaleview.sample.MainActivity: void openGitHub()>()
+282209ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$z1 = specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: boolean onTouchEventInternal(android.view.MotionEvent)>($r1)
+282208ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:virtualinvoke $r5.<android.graphics.PointF: void set(android.graphics.PointF)>($r8)
+282207ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r8 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.PointF vTranslate>
+282206ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r5 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.PointF vTranslateBefore>
+282205ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f0 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: float scale>
+282204ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $r5 != null goto $f0 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: float scale>
+282203ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r5 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.PointF vCenterStart>
+282202ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $r5 != null goto $r5 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.PointF vCenterStart>
+282200ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $r5 != null goto $r5 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.PointF vTranslateBefore>
+282199ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r5 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.PointF vTranslateStart>
+282198ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $z1 == 0 goto $r5 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.PointF vTranslateStart>
+282197ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$z1 = virtualinvoke $r6.<android.view.GestureDetector: boolean onTouchEvent(android.view.MotionEvent)>($r1)
+282196ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r6 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.view.GestureDetector detector>
+282195ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $r6 == null goto $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: boolean isZooming> = 0
+282193ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $z1 != 0 goto $r5 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.PointF vTranslateStart>
+282192ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$z1 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: boolean isQuickScaling>
+282191ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $r5 != null goto $z1 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: boolean isQuickScaling>
+282190ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r5 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.PointF vTranslate>
+282189ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$Anim anim> = null
+282188ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $r3 == null goto $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$Anim anim> = null
+282187ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r3 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$Anim anim>
+282186ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $r3 == null goto $r3 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$Anim anim>
+282184ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$z0 = 0
+282179ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$z0 = 1
+282178ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $z1 != 0 goto $z0 = 1
+282173ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void sendStateChanged(float,android.graphics.PointF,int)>($f0, $r5, 2)
+282171ZZZonTouchEventInternal:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:virtualinvoke $r4.<android.os.Handler: boolean sendEmptyMessageDelayed(int,long)>(1, 600L)
+282170ZZZonTouchEventInternal:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r4 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.os.Handler handler>
+282169ZZZonTouchEventInternal:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:virtualinvoke $r2.<android.graphics.PointF: void set(float,float)>($f2, $f1)
+282168ZZZonTouchEventInternal:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f1 = virtualinvoke $r1.<android.view.MotionEvent: float getY()>()
+282167ZZZonTouchEventInternal:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f2 = virtualinvoke $r1.<android.view.MotionEvent: float getX()>()
+282166ZZZonTouchEventInternal:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r2 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.PointF vCenterStart>
+282164ZZZonTouchEventInternal:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f1 = $r3.<android.graphics.PointF: float y>
+282163ZZZonTouchEventInternal:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r3 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.PointF vTranslate>
+282162ZZZonTouchEventInternal:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f2 = $r3.<android.graphics.PointF: float x>
+282160ZZZonTouchEventInternal:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r2 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.PointF vTranslateStart>
+282159ZZZonTouchEventInternal:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $z0 != 0 goto return 1
+282158ZZZonTouchEventInternal:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$z0 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: boolean isQuickScaling>
+282157ZZZonTouchEventInternal:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $i0 < 2 goto $z0 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: boolean isQuickScaling>
+282156ZZZonTouchEventInternal:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int maxTouchCount> = $i1
+282155ZZZonTouchEventInternal:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i1 = staticinvoke <java.lang.Math: int max(int,int)>($i1, $i0)
+282154ZZZonTouchEventInternal:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i1 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int maxTouchCount>
+282050ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.PointF vCenterStart> = $r5
+282049ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r5.<android.graphics.PointF: void <init>(float,float)>(0.0F, 0.0F)
+282048ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r5 = new android.graphics.PointF
+282045ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.PointF vTranslateBefore> = $r5
+282040ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.PointF vTranslateStart> = $r5
+281483ZZZsHeight:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i0 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int sHeight>
+281482ZZZsHeight:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $i0 != 270 goto $i0 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int sHeight>
+281481ZZZsHeight:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $i0 == 90 goto $i0 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int sWidth>
+281476ZZZfitToBounds:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i0 = specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int sHeight()>()
+281475ZZZfitToBounds:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f1 = $f2 * $f0
+281474ZZZfitToBounds:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f0 = (float) $i0
+281473ZZZsWidth:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i0 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int sWidth>
+281472ZZZsWidth:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $i0 != 270 goto $i0 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int sWidth>
+281471ZZZsWidth:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $i0 == 90 goto $i0 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int sHeight>
+281466ZZZfitToBounds:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i0 = specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int sWidth()>()
+281465ZZZlimitedScale:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f0 = staticinvoke <java.lang.Math: float min(float,float)>($f1, $f0)
+281464ZZZlimitedScale:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f1 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: float maxScale>
+281463ZZZlimitedScale:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f0 = staticinvoke <java.lang.Math: float max(float,float)>($f1, $f0)
+281422ZZZfitToBounds:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f2 = specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: float limitedScale(float)>($f2)
+281420ZZZfitToBounds:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f2 = staticinvoke <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$ScaleAndTranslate: float access$4700(com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$ScaleAndTranslate)>($r1)
+281419ZZZaccess$4800:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$ScaleAndTranslate:r1 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$ScaleAndTranslate: android.graphics.PointF vTranslate>
+281399ZZZpreDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void fitToBounds(boolean)>(0)
+281398ZZZpreDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $r1 == null goto specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void fitToBounds(boolean)>(0)
+281397ZZZpreDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r1 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.PointF sPendingCenter>
+281396ZZZpreDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $i0 > 0 goto $r1 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.PointF sPendingCenter>
+281395ZZZpreDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i0 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int sHeight>
+281394ZZZpreDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $i0 <= 0 goto return
+281393ZZZpreDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i0 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int sWidth>
+281392ZZZpreDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $i0 == 0 goto return
+281391ZZZpreDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i0 = virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int getHeight()>()
+281389ZZZpreDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i0 = virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int getWidth()>()
+281388ZZZonDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void preDraw()>()
+281387ZZZonDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $z0 == 0 goto return
+281353ZZZonDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r0.<android.view.View: void onDraw(android.graphics.Canvas)>($r1)
+279588ZZZonImageLoaded:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void requestLayout()>()
+279587ZZZonImageLoaded:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void invalidate()>()
+279586ZZZonImageLoaded:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $z0 != 0 goto virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void invalidate()>()
+279583ZZZcheckImageLoaded:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void onImageLoaded()>()
+279582ZZZcheckImageLoaded:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: boolean imageLoadedSent> = 1
+279581ZZZfitToBounds:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $z1 == 0 goto return
+279580ZZZfitToBounds:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:virtualinvoke $r1.<android.graphics.PointF: void set(android.graphics.PointF)>($r3)
+279463ZZZfitToBounds:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void fitToBounds(boolean,com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$ScaleAndTranslate)>($z0, $r2)
+279462ZZZfitToBounds:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r2 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$ScaleAndTranslate satTemp>
+279460ZZZfitToBounds:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r3 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.PointF vTranslate>
+279436ZZZcheckImageLoaded:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void preDraw()>()
+279435ZZZcheckImageLoaded:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $z0 == 0 goto return $z0
+279434ZZZcheckImageLoaded:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $z1 != 0 goto return $z0
+279433ZZZcheckImageLoaded:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$z1 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: boolean imageLoadedSent>
+279427ZZZonImageLoaded:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$z1 = specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: boolean checkImageLoaded()>()
+279426ZZZcheckReady:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $r2 == null goto return $z0
+279425ZZZcheckReady:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r2 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$OnImageEventListener onImageEventListener>
+279424ZZZcheckReady:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void onReady()>()
+279423ZZZcheckReady:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: boolean readySent> = 1
+279302ZZZvTranslateForSCenter:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void fitToBounds(boolean,com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$ScaleAndTranslate)>(1, $r1)
+279301ZZZvTranslateForSCenter:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r1 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$ScaleAndTranslate satTemp>
+279300ZZZvTranslateForSCenter:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:virtualinvoke $r2.<android.graphics.PointF: void set(float,float)>($f0, $f1)
+279299ZZZvTranslateForSCenter:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f1 = $f3 - $f1
+279298ZZZvTranslateForSCenter:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f1 = $f1 * $f2
+279297ZZZvTranslateForSCenter:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f3 = (float) $i1
+279296ZZZvTranslateForSCenter:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f0 = $f3 - $f0
+279295ZZZvTranslateForSCenter:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f0 = $f0 * $f2
+279294ZZZvTranslateForSCenter:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f3 = (float) $i0
+279269ZZZfitToBounds:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r3 = specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.PointF vTranslateForSCenter(float,float,float)>($f0, $f1, $f2)
+279268ZZZfitToBounds:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f2 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: float scale>
+279267ZZZfitToBounds:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f1 = (float) $i0
+279266ZZZfitToBounds:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i0 = $i0 / 2
+279095ZZZcheckReady:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void preDraw()>()
+279094ZZZcheckReady:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $z0 == 0 goto return $z0
+279093ZZZcheckReady:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $z1 != 0 goto return $z0
+279092ZZZcheckReady:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$z1 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: boolean readySent>
+279091ZZZcheckReady:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$z0 = 1
+279090ZZZcheckReady:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $r1 != null goto $z0 = 1
+279089ZZZcheckReady:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r1 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.Bitmap bitmap>
+279088ZZZcheckReady:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $i0 <= 0 goto $z0 = 0
+279087ZZZcheckReady:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i0 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int sHeight>
+279085ZZZcheckReady:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i0 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int sWidth>
+279083ZZZcheckReady:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i0 = virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int getHeight()>()
+279081ZZZcheckReady:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i0 = virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int getWidth()>()
+279053ZZZaccess$6100:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void onImageLoaded(android.graphics.Bitmap,int,boolean)>($r1, $i0, $z0)
+279052ZZZonPostExecute:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:staticinvoke <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void access$6100(com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView,android.graphics.Bitmap,int,boolean)>($r4, $r5, $i0, 0)
+279051ZZZonPostExecute:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:$i0 = virtualinvoke $r1.<java.lang.Integer: int intValue()>()
+279050ZZZonPostExecute:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:$r5 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask: android.graphics.Bitmap bitmap>
+279049ZZZonPostExecute:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:if $z0 == 0 goto $r5 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask: android.graphics.Bitmap bitmap>
+279048ZZZonPostExecute:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:$z0 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask: boolean preview>
+279047ZZZonPostExecute:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:if $r1 == null goto $r6 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask: java.lang.Exception exception>
+279046ZZZonPostExecute:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:if $r5 == null goto $r6 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask: java.lang.Exception exception>
+279044ZZZonPostExecute:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:if $r4 == null goto return
+279043ZZZonPostExecute:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:$r4 = (com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView) $r3
+279042ZZZonPostExecute:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:$r3 = virtualinvoke $r2.<java.lang.ref.WeakReference: java.lang.Object get()>()
+279041ZZZonPostExecute:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:$r2 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask: java.lang.ref.WeakReference viewRef>
+279011ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:$r11 = interfaceinvoke $r10.<com.davemorrissey.labs.subscaleview.decoder.ImageDecoder: android.graphics.Bitmap decode(android.content.Context,android.net.Uri)>($r6, $r2)
+279010ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:$r2 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask: android.net.Uri source>
+279009ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:$r10 = (com.davemorrissey.labs.subscaleview.decoder.ImageDecoder) $r5
+279005ZZZ<init>:com.davemorrissey.labs.subscaleview.decoder.SkiaImageDecoder:specialinvoke $r0.<java.lang.Object: void <init>()>()
+278999ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:$r5 = interfaceinvoke $r7.<com.davemorrissey.labs.subscaleview.decoder.DecoderFactory: java.lang.Object make()>()
+278996ZZZaccess$5100:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void debug(java.lang.String,java.lang.Object[])>($r1, $r2)
+278995ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:staticinvoke <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void access$5100(com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView,java.lang.String,java.lang.Object[])>($r8, "BitmapLoadTask.doInBackground", $r9)
+278994ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:$r9 = newarray (java.lang.Object)[0]
+278993ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:if $r8 == null goto return null
+278992ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:if $r7 == null goto return null
+278991ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:if $r6 == null goto return null
+278990ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:$r8 = (com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView) $r5
+278989ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:$r5 = virtualinvoke $r4.<java.lang.ref.WeakReference: java.lang.Object get()>()
+278988ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:$r4 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask: java.lang.ref.WeakReference viewRef>
+278987ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:$r7 = (com.davemorrissey.labs.subscaleview.decoder.DecoderFactory) $r5
+278985ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:$r4 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask: java.lang.ref.WeakReference decoderFactoryRef>
+278984ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:$r6 = (android.content.Context) $r5
+278982ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:$r4 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask: java.lang.ref.WeakReference contextRef>
+278981ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:$r3 = virtualinvoke $r2.<android.net.Uri: java.lang.String toString()>()
+278865ZZZinitialiseBaseLayer:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void execute(android.os.AsyncTask)>($r8)
+278864ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask: boolean preview> = $z0
+278863ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask: android.net.Uri source> = $r4
+278862ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask: java.lang.ref.WeakReference decoderFactoryRef> = $r5
+278861ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:specialinvoke $r5.<java.lang.ref.WeakReference: void <init>(java.lang.Object)>($r3)
+278860ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:$r5 = new java.lang.ref.WeakReference
+278859ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask: java.lang.ref.WeakReference contextRef> = $r5
+278858ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:specialinvoke $r5.<java.lang.ref.WeakReference: void <init>(java.lang.Object)>($r2)
+278856ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask: java.lang.ref.WeakReference viewRef> = $r5
+278855ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:specialinvoke $r5.<java.lang.ref.WeakReference: void <init>(java.lang.Object)>($r1)
+278853ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$BitmapLoadTask:specialinvoke $r0.<android.os.AsyncTask: void <init>()>()
+278844ZZZinitialiseBaseLayer:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:interfaceinvoke $r7.<com.davemorrissey.labs.subscaleview.decoder.ImageRegionDecoder: void recycle()>()
+278843ZZZinitialiseBaseLayer:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r7 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: com.davemorrissey.labs.subscaleview.decoder.ImageRegionDecoder decoder>
+278842ZZZinitialiseBaseLayer:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $i0 >= $i1 goto specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void initialiseTileMap(android.graphics.Point)>($r1)
+278841ZZZinitialiseBaseLayer:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i1 = $r1.<android.graphics.Point: int y>
+278833ZZZinitialiseBaseLayer:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i0 = specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int sHeight()>()
+278831ZZZinitialiseBaseLayer:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i1 = $r1.<android.graphics.Point: int x>
+278823ZZZinitialiseBaseLayer:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i0 = specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int sWidth()>()
+278822ZZZinitialiseBaseLayer:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $r6 != null goto specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void initialiseTileMap(android.graphics.Point)>($r1)
+278821ZZZinitialiseBaseLayer:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r6 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.Rect sRegion>
+278820ZZZinitialiseBaseLayer:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $i0 != 1 goto specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void initialiseTileMap(android.graphics.Point)>($r1)
+278819ZZZinitialiseBaseLayer:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i0 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int fullImageSampleSize>
+278818ZZZinitialiseBaseLayer:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int fullImageSampleSize> = $i0
+278817ZZZinitialiseBaseLayer:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i0 = $i0 / 2
+278815ZZZinitialiseBaseLayer:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $i0 <= 1 goto $i0 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int fullImageSampleSize>
+278812ZZZcalculateInSampleSize:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $i0 >= $i2 goto return $i1
+278811ZZZcalculateInSampleSize:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i0 = $i1 * 2
+278810ZZZcalculateInSampleSize:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i1 = $i1 * 2
+278807ZZZcalculateInSampleSize:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i1 = 1
+278806ZZZcalculateInSampleSize:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i2 = $i1
+278804ZZZcalculateInSampleSize:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i1 = staticinvoke <java.lang.Math: int round(float)>($f1)
+278803ZZZcalculateInSampleSize:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f1 = $f1 / $f0
+278802ZZZcalculateInSampleSize:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f0 = (float) $i1
+278801ZZZcalculateInSampleSize:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f1 = (float) $i0
+277595ZZZonTilesInited:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void requestLayout()>()
+277594ZZZonTilesInited:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void invalidate()>()
+277593ZZZonTilesInited:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $i0 == $i1 goto virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void invalidate()>()
+277592ZZZonTilesInited:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i1 = <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int TILE_SIZE_AUTO>
+277589ZZZonTilesInited:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i0 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int maxTileWidth>
+277588ZZZonTilesInited:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $z0 != 0 goto virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void invalidate()>()
+277540ZZZaccess$5500:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void onTilesInited(com.davemorrissey.labs.subscaleview.decoder.ImageRegionDecoder,int,int,int)>($r1, $i0, $i1, $i2)
+277539ZZZonPostExecute:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:staticinvoke <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void access$5500(com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView,com.davemorrissey.labs.subscaleview.decoder.ImageRegionDecoder,int,int,int)>($r4, $r5, $i0, $i1, $i2)
+277538ZZZonPostExecute:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:$i2 = $r1[2]
+277537ZZZonPostExecute:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:$i1 = $r1[1]
+277536ZZZonPostExecute:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:$i0 = $r1[0]
+277535ZZZonPostExecute:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:$r5 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask: com.davemorrissey.labs.subscaleview.decoder.ImageRegionDecoder decoder>
+277534ZZZonPostExecute:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:if $i0 != 3 goto $r6 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask: java.lang.Exception exception>
+277533ZZZonPostExecute:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:$i0 = lengthof $r1
+277532ZZZonPostExecute:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:if $r1 == null goto $r6 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask: java.lang.Exception exception>
+277531ZZZonPostExecute:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:if $r5 == null goto $r6 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask: java.lang.Exception exception>
+277529ZZZonPostExecute:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:if $r4 == null goto return
+277528ZZZonPostExecute:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:$r4 = (com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView) $r3
+277527ZZZonPostExecute:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:$r3 = virtualinvoke $r2.<java.lang.ref.WeakReference: java.lang.Object get()>()
+277526ZZZonPostExecute:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:$r2 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask: java.lang.ref.WeakReference viewRef>
+277029ZZZonDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void createPaints()>()
+276239ZZZgetExifOrientation:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $z0 != 0 goto return 0
+276238ZZZgetExifOrientation:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$z0 = virtualinvoke $r2.<java.lang.String: boolean startsWith(java.lang.String)>("file:///android_asset/")
+276237ZZZgetExifOrientation:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $z0 == 0 goto return 0
+276236ZZZgetExifOrientation:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$z0 = virtualinvoke $r2.<java.lang.String: boolean startsWith(java.lang.String)>("file:///")
+276235ZZZgetExifOrientation:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $z0 == 0 goto $z0 = virtualinvoke $r2.<java.lang.String: boolean startsWith(java.lang.String)>("file:///")
+275788ZZZgetExifOrientation:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$z0 = virtualinvoke $r2.<java.lang.String: boolean startsWith(java.lang.String)>("content")
+274442ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:$r12 = interfaceinvoke $r11.<com.davemorrissey.labs.subscaleview.decoder.ImageRegionDecoder: android.graphics.Point init(android.content.Context,android.net.Uri)>($r7, $r3)
+274441ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:$r3 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask: android.net.Uri source>
+274440ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:$r11 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask: com.davemorrissey.labs.subscaleview.decoder.ImageRegionDecoder decoder>
+274439ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask: com.davemorrissey.labs.subscaleview.decoder.ImageRegionDecoder decoder> = $r11
+274438ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:$r11 = (com.davemorrissey.labs.subscaleview.decoder.ImageRegionDecoder) $r6
+274433ZZZ<init>:com.davemorrissey.labs.subscaleview.decoder.SkiaImageRegionDecoder:specialinvoke $r2.<java.lang.Object: void <init>()>()
+274432ZZZ<init>:com.davemorrissey.labs.subscaleview.decoder.SkiaImageRegionDecoder:$r2 = new java.lang.Object
+274431ZZZ<init>:com.davemorrissey.labs.subscaleview.decoder.SkiaImageRegionDecoder:specialinvoke $r0.<java.lang.Object: void <init>()>()
+274425ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:$r6 = interfaceinvoke $r8.<com.davemorrissey.labs.subscaleview.decoder.DecoderFactory: java.lang.Object make()>()
+274421ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:staticinvoke <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void access$5100(com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView,java.lang.String,java.lang.Object[])>($r9, "TilesInitTask.doInBackground", $r10)
+274420ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:$r10 = newarray (java.lang.Object)[0]
+274419ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:if $r9 == null goto return null
+274418ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:if $r8 == null goto return null
+274417ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:if $r7 == null goto return null
+274415ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:$r6 = virtualinvoke $r5.<java.lang.ref.WeakReference: java.lang.Object get()>()
+274414ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:$r5 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask: java.lang.ref.WeakReference viewRef>
+274413ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:$r8 = (com.davemorrissey.labs.subscaleview.decoder.DecoderFactory) $r6
+274411ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:$r5 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask: java.lang.ref.WeakReference decoderFactoryRef>
+274410ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:$r7 = (android.content.Context) $r6
+274366ZZZonResume:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:specialinvoke $r0.<com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment: void updateNotes()>()
+274365ZZZonResume:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:virtualinvoke $r2.<android.widget.ImageView: void setOnClickListener(android.view.View$OnClickListener)>($r4)
+274364ZZZonResume:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:$r4 = (android.view.View$OnClickListener) $r5
+274361ZZZonResume:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:specialinvoke $r5.<com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment$onResume$2: void <init>(com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment)>($r0)
+274360ZZZonResume:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:$r5 = new com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment$onResume$2
+274359ZZZonResume:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:$r2 = (android.widget.ImageView) $r1
+274345ZZZonResume:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:$r1 = virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment: android.view.View _$_findCachedViewById(int)>($i0)
+274344ZZZonResume:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:$i0 = <com.davemorrissey.labs.subscaleview.sample.R$id: int previous>
+274342ZZZonResume:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:$r4 = (android.view.View$OnClickListener) $r3
+274339ZZZonResume:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:specialinvoke $r3.<com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment$onResume$1: void <init>(com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment)>($r0)
+274338ZZZonResume:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:$r3 = new com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment$onResume$1
+274322ZZZonResume:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:$i0 = <com.davemorrissey.labs.subscaleview.sample.R$id: int next>
+274321ZZZonResume:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:specialinvoke $r0.<android.app.Fragment: void onResume()>()
+274289ZZZonViewStateRestored:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:specialinvoke $r0.<android.app.Fragment: void onViewStateRestored(android.os.Bundle)>($r1)
+274287ZZZonViewCreated:com.davemorrissey.labs.subscaleview.sample.eventhandling.EventHandlingFragment:virtualinvoke $r3.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void setOnLongClickListener(android.view.View$OnLongClickListener)>($r8)
+274286ZZZonViewCreated:com.davemorrissey.labs.subscaleview.sample.eventhandling.EventHandlingFragment:$r8 = (android.view.View$OnLongClickListener) $r7
+274283ZZZ<clinit>:com.davemorrissey.labs.subscaleview.sample.eventhandling.EventHandlingFragment$onViewCreated$2:specialinvoke $r0.<com.davemorrissey.labs.subscaleview.sample.eventhandling.EventHandlingFragment$onViewCreated$2: void <init>()>()
+274282ZZZ<clinit>:com.davemorrissey.labs.subscaleview.sample.eventhandling.EventHandlingFragment$onViewCreated$2:$r0 = new com.davemorrissey.labs.subscaleview.sample.eventhandling.EventHandlingFragment$onViewCreated$2
+274281ZZZonViewCreated:com.davemorrissey.labs.subscaleview.sample.eventhandling.EventHandlingFragment:$r7 = <com.davemorrissey.labs.subscaleview.sample.eventhandling.EventHandlingFragment$onViewCreated$2: com.davemorrissey.labs.subscaleview.sample.eventhandling.EventHandlingFragment$onViewCreated$2 INSTANCE>
+274280ZZZonViewCreated:com.davemorrissey.labs.subscaleview.sample.eventhandling.EventHandlingFragment:$r3 = (com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView) $r1
+274259ZZZ<clinit>:com.davemorrissey.labs.subscaleview.sample.eventhandling.EventHandlingFragment$onViewCreated$1:specialinvoke $r0.<com.davemorrissey.labs.subscaleview.sample.eventhandling.EventHandlingFragment$onViewCreated$1: void <init>()>()
+274258ZZZ<clinit>:com.davemorrissey.labs.subscaleview.sample.eventhandling.EventHandlingFragment$onViewCreated$1:$r0 = new com.davemorrissey.labs.subscaleview.sample.eventhandling.EventHandlingFragment$onViewCreated$1
+274257ZZZonViewCreated:com.davemorrissey.labs.subscaleview.sample.eventhandling.EventHandlingFragment:$r5 = <com.davemorrissey.labs.subscaleview.sample.eventhandling.EventHandlingFragment$onViewCreated$1: com.davemorrissey.labs.subscaleview.sample.eventhandling.EventHandlingFragment$onViewCreated$1 INSTANCE>
+274248ZZZonViewCreated:com.davemorrissey.labs.subscaleview.sample.eventhandling.EventHandlingFragment:$r1 = virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.sample.eventhandling.EventHandlingFragment: android.view.View _$_findCachedViewById(int)>($i0)
+274247ZZZonViewCreated:com.davemorrissey.labs.subscaleview.sample.eventhandling.EventHandlingFragment:$i0 = <com.davemorrissey.labs.subscaleview.sample.R$id: int imageView>
+274236ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:specialinvoke $r5.<java.lang.ref.WeakReference: void <init>(java.lang.Object)>($r2)
+274235ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:$r5 = new java.lang.ref.WeakReference
+274234ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask: java.lang.ref.WeakReference viewRef> = $r5
+274233ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:specialinvoke $r5.<java.lang.ref.WeakReference: void <init>(java.lang.Object)>($r1)
+274231ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:specialinvoke $r0.<android.os.AsyncTask: void <init>()>()
+274230ZZZsetImage:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r16.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask: void <init>(com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView,android.content.Context,com.davemorrissey.labs.subscaleview.decoder.DecoderFactory,android.net.Uri)>($r0, $r13, $r4, $r5)
+274229ZZZsetImage:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r5 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.net.Uri uri>
+274228ZZZsetImage:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r4 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: com.davemorrissey.labs.subscaleview.decoder.DecoderFactory regionDecoderFactory>
+274227ZZZsetImage:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r13 = virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.content.Context getContext()>()
+274226ZZZsetImage:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r16 = new com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask
+274225ZZZsetImage:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $z0 != 0 goto $r16 = new com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask
+274192ZZZsetGestureDetector:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r4.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$3: void <init>(com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView)>($r0)
+274191ZZZsetGestureDetector:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r4 = new com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$3
+274190ZZZsetGestureDetector:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r2 = new android.view.GestureDetector
+274189ZZZsetGestureDetector:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.view.GestureDetector detector> = $r2
+274178ZZZsetGestureDetector:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r2.<android.view.GestureDetector: void <init>(android.content.Context,android.view.GestureDetector$OnGestureListener)>($r1, $r3)
+274177ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$2:specialinvoke $r0.<android.view.GestureDetector$SimpleOnGestureListener: void <init>()>()
+274176ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$2:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$2: android.content.Context val$context> = $r2
+274175ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$2:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$2: com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView this$0> = $r1
+274115ZZZsetImage:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void reset(boolean)>(1)
+274114ZZZsetImage:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $r1 != null goto specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void reset(boolean)>(1)
+274112ZZZonViewCreated:com.davemorrissey.labs.subscaleview.sample.eventhandling.EventHandlingFragment:virtualinvoke $r3.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void setImage(com.davemorrissey.labs.subscaleview.ImageSource)>($r4)
+274067ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r8.<android.os.Handler: void <init>(android.os.Handler$Callback)>($r9)
+274064ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r9.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$1: void <init>(com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView)>($r0)
+274063ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r9 = new com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$1
+274062ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r8 = new android.os.Handler
+247933ZZZsendStateChanged:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $r2 == null goto return
+247932ZZZsendStateChanged:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r2 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$OnStateChangedListener onStateChangedListener>
+247931ZZZsendStateChanged:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $r2 == null goto $r2 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$OnStateChangedListener onStateChangedListener>
+247816ZZZonTouchEventInternal:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void requestDisallowInterceptTouchEvent(boolean)>(1)
+247815ZZZonTouchEventInternal:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$Anim anim> = null
+247814ZZZonTouchEventInternal:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:lookupswitch($i1) {     case 0: goto $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$Anim anim> = null;     case 1: goto $r4 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.os.Handler handler>;     case 2: goto $z0 = 0;     case 5: goto $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$Anim anim> = null;     case 6: goto $r4 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.os.Handler handler>;     case 261: goto $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$Anim anim> = null;     case 262: goto $r4 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.os.Handler handler>;     default: goto return 0; }
+247813ZZZonTouchEventInternal:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i1 = virtualinvoke $r1.<android.view.MotionEvent: int getAction()>()
+247812ZZZonTouchEventInternal:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i0 = virtualinvoke $r1.<android.view.MotionEvent: int getPointerCount()>()
+239205ZZZonSingleTapConfirmed:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$2:virtualinvoke $r2.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: boolean performClick()>()
+239204ZZZonSingleTapConfirmed:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$2:$r2 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$2: com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView this$0>
+225609ZZZrequestDisallowInterceptTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:interfaceinvoke $r1.<android.view.ViewParent: void requestDisallowInterceptTouchEvent(boolean)>($z0)
+225608ZZZrequestDisallowInterceptTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $r1 == null goto return
+225607ZZZrequestDisallowInterceptTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r1 = virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.view.ViewParent getParent()>()
+215900ZZZonDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$z0 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: boolean debug>
+215899ZZZonDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:virtualinvoke $r1.<android.graphics.Canvas: void drawBitmap(android.graphics.Bitmap,android.graphics.Matrix,android.graphics.Paint)>($r18, $r23, $r22)
+215898ZZZonDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r22 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.Paint bitmapPaint>
+215897ZZZonDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r23 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.Matrix matrix>
+215896ZZZonDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r18 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.Bitmap bitmap>
+215895ZZZonDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $r22 == null goto $r18 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.Bitmap bitmap>
+215894ZZZonDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r22 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.Paint tileBgPaint>
+215815ZZZpreDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void fitToBounds(boolean)>(1)
+215814ZZZpreDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: java.lang.Float pendingScale> = null
+215813ZZZpreDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.PointF sPendingCenter> = null
+215812ZZZpreDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r1.<android.graphics.PointF: float y> = $f0
+215811ZZZpreDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f0 = $f0 - $f1
+215810ZZZpreDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f1 = $f1 * $f2
+215809ZZZpreDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f2 = $r3.<android.graphics.PointF: float y>
+215808ZZZpreDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r3 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.PointF sPendingCenter>
+215807ZZZpreDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f1 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: float scale>
+215806ZZZpreDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f0 = (float) $i0
+215805ZZZpreDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i0 = $i0 / 2
+215803ZZZpreDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r1 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.PointF vTranslate>
+215802ZZZpreDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r1.<android.graphics.PointF: float x> = $f0
+215799ZZZpreDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f2 = $r3.<android.graphics.PointF: float x>
+215792ZZZpreDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $r1 != null goto $r1 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.PointF vTranslate>
+215790ZZZpreDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: float scale> = $f0
+215788ZZZpreDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r2 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: java.lang.Float pendingScale>
+215787ZZZpreDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $r2 == null goto specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void fitToBounds(boolean)>(0)
+215476ZZZonSizeChanged:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.PointF sPendingCenter> = $r3
+215475ZZZonSizeChanged:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: java.lang.Float pendingScale> = $r4
+215474ZZZonSizeChanged:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r4 = staticinvoke <java.lang.Float: java.lang.Float valueOf(float)>($f0)
+215473ZZZonSizeChanged:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f0 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: float scale>
+215472ZZZonSizeChanged:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$Anim anim> = null
+215471ZZZonSizeChanged:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $r3 == null goto return
+215470ZZZonSizeChanged:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $z0 == 0 goto return
+215469ZZZonSizeChanged:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$z0 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: boolean readySent>
+215446ZZZgetCenter:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r1 = virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.PointF viewToSourceCoord(float,float)>($f1, $f0)
+215445ZZZgetCenter:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f0 = (float) $i1
+215444ZZZgetCenter:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f1 = (float) $i0
+215443ZZZgetCenter:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i1 = $i1 / 2
+215442ZZZgetCenter:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i1 = virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int getHeight()>()
+215441ZZZgetCenter:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i0 = $i0 / 2
+215440ZZZgetCenter:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i0 = virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int getWidth()>()
+215439ZZZonSizeChanged:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r3 = virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.PointF getCenter()>()
+215436ZZZonSizeChanged:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void debug(java.lang.String,java.lang.Object[])>("onSizeChanged %dx%d -> %dx%d", $r1)
+215435ZZZonSizeChanged:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r1[3] = $r2
+215434ZZZonSizeChanged:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r2 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($i1)
+215433ZZZonSizeChanged:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r1[2] = $r2
+215432ZZZonSizeChanged:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r2 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($i0)
+215431ZZZonSizeChanged:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r1[1] = $r2
+215430ZZZonSizeChanged:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r2 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($i3)
+215429ZZZonSizeChanged:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r1[0] = $r2
+215428ZZZonSizeChanged:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r2 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($i2)
+215427ZZZonSizeChanged:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r1 = newarray (java.lang.Object)[4]
+214452ZZZupdateNotes:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:virtualinvoke $r4.<com.davemorrissey.labs.subscaleview.sample.MainActivity: void setToolbarSubtitle(int)>($i1)
+214450ZZZupdateNotes:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:$i1 = virtualinvoke $r6.<com.davemorrissey.labs.subscaleview.sample.Page: int getSubtitle()>()
+214449ZZZupdateNotes:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:$r6 = (com.davemorrissey.labs.subscaleview.sample.Page) $r5
+214448ZZZupdateNotes:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:$r5 = interfaceinvoke $r1.<java.util.List: java.lang.Object get(int)>($i1)
+214447ZZZupdateNotes:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:$i1 = $r0.<com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment: int page>
+214446ZZZupdateNotes:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:$r1 = $r0.<com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment: java.util.List notes>
+214445ZZZupdateNotes:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:$r4 = (com.davemorrissey.labs.subscaleview.sample.MainActivity) $r2
+214444ZZZupdateNotes:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:if $r2 != null goto $r4 = (com.davemorrissey.labs.subscaleview.sample.MainActivity) $r2
+214443ZZZupdateNotes:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:$r2 = virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment: android.app.Activity getActivity()>()
+214398ZZZupdateNotes:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:virtualinvoke $r4.<com.davemorrissey.labs.subscaleview.sample.MainActivity: void setToolbarTitle(int)>($i1)
+214397ZZZupdateNotes:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:$i1 = $r0.<com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment: int title>
+214393ZZZupdateNotes:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:if $i1 <= $i2 goto $r2 = virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment: android.app.Activity getActivity()>()
+214392ZZZupdateNotes:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:$i2 = $i2 + -1
+214391ZZZupdateNotes:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:$i2 = interfaceinvoke $r1.<java.util.List: int size()>()
+214388ZZZupdateNotes:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:$b0 = 4
+214383ZZZaccess$previous:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:specialinvoke $r0.<com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment: void previous()>()
+214382ZZZonClick:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment$onResume$2:staticinvoke <com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment: void access$previous(com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment)>($r2)
+214381ZZZonClick:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment$onResume$2:$r2 = $r0.<com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment$onResume$2: com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment this$0>
+195120ZZZviewToSourceCoord:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r1 = virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.graphics.PointF viewToSourceCoord(float,float,android.graphics.PointF)>($f0, $f1, $r1)
+195119ZZZviewToSourceCoord:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r1.<android.graphics.PointF: void <init>()>()
+195118ZZZviewToSourceCoord:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r1 = new android.graphics.PointF
+187078ZZZonTouchEventInternal:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int maxTouchCount> = 0
+187077ZZZonTouchEventInternal:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: boolean isPanning> = 0
+187076ZZZonTouchEventInternal:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: boolean isZooming> = 0
+187075ZZZonTouchEventInternal:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $i0 != 1 goto return 1
+187074ZZZonTouchEventInternal:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $z0 == 0 goto (branch)
+187073ZZZonTouchEventInternal:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$z0 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: boolean isPanning>
+187072ZZZonTouchEventInternal:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $z0 != 0 goto $z0 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: boolean isZooming>
+187071ZZZonTouchEventInternal:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$z0 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: boolean isZooming>
+187070ZZZonTouchEventInternal:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $i1 <= 0 goto (branch)
+187068ZZZonTouchEventInternal:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $z0 == 0 goto $i1 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int maxTouchCount>
+187066ZZZonTouchEventInternal:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:virtualinvoke $r4.<android.os.Handler: void removeMessages(int)>(1)
+100185ZZZupdateNotes:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:$i1 = virtualinvoke $r6.<com.davemorrissey.labs.subscaleview.sample.Page: int getText()>()
+100180ZZZupdateNotes:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:$r8 = (android.widget.TextView) $r7
+100172ZZZupdateNotes:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:$r7 = virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment: android.view.View _$_findCachedViewById(int)>($i1)
+100171ZZZupdateNotes:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:$i1 = <com.davemorrissey.labs.subscaleview.sample.R$id: int note>
+100060ZZZaccess$next:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:specialinvoke $r0.<com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment: void next()>()
+100059ZZZonClick:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment$onResume$1:staticinvoke <com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment: void access$next(com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment)>($r2)
+100058ZZZonClick:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment$onResume$1:$r2 = $r0.<com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment$onResume$1: com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment this$0>
+75720ZZZgetRequiredRotation:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i0 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int orientation>
+75719ZZZgetRequiredRotation:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $i0 != -1 goto $i0 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int orientation>
+75712ZZZonDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i0 = specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int getRequiredRotation()>()
+75711ZZZonDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $i0 != 180 goto $i0 = specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int getRequiredRotation()>()
+68356ZZZonMeasure:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void setMeasuredDimension(int,int)>($i0, $i1)
+68355ZZZonMeasure:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i1 = staticinvoke <java.lang.Math: int max(int,int)>($i1, $i4)
+68354ZZZonMeasure:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i4 = virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int getSuggestedMinimumHeight()>()
+68353ZZZonMeasure:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i0 = staticinvoke <java.lang.Math: int max(int,int)>($i2, $i0)
+68352ZZZonMeasure:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i0 = virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int getSuggestedMinimumWidth()>()
+68350ZZZonMeasure:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $z0 == 0 goto (branch)
+68349ZZZonMeasure:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $z1 == 0 goto (branch)
+68348ZZZonMeasure:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $i3 <= 0 goto $i0 = virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int getSuggestedMinimumWidth()>()
+68347ZZZonMeasure:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i3 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int sHeight>
+68345ZZZonMeasure:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i3 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int sWidth>
+68344ZZZonMeasure:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i1 = $i4
+68343ZZZonMeasure:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i2 = $i0
+68342ZZZonMeasure:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$z0 = 0
+68341ZZZonMeasure:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $i3 == 1073741824 goto $z0 = 0
+68340ZZZonMeasure:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$z1 = 0
+68339ZZZonMeasure:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $i2 == 1073741824 goto $z1 = 0
+68338ZZZonMeasure:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i4 = staticinvoke <android.view.View$MeasureSpec: int getSize(int)>($i1)
+68337ZZZonMeasure:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i0 = staticinvoke <android.view.View$MeasureSpec: int getSize(int)>($i0)
+68336ZZZonMeasure:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i3 = staticinvoke <android.view.View$MeasureSpec: int getMode(int)>($i1)
+68335ZZZonMeasure:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i2 = staticinvoke <android.view.View$MeasureSpec: int getMode(int)>($i0)
+68334ZZZonMeasure:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$z0 = 1
+63129ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:virtualinvoke $r6.<android.view.GestureDetector: boolean onTouchEvent(android.view.MotionEvent)>($r1)
+63128ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r6 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.view.GestureDetector singleDetector>
+63127ZZZonTouchEvent:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:if $r6 == null goto return 1
+60559ZZZinitialiseBaseLayer:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i0 = specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int calculateInSampleSize(float)>($f0)
+60557ZZZinitialiseBaseLayer:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f0 = staticinvoke <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$ScaleAndTranslate: float access$4700(com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$ScaleAndTranslate)>($r4)
+60556ZZZinitialiseBaseLayer:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r4 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$ScaleAndTranslate satTemp>
+60555ZZZaccess$4702:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$ScaleAndTranslate:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$ScaleAndTranslate: float scale> = $f0
+60433ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$ScaleAndTranslate:specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$ScaleAndTranslate: void <init>(float,android.graphics.PointF)>($f0, $r1)
+60432ZZZinitialiseBaseLayer:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r4.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$ScaleAndTranslate: void <init>(float,android.graphics.PointF,com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$1)>(0.0F, $r5, null)
+60431ZZZinitialiseBaseLayer:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r5.<android.graphics.PointF: void <init>(float,float)>(0.0F, 0.0F)
+60430ZZZinitialiseBaseLayer:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r5 = new android.graphics.PointF
+60429ZZZinitialiseBaseLayer:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r4 = new com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$ScaleAndTranslate
+60418ZZZonDraw:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void initialiseBaseLayer(android.graphics.Point)>($r5)
+60417ZZZgetMaxBitmapDimensions:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r2.<android.graphics.Point: void <init>(int,int)>($i1, $i0)
+60416ZZZgetMaxBitmapDimensions:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i0 = staticinvoke <java.lang.Math: int min(int,int)>($i2, $i0)
+60415ZZZgetMaxBitmapDimensions:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i0 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int maxTileHeight>
+60414ZZZgetMaxBitmapDimensions:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i2 = virtualinvoke $r1.<android.graphics.Canvas: int getMaximumBitmapHeight()>()
+60413ZZZgetMaxBitmapDimensions:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i1 = staticinvoke <java.lang.Math: int min(int,int)>($i1, $i0)
+60412ZZZgetMaxBitmapDimensions:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i0 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int maxTileWidth>
+60411ZZZgetMaxBitmapDimensions:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$i1 = virtualinvoke $r1.<android.graphics.Canvas: int getMaximumBitmapWidth()>()
+60410ZZZgetMaxBitmapDimensions:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r2 = new android.graphics.Point
+24802ZZZ<init>:com.davemorrissey.labs.subscaleview.decoder.SkiaImageRegionDecoder:$r0.<com.davemorrissey.labs.subscaleview.decoder.SkiaImageRegionDecoder: android.graphics.Bitmap$Config bitmapConfig> = $r1
+24710ZZZ<init>:com.davemorrissey.labs.subscaleview.decoder.SkiaImageRegionDecoder:$r1 = <android.graphics.Bitmap$Config: android.graphics.Bitmap$Config RGB_565>
+24709ZZZ<init>:com.davemorrissey.labs.subscaleview.decoder.SkiaImageRegionDecoder:if $r1 != null goto $r0.<com.davemorrissey.labs.subscaleview.decoder.SkiaImageRegionDecoder: android.graphics.Bitmap$Config bitmapConfig> = $r1
+24708ZZZ<init>:com.davemorrissey.labs.subscaleview.decoder.SkiaImageRegionDecoder:$r0.<com.davemorrissey.labs.subscaleview.decoder.SkiaImageRegionDecoder: java.lang.Object decoderLock> = $r2
+24557ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:$r5 = $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask: java.lang.ref.WeakReference contextRef>
+24556ZZZdoInBackground:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:$r4 = virtualinvoke $r3.<android.net.Uri: java.lang.String toString()>()
+24516ZZZsetImage:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void execute(android.os.AsyncTask)>($r16)
+24515ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask: android.net.Uri source> = $r4
+24514ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask: java.lang.ref.WeakReference decoderFactoryRef> = $r5
+24513ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:specialinvoke $r5.<java.lang.ref.WeakReference: void <init>(java.lang.Object)>($r3)
+24511ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask: java.lang.ref.WeakReference contextRef> = $r5
+24469ZZZsetGestureDetector:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r2.<android.view.GestureDetector: void <init>(android.content.Context,android.view.GestureDetector$OnGestureListener)>($r1, $r4)
+24468ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$3:specialinvoke $r0.<android.view.GestureDetector$SimpleOnGestureListener: void <init>()>()
+24467ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$3:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$3: com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView this$0> = $r1
+24386ZZZonViewCreated:com.davemorrissey.labs.subscaleview.sample.basicfeatures.BasicFeaturesFragment:virtualinvoke $r3.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void setImage(com.davemorrissey.labs.subscaleview.ImageSource)>($r4)
+24366ZZZuri:com.davemorrissey.labs.subscaleview.ImageSource:specialinvoke $r3.<com.davemorrissey.labs.subscaleview.ImageSource: void <init>(android.net.Uri)>($r4)
+24365ZZZuri:com.davemorrissey.labs.subscaleview.ImageSource:$r4 = staticinvoke <android.net.Uri: android.net.Uri parse(java.lang.String)>($r0)
+24364ZZZuri:com.davemorrissey.labs.subscaleview.ImageSource:$r3 = new com.davemorrissey.labs.subscaleview.ImageSource
+24363ZZZuri:com.davemorrissey.labs.subscaleview.ImageSource:if $z0 != 0 goto $r3 = new com.davemorrissey.labs.subscaleview.ImageSource
+24362ZZZuri:com.davemorrissey.labs.subscaleview.ImageSource:$z0 = virtualinvoke $r0.<java.lang.String: boolean contains(java.lang.CharSequence)>("://")
+24361ZZZuri:com.davemorrissey.labs.subscaleview.ImageSource:if $r0 != null goto $z0 = virtualinvoke $r0.<java.lang.String: boolean contains(java.lang.CharSequence)>("://")
+24353ZZZonViewCreated:com.davemorrissey.labs.subscaleview.sample.basicfeatures.BasicFeaturesFragment:$r4 = staticinvoke <com.davemorrissey.labs.subscaleview.ImageSource: com.davemorrissey.labs.subscaleview.ImageSource asset(java.lang.String)>("kingfisher.jpg")
+24352ZZZonViewCreated:com.davemorrissey.labs.subscaleview.sample.basicfeatures.BasicFeaturesFragment:$r3 = (com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView) $r1
+24335ZZZonViewCreated:com.davemorrissey.labs.subscaleview.sample.basicfeatures.BasicFeaturesFragment:$r1 = virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.sample.basicfeatures.BasicFeaturesFragment: android.view.View _$_findCachedViewById(int)>($i0)
+24334ZZZonViewCreated:com.davemorrissey.labs.subscaleview.sample.basicfeatures.BasicFeaturesFragment:$i0 = <com.davemorrissey.labs.subscaleview.sample.R$id: int imageView>
+24333ZZZonViewCreated:com.davemorrissey.labs.subscaleview.sample.basicfeatures.BasicFeaturesFragment:specialinvoke $r0.<com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment: void onViewCreated(android.view.View,android.os.Bundle)>($r1, $r2)
+24331ZZZonCreateView:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:staticinvoke <kotlin.jvm.internal.Intrinsics: void checkExpressionValueIsNotNull(java.lang.Object,java.lang.String)>($r4, "inflater.inflate(layout, container, false)")
+24278ZZZsetGestureDetector:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: android.view.GestureDetector singleDetector> = $r2
+24246ZZZsetGestureDetector:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r3.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$2: void <init>(com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView,android.content.Context)>($r0, $r1)
+24245ZZZsetGestureDetector:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r3 = new com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$2
+24243ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void setGestureDetector(android.content.Context)>($r1)
+24218ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: void setDoubleTapZoomDpi(int)>(160)
+24217ZZZsetMaxScale:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: float maxScale> = $f0
+24195ZZZ<init>:com.davemorrissey.labs.subscaleview.decoder.CompatDecoderFactory:specialinvoke $r0.<java.lang.Object: void <init>()>()
+24190ZZZ<init>:com.davemorrissey.labs.subscaleview.decoder.CompatDecoderFactory:$r0.<com.davemorrissey.labs.subscaleview.decoder.CompatDecoderFactory: android.graphics.Bitmap$Config bitmapConfig> = $r2
+24189ZZZ<init>:com.davemorrissey.labs.subscaleview.decoder.CompatDecoderFactory:$r0.<com.davemorrissey.labs.subscaleview.decoder.CompatDecoderFactory: java.lang.Class clazz> = $r1
+24167ZZZminScale:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f0 = staticinvoke <java.lang.Math: float min(float,float)>($f0, $f1)
+24166ZZZminScale:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f1 = $f1 / $f2
+24165ZZZminScale:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f2 = (float) $i1
+24128ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$f0 = specialinvoke $r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: float minScale()>()
+24127ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: float maxScale> = 2.0F
+24126ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r0.<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int orientation> = 0
+24105ZZZ<init>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:specialinvoke $r0.<android.view.View: void <init>(android.content.Context,android.util.AttributeSet)>($r1, $r2)
+24104ZZZ<clinit>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: int TILE_SIZE_AUTO> = 2147483647
+24103ZZZ<clinit>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: java.util.List VALID_SCALE_TYPES> = $r4
+24102ZZZ<clinit>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r4 = staticinvoke <java.util.Arrays: java.util.List asList(java.lang.Object[])>($r2)
+24101ZZZ<clinit>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r2[3] = $r3
+24100ZZZ<clinit>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r3 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(4)
+24099ZZZ<clinit>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r2[2] = $r3
+24098ZZZ<clinit>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r3 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(3)
+24097ZZZ<clinit>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r2[1] = $r3
+24096ZZZ<clinit>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r3 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(1)
+24095ZZZ<clinit>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r2[0] = $r3
+24094ZZZ<clinit>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r3 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(2)
+24093ZZZ<clinit>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r2 = newarray (java.lang.Integer)[4]
+24092ZZZ<clinit>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: java.util.List VALID_PAN_LIMITS> = $r4
+24084ZZZ<clinit>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r2 = newarray (java.lang.Integer)[3]
+24083ZZZ<clinit>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: java.util.List VALID_EASING_STYLES> = $r4
+24077ZZZ<clinit>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r2 = newarray (java.lang.Integer)[2]
+24076ZZZ<clinit>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: java.util.List VALID_ZOOM_STYLES> = $r4
+24067ZZZ<clinit>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: java.util.List VALID_ORIENTATIONS> = $r4
+24065ZZZ<clinit>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r2[4] = $r3
+24064ZZZ<clinit>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r3 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(-1)
+24062ZZZ<clinit>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r3 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(270)
+24060ZZZ<clinit>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r3 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(180)
+24058ZZZ<clinit>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r3 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(90)
+24056ZZZ<clinit>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r3 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(0)
+24055ZZZ<clinit>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r2 = newarray (java.lang.Integer)[5]
+24054ZZZ<clinit>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView: java.lang.String TAG> = $r1
+24053ZZZ<clinit>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r1 = virtualinvoke $r0.<java.lang.Class: java.lang.String getSimpleName()>()
+24052ZZZ<clinit>:com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView:$r0 = class "Lcom/davemorrissey/labs/subscaleview/SubsamplingScaleImageView;"
+22539ZZZ<init>:com.davemorrissey.labs.subscaleview.sample.basicfeatures.BasicFeaturesFragment:specialinvoke $r0.<com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment: void <init>(int,int,java.util.List)>(2131558466, 2131361858, $r1)
+22537ZZZ<init>:com.davemorrissey.labs.subscaleview.sample.basicfeatures.BasicFeaturesFragment:staticinvoke <kotlin.jvm.internal.Intrinsics: void checkExpressionValueIsNotNull(java.lang.Object,java.lang.String)>($r1, "Arrays.asList(\n        P\u2026ubtitle, basic_p5_text)\n)")
+22536ZZZ<init>:com.davemorrissey.labs.subscaleview.sample.basicfeatures.BasicFeaturesFragment:$r1 = staticinvoke <java.util.Arrays: java.util.List asList(java.lang.Object[])>($r2)
+22535ZZZ<init>:com.davemorrissey.labs.subscaleview.sample.basicfeatures.BasicFeaturesFragment:$r2[4] = $r3
+22531ZZZ<init>:com.davemorrissey.labs.subscaleview.sample.basicfeatures.BasicFeaturesFragment:specialinvoke $r3.<com.davemorrissey.labs.subscaleview.sample.Page: void <init>(int,int)>(2131558464, 2131558465)
+22530ZZZ<init>:com.davemorrissey.labs.subscaleview.sample.basicfeatures.BasicFeaturesFragment:$r3 = new com.davemorrissey.labs.subscaleview.sample.Page
+22529ZZZ<init>:com.davemorrissey.labs.subscaleview.sample.basicfeatures.BasicFeaturesFragment:$r2[3] = $r3
+22525ZZZ<init>:com.davemorrissey.labs.subscaleview.sample.basicfeatures.BasicFeaturesFragment:specialinvoke $r3.<com.davemorrissey.labs.subscaleview.sample.Page: void <init>(int,int)>(2131558462, 2131558463)
+22523ZZZ<init>:com.davemorrissey.labs.subscaleview.sample.basicfeatures.BasicFeaturesFragment:$r2[2] = $r3
+22519ZZZ<init>:com.davemorrissey.labs.subscaleview.sample.basicfeatures.BasicFeaturesFragment:specialinvoke $r3.<com.davemorrissey.labs.subscaleview.sample.Page: void <init>(int,int)>(2131558460, 2131558461)
+22517ZZZ<init>:com.davemorrissey.labs.subscaleview.sample.basicfeatures.BasicFeaturesFragment:$r2[1] = $r3
+22513ZZZ<init>:com.davemorrissey.labs.subscaleview.sample.basicfeatures.BasicFeaturesFragment:specialinvoke $r3.<com.davemorrissey.labs.subscaleview.sample.Page: void <init>(int,int)>(2131558458, 2131558459)
+22511ZZZ<init>:com.davemorrissey.labs.subscaleview.sample.basicfeatures.BasicFeaturesFragment:$r2[0] = $r3
+22507ZZZ<init>:com.davemorrissey.labs.subscaleview.sample.basicfeatures.BasicFeaturesFragment:specialinvoke $r3.<com.davemorrissey.labs.subscaleview.sample.Page: void <init>(int,int)>(2131558456, 2131558457)
+22505ZZZ<init>:com.davemorrissey.labs.subscaleview.sample.basicfeatures.BasicFeaturesFragment:$r2 = newarray (com.davemorrissey.labs.subscaleview.sample.Page)[5]
+22501ZZZ<init>:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment$Companion:specialinvoke $r0.<com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment$Companion: void <init>()>()
+22500ZZZ<clinit>:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:specialinvoke $r0.<com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment$Companion: void <init>(kotlin.jvm.internal.DefaultConstructorMarker)>(null)
+22499ZZZ<clinit>:com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment:$r0 = new com.davemorrissey.labs.subscaleview.sample.AbstractPagesFragment$Companion
+22491ZZZsetFragment:com.davemorrissey.labs.subscaleview.sample.MainActivity:$z0 = staticinvoke <kotlin.jvm.internal.Intrinsics: boolean areEqual(java.lang.Object,java.lang.Object)>($r4, $r1)
+22490ZZZsetFragment:com.davemorrissey.labs.subscaleview.sample.MainActivity:$r4 = null
+22489ZZZsetFragment:com.davemorrissey.labs.subscaleview.sample.MainActivity:if $r3 == null goto $r4 = null
+22487ZZZsetFragment:com.davemorrissey.labs.subscaleview.sample.MainActivity:$r2 = virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.sample.MainActivity: android.app.FragmentManager getFragmentManager()>()
+22486ZZZsetFragment:com.davemorrissey.labs.subscaleview.sample.MainActivity:$r1 = class "Lcom/davemorrissey/labs/subscaleview/sample/basicfeatures/BasicFeaturesFragment;"
+22485ZZZsetFragment:com.davemorrissey.labs.subscaleview.sample.MainActivity:lookupswitch($i0) {     case 2131230747: goto $r1 = class "Lcom/davemorrissey/labs/subscaleview/sample/eventhandlingadvanced/AdvancedEventHandlingFragment;";     case 2131230751: goto $r1 = class "Lcom/davemorrissey/labs/subscaleview/sample/animation/AnimationFragment;";     case 2131230754: goto $r1 = class "Lcom/davemorrissey/labs/subscaleview/sample/basicfeatures/BasicFeaturesFragment;";     case 2131230768: goto $r1 = class "Lcom/davemorrissey/labs/subscaleview/sample/configuration/ConfigurationFragment;";     case 2131230789: goto $r1 = class "Lcom/davemorrissey/labs/subscaleview/sample/eventhandling/EventHandlingFragment;";     case 2131230793: goto $r1 = class "Lcom/davemorrissey/labs/subscaleview/sample/extension/ExtensionFragment;";     case 2131230810: goto $r1 = class "Lcom/davemorrissey/labs/subscaleview/sample/imagedisplay/ImageDisplayFragment;";     case 2131230917: goto $r1 = class "Lcom/davemorrissey/labs/subscaleview/sample/viewpager/ViewPagersFragment;";     default: goto $r1 = class "Lcom/davemorrissey/labs/subscaleview/sample/basicfeatures/BasicFeaturesFragment;"; }
+22484ZZZsetFragment:com.davemorrissey.labs.subscaleview.sample.MainActivity:$r0.<com.davemorrissey.labs.subscaleview.sample.MainActivity: int fragmentId> = $i0
+22032ZZZinitNavigationDrawer:com.davemorrissey.labs.subscaleview.sample.MainActivity:specialinvoke $r4.<com.davemorrissey.labs.subscaleview.sample.MainActivity$initNavigationDrawer$1: void <init>(com.davemorrissey.labs.subscaleview.sample.MainActivity)>($r0)
+22031ZZZinitNavigationDrawer:com.davemorrissey.labs.subscaleview.sample.MainActivity:$r4 = new com.davemorrissey.labs.subscaleview.sample.MainActivity$initNavigationDrawer$1
+22030ZZZinitNavigationDrawer:com.davemorrissey.labs.subscaleview.sample.MainActivity:$r3 = (android.support.design.widget.NavigationView) $r2
+22029ZZZ_$_findCachedViewById:com.davemorrissey.labs.subscaleview.sample.MainActivity:if $r4 != null goto return $r4
+22028ZZZ_$_findCachedViewById:com.davemorrissey.labs.subscaleview.sample.MainActivity:$r4 = (android.view.View) $r3
+22027ZZZ_$_findCachedViewById:com.davemorrissey.labs.subscaleview.sample.MainActivity:$r3 = virtualinvoke $r1.<java.util.HashMap: java.lang.Object get(java.lang.Object)>($r2)
+22026ZZZ_$_findCachedViewById:com.davemorrissey.labs.subscaleview.sample.MainActivity:$r2 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($i0)
+22024ZZZ_$_findCachedViewById:com.davemorrissey.labs.subscaleview.sample.MainActivity:if $r1 != null goto $r1 = $r0.<com.davemorrissey.labs.subscaleview.sample.MainActivity: java.util.HashMap _$_findViewCache>
+22023ZZZ_$_findCachedViewById:com.davemorrissey.labs.subscaleview.sample.MainActivity:$r1 = $r0.<com.davemorrissey.labs.subscaleview.sample.MainActivity: java.util.HashMap _$_findViewCache>
+21337ZZZonCreate:com.davemorrissey.labs.subscaleview.sample.MainActivity:specialinvoke $r0.<com.davemorrissey.labs.subscaleview.sample.MainActivity: void initNavigationDrawer()>()
+20161ZZZonCreate:com.davemorrissey.labs.subscaleview.sample.MainActivity:virtualinvoke $r0.<com.davemorrissey.labs.subscaleview.sample.MainActivity: void setSupportActionBar(android.support.v7.widget.Toolbar)>($r3)
+20160ZZZonCreate:com.davemorrissey.labs.subscaleview.sample.MainActivity:$r3 = (android.support.v7.widget.Toolbar) $r2
+20146ZZZ_$_findCachedViewById:com.davemorrissey.labs.subscaleview.sample.MainActivity:$r4 = virtualinvoke $r0.<android.support.v4.app.FragmentActivity: android.view.View findViewById(int)>($i0)
+20140ZZZ_$_findCachedViewById:com.davemorrissey.labs.subscaleview.sample.MainActivity:$r0.<com.davemorrissey.labs.subscaleview.sample.MainActivity: java.util.HashMap _$_findViewCache> = $r1
+20139ZZZ_$_findCachedViewById:com.davemorrissey.labs.subscaleview.sample.MainActivity:specialinvoke $r1.<java.util.HashMap: void <init>()>()
+20138ZZZ_$_findCachedViewById:com.davemorrissey.labs.subscaleview.sample.MainActivity:$r1 = new java.util.HashMap
+170ZZZonCreate:com.davemorrissey.labs.subscaleview.sample.MainActivity:specialinvoke $r0.<android.support.v7.app.AppCompatActivity: void onCreate(android.os.Bundle)>($r1)
+145ZZZ<init>:com.davemorrissey.labs.subscaleview.sample.MainActivity:$r0.<com.davemorrissey.labs.subscaleview.sample.MainActivity: int fragmentId> = 2131230754
+6ZZZ<init>:com.davemorrissey.labs.subscaleview.sample.MainActivity:specialinvoke $r0.<android.support.v7.app.AppCompatActivity: void <init>()>()
+3ZZZ<init>:com.davemorrissey.labs.subscaleview.sample.MainActivity$Companion:specialinvoke $r0.<java.lang.Object: void <init>()>()
+1ZZZ<clinit>:com.davemorrissey.labs.subscaleview.sample.MainActivity:specialinvoke $r0.<com.davemorrissey.labs.subscaleview.sample.MainActivity$Companion: void <init>(kotlin.jvm.internal.DefaultConstructorMarker)>(null)
+0ZZZ<clinit>:com.davemorrissey.labs.subscaleview.sample.MainActivity:$r0 = new com.davemorrissey.labs.subscaleview.sample.MainActivity$Companion

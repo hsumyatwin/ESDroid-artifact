@@ -1,0 +1,317 @@
+2405ZZZAddPerson:net.mandaria.tippytipper.activities.SplitBill:$i0 = 2 / $i0
+2404ZZZAddPerson:net.mandaria.tippytipper.activities.SplitBill:$i0 = $i1 + -3
+2403ZZZAddPerson:net.mandaria.tippytipper.activities.SplitBill:$i1 = $i1 + 1
+2396ZZZonClick:net.mandaria.tippytipper.activities.SplitBill$1:staticinvoke <net.mandaria.tippytipper.activities.SplitBill: void access$0(net.mandaria.tippytipper.activities.SplitBill)>($r2)
+2395ZZZonClick:net.mandaria.tippytipper.activities.SplitBill$1:$r2 = $r0.<net.mandaria.tippytipper.activities.SplitBill$1: net.mandaria.tippytipper.activities.SplitBill this$0>
+2384ZZZonEndSession:com.flurry.android.FlurryAgent:specialinvoke $r2.<com.flurry.android.FlurryAgent: void b(android.content.Context,boolean)>($r0, 0)
+2383ZZZonEndSession:com.flurry.android.FlurryAgent:$r2 = <com.flurry.android.FlurryAgent: com.flurry.android.FlurryAgent b>
+2382ZZZonEndSession:com.flurry.android.FlurryAgent:if $r0 != null goto $r2 = <com.flurry.android.FlurryAgent: com.flurry.android.FlurryAgent b>
+2366ZZZonStop:net.mandaria.tippytipper.activities.TippyTipper:staticinvoke <com.flurry.android.FlurryAgent: void onEndSession(android.content.Context)>($r0)
+2365ZZZonStop:net.mandaria.tippytipper.activities.TippyTipper:specialinvoke $r0.<android.app.Activity: void onStop()>()
+2336ZZZonStop:net.mandaria.tippytipper.activities.SplitBill:staticinvoke <com.flurry.android.FlurryAgent: void onEndSession(android.content.Context)>($r0)
+2335ZZZonStop:net.mandaria.tippytipper.activities.SplitBill:specialinvoke $r0.<android.app.Activity: void onStop()>()
+2323ZZZonStartSession:com.flurry.android.FlurryAgent:specialinvoke $r4.<com.flurry.android.FlurryAgent: void a(android.content.Context,java.lang.String)>($r0, $r1)
+2322ZZZonStartSession:com.flurry.android.FlurryAgent:$r4 = <com.flurry.android.FlurryAgent: com.flurry.android.FlurryAgent b>
+2321ZZZonStartSession:com.flurry.android.FlurryAgent:if $i0 != 0 goto $r4 = <com.flurry.android.FlurryAgent: com.flurry.android.FlurryAgent b>
+2320ZZZonStartSession:com.flurry.android.FlurryAgent:$i0 = virtualinvoke $r1.<java.lang.String: int length()>()
+2319ZZZonStartSession:com.flurry.android.FlurryAgent:if $r1 == null goto $r3 = new java.lang.IllegalArgumentException
+2318ZZZonStartSession:com.flurry.android.FlurryAgent:if $r0 != null goto (branch)
+2174ZZZa:com.flurry.android.FlurryAgent:$r10 = staticinvoke <com.flurry.android.FlurryAgent: byte[] b(java.lang.String,java.util.Map)>($r1, $r2)
+2173ZZZa:com.flurry.android.FlurryAgent:if $i0 <= 10 goto $r10 = staticinvoke <com.flurry.android.FlurryAgent: byte[] b(java.lang.String,java.util.Map)>($r1, $r2)
+2172ZZZa:com.flurry.android.FlurryAgent:$i0 = interfaceinvoke $r2.<java.util.Map: int size()>()
+2171ZZZa:com.flurry.android.FlurryAgent:if $r2 != null goto $i0 = interfaceinvoke $r2.<java.util.Map: int size()>()
+2170ZZZa:com.flurry.android.FlurryAgent:if $i0 >= 8000 goto $r0.<com.flurry.android.FlurryAgent: boolean G> = 0
+2169ZZZa:com.flurry.android.FlurryAgent:$i0 = $r0.<com.flurry.android.FlurryAgent: int H>
+2168ZZZa:com.flurry.android.FlurryAgent:if $i0 >= 100 goto $r0.<com.flurry.android.FlurryAgent: boolean G> = 0
+2167ZZZa:com.flurry.android.FlurryAgent:$i0 = interfaceinvoke $r3.<java.util.List: int size()>()
+2166ZZZa:com.flurry.android.FlurryAgent:$r3 = $r0.<com.flurry.android.FlurryAgent: java.util.List F>
+2165ZZZa:com.flurry.android.FlurryAgent:if $z0 == 0 goto $r0.<com.flurry.android.FlurryAgent: boolean G> = 0
+2164ZZZa:com.flurry.android.FlurryAgent:$z0 = <com.flurry.android.FlurryAgent: boolean e>
+2163ZZZa:com.flurry.android.FlurryAgent:$r7.<com.flurry.android.e: int a> = $i0
+2162ZZZa:com.flurry.android.FlurryAgent:$i0 = $i0 + 1
+2161ZZZa:com.flurry.android.FlurryAgent:$i0 = $r7.<com.flurry.android.e: int a>
+2160ZZZa:com.flurry.android.FlurryAgent:if $r7 != null goto $i0 = $r7.<com.flurry.android.e: int a>
+2159ZZZa:com.flurry.android.FlurryAgent:$r7 = (com.flurry.android.e) $r6
+2158ZZZa:com.flurry.android.FlurryAgent:$r6 = interfaceinvoke $r5.<java.util.Map: java.lang.Object get(java.lang.Object)>($r1)
+2157ZZZa:com.flurry.android.FlurryAgent:$r5 = $r0.<com.flurry.android.FlurryAgent: java.util.Map E>
+2156ZZZa:com.flurry.android.FlurryAgent:if $i0 == 0 goto exitmonitor $r0
+2155ZZZa:com.flurry.android.FlurryAgent:$i0 = virtualinvoke $r1.<java.lang.String: int length()>()
+2059ZZZSplitBill:net.mandaria.tippytipper.activities.SplitBill:specialinvoke $r0.<net.mandaria.tippytipper.activities.SplitBill: void BindData()>()
+2020ZZZSplitBill:net.mandaria.tippytipper.activities.SplitBill:virtualinvoke $r1.<net.mandaria.tippytipper.services.TipCalculatorService: void SplitBill(int)>($i0)
+2019ZZZSplitBill:net.mandaria.tippytipper.activities.SplitBill:$r1 = $r3.<net.mandaria.tippytipper.TippyTipperApplication: net.mandaria.tippytipper.services.TipCalculatorService service>
+2018ZZZSplitBill:net.mandaria.tippytipper.activities.SplitBill:$r3 = (net.mandaria.tippytipper.TippyTipperApplication) $r2
+2017ZZZSplitBill:net.mandaria.tippytipper.activities.SplitBill:$r2 = virtualinvoke $r0.<net.mandaria.tippytipper.activities.SplitBill: android.app.Application getApplication()>()
+2009ZZZonCreate:net.mandaria.tippytipper.activities.SplitBill:specialinvoke $r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)
+2008ZZZ<init>:net.mandaria.tippytipper.activities.SplitBill:specialinvoke $r0.<android.app.Activity: void <init>()>()
+2005ZZZonClick:net.mandaria.tippytipper.activities.Total$1:specialinvoke $r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r3, class "Lnet/mandaria/tippytipper/activities/SplitBill;")
+2004ZZZonClick:net.mandaria.tippytipper.activities.Total$1:$r3 = virtualinvoke $r4.<net.mandaria.tippytipper.activities.Total: android.content.Context getBaseContext()>()
+2003ZZZonClick:net.mandaria.tippytipper.activities.Total$1:$r4 = $r0.<net.mandaria.tippytipper.activities.Total$1: net.mandaria.tippytipper.activities.Total this$0>
+1963ZZZSplitBillWithDefaultNumberOfPeople:net.mandaria.tippytipper.activities.Total:virtualinvoke $r6.<net.mandaria.tippytipper.services.TipCalculatorService: void SplitBill(int)>($i0)
+1962ZZZSplitBillWithDefaultNumberOfPeople:net.mandaria.tippytipper.activities.Total:$r6 = $r3.<net.mandaria.tippytipper.TippyTipperApplication: net.mandaria.tippytipper.services.TipCalculatorService service>
+1785ZZZonEvent:com.flurry.android.FlurryAgent:$r2 = <com.flurry.android.FlurryAgent: com.flurry.android.FlurryAgent b>
+1772ZZZSplitBillWithDefaultNumberOfPeople:net.mandaria.tippytipper.activities.Total:$r5 = virtualinvoke $r6.<net.mandaria.tippytipper.services.TipCalculatorService: java.lang.String GetTaxPercentage()>()
+1770ZZZSplitBillWithDefaultNumberOfPeople:net.mandaria.tippytipper.activities.Total:interfaceinvoke $r1.<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>("Tip Percentage", $r5)
+1759ZZZSplitBillWithDefaultNumberOfPeople:net.mandaria.tippytipper.activities.Total:$r5 = virtualinvoke $r6.<net.mandaria.tippytipper.services.TipCalculatorService: java.lang.String GetTipPercentage()>()
+1757ZZZSplitBillWithDefaultNumberOfPeople:net.mandaria.tippytipper.activities.Total:interfaceinvoke $r1.<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>("Total Amount", $r5)
+1756ZZZGetTotalAmount:net.mandaria.tippytipper.services.TipCalculatorService:$r1 = virtualinvoke $r2.<java.text.NumberFormat: java.lang.String format(double)>($d0)
+1755ZZZGetTotalAmount:net.mandaria.tippytipper.services.TipCalculatorService:$d0 = $r0.<net.mandaria.tippytipper.services.TipCalculatorService: double TotalAmount>
+1754ZZZGetTotalAmount:net.mandaria.tippytipper.services.TipCalculatorService:$r2 = $r0.<net.mandaria.tippytipper.services.TipCalculatorService: java.text.NumberFormat nf>
+1723ZZZaccess$0:net.mandaria.tippytipper.activities.Total:specialinvoke $r0.<net.mandaria.tippytipper.activities.Total: void SplitBillWithDefaultNumberOfPeople()>()
+1722ZZZonClick:net.mandaria.tippytipper.activities.Total$1:staticinvoke <net.mandaria.tippytipper.activities.Total: void access$0(net.mandaria.tippytipper.activities.Total)>($r4)
+1703ZZZonStart:net.mandaria.tippytipper.activities.SplitBill:staticinvoke <com.flurry.android.FlurryAgent: void onStartSession(android.content.Context,java.lang.String)>($r0, $r2)
+1551ZZZa:com.flurry.android.FlurryAgent:interfaceinvoke $r5.<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>($r1, $r7)
+1549ZZZa:com.flurry.android.FlurryAgent:$r7.<com.flurry.android.e: int a> = 1
+1546ZZZa:com.flurry.android.FlurryAgent:specialinvoke $r7.<com.flurry.android.e: void <init>()>()
+1545ZZZa:com.flurry.android.FlurryAgent:$r7 = new com.flurry.android.e
+1544ZZZa:com.flurry.android.FlurryAgent:if $i0 >= 100 goto $z0 = staticinvoke <com.flurry.android.Flog: boolean a(java.lang.String)>("FlurryAgent")
+1543ZZZa:com.flurry.android.FlurryAgent:$i0 = interfaceinvoke $r5.<java.util.Map: int size()>()
+1092ZZZonStart:net.mandaria.tippytipper.activities.Total:specialinvoke $r8.<net.mandaria.tippytipper.activities.Total$7: void <init>(net.mandaria.tippytipper.activities.Total)>($r0)
+1091ZZZonStart:net.mandaria.tippytipper.activities.Total:$r8 = new net.mandaria.tippytipper.activities.Total$7
+1090ZZZonStart:net.mandaria.tippytipper.activities.Total:virtualinvoke $r4.<android.widget.Button: void setText(java.lang.CharSequence)>($r2)
+1089ZZZonStart:net.mandaria.tippytipper.activities.Total:$r2 = virtualinvoke $r5.<java.lang.StringBuilder: java.lang.String toString()>()
+1088ZZZonStart:net.mandaria.tippytipper.activities.Total:$r5 = virtualinvoke $r5.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("%")
+1087ZZZonStart:net.mandaria.tippytipper.activities.Total:specialinvoke $r5.<java.lang.StringBuilder: void <init>(java.lang.String)>($r2)
+1086ZZZonStart:net.mandaria.tippytipper.activities.Total:$r2 = staticinvoke <java.lang.String: java.lang.String valueOf(int)>($i0)
+1085ZZZonStart:net.mandaria.tippytipper.activities.Total:$i0 = (int) $d0
+1084ZZZonStart:net.mandaria.tippytipper.activities.Total:$r5 = new java.lang.StringBuilder
+1083ZZZonStart:net.mandaria.tippytipper.activities.Total:$d0 = (double) $i0
+1080ZZZonStart:net.mandaria.tippytipper.activities.Total:$i0 = staticinvoke <net.mandaria.tippytipper.activities.Settings: int getTipPercentagePresetThree(android.content.Context)>($r1)
+1079ZZZonStart:net.mandaria.tippytipper.activities.Total:$r1 = virtualinvoke $r0.<net.mandaria.tippytipper.activities.Total: android.content.Context getBaseContext()>()
+1078ZZZonStart:net.mandaria.tippytipper.activities.Total:$r4 = (android.widget.Button) $r3
+1077ZZZonStart:net.mandaria.tippytipper.activities.Total:$r3 = virtualinvoke $r0.<net.mandaria.tippytipper.activities.Total: android.view.View findViewById(int)>(2131361831)
+1076ZZZonStart:net.mandaria.tippytipper.activities.Total:virtualinvoke $r4.<android.widget.Button: void setOnClickListener(android.view.View$OnClickListener)>($r7)
+1073ZZZonStart:net.mandaria.tippytipper.activities.Total:specialinvoke $r7.<net.mandaria.tippytipper.activities.Total$6: void <init>(net.mandaria.tippytipper.activities.Total)>($r0)
+1072ZZZonStart:net.mandaria.tippytipper.activities.Total:$r7 = new net.mandaria.tippytipper.activities.Total$6
+1061ZZZonStart:net.mandaria.tippytipper.activities.Total:$i0 = staticinvoke <net.mandaria.tippytipper.activities.Settings: int getTipPercentagePresetTwo(android.content.Context)>($r1)
+1058ZZZonStart:net.mandaria.tippytipper.activities.Total:$r3 = virtualinvoke $r0.<net.mandaria.tippytipper.activities.Total: android.view.View findViewById(int)>(2131361830)
+1057ZZZonStart:net.mandaria.tippytipper.activities.Total:virtualinvoke $r4.<android.widget.Button: void setOnClickListener(android.view.View$OnClickListener)>($r6)
+1054ZZZonStart:net.mandaria.tippytipper.activities.Total:specialinvoke $r6.<net.mandaria.tippytipper.activities.Total$5: void <init>(net.mandaria.tippytipper.activities.Total)>($r0)
+1053ZZZonStart:net.mandaria.tippytipper.activities.Total:$r6 = new net.mandaria.tippytipper.activities.Total$5
+1042ZZZonStart:net.mandaria.tippytipper.activities.Total:$i0 = staticinvoke <net.mandaria.tippytipper.activities.Settings: int getTipPercentagePresetOne(android.content.Context)>($r1)
+1039ZZZonStart:net.mandaria.tippytipper.activities.Total:$r3 = virtualinvoke $r0.<net.mandaria.tippytipper.activities.Total: android.view.View findViewById(int)>(2131361829)
+1001ZZZBindData:net.mandaria.tippytipper.activities.Total:$r16 = virtualinvoke $r13.<net.mandaria.tippytipper.services.TipCalculatorService: java.lang.String GetTipPercentage()>()
+1000ZZZBindData:net.mandaria.tippytipper.activities.Total:$r13 = $r2.<net.mandaria.tippytipper.TippyTipperApplication: net.mandaria.tippytipper.services.TipCalculatorService service>
+999ZZZBindData:net.mandaria.tippytipper.activities.Total:$r14 = interfaceinvoke $r15.<java.lang.CharSequence: java.lang.String toString()>()
+998ZZZBindData:net.mandaria.tippytipper.activities.Total:$r15 = virtualinvoke $r9.<android.widget.TextView: java.lang.CharSequence getText()>()
+996ZZZBindData:net.mandaria.tippytipper.activities.Total:if $b0 == 0 goto (branch)
+995ZZZBindData:net.mandaria.tippytipper.activities.Total:$b0 = $f0 cmpl 0.0F
+994ZZZBindData:net.mandaria.tippytipper.activities.Total:$f0 = 0.0F
+993ZZZBindData:net.mandaria.tippytipper.activities.Total:if $z0 != 0 goto $b0 = $f0 cmpl 0.0F
+990ZZZBindData:net.mandaria.tippytipper.activities.Total:$z0 = staticinvoke <net.mandaria.tippytipper.activities.Settings: boolean getEnableExcludeTaxRate(android.content.Context)>($r10)
+989ZZZBindData:net.mandaria.tippytipper.activities.Total:$r10 = virtualinvoke $r0.<net.mandaria.tippytipper.activities.Total: android.content.Context getBaseContext()>()
+988ZZZgetExcludeTaxRate:net.mandaria.tippytipper.activities.Settings:$f0 = interfaceinvoke $r1.<android.content.SharedPreferences: float getFloat(java.lang.String,float)>("exclude_tax", 0.0F)
+987ZZZgetExcludeTaxRate:net.mandaria.tippytipper.activities.Settings:$r1 = staticinvoke <android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)>($r0)
+946ZZZCalculateTip:net.mandaria.tippytipper.services.TipCalculatorService:virtualinvoke $r0.<net.mandaria.tippytipper.services.TipCalculatorService: void CalculateTip(double)>($d0)
+928ZZZRefreshBillAmount:net.mandaria.tippytipper.activities.Total:virtualinvoke $r3.<net.mandaria.tippytipper.services.TipCalculatorService: void RefreshBillAmount()>()
+927ZZZRefreshBillAmount:net.mandaria.tippytipper.activities.Total:$r3 = $r2.<net.mandaria.tippytipper.TippyTipperApplication: net.mandaria.tippytipper.services.TipCalculatorService service>
+926ZZZRefreshBillAmount:net.mandaria.tippytipper.activities.Total:if $b0 != 0 goto $r6 = staticinvoke <java.lang.Double: java.lang.Double valueOf(double)>($d0)
+925ZZZRefreshBillAmount:net.mandaria.tippytipper.activities.Total:$b0 = $f0 cmpl 0.0F
+924ZZZRefreshBillAmount:net.mandaria.tippytipper.activities.Total:$f0 = 0.0F
+923ZZZRefreshBillAmount:net.mandaria.tippytipper.activities.Total:if $z0 != 0 goto $b0 = $f0 cmpl 0.0F
+920ZZZRefreshBillAmount:net.mandaria.tippytipper.activities.Total:$z0 = staticinvoke <net.mandaria.tippytipper.activities.Settings: boolean getEnableExcludeTaxRate(android.content.Context)>($r4)
+919ZZZRefreshBillAmount:net.mandaria.tippytipper.activities.Total:$r4 = virtualinvoke $r0.<net.mandaria.tippytipper.activities.Total: android.content.Context getBaseContext()>()
+890ZZZonStart:net.mandaria.tippytipper.activities.Total:staticinvoke <com.flurry.android.FlurryAgent: void onStartSession(android.content.Context,java.lang.String)>($r0, $r2)
+874ZZZonCreate:net.mandaria.tippytipper.activities.Total:specialinvoke $r11.<net.mandaria.tippytipper.activities.Total$4: void <init>(net.mandaria.tippytipper.activities.Total)>($r0)
+873ZZZonCreate:net.mandaria.tippytipper.activities.Total:$r11 = new net.mandaria.tippytipper.activities.Total$4
+872ZZZonCreate:net.mandaria.tippytipper.activities.Total:$r10 = (android.widget.SeekBar) $r6
+871ZZZonCreate:net.mandaria.tippytipper.activities.Total:$r6 = virtualinvoke $r0.<net.mandaria.tippytipper.activities.Total: android.view.View findViewById(int)>(2131361828)
+870ZZZonCreate:net.mandaria.tippytipper.activities.Total:virtualinvoke $r6.<android.view.View: void setOnClickListener(android.view.View$OnClickListener)>($r9)
+867ZZZonCreate:net.mandaria.tippytipper.activities.Total:specialinvoke $r9.<net.mandaria.tippytipper.activities.Total$3: void <init>(net.mandaria.tippytipper.activities.Total)>($r0)
+866ZZZonCreate:net.mandaria.tippytipper.activities.Total:$r9 = new net.mandaria.tippytipper.activities.Total$3
+865ZZZonCreate:net.mandaria.tippytipper.activities.Total:$r6 = virtualinvoke $r0.<net.mandaria.tippytipper.activities.Total: android.view.View findViewById(int)>(2131361833)
+864ZZZonCreate:net.mandaria.tippytipper.activities.Total:virtualinvoke $r6.<android.view.View: void setOnClickListener(android.view.View$OnClickListener)>($r8)
+863ZZZ<init>:net.mandaria.tippytipper.activities.Total$2:specialinvoke $r0.<java.lang.Object: void <init>()>()
+862ZZZ<init>:net.mandaria.tippytipper.activities.Total$2:$r0.<net.mandaria.tippytipper.activities.Total$2: net.mandaria.tippytipper.activities.Total this$0> = $r1
+855ZZZonCreate:net.mandaria.tippytipper.activities.Total:specialinvoke $r7.<net.mandaria.tippytipper.activities.Total$1: void <init>(net.mandaria.tippytipper.activities.Total)>($r0)
+854ZZZonCreate:net.mandaria.tippytipper.activities.Total:$r7 = new net.mandaria.tippytipper.activities.Total$1
+853ZZZonCreate:net.mandaria.tippytipper.activities.Total:$r6 = virtualinvoke $r0.<net.mandaria.tippytipper.activities.Total: android.view.View findViewById(int)>(2131361834)
+852ZZZBindData:net.mandaria.tippytipper.activities.Total:virtualinvoke $r7.<android.widget.SeekBar: void setProgress(int)>($i1)
+810ZZZBindData:net.mandaria.tippytipper.activities.Total:specialinvoke $r17.<java.lang.StringBuilder: void <init>(java.lang.String)>(" (")
+809ZZZBindData:net.mandaria.tippytipper.activities.Total:$r17 = new java.lang.StringBuilder
+808ZZZBindData:net.mandaria.tippytipper.activities.Total:$r14 = virtualinvoke $r0.<net.mandaria.tippytipper.activities.Total: java.lang.String getString(int)>(2131165188)
+807ZZZBindData:net.mandaria.tippytipper.activities.Total:if $z0 != 0 goto $r13 = $r2.<net.mandaria.tippytipper.TippyTipperApplication: net.mandaria.tippytipper.services.TipCalculatorService service>
+806ZZZBindData:net.mandaria.tippytipper.activities.Total:$z0 = virtualinvoke $r14.<java.lang.String: boolean contains(java.lang.CharSequence)>($r16)
+743ZZZCalculateTip:net.mandaria.tippytipper.services.TipCalculatorService:virtualinvoke $r0.<net.mandaria.tippytipper.services.TipCalculatorService: void CalculateTip()>()
+737ZZZCalculateTip:net.mandaria.tippytipper.activities.Total:virtualinvoke $r5.<net.mandaria.tippytipper.services.TipCalculatorService: void CalculateTip(double,double)>($d0, $d1)
+736ZZZCalculateTip:net.mandaria.tippytipper.activities.Total:$d1 = $d1 / 100.0
+735ZZZCalculateTip:net.mandaria.tippytipper.activities.Total:$d1 = (double) $f0
+734ZZZCalculateTip:net.mandaria.tippytipper.activities.Total:$d0 = $d0 / 100.0
+733ZZZCalculateTip:net.mandaria.tippytipper.activities.Total:$d0 = virtualinvoke $r1.<java.lang.Double: double doubleValue()>()
+732ZZZCalculateTip:net.mandaria.tippytipper.activities.Total:$r5 = $r3.<net.mandaria.tippytipper.TippyTipperApplication: net.mandaria.tippytipper.services.TipCalculatorService service>
+731ZZZCalculateTip:net.mandaria.tippytipper.activities.Total:$f0 = 0.0F
+727ZZZCalculateTip:net.mandaria.tippytipper.activities.Total:$z0 = staticinvoke <net.mandaria.tippytipper.activities.Settings: boolean getEnableExcludeTaxRate(android.content.Context)>($r4)
+726ZZZCalculateTip:net.mandaria.tippytipper.activities.Total:$r4 = virtualinvoke $r0.<net.mandaria.tippytipper.activities.Total: android.content.Context getBaseContext()>()
+710ZZZonCreate:net.mandaria.tippytipper.activities.Total:specialinvoke $r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)
+706ZZZonClick:net.mandaria.tippytipper.activities.TippyTipper$13:specialinvoke $r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r3, class "Lnet/mandaria/tippytipper/activities/Total;")
+705ZZZonClick:net.mandaria.tippytipper.activities.TippyTipper$13:$r3 = virtualinvoke $r4.<net.mandaria.tippytipper.activities.TippyTipper: android.content.Context getBaseContext()>()
+704ZZZonClick:net.mandaria.tippytipper.activities.TippyTipper$13:$r4 = $r0.<net.mandaria.tippytipper.activities.TippyTipper$13: net.mandaria.tippytipper.activities.TippyTipper this$0>
+703ZZZonClick:net.mandaria.tippytipper.activities.TippyTipper$13:$r2 = new android.content.Intent
+680ZZZSetTipPercentage:net.mandaria.tippytipper.services.TipCalculatorService:$r0.<net.mandaria.tippytipper.services.TipCalculatorService: double TipPercentage> = $d0
+675ZZZCalcualteTipWithDefaultTipPercentage:net.mandaria.tippytipper.activities.TippyTipper:virtualinvoke $r6.<net.mandaria.tippytipper.services.TipCalculatorService: void CalculateTip(double,double)>($d0, $d1)
+674ZZZCalcualteTipWithDefaultTipPercentage:net.mandaria.tippytipper.activities.TippyTipper:$d1 = $d1 / 100.0
+673ZZZCalcualteTipWithDefaultTipPercentage:net.mandaria.tippytipper.activities.TippyTipper:$d1 = (double) $f0
+672ZZZCalcualteTipWithDefaultTipPercentage:net.mandaria.tippytipper.activities.TippyTipper:$d0 = $d0 / 100.0
+671ZZZCalcualteTipWithDefaultTipPercentage:net.mandaria.tippytipper.activities.TippyTipper:$r6 = $r3.<net.mandaria.tippytipper.TippyTipperApplication: net.mandaria.tippytipper.services.TipCalculatorService service>
+528ZZZaccess$3:net.mandaria.tippytipper.activities.TippyTipper:specialinvoke $r0.<net.mandaria.tippytipper.activities.TippyTipper: void CalcualteTipWithDefaultTipPercentage()>()
+527ZZZonClick:net.mandaria.tippytipper.activities.TippyTipper$13:staticinvoke <net.mandaria.tippytipper.activities.TippyTipper: void access$3(net.mandaria.tippytipper.activities.TippyTipper)>($r4)
+508ZZZonStart:net.mandaria.tippytipper.activities.TippyTipper:staticinvoke <com.flurry.android.FlurryAgent: void onStartSession(android.content.Context,java.lang.String)>($r0, $r2)
+505ZZZonStart:net.mandaria.tippytipper.activities.TippyTipper:staticinvoke <com.flurry.android.FlurryAgent: void setContinueSessionMillis(long)>(30000L)
+504ZZZonStart:net.mandaria.tippytipper.activities.TippyTipper:if $z0 == 0 goto return
+503ZZZonStart:net.mandaria.tippytipper.activities.TippyTipper:if $z1 != 0 goto return
+502ZZZonStart:net.mandaria.tippytipper.activities.TippyTipper:$z1 = virtualinvoke $r2.<java.lang.String: boolean equals(java.lang.Object)>("")
+501ZZZonStart:net.mandaria.tippytipper.activities.TippyTipper:$r2 = virtualinvoke $r0.<net.mandaria.tippytipper.activities.TippyTipper: java.lang.String getString(int)>(2131165202)
+498ZZZonStart:net.mandaria.tippytipper.activities.TippyTipper:$z0 = staticinvoke <net.mandaria.tippytipper.activities.Settings: boolean getEnableErrorLogging(android.content.Context)>($r1)
+497ZZZonStart:net.mandaria.tippytipper.activities.TippyTipper:$r1 = virtualinvoke $r0.<net.mandaria.tippytipper.activities.TippyTipper: android.content.Context getBaseContext()>()
+496ZZZonStart:net.mandaria.tippytipper.activities.TippyTipper:specialinvoke $r0.<android.app.Activity: void onStart()>()
+492ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:specialinvoke $r15.<net.mandaria.tippytipper.activities.TippyTipper$13: void <init>(net.mandaria.tippytipper.activities.TippyTipper)>($r0)
+491ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:$r15 = new net.mandaria.tippytipper.activities.TippyTipper$13
+490ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:$r2 = virtualinvoke $r0.<net.mandaria.tippytipper.activities.TippyTipper: android.view.View findViewById(int)>(2131361804)
+489ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:virtualinvoke $r2.<android.view.View: void setOnLongClickListener(android.view.View$OnLongClickListener)>($r14)
+488ZZZ<init>:net.mandaria.tippytipper.activities.TippyTipper$12:specialinvoke $r0.<java.lang.Object: void <init>()>()
+487ZZZ<init>:net.mandaria.tippytipper.activities.TippyTipper$12:$r0.<net.mandaria.tippytipper.activities.TippyTipper$12: net.mandaria.tippytipper.activities.TippyTipper this$0> = $r1
+481ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:specialinvoke $r13.<net.mandaria.tippytipper.activities.TippyTipper$11: void <init>(net.mandaria.tippytipper.activities.TippyTipper)>($r0)
+480ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:$r13 = new net.mandaria.tippytipper.activities.TippyTipper$11
+479ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:$r2 = virtualinvoke $r0.<net.mandaria.tippytipper.activities.TippyTipper: android.view.View findViewById(int)>(2131361802)
+478ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:virtualinvoke $r2.<android.view.View: void setOnClickListener(android.view.View$OnClickListener)>($r12)
+477ZZZ<init>:net.mandaria.tippytipper.activities.TippyTipper$10:specialinvoke $r0.<java.lang.Object: void <init>()>()
+476ZZZ<init>:net.mandaria.tippytipper.activities.TippyTipper$10:$r0.<net.mandaria.tippytipper.activities.TippyTipper$10: net.mandaria.tippytipper.activities.TippyTipper this$0> = $r1
+469ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:specialinvoke $r11.<net.mandaria.tippytipper.activities.TippyTipper$9: void <init>(net.mandaria.tippytipper.activities.TippyTipper)>($r0)
+468ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:$r11 = new net.mandaria.tippytipper.activities.TippyTipper$9
+467ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:$r2 = virtualinvoke $r0.<net.mandaria.tippytipper.activities.TippyTipper: android.view.View findViewById(int)>(2131361795)
+466ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:virtualinvoke $r2.<android.view.View: void setOnClickListener(android.view.View$OnClickListener)>($r10)
+465ZZZ<init>:net.mandaria.tippytipper.activities.TippyTipper$8:specialinvoke $r0.<java.lang.Object: void <init>()>()
+464ZZZ<init>:net.mandaria.tippytipper.activities.TippyTipper$8:$r0.<net.mandaria.tippytipper.activities.TippyTipper$8: net.mandaria.tippytipper.activities.TippyTipper this$0> = $r1
+457ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:specialinvoke $r9.<net.mandaria.tippytipper.activities.TippyTipper$7: void <init>(net.mandaria.tippytipper.activities.TippyTipper)>($r0)
+456ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:$r9 = new net.mandaria.tippytipper.activities.TippyTipper$7
+455ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:$r2 = virtualinvoke $r0.<net.mandaria.tippytipper.activities.TippyTipper: android.view.View findViewById(int)>(2131361793)
+454ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:virtualinvoke $r2.<android.view.View: void setOnClickListener(android.view.View$OnClickListener)>($r8)
+453ZZZ<init>:net.mandaria.tippytipper.activities.TippyTipper$6:specialinvoke $r0.<java.lang.Object: void <init>()>()
+452ZZZ<init>:net.mandaria.tippytipper.activities.TippyTipper$6:$r0.<net.mandaria.tippytipper.activities.TippyTipper$6: net.mandaria.tippytipper.activities.TippyTipper this$0> = $r1
+445ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:specialinvoke $r7.<net.mandaria.tippytipper.activities.TippyTipper$5: void <init>(net.mandaria.tippytipper.activities.TippyTipper)>($r0)
+444ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:$r7 = new net.mandaria.tippytipper.activities.TippyTipper$5
+443ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:$r2 = virtualinvoke $r0.<net.mandaria.tippytipper.activities.TippyTipper: android.view.View findViewById(int)>(2131361797)
+442ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:virtualinvoke $r2.<android.view.View: void setOnClickListener(android.view.View$OnClickListener)>($r6)
+441ZZZ<init>:net.mandaria.tippytipper.activities.TippyTipper$4:specialinvoke $r0.<java.lang.Object: void <init>()>()
+440ZZZ<init>:net.mandaria.tippytipper.activities.TippyTipper$4:$r0.<net.mandaria.tippytipper.activities.TippyTipper$4: net.mandaria.tippytipper.activities.TippyTipper this$0> = $r1
+433ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:specialinvoke $r5.<net.mandaria.tippytipper.activities.TippyTipper$3: void <init>(net.mandaria.tippytipper.activities.TippyTipper)>($r0)
+432ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:$r5 = new net.mandaria.tippytipper.activities.TippyTipper$3
+431ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:$r2 = virtualinvoke $r0.<net.mandaria.tippytipper.activities.TippyTipper: android.view.View findViewById(int)>(2131361801)
+430ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:virtualinvoke $r2.<android.view.View: void setOnClickListener(android.view.View$OnClickListener)>($r4)
+429ZZZ<init>:net.mandaria.tippytipper.activities.TippyTipper$2:specialinvoke $r0.<java.lang.Object: void <init>()>()
+428ZZZ<init>:net.mandaria.tippytipper.activities.TippyTipper$2:$r0.<net.mandaria.tippytipper.activities.TippyTipper$2: net.mandaria.tippytipper.activities.TippyTipper this$0> = $r1
+421ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:specialinvoke $r3.<net.mandaria.tippytipper.activities.TippyTipper$1: void <init>(net.mandaria.tippytipper.activities.TippyTipper)>($r0)
+420ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:$r3 = new net.mandaria.tippytipper.activities.TippyTipper$1
+419ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:$r2 = virtualinvoke $r0.<net.mandaria.tippytipper.activities.TippyTipper: android.view.View findViewById(int)>(2131361799)
+418ZZZBindData:net.mandaria.tippytipper.activities.TippyTipper:virtualinvoke $r4.<android.widget.EditText: void setText(java.lang.CharSequence)>($r6)
+408ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:specialinvoke $r0.<net.mandaria.tippytipper.activities.TippyTipper: void BindData()>()
+407ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:virtualinvoke $r0.<net.mandaria.tippytipper.activities.TippyTipper: void setContentView(int)>(2130903041)
+406ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:specialinvoke $r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)
+405ZZZ<init>:net.mandaria.tippytipper.activities.TippyTipper:specialinvoke $r0.<android.app.Activity: void <init>()>()
+374ZZZf:com.flurry.android.FlurryAgent:specialinvoke $r0.<com.flurry.android.FlurryAgent: void g()>()
+373ZZZf:com.flurry.android.FlurryAgent:if $z0 == 0 goto return
+362ZZZa:com.flurry.android.FlurryAgent:staticinvoke <com.flurry.android.Flog: int a(java.lang.String,java.lang.String)>("FlurryAgent", "Report successful")
+361ZZZa:com.flurry.android.FlurryAgent:if $i0 != 200 goto staticinvoke <com.flurry.android.Flog: int a(java.lang.String,java.lang.String)>("FlurryAgent", "Report failed")
+346ZZZa:com.flurry.android.FlurryAgent:staticinvoke <com.flurry.android.Flog: int a(java.lang.String,java.lang.String)>("FlurryAgent", $r4)
+345ZZZa:com.flurry.android.FlurryAgent:$r4 = virtualinvoke $r3.<java.lang.StringBuilder: java.lang.String toString()>()
+344ZZZa:com.flurry.android.FlurryAgent:$r3 = virtualinvoke $r3.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r2)
+340ZZZa:com.flurry.android.FlurryAgent:$z0 = 1
+333ZZZf:com.flurry.android.FlurryAgent:$z0 = specialinvoke $r0.<com.flurry.android.FlurryAgent: boolean a(byte[])>($r1)
+332ZZZf:com.flurry.android.FlurryAgent:if $r1 == null goto return
+287ZZZf:com.flurry.android.FlurryAgent:$r1 = specialinvoke $r0.<com.flurry.android.FlurryAgent: byte[] e()>()
+286ZZZa:com.flurry.android.FlurryAgent:specialinvoke $r0.<com.flurry.android.FlurryAgent: void f()>()
+285ZZZa:com.flurry.android.FlurryAgent:if $z0 == 0 goto return
+283ZZZa:com.flurry.android.FlurryAgent:if $z0 == 0 goto $z0 = 1
+282ZZZa:com.flurry.android.FlurryAgent:$z0 = $r0.<com.flurry.android.FlurryAgent: boolean v>
+281ZZZa:com.flurry.android.FlurryAgent:$r0.<com.flurry.android.FlurryAgent: android.location.Location D> = $r2
+273ZZZrun:com.flurry.android.c:virtualinvoke $r1.<com.flurry.android.FlurryAgent: void a(android.content.Context,boolean)>($r2, $z0)
+272ZZZrun:com.flurry.android.c:$z0 = $r0.<com.flurry.android.c: boolean b>
+271ZZZrun:com.flurry.android.c:$r2 = $r0.<com.flurry.android.c: android.content.Context a>
+270ZZZrun:com.flurry.android.c:$r1 = $r0.<com.flurry.android.c: com.flurry.android.FlurryAgent c>
+269ZZZa:com.flurry.android.FlurryAgent:virtualinvoke $r15.<android.os.Handler: boolean post(java.lang.Runnable)>($r16)
+213ZZZa:com.flurry.android.FlurryAgent:staticinvoke <com.flurry.android.Flog: int a(java.lang.String,java.lang.String)>("FlurryAgent", "Starting new session")
+212ZZZa:com.flurry.android.FlurryAgent:if $b4 <= 0 goto staticinvoke <com.flurry.android.Flog: int a(java.lang.String,java.lang.String)>("FlurryAgent", "Continuing previous session")
+211ZZZa:com.flurry.android.FlurryAgent:$b4 = $l3 cmp $l0
+210ZZZa:com.flurry.android.FlurryAgent:$l0 = <com.flurry.android.FlurryAgent: long c>
+209ZZZa:com.flurry.android.FlurryAgent:$l3 = $l2 - $l0
+208ZZZa:com.flurry.android.FlurryAgent:$l0 = $r0.<com.flurry.android.FlurryAgent: long m>
+207ZZZa:com.flurry.android.FlurryAgent:$l2 = staticinvoke <android.os.SystemClock: long elapsedRealtime()>()
+206ZZZa:com.flurry.android.FlurryAgent:$r0.<com.flurry.android.FlurryAgent: java.lang.String p> = $r2
+205ZZZa:com.flurry.android.FlurryAgent:if $r3 == null goto $r0.<com.flurry.android.FlurryAgent: java.lang.String p> = $r2
+204ZZZa:com.flurry.android.FlurryAgent:$r3 = $r0.<com.flurry.android.FlurryAgent: java.lang.String p>
+203ZZZa:com.flurry.android.FlurryAgent:$r2 = virtualinvoke $r1.<android.content.Context: java.lang.String getPackageName()>()
+202ZZZa:com.flurry.android.FlurryAgent:$r0.<com.flurry.android.FlurryAgent: java.lang.String q> = $r2
+201ZZZb:com.flurry.android.FlurryAgent:$r2 = $r3.<android.content.pm.PackageInfo: java.lang.String versionName>
+200ZZZb:com.flurry.android.FlurryAgent:if $r2 == null goto $i0 = $r3.<android.content.pm.PackageInfo: int versionCode>
+198ZZZb:com.flurry.android.FlurryAgent:$r3 = virtualinvoke $r1.<android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)>($r2, 0)
+197ZZZb:com.flurry.android.FlurryAgent:$r2 = virtualinvoke $r0.<android.content.Context: java.lang.String getPackageName()>()
+196ZZZb:com.flurry.android.FlurryAgent:$r1 = virtualinvoke $r0.<android.content.Context: android.content.pm.PackageManager getPackageManager()>()
+186ZZZa:com.flurry.android.FlurryAgent:specialinvoke $r9.<com.flurry.android.d: void <init>()>()
+185ZZZa:com.flurry.android.FlurryAgent:$r9 = new com.flurry.android.d
+184ZZZa:com.flurry.android.FlurryAgent:if $z0 == 0 goto $r1 = virtualinvoke $r1.<android.content.Context: android.content.Context getApplicationContext()>()
+183ZZZa:com.flurry.android.FlurryAgent:$z0 = <com.flurry.android.FlurryAgent: boolean g>
+182ZZZa:com.flurry.android.FlurryAgent:$r0.<com.flurry.android.FlurryAgent: java.io.File j> = $r8
+181ZZZa:com.flurry.android.FlurryAgent:$r8 = virtualinvoke $r1.<android.content.Context: java.io.File getFileStreamPath(java.lang.String)>($r2)
+180ZZZa:com.flurry.android.FlurryAgent:$r2 = virtualinvoke $r4.<java.lang.StringBuilder: java.lang.String toString()>()
+179ZZZa:com.flurry.android.FlurryAgent:$r4 = virtualinvoke $r4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r2)
+178ZZZa:com.flurry.android.FlurryAgent:$r2 = staticinvoke <java.lang.Integer: java.lang.String toString(int,int)>($i1, 16)
+177ZZZa:com.flurry.android.FlurryAgent:$i1 = virtualinvoke $r2.<java.lang.String: int hashCode()>()
+176ZZZa:com.flurry.android.FlurryAgent:$r2 = $r0.<com.flurry.android.FlurryAgent: java.lang.String o>
+175ZZZa:com.flurry.android.FlurryAgent:$r4 = virtualinvoke $r4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(".flurryagent.")
+174ZZZa:com.flurry.android.FlurryAgent:specialinvoke $r4.<java.lang.StringBuilder: void <init>()>()
+173ZZZa:com.flurry.android.FlurryAgent:$r4 = new java.lang.StringBuilder
+171ZZZa:com.flurry.android.FlurryAgent:if $z0 != 0 goto exitmonitor $r0
+170ZZZa:com.flurry.android.FlurryAgent:$z0 = $r0.<com.flurry.android.FlurryAgent: boolean k>
+169ZZZa:com.flurry.android.FlurryAgent:if $r7 == null goto $z0 = $r0.<com.flurry.android.FlurryAgent: boolean k>
+168ZZZa:com.flurry.android.FlurryAgent:$r7 = (android.content.Context) $r6
+167ZZZa:com.flurry.android.FlurryAgent:$r6 = interfaceinvoke $r5.<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>($r1, $r1)
+166ZZZa:com.flurry.android.FlurryAgent:$r5 = $r0.<com.flurry.android.FlurryAgent: java.util.Map n>
+165ZZZa:com.flurry.android.FlurryAgent:if $r3 == null goto $r5 = $r0.<com.flurry.android.FlurryAgent: java.util.Map n>
+164ZZZa:com.flurry.android.FlurryAgent:$r3 = $r0.<com.flurry.android.FlurryAgent: java.lang.String o>
+142ZZZ<init>:com.flurry.android.FlurryAgent:specialinvoke $r4.<android.os.HandlerThread: void <init>(java.lang.String)>("FlurryAgent")
+141ZZZ<init>:com.flurry.android.FlurryAgent:$r4 = new android.os.HandlerThread
+140ZZZ<init>:com.flurry.android.FlurryAgent:$r0.<com.flurry.android.FlurryAgent: java.util.List x> = $r3
+139ZZZ<init>:com.flurry.android.FlurryAgent:specialinvoke $r3.<java.util.ArrayList: void <init>()>()
+138ZZZ<init>:com.flurry.android.FlurryAgent:$r3 = new java.util.ArrayList
+137ZZZ<init>:com.flurry.android.FlurryAgent:$r0.<com.flurry.android.FlurryAgent: boolean r> = 1
+136ZZZ<init>:com.flurry.android.FlurryAgent:$r0.<com.flurry.android.FlurryAgent: java.util.Map n> = $r2
+135ZZZ<init>:com.flurry.android.FlurryAgent:specialinvoke $r2.<java.util.WeakHashMap: void <init>()>()
+134ZZZ<init>:com.flurry.android.FlurryAgent:$r2 = new java.util.WeakHashMap
+133ZZZ<init>:com.flurry.android.FlurryAgent:$r0.<com.flurry.android.FlurryAgent: boolean l> = 0
+132ZZZ<init>:com.flurry.android.FlurryAgent:$r0.<com.flurry.android.FlurryAgent: boolean k> = 0
+131ZZZ<init>:com.flurry.android.FlurryAgent:$r0.<com.flurry.android.FlurryAgent: java.io.File j> = null
+130ZZZ<init>:com.flurry.android.FlurryAgent:specialinvoke $r0.<java.lang.Object: void <init>()>()
+129ZZZ<clinit>:com.flurry.android.FlurryAgent:specialinvoke $r0.<com.flurry.android.FlurryAgent: void <init>()>()
+128ZZZ<clinit>:com.flurry.android.FlurryAgent:$r0 = new com.flurry.android.FlurryAgent
+127ZZZ<clinit>:com.flurry.android.FlurryAgent:<com.flurry.android.FlurryAgent: java.lang.String kSecureReportUrl> = "https://data.flurry.com/aar.do"
+126ZZZ<clinit>:com.flurry.android.FlurryAgent:<com.flurry.android.FlurryAgent: java.lang.String kInsecureReportUrl> = "http://data.flurry.com/aar.do"
+125ZZZ<clinit>:com.flurry.android.FlurryAgent:<com.flurry.android.FlurryAgent: java.lang.String a> = null
+105ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:specialinvoke $r14.<net.mandaria.tippytipper.activities.TippyTipper$12: void <init>(net.mandaria.tippytipper.activities.TippyTipper)>($r0)
+104ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:$r14 = new net.mandaria.tippytipper.activities.TippyTipper$12
+103ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:virtualinvoke $r2.<android.view.View: void setOnClickListener(android.view.View$OnClickListener)>($r13)
+102ZZZ<init>:net.mandaria.tippytipper.activities.TippyTipper$11:specialinvoke $r0.<java.lang.Object: void <init>()>()
+101ZZZ<init>:net.mandaria.tippytipper.activities.TippyTipper$11:$r0.<net.mandaria.tippytipper.activities.TippyTipper$11: net.mandaria.tippytipper.activities.TippyTipper this$0> = $r1
+94ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:specialinvoke $r12.<net.mandaria.tippytipper.activities.TippyTipper$10: void <init>(net.mandaria.tippytipper.activities.TippyTipper)>($r0)
+93ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:$r12 = new net.mandaria.tippytipper.activities.TippyTipper$10
+92ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:$r2 = virtualinvoke $r0.<net.mandaria.tippytipper.activities.TippyTipper: android.view.View findViewById(int)>(2131361803)
+91ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:virtualinvoke $r2.<android.view.View: void setOnClickListener(android.view.View$OnClickListener)>($r11)
+90ZZZ<init>:net.mandaria.tippytipper.activities.TippyTipper$9:specialinvoke $r0.<java.lang.Object: void <init>()>()
+89ZZZ<init>:net.mandaria.tippytipper.activities.TippyTipper$9:$r0.<net.mandaria.tippytipper.activities.TippyTipper$9: net.mandaria.tippytipper.activities.TippyTipper this$0> = $r1
+82ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:specialinvoke $r10.<net.mandaria.tippytipper.activities.TippyTipper$8: void <init>(net.mandaria.tippytipper.activities.TippyTipper)>($r0)
+81ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:$r10 = new net.mandaria.tippytipper.activities.TippyTipper$8
+80ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:$r2 = virtualinvoke $r0.<net.mandaria.tippytipper.activities.TippyTipper: android.view.View findViewById(int)>(2131361794)
+79ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:virtualinvoke $r2.<android.view.View: void setOnClickListener(android.view.View$OnClickListener)>($r9)
+78ZZZ<init>:net.mandaria.tippytipper.activities.TippyTipper$7:specialinvoke $r0.<java.lang.Object: void <init>()>()
+77ZZZ<init>:net.mandaria.tippytipper.activities.TippyTipper$7:$r0.<net.mandaria.tippytipper.activities.TippyTipper$7: net.mandaria.tippytipper.activities.TippyTipper this$0> = $r1
+70ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:specialinvoke $r8.<net.mandaria.tippytipper.activities.TippyTipper$6: void <init>(net.mandaria.tippytipper.activities.TippyTipper)>($r0)
+69ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:$r8 = new net.mandaria.tippytipper.activities.TippyTipper$6
+68ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:$r2 = virtualinvoke $r0.<net.mandaria.tippytipper.activities.TippyTipper: android.view.View findViewById(int)>(2131361798)
+67ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:virtualinvoke $r2.<android.view.View: void setOnClickListener(android.view.View$OnClickListener)>($r7)
+66ZZZ<init>:net.mandaria.tippytipper.activities.TippyTipper$5:specialinvoke $r0.<java.lang.Object: void <init>()>()
+65ZZZ<init>:net.mandaria.tippytipper.activities.TippyTipper$5:$r0.<net.mandaria.tippytipper.activities.TippyTipper$5: net.mandaria.tippytipper.activities.TippyTipper this$0> = $r1
+58ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:specialinvoke $r6.<net.mandaria.tippytipper.activities.TippyTipper$4: void <init>(net.mandaria.tippytipper.activities.TippyTipper)>($r0)
+57ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:$r6 = new net.mandaria.tippytipper.activities.TippyTipper$4
+56ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:$r2 = virtualinvoke $r0.<net.mandaria.tippytipper.activities.TippyTipper: android.view.View findViewById(int)>(2131361796)
+43ZZZonCreate:net.mandaria.tippytipper.activities.TippyTipper:virtualinvoke $r2.<android.view.View: void setOnClickListener(android.view.View$OnClickListener)>($r3)
+42ZZZ<init>:net.mandaria.tippytipper.activities.TippyTipper$1:specialinvoke $r0.<java.lang.Object: void <init>()>()
+41ZZZ<init>:net.mandaria.tippytipper.activities.TippyTipper$1:$r0.<net.mandaria.tippytipper.activities.TippyTipper$1: net.mandaria.tippytipper.activities.TippyTipper this$0> = $r1
+3ZZZ<init>:net.mandaria.tippytipper.services.TipCalculatorService:specialinvoke $r0.<java.lang.Object: void <init>()>()
