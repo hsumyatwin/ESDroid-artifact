@@ -88,7 +88,7 @@ test-data
     |--- Mandoline  The experiment apps that compared against with AndroidSlicer. 
 ```
 
-1. The working folder
+1. Working folder
 
 ```
 tool
