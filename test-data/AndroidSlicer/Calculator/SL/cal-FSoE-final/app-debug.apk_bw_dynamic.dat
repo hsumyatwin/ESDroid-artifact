@@ -1,0 +1,51 @@
+24853ZZZonClickPercent:com.muledog.calculator.MainActivity:$r4 = staticinvoke <java.lang.Double: java.lang.Double valueOf(java.lang.String)>($r2)
+24852ZZZonClickPercent:com.muledog.calculator.MainActivity:$r2 = $r3[0]
+24851ZZZonClickPercent:com.muledog.calculator.MainActivity:$r3 = virtualinvoke $r2.<java.lang.String: java.lang.String[] split(java.lang.String)>("%")
+24850ZZZonClickPercent:com.muledog.calculator.MainActivity:$r2 = $r0.<com.muledog.calculator.MainActivity: java.lang.String display>
+24747ZZZupdateScreen:com.muledog.calculator.MainActivity:virtualinvoke $r1.<android.widget.TextView: void setText(java.lang.CharSequence)>($r2)
+24746ZZZupdateScreen:com.muledog.calculator.MainActivity:$r2 = $r0.<com.muledog.calculator.MainActivity: java.lang.String display>
+24745ZZZupdateScreen:com.muledog.calculator.MainActivity:$r1 = $r0.<com.muledog.calculator.MainActivity: android.widget.TextView _screen>
+24649ZZZonClickNumber:com.muledog.calculator.MainActivity:specialinvoke $r0.<com.muledog.calculator.MainActivity: void updateScreen()>()
+24648ZZZonClickNumber:com.muledog.calculator.MainActivity:$r0.<com.muledog.calculator.MainActivity: java.lang.String display> = $r2
+24647ZZZonClickNumber:com.muledog.calculator.MainActivity:$r2 = virtualinvoke $r4.<java.lang.StringBuilder: java.lang.String toString()>()
+24646ZZZonClickNumber:com.muledog.calculator.MainActivity:virtualinvoke $r4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($r5)
+24645ZZZonClickNumber:com.muledog.calculator.MainActivity:$r5 = virtualinvoke $r3.<android.widget.Button: java.lang.CharSequence getText()>()
+24644ZZZonClickNumber:com.muledog.calculator.MainActivity:virtualinvoke $r4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r2)
+24643ZZZonClickNumber:com.muledog.calculator.MainActivity:$r2 = $r0.<com.muledog.calculator.MainActivity: java.lang.String display>
+24642ZZZonClickNumber:com.muledog.calculator.MainActivity:specialinvoke $r4.<java.lang.StringBuilder: void <init>()>()
+24641ZZZonClickNumber:com.muledog.calculator.MainActivity:$r4 = new java.lang.StringBuilder
+24640ZZZonClickNumber:com.muledog.calculator.MainActivity:$r3 = (android.widget.Button) $r1
+24639ZZZonClickNumber:com.muledog.calculator.MainActivity:if $r2 == "" goto $r3 = (android.widget.Button) $r1
+24638ZZZonClickNumber:com.muledog.calculator.MainActivity:$r2 = $r0.<com.muledog.calculator.MainActivity: java.lang.String result>
+24637ZZZonClickNumber:com.muledog.calculator.MainActivity:if $i0 >= 9 goto return
+24636ZZZonClickNumber:com.muledog.calculator.MainActivity:$i0 = virtualinvoke $r2.<java.lang.String: int length()>()
+24333ZZZclear:com.muledog.calculator.MainActivity:$r0.<com.muledog.calculator.MainActivity: java.lang.String result> = ""
+24332ZZZclear:com.muledog.calculator.MainActivity:$r0.<com.muledog.calculator.MainActivity: java.lang.String currentOperator> = ""
+24331ZZZclear:com.muledog.calculator.MainActivity:$r0.<com.muledog.calculator.MainActivity: java.lang.String display> = ""
+23801ZZZgetResult:com.muledog.calculator.MainActivity:$r0.<com.muledog.calculator.MainActivity: java.lang.String result> = $r1
+23800ZZZgetResult:com.muledog.calculator.MainActivity:$r1 = staticinvoke <java.lang.String: java.lang.String valueOf(double)>($d0)
+23777ZZZonClickOperator:com.muledog.calculator.MainActivity:specialinvoke $r0.<com.muledog.calculator.MainActivity: boolean getResult()>()
+23775ZZZisOperator:com.muledog.calculator.MainActivity:if $c0 == 247 goto return 1
+23774ZZZisOperator:com.muledog.calculator.MainActivity:if $c0 == 120 goto return 1
+23773ZZZisOperator:com.muledog.calculator.MainActivity:if $c0 == 45 goto return 1
+23772ZZZisOperator:com.muledog.calculator.MainActivity:if $c0 == 43 goto return 1
+22844ZZZonClickEqual:com.muledog.calculator.MainActivity:if $z0 != 0 goto $r2 = $r0.<com.muledog.calculator.MainActivity: java.lang.String result>
+22646ZZZonClickOperator:com.muledog.calculator.MainActivity:if $r2 != "" goto $r3 = (android.widget.Button) $r1
+22645ZZZonClickOperator:com.muledog.calculator.MainActivity:$r2 = $r0.<com.muledog.calculator.MainActivity: java.lang.String display>
+21491ZZZonClickOperator:com.muledog.calculator.MainActivity:specialinvoke $r0.<com.muledog.calculator.MainActivity: void updateScreen()>()
+21490ZZZonClickOperator:com.muledog.calculator.MainActivity:$r0.<com.muledog.calculator.MainActivity: java.lang.String currentOperator> = $r2
+21489ZZZonClickOperator:com.muledog.calculator.MainActivity:$r2 = interfaceinvoke $r5.<java.lang.CharSequence: java.lang.String toString()>()
+21488ZZZonClickOperator:com.muledog.calculator.MainActivity:$r5 = virtualinvoke $r3.<android.widget.Button: java.lang.CharSequence getText()>()
+21487ZZZonClickOperator:com.muledog.calculator.MainActivity:$r0.<com.muledog.calculator.MainActivity: java.lang.String display> = $r2
+21486ZZZonClickOperator:com.muledog.calculator.MainActivity:$r2 = virtualinvoke $r4.<java.lang.StringBuilder: java.lang.String toString()>()
+21485ZZZonClickOperator:com.muledog.calculator.MainActivity:virtualinvoke $r4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($r5)
+21483ZZZonClickOperator:com.muledog.calculator.MainActivity:virtualinvoke $r4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r2)
+21481ZZZonClickOperator:com.muledog.calculator.MainActivity:specialinvoke $r4.<java.lang.StringBuilder: void <init>()>()
+21480ZZZonClickOperator:com.muledog.calculator.MainActivity:$r4 = new java.lang.StringBuilder
+21476ZZZonClickOperator:com.muledog.calculator.MainActivity:$r0.<com.muledog.calculator.MainActivity: java.lang.String result> = ""
+21474ZZZonClickOperator:com.muledog.calculator.MainActivity:$r2 = $r0.<com.muledog.calculator.MainActivity: java.lang.String result>
+9349ZZZonCreate:com.muledog.calculator.MainActivity:specialinvoke $r0.<android.support.v7.app.AppCompatActivity: void onCreate(android.os.Bundle)>($r1)
+9326ZZZ<init>:com.muledog.calculator.MainActivity:$r0.<com.muledog.calculator.MainActivity: java.lang.String result> = ""
+9325ZZZ<init>:com.muledog.calculator.MainActivity:$r0.<com.muledog.calculator.MainActivity: java.lang.String currentOperator> = ""
+9324ZZZ<init>:com.muledog.calculator.MainActivity:$r0.<com.muledog.calculator.MainActivity: java.lang.String display> = ""
+9269ZZZ<init>:com.muledog.calculator.MainActivity:specialinvoke $r0.<android.support.v7.app.AppCompatActivity: void <init>()>()

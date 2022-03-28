@@ -1,0 +1,19 @@
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+06-01 19:33:33.337  8351  8351 E AndroidRuntime: FATAL EXCEPTION: main
+06-01 19:33:33.337  8351  8351 E AndroidRuntime: Process: net.phunehehe.foocam, PID: 8351
+06-01 19:33:33.337  8351  8351 E AndroidRuntime: java.lang.SecurityException: Permission Denial: not allowed to send broadcast android.intent.action.MEDIA_MOUNTED from pid=8351, uid=10086
+06-01 19:33:33.337  8351  8351 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:1943)
+06-01 19:33:33.337  8351  8351 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:1889)
+06-01 19:33:33.337  8351  8351 E AndroidRuntime: 	at android.app.IActivityManager$Stub$Proxy.broadcastIntent(IActivityManager.java:4504)
+06-01 19:33:33.337  8351  8351 E AndroidRuntime: 	at android.app.ContextImpl.sendBroadcast(ContextImpl.java:954)
+06-01 19:33:33.337  8351  8351 E AndroidRuntime: 	at android.content.ContextWrapper.sendBroadcast(ContextWrapper.java:431)
+06-01 19:33:33.337  8351  8351 E AndroidRuntime: 	at net.phunehehe.foocam.MainActivity.onPictureTaken(MainActivity.java:148)
+06-01 19:33:33.337  8351  8351 E AndroidRuntime: 	at android.hardware.Camera$EventHandler.handleMessage(Camera.java:1106)
+06-01 19:33:33.337  8351  8351 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:105)
+06-01 19:33:33.337  8351  8351 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:164)
+06-01 19:33:33.337  8351  8351 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6541)
+06-01 19:33:33.337  8351  8351 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+06-01 19:33:33.337  8351  8351 E AndroidRuntime: 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+06-01 19:33:33.337  8351  8351 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)

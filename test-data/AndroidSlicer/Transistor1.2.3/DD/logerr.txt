@@ -1,0 +1,20 @@
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+09-27 16:25:44.893  9724  9774 E AndroidRuntime: FATAL EXCEPTION: AsyncTask #1
+09-27 16:25:44.893  9724  9774 E AndroidRuntime: Process: org.y20k.transistor, PID: 9724
+09-27 16:25:44.893  9724  9774 E AndroidRuntime: java.lang.RuntimeException: An error occurred while executing doInBackground()
+09-27 16:25:44.893  9724  9774 E AndroidRuntime: 	at android.os.AsyncTask$3.done(AsyncTask.java:318)
+09-27 16:25:44.893  9724  9774 E AndroidRuntime: 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:354)
+09-27 16:25:44.893  9724  9774 E AndroidRuntime: 	at java.util.concurrent.FutureTask.setException(FutureTask.java:223)
+09-27 16:25:44.893  9724  9774 E AndroidRuntime: 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+09-27 16:25:44.893  9724  9774 E AndroidRuntime: 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:243)
+09-27 16:25:44.893  9724  9774 E AndroidRuntime: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+09-27 16:25:44.893  9724  9774 E AndroidRuntime: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+09-27 16:25:44.893  9724  9774 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:761)
+09-27 16:25:44.893  9724  9774 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.startsWith(java.lang.String)' on a null object reference
+09-27 16:25:44.893  9724  9774 E AndroidRuntime: 	at org.y20k.transistor.helpers.StationFetcher.doInBackground(StationFetcher.java:82)
+09-27 16:25:44.893  9724  9774 E AndroidRuntime: 	at org.y20k.transistor.helpers.StationFetcher.doInBackground(StationFetcher.java:39)
+09-27 16:25:44.893  9724  9774 E AndroidRuntime: 	at android.os.AsyncTask$2.call(AsyncTask.java:304)
+09-27 16:25:44.893  9724  9774 E AndroidRuntime: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+09-27 16:25:44.893  9724  9774 E AndroidRuntime: 	... 4 more

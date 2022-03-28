@@ -1,0 +1,32 @@
+07-05 02:11:29.021 24718 24718 E AndroidRuntime: FATAL EXCEPTION: main
+07-05 02:11:29.021 24718 24718 E AndroidRuntime: Process: ch.blinkenlights.android.vanilla, PID: 24718
+07-05 02:11:29.021 24718 24718 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{ch.blinkenlights.android.vanilla/ch.blinkenlights.android.vanilla.FullPlaybackActivity}: android.content.res.Resources$NotFoundException: String resource ID #0x0
+07-05 02:11:29.021 24718 24718 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2817)
+07-05 02:11:29.021 24718 24718 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2892)
+07-05 02:11:29.021 24718 24718 E AndroidRuntime: 	at android.app.ActivityThread.handleRelaunchActivity(ActivityThread.java:4754)
+07-05 02:11:29.021 24718 24718 E AndroidRuntime: 	at android.app.ActivityThread.-wrap18(Unknown Source:0)
+07-05 02:11:29.021 24718 24718 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1599)
+07-05 02:11:29.021 24718 24718 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:105)
+07-05 02:11:29.021 24718 24718 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:164)
+07-05 02:11:29.021 24718 24718 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6541)
+07-05 02:11:29.021 24718 24718 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+07-05 02:11:29.021 24718 24718 E AndroidRuntime: 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+07-05 02:11:29.021 24718 24718 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+07-05 02:11:29.021 24718 24718 E AndroidRuntime: Caused by: android.content.res.Resources$NotFoundException: String resource ID #0x0
+07-05 02:11:29.021 24718 24718 E AndroidRuntime: 	at android.content.res.Resources.getText(Resources.java:338)
+07-05 02:11:29.021 24718 24718 E AndroidRuntime: 	at android.content.Context.getText(Context.java:543)
+07-05 02:11:29.021 24718 24718 E AndroidRuntime: 	at android.app.AlertDialog$Builder.setPositiveButton(AlertDialog.java:612)
+07-05 02:11:29.021 24718 24718 E AndroidRuntime: 	at ch.blinkenlights.android.vanilla.v.onCreateDialog(Unknown Source:44)
+07-05 02:11:29.021 24718 24718 E AndroidRuntime: 	at android.app.DialogFragment.onGetLayoutInflater(DialogFragment.java:406)
+07-05 02:11:29.021 24718 24718 E AndroidRuntime: 	at android.app.Fragment.performGetLayoutInflater(Fragment.java:1429)
+07-05 02:11:29.021 24718 24718 E AndroidRuntime: 	at android.app.FragmentManagerImpl.moveToState(FragmentManager.java:1276)
+07-05 02:11:29.021 24718 24718 E AndroidRuntime: 	at android.app.FragmentManagerImpl.moveFragmentToExpectedState(FragmentManager.java:1549)
+07-05 02:11:29.021 24718 24718 E AndroidRuntime: 	at android.app.FragmentManagerImpl.moveToState(FragmentManager.java:1611)
+07-05 02:11:29.021 24718 24718 E AndroidRuntime: 	at android.app.FragmentManagerImpl.dispatchMoveToState(FragmentManager.java:3039)
+07-05 02:11:29.021 24718 24718 E AndroidRuntime: 	at android.app.FragmentManagerImpl.dispatchActivityCreated(FragmentManager.java:2991)
+07-05 02:11:29.021 24718 24718 E AndroidRuntime: 	at android.app.FragmentController.dispatchActivityCreated(FragmentController.java:178)
+07-05 02:11:29.021 24718 24718 E AndroidRuntime: 	at android.app.Activity.performCreateCommon(Activity.java:6969)
+07-05 02:11:29.021 24718 24718 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:6977)
+07-05 02:11:29.021 24718 24718 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1213)
+07-05 02:11:29.021 24718 24718 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2770)
+07-05 02:11:29.021 24718 24718 E AndroidRuntime: 	... 10 more

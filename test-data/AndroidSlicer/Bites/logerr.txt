@@ -1,0 +1,16 @@
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+01-14 23:36:16.323  4042  4042 E AndroidRuntime: FATAL EXCEPTION: main
+01-14 23:36:16.323  4042  4042 E AndroidRuntime: Process: caldwell.ben.bites, PID: 4042
+01-14 23:36:16.323  4042  4042 E AndroidRuntime: java.lang.NumberFormatException: For input string: ""
+01-14 23:36:16.323  4042  4042 E AndroidRuntime: 	at java.lang.Integer.parseInt(Integer.java:533)
+01-14 23:36:16.323  4042  4042 E AndroidRuntime: 	at java.lang.Integer.valueOf(Integer.java:611)
+01-14 23:36:16.323  4042  4042 E AndroidRuntime: 	at caldwell.ben.bites.MethodList$5.onClick(MethodList.java:288)
+01-14 23:36:16.323  4042  4042 E AndroidRuntime: 	at com.android.internal.app.AlertController$ButtonHandler.handleMessage(AlertController.java:164)
+01-14 23:36:16.323  4042  4042 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+01-14 23:36:16.323  4042  4042 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:154)
+01-14 23:36:16.323  4042  4042 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+01-14 23:36:16.323  4042  4042 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+01-14 23:36:16.323  4042  4042 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+01-14 23:36:16.323  4042  4042 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)

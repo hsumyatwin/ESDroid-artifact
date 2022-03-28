@@ -1,0 +1,13 @@
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+05-20 16:45:20.176 25209 25350 E AndroidRuntime: FATAL EXCEPTION: Thread-8
+05-20 16:45:20.176 25209 25350 E AndroidRuntime: Process: org.npr.android.news, PID: 25209
+05-20 16:45:20.176 25209 25350 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke interface method 'java.lang.String org.w3c.dom.Node.getNodeValue()' on a null object reference
+05-20 16:45:20.176 25209 25350 E AndroidRuntime: 	at org.npr.api.StoryGrouping$StoryGroupingFactory.createStoryGrouping(StoryGrouping.java:154)
+05-20 16:45:20.176 25209 25350 E AndroidRuntime: 	at org.npr.api.StoryGrouping$StoryGroupingFactory.parseStoryGroupings(StoryGrouping.java:133)
+05-20 16:45:20.176 25209 25350 E AndroidRuntime: 	at org.npr.api.StoryGrouping$StoryGroupingFactory.downloadStoryGroupings(StoryGrouping.java:198)
+05-20 16:45:20.176 25209 25350 E AndroidRuntime: 	at org.npr.android.news.NewsTopicActivity.constructList(NewsTopicActivity.java:74)
+05-20 16:45:20.176 25209 25350 E AndroidRuntime: 	at org.npr.android.news.NewsTopicActivity.access$200(NewsTopicActivity.java:44)
+05-20 16:45:20.176 25209 25350 E AndroidRuntime: 	at org.npr.android.news.NewsTopicActivity$2.run(NewsTopicActivity.java:109)
+05-20 16:45:20.176 25209 25350 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:764)

@@ -1,0 +1,15 @@
+07-03 23:54:28.167 10046 10046 E AndroidRuntime: Process: ru.meefik.linuxdeploy, PID: 10046
+07-03 23:54:28.167 10046 10046 E AndroidRuntime: java.lang.IllegalArgumentException: Invalid URL host: "hub.meefik.ru a"
+07-03 23:54:28.167 10046 10046 E AndroidRuntime: 	at f.s$a.a(Unknown Source:717)
+07-03 23:54:28.167 10046 10046 E AndroidRuntime: 	at f.s$b.b(Unknown Source:11)
+07-03 23:54:28.167 10046 10046 E AndroidRuntime: 	at f.y$a.b(Unknown Source:64)
+07-03 23:54:28.167 10046 10046 E AndroidRuntime: 	at ru.meefik.linuxdeploy.activity.RepositoryActivity.q(Unknown Source:39)
+07-03 23:54:28.167 10046 10046 E AndroidRuntime: 	at ru.meefik.linuxdeploy.activity.RepositoryActivity.a(Unknown Source:28)
+07-03 23:54:28.167 10046 10046 E AndroidRuntime: 	at ru.meefik.linuxdeploy.activity.j0.onClick(Unknown Source:4)
+07-03 23:54:28.167 10046 10046 E AndroidRuntime: 	at androidx.appcompat.app.AlertController$g.handleMessage(Unknown Source:37)
+07-03 23:54:28.167 10046 10046 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:105)
+07-03 23:54:28.167 10046 10046 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:164)
+07-03 23:54:28.167 10046 10046 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6541)
+07-03 23:54:28.167 10046 10046 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+07-03 23:54:28.167 10046 10046 E AndroidRuntime: 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+07-03 23:54:28.167 10046 10046 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)

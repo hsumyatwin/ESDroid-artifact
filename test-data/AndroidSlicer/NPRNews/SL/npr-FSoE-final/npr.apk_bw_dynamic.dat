@@ -1,0 +1,814 @@
+19045ZZZcreateStoryGrouping:org.npr.api.StoryGrouping$StoryGroupingFactory:$r9 = interfaceinvoke $r8.<org.w3c.dom.Node: java.lang.String getNodeValue()>()
+19043ZZZcreateStoryGrouping:org.npr.api.StoryGrouping$StoryGroupingFactory:$r2 = <java.lang.System: java.io.PrintStream out>
+19042ZZZcreateStoryGrouping:org.npr.api.StoryGrouping$StoryGroupingFactory:$r8 = interfaceinvoke $r7.<org.w3c.dom.NamedNodeMap: org.w3c.dom.Node getNamedItem(java.lang.String)>("storycountall")
+19039ZZZcreateStoryGrouping:org.npr.api.StoryGrouping$StoryGroupingFactory:$r7 = interfaceinvoke $r5.<org.w3c.dom.Node: org.w3c.dom.NamedNodeMap getAttributes()>()
+19036ZZZcreateStoryGrouping:org.npr.api.StoryGrouping$StoryGroupingFactory:$r6 = interfaceinvoke $r8.<org.w3c.dom.Node: java.lang.String getNodeValue()>()
+19033ZZZcreateStoryGrouping:org.npr.api.StoryGrouping$StoryGroupingFactory:$r8 = interfaceinvoke $r7.<org.w3c.dom.NamedNodeMap: org.w3c.dom.Node getNamedItem(java.lang.String)>("id")
+19027ZZZcreateStoryGrouping:org.npr.api.StoryGrouping$StoryGroupingFactory:if $z0 != 0 goto $r2 = <java.lang.System: java.io.PrintStream out>
+19024ZZZcreateStoryGrouping:org.npr.api.StoryGrouping$StoryGroupingFactory:$z0 = interfaceinvoke $r5.<org.w3c.dom.Node: boolean hasChildNodes()>()
+19021ZZZcreateStoryGrouping:org.npr.api.StoryGrouping$StoryGroupingFactory:if $z0 == 0 goto return null
+19018ZZZcreateStoryGrouping:org.npr.api.StoryGrouping$StoryGroupingFactory:$z0 = virtualinvoke $r6.<java.lang.String: boolean equals(java.lang.Object)>("item")
+19015ZZZcreateStoryGrouping:org.npr.api.StoryGrouping$StoryGroupingFactory:$r6 = interfaceinvoke $r5.<org.w3c.dom.Node: java.lang.String getNodeName()>()
+19012ZZZparseStoryGroupings:org.npr.api.StoryGrouping$StoryGroupingFactory:$r10 = virtualinvoke $r0.<org.npr.api.StoryGrouping$StoryGroupingFactory: org.npr.api.StoryGrouping createStoryGrouping(java.lang.Class,org.w3c.dom.Node)>($r1, $r6)
+19010ZZZparseStoryGroupings:org.npr.api.StoryGrouping$StoryGroupingFactory:$r2 = <java.lang.System: java.io.PrintStream out>
+19009ZZZparseStoryGroupings:org.npr.api.StoryGrouping$StoryGroupingFactory:$r6 = (org.w3c.dom.Node) $r9
+18786ZZZ<init>:org.npr.api.IterableNodeList:specialinvoke $r0.<java.lang.Object: void <init>()>()
+18785ZZZ<init>:org.npr.api.IterableNodeList:$r2 = <java.lang.System: java.io.PrintStream out>
+18784ZZZparseStoryGroupings:org.npr.api.StoryGrouping$StoryGroupingFactory:specialinvoke $r5.<org.npr.api.IterableNodeList: void <init>(org.w3c.dom.NodeList)>($r7)
+18781ZZZparseStoryGroupings:org.npr.api.StoryGrouping$StoryGroupingFactory:$r5 = new org.npr.api.IterableNodeList
+18778ZZZparseStoryGroupings:org.npr.api.StoryGrouping$StoryGroupingFactory:$r7 = interfaceinvoke $r6.<org.w3c.dom.Node: org.w3c.dom.NodeList getChildNodes()>()
+18775ZZZparseStoryGroupings:org.npr.api.StoryGrouping$StoryGroupingFactory:specialinvoke $r4.<java.util.TreeSet: void <init>()>()
+18772ZZZparseStoryGroupings:org.npr.api.StoryGrouping$StoryGroupingFactory:$r4 = new java.util.TreeSet
+18769ZZZparseStoryGroupings:org.npr.api.StoryGrouping$StoryGroupingFactory:specialinvoke $r3.<java.util.LinkedList: void <init>()>()
+18766ZZZparseStoryGroupings:org.npr.api.StoryGrouping$StoryGroupingFactory:$r3 = new java.util.LinkedList
+18664ZZZinit:org.npr.android.news.NavigationView:specialinvoke $r3.<org.npr.android.news.NavigationView$NavigationListAdapter: void <init>(org.npr.android.news.NavigationView,android.content.Context,org.npr.android.news.NavigationView$SubActivity[])>($r0, $r4, $r9)
+18662ZZZinit:org.npr.android.news.NavigationView:$r1 = <java.lang.System: java.io.PrintStream out>
+18661ZZZinit:org.npr.android.news.NavigationView:$r4 = virtualinvoke $r0.<org.npr.android.news.NavigationView: android.content.Context getContext()>()
+18658ZZZinit:org.npr.android.news.NavigationView:$r3 = new org.npr.android.news.NavigationView$NavigationListAdapter
+18655ZZZinit:org.npr.android.news.NavigationView:$r9[10] = $r10
+18646ZZZ<init>:org.npr.android.news.NavigationView$SubActivity:specialinvoke $r0.<java.lang.Object: void <init>()>()
+18644ZZZ<init>:org.npr.android.news.NavigationView$SubActivity:$r3 = <java.lang.System: java.io.PrintStream out>
+18643ZZZ<init>:org.npr.android.news.NavigationView$SubActivity:$r0.<org.npr.android.news.NavigationView$SubActivity: org.npr.android.news.NavigationView this$0> = $r1
+18637ZZZinit:org.npr.android.news.NavigationView:specialinvoke $r10.<org.npr.android.news.NavigationView$SubActivity: void <init>(org.npr.android.news.NavigationView,android.content.Intent,org.npr.android.news.NavigationView$1)>($r0, $r12, null)
+18634ZZZinit:org.npr.android.news.NavigationView:$r12 = virtualinvoke $r12.<android.content.Intent: android.content.Intent putExtra(java.lang.String,int)>("subactivity_id", 2131296313)
+18631ZZZinit:org.npr.android.news.NavigationView:specialinvoke $r12.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r4, class "Lorg/npr/android/news/AboutActivity;")
+18625ZZZinit:org.npr.android.news.NavigationView:$r12 = new android.content.Intent
+18622ZZZinit:org.npr.android.news.NavigationView:$r10 = new org.npr.android.news.NavigationView$SubActivity
+18619ZZZinit:org.npr.android.news.NavigationView:$r9[9] = $r10
+18604ZZZ<init>:org.npr.android.news.NavigationView$SubActivity:specialinvoke $r0.<org.npr.android.news.NavigationView$SubActivity: void <init>(org.npr.android.news.NavigationView,java.lang.String)>($r1, $r2)
+18602ZZZ<init>:org.npr.android.news.NavigationView$SubActivity:$r4 = <java.lang.System: java.io.PrintStream out>
+18601ZZZinit:org.npr.android.news.NavigationView:specialinvoke $r10.<org.npr.android.news.NavigationView$SubActivity: void <init>(org.npr.android.news.NavigationView,java.lang.String,org.npr.android.news.NavigationView$1)>($r0, $r8, null)
+18598ZZZinit:org.npr.android.news.NavigationView:$r8 = virtualinvoke $r4.<android.content.Context: java.lang.String getString(int)>(2131296315)
+18589ZZZinit:org.npr.android.news.NavigationView:$r9[8] = $r10
+18568ZZZinit:org.npr.android.news.NavigationView:$r12 = virtualinvoke $r12.<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.io.Serializable)>("mode_for_station_list_activity", $r13)
+18565ZZZinit:org.npr.android.news.NavigationView:$r13 = <org.npr.android.news.StationListActivity$Mode: org.npr.android.news.StationListActivity$Mode locateStations>
+18562ZZZinit:org.npr.android.news.NavigationView:$r12 = virtualinvoke $r12.<android.content.Intent: android.content.Intent putExtra(java.lang.String,int)>("subactivity_id", 2131296322)
+18547ZZZinit:org.npr.android.news.NavigationView:$r9[7] = $r10
+18523ZZZinit:org.npr.android.news.NavigationView:$r13 = <org.npr.android.news.StationListActivity$Mode: org.npr.android.news.StationListActivity$Mode favoriteStations>
+18520ZZZinit:org.npr.android.news.NavigationView:$r12 = virtualinvoke $r12.<android.content.Intent: android.content.Intent putExtra(java.lang.String,int)>("subactivity_id", 2131296319)
+18517ZZZinit:org.npr.android.news.NavigationView:specialinvoke $r12.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r4, class "Lorg/npr/android/news/StationListActivity;")
+18505ZZZinit:org.npr.android.news.NavigationView:$r9[6] = $r10
+18475ZZZinit:org.npr.android.news.NavigationView:$r9[5] = $r10
+18454ZZZinit:org.npr.android.news.NavigationView:$r12 = virtualinvoke $r12.<android.content.Intent: android.content.Intent putExtra(java.lang.String,int)>("subactivity_id", 2131296324)
+18451ZZZinit:org.npr.android.news.NavigationView:specialinvoke $r12.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r4, class "Lorg/npr/android/news/AllProgramsActivity;")
+18439ZZZinit:org.npr.android.news.NavigationView:$r9[4] = $r10
+18418ZZZinit:org.npr.android.news.NavigationView:$r8 = virtualinvoke $r4.<android.content.Context: java.lang.String getString(int)>(2131296316)
+18409ZZZinit:org.npr.android.news.NavigationView:$r9[3] = $r10
+18388ZZZinit:org.npr.android.news.NavigationView:$r12 = virtualinvoke $r12.<android.content.Intent: android.content.Intent putExtra(java.lang.String,int)>("subactivity_id", 2131296320)
+18385ZZZinit:org.npr.android.news.NavigationView:specialinvoke $r12.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r4, class "Lorg/npr/android/news/HourlyNewsActivity;")
+18373ZZZinit:org.npr.android.news.NavigationView:$r9[2] = $r10
+18352ZZZinit:org.npr.android.news.NavigationView:$r12 = virtualinvoke $r12.<android.content.Intent: android.content.Intent putExtra(java.lang.String,int)>("subactivity_id", 2131296327)
+18349ZZZinit:org.npr.android.news.NavigationView:specialinvoke $r12.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r4, class "Lorg/npr/android/news/NewsTopicActivity;")
+18337ZZZinit:org.npr.android.news.NavigationView:$r9[1] = $r10
+18316ZZZinit:org.npr.android.news.NavigationView:$r12 = virtualinvoke $r12.<android.content.Intent: android.content.Intent putExtra(java.lang.String,int)>("extra_size", 10)
+18313ZZZinit:org.npr.android.news.NavigationView:$r12 = virtualinvoke $r12.<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("extra_grouping", null)
+18310ZZZinit:org.npr.android.news.NavigationView:$r12 = virtualinvoke $r12.<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("extra_description", "Top Stories")
+18307ZZZinit:org.npr.android.news.NavigationView:$r12 = virtualinvoke $r12.<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("query_url", $r8)
+18304ZZZinit:org.npr.android.news.NavigationView:$r12 = virtualinvoke $r12.<android.content.Intent: android.content.Intent putExtra(java.lang.String,int)>("subactivity_id", 2131296326)
+18301ZZZinit:org.npr.android.news.NavigationView:specialinvoke $r12.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r4, class "Lorg/npr/android/news/NewsListActivity;")
+18289ZZZinit:org.npr.android.news.NavigationView:$r9[0] = $r10
+18271ZZZinit:org.npr.android.news.NavigationView:specialinvoke $r10.<org.npr.android.news.NavigationView$SubActivity: void <init>(org.npr.android.news.NavigationView,java.lang.String,org.npr.android.news.NavigationView$1)>($r0, $r11, null)
+18268ZZZinit:org.npr.android.news.NavigationView:$r11 = virtualinvoke $r4.<android.content.Context: java.lang.String getString(int)>(2131296314)
+18259ZZZinit:org.npr.android.news.NavigationView:$r9 = newarray (org.npr.android.news.NavigationView$SubActivity)[11]
+18057ZZZ<init>:org.npr.android.news.ListItemGestureListener:specialinvoke $r0.<android.view.GestureDetector$SimpleOnGestureListener: void <init>()>()
+18056ZZZ<init>:org.npr.android.news.ListItemGestureListener:$r3 = <java.lang.System: java.io.PrintStream out>
+18053ZZZinit:org.npr.android.news.PlaylistView:$r1 = <java.lang.System: java.io.PrintStream out>
+18052ZZZinit:org.npr.android.news.PlaylistView:$r28 = $r0.<org.npr.android.news.PlaylistView: android.os.Handler handler>
+18049ZZZinit:org.npr.android.news.PlaylistView:$r25 = $r0.<org.npr.android.news.PlaylistView: org.npr.android.widget.DragNDropListView listView>
+18046ZZZinit:org.npr.android.news.PlaylistView:$r27 = new org.npr.android.news.ListItemGestureListener
+18043ZZZinit:org.npr.android.news.PlaylistView:$r6 = virtualinvoke $r0.<org.npr.android.news.PlaylistView: android.content.Context getContext()>()
+18040ZZZinit:org.npr.android.news.PlaylistView:$r26 = new android.view.GestureDetector
+18034ZZZinit:org.npr.android.news.PlaylistView:virtualinvoke $r25.<org.npr.android.widget.DragNDropListView: void setDropListener(org.npr.android.widget.DropListener)>($r0)
+18025ZZZinit:org.npr.android.news.PlaylistView:virtualinvoke $r25.<org.npr.android.widget.DragNDropListView: void setDragListener(org.npr.android.widget.DragListener)>($r0)
+18019ZZZinit:org.npr.android.news.PlaylistView:virtualinvoke $r25.<org.npr.android.widget.DragNDropListView: void setOnItemClickListener(android.widget.AdapterView$OnItemClickListener)>($r0)
+18013ZZZinit:org.npr.android.news.PlaylistView:virtualinvoke $r25.<org.npr.android.widget.DragNDropListView: void setAdapter(android.widget.ListAdapter)>($r18)
+18010ZZZinit:org.npr.android.news.PlaylistView:$r18 = $r0.<org.npr.android.news.PlaylistView: org.npr.android.news.PlaylistAdapter playlistAdapter>
+18004ZZZinit:org.npr.android.news.PlaylistView:$r0.<org.npr.android.news.PlaylistView: org.npr.android.widget.DragNDropListView listView> = $r25
+18001ZZZinit:org.npr.android.news.PlaylistView:$r25 = (org.npr.android.widget.DragNDropListView) $r9
+17998ZZZinit:org.npr.android.news.PlaylistView:$r9 = virtualinvoke $r0.<org.npr.android.news.PlaylistView: android.view.View findViewById(int)>(2131034187)
+17994ZZZinit:org.npr.android.news.PlaylistView:virtualinvoke $r6.<android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>($r19, $r20)
+17991ZZZinit:org.npr.android.news.PlaylistView:specialinvoke $r20.<android.content.IntentFilter: void <init>(java.lang.String)>("org.npr.android.news.PLAYLIST_CHANGE")
+17988ZZZinit:org.npr.android.news.PlaylistView:$r20 = new android.content.IntentFilter
+17982ZZZinit:org.npr.android.news.PlaylistView:$r6 = $r0.<org.npr.android.news.PlaylistView: android.content.Context context>
+17979ZZZinit:org.npr.android.news.PlaylistView:$r0.<org.npr.android.news.PlaylistView: android.content.BroadcastReceiver playlistChangedReceiver> = $r24
+17967ZZZinit:org.npr.android.news.PlaylistView:specialinvoke $r24.<org.npr.android.news.PlaylistView$PlaylistChangedReceiver: void <init>(org.npr.android.news.PlaylistView,org.npr.android.news.PlaylistView$1)>($r0, null)
+17964ZZZinit:org.npr.android.news.PlaylistView:$r24 = new org.npr.android.news.PlaylistView$PlaylistChangedReceiver
+17957ZZZinit:org.npr.android.news.PlaylistView:specialinvoke $r20.<android.content.IntentFilter: void <init>(java.lang.String)>("org.npr.android.news.ERROR")
+17951ZZZinit:org.npr.android.news.PlaylistView:$r19 = $r0.<org.npr.android.news.PlaylistView: android.content.BroadcastReceiver errorReceiver>
+17945ZZZinit:org.npr.android.news.PlaylistView:$r0.<org.npr.android.news.PlaylistView: android.content.BroadcastReceiver errorReceiver> = $r23
+17933ZZZinit:org.npr.android.news.PlaylistView:specialinvoke $r23.<org.npr.android.news.PlaylistView$PlaybackErrorReceiver: void <init>(org.npr.android.news.PlaylistView,org.npr.android.news.PlaylistView$1)>($r0, null)
+17930ZZZinit:org.npr.android.news.PlaylistView:$r23 = new org.npr.android.news.PlaylistView$PlaybackErrorReceiver
+17923ZZZinit:org.npr.android.news.PlaylistView:specialinvoke $r20.<android.content.IntentFilter: void <init>(java.lang.String)>("org.npr.android.news.CLOSE")
+17917ZZZinit:org.npr.android.news.PlaylistView:$r19 = $r0.<org.npr.android.news.PlaylistView: android.content.BroadcastReceiver closeReceiver>
+17911ZZZinit:org.npr.android.news.PlaylistView:$r0.<org.npr.android.news.PlaylistView: android.content.BroadcastReceiver closeReceiver> = $r22
+17899ZZZinit:org.npr.android.news.PlaylistView:specialinvoke $r22.<org.npr.android.news.PlaylistView$PlaybackCloseReceiver: void <init>(org.npr.android.news.PlaylistView,org.npr.android.news.PlaylistView$1)>($r0, null)
+17896ZZZinit:org.npr.android.news.PlaylistView:$r22 = new org.npr.android.news.PlaylistView$PlaybackCloseReceiver
+17893ZZZinit:org.npr.android.news.PlaylistView:if $r21 == null goto $r1 = <java.lang.System: java.io.PrintStream out>
+17884ZZZinit:org.npr.android.news.PlaylistView:$r21 = virtualinvoke $r6.<android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>($r19, $r20)
+17881ZZZinit:org.npr.android.news.PlaylistView:specialinvoke $r20.<android.content.IntentFilter: void <init>(java.lang.String)>("org.npr.android.news.UPDATE")
+17869ZZZinit:org.npr.android.news.PlaylistView:$r0.<org.npr.android.news.PlaylistView: android.content.BroadcastReceiver updateReceiver> = $r5
+17857ZZZinit:org.npr.android.news.PlaylistView:specialinvoke $r5.<org.npr.android.news.PlaylistView$PlaybackUpdateReceiver: void <init>(org.npr.android.news.PlaylistView,org.npr.android.news.PlaylistView$1)>($r0, null)
+17854ZZZinit:org.npr.android.news.PlaylistView:$r5 = new org.npr.android.news.PlaylistView$PlaybackUpdateReceiver
+17827ZZZclearPlayer:org.npr.android.news.PlaylistView:specialinvoke $r0.<org.npr.android.news.PlaylistView: void stopPlaylistSpinners()>()
+17825ZZZclearPlayer:org.npr.android.news.PlaylistView:$r1 = <java.lang.System: java.io.PrintStream out>
+17824ZZZclearPlayer:org.npr.android.news.PlaylistView:virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>("0:00 / 0:00")
+17821ZZZclearPlayer:org.npr.android.news.PlaylistView:$r4 = $r0.<org.npr.android.news.PlaylistView: android.widget.TextView lengthText>
+17818ZZZclearPlayer:org.npr.android.news.PlaylistView:virtualinvoke $r3.<android.widget.SeekBar: void setSecondaryProgress(int)>(0)
+17815ZZZclearPlayer:org.npr.android.news.PlaylistView:$r3 = $r0.<org.npr.android.news.PlaylistView: android.widget.SeekBar progressBar>
+17812ZZZclearPlayer:org.npr.android.news.PlaylistView:virtualinvoke $r3.<android.widget.SeekBar: void setProgress(int)>(0)
+17713ZZZquery:org.npr.android.util.PlaylistProvider:$r11 = virtualinvoke $r9.<android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>("items", $r2, $r10, $r3, null, null, $r8)
+17711ZZZquery:org.npr.android.util.PlaylistProvider:$r4 = <java.lang.System: java.io.PrintStream out>
+17683ZZZquery:org.npr.android.util.PlaylistProvider:$r10 = specialinvoke $r0.<org.npr.android.util.PlaylistProvider: java.lang.String getSelectionFromId(android.net.Uri,java.lang.String)>($r1, $r7)
+17680ZZZquery:org.npr.android.util.PlaylistProvider:$r9 = virtualinvoke $r5.<org.npr.android.util.PlaylistProvider$PlaylistHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>()
+17677ZZZquery:org.npr.android.util.PlaylistProvider:$r5 = $r0.<org.npr.android.util.PlaylistProvider: org.npr.android.util.PlaylistProvider$PlaylistHelper helper>
+17665ZZZgetFirstUnreadEntry:org.npr.android.util.PlaylistRepository:$r3 = specialinvoke $r0.<org.npr.android.util.PlaylistRepository: org.npr.android.util.PlaylistEntry retrievePlaylistItem(java.lang.String,java.lang.String[],java.lang.String)>("is_read = ?", $r2, "play_order asc")
+17663ZZZgetFirstUnreadEntry:org.npr.android.util.PlaylistRepository:$r1 = <java.lang.System: java.io.PrintStream out>
+17662ZZZgetFirstUnreadEntry:org.npr.android.util.PlaylistRepository:$r2[0] = "0"
+17659ZZZgetFirstUnreadEntry:org.npr.android.util.PlaylistRepository:$r2 = newarray (java.lang.String)[1]
+17656ZZZconfigurePlayerControls:org.npr.android.news.PlaylistView:$r7 = virtualinvoke $r2.<org.npr.android.util.PlaylistRepository: org.npr.android.news.Playable getFirstUnreadEntry()>()
+17654ZZZconfigurePlayerControls:org.npr.android.news.PlaylistView:$r1 = <java.lang.System: java.io.PrintStream out>
+17653ZZZconfigurePlayerControls:org.npr.android.news.PlaylistView:$r2 = $r0.<org.npr.android.news.PlaylistView: org.npr.android.util.PlaylistRepository playlist>
+17650ZZZconfigurePlayerControls:org.npr.android.news.PlaylistView:if $r5 == null goto $r1 = <java.lang.System: java.io.PrintStream out>
+17539ZZZconfigurePlayerControls:org.npr.android.news.PlaylistView:$i0 = virtualinvoke $r2.<org.npr.android.util.PlaylistRepository: int getItemCount()>()
+17521ZZZinit:org.npr.android.news.PlaylistView:specialinvoke $r0.<org.npr.android.news.PlaylistView: void clearPlayer()>()
+17518ZZZinit:org.npr.android.news.PlaylistView:staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r4, "Call clearPlayer from init")
+17515ZZZinit:org.npr.android.news.PlaylistView:$r4 = <org.npr.android.news.PlaylistView: java.lang.String LOG_TAG>
+17471ZZZ<init>:org.npr.android.news.PlaylistView$PlaybackChangeReceiver:specialinvoke $r0.<android.content.BroadcastReceiver: void <init>()>()
+17470ZZZ<init>:org.npr.android.news.PlaylistView$PlaybackChangeReceiver:$r2 = <java.lang.System: java.io.PrintStream out>
+17469ZZZ<init>:org.npr.android.news.PlaylistView$PlaybackChangeReceiver:$r0.<org.npr.android.news.PlaylistView$PlaybackChangeReceiver: org.npr.android.news.PlaylistView this$0> = $r1
+17463ZZZinit:org.npr.android.news.PlaylistView:specialinvoke $r3.<org.npr.android.news.PlaylistView$PlaybackChangeReceiver: void <init>(org.npr.android.news.PlaylistView,org.npr.android.news.PlaylistView$1)>($r0, null)
+17460ZZZinit:org.npr.android.news.PlaylistView:$r3 = new org.npr.android.news.PlaylistView$PlaybackChangeReceiver
+17457ZZZinit:org.npr.android.news.PlaylistView:$r0.<org.npr.android.news.PlaylistView: org.npr.android.news.PlaylistAdapter playlistAdapter> = $r18
+17453ZZZ<init>:org.npr.android.news.PlaylistAdapter:specialinvoke $r0.<android.widget.CursorAdapter: void <init>(android.content.Context,android.database.Cursor,boolean)>($r1, $r2, 0)
+17452ZZZ<init>:org.npr.android.news.PlaylistAdapter:$r3 = <java.lang.System: java.io.PrintStream out>
+17451ZZZinit:org.npr.android.news.PlaylistView:specialinvoke $r18.<org.npr.android.news.PlaylistAdapter: void <init>(android.content.Context,android.database.Cursor)>($r6, $r17)
+17445ZZZinit:org.npr.android.news.PlaylistView:$r18 = new org.npr.android.news.PlaylistAdapter
+17367ZZZinit:org.npr.android.news.PlaylistView:$r17 = specialinvoke $r0.<org.npr.android.news.PlaylistView: android.database.Cursor queryPlaylist()>()
+17364ZZZinit:org.npr.android.news.PlaylistView:virtualinvoke $r16.<android.widget.Button: void setOnClickListener(android.view.View$OnClickListener)>($r0)
+17361ZZZinit:org.npr.android.news.PlaylistView:$r16 = $r0.<org.npr.android.news.PlaylistView: android.widget.Button clearPlaylist>
+17358ZZZinit:org.npr.android.news.PlaylistView:$r0.<org.npr.android.news.PlaylistView: android.widget.Button clearPlaylist> = $r16
+17355ZZZinit:org.npr.android.news.PlaylistView:$r16 = (android.widget.Button) $r9
+17352ZZZinit:org.npr.android.news.PlaylistView:$r9 = virtualinvoke $r0.<org.npr.android.news.PlaylistView: android.view.View findViewById(int)>(2131034172)
+17346ZZZinit:org.npr.android.news.PlaylistView:$r16 = $r0.<org.npr.android.news.PlaylistView: android.widget.Button clearPlayedSegments>
+17343ZZZinit:org.npr.android.news.PlaylistView:$r0.<org.npr.android.news.PlaylistView: android.widget.Button clearPlayedSegments> = $r16
+17337ZZZinit:org.npr.android.news.PlaylistView:$r9 = virtualinvoke $r0.<org.npr.android.news.PlaylistView: android.view.View findViewById(int)>(2131034171)
+17334ZZZinit:org.npr.android.news.PlaylistView:$r0.<org.npr.android.news.PlaylistView: android.widget.ImageButton fastForwardButton> = $r15
+17331ZZZinit:org.npr.android.news.PlaylistView:$r15 = (android.widget.ImageButton) $r9
+17328ZZZinit:org.npr.android.news.PlaylistView:$r9 = virtualinvoke $r0.<org.npr.android.news.PlaylistView: android.view.View findViewById(int)>(2131034206)
+17325ZZZinit:org.npr.android.news.PlaylistView:$r0.<org.npr.android.news.PlaylistView: android.widget.ImageButton playPauseButton> = $r15
+17319ZZZinit:org.npr.android.news.PlaylistView:$r9 = virtualinvoke $r0.<org.npr.android.news.PlaylistView: android.view.View findViewById(int)>(2131034208)
+17316ZZZinit:org.npr.android.news.PlaylistView:$r0.<org.npr.android.news.PlaylistView: android.widget.ImageButton rewind30Button> = $r15
+17310ZZZinit:org.npr.android.news.PlaylistView:$r9 = virtualinvoke $r0.<org.npr.android.news.PlaylistView: android.view.View findViewById(int)>(2131034210)
+17307ZZZinit:org.npr.android.news.PlaylistView:$r0.<org.npr.android.news.PlaylistView: android.widget.ImageButton rewindButton> = $r15
+17301ZZZinit:org.npr.android.news.PlaylistView:$r9 = virtualinvoke $r0.<org.npr.android.news.PlaylistView: android.view.View findViewById(int)>(2131034211)
+17298ZZZinit:org.npr.android.news.PlaylistView:$r0.<org.npr.android.news.PlaylistView: android.widget.ImageButton contractedPlayButton> = $r15
+17292ZZZinit:org.npr.android.news.PlaylistView:$r9 = virtualinvoke $r0.<org.npr.android.news.PlaylistView: android.view.View findViewById(int)>(2131034174)
+17289ZZZinit:org.npr.android.news.PlaylistView:$r0.<org.npr.android.news.PlaylistView: boolean playPauseShowsPlay> = 1
+17286ZZZinit:org.npr.android.news.PlaylistView:virtualinvoke $r13.<android.widget.TextView: void setText(java.lang.CharSequence)>("0:00 / 0:00")
+17283ZZZinit:org.npr.android.news.PlaylistView:$r13 = $r0.<org.npr.android.news.PlaylistView: android.widget.TextView lengthText>
+17280ZZZinit:org.npr.android.news.PlaylistView:$r0.<org.npr.android.news.PlaylistView: android.widget.TextView lengthText> = $r13
+17277ZZZinit:org.npr.android.news.PlaylistView:$r13 = (android.widget.TextView) $r9
+17274ZZZinit:org.npr.android.news.PlaylistView:$r9 = virtualinvoke $r0.<org.npr.android.news.PlaylistView: android.view.View findViewById(int)>(2131034207)
+17271ZZZinit:org.npr.android.news.PlaylistView:$r0.<org.npr.android.news.PlaylistView: boolean changingProgress> = 0
+17268ZZZinit:org.npr.android.news.PlaylistView:virtualinvoke $r14.<android.widget.SeekBar: void setOnSeekBarChangeListener(android.widget.SeekBar$OnSeekBarChangeListener)>($r0)
+17265ZZZinit:org.npr.android.news.PlaylistView:$r14 = $r0.<org.npr.android.news.PlaylistView: android.widget.SeekBar progressBar>
+17262ZZZinit:org.npr.android.news.PlaylistView:$r0.<org.npr.android.news.PlaylistView: android.widget.SeekBar progressBar> = $r14
+17259ZZZinit:org.npr.android.news.PlaylistView:$r14 = (android.widget.SeekBar) $r9
+17256ZZZinit:org.npr.android.news.PlaylistView:$r9 = virtualinvoke $r0.<org.npr.android.news.PlaylistView: android.view.View findViewById(int)>(2131034209)
+17253ZZZinit:org.npr.android.news.PlaylistView:$r0.<org.npr.android.news.PlaylistView: android.widget.TextView contractedNewsItemText> = $r13
+17247ZZZinit:org.npr.android.news.PlaylistView:$r9 = virtualinvoke $r0.<org.npr.android.news.PlaylistView: android.view.View findViewById(int)>(2131034173)
+17244ZZZinit:org.npr.android.news.PlaylistView:$r0.<org.npr.android.news.PlaylistView: android.widget.TextView newsItemText> = $r13
+17238ZZZinit:org.npr.android.news.PlaylistView:$r9 = virtualinvoke $r0.<org.npr.android.news.PlaylistView: android.view.View findViewById(int)>(2131034182)
+17235ZZZinit:org.npr.android.news.PlaylistView:$r0.<org.npr.android.news.PlaylistView: android.widget.TextView contractedPlayerStatus> = $r13
+17229ZZZinit:org.npr.android.news.PlaylistView:$r9 = virtualinvoke $r0.<org.npr.android.news.PlaylistView: android.view.View findViewById(int)>(2131034175)
+17226ZZZinit:org.npr.android.news.PlaylistView:$r0.<org.npr.android.news.PlaylistView: android.widget.TextView playerStatus> = $r13
+17195ZZZdownload:org.npr.api.Client:$r3 = staticinvoke <org.npr.api.HttpHelper: java.io.InputStream download(java.lang.String)>($r2)
+17193ZZZdownload:org.npr.api.Client:$r1 = <java.lang.System: java.io.PrintStream out>
+17192ZZZdownload:org.npr.api.Client:$r2 = $r0.<org.npr.api.Client: java.lang.String url>
+17125ZZZ<init>:org.npr.android.util.PlaylistRepository:specialinvoke $r0.<java.lang.Object: void <init>()>()
+17124ZZZ<init>:org.npr.android.util.PlaylistRepository:$r3 = <java.lang.System: java.io.PrintStream out>
+17123ZZZinit:org.npr.android.news.PlaylistView:specialinvoke $r2.<org.npr.android.util.PlaylistRepository: void <init>(android.content.Context,android.content.ContentResolver)>($r6, $r8)
+17120ZZZinit:org.npr.android.news.PlaylistView:$r8 = virtualinvoke $r7.<android.content.Context: android.content.ContentResolver getContentResolver()>()
+17117ZZZinit:org.npr.android.news.PlaylistView:$r7 = $r0.<org.npr.android.news.PlaylistView: android.content.Context context>
+17114ZZZinit:org.npr.android.news.PlaylistView:$r6 = virtualinvoke $r6.<android.content.Context: android.content.Context getApplicationContext()>()
+17108ZZZinit:org.npr.android.news.PlaylistView:$r2 = new org.npr.android.util.PlaylistRepository
+17100ZZZ<init>:org.npr.api.Client:specialinvoke $r0.<java.lang.Object: void <init>()>()
+17099ZZZ<init>:org.npr.api.Client:$r2 = <java.lang.System: java.io.PrintStream out>
+17098ZZZdownloadStoryGroupings:org.npr.api.StoryGrouping$StoryGroupingFactory:specialinvoke $r3.<org.npr.api.Client: void <init>(java.lang.String)>($r9)
+17096ZZZdownloadStoryGroupings:org.npr.api.StoryGrouping$StoryGroupingFactory:$r1 = <java.lang.System: java.io.PrintStream out>
+17095ZZZdownloadStoryGroupings:org.npr.api.StoryGrouping$StoryGroupingFactory:$r3 = new org.npr.api.Client
+16944ZZZ<init>:org.npr.android.widget.DragNDropListView:specialinvoke $r0.<org.npr.android.widget.DragNDropListView: void init(android.content.Context)>($r1)
+16942ZZZ<init>:org.npr.android.widget.DragNDropListView:$r3 = <java.lang.System: java.io.PrintStream out>
+16941ZZZ<init>:org.npr.android.widget.DragNDropListView:specialinvoke $r0.<android.widget.ListView: void <init>(android.content.Context,android.util.AttributeSet)>($r1, $r2)
+16932ZZZonAttachedToWindow:org.npr.android.news.PlaylistView:specialinvoke $r0.<org.npr.android.news.PlaylistView: void init()>()
+16930ZZZonAttachedToWindow:org.npr.android.news.PlaylistView:$r1 = <java.lang.System: java.io.PrintStream out>
+16929ZZZonAttachedToWindow:org.npr.android.news.PlaylistView:specialinvoke $r0.<android.widget.FrameLayout: void onAttachedToWindow()>()
+16891ZZZcreateUrl:org.npr.api.ApiConstants:$r4 = virtualinvoke $r0.<org.npr.api.ApiConstants: java.lang.String addParams(java.lang.String,java.util.Map)>($r4, $r1)
+16889ZZZcreateUrl:org.npr.api.ApiConstants:$r2 = <java.lang.System: java.io.PrintStream out>
+16888ZZZcreateUrl:org.npr.api.ApiConstants:interfaceinvoke $r1.<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>("sc", "18")
+16885ZZZcreateUrl:org.npr.api.ApiConstants:interfaceinvoke $r1.<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>("apiKey", $r5)
+16882ZZZcreateUrl:org.npr.api.ApiConstants:$r5 = $r0.<org.npr.api.ApiConstants: java.lang.String apiKey>
+16879ZZZcreateUrl:org.npr.api.ApiConstants:$r4 = staticinvoke <java.lang.String: java.lang.String format(java.lang.String,java.lang.Object[])>("%s/%s?", $r3)
+16876ZZZcreateUrl:org.npr.api.ApiConstants:$r3[1] = $r4
+16873ZZZcreateUrl:org.npr.api.ApiConstants:$r3[0] = "http://api.npr.org"
+16870ZZZcreateUrl:org.npr.api.ApiConstants:$r3 = newarray (java.lang.Object)[2]
+16867ZZZdownloadStoryGroupings:org.npr.api.StoryGrouping$StoryGroupingFactory:$r9 = virtualinvoke $r10.<org.npr.api.ApiConstants: java.lang.String createUrl(java.lang.String,java.util.Map)>("list", $r2)
+16861ZZZdownloadStoryGroupings:org.npr.api.StoryGrouping$StoryGroupingFactory:$r10 = staticinvoke <org.npr.api.ApiConstants: org.npr.api.ApiConstants instance()>()
+16858ZZZdownloadStoryGroupings:org.npr.api.StoryGrouping$StoryGroupingFactory:interfaceinvoke $r2.<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>("id", $r9)
+16855ZZZdownloadStoryGroupings:org.npr.api.StoryGrouping$StoryGroupingFactory:$r9 = $r0.<org.npr.api.StoryGrouping$StoryGroupingFactory: java.lang.String groupingType>
+16852ZZZdownloadStoryGroupings:org.npr.api.StoryGrouping$StoryGroupingFactory:specialinvoke $r2.<java.util.HashMap: void <init>()>()
+16849ZZZdownloadStoryGroupings:org.npr.api.StoryGrouping$StoryGroupingFactory:$r2 = new java.util.HashMap
+16846ZZZdownloadStoryGroupings:org.npr.api.StoryGrouping$StoryGroupingFactory:staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r9, "downloading StoryGroupings")
+16840ZZZdownloadStoryGroupings:org.npr.api.StoryGrouping$StoryGroupingFactory:$r9 = staticinvoke <org.npr.api.StoryGrouping: java.lang.String access$000()>()
+16834ZZZ<clinit>:org.npr.api.Topic:<org.npr.api.Topic: org.npr.api.StoryGrouping$StoryGroupingFactory factory> = $r1
+16832ZZZ<clinit>:org.npr.api.Topic:$r0 = <java.lang.System: java.io.PrintStream out>
+16824ZZZ<init>:org.npr.api.StoryGrouping$StoryGroupingFactory:specialinvoke $r0.<java.lang.Object: void <init>()>()
+16823ZZZ<init>:org.npr.api.StoryGrouping$StoryGroupingFactory:$r3 = <java.lang.System: java.io.PrintStream out>
+16822ZZZ<clinit>:org.npr.api.Topic:specialinvoke $r1.<org.npr.api.StoryGrouping$StoryGroupingFactory: void <init>(java.lang.Class,java.lang.String)>(class "Lorg/npr/api/Topic;", "3002")
+16819ZZZ<clinit>:org.npr.api.Topic:$r1 = new org.npr.api.StoryGrouping$StoryGroupingFactory
+16795ZZZconstructList:org.npr.android.news.NewsTopicActivity:$r2 = <org.npr.api.Topic: org.npr.api.StoryGrouping$StoryGroupingFactory factory>
+16793ZZZconstructList:org.npr.android.news.NewsTopicActivity:$r1 = <java.lang.System: java.io.PrintStream out>
+16791ZZZaccess$200:org.npr.android.news.NewsTopicActivity:$i0 = specialinvoke $r0.<org.npr.android.news.NewsTopicActivity: int constructList()>()
+16790ZZZaccess$200:org.npr.android.news.NewsTopicActivity:$r1 = <java.lang.System: java.io.PrintStream out>
+16789ZZZrun:org.npr.android.news.NewsTopicActivity$2:$i0 = staticinvoke <org.npr.android.news.NewsTopicActivity: int access$200(org.npr.android.news.NewsTopicActivity)>($r2)
+16787ZZZrun:org.npr.android.news.NewsTopicActivity$2:$r1 = <java.lang.System: java.io.PrintStream out>
+16786ZZZrun:org.npr.android.news.NewsTopicActivity$2:$r2 = $r0.<org.npr.android.news.NewsTopicActivity$2: org.npr.android.news.NewsTopicActivity this$0>
+16771ZZZonStart:org.npr.android.news.RootActivity:virtualinvoke $r0.<org.npr.android.news.RootActivity: void bringPlayerNavToFront()>()
+16769ZZZonStart:org.npr.android.news.RootActivity:$r1 = <java.lang.System: java.io.PrintStream out>
+16768ZZZonStart:org.npr.android.news.RootActivity:if $z0 != 0 goto $r1 = <java.lang.System: java.io.PrintStream out>
+16753ZZZonStart:org.npr.android.news.RootActivity:$z0 = virtualinvoke $r3.<org.npr.api.ApiConstants: boolean apiKeyIsValid()>()
+16750ZZZinstance:org.npr.api.ApiConstants:r1 = <org.npr.api.ApiConstants: org.npr.api.ApiConstants instance>
+16748ZZZinstance:org.npr.api.ApiConstants:$r0 = <java.lang.System: java.io.PrintStream out>
+16743ZZZonStart:org.npr.android.news.RootActivity:specialinvoke $r0.<android.app.Activity: void onStart()>()
+16734ZZZ<init>:org.npr.android.news.NewsTopicActivity$2:specialinvoke $r0.<java.lang.Object: void <init>()>()
+16733ZZZ<init>:org.npr.android.news.NewsTopicActivity$2:$r2 = <java.lang.System: java.io.PrintStream out>
+16732ZZZ<init>:org.npr.android.news.NewsTopicActivity$2:$r0.<org.npr.android.news.NewsTopicActivity$2: org.npr.android.news.NewsTopicActivity this$0> = $r1
+16729ZZZinitializeList:org.npr.android.news.NewsTopicActivity:specialinvoke $r3.<org.npr.android.news.NewsTopicActivity$2: void <init>(org.npr.android.news.NewsTopicActivity)>($r0)
+16727ZZZinitializeList:org.npr.android.news.NewsTopicActivity:$r1 = <java.lang.System: java.io.PrintStream out>
+16726ZZZinitializeList:org.npr.android.news.NewsTopicActivity:$r3 = new org.npr.android.news.NewsTopicActivity$2
+16723ZZZinitializeList:org.npr.android.news.NewsTopicActivity:$r2 = new java.lang.Thread
+16714ZZZinitializeList:org.npr.android.news.NewsTopicActivity:virtualinvoke $r0.<org.npr.android.news.NewsTopicActivity: void startIndeterminateProgressIndicator()>()
+16681ZZZgetMainTitle:org.npr.android.news.NewsTopicActivity:$r2 = virtualinvoke $r0.<org.npr.android.news.NewsTopicActivity: java.lang.String getString(int)>(2131296328)
+16679ZZZgetMainTitle:org.npr.android.news.NewsTopicActivity:$r1 = <java.lang.System: java.io.PrintStream out>
+16516ZZZ<init>:org.npr.android.util.Tracker$ActivityMeasurement:specialinvoke $r4.<java.util.HashMap: void <init>()>()
+16514ZZZ<init>:org.npr.android.util.Tracker$ActivityMeasurement:$r3 = <java.lang.System: java.io.PrintStream out>
+16513ZZZ<init>:org.npr.android.util.Tracker$ActivityMeasurement:$r4 = new java.util.HashMap
+16510ZZZ<init>:org.npr.android.util.Tracker$ActivityMeasurement:$r0.<org.npr.android.util.Tracker$ActivityMeasurement: java.lang.String orgId> = $r2
+16507ZZZ<init>:org.npr.android.util.Tracker$ActivityMeasurement:$r0.<org.npr.android.util.Tracker$ActivityMeasurement: java.lang.String channel> = $r1
+16504ZZZ<init>:org.npr.android.util.Tracker$ActivityMeasurement:$r0.<org.npr.android.util.Tracker$ActivityMeasurement: java.lang.String pageName> = $r5
+16501ZZZ<init>:org.npr.android.util.Tracker$ActivityMeasurement:$r0.<org.npr.android.util.Tracker$ActivityMeasurement: java.lang.String events> = "event2"
+16498ZZZ<init>:org.npr.android.util.Tracker$ActivityMeasurement:$r0.<org.npr.android.util.Tracker$ActivityMeasurement: java.lang.String channel> = ""
+16495ZZZ<init>:org.npr.android.util.Tracker$ActivityMeasurement:$r0.<org.npr.android.util.Tracker$ActivityMeasurement: java.lang.String versionNumber> = ""
+16492ZZZ<init>:org.npr.android.util.Tracker$ActivityMeasurement:$r0.<org.npr.android.util.Tracker$ActivityMeasurement: java.lang.String contentType> = "Android"
+16489ZZZ<init>:org.npr.android.util.Tracker$ActivityMeasurement:specialinvoke $r0.<java.lang.Object: void <init>()>()
+16483ZZZtrackNow:org.npr.android.news.NewsTopicActivity:specialinvoke $r3.<org.npr.android.util.Tracker$ActivityMeasurement: void <init>(java.lang.String,java.lang.String)>($r6, "News")
+16481ZZZtrackNow:org.npr.android.news.NewsTopicActivity:$r1 = <java.lang.System: java.io.PrintStream out>
+16480ZZZtrackNow:org.npr.android.news.NewsTopicActivity:$r6 = virtualinvoke $r2.<java.lang.StringBuilder: java.lang.String toString()>()
+16477ZZZtrackNow:org.npr.android.news.NewsTopicActivity:$r3 = new org.npr.android.util.Tracker$ActivityMeasurement
+16453ZZZonCreate:org.npr.android.news.RootActivity:virtualinvoke $r0.<org.npr.android.news.RootActivity: void trackNow()>()
+16451ZZZonCreate:org.npr.android.news.RootActivity:$r2 = <java.lang.System: java.io.PrintStream out>
+16450ZZZonCreate:org.npr.android.news.RootActivity:$r0.<org.npr.android.news.RootActivity: android.widget.ProgressBar progressIndicator> = $r9
+16447ZZZonCreate:org.npr.android.news.RootActivity:$r9 = (android.widget.ProgressBar) $r3
+16444ZZZonCreate:org.npr.android.news.RootActivity:$r3 = virtualinvoke $r0.<org.npr.android.news.RootActivity: android.view.View findViewById(int)>(2131034169)
+16441ZZZonCreate:org.npr.android.news.RootActivity:virtualinvoke $r4.<android.view.ViewGroup: void addView(android.view.View,android.view.ViewGroup$LayoutParams)>($r8, $r6)
+16438ZZZonCreate:org.npr.android.news.RootActivity:specialinvoke $r6.<android.view.ViewGroup$LayoutParams: void <init>(int,int)>(-1, -1)
+16435ZZZonCreate:org.npr.android.news.RootActivity:$r6 = new android.view.ViewGroup$LayoutParams
+16432ZZZonCreate:org.npr.android.news.RootActivity:$r8 = $r0.<org.npr.android.news.RootActivity: org.npr.android.news.PlaylistView playlistView>
+16429ZZZonCreate:org.npr.android.news.RootActivity:$r0.<org.npr.android.news.RootActivity: org.npr.android.news.PlaylistView playlistView> = $r8
+16420ZZZ<init>:org.npr.android.news.PlaylistView$1:specialinvoke $r0.<android.os.Handler: void <init>()>()
+16418ZZZ<init>:org.npr.android.news.PlaylistView$1:$r2 = <java.lang.System: java.io.PrintStream out>
+16417ZZZ<init>:org.npr.android.news.PlaylistView$1:$r0.<org.npr.android.news.PlaylistView$1: org.npr.android.news.PlaylistView this$0> = $r1
+16402ZZZonCreate:org.npr.android.news.RootActivity:specialinvoke $r8.<org.npr.android.news.PlaylistView: void <init>(android.content.Context)>($r0)
+16399ZZZonCreate:org.npr.android.news.RootActivity:$r8 = new org.npr.android.news.PlaylistView
+16396ZZZonCreate:org.npr.android.news.RootActivity:virtualinvoke $r7.<android.widget.ImageButton: void setOnClickListener(android.view.View$OnClickListener)>($r0)
+16393ZZZonCreate:org.npr.android.news.RootActivity:$r7 = (android.widget.ImageButton) $r3
+16390ZZZonCreate:org.npr.android.news.RootActivity:$r3 = virtualinvoke $r0.<org.npr.android.news.RootActivity: android.view.View findViewById(int)>(2131034128)
+16381ZZZonCreate:org.npr.android.news.RootActivity:$r3 = virtualinvoke $r0.<org.npr.android.news.RootActivity: android.view.View findViewById(int)>(2131034129)
+16378ZZZonCreate:org.npr.android.news.RootActivity:virtualinvoke $r5.<org.npr.android.news.NavigationView: void setVisibility(int)>(8)
+16375ZZZonCreate:org.npr.android.news.RootActivity:$r5 = $r0.<org.npr.android.news.RootActivity: org.npr.android.news.NavigationView navigationView>
+16372ZZZonCreate:org.npr.android.news.RootActivity:virtualinvoke $r4.<android.view.ViewGroup: void addView(android.view.View,android.view.ViewGroup$LayoutParams)>($r5, $r6)
+16360ZZZonCreate:org.npr.android.news.RootActivity:$r0.<org.npr.android.news.RootActivity: org.npr.android.news.NavigationView navigationView> = $r5
+16354ZZZonCreate:org.npr.android.news.RootActivity:specialinvoke $r5.<org.npr.android.news.NavigationView: void <init>(android.content.Context)>($r0)
+16351ZZZonCreate:org.npr.android.news.RootActivity:$r5 = new org.npr.android.news.NavigationView
+16348ZZZonCreate:org.npr.android.news.RootActivity:$r4 = (android.view.ViewGroup) $r3
+16345ZZZonCreate:org.npr.android.news.RootActivity:$r3 = virtualinvoke $r0.<org.npr.android.news.RootActivity: android.view.View findViewById(int)>(2131034165)
+16342ZZZonCreate:org.npr.android.news.RootActivity:virtualinvoke $r0.<org.npr.android.news.RootActivity: void setVolumeControlStream(int)>(3)
+16339ZZZonCreate:org.npr.android.news.RootActivity:virtualinvoke $r0.<org.npr.android.news.RootActivity: void setContentView(int)>(2131099652)
+16336ZZZonCreate:org.npr.android.news.RootActivity:specialinvoke $r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)
+16333ZZZonCreate:org.npr.android.news.RootActivity:virtualinvoke $r0.<org.npr.android.news.RootActivity: boolean requestWindowFeature(int)>(5)
+16321ZZZ<init>:org.npr.android.news.NewsTopicActivity$1:specialinvoke $r0.<android.os.Handler: void <init>()>()
+16319ZZZ<init>:org.npr.android.news.NewsTopicActivity$1:$r2 = <java.lang.System: java.io.PrintStream out>
+16318ZZZ<init>:org.npr.android.news.NewsTopicActivity$1:$r0.<org.npr.android.news.NewsTopicActivity$1: org.npr.android.news.NewsTopicActivity this$0> = $r1
+16300ZZZ<clinit>:org.npr.android.news.NewsTopicActivity:<org.npr.android.news.NewsTopicActivity: int[] selectedTopics> = $r2
+16298ZZZ<clinit>:org.npr.android.news.NewsTopicActivity:$r0 = <java.lang.System: java.io.PrintStream out>
+16297ZZZ<clinit>:org.npr.android.news.NewsTopicActivity:$r2[9] = 1032
+16294ZZZ<clinit>:org.npr.android.news.NewsTopicActivity:$r2[8] = 1008
+16291ZZZ<clinit>:org.npr.android.news.NewsTopicActivity:$r2[7] = 1019
+16288ZZZ<clinit>:org.npr.android.news.NewsTopicActivity:$r2[6] = 1128
+16285ZZZ<clinit>:org.npr.android.news.NewsTopicActivity:$r2[5] = 1007
+16282ZZZ<clinit>:org.npr.android.news.NewsTopicActivity:$r2[4] = 1106
+16279ZZZ<clinit>:org.npr.android.news.NewsTopicActivity:$r2[3] = 1006
+16276ZZZ<clinit>:org.npr.android.news.NewsTopicActivity:$r2[2] = 1014
+16273ZZZ<clinit>:org.npr.android.news.NewsTopicActivity:$r2[1] = 1004
+16270ZZZ<clinit>:org.npr.android.news.NewsTopicActivity:$r2[0] = 1003
+16267ZZZ<clinit>:org.npr.android.news.NewsTopicActivity:$r2 = newarray (int)[10]
+16264ZZZ<clinit>:org.npr.android.news.NewsTopicActivity:<org.npr.android.news.NewsTopicActivity: java.lang.String LOG_TAG> = $r3
+16261ZZZ<clinit>:org.npr.android.news.NewsTopicActivity:$r3 = virtualinvoke $r1.<java.lang.Class: java.lang.String getName()>()
+16258ZZZ<clinit>:org.npr.android.news.NewsTopicActivity:$r1 = class "Lorg/npr/android/news/NewsTopicActivity;"
+16126ZZZgetView:org.npr.android.news.NavigationView$NavigationListAdapter:$r3 = specialinvoke $r0.<android.widget.ArrayAdapter: android.view.View getView(int,android.view.View,android.view.ViewGroup)>($i0, $r3, $r1)
+16124ZZZgetView:org.npr.android.news.NavigationView$NavigationListAdapter:$r2 = <java.lang.System: java.io.PrintStream out>
+16123ZZZgetView:org.npr.android.news.NavigationView$NavigationListAdapter:virtualinvoke $r12.<android.widget.TextView: void setTextColor(int)>($i0)
+16120ZZZgetView:org.npr.android.news.NavigationView$NavigationListAdapter:$i0 = virtualinvoke $r7.<android.content.res.Resources: int getColor(int)>(2130903047)
+16117ZZZgetView:org.npr.android.news.NavigationView$NavigationListAdapter:$r7 = virtualinvoke $r6.<org.npr.android.news.NavigationView: android.content.res.Resources getResources()>()
+16114ZZZgetView:org.npr.android.news.NavigationView$NavigationListAdapter:$r6 = $r0.<org.npr.android.news.NavigationView$NavigationListAdapter: org.npr.android.news.NavigationView this$0>
+16111ZZZgetView:org.npr.android.news.NavigationView$NavigationListAdapter:$r12 = (android.widget.TextView) $r11
+16108ZZZgetView:org.npr.android.news.NavigationView$NavigationListAdapter:$r11 = virtualinvoke $r3.<android.view.View: android.view.View findViewById(int)>(16908308)
+16105ZZZgetView:org.npr.android.news.NavigationView$NavigationListAdapter:$r9.<android.view.ViewGroup$LayoutParams: int height> = $i0
+16084ZZZgetView:org.npr.android.news.NavigationView$NavigationListAdapter:$i0 = staticinvoke <org.npr.android.util.DisplayUtils: int convertToDIP(android.content.Context,int)>($r10, 30)
+16081ZZZgetView:org.npr.android.news.NavigationView$NavigationListAdapter:$r10 = virtualinvoke $r0.<org.npr.android.news.NavigationView$NavigationListAdapter: android.content.Context getContext()>()
+16078ZZZgetView:org.npr.android.news.NavigationView$NavigationListAdapter:$r9 = virtualinvoke $r3.<android.view.View: android.view.ViewGroup$LayoutParams getLayoutParams()>()
+16075ZZZgetView:org.npr.android.news.NavigationView$NavigationListAdapter:virtualinvoke $r3.<android.view.View: void setBackgroundDrawable(android.graphics.drawable.Drawable)>($r8)
+16072ZZZgetView:org.npr.android.news.NavigationView$NavigationListAdapter:$r8 = virtualinvoke $r7.<android.content.res.Resources: android.graphics.drawable.Drawable getDrawable(int)>(2130968672)
+16063ZZZgetView:org.npr.android.news.NavigationView$NavigationListAdapter:virtualinvoke $r3.<android.view.View: void setEnabled(boolean)>(0)
+16060ZZZgetView:org.npr.android.news.NavigationView$NavigationListAdapter:if $z0 == 0 goto $r2 = <java.lang.System: java.io.PrintStream out>
+16051ZZZgetView:org.npr.android.news.NavigationView$NavigationListAdapter:$z0 = virtualinvoke $r5.<org.npr.android.news.NavigationView$SubActivity: boolean isHeader()>()
+16048ZZZgetView:org.npr.android.news.NavigationView$NavigationListAdapter:if $r5 == null goto $r2 = <java.lang.System: java.io.PrintStream out>
+16045ZZZgetView:org.npr.android.news.NavigationView$NavigationListAdapter:$r5 = (org.npr.android.news.NavigationView$SubActivity) $r4
+16042ZZZgetView:org.npr.android.news.NavigationView$NavigationListAdapter:$r4 = virtualinvoke $r0.<org.npr.android.news.NavigationView$NavigationListAdapter: java.lang.Object getItem(int)>($i0)
+16039ZZZtoString:org.npr.android.news.NavigationView$SubActivity:$r5 = $r0.<org.npr.android.news.NavigationView$SubActivity: java.lang.String header>
+16037ZZZtoString:org.npr.android.news.NavigationView$SubActivity:$r1 = <java.lang.System: java.io.PrintStream out>
+16036ZZZtoString:org.npr.android.news.NavigationView$SubActivity:if $r3 == null goto $r1 = <java.lang.System: java.io.PrintStream out>
+16033ZZZtoString:org.npr.android.news.NavigationView$SubActivity:$r3 = $r0.<org.npr.android.news.NavigationView$SubActivity: android.content.Intent startIntent>
+15966ZZZgetView:org.npr.android.news.NavigationView$NavigationListAdapter:$i0 = virtualinvoke $r7.<android.content.res.Resources: int getColor(int)>(2130903041)
+15930ZZZgetView:org.npr.android.news.NavigationView$NavigationListAdapter:$i0 = staticinvoke <org.npr.android.util.DisplayUtils: int convertToDIP(android.content.Context,int)>($r10, 50)
+15921ZZZgetView:org.npr.android.news.NavigationView$NavigationListAdapter:virtualinvoke $r3.<android.view.View: void setBackgroundDrawable(android.graphics.drawable.Drawable)>(null)
+15918ZZZgetView:org.npr.android.news.NavigationView$NavigationListAdapter:virtualinvoke $r3.<android.view.View: void setEnabled(boolean)>(1)
+15894ZZZtoString:org.npr.android.news.NavigationView$SubActivity:$r5 = virtualinvoke $r4.<android.content.Context: java.lang.String getString(int)>($i0)
+15891ZZZtoString:org.npr.android.news.NavigationView$SubActivity:$i0 = virtualinvoke $r3.<android.content.Intent: int getIntExtra(java.lang.String,int)>("subactivity_id", -1)
+15885ZZZtoString:org.npr.android.news.NavigationView$SubActivity:$r4 = virtualinvoke $r2.<org.npr.android.news.NavigationView: android.content.Context getContext()>()
+15882ZZZtoString:org.npr.android.news.NavigationView$SubActivity:$r2 = $r0.<org.npr.android.news.NavigationView$SubActivity: org.npr.android.news.NavigationView this$0>
+14990ZZZisHeader:org.npr.android.news.NavigationView$SubActivity:if $r2 == null goto return 0
+14988ZZZisHeader:org.npr.android.news.NavigationView$SubActivity:$r1 = <java.lang.System: java.io.PrintStream out>
+14987ZZZisHeader:org.npr.android.news.NavigationView$SubActivity:$r2 = $r0.<org.npr.android.news.NavigationView$SubActivity: java.lang.String header>
+13354ZZZonClick:org.npr.android.news.RootActivity:specialinvoke $r0.<org.npr.android.news.RootActivity: void showHideNavigationMenu()>()
+13352ZZZonClick:org.npr.android.news.RootActivity:$r2 = <java.lang.System: java.io.PrintStream out>
+13351ZZZonClick:org.npr.android.news.RootActivity:lookupswitch($i0) {     case 2131034128: goto $r2 = <java.lang.System: java.io.PrintStream out>;     case 2131034129: goto $r2 = <java.lang.System: java.io.PrintStream out>;     default: goto return; }
+13348ZZZonClick:org.npr.android.news.RootActivity:$i0 = virtualinvoke $r1.<android.view.View: int getId()>()
+13321ZZZonResume:org.npr.android.news.TitleActivity:specialinvoke $r0.<org.npr.android.news.RootActivity: void onResume()>()
+13319ZZZonResume:org.npr.android.news.TitleActivity:$r1 = <java.lang.System: java.io.PrintStream out>
+13291ZZZonInterceptTouchEvent:org.npr.android.news.PlaylistView:$z0 = specialinvoke $r0.<org.npr.android.news.PlaylistView: boolean ViewContainsXY(android.view.View,int,int)>($r3, $i0, $i1)
+13289ZZZonInterceptTouchEvent:org.npr.android.news.PlaylistView:$r2 = <java.lang.System: java.io.PrintStream out>
+13285ZZZonInterceptTouchEvent:org.npr.android.news.PlaylistView:if $z0 == 0 goto $r2 = <java.lang.System: java.io.PrintStream out>
+13282ZZZisExpanded:org.npr.android.news.PlaylistView:$z0 = virtualinvoke $r2.<android.widget.SlidingDrawer: boolean isOpened()>()
+13280ZZZisExpanded:org.npr.android.news.PlaylistView:$r1 = <java.lang.System: java.io.PrintStream out>
+13279ZZZisExpanded:org.npr.android.news.PlaylistView:$r2 = $r0.<org.npr.android.news.PlaylistView: android.widget.SlidingDrawer drawer>
+13275ZZZonInterceptTouchEvent:org.npr.android.news.PlaylistView:$z0 = virtualinvoke $r0.<org.npr.android.news.PlaylistView: boolean isExpanded()>()
+13273ZZZonInterceptTouchEvent:org.npr.android.news.PlaylistView:$i1 = (int) $f0
+13270ZZZonInterceptTouchEvent:org.npr.android.news.PlaylistView:$f0 = virtualinvoke $r1.<android.view.MotionEvent: float getY()>()
+13266ZZZonInterceptTouchEvent:org.npr.android.news.PlaylistView:$i0 = (int) $f0
+13264ZZZonInterceptTouchEvent:org.npr.android.news.PlaylistView:$f0 = virtualinvoke $r1.<android.view.MotionEvent: float getX()>()
+13261ZZZonInterceptTouchEvent:org.npr.android.news.PlaylistView:if $i0 != 0 goto return 0
+13258ZZZonInterceptTouchEvent:org.npr.android.news.PlaylistView:$i0 = virtualinvoke $r1.<android.view.MotionEvent: int getAction()>()
+13255ZZZonTouchEvent:org.npr.android.news.PlaylistView:if $r5 == null goto return 0
+13253ZZZonTouchEvent:org.npr.android.news.PlaylistView:$r2 = <java.lang.System: java.io.PrintStream out>
+13252ZZZonTouchEvent:org.npr.android.news.PlaylistView:$z0 = 0
+13249ZZZonTouchEvent:org.npr.android.news.PlaylistView:$r5 = $r0.<org.npr.android.news.PlaylistView: org.npr.android.news.PlaylistView$ClickedItem clickedItem>
+12895ZZZonInterceptTouchEvent:org.npr.android.news.PlaylistView:if $z0 == 0 goto return 0
+11959ZZZonStop:org.npr.android.news.NewsListActivity:virtualinvoke $r5.<org.npr.android.news.BannerView: void cancelUpdates()>()
+11957ZZZonStop:org.npr.android.news.NewsListActivity:$r1 = <java.lang.System: java.io.PrintStream out>
+11956ZZZonStop:org.npr.android.news.NewsListActivity:$r5 = $r0.<org.npr.android.news.NewsListActivity: org.npr.android.news.BannerView bannerView>
+11953ZZZonStop:org.npr.android.news.NewsListActivity:virtualinvoke $r3.<android.os.Handler: void removeCallbacks(java.lang.Runnable)>($r4)
+11947ZZZonStop:org.npr.android.news.NewsListActivity:$r3 = $r0.<org.npr.android.news.NewsListActivity: android.os.Handler handler>
+11943ZZZonStop:org.npr.android.news.NewsListActivity:$r0.<org.npr.android.news.NewsListActivity: android.content.BroadcastReceiver playlistChangedReceiver> = null
+11941ZZZonStop:org.npr.android.news.NewsListActivity:virtualinvoke $r0.<org.npr.android.news.NewsListActivity: void unregisterReceiver(android.content.BroadcastReceiver)>($r2)
+11938ZZZonStop:org.npr.android.news.NewsListActivity:if $r2 == null goto $r1 = <java.lang.System: java.io.PrintStream out>
+11934ZZZonStop:org.npr.android.news.NewsListActivity:$r2 = $r0.<org.npr.android.news.NewsListActivity: android.content.BroadcastReceiver playlistChangedReceiver>
+11845ZZZ<init>:org.npr.android.news.NavigationView$SubActivity:$r0.<org.npr.android.news.NavigationView$SubActivity: java.lang.String header> = null
+11842ZZZ<init>:org.npr.android.news.NavigationView$SubActivity:$r0.<org.npr.android.news.NavigationView$SubActivity: android.content.Intent startIntent> = $r2
+11809ZZZ<init>:org.npr.android.news.NavigationView$SubActivity:$r0.<org.npr.android.news.NavigationView$SubActivity: java.lang.String header> = $r2
+11806ZZZ<init>:org.npr.android.news.NavigationView$SubActivity:$r0.<org.npr.android.news.NavigationView$SubActivity: android.content.Intent startIntent> = null
+11197ZZZinit:org.npr.android.news.NavigationView:$r8 = virtualinvoke $r7.<org.npr.api.ApiConstants: java.lang.String createUrl(java.lang.String,java.util.Map)>("query", $r2)
+11161ZZZonAttachedToWindow:org.npr.android.news.NavigationView:specialinvoke $r0.<org.npr.android.news.NavigationView: void init()>()
+11159ZZZonAttachedToWindow:org.npr.android.news.NavigationView:$r1 = <java.lang.System: java.io.PrintStream out>
+11158ZZZonAttachedToWindow:org.npr.android.news.NavigationView:specialinvoke $r0.<android.widget.FrameLayout: void onAttachedToWindow()>()
+11071ZZZrefreshList:org.npr.android.news.PlaylistView:$r2 = specialinvoke $r0.<org.npr.android.news.PlaylistView: android.database.Cursor queryPlaylist()>()
+11069ZZZrefreshList:org.npr.android.news.PlaylistView:$r1 = <java.lang.System: java.io.PrintStream out>
+11068ZZZrefreshList:org.npr.android.news.PlaylistView:if $r3 == null goto return
+11065ZZZrefreshList:org.npr.android.news.PlaylistView:$r3 = $r0.<org.npr.android.news.PlaylistView: org.npr.android.news.PlaylistAdapter playlistAdapter>
+11062ZZZinit:org.npr.android.news.PlaylistView:specialinvoke $r0.<org.npr.android.news.PlaylistView: void refreshList()>()
+11059ZZZinit:org.npr.android.news.PlaylistView:virtualinvoke $r30.<android.app.Activity: void registerForContextMenu(android.view.View)>($r25)
+11053ZZZinit:org.npr.android.news.PlaylistView:$r30 = (android.app.Activity) $r6
+11050ZZZinit:org.npr.android.news.PlaylistView:if $z0 == 0 goto $r1 = <java.lang.System: java.io.PrintStream out>
+11047ZZZinit:org.npr.android.news.PlaylistView:$z0 = $r6 instanceof android.app.Activity
+11041ZZZinit:org.npr.android.news.PlaylistView:virtualinvoke $r25.<org.npr.android.widget.DragNDropListView: void setOnTouchListener(android.view.View$OnTouchListener)>($r29)
+11029ZZZinit:org.npr.android.news.PlaylistView:specialinvoke $r29.<org.npr.android.news.PlaylistView$2: void <init>(org.npr.android.news.PlaylistView)>($r0)
+11026ZZZinit:org.npr.android.news.PlaylistView:$r29 = new org.npr.android.news.PlaylistView$2
+11023ZZZinit:org.npr.android.news.PlaylistView:$r0.<org.npr.android.news.PlaylistView: android.view.GestureDetector gestureDetector> = $r26
+11020ZZZinit:org.npr.android.news.PlaylistView:specialinvoke $r26.<android.view.GestureDetector: void <init>(android.content.Context,android.view.GestureDetector$OnGestureListener)>($r6, $r27)
+10923ZZZ<init>:org.npr.android.news.PlaylistView$PlaylistChangedReceiver:specialinvoke $r0.<android.content.BroadcastReceiver: void <init>()>()
+10922ZZZ<init>:org.npr.android.news.PlaylistView$PlaylistChangedReceiver:$r2 = <java.lang.System: java.io.PrintStream out>
+10921ZZZ<init>:org.npr.android.news.PlaylistView$PlaylistChangedReceiver:$r0.<org.npr.android.news.PlaylistView$PlaylistChangedReceiver: org.npr.android.news.PlaylistView this$0> = $r1
+10463ZZZinit:org.npr.android.news.PlaylistView:specialinvoke $r20.<android.content.IntentFilter: void <init>(java.lang.String)>("org.npr.android.news.CHANGE")
+10457ZZZinit:org.npr.android.news.PlaylistView:$r19 = $r0.<org.npr.android.news.PlaylistView: android.content.BroadcastReceiver changeReceiver>
+10451ZZZinit:org.npr.android.news.PlaylistView:$r0.<org.npr.android.news.PlaylistView: android.content.BroadcastReceiver changeReceiver> = $r3
+10196ZZZinit:org.npr.android.news.PlaylistView:$r9 = virtualinvoke $r0.<org.npr.android.news.PlaylistView: android.view.View findViewById(int)>(2131034205)
+10193ZZZinit:org.npr.android.news.PlaylistView:$r0.<org.npr.android.news.PlaylistView: android.widget.RelativeLayout playerExpanded> = $r12
+10190ZZZinit:org.npr.android.news.PlaylistView:$r12 = (android.widget.RelativeLayout) $r9
+10187ZZZinit:org.npr.android.news.PlaylistView:$r9 = virtualinvoke $r0.<org.npr.android.news.PlaylistView: android.view.View findViewById(int)>(2131034184)
+10184ZZZinit:org.npr.android.news.PlaylistView:$r0.<org.npr.android.news.PlaylistView: android.widget.RelativeLayout playerContracted> = $r12
+10178ZZZinit:org.npr.android.news.PlaylistView:$r9 = virtualinvoke $r0.<org.npr.android.news.PlaylistView: android.view.View findViewById(int)>(2131034183)
+10175ZZZinit:org.npr.android.news.PlaylistView:$r0.<org.npr.android.news.PlaylistView: android.widget.RelativeLayout handle> = $r12
+10169ZZZinit:org.npr.android.news.PlaylistView:$r9 = virtualinvoke $r0.<org.npr.android.news.PlaylistView: android.view.View findViewById(int)>(2131034180)
+10166ZZZinit:org.npr.android.news.PlaylistView:$r0.<org.npr.android.news.PlaylistView: int touchSlop> = $i0
+10163ZZZinit:org.npr.android.news.PlaylistView:$i0 = virtualinvoke $r11.<android.view.ViewConfiguration: int getScaledTouchSlop()>()
+10160ZZZinit:org.npr.android.news.PlaylistView:$r11 = staticinvoke <android.view.ViewConfiguration: android.view.ViewConfiguration get(android.content.Context)>($r6)
+10154ZZZinit:org.npr.android.news.PlaylistView:virtualinvoke $r10.<android.widget.SlidingDrawer: void setOnDrawerCloseListener(android.widget.SlidingDrawer$OnDrawerCloseListener)>($r0)
+10151ZZZinit:org.npr.android.news.PlaylistView:$r10 = $r0.<org.npr.android.news.PlaylistView: android.widget.SlidingDrawer drawer>
+10148ZZZinit:org.npr.android.news.PlaylistView:virtualinvoke $r10.<android.widget.SlidingDrawer: void setOnDrawerOpenListener(android.widget.SlidingDrawer$OnDrawerOpenListener)>($r0)
+10142ZZZinit:org.npr.android.news.PlaylistView:$r0.<org.npr.android.news.PlaylistView: android.widget.SlidingDrawer drawer> = $r10
+10139ZZZinit:org.npr.android.news.PlaylistView:$r10 = (android.widget.SlidingDrawer) $r9
+10136ZZZinit:org.npr.android.news.PlaylistView:$r9 = virtualinvoke $r0.<org.npr.android.news.PlaylistView: android.view.View findViewById(int)>(2131034178)
+10133ZZZinit:org.npr.android.news.PlaylistView:$r0.<org.npr.android.news.PlaylistView: org.npr.android.util.PlaylistRepository playlist> = $r2
+10073ZZZinit:org.npr.android.news.PlaylistView:staticinvoke <android.view.ViewGroup: android.view.View inflate(android.content.Context,int,android.view.ViewGroup)>($r6, 2131099662, $r0)
+9846ZZZtrackNow:org.npr.android.news.AboutActivity:specialinvoke $r2.<org.npr.android.util.Tracker$ActivityMeasurement: void <init>(java.lang.String,java.lang.String)>($r6, "")
+9844ZZZtrackNow:org.npr.android.news.AboutActivity:$r1 = <java.lang.System: java.io.PrintStream out>
+9843ZZZtrackNow:org.npr.android.news.AboutActivity:$r6 = interfaceinvoke $r5.<java.lang.CharSequence: java.lang.String toString()>()
+9687ZZZ<init>:org.npr.android.news.RootActivity:specialinvoke $r0.<android.app.Activity: void <init>()>()
+9685ZZZ<init>:org.npr.android.news.RootActivity:$r1 = <java.lang.System: java.io.PrintStream out>
+8251ZZZconvertToDIP:org.npr.android.util.DisplayUtils:$i0 = staticinvoke <java.lang.Math: int round(float)>($f0)
+8249ZZZconvertToDIP:org.npr.android.util.DisplayUtils:$r1 = <java.lang.System: java.io.PrintStream out>
+8248ZZZconvertToDIP:org.npr.android.util.DisplayUtils:$f0 = $f1 * $f0
+8245ZZZconvertToDIP:org.npr.android.util.DisplayUtils:$f0 = $r3.<android.util.DisplayMetrics: float density>
+8242ZZZconvertToDIP:org.npr.android.util.DisplayUtils:$r3 = virtualinvoke $r2.<android.content.res.Resources: android.util.DisplayMetrics getDisplayMetrics()>()
+8239ZZZconvertToDIP:org.npr.android.util.DisplayUtils:$r2 = virtualinvoke $r0.<android.content.Context: android.content.res.Resources getResources()>()
+8236ZZZconvertToDIP:org.npr.android.util.DisplayUtils:$f1 = (float) $i0
+5984ZZZrun:org.npr.android.news.NewsListActivity$7:virtualinvoke $r4.<org.npr.android.news.NewsListActivity: void setTitleRight(java.lang.CharSequence)>($r7)
+5982ZZZrun:org.npr.android.news.NewsListActivity$7:$r1 = <java.lang.System: java.io.PrintStream out>
+5981ZZZrun:org.npr.android.news.NewsListActivity$7:$r4 = $r0.<org.npr.android.news.NewsListActivity$7: org.npr.android.news.NewsListActivity this$0>
+5978ZZZrun:org.npr.android.news.NewsListActivity$7:$r7 = staticinvoke <java.lang.String: java.lang.String format(java.lang.String,java.lang.Object[])>($r7, $r8)
+5975ZZZrun:org.npr.android.news.NewsListActivity$7:$r8[0] = $r9
+5816ZZZrun:org.npr.android.news.NewsListActivity$7:$r9 = staticinvoke <org.npr.android.util.TimeUtils: java.lang.String formatMillis(long,org.npr.android.util.TimeUnit,org.npr.android.util.TimeUnit)>($l1, $r2, $r3)
+5813ZZZrun:org.npr.android.news.NewsListActivity$7:$r3 = <org.npr.android.util.TimeUnit: org.npr.android.util.TimeUnit MINUTES>
+5758ZZZ<init>:org.npr.android.util.TimeUnit:specialinvoke $r0.<java.lang.Enum: void <init>(java.lang.String,int)>($r1, $i0)
+5757ZZZ<init>:org.npr.android.util.TimeUnit:$r2 = <java.lang.System: java.io.PrintStream out>
+5750ZZZ<clinit>:org.npr.android.util.TimeUnit:specialinvoke $r7.<org.npr.android.util.TimeUnit$7: void <init>(java.lang.String,int)>("DAYS", 6)
+5748ZZZ<clinit>:org.npr.android.util.TimeUnit:$r0 = <java.lang.System: java.io.PrintStream out>
+5747ZZZ<clinit>:org.npr.android.util.TimeUnit:$r7 = new org.npr.android.util.TimeUnit$7
+5744ZZZ<clinit>:org.npr.android.util.TimeUnit:<org.npr.android.util.TimeUnit: org.npr.android.util.TimeUnit HOURS> = $r6
+5732ZZZ<clinit>:org.npr.android.util.TimeUnit:specialinvoke $r6.<org.npr.android.util.TimeUnit$6: void <init>(java.lang.String,int)>("HOURS", 5)
+5729ZZZ<clinit>:org.npr.android.util.TimeUnit:$r6 = new org.npr.android.util.TimeUnit$6
+5726ZZZ<clinit>:org.npr.android.util.TimeUnit:<org.npr.android.util.TimeUnit: org.npr.android.util.TimeUnit MINUTES> = $r5
+5714ZZZ<clinit>:org.npr.android.util.TimeUnit:specialinvoke $r5.<org.npr.android.util.TimeUnit$5: void <init>(java.lang.String,int)>("MINUTES", 4)
+5711ZZZ<clinit>:org.npr.android.util.TimeUnit:$r5 = new org.npr.android.util.TimeUnit$5
+5708ZZZ<clinit>:org.npr.android.util.TimeUnit:<org.npr.android.util.TimeUnit: org.npr.android.util.TimeUnit SECONDS> = $r4
+5696ZZZ<clinit>:org.npr.android.util.TimeUnit:specialinvoke $r4.<org.npr.android.util.TimeUnit$4: void <init>(java.lang.String,int)>("SECONDS", 3)
+5693ZZZ<clinit>:org.npr.android.util.TimeUnit:$r4 = new org.npr.android.util.TimeUnit$4
+5690ZZZ<clinit>:org.npr.android.util.TimeUnit:<org.npr.android.util.TimeUnit: org.npr.android.util.TimeUnit MILLISECONDS> = $r3
+5678ZZZ<clinit>:org.npr.android.util.TimeUnit:specialinvoke $r3.<org.npr.android.util.TimeUnit$3: void <init>(java.lang.String,int)>("MILLISECONDS", 2)
+5675ZZZ<clinit>:org.npr.android.util.TimeUnit:$r3 = new org.npr.android.util.TimeUnit$3
+5672ZZZ<clinit>:org.npr.android.util.TimeUnit:<org.npr.android.util.TimeUnit: org.npr.android.util.TimeUnit MICROSECONDS> = $r2
+5660ZZZ<clinit>:org.npr.android.util.TimeUnit:specialinvoke $r2.<org.npr.android.util.TimeUnit$2: void <init>(java.lang.String,int)>("MICROSECONDS", 1)
+5657ZZZ<clinit>:org.npr.android.util.TimeUnit:$r2 = new org.npr.android.util.TimeUnit$2
+5654ZZZ<clinit>:org.npr.android.util.TimeUnit:<org.npr.android.util.TimeUnit: org.npr.android.util.TimeUnit NANOSECONDS> = $r1
+5642ZZZ<clinit>:org.npr.android.util.TimeUnit:specialinvoke $r1.<org.npr.android.util.TimeUnit$1: void <init>(java.lang.String,int)>("NANOSECONDS", 0)
+5639ZZZ<clinit>:org.npr.android.util.TimeUnit:$r1 = new org.npr.android.util.TimeUnit$1
+5609ZZZrun:org.npr.android.news.NewsListActivity$7:$l1 = virtualinvoke $r5.<org.npr.android.news.NewsListAdapter: long getLastUpdate()>()
+5606ZZZrun:org.npr.android.news.NewsListActivity$7:$r5 = $r4.<org.npr.android.news.NewsListActivity: org.npr.android.news.NewsListAdapter listAdapter>
+5504ZZZonMeasure:org.npr.android.news.BannerView:specialinvoke $r0.<org.npr.android.news.BannerView: void showSponsorshipWindow()>()
+5502ZZZonMeasure:org.npr.android.news.BannerView:$r1 = <java.lang.System: java.io.PrintStream out>
+5501ZZZonMeasure:org.npr.android.news.BannerView:$r0.<org.npr.android.news.BannerView: org.npr.android.news.BannerView$SponsorshipWindowStates sponsorshipWindowState> = $r2
+5498ZZZonMeasure:org.npr.android.news.BannerView:$r2 = <org.npr.android.news.BannerView$SponsorshipWindowStates: org.npr.android.news.BannerView$SponsorshipWindowStates ReadyToBeShown>
+5495ZZZonMeasure:org.npr.android.news.BannerView:if $i1 >= 320 goto $r1 = <java.lang.System: java.io.PrintStream out>
+5492ZZZonMeasure:org.npr.android.news.BannerView:$i1 = virtualinvoke $r0.<org.npr.android.news.BannerView: int getMeasuredWidth()>()
+5489ZZZonMeasure:org.npr.android.news.BannerView:if $r3 != $r2 goto return
+5486ZZZonMeasure:org.npr.android.news.BannerView:$r2 = <org.npr.android.news.BannerView$SponsorshipWindowStates: org.npr.android.news.BannerView$SponsorshipWindowStates NeedsMeasurement>
+5483ZZZonMeasure:org.npr.android.news.BannerView:$r3 = $r0.<org.npr.android.news.BannerView: org.npr.android.news.BannerView$SponsorshipWindowStates sponsorshipWindowState>
+5480ZZZonMeasure:org.npr.android.news.BannerView:specialinvoke $r0.<android.widget.LinearLayout: void onMeasure(int,int)>($i1, $i0)
+5477ZZZfinishInit:org.npr.android.news.BannerView:$r0.<org.npr.android.news.BannerView: org.npr.android.news.BannerView$SponsorshipWindowStates sponsorshipWindowState> = $r6
+5475ZZZfinishInit:org.npr.android.news.BannerView:$r1 = <java.lang.System: java.io.PrintStream out>
+5474ZZZfinishInit:org.npr.android.news.BannerView:$r6 = <org.npr.android.news.BannerView$SponsorshipWindowStates: org.npr.android.news.BannerView$SponsorshipWindowStates NeedsMeasurement>
+5471ZZZfinishInit:org.npr.android.news.BannerView:virtualinvoke $r14.<android.webkit.WebSettings: void setSupportZoom(boolean)>(0)
+5468ZZZfinishInit:org.npr.android.news.BannerView:virtualinvoke $r14.<android.webkit.WebSettings: void setJavaScriptEnabled(boolean)>(1)
+5465ZZZfinishInit:org.npr.android.news.BannerView:virtualinvoke $r14.<android.webkit.WebSettings: void setSaveFormData(boolean)>(0)
+5462ZZZfinishInit:org.npr.android.news.BannerView:virtualinvoke $r14.<android.webkit.WebSettings: void setSavePassword(boolean)>(0)
+5459ZZZfinishInit:org.npr.android.news.BannerView:$r14 = virtualinvoke $r13.<android.webkit.WebView: android.webkit.WebSettings getSettings()>()
+5456ZZZfinishInit:org.npr.android.news.BannerView:$r13 = $r0.<org.npr.android.news.BannerView: android.webkit.WebView webView>
+5453ZZZfinishInit:org.npr.android.news.BannerView:virtualinvoke $r0.<org.npr.android.news.BannerView: void addView(android.view.View)>($r4)
+5450ZZZfinishInit:org.npr.android.news.BannerView:virtualinvoke $r4.<android.widget.ImageButton: void setOnClickListener(android.view.View$OnClickListener)>($r0)
+5447ZZZfinishInit:org.npr.android.news.BannerView:virtualinvoke $r4.<android.widget.ImageButton: void setScaleType(android.widget.ImageView$ScaleType)>($r5)
+5444ZZZfinishInit:org.npr.android.news.BannerView:$r5 = <android.widget.ImageView$ScaleType: android.widget.ImageView$ScaleType CENTER>
+5441ZZZfinishInit:org.npr.android.news.BannerView:virtualinvoke $r4.<android.widget.ImageButton: void setImageResource(int)>(2130968648)
+5438ZZZfinishInit:org.npr.android.news.BannerView:virtualinvoke $r4.<android.widget.ImageButton: void setBackgroundDrawable(android.graphics.drawable.Drawable)>(null)
+5435ZZZfinishInit:org.npr.android.news.BannerView:virtualinvoke $r4.<android.widget.ImageButton: void setLayoutParams(android.view.ViewGroup$LayoutParams)>($r11)
+5432ZZZfinishInit:org.npr.android.news.BannerView:$r11.<android.widget.LinearLayout$LayoutParams: int gravity> = 17
+5429ZZZfinishInit:org.npr.android.news.BannerView:virtualinvoke $r4.<android.widget.ImageButton: void setPadding(int,int,int,int)>(0, $i3, $i3, 0)
+5426ZZZfinishInit:org.npr.android.news.BannerView:specialinvoke $r11.<android.widget.LinearLayout$LayoutParams: void <init>(int,int,float)>($i6, -2, 1.0F)
+5423ZZZfinishInit:org.npr.android.news.BannerView:$r11 = new android.widget.LinearLayout$LayoutParams
+5420ZZZfinishInit:org.npr.android.news.BannerView:specialinvoke $r4.<android.widget.ImageButton: void <init>(android.content.Context)>($r7)
+5417ZZZfinishInit:org.npr.android.news.BannerView:$r7 = $r0.<org.npr.android.news.BannerView: android.content.Context context>
+5414ZZZfinishInit:org.npr.android.news.BannerView:$r4 = new android.widget.ImageButton
+5411ZZZfinishInit:org.npr.android.news.BannerView:virtualinvoke $r0.<org.npr.android.news.BannerView: void addView(android.view.View)>($r13)
+5405ZZZfinishInit:org.npr.android.news.BannerView:virtualinvoke $r13.<android.webkit.WebView: void setBackgroundResource(int)>(2130968579)
+5399ZZZfinishInit:org.npr.android.news.BannerView:virtualinvoke $r13.<android.webkit.WebView: void setBackgroundColor(int)>(0)
+5393ZZZfinishInit:org.npr.android.news.BannerView:virtualinvoke $r13.<android.webkit.WebView: void setLayoutParams(android.view.ViewGroup$LayoutParams)>($r11)
+5384ZZZfinishInit:org.npr.android.news.BannerView:virtualinvoke $r11.<android.widget.LinearLayout$LayoutParams: void setMargins(int,int,int,int)>($i4, $i4, $i4, $i4)
+5381ZZZfinishInit:org.npr.android.news.BannerView:specialinvoke $r11.<android.widget.LinearLayout$LayoutParams: void <init>(int,int,float)>($i7, $i5, 0.0F)
+5375ZZZfinishInit:org.npr.android.news.BannerView:$r0.<org.npr.android.news.BannerView: android.webkit.WebView webView> = $r13
+5372ZZZfinishInit:org.npr.android.news.BannerView:specialinvoke $r13.<android.webkit.WebView: void <init>(android.content.Context)>($r7)
+5366ZZZfinishInit:org.npr.android.news.BannerView:$r13 = new android.webkit.WebView
+5363ZZZfinishInit:org.npr.android.news.BannerView:virtualinvoke $r0.<org.npr.android.news.BannerView: void addView(android.view.View)>($r3)
+5360ZZZfinishInit:org.npr.android.news.BannerView:virtualinvoke $r3.<android.widget.TextView: void setTextAppearance(android.content.Context,int)>($r7, 2131361793)
+5354ZZZfinishInit:org.npr.android.news.BannerView:virtualinvoke $r3.<android.widget.TextView: void setGravity(int)>(21)
+5351ZZZfinishInit:org.npr.android.news.BannerView:virtualinvoke $r3.<android.widget.TextView: void setText(java.lang.CharSequence)>($r12)
+5348ZZZfinishInit:org.npr.android.news.BannerView:$r12 = virtualinvoke $r7.<android.content.Context: java.lang.String getString(int)>(2131296269)
+5342ZZZfinishInit:org.npr.android.news.BannerView:virtualinvoke $r3.<android.widget.TextView: void setLayoutParams(android.view.ViewGroup$LayoutParams)>($r11)
+5336ZZZfinishInit:org.npr.android.news.BannerView:specialinvoke $r11.<android.widget.LinearLayout$LayoutParams: void <init>(int,int,float)>($i6, -1, 1.0F)
+5330ZZZfinishInit:org.npr.android.news.BannerView:specialinvoke $r3.<android.widget.TextView: void <init>(android.content.Context)>($r7)
+5324ZZZfinishInit:org.npr.android.news.BannerView:$r3 = new android.widget.TextView
+5144ZZZaccess$1100:org.npr.android.news.BannerView:specialinvoke $r0.<org.npr.android.news.BannerView: void finishInit()>()
+5142ZZZaccess$1100:org.npr.android.news.BannerView:$r1 = <java.lang.System: java.io.PrintStream out>
+5141ZZZrun:org.npr.android.news.BannerView$2$1:staticinvoke <org.npr.android.news.BannerView: void access$1100(org.npr.android.news.BannerView)>($r3)
+5139ZZZrun:org.npr.android.news.BannerView$2$1:$r1 = <java.lang.System: java.io.PrintStream out>
+5138ZZZrun:org.npr.android.news.BannerView$2$1:$r3 = $r2.<org.npr.android.news.BannerView$2: org.npr.android.news.BannerView this$0>
+5135ZZZrun:org.npr.android.news.BannerView$2$1:$r2 = $r0.<org.npr.android.news.BannerView$2$1: org.npr.android.news.BannerView$2 this$1>
+5123ZZZrun:org.npr.android.news.BannerView$2:specialinvoke $r3.<org.npr.android.news.BannerView$2$1: void <init>(org.npr.android.news.BannerView$2)>($r0)
+5121ZZZrun:org.npr.android.news.BannerView$2:$r1 = <java.lang.System: java.io.PrintStream out>
+5120ZZZrun:org.npr.android.news.BannerView$2:$r3 = new org.npr.android.news.BannerView$2$1
+5117ZZZaccess$500:org.npr.android.news.BannerView:r2 = $r0.<org.npr.android.news.BannerView: android.os.Handler handler>
+5115ZZZaccess$500:org.npr.android.news.BannerView:$r1 = <java.lang.System: java.io.PrintStream out>
+4814ZZZstoriesLoaded:org.npr.android.news.NewsListActivity$3:virtualinvoke $r3.<org.npr.android.news.NewsListActivity: void stopStoryLoadProgressIndicator()>()
+4812ZZZstoriesLoaded:org.npr.android.news.NewsListActivity$3:$r1 = <java.lang.System: java.io.PrintStream out>
+4811ZZZstoriesLoaded:org.npr.android.news.NewsListActivity$3:$r3 = $r0.<org.npr.android.news.NewsListActivity$3: org.npr.android.news.NewsListActivity this$0>
+4802ZZZstoriesLoaded:org.npr.android.news.NewsListActivity$3:virtualinvoke $r3.<org.npr.android.news.NewsListActivity: void stopIndeterminateProgressIndicator()>()
+4787ZZZstoriesLoaded:org.npr.android.news.NewsListActivity$3:virtualinvoke $r2.<org.npr.android.news.BannerView: void startCloseTimer()>()
+4784ZZZstoriesLoaded:org.npr.android.news.NewsListActivity$3:$r2 = $r3.<org.npr.android.news.NewsListActivity: org.npr.android.news.BannerView bannerView>
+4430ZZZparseStories:org.npr.api.Story$StoryFactory:$r3 = staticinvoke <org.npr.api.Story$StoryFactory: java.util.List parseNprmlStoryList(org.w3c.dom.Node)>($r0)
+4428ZZZparseStories:org.npr.api.Story$StoryFactory:$r1 = <java.lang.System: java.io.PrintStream out>
+4427ZZZparseStories:org.npr.api.Story$StoryFactory:if $z0 == 0 goto $r1 = <java.lang.System: java.io.PrintStream out>
+4424ZZZparseStories:org.npr.api.Story$StoryFactory:$z0 = virtualinvoke $r2.<java.lang.String: boolean equals(java.lang.Object)>("rss")
+4421ZZZparseStories:org.npr.api.Story$StoryFactory:$r2 = interfaceinvoke $r0.<org.w3c.dom.Node: java.lang.String getNodeName()>()
+4418ZZZgetMoreStories:org.npr.android.news.NewsListAdapter:$r11 = staticinvoke <org.npr.api.Story$StoryFactory: java.util.List parseStories(org.w3c.dom.Node)>($r8)
+4416ZZZgetMoreStories:org.npr.android.news.NewsListAdapter:$r1 = <java.lang.System: java.io.PrintStream out>
+4415ZZZgetMoreStories:org.npr.android.news.NewsListAdapter:staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r7, $r10)
+4412ZZZgetMoreStories:org.npr.android.news.NewsListAdapter:$r10 = virtualinvoke $r5.<java.lang.StringBuilder: java.lang.String toString()>()
+4409ZZZgetMoreStories:org.npr.android.news.NewsListAdapter:virtualinvoke $r5.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r10)
+4406ZZZgetMoreStories:org.npr.android.news.NewsListAdapter:$r10 = interfaceinvoke $r8.<org.w3c.dom.Node: java.lang.String getNodeName()>()
+4403ZZZgetMoreStories:org.npr.android.news.NewsListAdapter:virtualinvoke $r5.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("stories: ")
+4400ZZZgetMoreStories:org.npr.android.news.NewsListAdapter:specialinvoke $r5.<java.lang.StringBuilder: void <init>()>()
+4397ZZZgetMoreStories:org.npr.android.news.NewsListAdapter:$r5 = new java.lang.StringBuilder
+4394ZZZgetMoreStories:org.npr.android.news.NewsListAdapter:$r7 = <org.npr.android.news.NewsListAdapter: java.lang.String LOG_TAG>
+4391ZZZgetMoreStories:org.npr.android.news.NewsListAdapter:if $r8 != null goto $r1 = <java.lang.System: java.io.PrintStream out>
+4388ZZZgetMoreStories:org.npr.android.news.NewsListAdapter:$r8 = $r9
+4108ZZZ<init>:org.npr.android.news.StationListActivity$Mode:specialinvoke $r0.<java.lang.Enum: void <init>(java.lang.String,int)>($r1, $i0)
+4107ZZZ<init>:org.npr.android.news.StationListActivity$Mode:$r2 = <java.lang.System: java.io.PrintStream out>
+4106ZZZ<clinit>:org.npr.android.news.StationListActivity$Mode:specialinvoke $r1.<org.npr.android.news.StationListActivity$Mode: void <init>(java.lang.String,int)>("nearestStations", 4)
+4104ZZZ<clinit>:org.npr.android.news.StationListActivity$Mode:$r0 = <java.lang.System: java.io.PrintStream out>
+4103ZZZ<clinit>:org.npr.android.news.StationListActivity$Mode:$r1 = new org.npr.android.news.StationListActivity$Mode
+4100ZZZ<clinit>:org.npr.android.news.StationListActivity$Mode:<org.npr.android.news.StationListActivity$Mode: org.npr.android.news.StationListActivity$Mode liveStreams> = $r1
+4094ZZZ<clinit>:org.npr.android.news.StationListActivity$Mode:specialinvoke $r1.<org.npr.android.news.StationListActivity$Mode: void <init>(java.lang.String,int)>("liveStreams", 3)
+4088ZZZ<clinit>:org.npr.android.news.StationListActivity$Mode:<org.npr.android.news.StationListActivity$Mode: org.npr.android.news.StationListActivity$Mode locateStations> = $r1
+4070ZZZ<clinit>:org.npr.android.news.StationListActivity$Mode:specialinvoke $r1.<org.npr.android.news.StationListActivity$Mode: void <init>(java.lang.String,int)>("favoriteStations", 1)
+4064ZZZ<clinit>:org.npr.android.news.StationListActivity$Mode:<org.npr.android.news.StationListActivity$Mode: org.npr.android.news.StationListActivity$Mode allStations> = $r1
+4058ZZZ<clinit>:org.npr.android.news.StationListActivity$Mode:specialinvoke $r1.<org.npr.android.news.StationListActivity$Mode: void <init>(java.lang.String,int)>("allStations", 0)
+2310ZZZgetMoreStories:org.npr.android.news.NewsListAdapter:specialinvoke $r2.<org.npr.api.Client: void <init>(java.lang.String)>($r7)
+2294ZZZgetMoreStories:org.npr.android.news.NewsListAdapter:$r2 = new org.npr.api.Client
+2247ZZZrun:org.npr.android.news.ImageThreadLoader$DiskCache$1:specialinvoke $r0.<org.npr.android.news.ImageThreadLoader$DiskCache$1: void removeFiles(java.lang.String,java.lang.String,int)>($r5, ".{22}==$", 7)
+2245ZZZrun:org.npr.android.news.ImageThreadLoader$DiskCache$1:$r1 = <java.lang.System: java.io.PrintStream out>
+2220ZZZrun:org.npr.android.news.ImageThreadLoader$DiskCache$1:$r5 = staticinvoke <org.npr.android.news.ImageThreadLoader$DiskCache: java.lang.String getCachePath(android.content.Context)>($r3)
+2217ZZZaccess$700:org.npr.android.news.ImageThreadLoader$DiskCache:r2 = $r0.<org.npr.android.news.ImageThreadLoader$DiskCache: android.content.Context context>
+2215ZZZaccess$700:org.npr.android.news.ImageThreadLoader$DiskCache:$r1 = <java.lang.System: java.io.PrintStream out>
+2160ZZZrun:org.npr.android.news.ImageThreadLoader$DiskCache$1:specialinvoke $r0.<org.npr.android.news.ImageThreadLoader$DiskCache$1: void removeFiles(java.lang.String,java.lang.String,int)>($r5, ".{22}==$", 0)
+2157ZZZrun:org.npr.android.news.ImageThreadLoader$DiskCache$1:$r5 = virtualinvoke $r4.<java.io.File: java.lang.String getAbsolutePath()>()
+2154ZZZrun:org.npr.android.news.ImageThreadLoader$DiskCache$1:$r4 = virtualinvoke $r3.<android.content.Context: java.io.File getFilesDir()>()
+2147ZZZrun:org.npr.android.news.ImageThreadLoader$DiskCache$1:$r3 = staticinvoke <org.npr.android.news.ImageThreadLoader$DiskCache: android.content.Context access$700(org.npr.android.news.ImageThreadLoader$DiskCache)>($r2)
+2144ZZZrun:org.npr.android.news.ImageThreadLoader$DiskCache$1:$r2 = $r0.<org.npr.android.news.ImageThreadLoader$DiskCache$1: org.npr.android.news.ImageThreadLoader$DiskCache this$0>
+2138ZZZrun:org.npr.android.news.NewsListAdapter$2:$z0 = staticinvoke <org.npr.android.news.NewsListAdapter: boolean access$500(org.npr.android.news.NewsListAdapter,java.lang.String,int)>($r3, $r2, $i0)
+2136ZZZrun:org.npr.android.news.NewsListAdapter$2:$r1 = <java.lang.System: java.io.PrintStream out>
+2135ZZZrun:org.npr.android.news.NewsListAdapter$2:$i0 = $r0.<org.npr.android.news.NewsListAdapter$2: int val$count>
+2132ZZZrun:org.npr.android.news.NewsListAdapter$2:$r2 = $r0.<org.npr.android.news.NewsListAdapter$2: java.lang.String val$url>
+2129ZZZrun:org.npr.android.news.NewsListAdapter$2:$r3 = $r0.<org.npr.android.news.NewsListAdapter$2: org.npr.android.news.NewsListAdapter this$0>
+2123ZZZaddStories:org.npr.android.news.NewsListActivity:$r7 = staticinvoke <org.npr.api.ApiConstants: org.npr.api.ApiConstants instance()>()
+2121ZZZaddStories:org.npr.android.news.NewsListActivity:$r1 = <java.lang.System: java.io.PrintStream out>
+2120ZZZaddStories:org.npr.android.news.NewsListActivity:interfaceinvoke $r2.<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>("numResults", $r6)
+2117ZZZaddStories:org.npr.android.news.NewsListActivity:$r6 = virtualinvoke $r4.<java.lang.StringBuilder: java.lang.String toString()>()
+2114ZZZaddStories:org.npr.android.news.NewsListActivity:virtualinvoke $r4.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($i0)
+2111ZZZaddStories:org.npr.android.news.NewsListActivity:$i0 = $r0.<org.npr.android.news.NewsListActivity: int initialSize>
+2108ZZZaddStories:org.npr.android.news.NewsListActivity:virtualinvoke $r4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("")
+2105ZZZaddStories:org.npr.android.news.NewsListActivity:specialinvoke $r4.<java.lang.StringBuilder: void <init>()>()
+2102ZZZaddStories:org.npr.android.news.NewsListActivity:$r4 = new java.lang.StringBuilder
+2099ZZZaddStories:org.npr.android.news.NewsListActivity:interfaceinvoke $r2.<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>("startNum", $r6)
+2039ZZZonCreate:org.npr.android.news.NewsListActivity:specialinvoke $r0.<org.npr.android.news.NewsListActivity: void addStories()>()
+2037ZZZonCreate:org.npr.android.news.NewsListActivity:$r2 = <java.lang.System: java.io.PrintStream out>
+2030ZZZonCreate:org.npr.android.news.NewsListActivity:virtualinvoke $r0.<org.npr.android.news.NewsListActivity: void startIndeterminateProgressIndicator()>()
+2022ZZZonCreate:org.npr.android.news.NewsListActivity:specialinvoke $r4.<org.npr.android.news.ListItemGestureListener: void <init>(android.widget.ListView,android.os.Handler)>($r17, $r21)
+2019ZZZonCreate:org.npr.android.news.NewsListActivity:$r21 = $r0.<org.npr.android.news.NewsListActivity: android.os.Handler handler>
+2016ZZZonCreate:org.npr.android.news.NewsListActivity:$r17 = $r0.<org.npr.android.news.NewsListActivity: android.widget.ListView listView>
+1927ZZZ<init>:org.npr.android.news.ImageThreadLoader:specialinvoke $r6.<java.util.ArrayList: void <init>()>()
+1926ZZZ<init>:org.npr.android.news.ImageThreadLoader:$r3 = <java.lang.System: java.io.PrintStream out>
+1925ZZZ<init>:org.npr.android.news.ImageThreadLoader:$r6 = new java.util.ArrayList
+1922ZZZ<init>:org.npr.android.news.ImageThreadLoader:$r0.<org.npr.android.news.ImageThreadLoader: android.content.Context context> = $r2
+1919ZZZ<init>:org.npr.android.news.ImageThreadLoader:$r0.<org.npr.android.news.ImageThreadLoader: org.npr.android.news.ImageThreadLoader$Cache cache> = $r1
+1916ZZZ<init>:org.npr.android.news.ImageThreadLoader:$r0.<org.npr.android.news.ImageThreadLoader: java.lang.Thread thread> = $r5
+1913ZZZ<init>:org.npr.android.news.ImageThreadLoader:specialinvoke $r5.<java.lang.Thread: void <init>(java.lang.Runnable)>($r7)
+1910ZZZ<init>:org.npr.android.news.ImageThreadLoader:$r7 = $r0.<org.npr.android.news.ImageThreadLoader: org.npr.android.news.ImageThreadLoader$QueueRunner runner>
+1907ZZZ<init>:org.npr.android.news.ImageThreadLoader:$r5 = new java.lang.Thread
+1904ZZZ<init>:org.npr.android.news.ImageThreadLoader:$r0.<org.npr.android.news.ImageThreadLoader: org.npr.android.news.ImageThreadLoader$QueueRunner runner> = $r7
+1892ZZZ<init>:org.npr.android.news.ImageThreadLoader:specialinvoke $r7.<org.npr.android.news.ImageThreadLoader$QueueRunner: void <init>(org.npr.android.news.ImageThreadLoader,org.npr.android.news.ImageThreadLoader$1)>($r0, null)
+1889ZZZ<init>:org.npr.android.news.ImageThreadLoader:$r7 = new org.npr.android.news.ImageThreadLoader$QueueRunner
+1886ZZZ<init>:org.npr.android.news.ImageThreadLoader:$r0.<org.npr.android.news.ImageThreadLoader: android.os.Handler handler> = $r4
+1883ZZZ<init>:org.npr.android.news.ImageThreadLoader:specialinvoke $r4.<android.os.Handler: void <init>()>()
+1880ZZZ<init>:org.npr.android.news.ImageThreadLoader:$r4 = new android.os.Handler
+1877ZZZ<init>:org.npr.android.news.ImageThreadLoader:specialinvoke $r0.<java.lang.Object: void <init>()>()
+1859ZZZ<init>:org.npr.android.news.ImageThreadLoader$DiskCache$1:specialinvoke $r0.<java.lang.Object: void <init>()>()
+1858ZZZ<init>:org.npr.android.news.ImageThreadLoader$DiskCache$1:$r2 = <java.lang.System: java.io.PrintStream out>
+1857ZZZ<init>:org.npr.android.news.ImageThreadLoader$DiskCache$1:$r0.<org.npr.android.news.ImageThreadLoader$DiskCache$1: org.npr.android.news.ImageThreadLoader$DiskCache this$0> = $r1
+1854ZZZcleanCache:org.npr.android.news.ImageThreadLoader$DiskCache:specialinvoke $r3.<org.npr.android.news.ImageThreadLoader$DiskCache$1: void <init>(org.npr.android.news.ImageThreadLoader$DiskCache)>($r0)
+1852ZZZcleanCache:org.npr.android.news.ImageThreadLoader$DiskCache:$r1 = <java.lang.System: java.io.PrintStream out>
+1851ZZZcleanCache:org.npr.android.news.ImageThreadLoader$DiskCache:$r3 = new org.npr.android.news.ImageThreadLoader$DiskCache$1
+1848ZZZcleanCache:org.npr.android.news.ImageThreadLoader$DiskCache:$r2 = new java.lang.Thread
+1844ZZZ<init>:org.npr.android.news.ImageThreadLoader$DiskCache:specialinvoke $r0.<org.npr.android.news.ImageThreadLoader$DiskCache: void cleanCache()>()
+1843ZZZ<init>:org.npr.android.news.ImageThreadLoader$DiskCache:$r2 = <java.lang.System: java.io.PrintStream out>
+1842ZZZ<init>:org.npr.android.news.ImageThreadLoader$DiskCache:$r0.<org.npr.android.news.ImageThreadLoader$DiskCache: android.content.Context context> = $r1
+1839ZZZ<init>:org.npr.android.news.ImageThreadLoader$DiskCache:specialinvoke $r0.<java.lang.Object: void <init>()>()
+1836ZZZgetOnDiskInstance:org.npr.android.news.ImageThreadLoader:specialinvoke $r3.<org.npr.android.news.ImageThreadLoader$DiskCache: void <init>(android.content.Context)>($r0)
+1834ZZZgetOnDiskInstance:org.npr.android.news.ImageThreadLoader:$r1 = <java.lang.System: java.io.PrintStream out>
+1833ZZZgetOnDiskInstance:org.npr.android.news.ImageThreadLoader:$r3 = new org.npr.android.news.ImageThreadLoader$DiskCache
+1830ZZZgetOnDiskInstance:org.npr.android.news.ImageThreadLoader:$r2 = new org.npr.android.news.ImageThreadLoader
+1818ZZZ<init>:org.npr.android.news.NewsListAdapter:$r8 = staticinvoke <org.npr.android.news.ImageThreadLoader: org.npr.android.news.ImageThreadLoader getOnDiskInstance(android.content.Context)>($r1)
+1816ZZZ<init>:org.npr.android.news.NewsListAdapter:$r2 = <java.lang.System: java.io.PrintStream out>
+1815ZZZ<init>:org.npr.android.news.NewsListAdapter:$r0.<org.npr.android.news.NewsListAdapter: android.view.LayoutInflater inflater> = $r7
+1812ZZZ<init>:org.npr.android.news.NewsListAdapter:$r7 = staticinvoke <android.view.LayoutInflater: android.view.LayoutInflater 'from'(android.content.Context)>($r6)
+1809ZZZ<init>:org.npr.android.news.NewsListAdapter:$r6 = virtualinvoke $r0.<org.npr.android.news.NewsListAdapter: android.content.Context getContext()>()
+1807ZZZrun:org.npr.android.news.BannerView$2:$r7 = virtualinvoke $r6.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r2, null, null, null, null)
+1804ZZZrun:org.npr.android.news.BannerView$2:$r2 = <org.npr.api.IPhoneTimersConfProvider: android.net.Uri CONTENT_URL>
+1786ZZZ<init>:org.npr.android.news.NewsListAdapter$1:specialinvoke $r0.<android.os.Handler: void <init>()>()
+1784ZZZ<init>:org.npr.android.news.NewsListAdapter$1:$r2 = <java.lang.System: java.io.PrintStream out>
+1783ZZZ<init>:org.npr.android.news.NewsListAdapter$1:$r0.<org.npr.android.news.NewsListAdapter$1: org.npr.android.news.NewsListAdapter this$0> = $r1
+1759ZZZ<init>:org.npr.android.news.NewsListAdapter:specialinvoke $r0.<android.widget.ArrayAdapter: void <init>(android.content.Context,int)>($r1, 2131099656)
+1681ZZZ<init>:org.npr.android.news.BannerView$2:specialinvoke $r0.<java.lang.Thread: void <init>()>()
+1680ZZZ<init>:org.npr.android.news.BannerView$2:$r2 = <java.lang.System: java.io.PrintStream out>
+1679ZZZ<init>:org.npr.android.news.BannerView$2:$r0.<org.npr.android.news.BannerView$2: org.npr.android.news.BannerView this$0> = $r1
+1670ZZZ<init>:org.npr.android.news.BannerView:virtualinvoke $r0.<org.npr.android.news.BannerView: void init()>()
+1668ZZZ<init>:org.npr.android.news.BannerView:$r3 = <java.lang.System: java.io.PrintStream out>
+1667ZZZ<init>:org.npr.android.news.BannerView:$r0.<org.npr.android.news.BannerView: android.content.Context context> = $r1
+1664ZZZ<init>:org.npr.android.news.BannerView:$r0.<org.npr.android.news.BannerView: long animationStartTime> = 0L
+1661ZZZ<init>:org.npr.android.news.BannerView:$r0.<org.npr.android.news.BannerView: android.view.animation.Interpolator accelerator> = $r6
+1658ZZZ<init>:org.npr.android.news.BannerView:specialinvoke $r6.<android.view.animation.AccelerateInterpolator: void <init>()>()
+1655ZZZ<init>:org.npr.android.news.BannerView:$r6 = new android.view.animation.AccelerateInterpolator
+1652ZZZ<init>:org.npr.android.news.BannerView:$r0.<org.npr.android.news.BannerView: android.os.Handler handler> = $r5
+1643ZZZ<init>:org.npr.android.news.BannerView:specialinvoke $r5.<org.npr.android.news.BannerView$1: void <init>(org.npr.android.news.BannerView)>($r0)
+1640ZZZ<init>:org.npr.android.news.BannerView:$r5 = new org.npr.android.news.BannerView$1
+1637ZZZ<init>:org.npr.android.news.BannerView:$r0.<org.npr.android.news.BannerView: org.npr.android.news.BannerView$SponsorshipWindowStates sponsorshipWindowState> = $r4
+1634ZZZ<clinit>:org.npr.android.news.BannerView$SponsorshipWindowStates:<org.npr.android.news.BannerView$SponsorshipWindowStates: org.npr.android.news.BannerView$SponsorshipWindowStates[] $VALUES> = $r2
+1632ZZZ<clinit>:org.npr.android.news.BannerView$SponsorshipWindowStates:$r0 = <java.lang.System: java.io.PrintStream out>
+1631ZZZ<clinit>:org.npr.android.news.BannerView$SponsorshipWindowStates:$r2[5] = $r1
+1628ZZZ<clinit>:org.npr.android.news.BannerView$SponsorshipWindowStates:$r1 = <org.npr.android.news.BannerView$SponsorshipWindowStates: org.npr.android.news.BannerView$SponsorshipWindowStates Closing>
+1625ZZZ<clinit>:org.npr.android.news.BannerView$SponsorshipWindowStates:$r2[4] = $r1
+1622ZZZ<clinit>:org.npr.android.news.BannerView$SponsorshipWindowStates:$r1 = <org.npr.android.news.BannerView$SponsorshipWindowStates: org.npr.android.news.BannerView$SponsorshipWindowStates Opening>
+1619ZZZ<clinit>:org.npr.android.news.BannerView$SponsorshipWindowStates:$r2[3] = $r1
+1616ZZZ<clinit>:org.npr.android.news.BannerView$SponsorshipWindowStates:$r1 = <org.npr.android.news.BannerView$SponsorshipWindowStates: org.npr.android.news.BannerView$SponsorshipWindowStates Visible>
+1613ZZZ<clinit>:org.npr.android.news.BannerView$SponsorshipWindowStates:$r2[2] = $r1
+1610ZZZ<clinit>:org.npr.android.news.BannerView$SponsorshipWindowStates:$r1 = <org.npr.android.news.BannerView$SponsorshipWindowStates: org.npr.android.news.BannerView$SponsorshipWindowStates ReadyToBeShown>
+1607ZZZ<clinit>:org.npr.android.news.BannerView$SponsorshipWindowStates:$r2[1] = $r1
+1604ZZZ<clinit>:org.npr.android.news.BannerView$SponsorshipWindowStates:$r1 = <org.npr.android.news.BannerView$SponsorshipWindowStates: org.npr.android.news.BannerView$SponsorshipWindowStates TooNarrow>
+1601ZZZ<clinit>:org.npr.android.news.BannerView$SponsorshipWindowStates:$r2[0] = $r1
+1598ZZZ<clinit>:org.npr.android.news.BannerView$SponsorshipWindowStates:$r1 = <org.npr.android.news.BannerView$SponsorshipWindowStates: org.npr.android.news.BannerView$SponsorshipWindowStates NeedsMeasurement>
+1595ZZZ<clinit>:org.npr.android.news.BannerView$SponsorshipWindowStates:$r2 = newarray (org.npr.android.news.BannerView$SponsorshipWindowStates)[6]
+1592ZZZ<clinit>:org.npr.android.news.BannerView$SponsorshipWindowStates:<org.npr.android.news.BannerView$SponsorshipWindowStates: org.npr.android.news.BannerView$SponsorshipWindowStates Closing> = $r1
+1586ZZZ<clinit>:org.npr.android.news.BannerView$SponsorshipWindowStates:specialinvoke $r1.<org.npr.android.news.BannerView$SponsorshipWindowStates: void <init>(java.lang.String,int)>("Closing", 5)
+1583ZZZ<clinit>:org.npr.android.news.BannerView$SponsorshipWindowStates:$r1 = new org.npr.android.news.BannerView$SponsorshipWindowStates
+1580ZZZ<clinit>:org.npr.android.news.BannerView$SponsorshipWindowStates:<org.npr.android.news.BannerView$SponsorshipWindowStates: org.npr.android.news.BannerView$SponsorshipWindowStates Opening> = $r1
+1577ZZZ<init>:org.npr.android.news.BannerView$SponsorshipWindowStates:specialinvoke $r0.<java.lang.Enum: void <init>(java.lang.String,int)>($r1, $i0)
+1575ZZZ<init>:org.npr.android.news.BannerView$SponsorshipWindowStates:$r2 = <java.lang.System: java.io.PrintStream out>
+1556ZZZ<clinit>:org.npr.android.news.BannerView$SponsorshipWindowStates:<org.npr.android.news.BannerView$SponsorshipWindowStates: org.npr.android.news.BannerView$SponsorshipWindowStates ReadyToBeShown> = $r1
+1550ZZZ<clinit>:org.npr.android.news.BannerView$SponsorshipWindowStates:specialinvoke $r1.<org.npr.android.news.BannerView$SponsorshipWindowStates: void <init>(java.lang.String,int)>("ReadyToBeShown", 2)
+1544ZZZ<clinit>:org.npr.android.news.BannerView$SponsorshipWindowStates:<org.npr.android.news.BannerView$SponsorshipWindowStates: org.npr.android.news.BannerView$SponsorshipWindowStates TooNarrow> = $r1
+1526ZZZ<clinit>:org.npr.android.news.BannerView$SponsorshipWindowStates:specialinvoke $r1.<org.npr.android.news.BannerView$SponsorshipWindowStates: void <init>(java.lang.String,int)>("NeedsMeasurement", 0)
+1513ZZZ<init>:org.npr.android.news.BannerView:specialinvoke $r0.<android.widget.LinearLayout: void <init>(android.content.Context,android.util.AttributeSet)>($r1, $r2)
+1511ZZZ<clinit>:org.npr.android.news.BannerView:<org.npr.android.news.BannerView: long noBannerUntilSystemTime> = 0L
+1509ZZZ<clinit>:org.npr.android.news.BannerView:$r0 = <java.lang.System: java.io.PrintStream out>
+1508ZZZ<clinit>:org.npr.android.news.BannerView:<org.npr.android.news.BannerView: java.lang.String LOG_TAG> = $r2
+1505ZZZ<clinit>:org.npr.android.news.BannerView:$r2 = virtualinvoke $r1.<java.lang.Class: java.lang.String getName()>()
+1502ZZZ<clinit>:org.npr.android.news.BannerView:$r1 = class "Lorg/npr/android/news/BannerView;"
+1070ZZZ<init>:org.npr.android.util.Tracker:specialinvoke $r0.<java.lang.Object: void <init>()>()
+1068ZZZ<init>:org.npr.android.util.Tracker:$r2 = <java.lang.System: java.io.PrintStream out>
+1046ZZZtrackNow:org.npr.android.news.NewsListActivity:$r6 = staticinvoke <org.npr.android.util.Tracker: org.npr.android.util.Tracker instance(android.app.Application)>($r5)
+1044ZZZtrackNow:org.npr.android.news.NewsListActivity:$r1 = <java.lang.System: java.io.PrintStream out>
+1043ZZZtrackNow:org.npr.android.news.NewsListActivity:$r5 = virtualinvoke $r0.<org.npr.android.news.NewsListActivity: android.app.Application getApplication()>()
+1040ZZZtrackNow:org.npr.android.news.NewsListActivity:virtualinvoke $r3.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r4)
+1037ZZZtrackNow:org.npr.android.news.NewsListActivity:$r4 = $r0.<org.npr.android.news.NewsListActivity: java.lang.String description>
+1034ZZZtrackNow:org.npr.android.news.NewsListActivity:virtualinvoke $r3.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(": ")
+1028ZZZtrackNow:org.npr.android.news.NewsListActivity:$r4 = $r0.<org.npr.android.news.NewsListActivity: java.lang.String grouping>
+1025ZZZtrackNow:org.npr.android.news.NewsListActivity:$r3 = virtualinvoke $r3.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(": ")
+1022ZZZtrackNow:org.npr.android.news.NewsListActivity:specialinvoke $r3.<java.lang.StringBuilder: void <init>(java.lang.String)>("News")
+1019ZZZtrackNow:org.npr.android.news.NewsListActivity:$r3 = new java.lang.StringBuilder
+554ZZZsetDefaultIntent:org.npr.android.news.NewsListActivity:$r4 = virtualinvoke $r3.<org.npr.api.ApiConstants: java.lang.String createUrl(java.lang.String,java.util.Map)>("query", $r2)
+552ZZZsetDefaultIntent:org.npr.android.news.NewsListActivity:$r1 = <java.lang.System: java.io.PrintStream out>
+530ZZZonCreate:org.npr.android.news.NewsListActivity:specialinvoke $r0.<org.npr.android.news.NewsListActivity: void setDefaultIntent()>()
+527ZZZonCreate:org.npr.android.news.NewsListActivity:if $z0 != 0 goto $r2 = <java.lang.System: java.io.PrintStream out>
+524ZZZonCreate:org.npr.android.news.NewsListActivity:$z0 = virtualinvoke $r8.<android.content.Intent: boolean hasExtra(java.lang.String)>("podcast_rss_feed_url")
+521ZZZonCreate:org.npr.android.news.NewsListActivity:$r8 = virtualinvoke $r0.<org.npr.android.news.NewsListActivity: android.content.Intent getIntent()>()
+515ZZZonCreate:org.npr.android.news.NewsListActivity:$z0 = virtualinvoke $r8.<android.content.Intent: boolean hasExtra(java.lang.String)>("query_url")
+509ZZZonCreate:org.npr.android.news.NewsListActivity:if $r8 == null goto $r2 = <java.lang.System: java.io.PrintStream out>
+503ZZZ<init>:org.npr.android.news.NewsListActivity:$r0.<org.npr.android.news.NewsListActivity: java.lang.Runnable updateTime> = $r4
+501ZZZ<init>:org.npr.android.news.NewsListActivity:$r1 = <java.lang.System: java.io.PrintStream out>
+494ZZZ<init>:org.npr.android.news.NewsListActivity:specialinvoke $r4.<org.npr.android.news.NewsListActivity$7: void <init>(org.npr.android.news.NewsListActivity)>($r0)
+491ZZZ<init>:org.npr.android.news.NewsListActivity:$r4 = new org.npr.android.news.NewsListActivity$7
+488ZZZ<init>:org.npr.android.news.NewsListActivity:$r0.<org.npr.android.news.NewsListActivity: org.npr.android.news.NewsListAdapter$StoriesLoadedListener listener> = $r3
+479ZZZ<init>:org.npr.android.news.NewsListActivity:specialinvoke $r3.<org.npr.android.news.NewsListActivity$3: void <init>(org.npr.android.news.NewsListActivity)>($r0)
+476ZZZ<init>:org.npr.android.news.NewsListActivity:$r3 = new org.npr.android.news.NewsListActivity$3
+473ZZZ<init>:org.npr.android.news.NewsListActivity:$r0.<org.npr.android.news.NewsListActivity: android.os.Handler handler> = $r2
+464ZZZ<init>:org.npr.android.news.NewsListActivity:specialinvoke $r2.<org.npr.android.news.NewsListActivity$1: void <init>(org.npr.android.news.NewsListActivity)>($r0)
+461ZZZ<init>:org.npr.android.news.NewsListActivity:$r2 = new org.npr.android.news.NewsListActivity$1
+458ZZZ<init>:org.npr.android.news.NewsListActivity:$r0.<org.npr.android.news.NewsListActivity: int lastLongPressPosition> = -1
+449ZZZ<init>:org.npr.android.news.NewsListActivity:specialinvoke $r0.<org.npr.android.news.TitleActivity: void <init>()>()
+443ZZZ<clinit>:org.npr.android.news.NewsListActivity:specialinvoke $r3.<java.util.HashMap: void <init>()>()
+441ZZZ<clinit>:org.npr.android.news.NewsListActivity:$r0 = <java.lang.System: java.io.PrintStream out>
+440ZZZ<clinit>:org.npr.android.news.NewsListActivity:$r3 = new java.util.HashMap
+437ZZZ<clinit>:org.npr.android.news.NewsListActivity:<org.npr.android.news.NewsListActivity: java.util.Map storyCache> = $r3
+428ZZZ<clinit>:org.npr.android.news.NewsListActivity:<org.npr.android.news.NewsListActivity: java.lang.String LOG_TAG> = $r2
+425ZZZ<clinit>:org.npr.android.news.NewsListActivity:$r2 = virtualinvoke $r1.<java.lang.Class: java.lang.String getName()>()
+422ZZZ<clinit>:org.npr.android.news.NewsListActivity:$r1 = class "Lorg/npr/android/news/NewsListActivity;"
+394ZZZ<init>:org.npr.api.ApiConstants:specialinvoke $r0.<java.lang.Object: void <init>()>()
+393ZZZ<init>:org.npr.api.ApiConstants:$r2 = <java.lang.System: java.io.PrintStream out>
+392ZZZcreateInstance:org.npr.api.ApiConstants:specialinvoke $r2.<org.npr.api.ApiConstants: void <init>(java.lang.String)>($r0)
+390ZZZcreateInstance:org.npr.api.ApiConstants:$r1 = <java.lang.System: java.io.PrintStream out>
+389ZZZcreateInstance:org.npr.api.ApiConstants:$r2 = new org.npr.api.ApiConstants
+386ZZZcreateInstance:org.npr.api.ApiConstants:if $r2 != null goto return
+383ZZZcreateInstance:org.npr.api.ApiConstants:$r2 = <org.npr.api.ApiConstants: org.npr.api.ApiConstants instance>
+371ZZZonCreate:org.npr.android.news.NewsApplication:staticinvoke <org.npr.api.ApiConstants: void createInstance(java.lang.String)>($r3)
+369ZZZonCreate:org.npr.android.news.NewsApplication:$r1 = <java.lang.System: java.io.PrintStream out>
+368ZZZonCreate:org.npr.android.news.NewsApplication:$r3 = $r6
+365ZZZonCreate:org.npr.android.news.NewsApplication:$r6 = interfaceinvoke $r5.<java.lang.CharSequence: java.lang.String toString()>()
+356ZZZreadFile:org.npr.android.util.FileUtils:staticinvoke <org.npr.android.util.FileUtils: void closeStream(java.io.Closeable)>($r2)
+354ZZZreadFile:org.npr.android.util.FileUtils:$r1 = <java.lang.System: java.io.PrintStream out>
+353ZZZreadFile:org.npr.android.util.FileUtils:virtualinvoke $r4.<java.lang.StringBuilder: java.lang.StringBuilder deleteCharAt(int)>($i0)
+350ZZZreadFile:org.npr.android.util.FileUtils:$i0 = $i0 + -1
+347ZZZreadFile:org.npr.android.util.FileUtils:$i0 = virtualinvoke $r4.<java.lang.StringBuilder: int length()>()
+344ZZZreadFile:org.npr.android.util.FileUtils:if $i0 <= 0 goto $r1 = <java.lang.System: java.io.PrintStream out>
+338ZZZreadFile:org.npr.android.util.FileUtils:if $r9 == null goto $r1 = <java.lang.System: java.io.PrintStream out>
+335ZZZreadFile:org.npr.android.util.FileUtils:$r9 = virtualinvoke $r2.<java.io.BufferedReader: java.lang.String readLine()>()
+332ZZZreadFile:org.npr.android.util.FileUtils:virtualinvoke $r4.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(10)
+329ZZZreadFile:org.npr.android.util.FileUtils:virtualinvoke $r4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r9)
+320ZZZreadFile:org.npr.android.util.FileUtils:specialinvoke $r4.<java.lang.StringBuilder: void <init>()>()
+317ZZZreadFile:org.npr.android.util.FileUtils:$r4 = new java.lang.StringBuilder
+314ZZZreadFile:org.npr.android.util.FileUtils:$r7 = $r2
+311ZZZreadFile:org.npr.android.util.FileUtils:specialinvoke $r2.<java.io.BufferedReader: void <init>(java.io.Reader,int)>($r3, 8192)
+308ZZZreadFile:org.npr.android.util.FileUtils:specialinvoke $r3.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($r8)
+305ZZZreadFile:org.npr.android.util.FileUtils:$r8 = virtualinvoke $r0.<android.content.res.Resources: java.io.InputStream openRawResource(int)>($i0)
+302ZZZreadFile:org.npr.android.util.FileUtils:$r3 = new java.io.InputStreamReader
+299ZZZreadFile:org.npr.android.util.FileUtils:$r2 = new java.io.BufferedReader
+296ZZZreadFile:org.npr.android.util.FileUtils:$r7 = null
+287ZZZonCreate:org.npr.android.news.NewsApplication:$r5 = staticinvoke <org.npr.android.util.FileUtils: java.lang.CharSequence readFile(android.content.res.Resources,java.lang.String)>($r4, "org.npr.android.news:raw/api_key")
+284ZZZonCreate:org.npr.android.news.NewsApplication:$r4 = virtualinvoke $r0.<org.npr.android.news.NewsApplication: android.content.res.Resources getResources()>()
+281ZZZonCreate:org.npr.android.news.NewsApplication:$r3 = ""
+262ZZZ<init>:org.npr.android.news.NewsApplication$2:specialinvoke $r0.<java.lang.Object: void <init>()>()
+261ZZZ<init>:org.npr.android.news.NewsApplication$2:$r2 = <java.lang.System: java.io.PrintStream out>
+260ZZZ<init>:org.npr.android.news.NewsApplication$2:$r0.<org.npr.android.news.NewsApplication$2: org.npr.android.news.NewsApplication this$0> = $r1
+257ZZZlaunchLocationListeners:org.npr.android.news.NewsApplication:specialinvoke $r2.<org.npr.android.news.NewsApplication$2: void <init>(org.npr.android.news.NewsApplication)>($r0)
+255ZZZlaunchLocationListeners:org.npr.android.news.NewsApplication:$r1 = <java.lang.System: java.io.PrintStream out>
+254ZZZlaunchLocationListeners:org.npr.android.news.NewsApplication:$r2 = new org.npr.android.news.NewsApplication$2
+251ZZZlaunchLocationListeners:org.npr.android.news.NewsApplication:$r7 = (java.lang.String) $r3
+248ZZZlaunchLocationListeners:org.npr.android.news.NewsApplication:$r3 = interfaceinvoke $r6.<java.util.Iterator: java.lang.Object next()>()
+245ZZZlaunchLocationListeners:org.npr.android.news.NewsApplication:if $z0 == 0 goto return
+242ZZZlaunchLocationListeners:org.npr.android.news.NewsApplication:$z0 = interfaceinvoke $r6.<java.util.Iterator: boolean hasNext()>()
+239ZZZlaunchLocationListeners:org.npr.android.news.NewsApplication:$r6 = interfaceinvoke $r5.<java.util.List: java.util.Iterator iterator()>()
+236ZZZlaunchLocationListeners:org.npr.android.news.NewsApplication:$r5 = virtualinvoke $r4.<android.location.LocationManager: java.util.List getProviders(boolean)>(0)
+233ZZZlaunchLocationListeners:org.npr.android.news.NewsApplication:$r4 = (android.location.LocationManager) $r3
+230ZZZlaunchLocationListeners:org.npr.android.news.NewsApplication:$r3 = virtualinvoke $r0.<org.npr.android.news.NewsApplication: java.lang.Object getSystemService(java.lang.String)>("location")
+226ZZZonCreate:org.npr.android.news.NewsApplication:specialinvoke $r0.<org.npr.android.news.NewsApplication: void launchLocationListeners()>()
+223ZZZonCreate:org.npr.android.news.NewsApplication:specialinvoke $r0.<android.app.Application: void onCreate()>()
+185ZZZonCreate:org.npr.android.util.PlaylistProvider:virtualinvoke $r2.<org.npr.android.util.PlaylistProvider$PlaylistHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>($r4, 3, 4)
+183ZZZonCreate:org.npr.android.util.PlaylistProvider:$r1 = <java.lang.System: java.io.PrintStream out>
+182ZZZonCreate:org.npr.android.util.PlaylistProvider:$r4 = virtualinvoke $r2.<org.npr.android.util.PlaylistProvider$PlaylistHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>()
+179ZZZonCreate:org.npr.android.util.PlaylistProvider:$r2 = $r0.<org.npr.android.util.PlaylistProvider: org.npr.android.util.PlaylistProvider$PlaylistHelper helper>
+176ZZZonCreate:org.npr.android.util.PlaylistProvider:$r0.<org.npr.android.util.PlaylistProvider: org.npr.android.util.PlaylistProvider$PlaylistHelper helper> = $r2
+172ZZZ<init>:org.npr.android.util.PlaylistProvider$PlaylistHelper:specialinvoke $r0.<android.database.sqlite.SQLiteOpenHelper: void <init>(android.content.Context,java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>($r1, "playlist.db", null, 4)
+171ZZZ<init>:org.npr.android.util.PlaylistProvider$PlaylistHelper:$r2 = <java.lang.System: java.io.PrintStream out>
+170ZZZonCreate:org.npr.android.util.PlaylistProvider:specialinvoke $r2.<org.npr.android.util.PlaylistProvider$PlaylistHelper: void <init>(android.content.Context)>($r3)
+167ZZZonCreate:org.npr.android.util.PlaylistProvider:$r3 = virtualinvoke $r0.<org.npr.android.util.PlaylistProvider: android.content.Context getContext()>()
+151ZZZ<init>:org.npr.android.util.PlaylistProvider:specialinvoke $r0.<android.content.ContentProvider: void <init>()>()
+150ZZZ<init>:org.npr.android.util.PlaylistProvider:$r1 = <java.lang.System: java.io.PrintStream out>
+149ZZZ<clinit>:org.npr.android.util.PlaylistProvider:<org.npr.android.util.PlaylistProvider: java.lang.String LOG_TAG> = $r3
+147ZZZ<clinit>:org.npr.android.util.PlaylistProvider:$r0 = <java.lang.System: java.io.PrintStream out>
+146ZZZ<clinit>:org.npr.android.util.PlaylistProvider:$r3 = virtualinvoke $r1.<java.lang.Class: java.lang.String getName()>()
+143ZZZ<clinit>:org.npr.android.util.PlaylistProvider:$r1 = class "Lorg/npr/android/util/PlaylistProvider;"
+140ZZZ<clinit>:org.npr.android.util.PlaylistProvider:<org.npr.android.util.PlaylistProvider: android.net.Uri CONTENT_URI> = $r2
+137ZZZ<clinit>:org.npr.android.util.PlaylistProvider:$r2 = staticinvoke <android.net.Uri: android.net.Uri parse(java.lang.String)>("content://org.npr.android.util.Playlist")
+130ZZZ<init>:org.npr.android.util.FavoriteStationsProvider$FavoriteStationsHelper:specialinvoke $r0.<android.database.sqlite.SQLiteOpenHelper: void <init>(android.content.Context,java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>($r1, "favorite_stations.db", null, 2)
+129ZZZ<init>:org.npr.android.util.FavoriteStationsProvider$FavoriteStationsHelper:$r2 = <java.lang.System: java.io.PrintStream out>
+118ZZZ<init>:org.npr.android.util.FavoriteStationsProvider:specialinvoke $r0.<android.content.ContentProvider: void <init>()>()
+117ZZZ<init>:org.npr.android.util.FavoriteStationsProvider:$r1 = <java.lang.System: java.io.PrintStream out>
+116ZZZ<clinit>:org.npr.android.util.FavoriteStationsProvider:<org.npr.android.util.FavoriteStationsProvider: android.net.Uri CONTENT_URI> = $r3
+114ZZZ<clinit>:org.npr.android.util.FavoriteStationsProvider:$r0 = <java.lang.System: java.io.PrintStream out>
+113ZZZ<clinit>:org.npr.android.util.FavoriteStationsProvider:$r3 = staticinvoke <android.net.Uri: android.net.Uri parse(java.lang.String)>("content://org.npr.android.util.FavoriteStations")
+110ZZZ<clinit>:org.npr.android.util.FavoriteStationsProvider:<org.npr.android.util.FavoriteStationsProvider: java.lang.String LOG_TAG> = $r2
+107ZZZ<clinit>:org.npr.android.util.FavoriteStationsProvider:$r2 = virtualinvoke $r1.<java.lang.Class: java.lang.String getName()>()
+104ZZZ<clinit>:org.npr.android.util.FavoriteStationsProvider:$r1 = class "Lorg/npr/android/util/FavoriteStationsProvider;"
+80ZZZ<init>:org.npr.android.news.NewsApplication:specialinvoke $r3.<java.util.ArrayList: void <init>()>()
+78ZZZ<init>:org.npr.android.news.NewsApplication:$r1 = <java.lang.System: java.io.PrintStream out>
+77ZZZ<init>:org.npr.android.news.NewsApplication:$r3 = new java.util.ArrayList
+74ZZZ<init>:org.npr.android.news.NewsApplication:$r0.<org.npr.android.news.NewsApplication: android.os.Handler handler> = $r2
+65ZZZ<init>:org.npr.android.news.NewsApplication:specialinvoke $r2.<org.npr.android.news.NewsApplication$1: void <init>(org.npr.android.news.NewsApplication)>($r0)
+62ZZZ<init>:org.npr.android.news.NewsApplication:$r2 = new org.npr.android.news.NewsApplication$1
+59ZZZ<init>:org.npr.android.news.NewsApplication:specialinvoke $r0.<android.app.Application: void <init>()>()

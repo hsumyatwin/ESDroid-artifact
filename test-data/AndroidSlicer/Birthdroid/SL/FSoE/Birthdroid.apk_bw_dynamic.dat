@@ -1,0 +1,106 @@
+904ZZZonStart:com.rigid.birthdroid.BirthdroidWidget$BirthdroidService:$i1 = staticinvoke <java.lang.Integer: int parseInt(java.lang.String)>($r8)
+901ZZZonStart:com.rigid.birthdroid.BirthdroidWidget$BirthdroidService:$r8 = virtualinvoke $r3.<com.rigid.birthdroid.Settings: java.lang.String getString(java.lang.String,java.lang.String)>("widget_flip_interval", $r8)
+900ZZZonStart:com.rigid.birthdroid.BirthdroidWidget$BirthdroidService:$r8 = staticinvoke <java.lang.Integer: java.lang.String toString(int)>($i1)
+899ZZZonStart:com.rigid.birthdroid.BirthdroidWidget$BirthdroidService:$i1 = virtualinvoke $r6.<android.content.res.Resources: int getInteger(int)>(2131361794)
+898ZZZonStart:com.rigid.birthdroid.BirthdroidWidget$BirthdroidService:virtualinvoke $r4.<android.widget.RemoteViews: void removeAllViews(int)>(2131099711)
+897ZZZonStart:com.rigid.birthdroid.BirthdroidWidget$BirthdroidService:specialinvoke $r4.<android.widget.RemoteViews: void <init>(java.lang.String,int)>($r8, 2130903067)
+896ZZZonStart:com.rigid.birthdroid.BirthdroidWidget$BirthdroidService:$r8 = virtualinvoke $r0.<com.rigid.birthdroid.BirthdroidWidget$BirthdroidService: java.lang.String getPackageName()>()
+895ZZZonStart:com.rigid.birthdroid.BirthdroidWidget$BirthdroidService:$r4 = new android.widget.RemoteViews
+888ZZZonStart:com.rigid.birthdroid.BirthdroidWidget$BirthdroidService:$r10 = virtualinvoke $r2.<com.rigid.birthdroid.Birthdays: java.util.List getUpcoming(int)>($i0)
+887ZZZonStart:com.rigid.birthdroid.BirthdroidWidget$BirthdroidService:staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>("BirthdroidWidget", $r8)
+886ZZZonStart:com.rigid.birthdroid.BirthdroidWidget$BirthdroidService:$r8 = virtualinvoke $r9.<java.lang.StringBuilder: java.lang.String toString()>()
+885ZZZonStart:com.rigid.birthdroid.BirthdroidWidget$BirthdroidService:$r9 = virtualinvoke $r9.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" days")
+884ZZZonStart:com.rigid.birthdroid.BirthdroidWidget$BirthdroidService:$r9 = virtualinvoke $r9.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($i0)
+883ZZZonStart:com.rigid.birthdroid.BirthdroidWidget$BirthdroidService:$r9 = virtualinvoke $r9.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Checking for birthdays in the next ")
+882ZZZonStart:com.rigid.birthdroid.BirthdroidWidget$BirthdroidService:specialinvoke $r9.<java.lang.StringBuilder: void <init>()>()
+881ZZZonStart:com.rigid.birthdroid.BirthdroidWidget$BirthdroidService:$r9 = new java.lang.StringBuilder
+880ZZZonStart:com.rigid.birthdroid.BirthdroidWidget$BirthdroidService:$i0 = staticinvoke <java.lang.Integer: int parseInt(java.lang.String)>($r8)
+877ZZZonStart:com.rigid.birthdroid.BirthdroidWidget$BirthdroidService:$r8 = virtualinvoke $r3.<com.rigid.birthdroid.Settings: java.lang.String getString(java.lang.String,java.lang.String)>("widget_future_days", $r8)
+876ZZZonStart:com.rigid.birthdroid.BirthdroidWidget$BirthdroidService:$r8 = staticinvoke <java.lang.Integer: java.lang.String toString(int)>($i0)
+875ZZZonStart:com.rigid.birthdroid.BirthdroidWidget$BirthdroidService:$i0 = virtualinvoke $r6.<android.content.res.Resources: int getInteger(int)>(2131361793)
+869ZZZsort:com.rigid.birthdroid.Birthdays:specialinvoke r6.<com.rigid.birthdroid.Birthdays$AgeComparator: void <init>(com.rigid.birthdroid.Birthdays)>($r0)
+868ZZZsort:com.rigid.birthdroid.Birthdays:$r3 = r6
+867ZZZsort:com.rigid.birthdroid.Birthdays:r6 = new com.rigid.birthdroid.Birthdays$AgeComparator
+866ZZZsort:com.rigid.birthdroid.Birthdays:lookupswitch($i0) {     case 1: goto r5 = new com.rigid.birthdroid.Birthdays$UpcomingDaysComparator;     case 2: goto r6 = new com.rigid.birthdroid.Birthdays$AgeComparator;     default: goto staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>("Birthdroid/Birthdays", "Invalid sort-field. Sorting by \"upcoming-days\""); }
+865ZZZsort:com.rigid.birthdroid.Birthdays:$i0 = $r2[$i0]
+864ZZZsort:com.rigid.birthdroid.Birthdays:$i0 = virtualinvoke $r1.<com.rigid.birthdroid.Birthdays$SortBy: int ordinal()>()
+863ZZZsort:com.rigid.birthdroid.Birthdays:$r2 = <com.rigid.birthdroid.Birthdays$1: int[] $SwitchMap$com$rigid$birthdroid$Birthdays$SortBy>
+856ZZZonStart:com.rigid.birthdroid.BirthdroidWidget$BirthdroidService:virtualinvoke $r2.<com.rigid.birthdroid.Birthdays: void sort(java.lang.String)>($r8)
+830ZZZ<init>:com.rigid.birthdroid.Birthdays:$r2 = virtualinvoke $r0.<com.rigid.birthdroid.Birthdays: java.util.List refresh()>()
+829ZZZ<init>:com.rigid.birthdroid.Birthdays:$r0.<com.rigid.birthdroid.Birthdays: com.rigid.birthdroid.Settings s> = $r3
+826ZZZ<init>:com.rigid.birthdroid.Settings:virtualinvoke $r0.<com.rigid.birthdroid.Settings: void commit()>()
+825ZZZ<init>:com.rigid.birthdroid.Settings:$r0.<com.rigid.birthdroid.Settings: android.content.SharedPreferences$Editor _edit> = $r5
+824ZZZ<init>:com.rigid.birthdroid.Settings:$r5 = interfaceinvoke $r4.<android.content.SharedPreferences: android.content.SharedPreferences$Editor edit()>()
+823ZZZ<init>:com.rigid.birthdroid.Settings:$r4 = $r0.<com.rigid.birthdroid.Settings: android.content.SharedPreferences _prefs>
+822ZZZ<init>:com.rigid.birthdroid.Settings:$r0.<com.rigid.birthdroid.Settings: android.content.SharedPreferences _prefs> = $r4
+821ZZZ<init>:com.rigid.birthdroid.Settings:$r4 = virtualinvoke $r1.<android.content.Context: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)>($r3, 0)
+820ZZZ<init>:com.rigid.birthdroid.Settings:$r3 = virtualinvoke $r2.<java.lang.StringBuilder: java.lang.String toString()>()
+819ZZZ<init>:com.rigid.birthdroid.Settings:$r2 = virtualinvoke $r2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("_preferences")
+818ZZZ<init>:com.rigid.birthdroid.Settings:$r2 = virtualinvoke $r2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r3)
+817ZZZ<init>:com.rigid.birthdroid.Settings:$r3 = virtualinvoke $r1.<android.content.Context: java.lang.String getPackageName()>()
+816ZZZ<init>:com.rigid.birthdroid.Settings:specialinvoke $r2.<java.lang.StringBuilder: void <init>()>()
+815ZZZ<init>:com.rigid.birthdroid.Settings:$r2 = new java.lang.StringBuilder
+814ZZZ<init>:com.rigid.birthdroid.Settings:$r0.<com.rigid.birthdroid.Settings: android.content.Context _c> = $r1
+813ZZZ<init>:com.rigid.birthdroid.Settings:specialinvoke $r0.<java.lang.Object: void <init>()>()
+807ZZZonStart:com.rigid.birthdroid.BirthdroidWidget$BirthdroidService:specialinvoke $r2.<com.rigid.birthdroid.Birthdays: void <init>(android.content.Context)>($r0)
+806ZZZonStart:com.rigid.birthdroid.BirthdroidWidget$BirthdroidService:$r2 = new com.rigid.birthdroid.Birthdays
+789ZZZonStart:com.rigid.birthdroid.BirthdroidWidget$BirthdroidService:specialinvoke $r3.<com.rigid.birthdroid.Settings: void <init>(android.content.Context)>($r7)
+788ZZZonStart:com.rigid.birthdroid.BirthdroidWidget$BirthdroidService:$r7 = virtualinvoke $r0.<com.rigid.birthdroid.BirthdroidWidget$BirthdroidService: android.content.Context getApplicationContext()>()
+787ZZZonStart:com.rigid.birthdroid.BirthdroidWidget$BirthdroidService:$r3 = new com.rigid.birthdroid.Settings
+786ZZZonStart:com.rigid.birthdroid.BirthdroidWidget$BirthdroidService:$r6 = virtualinvoke $r0.<com.rigid.birthdroid.BirthdroidWidget$BirthdroidService: android.content.res.Resources getResources()>()
+782ZZZgetCount:com.rigid.birthdroid.BirthdroidActivity$BirthdroidListAdapter:$i0 = virtualinvoke $r2.<com.rigid.birthdroid.Birthdays: int getCount()>()
+781ZZZaccess$000:com.rigid.birthdroid.BirthdroidActivity:r1 = $r0.<com.rigid.birthdroid.BirthdroidActivity: com.rigid.birthdroid.Birthdays b>
+770ZZZ<init>:com.rigid.birthdroid.Birthdays$UpcomingDaysComparator:specialinvoke $r0.<com.rigid.birthdroid.Birthdays$UpcomingDaysComparator: void <init>(com.rigid.birthdroid.Birthdays)>($r1)
+762ZZZsort:com.rigid.birthdroid.Birthdays:virtualinvoke $r0.<com.rigid.birthdroid.Birthdays: void sort(com.rigid.birthdroid.Birthdays$SortBy)>($r2)
+761ZZZsort:com.rigid.birthdroid.Birthdays:$r2 = <com.rigid.birthdroid.Birthdays$SortBy: com.rigid.birthdroid.Birthdays$SortBy UPCOMING_DAYS>
+760ZZZsort:com.rigid.birthdroid.Birthdays:if $z0 == 0 goto $z0 = virtualinvoke $r1.<java.lang.String: boolean equals(java.lang.Object)>("AGE")
+759ZZZsort:com.rigid.birthdroid.Birthdays:$z0 = virtualinvoke $r1.<java.lang.String: boolean equals(java.lang.Object)>("UPCOMING_DAYS")
+758ZZZonResume:com.rigid.birthdroid.BirthdroidActivity:virtualinvoke $r1.<com.rigid.birthdroid.Birthdays: void sort(java.lang.String)>($r4)
+750ZZZonResume:com.rigid.birthdroid.BirthdroidActivity:specialinvoke $r0.<android.app.ListActivity: void onResume()>()
+745ZZZonReceive:com.rigid.birthdroid.BirthdroidWidget:virtualinvoke $r0.<com.rigid.birthdroid.BirthdroidWidget: void onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])>($r1, $r8, $r10)
+744ZZZonReceive:com.rigid.birthdroid.BirthdroidWidget:$r10 = virtualinvoke $r8.<android.appwidget.AppWidgetManager: int[] getAppWidgetIds(android.content.ComponentName)>($r9)
+743ZZZonReceive:com.rigid.birthdroid.BirthdroidWidget:specialinvoke $r9.<android.content.ComponentName: void <init>(android.content.Context,java.lang.Class)>($r1, class "Lcom/rigid/birthdroid/BirthdroidWidget;")
+742ZZZonReceive:com.rigid.birthdroid.BirthdroidWidget:$r9 = new android.content.ComponentName
+741ZZZonReceive:com.rigid.birthdroid.BirthdroidWidget:$r8 = staticinvoke <android.appwidget.AppWidgetManager: android.appwidget.AppWidgetManager getInstance(android.content.Context)>($r1)
+740ZZZonReceive:com.rigid.birthdroid.BirthdroidWidget:if $z0 == 0 goto specialinvoke $r0.<android.appwidget.AppWidgetProvider: void onReceive(android.content.Context,android.content.Intent)>($r1, $r2)
+739ZZZonReceive:com.rigid.birthdroid.BirthdroidWidget:$z0 = virtualinvoke $r4.<java.lang.String: boolean equals(java.lang.Object)>("com.rigid.birthdroid.PREFS_UPDATE")
+738ZZZonReceive:com.rigid.birthdroid.BirthdroidWidget:if $z0 == 0 goto $z0 = virtualinvoke $r4.<java.lang.String: boolean equals(java.lang.Object)>("com.rigid.birthdroid.PREFS_UPDATE")
+737ZZZonReceive:com.rigid.birthdroid.BirthdroidWidget:$z0 = virtualinvoke $r4.<java.lang.String: boolean equals(java.lang.Object)>("com.rigid.birthdroid.CLICK")
+736ZZZonReceive:com.rigid.birthdroid.BirthdroidWidget:$r4 = virtualinvoke $r2.<android.content.Intent: java.lang.String getAction()>()
+735ZZZ<init>:com.rigid.birthdroid.BirthdroidWidget:specialinvoke $r0.<android.appwidget.AppWidgetProvider: void <init>()>()
+669ZZZsort:com.rigid.birthdroid.Birthdays:specialinvoke r5.<com.rigid.birthdroid.Birthdays$UpcomingDaysComparator: void <init>(com.rigid.birthdroid.Birthdays,com.rigid.birthdroid.Birthdays$1)>($r0, null)
+668ZZZsort:com.rigid.birthdroid.Birthdays:$r3 = r5
+667ZZZsort:com.rigid.birthdroid.Birthdays:r5 = new com.rigid.birthdroid.Birthdays$UpcomingDaysComparator
+655ZZZonStart:com.rigid.birthdroid.BirthdroidWidget$BirthdroidService:$r8 = virtualinvoke $r3.<com.rigid.birthdroid.Settings: java.lang.String getString(java.lang.String,java.lang.String)>("widget_sort_method", $r8)
+654ZZZonStart:com.rigid.birthdroid.BirthdroidWidget$BirthdroidService:$r8 = virtualinvoke $r6.<android.content.res.Resources: java.lang.String getString(int)>(2131427342)
+585ZZZonCreate:com.rigid.birthdroid.PreferencesActivity:specialinvoke $r0.<android.preference.PreferenceActivity: void onCreate(android.os.Bundle)>($r1)
+584ZZZ<init>:com.rigid.birthdroid.PreferencesActivity:specialinvoke $r0.<android.preference.PreferenceActivity: void <init>()>()
+582ZZZonUpdate:com.rigid.birthdroid.BirthdroidWidget:specialinvoke $r4.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r1, class "Lcom/rigid/birthdroid/BirthdroidWidget$BirthdroidService;")
+581ZZZonUpdate:com.rigid.birthdroid.BirthdroidWidget:$r4 = new android.content.Intent
+580ZZZonUpdate:com.rigid.birthdroid.BirthdroidWidget:staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>("BirthdroidWidget", "Launching update-service")
+352ZZZonCreate:com.rigid.birthdroid.BirthdroidActivity:virtualinvoke $r7.<android.widget.ListView: void setOnItemClickListener(android.widget.AdapterView$OnItemClickListener)>($r8)
+323ZZZonCreate:com.rigid.birthdroid.BirthdroidActivity:specialinvoke $r6.<com.rigid.birthdroid.BirthdroidActivity$BirthdroidListAdapter: void <init>(com.rigid.birthdroid.BirthdroidActivity,android.content.Context)>($r0, $r0)
+322ZZZonCreate:com.rigid.birthdroid.BirthdroidActivity:$r6 = new com.rigid.birthdroid.BirthdroidActivity$BirthdroidListAdapter
+301ZZZonCreate:com.rigid.birthdroid.BirthdroidActivity:$r5 = virtualinvoke $r2.<com.rigid.birthdroid.Settings: java.lang.String getString(java.lang.String,java.lang.String)>("birthdroid_sort_method", $r5)
+300ZZZonCreate:com.rigid.birthdroid.BirthdroidActivity:$r5 = virtualinvoke $r4.<android.content.res.Resources: java.lang.String getString(int)>(2131427345)
+299ZZZonCreate:com.rigid.birthdroid.BirthdroidActivity:$r4 = virtualinvoke $r0.<com.rigid.birthdroid.BirthdroidActivity: android.content.res.Resources getResources()>()
+298ZZZonCreate:com.rigid.birthdroid.BirthdroidActivity:$r2 = $r0.<com.rigid.birthdroid.BirthdroidActivity: com.rigid.birthdroid.Settings s>
+297ZZZonCreate:com.rigid.birthdroid.BirthdroidActivity:$r3 = $r0.<com.rigid.birthdroid.BirthdroidActivity: com.rigid.birthdroid.Birthdays b>
+296ZZZonCreate:com.rigid.birthdroid.BirthdroidActivity:$r0.<com.rigid.birthdroid.BirthdroidActivity: com.rigid.birthdroid.Birthdays b> = $r3
+232ZZZonCreate:com.rigid.birthdroid.BirthdroidActivity:specialinvoke $r2.<com.rigid.birthdroid.Settings: void <init>(android.content.Context)>($r0)
+231ZZZonCreate:com.rigid.birthdroid.BirthdroidActivity:$r2 = new com.rigid.birthdroid.Settings
+230ZZZonCreate:com.rigid.birthdroid.BirthdroidActivity:specialinvoke $r0.<android.app.ListActivity: void onCreate(android.os.Bundle)>($r1)
+155ZZZonCreate:com.rigid.birthdroid.BirthdroidActivity:specialinvoke $r8.<com.rigid.birthdroid.BirthdroidActivity$1: void <init>(com.rigid.birthdroid.BirthdroidActivity)>($r0)
+154ZZZonCreate:com.rigid.birthdroid.BirthdroidActivity:$r8 = new com.rigid.birthdroid.BirthdroidActivity$1
+153ZZZonCreate:com.rigid.birthdroid.BirthdroidActivity:$r7 = virtualinvoke $r0.<com.rigid.birthdroid.BirthdroidActivity: android.widget.ListView getListView()>()
+152ZZZonCreate:com.rigid.birthdroid.BirthdroidActivity:virtualinvoke $r7.<android.widget.ListView: void setTextFilterEnabled(boolean)>(1)
+140ZZZgetCount:com.rigid.birthdroid.BirthdroidActivity$BirthdroidListAdapter:$r2 = staticinvoke <com.rigid.birthdroid.BirthdroidActivity: com.rigid.birthdroid.Birthdays access$000(com.rigid.birthdroid.BirthdroidActivity)>($r1)
+139ZZZgetCount:com.rigid.birthdroid.BirthdroidActivity$BirthdroidListAdapter:$r1 = $r0.<com.rigid.birthdroid.BirthdroidActivity$BirthdroidListAdapter: com.rigid.birthdroid.BirthdroidActivity this$0>
+98ZZZvalues:com.rigid.birthdroid.Birthdays$SortBy:$r1 = (com.rigid.birthdroid.Birthdays$SortBy[]) $r0
+97ZZZvalues:com.rigid.birthdroid.Birthdays$SortBy:$r0 = virtualinvoke $r1.<java.lang.Object: java.lang.Object clone()>()
+96ZZZvalues:com.rigid.birthdroid.Birthdays$SortBy:$r1 = <com.rigid.birthdroid.Birthdays$SortBy: com.rigid.birthdroid.Birthdays$SortBy[] $VALUES>
+84ZZZ<clinit>:com.rigid.birthdroid.Birthdays$SortBy:specialinvoke $r0.<com.rigid.birthdroid.Birthdays$SortBy: void <init>(java.lang.String,int)>("AGE", 1)
+83ZZZ<clinit>:com.rigid.birthdroid.Birthdays$SortBy:$r0 = new com.rigid.birthdroid.Birthdays$SortBy
+82ZZZ<clinit>:com.rigid.birthdroid.Birthdays$SortBy:<com.rigid.birthdroid.Birthdays$SortBy: com.rigid.birthdroid.Birthdays$SortBy UPCOMING_DAYS> = $r0
+81ZZZ<init>:com.rigid.birthdroid.Birthdays$SortBy:specialinvoke $r0.<java.lang.Enum: void <init>(java.lang.String,int)>($r1, $i0)
+0ZZZ<init>:com.rigid.birthdroid.BirthdroidActivity:specialinvoke $r0.<android.app.ListActivity: void <init>()>()

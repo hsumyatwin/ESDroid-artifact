@@ -1,0 +1,113 @@
+354ZZZ<init>:com.nloko.android.syncmypix.facebook.FacebookLoginWebView:$r0.<com.nloko.android.syncmypix.facebook.FacebookLoginWebView: java.lang.String TAG> = "FacebookLoginWebView"
+353ZZZ<init>:com.nloko.android.syncmypix.facebook.FacebookLoginWebView:specialinvoke $r0.<android.app.Activity: void <init>()>()
+340ZZZlogin:com.nloko.android.syncmypix.MainActivity:$r4 = staticinvoke <com.nloko.android.syncmypix.MainActivity: java.lang.Class getSyncSource(android.content.Context)>($r3)
+339ZZZlogin:com.nloko.android.syncmypix.MainActivity:$r3 = virtualinvoke $r0.<com.nloko.android.syncmypix.MainActivity: android.content.Context getApplicationContext()>()
+338ZZZlogin:com.nloko.android.syncmypix.MainActivity:$r2 = virtualinvoke $r0.<com.nloko.android.syncmypix.MainActivity: android.content.Context getApplicationContext()>()
+337ZZZlogin:com.nloko.android.syncmypix.MainActivity:$r1 = new android.content.Intent
+336ZZZaccess$3:com.nloko.android.syncmypix.MainActivity:specialinvoke $r0.<com.nloko.android.syncmypix.MainActivity: void login()>()
+314ZZZonClick:com.nloko.android.syncmypix.MainActivity$2:$r5 = staticinvoke <com.nloko.android.syncmypix.MainActivity: java.lang.Class getSyncSource(android.content.Context)>($r4)
+313ZZZonClick:com.nloko.android.syncmypix.MainActivity$2:$r4 = virtualinvoke $r2.<com.nloko.android.syncmypix.MainActivity: android.content.Context getApplicationContext()>()
+312ZZZonClick:com.nloko.android.syncmypix.MainActivity$2:$r2 = $r0.<com.nloko.android.syncmypix.MainActivity$2: com.nloko.android.syncmypix.MainActivity this$0>
+311ZZZonClick:com.nloko.android.syncmypix.MainActivity$2:$r3 = virtualinvoke $r2.<com.nloko.android.syncmypix.MainActivity: android.content.Context getApplicationContext()>()
+299ZZZ<init>:com.nloko.android.syncmypix.MainActivity$14:specialinvoke $r0.<java.lang.Object: void <init>()>()
+298ZZZ<init>:com.nloko.android.syncmypix.MainActivity$14:$r0.<com.nloko.android.syncmypix.MainActivity$14: com.nloko.android.syncmypix.MainActivity this$0> = $r1
+282ZZZ<init>:com.nloko.android.syncmypix.MainActivity$12:specialinvoke $r0.<java.lang.Object: void <init>()>()
+281ZZZ<init>:com.nloko.android.syncmypix.MainActivity$12:$r0.<com.nloko.android.syncmypix.MainActivity$12: com.nloko.android.syncmypix.MainActivity this$0> = $r1
+278ZZZcreateAboutDialog:com.nloko.android.syncmypix.MainActivity:$r12 = (android.widget.Button) $r8
+273ZZZcreateAboutDialog:com.nloko.android.syncmypix.MainActivity:$r5 = virtualinvoke $r11.<java.lang.StringBuilder: java.lang.String toString()>()
+268ZZZcreateAboutDialog:com.nloko.android.syncmypix.MainActivity:$r10 = virtualinvoke $r0.<com.nloko.android.syncmypix.MainActivity: android.content.Context getBaseContext()>()
+265ZZZcreateAboutDialog:com.nloko.android.syncmypix.MainActivity:$r9 = (android.widget.LinearLayout) $r8
+259ZZZcreateAboutDialog:com.nloko.android.syncmypix.MainActivity:$r5 = $r7.<android.content.pm.PackageInfo: java.lang.String versionName>
+258ZZZcreateAboutDialog:com.nloko.android.syncmypix.MainActivity:$r7 = virtualinvoke $r4.<android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)>($r6, 0)
+257ZZZcreateAboutDialog:com.nloko.android.syncmypix.MainActivity:$r6 = virtualinvoke $r0.<com.nloko.android.syncmypix.MainActivity: java.lang.String getPackageName()>()
+256ZZZcreateAboutDialog:com.nloko.android.syncmypix.MainActivity:$r5 = null
+255ZZZcreateAboutDialog:com.nloko.android.syncmypix.MainActivity:$r4 = virtualinvoke $r0.<com.nloko.android.syncmypix.MainActivity: android.content.pm.PackageManager getPackageManager()>()
+244ZZZonCreateDialog:com.nloko.android.syncmypix.MainActivity:specialinvoke $r8.<com.nloko.android.syncmypix.MainActivity$11: void <init>(com.nloko.android.syncmypix.MainActivity)>($r0)
+243ZZZonCreateDialog:com.nloko.android.syncmypix.MainActivity:$r8 = new com.nloko.android.syncmypix.MainActivity$11
+242ZZZonCreateDialog:com.nloko.android.syncmypix.MainActivity:$r6 = virtualinvoke $r6.<android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setPositiveButton(java.lang.CharSequence,android.content.DialogInterface$OnClickListener)>("Yes", $r7)
+241ZZZ<init>:com.nloko.android.syncmypix.MainActivity$10:specialinvoke $r0.<java.lang.Object: void <init>()>()
+240ZZZ<init>:com.nloko.android.syncmypix.MainActivity$10:$r0.<com.nloko.android.syncmypix.MainActivity$10: com.nloko.android.syncmypix.MainActivity this$0> = $r1
+233ZZZonCreateDialog:com.nloko.android.syncmypix.MainActivity:specialinvoke $r1.<android.app.AlertDialog$Builder: void <init>(android.content.Context)>($r0)
+232ZZZonCreateDialog:com.nloko.android.syncmypix.MainActivity:$r1 = new android.app.AlertDialog$Builder
+231ZZZonCreateDialog:com.nloko.android.syncmypix.MainActivity:lookupswitch($i0) {     case 1: goto $r1 = new android.app.AlertDialog$Builder;     case 2: goto $r3 = specialinvoke $r0.<com.nloko.android.syncmypix.MainActivity: android.app.Dialog createAboutDialog()>();     case 3: goto $r4 = new com.nloko.android.syncmypix.views.ConfirmSyncDialog;     case 4: goto $r2 = new android.app.ProgressDialog;     default: goto $r3 = specialinvoke $r0.<android.app.Activity: android.app.Dialog onCreateDialog(int)>($i0); }
+230ZZZonClick:com.nloko.android.syncmypix.MainActivity$7:virtualinvoke $r2.<com.nloko.android.syncmypix.MainActivity: void showDialog(int)>(1)
+229ZZZonClick:com.nloko.android.syncmypix.MainActivity$7:$r2 = $r0.<com.nloko.android.syncmypix.MainActivity$7: com.nloko.android.syncmypix.MainActivity this$0>
+194ZZZ<init>:com.nloko.android.syncmypix.SyncService$LocalBinder:specialinvoke $r2.<java.lang.ref.WeakReference: void <init>(java.lang.Object)>($r1)
+193ZZZ<init>:com.nloko.android.syncmypix.SyncService$LocalBinder:$r2 = new java.lang.ref.WeakReference
+192ZZZ<init>:com.nloko.android.syncmypix.SyncService$LocalBinder:specialinvoke $r0.<android.os.Binder: void <init>()>()
+155ZZZonStart:com.nloko.android.syncmypix.MainActivity:$r4 = staticinvoke <com.nloko.android.syncmypix.MainActivity: java.lang.Class getSyncSource(android.content.Context)>($r3)
+154ZZZonStart:com.nloko.android.syncmypix.MainActivity:$r3 = virtualinvoke $r0.<com.nloko.android.syncmypix.MainActivity: android.content.Context getApplicationContext()>()
+153ZZZonStart:com.nloko.android.syncmypix.MainActivity:$r2 = virtualinvoke $r0.<com.nloko.android.syncmypix.MainActivity: android.content.Context getApplicationContext()>()
+152ZZZonStart:com.nloko.android.syncmypix.MainActivity:$r1 = new android.content.Intent
+151ZZZonStart:com.nloko.android.syncmypix.MainActivity:if $z0 != 0 goto return
+150ZZZonStart:com.nloko.android.syncmypix.MainActivity:$z0 = $r0.<com.nloko.android.syncmypix.MainActivity: boolean mSyncServiceBound>
+149ZZZonStart:com.nloko.android.syncmypix.MainActivity:specialinvoke $r0.<android.app.Activity: void onStart()>()
+136ZZZonCreate:com.nloko.android.syncmypix.MainActivity:specialinvoke $r8.<com.nloko.android.syncmypix.MainActivity$6: void <init>(com.nloko.android.syncmypix.MainActivity)>($r0)
+135ZZZonCreate:com.nloko.android.syncmypix.MainActivity:$r8 = new com.nloko.android.syncmypix.MainActivity$6
+134ZZZonCreate:com.nloko.android.syncmypix.MainActivity:$r3 = $r0.<com.nloko.android.syncmypix.MainActivity: android.widget.ImageButton mHelpButton>
+133ZZZonCreate:com.nloko.android.syncmypix.MainActivity:$r0.<com.nloko.android.syncmypix.MainActivity: android.widget.ImageButton mHelpButton> = $r3
+132ZZZonCreate:com.nloko.android.syncmypix.MainActivity:$r3 = (android.widget.ImageButton) $r2
+131ZZZonCreate:com.nloko.android.syncmypix.MainActivity:$r2 = virtualinvoke $r0.<com.nloko.android.syncmypix.MainActivity: android.view.View findViewById(int)>(2131165208)
+130ZZZonCreate:com.nloko.android.syncmypix.MainActivity:virtualinvoke $r3.<android.widget.ImageButton: void setOnClickListener(android.view.View$OnClickListener)>($r7)
+129ZZZ<init>:com.nloko.android.syncmypix.MainActivity$5:specialinvoke $r0.<java.lang.Object: void <init>()>()
+128ZZZ<init>:com.nloko.android.syncmypix.MainActivity$5:$r0.<com.nloko.android.syncmypix.MainActivity$5: com.nloko.android.syncmypix.MainActivity this$0> = $r1
+120ZZZonCreate:com.nloko.android.syncmypix.MainActivity:specialinvoke $r6.<com.nloko.android.syncmypix.MainActivity$4: void <init>(com.nloko.android.syncmypix.MainActivity)>($r0)
+119ZZZonCreate:com.nloko.android.syncmypix.MainActivity:$r6 = new com.nloko.android.syncmypix.MainActivity$4
+117ZZZonCreate:com.nloko.android.syncmypix.MainActivity:$r2 = virtualinvoke $r0.<com.nloko.android.syncmypix.MainActivity: android.view.View findViewById(int)>(2131165204)
+116ZZZonCreate:com.nloko.android.syncmypix.MainActivity:virtualinvoke $r3.<android.widget.ImageButton: void setOnClickListener(android.view.View$OnClickListener)>($r5)
+115ZZZ<init>:com.nloko.android.syncmypix.MainActivity$3:specialinvoke $r0.<java.lang.Object: void <init>()>()
+114ZZZ<init>:com.nloko.android.syncmypix.MainActivity$3:$r0.<com.nloko.android.syncmypix.MainActivity$3: com.nloko.android.syncmypix.MainActivity this$0> = $r1
+106ZZZonCreate:com.nloko.android.syncmypix.MainActivity:specialinvoke $r4.<com.nloko.android.syncmypix.MainActivity$2: void <init>(com.nloko.android.syncmypix.MainActivity)>($r0)
+105ZZZonCreate:com.nloko.android.syncmypix.MainActivity:$r4 = new com.nloko.android.syncmypix.MainActivity$2
+103ZZZonCreate:com.nloko.android.syncmypix.MainActivity:$r2 = virtualinvoke $r0.<com.nloko.android.syncmypix.MainActivity: android.view.View findViewById(int)>(2131165198)
+102ZZZonCreate:com.nloko.android.syncmypix.MainActivity:virtualinvoke $r0.<com.nloko.android.syncmypix.MainActivity: void setContentView(int)>(2130903043)
+101ZZZonCreate:com.nloko.android.syncmypix.MainActivity:specialinvoke $r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)
+100ZZZ<init>:com.nloko.android.syncmypix.MainActivity:$r0.<com.nloko.android.syncmypix.MainActivity: android.content.ServiceConnection mSyncServiceConn> = $r1
+97ZZZ<init>:com.nloko.android.syncmypix.MainActivity:specialinvoke $r1.<com.nloko.android.syncmypix.MainActivity$1: void <init>(com.nloko.android.syncmypix.MainActivity)>($r0)
+96ZZZ<init>:com.nloko.android.syncmypix.MainActivity:$r1 = new com.nloko.android.syncmypix.MainActivity$1
+95ZZZ<init>:com.nloko.android.syncmypix.MainActivity:$r0.<com.nloko.android.syncmypix.MainActivity: boolean mSyncServiceBound> = 0
+94ZZZ<init>:com.nloko.android.syncmypix.MainActivity:$r0.<com.nloko.android.syncmypix.MainActivity: int DELETING> = 4
+93ZZZ<init>:com.nloko.android.syncmypix.MainActivity:$r0.<com.nloko.android.syncmypix.MainActivity: int CONFIRM_DIALOG> = 3
+92ZZZ<init>:com.nloko.android.syncmypix.MainActivity:$r0.<com.nloko.android.syncmypix.MainActivity: int ABOUT_DIALOG> = 2
+91ZZZ<init>:com.nloko.android.syncmypix.MainActivity:$r0.<com.nloko.android.syncmypix.MainActivity: int DELETE_DIALOG> = 1
+90ZZZ<init>:com.nloko.android.syncmypix.MainActivity:$r0.<com.nloko.android.syncmypix.MainActivity: int MENU_LOG> = 5
+89ZZZ<init>:com.nloko.android.syncmypix.MainActivity:$r0.<com.nloko.android.syncmypix.MainActivity: int MENU_LOGOUT> = 3
+88ZZZ<init>:com.nloko.android.syncmypix.MainActivity:specialinvoke $r0.<android.app.Activity: void <init>()>()
+86ZZZ<init>:com.nloko.android.syncmypix.SyncMyPixProvider$DatabaseHelper:specialinvoke $r0.<android.database.sqlite.SQLiteOpenHelper: void <init>(android.content.Context,java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>($r1, "syncpix.db", null, 7)
+83ZZZonCreate:com.nloko.android.syncmypix.SyncMyPixProvider:$r2 = new com.nloko.android.syncmypix.SyncMyPixProvider$DatabaseHelper
+81ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("friend_id", "friend_id")
+80ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:$r1 = <com.nloko.android.syncmypix.SyncMyPixProvider: java.util.HashMap resultsProjection>
+79ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("lookup_key", "lookup_key")
+77ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("contact_id", "contact_id")
+75ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("description", "description")
+73ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("pic_url", "pic_url")
+71ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("name", "name")
+69ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("sync_id", "sync_id")
+67ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("_id", "results._id")
+65ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("not_found", "not_found")
+63ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("skipped", "skipped")
+61ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("updated", "updated")
+59ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("date_completed", "date_completed")
+57ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("date_started", "date_started")
+55ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("source", "source")
+53ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("_id", "sync._id")
+51ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:<com.nloko.android.syncmypix.SyncMyPixProvider: java.util.HashMap resultsProjection> = $r1
+50ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:specialinvoke $r1.<java.util.HashMap: void <init>()>()
+49ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:$r1 = new java.util.HashMap
+47ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:$r1 = <com.nloko.android.syncmypix.SyncMyPixProvider: java.util.HashMap syncProjection>
+34ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:<com.nloko.android.syncmypix.SyncMyPixProvider: java.util.HashMap syncProjection> = $r1
+30ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:$r1 = <com.nloko.android.syncmypix.SyncMyPixProvider: java.util.HashMap contactsProjection>
+27ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("network_photo_hash", "network_photo_hash")
+25ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("photo_hash", "photo_hash")
+19ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:virtualinvoke $r1.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>("_id", "_id")
+17ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:<com.nloko.android.syncmypix.SyncMyPixProvider: java.util.HashMap contactsProjection> = $r1
+14ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:virtualinvoke $r0.<android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>("com.nloko.provider.SyncMyPix", "sync/#", 6)
+13ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:$r0 = <com.nloko.android.syncmypix.SyncMyPixProvider: android.content.UriMatcher uriMatcher>
+12ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:virtualinvoke $r0.<android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>("com.nloko.provider.SyncMyPix", "sync", 5)
+10ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:virtualinvoke $r0.<android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>("com.nloko.provider.SyncMyPix", "results/#", 4)
+8ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:virtualinvoke $r0.<android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>("com.nloko.provider.SyncMyPix", "results", 3)
+6ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:virtualinvoke $r0.<android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>("com.nloko.provider.SyncMyPix", "contacts/#", 2)
+4ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:virtualinvoke $r0.<android.content.UriMatcher: void addURI(java.lang.String,java.lang.String,int)>("com.nloko.provider.SyncMyPix", "contacts", 1)
+2ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:<com.nloko.android.syncmypix.SyncMyPixProvider: android.content.UriMatcher uriMatcher> = $r0
+1ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:specialinvoke $r0.<android.content.UriMatcher: void <init>(int)>(-1)
+0ZZZ<clinit>:com.nloko.android.syncmypix.SyncMyPixProvider:$r0 = new android.content.UriMatcher

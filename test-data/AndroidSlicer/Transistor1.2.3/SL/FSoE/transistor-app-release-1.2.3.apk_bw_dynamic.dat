@@ -1,0 +1,112 @@
+57451ZZZdoInBackground:org.y20k.transistor.helpers.StationFetcher:$z0 = virtualinvoke $r2.<java.lang.String: boolean startsWith(java.lang.String)>("http")
+57450ZZZdoInBackground:org.y20k.transistor.helpers.StationFetcher:$r2 = $r0.<org.y20k.transistor.helpers.StationFetcher: java.lang.String mStationUriScheme>
+57449ZZZdoInBackground:org.y20k.transistor.helpers.StationFetcher:if $z0 == 0 goto $z0 = $r0.<org.y20k.transistor.helpers.StationFetcher: boolean mFolderExists>
+57448ZZZdoInBackground:org.y20k.transistor.helpers.StationFetcher:$z0 = $r0.<org.y20k.transistor.helpers.StationFetcher: boolean mFolderExists>
+57445ZZZonClick:org.y20k.transistor.helpers.DialogAddStation$1:virtualinvoke $r2.<org.y20k.transistor.helpers.StationFetcher: android.os.AsyncTask execute(java.lang.Object[])>($r9)
+57444ZZZonClick:org.y20k.transistor.helpers.DialogAddStation$1:$r9 = newarray (java.lang.Void)[0]
+57416ZZZ<init>:org.y20k.transistor.core.Collection:specialinvoke $r5.<java.io.File: void <init>(java.io.File,java.lang.String)>($r1, ".nomedia")
+57415ZZZ<init>:org.y20k.transistor.core.Collection:$r5 = new java.io.File
+57414ZZZ<init>:org.y20k.transistor.core.Collection:specialinvoke $r0.<java.lang.Object: void <init>()>()
+57382ZZZ<init>:org.y20k.transistor.helpers.StationFetcher:$r3 = specialinvoke $r0.<org.y20k.transistor.helpers.StationFetcher: java.io.File getCollectionDirectory(java.lang.String)>("Collection")
+57381ZZZ<init>:org.y20k.transistor.helpers.StationFetcher:$r0.<org.y20k.transistor.helpers.StationFetcher: java.lang.String mStationUriScheme> = $r4
+57380ZZZ<init>:org.y20k.transistor.helpers.StationFetcher:$r4 = virtualinvoke $r1.<android.net.Uri: java.lang.String getScheme()>()
+57379ZZZ<init>:org.y20k.transistor.helpers.StationFetcher:$r0.<org.y20k.transistor.helpers.StationFetcher: android.net.Uri mStationUri> = $r1
+57378ZZZ<init>:org.y20k.transistor.helpers.StationFetcher:$r0.<org.y20k.transistor.helpers.StationFetcher: android.app.Activity mActivity> = $r2
+57377ZZZ<init>:org.y20k.transistor.helpers.StationFetcher:specialinvoke $r0.<android.os.AsyncTask: void <init>()>()
+57376ZZZonClick:org.y20k.transistor.helpers.DialogAddStation$1:specialinvoke $r2.<org.y20k.transistor.helpers.StationFetcher: void <init>(android.net.Uri,android.app.Activity)>($r6, $r8)
+57374ZZZonClick:org.y20k.transistor.helpers.DialogAddStation$1:$r8 = staticinvoke <org.y20k.transistor.helpers.DialogAddStation: android.app.Activity access$000(org.y20k.transistor.helpers.DialogAddStation)>($r7)
+57373ZZZonClick:org.y20k.transistor.helpers.DialogAddStation$1:$r7 = $r0.<org.y20k.transistor.helpers.DialogAddStation$1: org.y20k.transistor.helpers.DialogAddStation this$0>
+57372ZZZonClick:org.y20k.transistor.helpers.DialogAddStation$1:$r6 = staticinvoke <android.net.Uri: android.net.Uri parse(java.lang.String)>($r5)
+57371ZZZonClick:org.y20k.transistor.helpers.DialogAddStation$1:$r5 = virtualinvoke $r5.<java.lang.String: java.lang.String trim()>()
+53582ZZZshow:org.y20k.transistor.helpers.DialogAddStation:specialinvoke $r8.<org.y20k.transistor.helpers.DialogAddStation$2: void <init>(org.y20k.transistor.helpers.DialogAddStation)>($r0)
+53581ZZZshow:org.y20k.transistor.helpers.DialogAddStation:$r8 = new org.y20k.transistor.helpers.DialogAddStation$2
+53580ZZZshow:org.y20k.transistor.helpers.DialogAddStation:virtualinvoke $r1.<android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setPositiveButton(int,android.content.DialogInterface$OnClickListener)>(2131165214, $r7)
+53579ZZZ<init>:org.y20k.transistor.helpers.DialogAddStation$1:specialinvoke $r0.<java.lang.Object: void <init>()>()
+53578ZZZ<init>:org.y20k.transistor.helpers.DialogAddStation$1:$r0.<org.y20k.transistor.helpers.DialogAddStation$1: android.widget.EditText val$inputField> = $r2
+53577ZZZ<init>:org.y20k.transistor.helpers.DialogAddStation$1:$r0.<org.y20k.transistor.helpers.DialogAddStation$1: org.y20k.transistor.helpers.DialogAddStation this$0> = $r1
+52848ZZZonOptionsItemSelected:org.y20k.transistor.MainActivityFragment:virtualinvoke $r2.<org.y20k.transistor.helpers.DialogAddStation: void show()>()
+52847ZZZ<init>:org.y20k.transistor.helpers.DialogAddStation:$r0.<org.y20k.transistor.helpers.DialogAddStation: android.app.Activity mActivity> = $r1
+52846ZZZ<init>:org.y20k.transistor.helpers.DialogAddStation:specialinvoke $r0.<java.lang.Object: void <init>()>()
+50103ZZZshow:org.y20k.transistor.helpers.DialogAddStation:specialinvoke $r1.<android.app.AlertDialog$Builder: void <init>(android.content.Context)>($r2)
+50102ZZZshow:org.y20k.transistor.helpers.DialogAddStation:$r2 = $r0.<org.y20k.transistor.helpers.DialogAddStation: android.app.Activity mActivity>
+50101ZZZshow:org.y20k.transistor.helpers.DialogAddStation:$r1 = new android.app.AlertDialog$Builder
+50100ZZZshow:org.y20k.transistor.helpers.DialogAddStation:$r3 = staticinvoke <android.view.LayoutInflater: android.view.LayoutInflater 'from'(android.content.Context)>($r2)
+50095ZZZonOptionsItemSelected:org.y20k.transistor.MainActivityFragment:specialinvoke $r2.<org.y20k.transistor.helpers.DialogAddStation: void <init>(android.app.Activity)>($r3)
+50094ZZZonOptionsItemSelected:org.y20k.transistor.MainActivityFragment:$r3 = $r0.<org.y20k.transistor.MainActivityFragment: android.app.Activity mActivity>
+50093ZZZonOptionsItemSelected:org.y20k.transistor.MainActivityFragment:$r2 = new org.y20k.transistor.helpers.DialogAddStation
+50092ZZZonOptionsItemSelected:org.y20k.transistor.MainActivityFragment:if $i0 != 2131558550 goto (branch)
+50090ZZZonOptionsItemSelected:org.y20k.transistor.MainActivityFragment:$i0 = interfaceinvoke $r1.<android.view.MenuItem: int getItemId()>()
+10689ZZZonResume:org.y20k.transistor.MainActivityFragment:specialinvoke $r0.<android.support.v4.app.Fragment: void onResume()>()
+10582ZZZonNewIntent:org.y20k.transistor.MainActivity:specialinvoke $r0.<android.support.v7.app.AppCompatActivity: void onNewIntent(android.content.Intent)>($r1)
+7885ZZZonCreateOptionsMenu:org.y20k.transistor.MainActivity:virtualinvoke $r2.<android.view.MenuInflater: void inflate(int,android.view.Menu)>(2131623936, $r1)
+7858ZZZonCreateOptionsMenu:org.y20k.transistor.MainActivity:$r2 = virtualinvoke $r0.<org.y20k.transistor.MainActivity: android.view.MenuInflater getMenuInflater()>()
+5289ZZZnotifyDataSetChanged:org.y20k.transistor.helpers.CollectionAdapter:specialinvoke $r0.<android.widget.BaseAdapter: void notifyDataSetChanged()>()
+5288ZZZfillCollectionAdapter:org.y20k.transistor.MainActivityFragment:virtualinvoke $r13.<org.y20k.transistor.helpers.CollectionAdapter: void notifyDataSetChanged()>()
+5287ZZZfillCollectionAdapter:org.y20k.transistor.MainActivityFragment:$r13 = $r0.<org.y20k.transistor.MainActivityFragment: org.y20k.transistor.helpers.CollectionAdapter mCollectionAdapter>
+5251ZZZ<init>:org.y20k.transistor.core.Collection:specialinvoke $r4.<java.io.FileOutputStream: void <init>(java.io.File)>($r5)
+5250ZZZ<init>:org.y20k.transistor.core.Collection:$r4 = new java.io.FileOutputStream
+5249ZZZ<init>:org.y20k.transistor.core.Collection:staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>($r6, $r8)
+5248ZZZ<init>:org.y20k.transistor.core.Collection:$r8 = virtualinvoke $r7.<java.lang.StringBuilder: java.lang.String toString()>()
+5247ZZZ<init>:org.y20k.transistor.core.Collection:$r7 = virtualinvoke $r7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r8)
+5246ZZZ<init>:org.y20k.transistor.core.Collection:$r8 = virtualinvoke $r1.<java.io.File: java.lang.String toString()>()
+5245ZZZ<init>:org.y20k.transistor.core.Collection:$r1 = $r0.<org.y20k.transistor.core.Collection: java.io.File mFolder>
+5244ZZZ<init>:org.y20k.transistor.core.Collection:$r7 = virtualinvoke $r7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Creating .nomedia file in folder: ")
+5243ZZZ<init>:org.y20k.transistor.core.Collection:specialinvoke $r7.<java.lang.StringBuilder: void <init>()>()
+5242ZZZ<init>:org.y20k.transistor.core.Collection:$r7 = new java.lang.StringBuilder
+5241ZZZ<init>:org.y20k.transistor.core.Collection:$r6 = <org.y20k.transistor.core.Collection: java.lang.String LOG_TAG>
+5240ZZZ<init>:org.y20k.transistor.core.Collection:if $z0 != 0 goto $r10 = new java.util.LinkedList
+5239ZZZ<init>:org.y20k.transistor.core.Collection:$z0 = virtualinvoke $r5.<java.io.File: boolean exists()>()
+5238ZZZ<init>:org.y20k.transistor.core.Collection:if $z0 != 0 goto $z0 = virtualinvoke $r5.<java.io.File: boolean exists()>()
+5237ZZZ<init>:org.y20k.transistor.core.Collection:$z0 = virtualinvoke $r1.<java.io.File: boolean exists()>()
+5235ZZZ<init>:org.y20k.transistor.core.Collection:$r0.<org.y20k.transistor.core.Collection: java.io.File mFolder> = $r1
+5231ZZZfillCollectionAdapter:org.y20k.transistor.MainActivityFragment:specialinvoke $r6.<org.y20k.transistor.core.Collection: void <init>(java.io.File)>($r4)
+5230ZZZfillCollectionAdapter:org.y20k.transistor.MainActivityFragment:$r4 = $r0.<org.y20k.transistor.MainActivityFragment: java.io.File mFolder>
+5226ZZZfillCollectionAdapter:org.y20k.transistor.MainActivityFragment:$r6 = new org.y20k.transistor.core.Collection
+5225ZZZfillCollectionAdapter:org.y20k.transistor.MainActivityFragment:staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>($r2, $r5)
+5224ZZZfillCollectionAdapter:org.y20k.transistor.MainActivityFragment:$r5 = virtualinvoke $r3.<java.lang.StringBuilder: java.lang.String toString()>()
+5223ZZZfillCollectionAdapter:org.y20k.transistor.MainActivityFragment:$r3 = virtualinvoke $r3.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(").")
+5222ZZZfillCollectionAdapter:org.y20k.transistor.MainActivityFragment:$r3 = virtualinvoke $r3.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r5)
+5221ZZZfillCollectionAdapter:org.y20k.transistor.MainActivityFragment:$r5 = virtualinvoke $r4.<java.io.File: java.lang.String toString()>()
+5219ZZZfillCollectionAdapter:org.y20k.transistor.MainActivityFragment:$r3 = virtualinvoke $r3.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Create collection of stations (folder:")
+5218ZZZfillCollectionAdapter:org.y20k.transistor.MainActivityFragment:specialinvoke $r3.<java.lang.StringBuilder: void <init>()>()
+5217ZZZfillCollectionAdapter:org.y20k.transistor.MainActivityFragment:$r3 = new java.lang.StringBuilder
+5216ZZZfillCollectionAdapter:org.y20k.transistor.MainActivityFragment:$r2 = <org.y20k.transistor.MainActivityFragment: java.lang.String LOG_TAG>
+5211ZZZonStart:org.y20k.transistor.MainActivityFragment:specialinvoke $r0.<org.y20k.transistor.MainActivityFragment: void refreshStationList()>()
+5182ZZZonStart:org.y20k.transistor.MainActivityFragment:specialinvoke $r0.<android.support.v4.app.Fragment: void onStart()>()
+4856ZZZonCreateView:org.y20k.transistor.MainActivityFragment:specialinvoke $r9.<org.y20k.transistor.MainActivityFragment$3: void <init>(org.y20k.transistor.MainActivityFragment)>($r0)
+4855ZZZonCreateView:org.y20k.transistor.MainActivityFragment:$r9 = new org.y20k.transistor.MainActivityFragment$3
+4854ZZZonCreateView:org.y20k.transistor.MainActivityFragment:$r6 = $r0.<org.y20k.transistor.MainActivityFragment: android.widget.ListView mListView>
+4853ZZZonCreateView:org.y20k.transistor.MainActivityFragment:virtualinvoke $r6.<android.widget.ListView: void setOnItemClickListener(android.widget.AdapterView$OnItemClickListener)>($r8)
+4852ZZZ<init>:org.y20k.transistor.MainActivityFragment$2:specialinvoke $r0.<java.lang.Object: void <init>()>()
+4851ZZZ<init>:org.y20k.transistor.MainActivityFragment$2:$r0.<org.y20k.transistor.MainActivityFragment$2: org.y20k.transistor.MainActivityFragment this$0> = $r1
+4058ZZZinitializeBroadcastReceivers:org.y20k.transistor.MainActivityFragment:specialinvoke $r3.<org.y20k.transistor.MainActivityFragment$7: void <init>(org.y20k.transistor.MainActivityFragment)>($r0)
+4057ZZZinitializeBroadcastReceivers:org.y20k.transistor.MainActivityFragment:$r3 = new org.y20k.transistor.MainActivityFragment$7
+4025ZZZinitializeBroadcastReceivers:org.y20k.transistor.MainActivityFragment:virtualinvoke $r7.<android.support.v4.content.LocalBroadcastManager: void registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>($r2, $r1)
+4020ZZZinitializeBroadcastReceivers:org.y20k.transistor.MainActivityFragment:$r7 = staticinvoke <android.support.v4.content.LocalBroadcastManager: android.support.v4.content.LocalBroadcastManager getInstance(android.content.Context)>($r6)
+4019ZZZinitializeBroadcastReceivers:org.y20k.transistor.MainActivityFragment:$r6 = $r0.<org.y20k.transistor.MainActivityFragment: android.app.Application mApplication>
+4018ZZZinitializeBroadcastReceivers:org.y20k.transistor.MainActivityFragment:specialinvoke $r1.<android.content.IntentFilter: void <init>(java.lang.String)>("org.y20k.transistor.action.COLLECTION_CHANGED")
+4017ZZZinitializeBroadcastReceivers:org.y20k.transistor.MainActivityFragment:$r1 = new android.content.IntentFilter
+4016ZZZ<init>:org.y20k.transistor.MainActivityFragment$6:specialinvoke $r0.<android.content.BroadcastReceiver: void <init>()>()
+4015ZZZ<init>:org.y20k.transistor.MainActivityFragment$6:$r0.<org.y20k.transistor.MainActivityFragment$6: org.y20k.transistor.MainActivityFragment this$0> = $r1
+3970ZZZinitializeBroadcastReceivers:org.y20k.transistor.MainActivityFragment:specialinvoke $r4.<org.y20k.transistor.MainActivityFragment$5: void <init>(org.y20k.transistor.MainActivityFragment)>($r0)
+3969ZZZinitializeBroadcastReceivers:org.y20k.transistor.MainActivityFragment:$r4 = new org.y20k.transistor.MainActivityFragment$5
+3937ZZZinitializeBroadcastReceivers:org.y20k.transistor.MainActivityFragment:virtualinvoke $r7.<android.support.v4.content.LocalBroadcastManager: void registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>($r5, $r1)
+3906ZZZinitializeBroadcastReceivers:org.y20k.transistor.MainActivityFragment:specialinvoke $r1.<android.content.IntentFilter: void <init>(java.lang.String)>("org.y20k.transistor.action.PLAYBACK_STOPPED")
+3904ZZZ<init>:org.y20k.transistor.MainActivityFragment$4:specialinvoke $r0.<android.content.BroadcastReceiver: void <init>()>()
+3903ZZZ<init>:org.y20k.transistor.MainActivityFragment$4:$r0.<org.y20k.transistor.MainActivityFragment$4: org.y20k.transistor.MainActivityFragment this$0> = $r1
+3895ZZZonCreate:org.y20k.transistor.MainActivityFragment:specialinvoke $r10.<org.y20k.transistor.MainActivityFragment$1: void <init>(org.y20k.transistor.MainActivityFragment)>($r0)
+3894ZZZonCreate:org.y20k.transistor.MainActivityFragment:$r10 = new org.y20k.transistor.MainActivityFragment$1
+3893ZZZonCreate:org.y20k.transistor.MainActivityFragment:$r9 = $r0.<org.y20k.transistor.MainActivityFragment: org.y20k.transistor.helpers.CollectionAdapter mCollectionAdapter>
+3892ZZZonCreate:org.y20k.transistor.MainActivityFragment:$r0.<org.y20k.transistor.MainActivityFragment: org.y20k.transistor.helpers.CollectionAdapter mCollectionAdapter> = $r9
+3886ZZZ<init>:org.y20k.transistor.helpers.CollectionAdapter:specialinvoke $r0.<org.y20k.transistor.helpers.CollectionAdapter: void loadPlaybackState(android.content.Context)>($r1)
+3885ZZZ<init>:org.y20k.transistor.helpers.CollectionAdapter:$r1 = $r0.<org.y20k.transistor.helpers.CollectionAdapter: android.app.Activity mActivity>
+3884ZZZ<init>:org.y20k.transistor.helpers.CollectionAdapter:$r0.<org.y20k.transistor.helpers.CollectionAdapter: org.y20k.transistor.helpers.CollectionAdapter$CollectionChangedListener mCollectionChangedListener> = null
+3883ZZZ<init>:org.y20k.transistor.helpers.CollectionAdapter:$r0.<org.y20k.transistor.helpers.CollectionAdapter: org.y20k.transistor.core.Collection mCollection> = null
+3882ZZZ<init>:org.y20k.transistor.helpers.CollectionAdapter:$r0.<org.y20k.transistor.helpers.CollectionAdapter: java.util.LinkedList mStationImages> = $r3
+3881ZZZ<init>:org.y20k.transistor.helpers.CollectionAdapter:$r0.<org.y20k.transistor.helpers.CollectionAdapter: java.util.LinkedList mStationNames> = $r2
+3880ZZZ<init>:org.y20k.transistor.helpers.CollectionAdapter:$r0.<org.y20k.transistor.helpers.CollectionAdapter: android.app.Activity mActivity> = $r1
+3879ZZZ<init>:org.y20k.transistor.helpers.CollectionAdapter:specialinvoke $r0.<android.widget.BaseAdapter: void <init>()>()
+3559ZZZonCreate:org.y20k.transistor.MainActivityFragment:specialinvoke $r0.<android.support.v4.app.Fragment: void onCreate(android.os.Bundle)>($r1)
+3417ZZZ<init>:org.y20k.transistor.MainActivityFragment:$r0.<org.y20k.transistor.MainActivityFragment: org.y20k.transistor.helpers.CollectionAdapter mCollectionAdapter> = null
+3399ZZZ<init>:org.y20k.transistor.MainActivityFragment:specialinvoke $r0.<android.support.v4.app.Fragment: void <init>()>()
+60ZZZonCreate:org.y20k.transistor.MainActivity:specialinvoke $r0.<android.support.v7.app.AppCompatActivity: void onCreate(android.os.Bundle)>($r1)
