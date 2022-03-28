@@ -56,7 +56,7 @@ ESDroid is in Python and Java. You can find the source code under "implementatio
         
    Finally, you will have the slices files wrt your slicing criteria
 
-#Replication package
+# Replication package
 
 This replication package is structured as follows:
 
