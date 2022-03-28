@@ -1,0 +1,335 @@
+499ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:virtualinvoke $r0.<net.phunehehe.foocam.MainActivity: void sendBroadcast(android.content.Intent)>(r12)
+-1ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:$r0 := @this: net.phunehehe.foocam.MainActivity
+-1ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:$r1 := @parameter0: byte[]
+-1ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:$r2 := @parameter1: android.hardware.Camera
+-1ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:$f0 = $r0.<net.phunehehe.foocam.MainActivity: float currentEv>
+-1ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:$r5 = specialinvoke $r0.<net.phunehehe.foocam.MainActivity: java.io.File getOutputMediaFile(float)>($f0)
+-1ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:r11 = new java.io.FileOutputStream
+-1ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:specialinvoke r11.<java.io.FileOutputStream: void <init>(java.io.File)>($r5)
+-1ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:virtualinvoke r11.<java.io.FileOutputStream: void write(byte[])>($r1)
+-1ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:virtualinvoke r11.<java.io.FileOutputStream: void close()>()
+-1ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:r12 = new android.content.Intent
+-1ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:$r7 = staticinvoke <android.net.Uri: android.net.Uri fromFile(java.io.File)>($r5)
+-1ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:specialinvoke r12.<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>("android.intent.action.MEDIA_MOUNTED", $r7)
+-1ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:virtualinvoke $r0.<net.phunehehe.foocam.MainActivity: void sendBroadcast(android.content.Intent)>(r12)
+-1ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:$r2 = $r0.<net.phunehehe.foocam.MainActivity: android.hardware.Camera camera>
+-1ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:virtualinvoke $r2.<android.hardware.Camera: void startPreview()>()
+-1ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:$z0 = specialinvoke $r0.<net.phunehehe.foocam.MainActivity: boolean processQueue()>()
+-1ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:if $z0 != 0 goto return
+-1ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:$r8 = $r0.<net.phunehehe.foocam.MainActivity: android.widget.Button captureButton>
+-1ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:virtualinvoke $r8.<android.widget.Button: void setText(int)>(2131034114)
+-1ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:virtualinvoke $r8.<android.widget.Button: void setClickable(boolean)>(1)
+-1ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:return
+-1ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:$r3 := @caughtexception
+-1ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:r13 = (java.io.IOException) $r3
+-1ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:$r9 = virtualinvoke r13.<java.io.IOException: java.lang.String getMessage()>()
+-1ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:$r10 = staticinvoke <android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)>($r0, $r9, 0)
+-1ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:virtualinvoke $r10.<android.widget.Toast: void show()>()
+-1ZZZonPictureTaken:net.phunehehe.foocam.MainActivity:goto [?= $r2 = $r0.<net.phunehehe.foocam.MainActivity: android.hardware.Camera camera>]
+491ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:specialinvoke $r5.<java.io.File: void <init>(java.lang.String)>($r2)
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r0 := @this: net.phunehehe.foocam.MainActivity
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$f0 := @parameter0: float
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r2 = "mounted"
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r3 = staticinvoke <android.os.Environment: java.lang.String getExternalStorageState()>()
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$z0 = virtualinvoke $r2.<java.lang.String: boolean equals(java.lang.Object)>($r3)
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:if $z0 != 0 goto $r1 = new java.io.File
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r4 = new java.io.IOException
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r2 = virtualinvoke $r0.<net.phunehehe.foocam.MainActivity: java.lang.String getString(int)>(2131034116)
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:specialinvoke $r4.<java.io.IOException: void <init>(java.lang.String)>($r2)
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:throw $r4
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r1 = new java.io.File
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r2 = <android.os.Environment: java.lang.String DIRECTORY_DCIM>
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r5 = staticinvoke <android.os.Environment: java.io.File getExternalStoragePublicDirectory(java.lang.String)>($r2)
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r2 = virtualinvoke $r0.<net.phunehehe.foocam.MainActivity: java.lang.String getString(int)>(2131034112)
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:specialinvoke $r1.<java.io.File: void <init>(java.io.File,java.lang.String)>($r5, $r2)
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$z0 = virtualinvoke $r1.<java.io.File: boolean exists()>()
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:if $z0 != 0 goto $r5 = new java.io.File
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$z0 = virtualinvoke $r1.<java.io.File: boolean mkdirs()>()
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r6 = newarray (java.lang.Object)[1]
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r6[0] = $r1
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r2 = specialinvoke $r0.<net.phunehehe.foocam.MainActivity: java.lang.String format(int,java.lang.Object[])>(2131034113, $r6)
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r5 = new java.io.File
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r6 = newarray (java.lang.Object)[4]
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r2 = virtualinvoke $r1.<java.io.File: java.lang.String getPath()>()
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r6[0] = $r2
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r2 = <java.io.File: java.lang.String separator>
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r6[1] = $r2
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r2 = $r0.<net.phunehehe.foocam.MainActivity: java.lang.String timestamp>
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r6[2] = $r2
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r7 = staticinvoke <java.lang.Float: java.lang.Float valueOf(float)>($f0)
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r6[3] = $r7
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:$r2 = staticinvoke <java.lang.String: java.lang.String format(java.lang.String,java.lang.Object[])>("%s%s%s%.1f.jpg", $r6)
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:specialinvoke $r5.<java.io.File: void <init>(java.lang.String)>($r2)
+-1ZZZgetOutputMediaFile:net.phunehehe.foocam.MainActivity:return $r5
+439ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: boolean access$400(net.phunehehe.foocam.MainActivity)>($r2)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r0 := @this: net.phunehehe.foocam.MainActivity$1
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r1 := @parameter0: android.view.View
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r2 = $r0.<net.phunehehe.foocam.MainActivity$1: net.phunehehe.foocam.MainActivity this$0>
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r3 = staticinvoke <net.phunehehe.foocam.MainActivity: android.widget.Button access$000(net.phunehehe.foocam.MainActivity)>($r2)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:virtualinvoke $r3.<android.widget.Button: void setClickable(boolean)>(0)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r4 = new java.text.SimpleDateFormat
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:specialinvoke $r4.<java.text.SimpleDateFormat: void <init>(java.lang.String)>("yyyyMMdd_HHmmss_")
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r5 = new java.util.Date
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:specialinvoke $r5.<java.util.Date: void <init>()>()
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r6 = virtualinvoke $r4.<java.text.SimpleDateFormat: java.lang.String format(java.util.Date)>($r5)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: java.lang.String access$102(net.phunehehe.foocam.MainActivity,java.lang.String)>($r2, $r6)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r7 = $r0.<net.phunehehe.foocam.MainActivity$1: net.phunehehe.foocam.MainActivity this$0>
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$i0 = staticinvoke <net.phunehehe.foocam.MainActivity: int access$200(net.phunehehe.foocam.MainActivity)>($r7)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: void access$300(net.phunehehe.foocam.MainActivity,int)>($r2, $i0)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: boolean access$400(net.phunehehe.foocam.MainActivity)>($r2)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:return
+407ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: void access$300(net.phunehehe.foocam.MainActivity,int)>($r2, $i0)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r0 := @this: net.phunehehe.foocam.MainActivity$1
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r1 := @parameter0: android.view.View
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r2 = $r0.<net.phunehehe.foocam.MainActivity$1: net.phunehehe.foocam.MainActivity this$0>
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r3 = staticinvoke <net.phunehehe.foocam.MainActivity: android.widget.Button access$000(net.phunehehe.foocam.MainActivity)>($r2)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:virtualinvoke $r3.<android.widget.Button: void setClickable(boolean)>(0)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r4 = new java.text.SimpleDateFormat
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:specialinvoke $r4.<java.text.SimpleDateFormat: void <init>(java.lang.String)>("yyyyMMdd_HHmmss_")
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r5 = new java.util.Date
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:specialinvoke $r5.<java.util.Date: void <init>()>()
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r6 = virtualinvoke $r4.<java.text.SimpleDateFormat: java.lang.String format(java.util.Date)>($r5)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: java.lang.String access$102(net.phunehehe.foocam.MainActivity,java.lang.String)>($r2, $r6)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r7 = $r0.<net.phunehehe.foocam.MainActivity$1: net.phunehehe.foocam.MainActivity this$0>
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$i0 = staticinvoke <net.phunehehe.foocam.MainActivity: int access$200(net.phunehehe.foocam.MainActivity)>($r7)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: void access$300(net.phunehehe.foocam.MainActivity,int)>($r2, $i0)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: boolean access$400(net.phunehehe.foocam.MainActivity)>($r2)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:return
+407ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: void access$300(net.phunehehe.foocam.MainActivity,int)>($r2, $i0)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r0 := @this: net.phunehehe.foocam.MainActivity$1
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r1 := @parameter0: android.view.View
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r2 = $r0.<net.phunehehe.foocam.MainActivity$1: net.phunehehe.foocam.MainActivity this$0>
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r3 = staticinvoke <net.phunehehe.foocam.MainActivity: android.widget.Button access$000(net.phunehehe.foocam.MainActivity)>($r2)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:virtualinvoke $r3.<android.widget.Button: void setClickable(boolean)>(0)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r4 = new java.text.SimpleDateFormat
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:specialinvoke $r4.<java.text.SimpleDateFormat: void <init>(java.lang.String)>("yyyyMMdd_HHmmss_")
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r5 = new java.util.Date
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:specialinvoke $r5.<java.util.Date: void <init>()>()
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r6 = virtualinvoke $r4.<java.text.SimpleDateFormat: java.lang.String format(java.util.Date)>($r5)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: java.lang.String access$102(net.phunehehe.foocam.MainActivity,java.lang.String)>($r2, $r6)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r7 = $r0.<net.phunehehe.foocam.MainActivity$1: net.phunehehe.foocam.MainActivity this$0>
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$i0 = staticinvoke <net.phunehehe.foocam.MainActivity: int access$200(net.phunehehe.foocam.MainActivity)>($r7)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: void access$300(net.phunehehe.foocam.MainActivity,int)>($r2, $i0)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: boolean access$400(net.phunehehe.foocam.MainActivity)>($r2)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:return
+405ZZZonClick:net.phunehehe.foocam.MainActivity$1:$i0 = staticinvoke <net.phunehehe.foocam.MainActivity: int access$200(net.phunehehe.foocam.MainActivity)>($r7)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r0 := @this: net.phunehehe.foocam.MainActivity$1
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r1 := @parameter0: android.view.View
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r2 = $r0.<net.phunehehe.foocam.MainActivity$1: net.phunehehe.foocam.MainActivity this$0>
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r3 = staticinvoke <net.phunehehe.foocam.MainActivity: android.widget.Button access$000(net.phunehehe.foocam.MainActivity)>($r2)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:virtualinvoke $r3.<android.widget.Button: void setClickable(boolean)>(0)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r4 = new java.text.SimpleDateFormat
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:specialinvoke $r4.<java.text.SimpleDateFormat: void <init>(java.lang.String)>("yyyyMMdd_HHmmss_")
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r5 = new java.util.Date
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:specialinvoke $r5.<java.util.Date: void <init>()>()
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r6 = virtualinvoke $r4.<java.text.SimpleDateFormat: java.lang.String format(java.util.Date)>($r5)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: java.lang.String access$102(net.phunehehe.foocam.MainActivity,java.lang.String)>($r2, $r6)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r7 = $r0.<net.phunehehe.foocam.MainActivity$1: net.phunehehe.foocam.MainActivity this$0>
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$i0 = staticinvoke <net.phunehehe.foocam.MainActivity: int access$200(net.phunehehe.foocam.MainActivity)>($r7)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: void access$300(net.phunehehe.foocam.MainActivity,int)>($r2, $i0)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: boolean access$400(net.phunehehe.foocam.MainActivity)>($r2)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:return
+405ZZZonClick:net.phunehehe.foocam.MainActivity$1:$i0 = staticinvoke <net.phunehehe.foocam.MainActivity: int access$200(net.phunehehe.foocam.MainActivity)>($r7)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r0 := @this: net.phunehehe.foocam.MainActivity$1
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r1 := @parameter0: android.view.View
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r2 = $r0.<net.phunehehe.foocam.MainActivity$1: net.phunehehe.foocam.MainActivity this$0>
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r3 = staticinvoke <net.phunehehe.foocam.MainActivity: android.widget.Button access$000(net.phunehehe.foocam.MainActivity)>($r2)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:virtualinvoke $r3.<android.widget.Button: void setClickable(boolean)>(0)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r4 = new java.text.SimpleDateFormat
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:specialinvoke $r4.<java.text.SimpleDateFormat: void <init>(java.lang.String)>("yyyyMMdd_HHmmss_")
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r5 = new java.util.Date
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:specialinvoke $r5.<java.util.Date: void <init>()>()
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r6 = virtualinvoke $r4.<java.text.SimpleDateFormat: java.lang.String format(java.util.Date)>($r5)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: java.lang.String access$102(net.phunehehe.foocam.MainActivity,java.lang.String)>($r2, $r6)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r7 = $r0.<net.phunehehe.foocam.MainActivity$1: net.phunehehe.foocam.MainActivity this$0>
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$i0 = staticinvoke <net.phunehehe.foocam.MainActivity: int access$200(net.phunehehe.foocam.MainActivity)>($r7)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: void access$300(net.phunehehe.foocam.MainActivity,int)>($r2, $i0)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: boolean access$400(net.phunehehe.foocam.MainActivity)>($r2)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:return
+401ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: java.lang.String access$102(net.phunehehe.foocam.MainActivity,java.lang.String)>($r2, $r6)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r0 := @this: net.phunehehe.foocam.MainActivity$1
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r1 := @parameter0: android.view.View
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r2 = $r0.<net.phunehehe.foocam.MainActivity$1: net.phunehehe.foocam.MainActivity this$0>
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r3 = staticinvoke <net.phunehehe.foocam.MainActivity: android.widget.Button access$000(net.phunehehe.foocam.MainActivity)>($r2)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:virtualinvoke $r3.<android.widget.Button: void setClickable(boolean)>(0)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r4 = new java.text.SimpleDateFormat
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:specialinvoke $r4.<java.text.SimpleDateFormat: void <init>(java.lang.String)>("yyyyMMdd_HHmmss_")
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r5 = new java.util.Date
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:specialinvoke $r5.<java.util.Date: void <init>()>()
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r6 = virtualinvoke $r4.<java.text.SimpleDateFormat: java.lang.String format(java.util.Date)>($r5)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: java.lang.String access$102(net.phunehehe.foocam.MainActivity,java.lang.String)>($r2, $r6)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r7 = $r0.<net.phunehehe.foocam.MainActivity$1: net.phunehehe.foocam.MainActivity this$0>
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$i0 = staticinvoke <net.phunehehe.foocam.MainActivity: int access$200(net.phunehehe.foocam.MainActivity)>($r7)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: void access$300(net.phunehehe.foocam.MainActivity,int)>($r2, $i0)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: boolean access$400(net.phunehehe.foocam.MainActivity)>($r2)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:return
+401ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: java.lang.String access$102(net.phunehehe.foocam.MainActivity,java.lang.String)>($r2, $r6)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r0 := @this: net.phunehehe.foocam.MainActivity$1
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r1 := @parameter0: android.view.View
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r2 = $r0.<net.phunehehe.foocam.MainActivity$1: net.phunehehe.foocam.MainActivity this$0>
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r3 = staticinvoke <net.phunehehe.foocam.MainActivity: android.widget.Button access$000(net.phunehehe.foocam.MainActivity)>($r2)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:virtualinvoke $r3.<android.widget.Button: void setClickable(boolean)>(0)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r4 = new java.text.SimpleDateFormat
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:specialinvoke $r4.<java.text.SimpleDateFormat: void <init>(java.lang.String)>("yyyyMMdd_HHmmss_")
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r5 = new java.util.Date
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:specialinvoke $r5.<java.util.Date: void <init>()>()
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r6 = virtualinvoke $r4.<java.text.SimpleDateFormat: java.lang.String format(java.util.Date)>($r5)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: java.lang.String access$102(net.phunehehe.foocam.MainActivity,java.lang.String)>($r2, $r6)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r7 = $r0.<net.phunehehe.foocam.MainActivity$1: net.phunehehe.foocam.MainActivity this$0>
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$i0 = staticinvoke <net.phunehehe.foocam.MainActivity: int access$200(net.phunehehe.foocam.MainActivity)>($r7)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: void access$300(net.phunehehe.foocam.MainActivity,int)>($r2, $i0)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: boolean access$400(net.phunehehe.foocam.MainActivity)>($r2)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:return
+392ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r3 = staticinvoke <net.phunehehe.foocam.MainActivity: android.widget.Button access$000(net.phunehehe.foocam.MainActivity)>($r2)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r0 := @this: net.phunehehe.foocam.MainActivity$1
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r1 := @parameter0: android.view.View
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r2 = $r0.<net.phunehehe.foocam.MainActivity$1: net.phunehehe.foocam.MainActivity this$0>
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r3 = staticinvoke <net.phunehehe.foocam.MainActivity: android.widget.Button access$000(net.phunehehe.foocam.MainActivity)>($r2)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:virtualinvoke $r3.<android.widget.Button: void setClickable(boolean)>(0)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r4 = new java.text.SimpleDateFormat
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:specialinvoke $r4.<java.text.SimpleDateFormat: void <init>(java.lang.String)>("yyyyMMdd_HHmmss_")
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r5 = new java.util.Date
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:specialinvoke $r5.<java.util.Date: void <init>()>()
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r6 = virtualinvoke $r4.<java.text.SimpleDateFormat: java.lang.String format(java.util.Date)>($r5)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: java.lang.String access$102(net.phunehehe.foocam.MainActivity,java.lang.String)>($r2, $r6)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r7 = $r0.<net.phunehehe.foocam.MainActivity$1: net.phunehehe.foocam.MainActivity this$0>
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$i0 = staticinvoke <net.phunehehe.foocam.MainActivity: int access$200(net.phunehehe.foocam.MainActivity)>($r7)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: void access$300(net.phunehehe.foocam.MainActivity,int)>($r2, $i0)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: boolean access$400(net.phunehehe.foocam.MainActivity)>($r2)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:return
+392ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r3 = staticinvoke <net.phunehehe.foocam.MainActivity: android.widget.Button access$000(net.phunehehe.foocam.MainActivity)>($r2)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r0 := @this: net.phunehehe.foocam.MainActivity$1
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r1 := @parameter0: android.view.View
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r2 = $r0.<net.phunehehe.foocam.MainActivity$1: net.phunehehe.foocam.MainActivity this$0>
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r3 = staticinvoke <net.phunehehe.foocam.MainActivity: android.widget.Button access$000(net.phunehehe.foocam.MainActivity)>($r2)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:virtualinvoke $r3.<android.widget.Button: void setClickable(boolean)>(0)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r4 = new java.text.SimpleDateFormat
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:specialinvoke $r4.<java.text.SimpleDateFormat: void <init>(java.lang.String)>("yyyyMMdd_HHmmss_")
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r5 = new java.util.Date
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:specialinvoke $r5.<java.util.Date: void <init>()>()
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r6 = virtualinvoke $r4.<java.text.SimpleDateFormat: java.lang.String format(java.util.Date)>($r5)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: java.lang.String access$102(net.phunehehe.foocam.MainActivity,java.lang.String)>($r2, $r6)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$r7 = $r0.<net.phunehehe.foocam.MainActivity$1: net.phunehehe.foocam.MainActivity this$0>
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:$i0 = staticinvoke <net.phunehehe.foocam.MainActivity: int access$200(net.phunehehe.foocam.MainActivity)>($r7)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: void access$300(net.phunehehe.foocam.MainActivity,int)>($r2, $i0)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:staticinvoke <net.phunehehe.foocam.MainActivity: boolean access$400(net.phunehehe.foocam.MainActivity)>($r2)
+-1ZZZonClick:net.phunehehe.foocam.MainActivity$1:return
+385ZZZaccess$700:net.phunehehe.foocam.MainActivity:r1 = $r0.<net.phunehehe.foocam.MainActivity: android.hardware.Camera camera>
+-1ZZZaccess$700:net.phunehehe.foocam.MainActivity:$r0 := @parameter0: net.phunehehe.foocam.MainActivity
+-1ZZZaccess$700:net.phunehehe.foocam.MainActivity:r1 = $r0.<net.phunehehe.foocam.MainActivity: android.hardware.Camera camera>
+-1ZZZaccess$700:net.phunehehe.foocam.MainActivity:return r1
+320ZZZonResume:net.phunehehe.foocam.MainActivity:specialinvoke $r1.<net.phunehehe.foocam.CameraPreview: void <init>(android.content.Context,android.hardware.Camera)>($r0, $r2)
+-1ZZZonResume:net.phunehehe.foocam.MainActivity:$r0 := @this: net.phunehehe.foocam.MainActivity
+-1ZZZonResume:net.phunehehe.foocam.MainActivity:specialinvoke $r0.<android.app.Activity: void onResume()>()
+-1ZZZonResume:net.phunehehe.foocam.MainActivity:$r2 = $r0.<net.phunehehe.foocam.MainActivity: android.hardware.Camera camera>
+-1ZZZonResume:net.phunehehe.foocam.MainActivity:if $r2 != null goto $r1 = new net.phunehehe.foocam.CameraPreview
+-1ZZZonResume:net.phunehehe.foocam.MainActivity:specialinvoke $r0.<net.phunehehe.foocam.MainActivity: void initializeCamera()>()
+-1ZZZonResume:net.phunehehe.foocam.MainActivity:$r1 = new net.phunehehe.foocam.CameraPreview
+-1ZZZonResume:net.phunehehe.foocam.MainActivity:specialinvoke $r1.<net.phunehehe.foocam.CameraPreview: void <init>(android.content.Context,android.hardware.Camera)>($r0, $r2)
+-1ZZZonResume:net.phunehehe.foocam.MainActivity:$r3 = $r0.<net.phunehehe.foocam.MainActivity: android.widget.FrameLayout preview>
+-1ZZZonResume:net.phunehehe.foocam.MainActivity:virtualinvoke $r3.<android.widget.FrameLayout: void addView(android.view.View)>($r1)
+-1ZZZonResume:net.phunehehe.foocam.MainActivity:return
+320ZZZonResume:net.phunehehe.foocam.MainActivity:specialinvoke $r1.<net.phunehehe.foocam.CameraPreview: void <init>(android.content.Context,android.hardware.Camera)>($r0, $r2)
+-1ZZZonResume:net.phunehehe.foocam.MainActivity:$r0 := @this: net.phunehehe.foocam.MainActivity
+-1ZZZonResume:net.phunehehe.foocam.MainActivity:specialinvoke $r0.<android.app.Activity: void onResume()>()
+-1ZZZonResume:net.phunehehe.foocam.MainActivity:$r2 = $r0.<net.phunehehe.foocam.MainActivity: android.hardware.Camera camera>
+-1ZZZonResume:net.phunehehe.foocam.MainActivity:if $r2 != null goto $r1 = new net.phunehehe.foocam.CameraPreview
+-1ZZZonResume:net.phunehehe.foocam.MainActivity:specialinvoke $r0.<net.phunehehe.foocam.MainActivity: void initializeCamera()>()
+-1ZZZonResume:net.phunehehe.foocam.MainActivity:$r1 = new net.phunehehe.foocam.CameraPreview
+-1ZZZonResume:net.phunehehe.foocam.MainActivity:specialinvoke $r1.<net.phunehehe.foocam.CameraPreview: void <init>(android.content.Context,android.hardware.Camera)>($r0, $r2)
+-1ZZZonResume:net.phunehehe.foocam.MainActivity:$r3 = $r0.<net.phunehehe.foocam.MainActivity: android.widget.FrameLayout preview>
+-1ZZZonResume:net.phunehehe.foocam.MainActivity:virtualinvoke $r3.<android.widget.FrameLayout: void addView(android.view.View)>($r1)
+-1ZZZonResume:net.phunehehe.foocam.MainActivity:return
+287ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r3 = $r0.<net.phunehehe.foocam.MainActivity: java.util.List resolutionDescriptions>
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r0 := @this: net.phunehehe.foocam.MainActivity
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r1 = $r0.<net.phunehehe.foocam.MainActivity: android.hardware.Camera camera>
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r2 = virtualinvoke $r1.<android.hardware.Camera: android.hardware.Camera$Parameters getParameters()>()
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r3 = virtualinvoke $r2.<android.hardware.Camera$Parameters: java.util.List getSupportedFocusModes()>()
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: java.util.List focusModes> = $r3
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f1 = virtualinvoke $r2.<android.hardware.Camera$Parameters: float getExposureCompensationStep()>()
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: float exposureCompensationStep> = $f1
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:virtualinvoke $r2.<android.hardware.Camera$Parameters: void setJpegQuality(int)>(100)
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r4 = virtualinvoke $r0.<net.phunehehe.foocam.MainActivity: android.view.WindowManager getWindowManager()>()
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r5 = interfaceinvoke $r4.<android.view.WindowManager: android.view.Display getDefaultDisplay()>()
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = virtualinvoke $r5.<android.view.Display: int getWidth()>()
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f1 = (float) $i0
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = virtualinvoke $r5.<android.view.Display: int getHeight()>()
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f0 = (float) $i0
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f1 = $f1 / $f0
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r3 = virtualinvoke $r2.<android.hardware.Camera$Parameters: java.util.List getSupportedPreviewSizes()>()
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r6 = interfaceinvoke $r3.<java.util.List: java.util.Iterator iterator()>()
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$z0 = interfaceinvoke $r6.<java.util.Iterator: boolean hasNext()>()
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:if $z0 == 0 goto $r9 = new java.util.LinkedList
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r7 = interfaceinvoke $r6.<java.util.Iterator: java.lang.Object next()>()
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r8 = (android.hardware.Camera$Size) $r7
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = $r8.<android.hardware.Camera$Size: int width>
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = $r8.<android.hardware.Camera$Size: int height>
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f2 = (float) $i0
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f0 = $f0 / $f2
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f0 = $f0 - $f1
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$f0 = staticinvoke <java.lang.Math: float abs(float)>($f0)
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$d0 = (double) $f0
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$b1 = $d0 cmpg 0.1
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:if $b1 >= 0 goto $z0 = interfaceinvoke $r6.<java.util.Iterator: boolean hasNext()>()
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i2 = $r8.<android.hardware.Camera$Size: int height>
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:virtualinvoke $r2.<android.hardware.Camera$Parameters: void setPreviewSize(int,int)>($i0, $i2)
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r9 = new java.util.LinkedList
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:specialinvoke $r9.<java.util.LinkedList: void <init>()>()
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: java.util.List numberOfStopsList> = $r9
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = virtualinvoke $r2.<android.hardware.Camera$Parameters: int getMinExposureCompensation()>()
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i2 = virtualinvoke $r2.<android.hardware.Camera$Parameters: int getMaxExposureCompensation()>()
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i3 = $i2 + $i0
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i3 = $i3 / 2
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: int midExposureLevel> = $i3
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = $i2 - $i0
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = $i0 + 1
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: int totalStops> = $i0
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = $r0.<net.phunehehe.foocam.MainActivity: int totalStops>
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:if $i0 < 3 goto $r3 = virtualinvoke $r2.<android.hardware.Camera$Parameters: java.util.List getSupportedPictureSizes()>()
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = 3
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i2 = $r0.<net.phunehehe.foocam.MainActivity: int totalStops>
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:if $i0 > $i2 goto $r3 = virtualinvoke $r2.<android.hardware.Camera$Parameters: java.util.List getSupportedPictureSizes()>()
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r3 = $r0.<net.phunehehe.foocam.MainActivity: java.util.List numberOfStopsList>
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r10 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($i0)
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:interfaceinvoke $r3.<java.util.List: boolean add(java.lang.Object)>($r10)
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = $i0 + 2
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:goto [?= $i2 = $r0.<net.phunehehe.foocam.MainActivity: int totalStops>]
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r3 = virtualinvoke $r2.<android.hardware.Camera$Parameters: java.util.List getSupportedPictureSizes()>()
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: java.util.List resolutions> = $r3
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r11 = new java.util.ArrayList
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r3 = $r0.<net.phunehehe.foocam.MainActivity: java.util.List resolutions>
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$i0 = interfaceinvoke $r3.<java.util.List: int size()>()
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:specialinvoke $r11.<java.util.ArrayList: void <init>(int)>($i0)
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: java.util.List resolutionDescriptions> = $r11
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:if $z0 == 0 goto $r1 = $r0.<net.phunehehe.foocam.MainActivity: android.hardware.Camera camera>
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r3 = $r0.<net.phunehehe.foocam.MainActivity: java.util.List resolutionDescriptions>
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r12 = new java.lang.StringBuilder
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:specialinvoke $r12.<java.lang.StringBuilder: void <init>()>()
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r12 = virtualinvoke $r12.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($i0)
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r12 = virtualinvoke $r12.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" x ")
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:$r13 = virtualinvoke $r12.<java.lang.StringBuilder: java.lang.String toString()>()
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:interfaceinvoke $r3.<java.util.List: boolean add(java.lang.Object)>($r13)
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:goto [?= $z0 = interfaceinvoke $r6.<java.util.Iterator: boolean hasNext()>()]
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:virtualinvoke $r1.<android.hardware.Camera: void setParameters(android.hardware.Camera$Parameters)>($r2)
+-1ZZZcalculateCameraParameters:net.phunehehe.foocam.MainActivity:return
+32ZZZ<init>:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: net.phunehehe.foocam.OnItemSelectedListener focusSpinnerListener> = $r4
+-1ZZZ<init>:net.phunehehe.foocam.MainActivity:$r0 := @this: net.phunehehe.foocam.MainActivity
+-1ZZZ<init>:net.phunehehe.foocam.MainActivity:specialinvoke $r0.<android.app.Activity: void <init>()>()
+-1ZZZ<init>:net.phunehehe.foocam.MainActivity:$r1 = new net.phunehehe.foocam.MainActivity$1
+-1ZZZ<init>:net.phunehehe.foocam.MainActivity:specialinvoke $r1.<net.phunehehe.foocam.MainActivity$1: void <init>(net.phunehehe.foocam.MainActivity)>($r0)
+-1ZZZ<init>:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: android.view.View$OnClickListener captureButtonListener> = $r1
+-1ZZZ<init>:net.phunehehe.foocam.MainActivity:$r2 = new net.phunehehe.foocam.MainActivity$2
+-1ZZZ<init>:net.phunehehe.foocam.MainActivity:specialinvoke $r2.<net.phunehehe.foocam.MainActivity$2: void <init>(net.phunehehe.foocam.MainActivity)>($r0)
+-1ZZZ<init>:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: net.phunehehe.foocam.OnItemSelectedListener numberOfStopsListener> = $r2
+-1ZZZ<init>:net.phunehehe.foocam.MainActivity:$r3 = new net.phunehehe.foocam.MainActivity$3
+-1ZZZ<init>:net.phunehehe.foocam.MainActivity:specialinvoke $r3.<net.phunehehe.foocam.MainActivity$3: void <init>(net.phunehehe.foocam.MainActivity)>($r0)
+-1ZZZ<init>:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: net.phunehehe.foocam.OnItemSelectedListener resolutionSpinnerListener> = $r3
+-1ZZZ<init>:net.phunehehe.foocam.MainActivity:$r4 = new net.phunehehe.foocam.MainActivity$4
+-1ZZZ<init>:net.phunehehe.foocam.MainActivity:specialinvoke $r4.<net.phunehehe.foocam.MainActivity$4: void <init>(net.phunehehe.foocam.MainActivity)>($r0)
+-1ZZZ<init>:net.phunehehe.foocam.MainActivity:$r0.<net.phunehehe.foocam.MainActivity: net.phunehehe.foocam.OnItemSelectedListener focusSpinnerListener> = $r4
+-1ZZZ<init>:net.phunehehe.foocam.MainActivity:return
+0ZZZonPause:net.phunehehe.foocam.MainActivity:specialinvoke $r0.<android.app.Activity: void onPause()>()
+-1ZZZonPause:net.phunehehe.foocam.MainActivity:$r0 := @this: net.phunehehe.foocam.MainActivity
+-1ZZZonPause:net.phunehehe.foocam.MainActivity:specialinvoke $r0.<android.app.Activity: void onPause()>()
+-1ZZZonPause:net.phunehehe.foocam.MainActivity:specialinvoke $r0.<net.phunehehe.foocam.MainActivity: void releaseCamera()>()
+-1ZZZonPause:net.phunehehe.foocam.MainActivity:return

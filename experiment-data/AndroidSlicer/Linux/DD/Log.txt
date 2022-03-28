@@ -1,0 +1,53 @@
+C:\Users\Heather\AppData\Local\Android\Sdk\tools>FLiADD.bat
+105
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+FSoE=1.py
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+FSoE=2.py
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+FSoE=3.py
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+FSoE=4.py
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+FSoE=16.py
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+Emulator Ready For Run!!!!
+Script Run Finished!!!! Ready to read Log?
+PT45M43.719S
+Press any key to continue . . .

@@ -1,0 +1,295 @@
+26596ZZZgetSimilarStems:com.olam.DatabaseHelper:$r5 = virtualinvoke $r3.<android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>($r1, null)
+26595ZZZgetSimilarStems:com.olam.DatabaseHelper:$r1 = virtualinvoke $r4.<java.lang.StringBuilder: java.lang.String toString()>()
+26594ZZZgetSimilarStems:com.olam.DatabaseHelper:$r4 = virtualinvoke $r4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("\' ORDER BY LENGTH(word) LIMIT 10")
+26593ZZZgetSimilarStems:com.olam.DatabaseHelper:$r4 = virtualinvoke $r4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r1)
+26592ZZZgetSimilarStems:com.olam.DatabaseHelper:$r4 = virtualinvoke $r4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" %\' OR stems LIKE \'")
+26590ZZZgetSimilarStems:com.olam.DatabaseHelper:$r4 = virtualinvoke $r4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("SELECT word, _id FROM words_en WHERE stems LIKE \'%")
+26589ZZZgetSimilarStems:com.olam.DatabaseHelper:specialinvoke $r4.<java.lang.StringBuilder: void <init>()>()
+26588ZZZgetSimilarStems:com.olam.DatabaseHelper:$r4 = new java.lang.StringBuilder
+26587ZZZgetSimilarStems:com.olam.DatabaseHelper:$r3 = $r0.<com.olam.DatabaseHelper: android.database.sqlite.SQLiteDatabase enmlDb>
+26586ZZZgetSimilarStems:com.olam.DatabaseHelper:specialinvoke $r2.<java.util.LinkedHashMap: void <init>()>()
+26585ZZZgetSimilarStems:com.olam.DatabaseHelper:$r2 = new java.util.LinkedHashMap
+26584ZZZdoInBackground:com.olam.MainSearch$doSearch:$r9 = virtualinvoke $r8.<com.olam.DatabaseHelper: java.util.Map getSimilarStems(java.lang.String)>($r7)
+26583ZZZdoInBackground:com.olam.MainSearch$doSearch:$r8 = $r3.<com.olam.MainSearch: com.olam.DatabaseHelper dbHelper>
+26582ZZZdoInBackground:com.olam.MainSearch$doSearch:$r3 = $r0.<com.olam.MainSearch$doSearch: com.olam.MainSearch this$0>
+26581ZZZdoInBackground:com.olam.MainSearch$doSearch:staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>("Stemmer Tag", $r7)
+26375ZZZstep4:com.olam.PorterStemmerAlgo:specialinvoke $r1.<com.olam.NewString: void <init>()>()
+26374ZZZstep4:com.olam.PorterStemmerAlgo:$r1 = new com.olam.NewString
+26373ZZZstep4:com.olam.PorterStemmerAlgo:$r2[20] = "ise"
+26372ZZZstep4:com.olam.PorterStemmerAlgo:$r2[19] = "ize"
+26371ZZZstep4:com.olam.PorterStemmerAlgo:$r2[18] = "ive"
+26370ZZZstep4:com.olam.PorterStemmerAlgo:$r2[17] = "ous"
+26369ZZZstep4:com.olam.PorterStemmerAlgo:$r2[16] = "iti"
+26368ZZZstep4:com.olam.PorterStemmerAlgo:$r2[15] = "ate"
+26367ZZZstep4:com.olam.PorterStemmerAlgo:$r2[14] = "ism"
+26366ZZZstep4:com.olam.PorterStemmerAlgo:$r2[13] = "ou"
+26365ZZZstep4:com.olam.PorterStemmerAlgo:$r2[12] = "tion"
+26364ZZZstep4:com.olam.PorterStemmerAlgo:$r2[11] = "sion"
+26363ZZZstep4:com.olam.PorterStemmerAlgo:$r2[10] = "ent"
+26362ZZZstep4:com.olam.PorterStemmerAlgo:$r2[9] = "ment"
+26361ZZZstep4:com.olam.PorterStemmerAlgo:$r2[8] = "ement"
+26360ZZZstep4:com.olam.PorterStemmerAlgo:$r2[7] = "ant"
+26359ZZZstep4:com.olam.PorterStemmerAlgo:$r2[6] = "ible"
+26358ZZZstep4:com.olam.PorterStemmerAlgo:$r2[5] = "able"
+26357ZZZstep4:com.olam.PorterStemmerAlgo:$r2[4] = "ic"
+26356ZZZstep4:com.olam.PorterStemmerAlgo:$r2[3] = "er"
+26355ZZZstep4:com.olam.PorterStemmerAlgo:$r2[2] = "ence"
+26354ZZZstep4:com.olam.PorterStemmerAlgo:$r2[1] = "ance"
+26353ZZZstep4:com.olam.PorterStemmerAlgo:$r2[0] = "al"
+26352ZZZstep4:com.olam.PorterStemmerAlgo:$r2 = newarray (java.lang.String)[21]
+26265ZZZstep3:com.olam.PorterStemmerAlgo:specialinvoke $r1.<com.olam.NewString: void <init>()>()
+26264ZZZstep3:com.olam.PorterStemmerAlgo:$r1 = new com.olam.NewString
+26263ZZZstep3:com.olam.PorterStemmerAlgo:$r2[7] = $r4
+26262ZZZstep3:com.olam.PorterStemmerAlgo:$r4[1] = ""
+26261ZZZstep3:com.olam.PorterStemmerAlgo:$r4[0] = "ness"
+26260ZZZstep3:com.olam.PorterStemmerAlgo:$r4 = newarray (java.lang.String)[2]
+26259ZZZstep3:com.olam.PorterStemmerAlgo:$r2[6] = $r4
+26257ZZZstep3:com.olam.PorterStemmerAlgo:$r4[0] = "ful"
+26255ZZZstep3:com.olam.PorterStemmerAlgo:$r2[5] = $r4
+26254ZZZstep3:com.olam.PorterStemmerAlgo:$r4[1] = "ic"
+26253ZZZstep3:com.olam.PorterStemmerAlgo:$r4[0] = "ical"
+26251ZZZstep3:com.olam.PorterStemmerAlgo:$r2[4] = $r4
+26249ZZZstep3:com.olam.PorterStemmerAlgo:$r4[0] = "iciti"
+26247ZZZstep3:com.olam.PorterStemmerAlgo:$r2[3] = $r4
+26246ZZZstep3:com.olam.PorterStemmerAlgo:$r4[1] = "al"
+26245ZZZstep3:com.olam.PorterStemmerAlgo:$r4[0] = "alise"
+26243ZZZstep3:com.olam.PorterStemmerAlgo:$r2[2] = $r4
+26241ZZZstep3:com.olam.PorterStemmerAlgo:$r4[0] = "alize"
+26239ZZZstep3:com.olam.PorterStemmerAlgo:$r2[1] = $r4
+26237ZZZstep3:com.olam.PorterStemmerAlgo:$r4[0] = "ative"
+26235ZZZstep3:com.olam.PorterStemmerAlgo:$r2[0] = $r4
+26233ZZZstep3:com.olam.PorterStemmerAlgo:$r4[0] = "icate"
+26231ZZZstep3:com.olam.PorterStemmerAlgo:$r2 = newarray (java.lang.String[])[8]
+26230ZZZcompleteStem:com.olam.Stemmer:$r1 = virtualinvoke $r2.<com.olam.PorterStemmerAlgo: java.lang.String step3(java.lang.String)>($r1)
+26004ZZZstep2:com.olam.PorterStemmerAlgo:specialinvoke $r1.<com.olam.NewString: void <init>()>()
+26003ZZZstep2:com.olam.PorterStemmerAlgo:$r1 = new com.olam.NewString
+26002ZZZstep2:com.olam.PorterStemmerAlgo:$r2[21] = $r4
+26001ZZZstep2:com.olam.PorterStemmerAlgo:$r4[1] = "ble"
+26000ZZZstep2:com.olam.PorterStemmerAlgo:$r4[0] = "biliti"
+25999ZZZstep2:com.olam.PorterStemmerAlgo:$r4 = newarray (java.lang.String)[2]
+25998ZZZstep2:com.olam.PorterStemmerAlgo:$r2[20] = $r4
+25997ZZZstep2:com.olam.PorterStemmerAlgo:$r4[1] = "ive"
+25996ZZZstep2:com.olam.PorterStemmerAlgo:$r4[0] = "iviti"
+25994ZZZstep2:com.olam.PorterStemmerAlgo:$r2[19] = $r4
+25993ZZZstep2:com.olam.PorterStemmerAlgo:$r4[1] = "al"
+25992ZZZstep2:com.olam.PorterStemmerAlgo:$r4[0] = "aliti"
+25990ZZZstep2:com.olam.PorterStemmerAlgo:$r2[18] = $r4
+25989ZZZstep2:com.olam.PorterStemmerAlgo:$r4[1] = "ous"
+25988ZZZstep2:com.olam.PorterStemmerAlgo:$r4[0] = "ousness"
+25986ZZZstep2:com.olam.PorterStemmerAlgo:$r2[17] = $r4
+25985ZZZstep2:com.olam.PorterStemmerAlgo:$r4[1] = "ful"
+25984ZZZstep2:com.olam.PorterStemmerAlgo:$r4[0] = "fulness"
+25982ZZZstep2:com.olam.PorterStemmerAlgo:$r2[16] = $r4
+25980ZZZstep2:com.olam.PorterStemmerAlgo:$r4[0] = "iveness"
+25978ZZZstep2:com.olam.PorterStemmerAlgo:$r2[15] = $r4
+25976ZZZstep2:com.olam.PorterStemmerAlgo:$r4[0] = "alism"
+25974ZZZstep2:com.olam.PorterStemmerAlgo:$r2[14] = $r4
+25973ZZZstep2:com.olam.PorterStemmerAlgo:$r4[1] = "ate"
+25972ZZZstep2:com.olam.PorterStemmerAlgo:$r4[0] = "ator"
+25970ZZZstep2:com.olam.PorterStemmerAlgo:$r2[13] = $r4
+25968ZZZstep2:com.olam.PorterStemmerAlgo:$r4[0] = "ation"
+25966ZZZstep2:com.olam.PorterStemmerAlgo:$r2[12] = $r4
+25965ZZZstep2:com.olam.PorterStemmerAlgo:$r4[1] = "ize"
+25964ZZZstep2:com.olam.PorterStemmerAlgo:$r4[0] = "isation"
+25962ZZZstep2:com.olam.PorterStemmerAlgo:$r2[11] = $r4
+25960ZZZstep2:com.olam.PorterStemmerAlgo:$r4[0] = "ization"
+25958ZZZstep2:com.olam.PorterStemmerAlgo:$r2[10] = $r4
+25956ZZZstep2:com.olam.PorterStemmerAlgo:$r4[0] = "ousli"
+25954ZZZstep2:com.olam.PorterStemmerAlgo:$r2[9] = $r4
+25953ZZZstep2:com.olam.PorterStemmerAlgo:$r4[1] = "e"
+25952ZZZstep2:com.olam.PorterStemmerAlgo:$r4[0] = "eli"
+25950ZZZstep2:com.olam.PorterStemmerAlgo:$r2[8] = $r4
+25949ZZZstep2:com.olam.PorterStemmerAlgo:$r4[1] = "ent"
+25948ZZZstep2:com.olam.PorterStemmerAlgo:$r4[0] = "entli"
+25946ZZZstep2:com.olam.PorterStemmerAlgo:$r2[7] = $r4
+25944ZZZstep2:com.olam.PorterStemmerAlgo:$r4[0] = "alli"
+25942ZZZstep2:com.olam.PorterStemmerAlgo:$r2[6] = $r4
+25941ZZZstep2:com.olam.PorterStemmerAlgo:$r4[1] = "able"
+25940ZZZstep2:com.olam.PorterStemmerAlgo:$r4[0] = "abli"
+25938ZZZstep2:com.olam.PorterStemmerAlgo:$r2[5] = $r4
+25936ZZZstep2:com.olam.PorterStemmerAlgo:$r4[0] = "iser"
+25934ZZZstep2:com.olam.PorterStemmerAlgo:$r2[4] = $r4
+25932ZZZstep2:com.olam.PorterStemmerAlgo:$r4[0] = "izer"
+25930ZZZstep2:com.olam.PorterStemmerAlgo:$r2[3] = $r4
+25929ZZZstep2:com.olam.PorterStemmerAlgo:$r4[1] = "ance"
+25928ZZZstep2:com.olam.PorterStemmerAlgo:$r4[0] = "anci"
+25926ZZZstep2:com.olam.PorterStemmerAlgo:$r2[2] = $r4
+25925ZZZstep2:com.olam.PorterStemmerAlgo:$r4[1] = "ence"
+25924ZZZstep2:com.olam.PorterStemmerAlgo:$r4[0] = "enci"
+25922ZZZstep2:com.olam.PorterStemmerAlgo:$r2[1] = $r4
+25921ZZZstep2:com.olam.PorterStemmerAlgo:$r4[1] = "tion"
+25920ZZZstep2:com.olam.PorterStemmerAlgo:$r4[0] = "tional"
+25918ZZZstep2:com.olam.PorterStemmerAlgo:$r2[0] = $r4
+25916ZZZstep2:com.olam.PorterStemmerAlgo:$r4[0] = "ational"
+25914ZZZstep2:com.olam.PorterStemmerAlgo:$r2 = newarray (java.lang.String[])[22]
+25913ZZZcompleteStem:com.olam.Stemmer:$r1 = virtualinvoke $r2.<com.olam.PorterStemmerAlgo: java.lang.String step2(java.lang.String)>($r1)
+25872ZZZstep1:com.olam.PorterStemmerAlgo:$z0 = virtualinvoke $r0.<com.olam.PorterStemmerAlgo: boolean hasSuffix(java.lang.String,java.lang.String,com.olam.NewString)>($r2, "y", $r1)
+25867ZZZstep1:com.olam.PorterStemmerAlgo:$z0 = virtualinvoke $r0.<com.olam.PorterStemmerAlgo: boolean hasSuffix(java.lang.String,java.lang.String,com.olam.NewString)>($r2, "ing", $r1)
+25866ZZZstep1:com.olam.PorterStemmerAlgo:if $z0 != 0 goto $r3 = $r1.<com.olam.NewString: java.lang.String str>
+25865ZZZhasSuffix:com.olam.PorterStemmerAlgo:if $i0 > $i1 goto $i0 = virtualinvoke $r2.<java.lang.String: int length()>()
+25864ZZZhasSuffix:com.olam.PorterStemmerAlgo:$i1 = virtualinvoke $r2.<java.lang.String: int length()>()
+25863ZZZhasSuffix:com.olam.PorterStemmerAlgo:$i0 = virtualinvoke $r1.<java.lang.String: int length()>()
+25857ZZZstep1:com.olam.PorterStemmerAlgo:$z0 = virtualinvoke $r0.<com.olam.PorterStemmerAlgo: boolean hasSuffix(java.lang.String,java.lang.String,com.olam.NewString)>($r2, "eed", $r1)
+25856ZZZstep1:com.olam.PorterStemmerAlgo:if $c1 != 115 goto $z0 = virtualinvoke $r0.<com.olam.PorterStemmerAlgo: boolean hasSuffix(java.lang.String,java.lang.String,com.olam.NewString)>($r2, "eed", $r1)
+25855ZZZstep1:com.olam.PorterStemmerAlgo:$c1 = virtualinvoke $r2.<java.lang.String: char charAt(int)>($i0)
+25854ZZZstep1:com.olam.PorterStemmerAlgo:$i0 = $i0 + -1
+25853ZZZstep1:com.olam.PorterStemmerAlgo:$i0 = virtualinvoke $r2.<java.lang.String: int length()>()
+25851ZZZ<init>:com.olam.NewString:specialinvoke $r0.<java.lang.Object: void <init>()>()
+25850ZZZstep1:com.olam.PorterStemmerAlgo:specialinvoke $r1.<com.olam.NewString: void <init>()>()
+25849ZZZstep1:com.olam.PorterStemmerAlgo:$r1 = new com.olam.NewString
+25846ZZZcompleteStem:com.olam.Stemmer:specialinvoke $r2.<com.olam.PorterStemmerAlgo: void <init>()>()
+25845ZZZcompleteStem:com.olam.Stemmer:$r2 = new com.olam.PorterStemmerAlgo
+25844ZZZcompleteStem:com.olam.Stemmer:$r1 = virtualinvoke $r1.<java.lang.String: java.lang.String trim()>()
+25839ZZZdoInBackground:com.olam.MainSearch$doSearch:specialinvoke $r2.<com.olam.Stemmer: void <init>()>()
+25838ZZZdoInBackground:com.olam.MainSearch$doSearch:$r2 = new com.olam.Stemmer
+25837ZZZdoInBackground:com.olam.MainSearch$doSearch:if $z0 != 0 goto return null
+25836ZZZdoInBackground:com.olam.MainSearch$doSearch:$z0 = virtualinvoke $r7.<java.lang.String: boolean isEmpty()>()
+25835ZZZdoInBackground:com.olam.MainSearch$doSearch:$r7 = $r0.<com.olam.MainSearch$doSearch: java.lang.String searchString>
+25834ZZZdoInBackground:com.olam.MainSearch$doSearch:if $r7 == null goto return null
+25832ZZZdoInBackground:com.olam.MainSearch$doSearch:staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>("OLAM LOGGER in MAIN", $r7)
+25830ZZZdoInBackground:com.olam.MainSearch$doSearch:$r0.<com.olam.MainSearch$doSearch: java.lang.String searchString> = $r7
+25829ZZZdoInBackground:com.olam.MainSearch$doSearch:$r7 = virtualinvoke $r6.<java.lang.Object: java.lang.String toString()>()
+25828ZZZdoInBackground:com.olam.MainSearch$doSearch:$r6 = virtualinvoke $r5.<android.widget.EditText: android.text.Editable getText()>()
+25827ZZZdoInBackground:com.olam.MainSearch$doSearch:$r5 = (android.widget.EditText) $r4
+25826ZZZdoInBackground:com.olam.MainSearch$doSearch:$r4 = virtualinvoke $r3.<com.olam.MainSearch: android.view.View findViewById(int)>(2131165186)
+25822ZZZonPreExecute:com.olam.MainSearch$doSearch:virtualinvoke $r4.<android.app.ProgressDialog: void show()>()
+25821ZZZonPreExecute:com.olam.MainSearch$doSearch:$r4 = $r1.<com.olam.MainSearch: android.app.ProgressDialog pDialog>
+25820ZZZonPreExecute:com.olam.MainSearch$doSearch:$r1 = $r0.<com.olam.MainSearch$doSearch: com.olam.MainSearch this$0>
+25819ZZZonPreExecute:com.olam.MainSearch$doSearch:virtualinvoke $r4.<android.app.ProgressDialog: void setCancelable(boolean)>(0)
+25816ZZZonPreExecute:com.olam.MainSearch$doSearch:virtualinvoke $r4.<android.app.ProgressDialog: void setIndeterminate(boolean)>(0)
+25813ZZZonPreExecute:com.olam.MainSearch$doSearch:virtualinvoke $r4.<android.app.ProgressDialog: void setMessage(java.lang.CharSequence)>($r2)
+25812ZZZonPreExecute:com.olam.MainSearch$doSearch:$r2 = staticinvoke <android.text.Html: android.text.Spanned fromHtml(java.lang.String)>("<b>Searching..</b>")
+25809ZZZonPreExecute:com.olam.MainSearch$doSearch:$r3.<com.olam.MainSearch: android.app.ProgressDialog pDialog> = $r4
+25808ZZZonPreExecute:com.olam.MainSearch$doSearch:specialinvoke $r4.<android.app.ProgressDialog: void <init>(android.content.Context)>($r1)
+25806ZZZonPreExecute:com.olam.MainSearch$doSearch:$r4 = new android.app.ProgressDialog
+25805ZZZonPreExecute:com.olam.MainSearch$doSearch:$r3 = $r0.<com.olam.MainSearch$doSearch: com.olam.MainSearch this$0>
+25804ZZZonPreExecute:com.olam.MainSearch$doSearch:specialinvoke $r0.<android.os.AsyncTask: void onPreExecute()>()
+25798ZZZ<init>:com.olam.MainSearch$doSearch:specialinvoke $r0.<android.os.AsyncTask: void <init>()>()
+25797ZZZ<init>:com.olam.MainSearch$doSearch:$r0.<com.olam.MainSearch$doSearch: com.olam.MainSearch this$0> = $r1
+25796ZZZonEditorAction:com.olam.MainSearch$2:specialinvoke $r8.<com.olam.MainSearch$doSearch: void <init>(com.olam.MainSearch)>($r3)
+25795ZZZonEditorAction:com.olam.MainSearch$2:$r3 = $r0.<com.olam.MainSearch$2: com.olam.MainSearch this$0>
+25794ZZZonEditorAction:com.olam.MainSearch$2:$r8 = new com.olam.MainSearch$doSearch
+25793ZZZonEditorAction:com.olam.MainSearch$2:virtualinvoke $r7.<android.widget.LinearLayout: void removeAllViews()>()
+25792ZZZonEditorAction:com.olam.MainSearch$2:$r7 = $r3.<com.olam.MainSearch: android.widget.LinearLayout resLayout>
+25790ZZZonEditorAction:com.olam.MainSearch$2:if $z0 != 0 goto return 0
+25789ZZZonEditorAction:com.olam.MainSearch$2:$z0 = virtualinvoke $r6.<java.lang.String: boolean isEmpty()>()
+25788ZZZonEditorAction:com.olam.MainSearch$2:if $r6 == null goto return 0
+25787ZZZonEditorAction:com.olam.MainSearch$2:$r6 = virtualinvoke $r5.<java.lang.Object: java.lang.String toString()>()
+25786ZZZonEditorAction:com.olam.MainSearch$2:$r5 = virtualinvoke $r4.<android.widget.EditText: android.text.Editable getText()>()
+25785ZZZonEditorAction:com.olam.MainSearch$2:$r4 = $r3.<com.olam.MainSearch: android.widget.EditText editText>
+25783ZZZonEditorAction:com.olam.MainSearch$2:if $i0 != 6 goto return 0
+25779ZZZonCreate:com.olam.MainSearch:specialinvoke $r20.<com.olam.MainSearch$3: void <init>(com.olam.MainSearch)>($r0)
+25778ZZZonCreate:com.olam.MainSearch:$r20 = new com.olam.MainSearch$3
+25777ZZZonCreate:com.olam.MainSearch:$r9 = (android.widget.ImageView) $r3
+25776ZZZonCreate:com.olam.MainSearch:$r3 = virtualinvoke $r0.<com.olam.MainSearch: android.view.View findViewById(int)>(2131165190)
+25775ZZZonCreate:com.olam.MainSearch:virtualinvoke $r13.<android.widget.PopupWindow: void setContentView(android.view.View)>($r4)
+25774ZZZonCreate:com.olam.MainSearch:$r4 = $r0.<com.olam.MainSearch: android.widget.LinearLayout layout>
+25773ZZZonCreate:com.olam.MainSearch:$r13 = $r0.<com.olam.MainSearch: android.widget.PopupWindow popUp>
+25772ZZZonCreate:com.olam.MainSearch:virtualinvoke $r13.<android.widget.PopupWindow: void setOutsideTouchable(boolean)>(1)
+25770ZZZonCreate:com.olam.MainSearch:virtualinvoke $r13.<android.widget.PopupWindow: void setBackgroundDrawable(android.graphics.drawable.Drawable)>($r19)
+25769ZZZonCreate:com.olam.MainSearch:specialinvoke $r19.<android.graphics.drawable.BitmapDrawable: void <init>()>()
+25768ZZZonCreate:com.olam.MainSearch:$r19 = new android.graphics.drawable.BitmapDrawable
+25766ZZZonCreate:com.olam.MainSearch:virtualinvoke $r4.<android.widget.LinearLayout: void setBackgroundResource(int)>(2130837508)
+25764ZZZonCreate:com.olam.MainSearch:virtualinvoke $r4.<android.widget.LinearLayout: void addView(android.view.View)>($r14)
+25763ZZZonCreate:com.olam.MainSearch:$r14 = $r0.<com.olam.MainSearch: android.widget.TextView olamUrl>
+25757ZZZonCreate:com.olam.MainSearch:$r14 = $r0.<com.olam.MainSearch: android.widget.TextView olamAuthor>
+25754ZZZonCreate:com.olam.MainSearch:$r14 = $r0.<com.olam.MainSearch: android.widget.TextView appDescEn>
+25751ZZZonCreate:com.olam.MainSearch:$r14 = $r0.<com.olam.MainSearch: android.widget.TextView appDesc>
+25748ZZZonCreate:com.olam.MainSearch:$r14 = $r0.<com.olam.MainSearch: android.widget.TextView aboutTitle>
+25746ZZZonCreate:com.olam.MainSearch:virtualinvoke $r14.<android.widget.TextView: void setGravity(int)>(1)
+25744ZZZonCreate:com.olam.MainSearch:virtualinvoke $r14.<android.widget.TextView: void setMovementMethod(android.text.method.MovementMethod)>($r18)
+25743ZZZonCreate:com.olam.MainSearch:$r18 = staticinvoke <android.text.method.LinkMovementMethod: android.text.method.MovementMethod getInstance()>()
+25741ZZZonCreate:com.olam.MainSearch:virtualinvoke $r14.<android.widget.TextView: void setTextSize(float)>(13.0F)
+25739ZZZonCreate:com.olam.MainSearch:virtualinvoke $r14.<android.widget.TextView: void setText(java.lang.CharSequence)>($r17)
+25738ZZZonCreate:com.olam.MainSearch:$r17 = staticinvoke <android.text.Html: android.text.Spanned fromHtml(java.lang.String)>($r16)
+25737ZZZonCreate:com.olam.MainSearch:$r16 = virtualinvoke $r15.<android.content.res.Resources: java.lang.String getString(int)>(2130968585)
+25736ZZZonCreate:com.olam.MainSearch:$r15 = virtualinvoke $r0.<com.olam.MainSearch: android.content.res.Resources getResources()>()
+25734ZZZonCreate:com.olam.MainSearch:virtualinvoke $r14.<android.widget.TextView: void setGravity(int)>(3)
+25733ZZZonCreate:com.olam.MainSearch:$r14 = $r0.<com.olam.MainSearch: android.widget.TextView just_a_new_line>
+25729ZZZonCreate:com.olam.MainSearch:virtualinvoke $r14.<android.widget.TextView: void setTextSize(float)>(10.0F)
+25727ZZZonCreate:com.olam.MainSearch:virtualinvoke $r14.<android.widget.TextView: void setText(int)>(2130968584)
+25720ZZZonCreate:com.olam.MainSearch:virtualinvoke $r14.<android.widget.TextView: void setTextSize(float)>(11.0F)
+25716ZZZonCreate:com.olam.MainSearch:$r16 = virtualinvoke $r15.<android.content.res.Resources: java.lang.String getString(int)>(2130968583)
+25709ZZZonCreate:com.olam.MainSearch:virtualinvoke $r14.<android.widget.TextView: void setText(int)>(2130968582)
+25705ZZZonCreate:com.olam.MainSearch:virtualinvoke $r14.<android.widget.TextView: void setTypeface(android.graphics.Typeface)>($r7)
+25704ZZZonCreate:com.olam.MainSearch:$r7 = $r0.<com.olam.MainSearch: android.graphics.Typeface tf>
+25702ZZZonCreate:com.olam.MainSearch:virtualinvoke $r14.<android.widget.TextView: void setTextSize(float)>(15.0F)
+25700ZZZonCreate:com.olam.MainSearch:virtualinvoke $r14.<android.widget.TextView: void setText(int)>(2130968581)
+25696ZZZonCreate:com.olam.MainSearch:virtualinvoke $r14.<android.widget.TextView: void setTypeface(android.graphics.Typeface,int)>($r7, 1)
+25693ZZZonCreate:com.olam.MainSearch:virtualinvoke $r14.<android.widget.TextView: void setTextSize(float)>(30.0F)
+25691ZZZonCreate:com.olam.MainSearch:virtualinvoke $r14.<android.widget.TextView: void setText(int)>(2130968579)
+25689ZZZonCreate:com.olam.MainSearch:virtualinvoke $r4.<android.widget.LinearLayout: void setBackgroundColor(int)>(-1)
+25687ZZZonCreate:com.olam.MainSearch:virtualinvoke $r4.<android.widget.LinearLayout: void setOrientation(int)>(1)
+25685ZZZonCreate:com.olam.MainSearch:$r0.<com.olam.MainSearch: android.widget.TextView olamUrl> = $r14
+25684ZZZonCreate:com.olam.MainSearch:specialinvoke $r14.<android.widget.TextView: void <init>(android.content.Context)>($r0)
+25683ZZZonCreate:com.olam.MainSearch:$r14 = new android.widget.TextView
+25682ZZZonCreate:com.olam.MainSearch:$r0.<com.olam.MainSearch: android.widget.TextView just_a_new_line> = $r14
+25679ZZZonCreate:com.olam.MainSearch:$r0.<com.olam.MainSearch: android.widget.TextView olamAuthor> = $r14
+25676ZZZonCreate:com.olam.MainSearch:$r0.<com.olam.MainSearch: android.widget.TextView appDescEn> = $r14
+25673ZZZonCreate:com.olam.MainSearch:$r0.<com.olam.MainSearch: android.widget.TextView appDesc> = $r14
+25670ZZZonCreate:com.olam.MainSearch:$r0.<com.olam.MainSearch: android.widget.TextView aboutTitle> = $r14
+25667ZZZonCreate:com.olam.MainSearch:$r0.<com.olam.MainSearch: android.widget.PopupWindow popUp> = $r13
+25666ZZZonCreate:com.olam.MainSearch:specialinvoke $r13.<android.widget.PopupWindow: void <init>(android.content.Context)>($r0)
+25665ZZZonCreate:com.olam.MainSearch:$r13 = new android.widget.PopupWindow
+25664ZZZonCreate:com.olam.MainSearch:$r0.<com.olam.MainSearch: android.widget.ImageView logo> = $r9
+25663ZZZonCreate:com.olam.MainSearch:specialinvoke $r9.<android.widget.ImageView: void <init>(android.content.Context)>($r0)
+25662ZZZonCreate:com.olam.MainSearch:$r9 = new android.widget.ImageView
+25661ZZZonCreate:com.olam.MainSearch:$r0.<com.olam.MainSearch: android.widget.LinearLayout layout> = $r4
+25660ZZZonCreate:com.olam.MainSearch:specialinvoke $r4.<android.widget.LinearLayout: void <init>(android.content.Context)>($r0)
+25659ZZZonCreate:com.olam.MainSearch:$r4 = new android.widget.LinearLayout
+25658ZZZonCreate:com.olam.MainSearch:virtualinvoke $r11.<android.widget.EditText: void setOnEditorActionListener(android.widget.TextView$OnEditorActionListener)>($r12)
+25657ZZZ<init>:com.olam.MainSearch$2:specialinvoke $r0.<java.lang.Object: void <init>()>()
+25656ZZZ<init>:com.olam.MainSearch$2:$r0.<com.olam.MainSearch$2: com.olam.MainSearch this$0> = $r1
+25647ZZZopenDatabase:com.olam.DatabaseHelper:$r3 = staticinvoke <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteDatabase openDatabase(java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>($r2, null, 1)
+25646ZZZopenDatabase:com.olam.DatabaseHelper:$r2 = virtualinvoke $r1.<java.lang.StringBuilder: java.lang.String toString()>()
+25645ZZZopenDatabase:com.olam.DatabaseHelper:$r1 = virtualinvoke $r1.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r2)
+25644ZZZopenDatabase:com.olam.DatabaseHelper:$r2 = <com.olam.DatabaseHelper: java.lang.String DB_NAME>
+25642ZZZopenDatabase:com.olam.DatabaseHelper:$r2 = <com.olam.DatabaseHelper: java.lang.String DB_PATH>
+25641ZZZopenDatabase:com.olam.DatabaseHelper:specialinvoke $r1.<java.lang.StringBuilder: void <init>()>()
+25640ZZZopenDatabase:com.olam.DatabaseHelper:$r1 = new java.lang.StringBuilder
+25639ZZZonCreate:com.olam.MainSearch:virtualinvoke $r8.<com.olam.DatabaseHelper: void openDatabase()>()
+25638ZZZonCreate:com.olam.MainSearch:$r8 = $r0.<com.olam.MainSearch: com.olam.DatabaseHelper dbHelper>
+25637ZZZonCreate:com.olam.MainSearch:virtualinvoke $r9.<android.widget.ImageView: void setOnClickListener(android.view.View$OnClickListener)>($r10)
+25604ZZZcreateDatabase:com.olam.DatabaseHelper:$z0 = specialinvoke $r0.<com.olam.DatabaseHelper: boolean checkDatabase()>()
+25603ZZZonCreate:com.olam.MainSearch:virtualinvoke $r8.<com.olam.DatabaseHelper: void createDatabase()>()
+25601ZZZonCreate:com.olam.MainSearch:staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>("OLAM LOGGER in MAIN", "Copying the database")
+25599ZZZonCreate:com.olam.MainSearch:$r3 = virtualinvoke $r0.<com.olam.MainSearch: android.view.View findViewById(int)>(2131165187)
+25598ZZZonCreate:com.olam.MainSearch:$r0.<com.olam.MainSearch: com.olam.DatabaseHelper dbHelper> = $r8
+25593ZZZonCreate:com.olam.MainSearch:specialinvoke $r8.<com.olam.DatabaseHelper: void <init>(android.content.Context)>($r0)
+25592ZZZonCreate:com.olam.MainSearch:$r8 = new com.olam.DatabaseHelper
+25591ZZZonCreate:com.olam.MainSearch:$r0.<com.olam.MainSearch: android.graphics.Typeface tf> = $r7
+25590ZZZonCreate:com.olam.MainSearch:$r7 = staticinvoke <android.graphics.Typeface: android.graphics.Typeface createFromAsset(android.content.res.AssetManager,java.lang.String)>($r6, "Meera.ttf")
+25589ZZZonCreate:com.olam.MainSearch:$r6 = virtualinvoke $r5.<android.content.Context: android.content.res.AssetManager getAssets()>()
+25588ZZZonCreate:com.olam.MainSearch:$r5 = virtualinvoke $r0.<com.olam.MainSearch: android.content.Context getBaseContext()>()
+25587ZZZonCreate:com.olam.MainSearch:$r0.<com.olam.MainSearch: android.widget.LinearLayout resLayout> = $r4
+25586ZZZonCreate:com.olam.MainSearch:$r4 = (android.widget.LinearLayout) $r3
+25585ZZZonCreate:com.olam.MainSearch:$r3 = virtualinvoke $r0.<com.olam.MainSearch: android.view.View findViewById(int)>(2131165189)
+25584ZZZonCreate:com.olam.MainSearch:virtualinvoke $r0.<com.olam.MainSearch: void setContentView(int)>(2130903040)
+25583ZZZonCreate:com.olam.MainSearch:specialinvoke $r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)
+25580ZZZonCreate:com.olam.MainSearch:virtualinvoke $r9.<android.widget.ImageView: void setOnClickListener(android.view.View$OnClickListener)>($r20)
+25453ZZZonCreate:com.olam.MainSearch:specialinvoke $r12.<com.olam.MainSearch$2: void <init>(com.olam.MainSearch)>($r0)
+25452ZZZonCreate:com.olam.MainSearch:$r12 = new com.olam.MainSearch$2
+25451ZZZonCreate:com.olam.MainSearch:$r11 = $r0.<com.olam.MainSearch: android.widget.EditText editText>
+25450ZZZonCreate:com.olam.MainSearch:$r0.<com.olam.MainSearch: android.widget.EditText editText> = $r11
+25449ZZZonCreate:com.olam.MainSearch:$r11 = (android.widget.EditText) $r3
+25448ZZZonCreate:com.olam.MainSearch:$r3 = virtualinvoke $r0.<com.olam.MainSearch: android.view.View findViewById(int)>(2131165186)
+25432ZZZonCreate:com.olam.MainSearch:specialinvoke $r10.<com.olam.MainSearch$1: void <init>(com.olam.MainSearch)>($r0)
+25431ZZZonCreate:com.olam.MainSearch:$r10 = new com.olam.MainSearch$1
+41ZZZcreateDatabase:com.olam.DatabaseHelper:specialinvoke $r0.<com.olam.DatabaseHelper: void copyDataBase()>()
+40ZZZcreateDatabase:com.olam.DatabaseHelper:staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>("OLAM LOGGER in DBH", "Going to copy the database")
+39ZZZcreateDatabase:com.olam.DatabaseHelper:virtualinvoke $r0.<com.olam.DatabaseHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>()
+38ZZZcreateDatabase:com.olam.DatabaseHelper:if $z0 == 0 goto virtualinvoke $r0.<com.olam.DatabaseHelper: android.database.sqlite.SQLiteDatabase getReadableDatabase()>()
+37ZZZcheckDatabase:com.olam.DatabaseHelper:if $r1 == null goto return 0
+36ZZZcheckDatabase:com.olam.DatabaseHelper:if $r1 == null goto (branch)
+35ZZZcheckDatabase:com.olam.DatabaseHelper:$r4 = staticinvoke <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteDatabase openDatabase(java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>($r3, null, 1)
+34ZZZcheckDatabase:com.olam.DatabaseHelper:$r3 = virtualinvoke $r2.<java.lang.StringBuilder: java.lang.String toString()>()
+33ZZZcheckDatabase:com.olam.DatabaseHelper:$r2 = virtualinvoke $r2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r3)
+32ZZZcheckDatabase:com.olam.DatabaseHelper:$r3 = <com.olam.DatabaseHelper: java.lang.String DB_NAME>
+30ZZZcheckDatabase:com.olam.DatabaseHelper:$r3 = <com.olam.DatabaseHelper: java.lang.String DB_PATH>
+29ZZZcheckDatabase:com.olam.DatabaseHelper:specialinvoke $r2.<java.lang.StringBuilder: void <init>()>()
+28ZZZcheckDatabase:com.olam.DatabaseHelper:$r2 = new java.lang.StringBuilder
+27ZZZcheckDatabase:com.olam.DatabaseHelper:staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>("OLAM LOGGER in DBH", "Checking if DB exists")
+26ZZZcheckDatabase:com.olam.DatabaseHelper:$r1 = null
+16ZZZ<init>:com.olam.DatabaseHelper:specialinvoke $r0.<android.database.sqlite.SQLiteOpenHelper: void <init>(android.content.Context,java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>($r1, $r2, null, 1)
+15ZZZ<init>:com.olam.DatabaseHelper:$r2 = <com.olam.DatabaseHelper: java.lang.String DB_NAME>
+0ZZZ<init>:com.olam.MainSearch:specialinvoke $r0.<android.app.Activity: void <init>()>()

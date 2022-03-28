@@ -1,0 +1,952 @@
+4038ZZZgetUri:com.ringdroid.RingdroidSelectActivity:$r7 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i1)
+-1ZZZgetUri:com.ringdroid.RingdroidSelectActivity:$r0 := @this: com.ringdroid.RingdroidSelectActivity
+-1ZZZgetUri:com.ringdroid.RingdroidSelectActivity:$r1 = <com.ringdroid.RingdroidSelectActivity: boolean[][] $VRc>
+-1ZZZgetUri:com.ringdroid.RingdroidSelectActivity:if $r1 != null goto $r2 = $r1[11]
+-1ZZZgetUri:com.ringdroid.RingdroidSelectActivity:$r1 = staticinvoke <com.ringdroid.RingdroidSelectActivity: boolean[][] $VRi()>()
+-1ZZZgetUri:com.ringdroid.RingdroidSelectActivity:$r2 = $r1[11]
+-1ZZZgetUri:com.ringdroid.RingdroidSelectActivity:$r3 = $r0.<com.ringdroid.RingdroidSelectActivity: android.widget.SimpleCursorAdapter mAdapter>
+-1ZZZgetUri:com.ringdroid.RingdroidSelectActivity:$r4 = virtualinvoke $r3.<android.widget.SimpleCursorAdapter: android.database.Cursor getCursor()>()
+-1ZZZgetUri:com.ringdroid.RingdroidSelectActivity:$r5 = new java.lang.StringBuilder
+-1ZZZgetUri:com.ringdroid.RingdroidSelectActivity:specialinvoke $r5.<java.lang.StringBuilder: void <init>()>()
+-1ZZZgetUri:com.ringdroid.RingdroidSelectActivity:$r5 = virtualinvoke $r5.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("\"")
+-1ZZZgetUri:com.ringdroid.RingdroidSelectActivity:$r6 = <android.provider.MediaStore$Audio$Media: android.net.Uri INTERNAL_CONTENT_URI>
+-1ZZZgetUri:com.ringdroid.RingdroidSelectActivity:$r5 = virtualinvoke $r5.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($r6)
+-1ZZZgetUri:com.ringdroid.RingdroidSelectActivity:$r7 = virtualinvoke $r5.<java.lang.StringBuilder: java.lang.String toString()>()
+-1ZZZgetUri:com.ringdroid.RingdroidSelectActivity:$i0 = interfaceinvoke $r4.<android.database.Cursor: int getColumnIndex(java.lang.String)>($r7)
+-1ZZZgetUri:com.ringdroid.RingdroidSelectActivity:$i1 = $i0
+-1ZZZgetUri:com.ringdroid.RingdroidSelectActivity:$r2[0] = 1
+-1ZZZgetUri:com.ringdroid.RingdroidSelectActivity:if $i0 != -1 goto $r5 = new java.lang.StringBuilder
+-1ZZZgetUri:com.ringdroid.RingdroidSelectActivity:$r6 = <android.provider.MediaStore$Audio$Media: android.net.Uri EXTERNAL_CONTENT_URI>
+-1ZZZgetUri:com.ringdroid.RingdroidSelectActivity:$i1 = interfaceinvoke $r4.<android.database.Cursor: int getColumnIndex(java.lang.String)>($r7)
+-1ZZZgetUri:com.ringdroid.RingdroidSelectActivity:$r2[1] = 1
+-1ZZZgetUri:com.ringdroid.RingdroidSelectActivity:$r7 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i1)
+-1ZZZgetUri:com.ringdroid.RingdroidSelectActivity:$r5 = virtualinvoke $r5.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r7)
+-1ZZZgetUri:com.ringdroid.RingdroidSelectActivity:$r5 = virtualinvoke $r5.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("/")
+-1ZZZgetUri:com.ringdroid.RingdroidSelectActivity:$i0 = interfaceinvoke $r4.<android.database.Cursor: int getColumnIndexOrThrow(java.lang.String)>("_id")
+-1ZZZgetUri:com.ringdroid.RingdroidSelectActivity:$r7 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i0)
+-1ZZZgetUri:com.ringdroid.RingdroidSelectActivity:$r6 = staticinvoke <android.net.Uri: android.net.Uri parse(java.lang.String)>($r7)
+-1ZZZgetUri:com.ringdroid.RingdroidSelectActivity:$r2[2] = 1
+-1ZZZgetUri:com.ringdroid.RingdroidSelectActivity:return $r6
+4010ZZZsetAsDefaultRingtoneOrNotification:com.ringdroid.RingdroidSelectActivity:$r5 = specialinvoke $r0.<com.ringdroid.RingdroidSelectActivity: android.net.Uri getUri()>()
+-1ZZZsetAsDefaultRingtoneOrNotification:com.ringdroid.RingdroidSelectActivity:$r0 := @this: com.ringdroid.RingdroidSelectActivity
+-1ZZZsetAsDefaultRingtoneOrNotification:com.ringdroid.RingdroidSelectActivity:$r1 = <com.ringdroid.RingdroidSelectActivity: boolean[][] $VRc>
+-1ZZZsetAsDefaultRingtoneOrNotification:com.ringdroid.RingdroidSelectActivity:if $r1 != null goto $r2 = $r1[10]
+-1ZZZsetAsDefaultRingtoneOrNotification:com.ringdroid.RingdroidSelectActivity:$r1 = staticinvoke <com.ringdroid.RingdroidSelectActivity: boolean[][] $VRi()>()
+-1ZZZsetAsDefaultRingtoneOrNotification:com.ringdroid.RingdroidSelectActivity:$r2 = $r1[10]
+-1ZZZsetAsDefaultRingtoneOrNotification:com.ringdroid.RingdroidSelectActivity:$r3 = $r0.<com.ringdroid.RingdroidSelectActivity: android.widget.SimpleCursorAdapter mAdapter>
+-1ZZZsetAsDefaultRingtoneOrNotification:com.ringdroid.RingdroidSelectActivity:$r4 = virtualinvoke $r3.<android.widget.SimpleCursorAdapter: android.database.Cursor getCursor()>()
+-1ZZZsetAsDefaultRingtoneOrNotification:com.ringdroid.RingdroidSelectActivity:$i0 = interfaceinvoke $r4.<android.database.Cursor: int getColumnIndexOrThrow(java.lang.String)>("is_ringtone")
+-1ZZZsetAsDefaultRingtoneOrNotification:com.ringdroid.RingdroidSelectActivity:$i0 = interfaceinvoke $r4.<android.database.Cursor: int getInt(int)>($i0)
+-1ZZZsetAsDefaultRingtoneOrNotification:com.ringdroid.RingdroidSelectActivity:$r2[0] = 1
+-1ZZZsetAsDefaultRingtoneOrNotification:com.ringdroid.RingdroidSelectActivity:if $i0 == 0 goto $r5 = specialinvoke $r0.<com.ringdroid.RingdroidSelectActivity: android.net.Uri getUri()>()
+-1ZZZsetAsDefaultRingtoneOrNotification:com.ringdroid.RingdroidSelectActivity:$r5 = specialinvoke $r0.<com.ringdroid.RingdroidSelectActivity: android.net.Uri getUri()>()
+-1ZZZsetAsDefaultRingtoneOrNotification:com.ringdroid.RingdroidSelectActivity:staticinvoke <android.media.RingtoneManager: void setActualDefaultRingtoneUri(android.content.Context,int,android.net.Uri)>($r0, 1, $r5)
+-1ZZZsetAsDefaultRingtoneOrNotification:com.ringdroid.RingdroidSelectActivity:$r6 = staticinvoke <android.widget.Toast: android.widget.Toast makeText(android.content.Context,int,int)>($r0, 2130968640, 0)
+-1ZZZsetAsDefaultRingtoneOrNotification:com.ringdroid.RingdroidSelectActivity:virtualinvoke $r6.<android.widget.Toast: void show()>()
+-1ZZZsetAsDefaultRingtoneOrNotification:com.ringdroid.RingdroidSelectActivity:$r2[1] = 1
+-1ZZZsetAsDefaultRingtoneOrNotification:com.ringdroid.RingdroidSelectActivity:$r2[3] = 1
+-1ZZZsetAsDefaultRingtoneOrNotification:com.ringdroid.RingdroidSelectActivity:return
+-1ZZZsetAsDefaultRingtoneOrNotification:com.ringdroid.RingdroidSelectActivity:staticinvoke <android.media.RingtoneManager: void setActualDefaultRingtoneUri(android.content.Context,int,android.net.Uri)>($r0, 2, $r5)
+-1ZZZsetAsDefaultRingtoneOrNotification:com.ringdroid.RingdroidSelectActivity:$r6 = staticinvoke <android.widget.Toast: android.widget.Toast makeText(android.content.Context,int,int)>($r0, 2130968641, 0)
+-1ZZZsetAsDefaultRingtoneOrNotification:com.ringdroid.RingdroidSelectActivity:$r2[2] = 1
+-1ZZZsetAsDefaultRingtoneOrNotification:com.ringdroid.RingdroidSelectActivity:goto [?= $r2[3] = 1]
+3968ZZZonClick:com.ringdroid.RingdroidSelectActivity$2$1:virtualinvoke $r5.<com.ringdroid.RingdroidSelectActivity: void openContextMenu(android.view.View)>($r1)
+-1ZZZonClick:com.ringdroid.RingdroidSelectActivity$2$1:$r0 := @this: com.ringdroid.RingdroidSelectActivity$2$1
+-1ZZZonClick:com.ringdroid.RingdroidSelectActivity$2$1:$r1 := @parameter0: android.view.View
+-1ZZZonClick:com.ringdroid.RingdroidSelectActivity$2$1:$r2 = <com.ringdroid.RingdroidSelectActivity$2$1: boolean[][] $VRc>
+-1ZZZonClick:com.ringdroid.RingdroidSelectActivity$2$1:if $r2 != null goto $r3 = $r2[1]
+-1ZZZonClick:com.ringdroid.RingdroidSelectActivity$2$1:$r2 = staticinvoke <com.ringdroid.RingdroidSelectActivity$2$1: boolean[][] $VRi()>()
+-1ZZZonClick:com.ringdroid.RingdroidSelectActivity$2$1:$r3 = $r2[1]
+-1ZZZonClick:com.ringdroid.RingdroidSelectActivity$2$1:$r4 = $r0.<com.ringdroid.RingdroidSelectActivity$2$1: com.ringdroid.RingdroidSelectActivity$2 this$1>
+-1ZZZonClick:com.ringdroid.RingdroidSelectActivity$2$1:$r5 = $r4.<com.ringdroid.RingdroidSelectActivity$2: com.ringdroid.RingdroidSelectActivity this$0>
+-1ZZZonClick:com.ringdroid.RingdroidSelectActivity$2$1:virtualinvoke $r5.<com.ringdroid.RingdroidSelectActivity: void openContextMenu(android.view.View)>($r1)
+-1ZZZonClick:com.ringdroid.RingdroidSelectActivity$2$1:$r3[0] = 1
+-1ZZZonClick:com.ringdroid.RingdroidSelectActivity$2$1:return
+3944ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r4[0] = 1
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r0 := @parameter0: com.ringdroid.RingdroidSelectActivity
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r1 := @parameter1: android.widget.ImageView
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r2 := @parameter2: android.database.Cursor
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r3 = <com.ringdroid.RingdroidSelectActivity: boolean[][] $VRc>
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:if $r3 != null goto $r4 = $r3[23]
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r3 = staticinvoke <com.ringdroid.RingdroidSelectActivity: boolean[][] $VRi()>()
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r4 = $r3[23]
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:specialinvoke $r0.<com.ringdroid.RingdroidSelectActivity: void setSoundIconFromCursor(android.widget.ImageView,android.database.Cursor)>($r1, $r2)
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r4[0] = 1
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:return
+3895ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:staticinvoke <com.ringdroid.RingdroidSelectActivity: void access$100(com.ringdroid.RingdroidSelectActivity,android.widget.ImageView,android.database.Cursor)>($r7, $r5, $r1)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r0 := @this: com.ringdroid.RingdroidSelectActivity$2
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r2 := @parameter0: android.view.View
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r1 := @parameter1: android.database.Cursor
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$i0 := @parameter2: int
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r3 = <com.ringdroid.RingdroidSelectActivity$2: boolean[][] $VRc>
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $r3 != null goto $r4 = $r3[1]
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r3 = staticinvoke <com.ringdroid.RingdroidSelectActivity$2: boolean[][] $VRi()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4 = $r3[1]
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$i0 = virtualinvoke $r2.<android.view.View: int getId()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[0] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $i0 != 2131165211 goto $i0 = virtualinvoke $r2.<android.view.View: int getId()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r5 = (android.widget.ImageView) $r2
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r6 = new com.ringdroid.RingdroidSelectActivity$2$1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:specialinvoke $r6.<com.ringdroid.RingdroidSelectActivity$2$1: void <init>(com.ringdroid.RingdroidSelectActivity$2)>($r0)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:virtualinvoke $r5.<android.widget.ImageView: void setOnClickListener(android.view.View$OnClickListener)>($r6)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[1] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:return 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[2] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $i0 != 2131165207 goto $r4[4] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r7 = $r0.<com.ringdroid.RingdroidSelectActivity$2: com.ringdroid.RingdroidSelectActivity this$0>
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:staticinvoke <com.ringdroid.RingdroidSelectActivity: void access$100(com.ringdroid.RingdroidSelectActivity,android.widget.ImageView,android.database.Cursor)>($r7, $r5, $r1)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[3] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[4] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:return 0
+3835ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r4[0] = 1
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r0 := @parameter0: com.ringdroid.RingdroidSelectActivity
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r1 := @parameter1: android.widget.ImageView
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r2 := @parameter2: android.database.Cursor
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r3 = <com.ringdroid.RingdroidSelectActivity: boolean[][] $VRc>
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:if $r3 != null goto $r4 = $r3[23]
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r3 = staticinvoke <com.ringdroid.RingdroidSelectActivity: boolean[][] $VRi()>()
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r4 = $r3[23]
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:specialinvoke $r0.<com.ringdroid.RingdroidSelectActivity: void setSoundIconFromCursor(android.widget.ImageView,android.database.Cursor)>($r1, $r2)
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r4[0] = 1
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:return
+3790ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:staticinvoke <com.ringdroid.RingdroidSelectActivity: void access$100(com.ringdroid.RingdroidSelectActivity,android.widget.ImageView,android.database.Cursor)>($r7, $r5, $r1)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r0 := @this: com.ringdroid.RingdroidSelectActivity$2
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r2 := @parameter0: android.view.View
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r1 := @parameter1: android.database.Cursor
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$i0 := @parameter2: int
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r3 = <com.ringdroid.RingdroidSelectActivity$2: boolean[][] $VRc>
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $r3 != null goto $r4 = $r3[1]
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r3 = staticinvoke <com.ringdroid.RingdroidSelectActivity$2: boolean[][] $VRi()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4 = $r3[1]
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$i0 = virtualinvoke $r2.<android.view.View: int getId()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[0] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $i0 != 2131165211 goto $i0 = virtualinvoke $r2.<android.view.View: int getId()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r5 = (android.widget.ImageView) $r2
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r6 = new com.ringdroid.RingdroidSelectActivity$2$1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:specialinvoke $r6.<com.ringdroid.RingdroidSelectActivity$2$1: void <init>(com.ringdroid.RingdroidSelectActivity$2)>($r0)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:virtualinvoke $r5.<android.widget.ImageView: void setOnClickListener(android.view.View$OnClickListener)>($r6)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[1] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:return 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[2] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $i0 != 2131165207 goto $r4[4] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r7 = $r0.<com.ringdroid.RingdroidSelectActivity$2: com.ringdroid.RingdroidSelectActivity this$0>
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:staticinvoke <com.ringdroid.RingdroidSelectActivity: void access$100(com.ringdroid.RingdroidSelectActivity,android.widget.ImageView,android.database.Cursor)>($r7, $r5, $r1)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[3] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[4] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:return 0
+3730ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r4[0] = 1
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r0 := @parameter0: com.ringdroid.RingdroidSelectActivity
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r1 := @parameter1: android.widget.ImageView
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r2 := @parameter2: android.database.Cursor
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r3 = <com.ringdroid.RingdroidSelectActivity: boolean[][] $VRc>
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:if $r3 != null goto $r4 = $r3[23]
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r3 = staticinvoke <com.ringdroid.RingdroidSelectActivity: boolean[][] $VRi()>()
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r4 = $r3[23]
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:specialinvoke $r0.<com.ringdroid.RingdroidSelectActivity: void setSoundIconFromCursor(android.widget.ImageView,android.database.Cursor)>($r1, $r2)
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r4[0] = 1
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:return
+3677ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:staticinvoke <com.ringdroid.RingdroidSelectActivity: void access$100(com.ringdroid.RingdroidSelectActivity,android.widget.ImageView,android.database.Cursor)>($r7, $r5, $r1)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r0 := @this: com.ringdroid.RingdroidSelectActivity$2
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r2 := @parameter0: android.view.View
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r1 := @parameter1: android.database.Cursor
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$i0 := @parameter2: int
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r3 = <com.ringdroid.RingdroidSelectActivity$2: boolean[][] $VRc>
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $r3 != null goto $r4 = $r3[1]
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r3 = staticinvoke <com.ringdroid.RingdroidSelectActivity$2: boolean[][] $VRi()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4 = $r3[1]
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$i0 = virtualinvoke $r2.<android.view.View: int getId()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[0] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $i0 != 2131165211 goto $i0 = virtualinvoke $r2.<android.view.View: int getId()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r5 = (android.widget.ImageView) $r2
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r6 = new com.ringdroid.RingdroidSelectActivity$2$1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:specialinvoke $r6.<com.ringdroid.RingdroidSelectActivity$2$1: void <init>(com.ringdroid.RingdroidSelectActivity$2)>($r0)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:virtualinvoke $r5.<android.widget.ImageView: void setOnClickListener(android.view.View$OnClickListener)>($r6)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[1] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:return 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[2] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $i0 != 2131165207 goto $r4[4] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r7 = $r0.<com.ringdroid.RingdroidSelectActivity$2: com.ringdroid.RingdroidSelectActivity this$0>
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:staticinvoke <com.ringdroid.RingdroidSelectActivity: void access$100(com.ringdroid.RingdroidSelectActivity,android.widget.ImageView,android.database.Cursor)>($r7, $r5, $r1)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[3] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[4] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:return 0
+3617ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r4[0] = 1
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r0 := @parameter0: com.ringdroid.RingdroidSelectActivity
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r1 := @parameter1: android.widget.ImageView
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r2 := @parameter2: android.database.Cursor
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r3 = <com.ringdroid.RingdroidSelectActivity: boolean[][] $VRc>
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:if $r3 != null goto $r4 = $r3[23]
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r3 = staticinvoke <com.ringdroid.RingdroidSelectActivity: boolean[][] $VRi()>()
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r4 = $r3[23]
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:specialinvoke $r0.<com.ringdroid.RingdroidSelectActivity: void setSoundIconFromCursor(android.widget.ImageView,android.database.Cursor)>($r1, $r2)
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r4[0] = 1
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:return
+3572ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:staticinvoke <com.ringdroid.RingdroidSelectActivity: void access$100(com.ringdroid.RingdroidSelectActivity,android.widget.ImageView,android.database.Cursor)>($r7, $r5, $r1)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r0 := @this: com.ringdroid.RingdroidSelectActivity$2
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r2 := @parameter0: android.view.View
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r1 := @parameter1: android.database.Cursor
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$i0 := @parameter2: int
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r3 = <com.ringdroid.RingdroidSelectActivity$2: boolean[][] $VRc>
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $r3 != null goto $r4 = $r3[1]
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r3 = staticinvoke <com.ringdroid.RingdroidSelectActivity$2: boolean[][] $VRi()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4 = $r3[1]
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$i0 = virtualinvoke $r2.<android.view.View: int getId()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[0] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $i0 != 2131165211 goto $i0 = virtualinvoke $r2.<android.view.View: int getId()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r5 = (android.widget.ImageView) $r2
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r6 = new com.ringdroid.RingdroidSelectActivity$2$1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:specialinvoke $r6.<com.ringdroid.RingdroidSelectActivity$2$1: void <init>(com.ringdroid.RingdroidSelectActivity$2)>($r0)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:virtualinvoke $r5.<android.widget.ImageView: void setOnClickListener(android.view.View$OnClickListener)>($r6)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[1] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:return 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[2] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $i0 != 2131165207 goto $r4[4] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r7 = $r0.<com.ringdroid.RingdroidSelectActivity$2: com.ringdroid.RingdroidSelectActivity this$0>
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:staticinvoke <com.ringdroid.RingdroidSelectActivity: void access$100(com.ringdroid.RingdroidSelectActivity,android.widget.ImageView,android.database.Cursor)>($r7, $r5, $r1)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[3] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[4] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:return 0
+3512ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r4[0] = 1
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r0 := @parameter0: com.ringdroid.RingdroidSelectActivity
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r1 := @parameter1: android.widget.ImageView
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r2 := @parameter2: android.database.Cursor
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r3 = <com.ringdroid.RingdroidSelectActivity: boolean[][] $VRc>
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:if $r3 != null goto $r4 = $r3[23]
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r3 = staticinvoke <com.ringdroid.RingdroidSelectActivity: boolean[][] $VRi()>()
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r4 = $r3[23]
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:specialinvoke $r0.<com.ringdroid.RingdroidSelectActivity: void setSoundIconFromCursor(android.widget.ImageView,android.database.Cursor)>($r1, $r2)
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r4[0] = 1
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:return
+3459ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:staticinvoke <com.ringdroid.RingdroidSelectActivity: void access$100(com.ringdroid.RingdroidSelectActivity,android.widget.ImageView,android.database.Cursor)>($r7, $r5, $r1)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r0 := @this: com.ringdroid.RingdroidSelectActivity$2
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r2 := @parameter0: android.view.View
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r1 := @parameter1: android.database.Cursor
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$i0 := @parameter2: int
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r3 = <com.ringdroid.RingdroidSelectActivity$2: boolean[][] $VRc>
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $r3 != null goto $r4 = $r3[1]
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r3 = staticinvoke <com.ringdroid.RingdroidSelectActivity$2: boolean[][] $VRi()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4 = $r3[1]
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$i0 = virtualinvoke $r2.<android.view.View: int getId()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[0] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $i0 != 2131165211 goto $i0 = virtualinvoke $r2.<android.view.View: int getId()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r5 = (android.widget.ImageView) $r2
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r6 = new com.ringdroid.RingdroidSelectActivity$2$1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:specialinvoke $r6.<com.ringdroid.RingdroidSelectActivity$2$1: void <init>(com.ringdroid.RingdroidSelectActivity$2)>($r0)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:virtualinvoke $r5.<android.widget.ImageView: void setOnClickListener(android.view.View$OnClickListener)>($r6)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[1] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:return 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[2] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $i0 != 2131165207 goto $r4[4] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r7 = $r0.<com.ringdroid.RingdroidSelectActivity$2: com.ringdroid.RingdroidSelectActivity this$0>
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:staticinvoke <com.ringdroid.RingdroidSelectActivity: void access$100(com.ringdroid.RingdroidSelectActivity,android.widget.ImageView,android.database.Cursor)>($r7, $r5, $r1)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[3] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[4] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:return 0
+3399ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r4[0] = 1
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r0 := @parameter0: com.ringdroid.RingdroidSelectActivity
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r1 := @parameter1: android.widget.ImageView
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r2 := @parameter2: android.database.Cursor
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r3 = <com.ringdroid.RingdroidSelectActivity: boolean[][] $VRc>
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:if $r3 != null goto $r4 = $r3[23]
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r3 = staticinvoke <com.ringdroid.RingdroidSelectActivity: boolean[][] $VRi()>()
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r4 = $r3[23]
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:specialinvoke $r0.<com.ringdroid.RingdroidSelectActivity: void setSoundIconFromCursor(android.widget.ImageView,android.database.Cursor)>($r1, $r2)
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r4[0] = 1
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:return
+3346ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:staticinvoke <com.ringdroid.RingdroidSelectActivity: void access$100(com.ringdroid.RingdroidSelectActivity,android.widget.ImageView,android.database.Cursor)>($r7, $r5, $r1)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r0 := @this: com.ringdroid.RingdroidSelectActivity$2
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r2 := @parameter0: android.view.View
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r1 := @parameter1: android.database.Cursor
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$i0 := @parameter2: int
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r3 = <com.ringdroid.RingdroidSelectActivity$2: boolean[][] $VRc>
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $r3 != null goto $r4 = $r3[1]
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r3 = staticinvoke <com.ringdroid.RingdroidSelectActivity$2: boolean[][] $VRi()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4 = $r3[1]
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$i0 = virtualinvoke $r2.<android.view.View: int getId()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[0] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $i0 != 2131165211 goto $i0 = virtualinvoke $r2.<android.view.View: int getId()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r5 = (android.widget.ImageView) $r2
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r6 = new com.ringdroid.RingdroidSelectActivity$2$1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:specialinvoke $r6.<com.ringdroid.RingdroidSelectActivity$2$1: void <init>(com.ringdroid.RingdroidSelectActivity$2)>($r0)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:virtualinvoke $r5.<android.widget.ImageView: void setOnClickListener(android.view.View$OnClickListener)>($r6)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[1] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:return 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[2] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $i0 != 2131165207 goto $r4[4] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r7 = $r0.<com.ringdroid.RingdroidSelectActivity$2: com.ringdroid.RingdroidSelectActivity this$0>
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:staticinvoke <com.ringdroid.RingdroidSelectActivity: void access$100(com.ringdroid.RingdroidSelectActivity,android.widget.ImageView,android.database.Cursor)>($r7, $r5, $r1)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[3] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[4] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:return 0
+3286ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r4[0] = 1
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r0 := @parameter0: com.ringdroid.RingdroidSelectActivity
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r1 := @parameter1: android.widget.ImageView
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r2 := @parameter2: android.database.Cursor
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r3 = <com.ringdroid.RingdroidSelectActivity: boolean[][] $VRc>
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:if $r3 != null goto $r4 = $r3[23]
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r3 = staticinvoke <com.ringdroid.RingdroidSelectActivity: boolean[][] $VRi()>()
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r4 = $r3[23]
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:specialinvoke $r0.<com.ringdroid.RingdroidSelectActivity: void setSoundIconFromCursor(android.widget.ImageView,android.database.Cursor)>($r1, $r2)
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r4[0] = 1
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:return
+3241ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:staticinvoke <com.ringdroid.RingdroidSelectActivity: void access$100(com.ringdroid.RingdroidSelectActivity,android.widget.ImageView,android.database.Cursor)>($r7, $r5, $r1)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r0 := @this: com.ringdroid.RingdroidSelectActivity$2
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r2 := @parameter0: android.view.View
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r1 := @parameter1: android.database.Cursor
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$i0 := @parameter2: int
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r3 = <com.ringdroid.RingdroidSelectActivity$2: boolean[][] $VRc>
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $r3 != null goto $r4 = $r3[1]
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r3 = staticinvoke <com.ringdroid.RingdroidSelectActivity$2: boolean[][] $VRi()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4 = $r3[1]
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$i0 = virtualinvoke $r2.<android.view.View: int getId()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[0] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $i0 != 2131165211 goto $i0 = virtualinvoke $r2.<android.view.View: int getId()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r5 = (android.widget.ImageView) $r2
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r6 = new com.ringdroid.RingdroidSelectActivity$2$1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:specialinvoke $r6.<com.ringdroid.RingdroidSelectActivity$2$1: void <init>(com.ringdroid.RingdroidSelectActivity$2)>($r0)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:virtualinvoke $r5.<android.widget.ImageView: void setOnClickListener(android.view.View$OnClickListener)>($r6)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[1] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:return 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[2] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $i0 != 2131165207 goto $r4[4] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r7 = $r0.<com.ringdroid.RingdroidSelectActivity$2: com.ringdroid.RingdroidSelectActivity this$0>
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:staticinvoke <com.ringdroid.RingdroidSelectActivity: void access$100(com.ringdroid.RingdroidSelectActivity,android.widget.ImageView,android.database.Cursor)>($r7, $r5, $r1)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[3] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[4] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:return 0
+3181ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r4[0] = 1
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r0 := @parameter0: com.ringdroid.RingdroidSelectActivity
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r1 := @parameter1: android.widget.ImageView
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r2 := @parameter2: android.database.Cursor
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r3 = <com.ringdroid.RingdroidSelectActivity: boolean[][] $VRc>
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:if $r3 != null goto $r4 = $r3[23]
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r3 = staticinvoke <com.ringdroid.RingdroidSelectActivity: boolean[][] $VRi()>()
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r4 = $r3[23]
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:specialinvoke $r0.<com.ringdroid.RingdroidSelectActivity: void setSoundIconFromCursor(android.widget.ImageView,android.database.Cursor)>($r1, $r2)
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r4[0] = 1
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:return
+3128ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:staticinvoke <com.ringdroid.RingdroidSelectActivity: void access$100(com.ringdroid.RingdroidSelectActivity,android.widget.ImageView,android.database.Cursor)>($r7, $r5, $r1)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r0 := @this: com.ringdroid.RingdroidSelectActivity$2
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r2 := @parameter0: android.view.View
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r1 := @parameter1: android.database.Cursor
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$i0 := @parameter2: int
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r3 = <com.ringdroid.RingdroidSelectActivity$2: boolean[][] $VRc>
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $r3 != null goto $r4 = $r3[1]
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r3 = staticinvoke <com.ringdroid.RingdroidSelectActivity$2: boolean[][] $VRi()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4 = $r3[1]
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$i0 = virtualinvoke $r2.<android.view.View: int getId()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[0] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $i0 != 2131165211 goto $i0 = virtualinvoke $r2.<android.view.View: int getId()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r5 = (android.widget.ImageView) $r2
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r6 = new com.ringdroid.RingdroidSelectActivity$2$1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:specialinvoke $r6.<com.ringdroid.RingdroidSelectActivity$2$1: void <init>(com.ringdroid.RingdroidSelectActivity$2)>($r0)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:virtualinvoke $r5.<android.widget.ImageView: void setOnClickListener(android.view.View$OnClickListener)>($r6)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[1] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:return 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[2] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $i0 != 2131165207 goto $r4[4] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r7 = $r0.<com.ringdroid.RingdroidSelectActivity$2: com.ringdroid.RingdroidSelectActivity this$0>
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:staticinvoke <com.ringdroid.RingdroidSelectActivity: void access$100(com.ringdroid.RingdroidSelectActivity,android.widget.ImageView,android.database.Cursor)>($r7, $r5, $r1)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[3] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[4] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:return 0
+3068ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r4[0] = 1
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r0 := @parameter0: com.ringdroid.RingdroidSelectActivity
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r1 := @parameter1: android.widget.ImageView
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r2 := @parameter2: android.database.Cursor
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r3 = <com.ringdroid.RingdroidSelectActivity: boolean[][] $VRc>
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:if $r3 != null goto $r4 = $r3[23]
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r3 = staticinvoke <com.ringdroid.RingdroidSelectActivity: boolean[][] $VRi()>()
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r4 = $r3[23]
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:specialinvoke $r0.<com.ringdroid.RingdroidSelectActivity: void setSoundIconFromCursor(android.widget.ImageView,android.database.Cursor)>($r1, $r2)
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r4[0] = 1
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:return
+3015ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:staticinvoke <com.ringdroid.RingdroidSelectActivity: void access$100(com.ringdroid.RingdroidSelectActivity,android.widget.ImageView,android.database.Cursor)>($r7, $r5, $r1)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r0 := @this: com.ringdroid.RingdroidSelectActivity$2
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r2 := @parameter0: android.view.View
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r1 := @parameter1: android.database.Cursor
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$i0 := @parameter2: int
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r3 = <com.ringdroid.RingdroidSelectActivity$2: boolean[][] $VRc>
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $r3 != null goto $r4 = $r3[1]
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r3 = staticinvoke <com.ringdroid.RingdroidSelectActivity$2: boolean[][] $VRi()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4 = $r3[1]
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$i0 = virtualinvoke $r2.<android.view.View: int getId()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[0] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $i0 != 2131165211 goto $i0 = virtualinvoke $r2.<android.view.View: int getId()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r5 = (android.widget.ImageView) $r2
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r6 = new com.ringdroid.RingdroidSelectActivity$2$1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:specialinvoke $r6.<com.ringdroid.RingdroidSelectActivity$2$1: void <init>(com.ringdroid.RingdroidSelectActivity$2)>($r0)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:virtualinvoke $r5.<android.widget.ImageView: void setOnClickListener(android.view.View$OnClickListener)>($r6)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[1] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:return 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[2] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $i0 != 2131165207 goto $r4[4] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r7 = $r0.<com.ringdroid.RingdroidSelectActivity$2: com.ringdroid.RingdroidSelectActivity this$0>
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:staticinvoke <com.ringdroid.RingdroidSelectActivity: void access$100(com.ringdroid.RingdroidSelectActivity,android.widget.ImageView,android.database.Cursor)>($r7, $r5, $r1)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[3] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[4] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:return 0
+2955ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r4[0] = 1
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r0 := @parameter0: com.ringdroid.RingdroidSelectActivity
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r1 := @parameter1: android.widget.ImageView
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r2 := @parameter2: android.database.Cursor
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r3 = <com.ringdroid.RingdroidSelectActivity: boolean[][] $VRc>
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:if $r3 != null goto $r4 = $r3[23]
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r3 = staticinvoke <com.ringdroid.RingdroidSelectActivity: boolean[][] $VRi()>()
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r4 = $r3[23]
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:specialinvoke $r0.<com.ringdroid.RingdroidSelectActivity: void setSoundIconFromCursor(android.widget.ImageView,android.database.Cursor)>($r1, $r2)
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:$r4[0] = 1
+-1ZZZaccess$100:com.ringdroid.RingdroidSelectActivity:return
+2902ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:staticinvoke <com.ringdroid.RingdroidSelectActivity: void access$100(com.ringdroid.RingdroidSelectActivity,android.widget.ImageView,android.database.Cursor)>($r7, $r5, $r1)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r0 := @this: com.ringdroid.RingdroidSelectActivity$2
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r2 := @parameter0: android.view.View
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r1 := @parameter1: android.database.Cursor
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$i0 := @parameter2: int
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r3 = <com.ringdroid.RingdroidSelectActivity$2: boolean[][] $VRc>
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $r3 != null goto $r4 = $r3[1]
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r3 = staticinvoke <com.ringdroid.RingdroidSelectActivity$2: boolean[][] $VRi()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4 = $r3[1]
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$i0 = virtualinvoke $r2.<android.view.View: int getId()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[0] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $i0 != 2131165211 goto $i0 = virtualinvoke $r2.<android.view.View: int getId()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r5 = (android.widget.ImageView) $r2
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r6 = new com.ringdroid.RingdroidSelectActivity$2$1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:specialinvoke $r6.<com.ringdroid.RingdroidSelectActivity$2$1: void <init>(com.ringdroid.RingdroidSelectActivity$2)>($r0)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:virtualinvoke $r5.<android.widget.ImageView: void setOnClickListener(android.view.View$OnClickListener)>($r6)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[1] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:return 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[2] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $i0 != 2131165207 goto $r4[4] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r7 = $r0.<com.ringdroid.RingdroidSelectActivity$2: com.ringdroid.RingdroidSelectActivity this$0>
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:staticinvoke <com.ringdroid.RingdroidSelectActivity: void access$100(com.ringdroid.RingdroidSelectActivity,android.widget.ImageView,android.database.Cursor)>($r7, $r5, $r1)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[3] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[4] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:return 0
+2851ZZZ<clinit>:com.ringdroid.RingdroidSelectActivity$2$1:$r1[0] = 1
+-1ZZZ<clinit>:com.ringdroid.RingdroidSelectActivity$2$1:$r0 = staticinvoke <com.ringdroid.RingdroidSelectActivity$2$1: boolean[][] $VRi()>()
+-1ZZZ<clinit>:com.ringdroid.RingdroidSelectActivity$2$1:$r1 = $r0[2]
+-1ZZZ<clinit>:com.ringdroid.RingdroidSelectActivity$2$1:$r1[0] = 1
+-1ZZZ<clinit>:com.ringdroid.RingdroidSelectActivity$2$1:return
+2761ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:staticinvoke <com.ringdroid.RingdroidSelectActivity: void access$100(com.ringdroid.RingdroidSelectActivity,android.widget.ImageView,android.database.Cursor)>($r7, $r5, $r1)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r0 := @this: com.ringdroid.RingdroidSelectActivity$2
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r2 := @parameter0: android.view.View
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r1 := @parameter1: android.database.Cursor
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$i0 := @parameter2: int
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r3 = <com.ringdroid.RingdroidSelectActivity$2: boolean[][] $VRc>
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $r3 != null goto $r4 = $r3[1]
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r3 = staticinvoke <com.ringdroid.RingdroidSelectActivity$2: boolean[][] $VRi()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4 = $r3[1]
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$i0 = virtualinvoke $r2.<android.view.View: int getId()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[0] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $i0 != 2131165211 goto $i0 = virtualinvoke $r2.<android.view.View: int getId()>()
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r5 = (android.widget.ImageView) $r2
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r6 = new com.ringdroid.RingdroidSelectActivity$2$1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:specialinvoke $r6.<com.ringdroid.RingdroidSelectActivity$2$1: void <init>(com.ringdroid.RingdroidSelectActivity$2)>($r0)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:virtualinvoke $r5.<android.widget.ImageView: void setOnClickListener(android.view.View$OnClickListener)>($r6)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[1] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:return 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[2] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:if $i0 != 2131165207 goto $r4[4] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r7 = $r0.<com.ringdroid.RingdroidSelectActivity$2: com.ringdroid.RingdroidSelectActivity this$0>
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:staticinvoke <com.ringdroid.RingdroidSelectActivity: void access$100(com.ringdroid.RingdroidSelectActivity,android.widget.ImageView,android.database.Cursor)>($r7, $r5, $r1)
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[3] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:$r4[4] = 1
+-1ZZZsetViewValue:com.ringdroid.RingdroidSelectActivity$2:return 0
+2649ZZZonOptionsItemSelected:com.ringdroid.RingdroidSelectActivity:specialinvoke $r0.<com.ringdroid.RingdroidSelectActivity: void refreshListView()>()
+-1ZZZonOptionsItemSelected:com.ringdroid.RingdroidSelectActivity:$r0 := @this: com.ringdroid.RingdroidSelectActivity
+-1ZZZonOptionsItemSelected:com.ringdroid.RingdroidSelectActivity:$r1 := @parameter0: android.view.MenuItem
+-1ZZZonOptionsItemSelected:com.ringdroid.RingdroidSelectActivity:$r2 = <com.ringdroid.RingdroidSelectActivity: boolean[][] $VRc>
+-1ZZZonOptionsItemSelected:com.ringdroid.RingdroidSelectActivity:if $r2 != null goto $r3 = $r2[6]
+-1ZZZonOptionsItemSelected:com.ringdroid.RingdroidSelectActivity:$r2 = staticinvoke <com.ringdroid.RingdroidSelectActivity: boolean[][] $VRi()>()
+-1ZZZonOptionsItemSelected:com.ringdroid.RingdroidSelectActivity:$r3 = $r2[6]
+-1ZZZonOptionsItemSelected:com.ringdroid.RingdroidSelectActivity:$i0 = interfaceinvoke $r1.<android.view.MenuItem: int getItemId()>()
+-1ZZZonOptionsItemSelected:com.ringdroid.RingdroidSelectActivity:$r3[0] = 1
+-1ZZZonOptionsItemSelected:com.ringdroid.RingdroidSelectActivity:lookupswitch($i0) {     case 2131165214: goto staticinvoke <com.ringdroid.RingdroidEditActivity: void onAbout(android.app.Activity)>($r0);     case 2131165215: goto $r3[5] = 1;     case 2131165216: goto specialinvoke $r0.<com.ringdroid.RingdroidSelectActivity: void onRecord()>();     case 2131165217: goto specialinvoke $r0.<com.ringdroid.RingdroidSelectActivity: void showPrivacyDialog()>();     case 2131165218: goto $r0.<com.ringdroid.RingdroidSelectActivity: boolean mShowAll> = 1;     default: goto $r3[5] = 1; }
+-1ZZZonOptionsItemSelected:com.ringdroid.RingdroidSelectActivity:$r3[5] = 1
+-1ZZZonOptionsItemSelected:com.ringdroid.RingdroidSelectActivity:return 0
+-1ZZZonOptionsItemSelected:com.ringdroid.RingdroidSelectActivity:staticinvoke <com.ringdroid.RingdroidEditActivity: void onAbout(android.app.Activity)>($r0)
+-1ZZZonOptionsItemSelected:com.ringdroid.RingdroidSelectActivity:$r3[1] = 1
+-1ZZZonOptionsItemSelected:com.ringdroid.RingdroidSelectActivity:return 1
+-1ZZZonOptionsItemSelected:com.ringdroid.RingdroidSelectActivity:specialinvoke $r0.<com.ringdroid.RingdroidSelectActivity: void onRecord()>()
+-1ZZZonOptionsItemSelected:com.ringdroid.RingdroidSelectActivity:$r3[2] = 1
+-1ZZZonOptionsItemSelected:com.ringdroid.RingdroidSelectActivity:specialinvoke $r0.<com.ringdroid.RingdroidSelectActivity: void showPrivacyDialog()>()
+-1ZZZonOptionsItemSelected:com.ringdroid.RingdroidSelectActivity:$r3[3] = 1
+-1ZZZonOptionsItemSelected:com.ringdroid.RingdroidSelectActivity:$r0.<com.ringdroid.RingdroidSelectActivity: boolean mShowAll> = 1
+-1ZZZonOptionsItemSelected:com.ringdroid.RingdroidSelectActivity:specialinvoke $r0.<com.ringdroid.RingdroidSelectActivity: void refreshListView()>()
+-1ZZZonOptionsItemSelected:com.ringdroid.RingdroidSelectActivity:$r3[4] = 1
+2601ZZZonCreateOptionsMenu:com.ringdroid.RingdroidSelectActivity:$r3[2] = 1
+-1ZZZonCreateOptionsMenu:com.ringdroid.RingdroidSelectActivity:$r0 := @this: com.ringdroid.RingdroidSelectActivity
+-1ZZZonCreateOptionsMenu:com.ringdroid.RingdroidSelectActivity:$r1 := @parameter0: android.view.Menu
+-1ZZZonCreateOptionsMenu:com.ringdroid.RingdroidSelectActivity:$r2 = <com.ringdroid.RingdroidSelectActivity: boolean[][] $VRc>
+-1ZZZonCreateOptionsMenu:com.ringdroid.RingdroidSelectActivity:if $r2 != null goto $r3 = $r2[4]
+-1ZZZonCreateOptionsMenu:com.ringdroid.RingdroidSelectActivity:$r2 = staticinvoke <com.ringdroid.RingdroidSelectActivity: boolean[][] $VRi()>()
+-1ZZZonCreateOptionsMenu:com.ringdroid.RingdroidSelectActivity:$r3 = $r2[4]
+-1ZZZonCreateOptionsMenu:com.ringdroid.RingdroidSelectActivity:$r4 = virtualinvoke $r0.<com.ringdroid.RingdroidSelectActivity: android.view.MenuInflater getMenuInflater()>()
+-1ZZZonCreateOptionsMenu:com.ringdroid.RingdroidSelectActivity:virtualinvoke $r4.<android.view.MenuInflater: void inflate(int,android.view.Menu)>(2131099649, $r1)
+-1ZZZonCreateOptionsMenu:com.ringdroid.RingdroidSelectActivity:$r5 = interfaceinvoke $r1.<android.view.Menu: android.view.MenuItem findItem(int)>(2131165215)
+-1ZZZonCreateOptionsMenu:com.ringdroid.RingdroidSelectActivity:$r6 = interfaceinvoke $r5.<android.view.MenuItem: android.view.View getActionView()>()
+-1ZZZonCreateOptionsMenu:com.ringdroid.RingdroidSelectActivity:$r7 = (android.widget.SearchView) $r6
+-1ZZZonCreateOptionsMenu:com.ringdroid.RingdroidSelectActivity:$r0.<com.ringdroid.RingdroidSelectActivity: android.widget.SearchView mFilter> = $r7
+-1ZZZonCreateOptionsMenu:com.ringdroid.RingdroidSelectActivity:$r7 = $r0.<com.ringdroid.RingdroidSelectActivity: android.widget.SearchView mFilter>
+-1ZZZonCreateOptionsMenu:com.ringdroid.RingdroidSelectActivity:$r3[0] = 1
+-1ZZZonCreateOptionsMenu:com.ringdroid.RingdroidSelectActivity:if $r7 == null goto $r3[2] = 1
+-1ZZZonCreateOptionsMenu:com.ringdroid.RingdroidSelectActivity:$r8 = new com.ringdroid.RingdroidSelectActivity$3
+-1ZZZonCreateOptionsMenu:com.ringdroid.RingdroidSelectActivity:specialinvoke $r8.<com.ringdroid.RingdroidSelectActivity$3: void <init>(com.ringdroid.RingdroidSelectActivity)>($r0)
+-1ZZZonCreateOptionsMenu:com.ringdroid.RingdroidSelectActivity:virtualinvoke $r7.<android.widget.SearchView: void setOnQueryTextListener(android.widget.SearchView$OnQueryTextListener)>($r8)
+-1ZZZonCreateOptionsMenu:com.ringdroid.RingdroidSelectActivity:$r3[1] = 1
+-1ZZZonCreateOptionsMenu:com.ringdroid.RingdroidSelectActivity:$r3[2] = 1
+-1ZZZonCreateOptionsMenu:com.ringdroid.RingdroidSelectActivity:return 1
+2591ZZZ<clinit>:com.ringdroid.RingdroidSelectActivity$3:$r1[0] = 1
+-1ZZZ<clinit>:com.ringdroid.RingdroidSelectActivity$3:$r0 = staticinvoke <com.ringdroid.RingdroidSelectActivity$3: boolean[][] $VRi()>()
+-1ZZZ<clinit>:com.ringdroid.RingdroidSelectActivity$3:$r1 = $r0[3]
+-1ZZZ<clinit>:com.ringdroid.RingdroidSelectActivity$3:$r1[0] = 1
+-1ZZZ<clinit>:com.ringdroid.RingdroidSelectActivity$3:return
+1307ZZZgetAppProperties:com.vladium.util.Property:$r8 = staticinvoke <com.vladium.util.Property: java.util.Properties combine(java.util.Properties,java.util.Properties)>($r8, $r5)
+-1ZZZgetAppProperties:com.vladium.util.Property:$r0 := @parameter0: java.lang.String
+-1ZZZgetAppProperties:com.vladium.util.Property:$r1 := @parameter1: java.lang.ClassLoader
+-1ZZZgetAppProperties:com.vladium.util.Property:goto [?= $r3 = new java.lang.StringBuilder]
+-1ZZZgetAppProperties:com.vladium.util.Property:$r3 = new java.lang.StringBuilder
+-1ZZZgetAppProperties:com.vladium.util.Property:specialinvoke $r3.<java.lang.StringBuilder: void <init>()>()
+-1ZZZgetAppProperties:com.vladium.util.Property:$r3 = virtualinvoke $r3.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("emma")
+-1ZZZgetAppProperties:com.vladium.util.Property:$r3 = virtualinvoke $r3.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("_default.properties")
+-1ZZZgetAppProperties:com.vladium.util.Property:$r4 = virtualinvoke $r3.<java.lang.StringBuilder: java.lang.String toString()>()
+-1ZZZgetAppProperties:com.vladium.util.Property:$r5 = staticinvoke <com.vladium.util.Property: java.util.Properties getProperties(java.lang.String,java.lang.ClassLoader)>($r4, $r1)
+-1ZZZgetAppProperties:com.vladium.util.Property:$r3 = virtualinvoke $r3.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(".properties")
+-1ZZZgetAppProperties:com.vladium.util.Property:$r4 = staticinvoke <com.vladium.util.Property: java.lang.String getSystemProperty(java.lang.String)>($r4)
+-1ZZZgetAppProperties:com.vladium.util.Property:if $r4 == null goto $r6 = null
+-1ZZZgetAppProperties:com.vladium.util.Property:$r6 = new java.io.File
+-1ZZZgetAppProperties:com.vladium.util.Property:specialinvoke $r6.<java.io.File: void <init>(java.lang.String)>($r4)
+-1ZZZgetAppProperties:com.vladium.util.Property:$r7 = staticinvoke <com.vladium.util.Property: java.util.Properties getLazyPropertiesFromFile(java.io.File)>($r6)
+-1ZZZgetAppProperties:com.vladium.util.Property:$r8 = staticinvoke <com.vladium.util.Property: java.util.Properties getSystemProperties(java.lang.String)>("emma")
+-1ZZZgetAppProperties:com.vladium.util.Property:$r0 = virtualinvoke $r3.<java.lang.StringBuilder: java.lang.String toString()>()
+-1ZZZgetAppProperties:com.vladium.util.Property:$r9 = staticinvoke <com.vladium.util.Property: java.util.Properties getProperties(java.lang.String,java.lang.ClassLoader)>($r0, $r1)
+-1ZZZgetAppProperties:com.vladium.util.Property:$r5 = staticinvoke <com.vladium.util.Property: java.util.Properties combine(java.util.Properties,java.util.Properties)>($r7, $r5)
+-1ZZZgetAppProperties:com.vladium.util.Property:$r8 = staticinvoke <com.vladium.util.Property: java.util.Properties combine(java.util.Properties,java.util.Properties)>($r8, $r5)
+-1ZZZgetAppProperties:com.vladium.util.Property:$r9 = staticinvoke <com.vladium.util.Property: java.util.Properties combine(java.util.Properties,java.util.Properties)>($r9, $r8)
+-1ZZZgetAppProperties:com.vladium.util.Property:return $r9
+-1ZZZgetAppProperties:com.vladium.util.Property:$r6 = null
+-1ZZZgetAppProperties:com.vladium.util.Property:goto [?= $r7 = staticinvoke <com.vladium.util.Property: java.util.Properties getLazyPropertiesFromFile(java.io.File)>($r6)]
+1285ZZZgetAppProperties:com.vladium.util.Property:$r5 = staticinvoke <com.vladium.util.Property: java.util.Properties combine(java.util.Properties,java.util.Properties)>($r7, $r5)
+-1ZZZgetAppProperties:com.vladium.util.Property:$r0 := @parameter0: java.lang.String
+-1ZZZgetAppProperties:com.vladium.util.Property:$r1 := @parameter1: java.lang.ClassLoader
+-1ZZZgetAppProperties:com.vladium.util.Property:goto [?= $r3 = new java.lang.StringBuilder]
+-1ZZZgetAppProperties:com.vladium.util.Property:$r3 = new java.lang.StringBuilder
+-1ZZZgetAppProperties:com.vladium.util.Property:specialinvoke $r3.<java.lang.StringBuilder: void <init>()>()
+-1ZZZgetAppProperties:com.vladium.util.Property:$r3 = virtualinvoke $r3.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("emma")
+-1ZZZgetAppProperties:com.vladium.util.Property:$r3 = virtualinvoke $r3.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("_default.properties")
+-1ZZZgetAppProperties:com.vladium.util.Property:$r4 = virtualinvoke $r3.<java.lang.StringBuilder: java.lang.String toString()>()
+-1ZZZgetAppProperties:com.vladium.util.Property:$r5 = staticinvoke <com.vladium.util.Property: java.util.Properties getProperties(java.lang.String,java.lang.ClassLoader)>($r4, $r1)
+-1ZZZgetAppProperties:com.vladium.util.Property:$r3 = virtualinvoke $r3.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(".properties")
+-1ZZZgetAppProperties:com.vladium.util.Property:$r4 = staticinvoke <com.vladium.util.Property: java.lang.String getSystemProperty(java.lang.String)>($r4)
+-1ZZZgetAppProperties:com.vladium.util.Property:if $r4 == null goto $r6 = null
+-1ZZZgetAppProperties:com.vladium.util.Property:$r6 = new java.io.File
+-1ZZZgetAppProperties:com.vladium.util.Property:specialinvoke $r6.<java.io.File: void <init>(java.lang.String)>($r4)
+-1ZZZgetAppProperties:com.vladium.util.Property:$r7 = staticinvoke <com.vladium.util.Property: java.util.Properties getLazyPropertiesFromFile(java.io.File)>($r6)
+-1ZZZgetAppProperties:com.vladium.util.Property:$r8 = staticinvoke <com.vladium.util.Property: java.util.Properties getSystemProperties(java.lang.String)>("emma")
+-1ZZZgetAppProperties:com.vladium.util.Property:$r0 = virtualinvoke $r3.<java.lang.StringBuilder: java.lang.String toString()>()
+-1ZZZgetAppProperties:com.vladium.util.Property:$r9 = staticinvoke <com.vladium.util.Property: java.util.Properties getProperties(java.lang.String,java.lang.ClassLoader)>($r0, $r1)
+-1ZZZgetAppProperties:com.vladium.util.Property:$r5 = staticinvoke <com.vladium.util.Property: java.util.Properties combine(java.util.Properties,java.util.Properties)>($r7, $r5)
+-1ZZZgetAppProperties:com.vladium.util.Property:$r8 = staticinvoke <com.vladium.util.Property: java.util.Properties combine(java.util.Properties,java.util.Properties)>($r8, $r5)
+-1ZZZgetAppProperties:com.vladium.util.Property:$r9 = staticinvoke <com.vladium.util.Property: java.util.Properties combine(java.util.Properties,java.util.Properties)>($r9, $r8)
+-1ZZZgetAppProperties:com.vladium.util.Property:return $r9
+-1ZZZgetAppProperties:com.vladium.util.Property:$r6 = null
+-1ZZZgetAppProperties:com.vladium.util.Property:goto [?= $r7 = staticinvoke <com.vladium.util.Property: java.util.Properties getLazyPropertiesFromFile(java.io.File)>($r6)]
+1265ZZZgetLazyPropertiesFromFile:com.vladium.util.Property:specialinvoke $r1.<com.vladium.util.Property$FilePropertyLookup: void <init>(java.io.File)>($r0)
+-1ZZZgetLazyPropertiesFromFile:com.vladium.util.Property:$r0 := @parameter0: java.io.File
+-1ZZZgetLazyPropertiesFromFile:com.vladium.util.Property:$r1 = new com.vladium.util.Property$FilePropertyLookup
+-1ZZZgetLazyPropertiesFromFile:com.vladium.util.Property:specialinvoke $r1.<com.vladium.util.Property$FilePropertyLookup: void <init>(java.io.File)>($r0)
+-1ZZZgetLazyPropertiesFromFile:com.vladium.util.Property:return $r1
+1239ZZZ<clinit>:com.vladium.logging.Logger:specialinvoke $r2.<com.vladium.logging.Logger$ThreadLocalStack: void <init>(com.vladium.logging.Logger$1)>(null)
+-1ZZZ<clinit>:com.vladium.logging.Logger:$r0 = null
+-1ZZZ<clinit>:com.vladium.logging.Logger:$r1 = "com.vladium."
+-1ZZZ<clinit>:com.vladium.logging.Logger:$i0 = virtualinvoke $r1.<java.lang.String: int length()>()
+-1ZZZ<clinit>:com.vladium.logging.Logger:<com.vladium.logging.Logger: int PREFIX_TO_STRIP_LENGTH> = $i0
+-1ZZZ<clinit>:com.vladium.logging.Logger:$r2 = new com.vladium.logging.Logger$ThreadLocalStack
+-1ZZZ<clinit>:com.vladium.logging.Logger:specialinvoke $r2.<com.vladium.logging.Logger$ThreadLocalStack: void <init>(com.vladium.logging.Logger$1)>(null)
+-1ZZZ<clinit>:com.vladium.logging.Logger:<com.vladium.logging.Logger: com.vladium.logging.Logger$ThreadLocalStack THREAD_LOCAL_STACK> = $r2
+-1ZZZ<clinit>:com.vladium.logging.Logger:$r3 = class "Lcom/vladium/logging/Logger;"
+-1ZZZ<clinit>:com.vladium.logging.Logger:$r4 = virtualinvoke $r3.<java.lang.Class: java.lang.ClassLoader getClassLoader()>()
+-1ZZZ<clinit>:com.vladium.logging.Logger:$r5 = staticinvoke <com.vladium.util.Property: java.util.Properties getAppProperties(java.lang.String,java.lang.ClassLoader)>("emma", $r4)
+-1ZZZ<clinit>:com.vladium.logging.Logger:$r1 = virtualinvoke $r5.<java.util.Properties: java.lang.String getProperty(java.lang.String,java.lang.String)>("verbosity.level", "info")
+-1ZZZ<clinit>:com.vladium.logging.Logger:$i0 = staticinvoke <com.vladium.logging.Logger: int stringToLevel(java.lang.String)>($r1)
+-1ZZZ<clinit>:com.vladium.logging.Logger:$r1 = virtualinvoke $r5.<java.util.Properties: java.lang.String getProperty(java.lang.String)>("verbosity.filter")
+-1ZZZ<clinit>:com.vladium.logging.Logger:if $r1 == null goto $r7 = new java.io.PrintWriter
+-1ZZZ<clinit>:com.vladium.logging.Logger:$r6 = new java.util.StringTokenizer
+-1ZZZ<clinit>:com.vladium.logging.Logger:specialinvoke $r6.<java.util.StringTokenizer: void <init>(java.lang.String,java.lang.String)>($r1, ", \t\r\n")
+-1ZZZ<clinit>:com.vladium.logging.Logger:$i1 = virtualinvoke $r6.<java.util.StringTokenizer: int countTokens()>()
+-1ZZZ<clinit>:com.vladium.logging.Logger:if $i1 <= 0 goto $r7 = new java.io.PrintWriter
+-1ZZZ<clinit>:com.vladium.logging.Logger:$r0 = new java.util.HashSet
+-1ZZZ<clinit>:com.vladium.logging.Logger:specialinvoke $r0.<java.util.HashSet: void <init>(int)>($i1)
+-1ZZZ<clinit>:com.vladium.logging.Logger:$z0 = virtualinvoke $r6.<java.util.StringTokenizer: boolean hasMoreTokens()>()
+-1ZZZ<clinit>:com.vladium.logging.Logger:if $z0 == 0 goto $r7 = new java.io.PrintWriter
+-1ZZZ<clinit>:com.vladium.logging.Logger:$r1 = virtualinvoke $r6.<java.util.StringTokenizer: java.lang.String nextToken()>()
+-1ZZZ<clinit>:com.vladium.logging.Logger:interfaceinvoke $r0.<java.util.Set: boolean add(java.lang.Object)>($r1)
+-1ZZZ<clinit>:com.vladium.logging.Logger:goto [?= $z0 = virtualinvoke $r6.<java.util.StringTokenizer: boolean hasMoreTokens()>()]
+-1ZZZ<clinit>:com.vladium.logging.Logger:$r7 = new java.io.PrintWriter
+-1ZZZ<clinit>:com.vladium.logging.Logger:$r8 = <java.lang.System: java.io.PrintStream out>
+-1ZZZ<clinit>:com.vladium.logging.Logger:specialinvoke $r7.<java.io.PrintWriter: void <init>(java.io.OutputStream,boolean)>($r8, 0)
+-1ZZZ<clinit>:com.vladium.logging.Logger:$r9 = staticinvoke <com.vladium.logging.Logger: com.vladium.logging.Logger create(int,java.io.PrintWriter,java.lang.String,java.util.Set)>($i0, $r7, "EMMA", $r0)
+-1ZZZ<clinit>:com.vladium.logging.Logger:<com.vladium.logging.Logger: com.vladium.logging.Logger STATIC_LOGGER> = $r9
+-1ZZZ<clinit>:com.vladium.logging.Logger:return
+1193ZZZreset:com.vladium.emma.rt.RT:specialinvoke $r8.<com.vladium.emma.rt.RTExitHook: void <init>(java.lang.Class,com.vladium.emma.data.ICoverageData,java.io.File,boolean)>(class "Lcom/vladium/emma/rt/RT;", $r6, $r9, $z0)
+-1ZZZreset:com.vladium.emma.rt.RT:$z0 := @parameter0: boolean
+-1ZZZreset:com.vladium.emma.rt.RT:$z1 := @parameter1: boolean
+-1ZZZreset:com.vladium.emma.rt.RT:entermonitor class "Lcom/vladium/emma/rt/RT;"
+-1ZZZreset:com.vladium.emma.rt.RT:$r0 = class "Lcom/vladium/emma/rt/RT;"
+-1ZZZreset:com.vladium.emma.rt.RT:$r1 = virtualinvoke $r0.<java.lang.Class: java.lang.ClassLoader getClassLoader()>()
+-1ZZZreset:com.vladium.emma.rt.RT:$r2 = $r1
+-1ZZZreset:com.vladium.emma.rt.RT:if $r1 != null goto $r3 = staticinvoke <com.vladium.emma.EMMAProperties: com.vladium.util.IProperties getAppProperties(java.lang.ClassLoader)>($r2)
+-1ZZZreset:com.vladium.emma.rt.RT:$r1 = staticinvoke <java.lang.ClassLoader: java.lang.ClassLoader getSystemClassLoader()>()
+-1ZZZreset:com.vladium.emma.rt.RT:$r3 = staticinvoke <com.vladium.emma.EMMAProperties: com.vladium.util.IProperties getAppProperties(java.lang.ClassLoader)>($r2)
+-1ZZZreset:com.vladium.emma.rt.RT:<com.vladium.emma.rt.RT: com.vladium.util.IProperties s_appProperties> = $r3
+-1ZZZreset:com.vladium.emma.rt.RT:$r4 = <com.vladium.emma.rt.RT: com.vladium.util.exit.ExitHookManager EXIT_HOOK_MANAGER>
+-1ZZZreset:com.vladium.emma.rt.RT:if $r4 == null goto $r6 = <com.vladium.emma.rt.RT: com.vladium.emma.data.ICoverageData s_cdata>
+-1ZZZreset:com.vladium.emma.rt.RT:$r5 = <com.vladium.emma.rt.RT: java.lang.Runnable s_exitHook>
+-1ZZZreset:com.vladium.emma.rt.RT:if $r5 == null goto $r6 = <com.vladium.emma.rt.RT: com.vladium.emma.data.ICoverageData s_cdata>
+-1ZZZreset:com.vladium.emma.rt.RT:virtualinvoke $r4.<com.vladium.util.exit.ExitHookManager: boolean removeExitHook(java.lang.Runnable)>($r5)
+-1ZZZreset:com.vladium.emma.rt.RT:<com.vladium.emma.rt.RT: java.lang.Runnable s_exitHook> = null
+-1ZZZreset:com.vladium.emma.rt.RT:$r6 = <com.vladium.emma.rt.RT: com.vladium.emma.data.ICoverageData s_cdata>
+-1ZZZreset:com.vladium.emma.rt.RT:if $z0 == 0 goto <com.vladium.emma.rt.RT: com.vladium.emma.data.ICoverageData s_cdata> = null
+-1ZZZreset:com.vladium.emma.rt.RT:$r7 = staticinvoke <com.vladium.emma.data.DataFactory: com.vladium.emma.data.ICoverageData newCoverageData()>()
+-1ZZZreset:com.vladium.emma.rt.RT:$r6 = $r7
+-1ZZZreset:com.vladium.emma.rt.RT:<com.vladium.emma.rt.RT: com.vladium.emma.data.ICoverageData s_cdata> = $r7
+-1ZZZreset:com.vladium.emma.rt.RT:if $r4 == null goto exitmonitor class "Lcom/vladium/emma/rt/RT;"
+-1ZZZreset:com.vladium.emma.rt.RT:if $z1 == 0 goto exitmonitor class "Lcom/vladium/emma/rt/RT;"
+-1ZZZreset:com.vladium.emma.rt.RT:if $r6 == null goto exitmonitor class "Lcom/vladium/emma/rt/RT;"
+-1ZZZreset:com.vladium.emma.rt.RT:$r8 = new com.vladium.emma.rt.RTExitHook
+-1ZZZreset:com.vladium.emma.rt.RT:$r9 = staticinvoke <com.vladium.emma.rt.RT: java.io.File getCoverageOutFile()>()
+-1ZZZreset:com.vladium.emma.rt.RT:$z0 = staticinvoke <com.vladium.emma.rt.RT: boolean getCoverageOutMerge()>()
+-1ZZZreset:com.vladium.emma.rt.RT:specialinvoke $r8.<com.vladium.emma.rt.RTExitHook: void <init>(java.lang.Class,com.vladium.emma.data.ICoverageData,java.io.File,boolean)>(class "Lcom/vladium/emma/rt/RT;", $r6, $r9, $z0)
+-1ZZZreset:com.vladium.emma.rt.RT:staticinvoke <com.vladium.emma.rt.RTExitHook: void createClassLoaderClosure()>()
+-1ZZZreset:com.vladium.emma.rt.RT:$z0 = virtualinvoke $r4.<com.vladium.util.exit.ExitHookManager: boolean addExitHook(java.lang.Runnable)>($r8)
+-1ZZZreset:com.vladium.emma.rt.RT:if $z0 == 0 goto exitmonitor class "Lcom/vladium/emma/rt/RT;"
+-1ZZZreset:com.vladium.emma.rt.RT:<com.vladium.emma.rt.RT: java.lang.Runnable s_exitHook> = $r8
+-1ZZZreset:com.vladium.emma.rt.RT:exitmonitor class "Lcom/vladium/emma/rt/RT;"
+-1ZZZreset:com.vladium.emma.rt.RT:return $r6
+-1ZZZreset:com.vladium.emma.rt.RT:$r10 := @caughtexception
+-1ZZZreset:com.vladium.emma.rt.RT:$r11 = <java.lang.System: java.io.PrintStream out>
+-1ZZZreset:com.vladium.emma.rt.RT:virtualinvoke $r10.<java.lang.Throwable: void printStackTrace(java.io.PrintStream)>($r11)
+-1ZZZreset:com.vladium.emma.rt.RT:$r3 = null
+-1ZZZreset:com.vladium.emma.rt.RT:goto [?= <com.vladium.emma.rt.RT: com.vladium.util.IProperties s_appProperties> = $r3]
+-1ZZZreset:com.vladium.emma.rt.RT:<com.vladium.emma.rt.RT: com.vladium.emma.data.ICoverageData s_cdata> = null
+-1ZZZreset:com.vladium.emma.rt.RT:goto [?= $r4 = <com.vladium.emma.rt.RT: com.vladium.util.exit.ExitHookManager EXIT_HOOK_MANAGER>]
+-1ZZZreset:com.vladium.emma.rt.RT:$r12 := @caughtexception
+-1ZZZreset:com.vladium.emma.rt.RT:throw $r12
+1059ZZZnewCoverageData:com.vladium.emma.data.DataFactory:specialinvoke $r0.<com.vladium.emma.data.CoverageData: void <init>()>()
+-1ZZZnewCoverageData:com.vladium.emma.data.DataFactory:$r0 = new com.vladium.emma.data.CoverageData
+-1ZZZnewCoverageData:com.vladium.emma.data.DataFactory:specialinvoke $r0.<com.vladium.emma.data.CoverageData: void <init>()>()
+-1ZZZnewCoverageData:com.vladium.emma.data.DataFactory:return $r0
+1026ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r10 = staticinvoke <com.vladium.util.IProperties$Factory: com.vladium.util.IProperties combine(com.vladium.util.IProperties,com.vladium.util.IProperties)>($r3, $r10)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r0 := @parameter0: java.lang.ClassLoader
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:entermonitor class "Lcom/vladium/emma/EMMAProperties;"
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r1 = <com.vladium.emma.EMMAProperties: java.util.Map s_properties>
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r2 = interfaceinvoke $r1.<java.util.Map: java.lang.Object get(java.lang.Object)>($r0)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r3 = (com.vladium.util.IProperties) $r2
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:if $r3 == null goto $r1 = <com.vladium.emma.EMMAProperties: java.util.Map SYSTEM_PROPERTY_REDIRECTS>
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:exitmonitor class "Lcom/vladium/emma/EMMAProperties;"
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:return $r3
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r1 = <com.vladium.emma.EMMAProperties: java.util.Map SYSTEM_PROPERTY_REDIRECTS>
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r4 = staticinvoke <com.vladium.util.Property: java.util.Properties getSystemPropertyRedirects(java.util.Map)>($r1)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r5 = staticinvoke <com.vladium.emma.EMMAProperties: com.vladium.util.IProperties wrap(java.util.Properties)>($r4)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r4 = staticinvoke <com.vladium.util.Property: java.util.Properties getProperties(java.lang.String,java.lang.ClassLoader)>("emma_default.properties", $r0)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r6 = staticinvoke <com.vladium.emma.EMMAProperties: com.vladium.util.IProperties wrap(java.util.Properties)>($r4)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r7 = staticinvoke <com.vladium.util.Property: java.lang.String getSystemProperty(java.lang.String)>("emma.properties")
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:if $r7 == null goto $r8 = null
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r8 = new java.io.File
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:specialinvoke $r8.<java.io.File: void <init>(java.lang.String)>($r7)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r4 = staticinvoke <com.vladium.util.Property: java.util.Properties getLazyPropertiesFromFile(java.io.File)>($r8)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r9 = staticinvoke <com.vladium.emma.EMMAProperties: com.vladium.util.IProperties wrap(java.util.Properties)>($r4)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r4 = staticinvoke <com.vladium.util.Property: java.util.Properties getSystemProperties(java.lang.String)>("emma")
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r10 = staticinvoke <com.vladium.emma.EMMAProperties: com.vladium.util.IProperties wrap(java.util.Properties)>($r4)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r4 = staticinvoke <com.vladium.util.Property: java.util.Properties getProperties(java.lang.String,java.lang.ClassLoader)>("emma.properties", $r0)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r3 = staticinvoke <com.vladium.emma.EMMAProperties: com.vladium.util.IProperties wrap(java.util.Properties)>($r4)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r5 = staticinvoke <com.vladium.util.IProperties$Factory: com.vladium.util.IProperties combine(com.vladium.util.IProperties,com.vladium.util.IProperties)>($r6, $r5)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r9 = staticinvoke <com.vladium.util.IProperties$Factory: com.vladium.util.IProperties combine(com.vladium.util.IProperties,com.vladium.util.IProperties)>($r9, $r5)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r10 = staticinvoke <com.vladium.util.IProperties$Factory: com.vladium.util.IProperties combine(com.vladium.util.IProperties,com.vladium.util.IProperties)>($r10, $r9)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r10 = staticinvoke <com.vladium.util.IProperties$Factory: com.vladium.util.IProperties combine(com.vladium.util.IProperties,com.vladium.util.IProperties)>($r3, $r10)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r3 = $r10
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:interfaceinvoke $r1.<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>($r0, $r10)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:goto [?= exitmonitor class "Lcom/vladium/emma/EMMAProperties;"]
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r11 := @caughtexception
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:throw $r11
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r8 = null
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:goto [?= $r4 = staticinvoke <com.vladium.util.Property: java.util.Properties getLazyPropertiesFromFile(java.io.File)>($r8)]
+1007ZZZgetLastProperties:com.vladium.util.IProperties$Factory$PropertiesImpl:if $r1 == null goto return $r2
+-1ZZZgetLastProperties:com.vladium.util.IProperties$Factory$PropertiesImpl:$r0 := @this: com.vladium.util.IProperties$Factory$PropertiesImpl
+-1ZZZgetLastProperties:com.vladium.util.IProperties$Factory$PropertiesImpl:$r1 = $r0.<com.vladium.util.IProperties$Factory$PropertiesImpl: com.vladium.util.IProperties$Factory$PropertiesImpl m_delegate>
+-1ZZZgetLastProperties:com.vladium.util.IProperties$Factory$PropertiesImpl:$r2 = $r0
+-1ZZZgetLastProperties:com.vladium.util.IProperties$Factory$PropertiesImpl:if $r1 == null goto return $r2
+-1ZZZgetLastProperties:com.vladium.util.IProperties$Factory$PropertiesImpl:if $r1 != $r0 goto $r2 = $r1
+-1ZZZgetLastProperties:com.vladium.util.IProperties$Factory$PropertiesImpl:$r3 = new java.lang.IllegalStateException
+-1ZZZgetLastProperties:com.vladium.util.IProperties$Factory$PropertiesImpl:specialinvoke $r3.<java.lang.IllegalStateException: void <init>(java.lang.String)>("cyclic delegation detected")
+-1ZZZgetLastProperties:com.vladium.util.IProperties$Factory$PropertiesImpl:throw $r3
+-1ZZZgetLastProperties:com.vladium.util.IProperties$Factory$PropertiesImpl:$r2 = $r1
+-1ZZZgetLastProperties:com.vladium.util.IProperties$Factory$PropertiesImpl:$r1 = $r1.<com.vladium.util.IProperties$Factory$PropertiesImpl: com.vladium.util.IProperties$Factory$PropertiesImpl m_delegate>
+-1ZZZgetLastProperties:com.vladium.util.IProperties$Factory$PropertiesImpl:goto [?= (branch)]
+-1ZZZgetLastProperties:com.vladium.util.IProperties$Factory$PropertiesImpl:return $r2
+967ZZZwrap:com.vladium.emma.EMMAProperties:if $r0 != null goto $r2 = <com.vladium.emma.report.ReportProperties: com.vladium.util.IProperties$IMapper REPORT_PROPERTY_MAPPER>
+-1ZZZwrap:com.vladium.emma.EMMAProperties:$r0 := @parameter0: java.util.Properties
+-1ZZZwrap:com.vladium.emma.EMMAProperties:if $r0 != null goto $r2 = <com.vladium.emma.report.ReportProperties: com.vladium.util.IProperties$IMapper REPORT_PROPERTY_MAPPER>
+-1ZZZwrap:com.vladium.emma.EMMAProperties:return null
+-1ZZZwrap:com.vladium.emma.EMMAProperties:$r2 = <com.vladium.emma.report.ReportProperties: com.vladium.util.IProperties$IMapper REPORT_PROPERTY_MAPPER>
+-1ZZZwrap:com.vladium.emma.EMMAProperties:$r1 = staticinvoke <com.vladium.util.IProperties$Factory: com.vladium.util.IProperties wrap(java.util.Properties,com.vladium.util.IProperties$IMapper)>($r0, $r2)
+-1ZZZwrap:com.vladium.emma.EMMAProperties:return $r1
+597ZZZwrap:com.vladium.util.IProperties$Factory:specialinvoke $r7.<com.vladium.util.IProperties$Factory$PropertiesImpl: void <init>(java.util.HashMap,com.vladium.util.IProperties$IMapper)>($r2, $r1)
+-1ZZZwrap:com.vladium.util.IProperties$Factory:$r0 := @parameter0: java.util.Properties
+-1ZZZwrap:com.vladium.util.IProperties$Factory:$r1 := @parameter1: com.vladium.util.IProperties$IMapper
+-1ZZZwrap:com.vladium.util.IProperties$Factory:$r2 = new java.util.HashMap
+-1ZZZwrap:com.vladium.util.IProperties$Factory:specialinvoke $r2.<java.util.HashMap: void <init>()>()
+-1ZZZwrap:com.vladium.util.IProperties$Factory:$r3 = virtualinvoke $r0.<java.util.Properties: java.util.Enumeration propertyNames()>()
+-1ZZZwrap:com.vladium.util.IProperties$Factory:$z0 = interfaceinvoke $r3.<java.util.Enumeration: boolean hasMoreElements()>()
+-1ZZZwrap:com.vladium.util.IProperties$Factory:if $z0 == 0 goto $r7 = new com.vladium.util.IProperties$Factory$PropertiesImpl
+-1ZZZwrap:com.vladium.util.IProperties$Factory:$r4 = interfaceinvoke $r3.<java.util.Enumeration: java.lang.Object nextElement()>()
+-1ZZZwrap:com.vladium.util.IProperties$Factory:$r5 = (java.lang.String) $r4
+-1ZZZwrap:com.vladium.util.IProperties$Factory:$r6 = virtualinvoke $r0.<java.util.Properties: java.lang.String getProperty(java.lang.String)>($r5)
+-1ZZZwrap:com.vladium.util.IProperties$Factory:virtualinvoke $r2.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>($r5, $r6)
+-1ZZZwrap:com.vladium.util.IProperties$Factory:goto [?= $z0 = interfaceinvoke $r3.<java.util.Enumeration: boolean hasMoreElements()>()]
+-1ZZZwrap:com.vladium.util.IProperties$Factory:$r7 = new com.vladium.util.IProperties$Factory$PropertiesImpl
+-1ZZZwrap:com.vladium.util.IProperties$Factory:specialinvoke $r7.<com.vladium.util.IProperties$Factory$PropertiesImpl: void <init>(java.util.HashMap,com.vladium.util.IProperties$IMapper)>($r2, $r1)
+-1ZZZwrap:com.vladium.util.IProperties$Factory:return $r7
+574ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r9 = staticinvoke <com.vladium.emma.EMMAProperties: com.vladium.util.IProperties wrap(java.util.Properties)>($r4)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r0 := @parameter0: java.lang.ClassLoader
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:entermonitor class "Lcom/vladium/emma/EMMAProperties;"
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r1 = <com.vladium.emma.EMMAProperties: java.util.Map s_properties>
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r2 = interfaceinvoke $r1.<java.util.Map: java.lang.Object get(java.lang.Object)>($r0)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r3 = (com.vladium.util.IProperties) $r2
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:if $r3 == null goto $r1 = <com.vladium.emma.EMMAProperties: java.util.Map SYSTEM_PROPERTY_REDIRECTS>
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:exitmonitor class "Lcom/vladium/emma/EMMAProperties;"
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:return $r3
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r1 = <com.vladium.emma.EMMAProperties: java.util.Map SYSTEM_PROPERTY_REDIRECTS>
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r4 = staticinvoke <com.vladium.util.Property: java.util.Properties getSystemPropertyRedirects(java.util.Map)>($r1)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r5 = staticinvoke <com.vladium.emma.EMMAProperties: com.vladium.util.IProperties wrap(java.util.Properties)>($r4)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r4 = staticinvoke <com.vladium.util.Property: java.util.Properties getProperties(java.lang.String,java.lang.ClassLoader)>("emma_default.properties", $r0)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r6 = staticinvoke <com.vladium.emma.EMMAProperties: com.vladium.util.IProperties wrap(java.util.Properties)>($r4)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r7 = staticinvoke <com.vladium.util.Property: java.lang.String getSystemProperty(java.lang.String)>("emma.properties")
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:if $r7 == null goto $r8 = null
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r8 = new java.io.File
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:specialinvoke $r8.<java.io.File: void <init>(java.lang.String)>($r7)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r4 = staticinvoke <com.vladium.util.Property: java.util.Properties getLazyPropertiesFromFile(java.io.File)>($r8)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r9 = staticinvoke <com.vladium.emma.EMMAProperties: com.vladium.util.IProperties wrap(java.util.Properties)>($r4)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r4 = staticinvoke <com.vladium.util.Property: java.util.Properties getSystemProperties(java.lang.String)>("emma")
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r10 = staticinvoke <com.vladium.emma.EMMAProperties: com.vladium.util.IProperties wrap(java.util.Properties)>($r4)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r4 = staticinvoke <com.vladium.util.Property: java.util.Properties getProperties(java.lang.String,java.lang.ClassLoader)>("emma.properties", $r0)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r3 = staticinvoke <com.vladium.emma.EMMAProperties: com.vladium.util.IProperties wrap(java.util.Properties)>($r4)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r5 = staticinvoke <com.vladium.util.IProperties$Factory: com.vladium.util.IProperties combine(com.vladium.util.IProperties,com.vladium.util.IProperties)>($r6, $r5)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r9 = staticinvoke <com.vladium.util.IProperties$Factory: com.vladium.util.IProperties combine(com.vladium.util.IProperties,com.vladium.util.IProperties)>($r9, $r5)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r10 = staticinvoke <com.vladium.util.IProperties$Factory: com.vladium.util.IProperties combine(com.vladium.util.IProperties,com.vladium.util.IProperties)>($r10, $r9)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r10 = staticinvoke <com.vladium.util.IProperties$Factory: com.vladium.util.IProperties combine(com.vladium.util.IProperties,com.vladium.util.IProperties)>($r3, $r10)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r3 = $r10
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:interfaceinvoke $r1.<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>($r0, $r10)
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:goto [?= exitmonitor class "Lcom/vladium/emma/EMMAProperties;"]
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r11 := @caughtexception
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:throw $r11
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:$r8 = null
+-1ZZZgetAppProperties:com.vladium.emma.EMMAProperties:goto [?= $r4 = staticinvoke <com.vladium.util.Property: java.util.Properties getLazyPropertiesFromFile(java.io.File)>($r8)]
+565ZZZgetSystemProperty:com.vladium.util.Property:$r0 = staticinvoke <java.lang.System: java.lang.String getProperty(java.lang.String)>($r0)
+-1ZZZgetSystemProperty:com.vladium.util.Property:$r0 := @parameter0: java.lang.String
+-1ZZZgetSystemProperty:com.vladium.util.Property:$r0 = staticinvoke <java.lang.System: java.lang.String getProperty(java.lang.String)>($r0)
+-1ZZZgetSystemProperty:com.vladium.util.Property:return $r0
+-1ZZZgetSystemProperty:com.vladium.util.Property:$r1 := @caughtexception
+-1ZZZgetSystemProperty:com.vladium.util.Property:return null
+296ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("line", 4)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:$r0 = new com.vladium.emma.report.ReportProperties$ReportPropertyMapper
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:specialinvoke $r0.<com.vladium.emma.report.ReportProperties$ReportPropertyMapper: void <init>(com.vladium.emma.report.ReportProperties$1)>(null)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:<com.vladium.emma.report.ReportProperties: com.vladium.util.IProperties$IMapper REPORT_PROPERTY_MAPPER> = $r0
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:$r1 = new com.vladium.util.ObjectIntMap
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:specialinvoke $r1.<com.vladium.util.ObjectIntMap: void <init>()>()
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("name", 0)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("class", 1)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("method", 2)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("block", 3)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("line", 4)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:<com.vladium.emma.report.ReportProperties: com.vladium.util.ObjectIntMap COLUMNS> = $r1
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:return
+296ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("line", 4)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:$r0 = new com.vladium.emma.report.ReportProperties$ReportPropertyMapper
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:specialinvoke $r0.<com.vladium.emma.report.ReportProperties$ReportPropertyMapper: void <init>(com.vladium.emma.report.ReportProperties$1)>(null)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:<com.vladium.emma.report.ReportProperties: com.vladium.util.IProperties$IMapper REPORT_PROPERTY_MAPPER> = $r0
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:$r1 = new com.vladium.util.ObjectIntMap
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:specialinvoke $r1.<com.vladium.util.ObjectIntMap: void <init>()>()
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("name", 0)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("class", 1)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("method", 2)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("block", 3)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("line", 4)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:<com.vladium.emma.report.ReportProperties: com.vladium.util.ObjectIntMap COLUMNS> = $r1
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:return
+287ZZZput:com.vladium.util.ObjectIntMap:specialinvoke $r5.<com.vladium.util.ObjectIntMap$Entry: void <init>(java.lang.Object,int,com.vladium.util.ObjectIntMap$Entry)>($r1, $i0, $r3)
+-1ZZZput:com.vladium.util.ObjectIntMap:$r0 := @this: com.vladium.util.ObjectIntMap
+-1ZZZput:com.vladium.util.ObjectIntMap:$r1 := @parameter0: java.lang.Object
+-1ZZZput:com.vladium.util.ObjectIntMap:$i0 := @parameter1: int
+-1ZZZput:com.vladium.util.ObjectIntMap:$i1 = virtualinvoke $r1.<java.lang.Object: int hashCode()>()
+-1ZZZput:com.vladium.util.ObjectIntMap:$i2 = $i1 & 2147483647
+-1ZZZput:com.vladium.util.ObjectIntMap:$r2 = $r0.<com.vladium.util.ObjectIntMap: com.vladium.util.ObjectIntMap$Entry[] m_buckets>
+-1ZZZput:com.vladium.util.ObjectIntMap:$i3 = lengthof $r2
+-1ZZZput:com.vladium.util.ObjectIntMap:$i2 = $i2 % $i3
+-1ZZZput:com.vladium.util.ObjectIntMap:$r3 = $r2[$i2]
+-1ZZZput:com.vladium.util.ObjectIntMap:if $r3 == null goto $r3 = null
+-1ZZZput:com.vladium.util.ObjectIntMap:$r4 = $r3.<com.vladium.util.ObjectIntMap$Entry: java.lang.Object m_key>
+-1ZZZput:com.vladium.util.ObjectIntMap:$i2 = virtualinvoke $r4.<java.lang.Object: int hashCode()>()
+-1ZZZput:com.vladium.util.ObjectIntMap:if $i1 == $i2 goto (branch)
+-1ZZZput:com.vladium.util.ObjectIntMap:$z0 = virtualinvoke $r4.<java.lang.Object: boolean equals(java.lang.Object)>($r1)
+-1ZZZput:com.vladium.util.ObjectIntMap:if $z0 == 0 goto $r3 = $r3.<com.vladium.util.ObjectIntMap$Entry: com.vladium.util.ObjectIntMap$Entry m_next>
+-1ZZZput:com.vladium.util.ObjectIntMap:if $r3 == null goto $i2 = $r0.<com.vladium.util.ObjectIntMap: int m_size>
+-1ZZZput:com.vladium.util.ObjectIntMap:$r3.<com.vladium.util.ObjectIntMap$Entry: int m_value> = $i0
+-1ZZZput:com.vladium.util.ObjectIntMap:return
+-1ZZZput:com.vladium.util.ObjectIntMap:$r3 = $r3.<com.vladium.util.ObjectIntMap$Entry: com.vladium.util.ObjectIntMap$Entry m_next>
+-1ZZZput:com.vladium.util.ObjectIntMap:goto [?= (branch)]
+-1ZZZput:com.vladium.util.ObjectIntMap:$i2 = $r0.<com.vladium.util.ObjectIntMap: int m_size>
+-1ZZZput:com.vladium.util.ObjectIntMap:$i3 = $r0.<com.vladium.util.ObjectIntMap: int m_sizeThreshold>
+-1ZZZput:com.vladium.util.ObjectIntMap:if $i2 < $i3 goto $r2 = $r0.<com.vladium.util.ObjectIntMap: com.vladium.util.ObjectIntMap$Entry[] m_buckets>
+-1ZZZput:com.vladium.util.ObjectIntMap:specialinvoke $r0.<com.vladium.util.ObjectIntMap: void rehash()>()
+-1ZZZput:com.vladium.util.ObjectIntMap:$i1 = $i1 & 2147483647
+-1ZZZput:com.vladium.util.ObjectIntMap:$i2 = lengthof $r2
+-1ZZZput:com.vladium.util.ObjectIntMap:$i1 = $i1 % $i2
+-1ZZZput:com.vladium.util.ObjectIntMap:$r3 = $r2[$i1]
+-1ZZZput:com.vladium.util.ObjectIntMap:$r5 = new com.vladium.util.ObjectIntMap$Entry
+-1ZZZput:com.vladium.util.ObjectIntMap:specialinvoke $r5.<com.vladium.util.ObjectIntMap$Entry: void <init>(java.lang.Object,int,com.vladium.util.ObjectIntMap$Entry)>($r1, $i0, $r3)
+-1ZZZput:com.vladium.util.ObjectIntMap:$r2[$i1] = $r5
+-1ZZZput:com.vladium.util.ObjectIntMap:$i0 = $r0.<com.vladium.util.ObjectIntMap: int m_size>
+-1ZZZput:com.vladium.util.ObjectIntMap:$i0 = $i0 + 1
+-1ZZZput:com.vladium.util.ObjectIntMap:$r0.<com.vladium.util.ObjectIntMap: int m_size> = $i0
+-1ZZZput:com.vladium.util.ObjectIntMap:$r3 = null
+238ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("method", 2)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:$r0 = new com.vladium.emma.report.ReportProperties$ReportPropertyMapper
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:specialinvoke $r0.<com.vladium.emma.report.ReportProperties$ReportPropertyMapper: void <init>(com.vladium.emma.report.ReportProperties$1)>(null)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:<com.vladium.emma.report.ReportProperties: com.vladium.util.IProperties$IMapper REPORT_PROPERTY_MAPPER> = $r0
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:$r1 = new com.vladium.util.ObjectIntMap
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:specialinvoke $r1.<com.vladium.util.ObjectIntMap: void <init>()>()
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("name", 0)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("class", 1)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("method", 2)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("block", 3)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("line", 4)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:<com.vladium.emma.report.ReportProperties: com.vladium.util.ObjectIntMap COLUMNS> = $r1
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:return
+238ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("method", 2)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:$r0 = new com.vladium.emma.report.ReportProperties$ReportPropertyMapper
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:specialinvoke $r0.<com.vladium.emma.report.ReportProperties$ReportPropertyMapper: void <init>(com.vladium.emma.report.ReportProperties$1)>(null)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:<com.vladium.emma.report.ReportProperties: com.vladium.util.IProperties$IMapper REPORT_PROPERTY_MAPPER> = $r0
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:$r1 = new com.vladium.util.ObjectIntMap
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:specialinvoke $r1.<com.vladium.util.ObjectIntMap: void <init>()>()
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("name", 0)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("class", 1)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("method", 2)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("block", 3)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("line", 4)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:<com.vladium.emma.report.ReportProperties: com.vladium.util.ObjectIntMap COLUMNS> = $r1
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:return
+229ZZZput:com.vladium.util.ObjectIntMap:specialinvoke $r5.<com.vladium.util.ObjectIntMap$Entry: void <init>(java.lang.Object,int,com.vladium.util.ObjectIntMap$Entry)>($r1, $i0, $r3)
+-1ZZZput:com.vladium.util.ObjectIntMap:$r0 := @this: com.vladium.util.ObjectIntMap
+-1ZZZput:com.vladium.util.ObjectIntMap:$r1 := @parameter0: java.lang.Object
+-1ZZZput:com.vladium.util.ObjectIntMap:$i0 := @parameter1: int
+-1ZZZput:com.vladium.util.ObjectIntMap:$i1 = virtualinvoke $r1.<java.lang.Object: int hashCode()>()
+-1ZZZput:com.vladium.util.ObjectIntMap:$i2 = $i1 & 2147483647
+-1ZZZput:com.vladium.util.ObjectIntMap:$r2 = $r0.<com.vladium.util.ObjectIntMap: com.vladium.util.ObjectIntMap$Entry[] m_buckets>
+-1ZZZput:com.vladium.util.ObjectIntMap:$i3 = lengthof $r2
+-1ZZZput:com.vladium.util.ObjectIntMap:$i2 = $i2 % $i3
+-1ZZZput:com.vladium.util.ObjectIntMap:$r3 = $r2[$i2]
+-1ZZZput:com.vladium.util.ObjectIntMap:if $r3 == null goto $r3 = null
+-1ZZZput:com.vladium.util.ObjectIntMap:$r4 = $r3.<com.vladium.util.ObjectIntMap$Entry: java.lang.Object m_key>
+-1ZZZput:com.vladium.util.ObjectIntMap:$i2 = virtualinvoke $r4.<java.lang.Object: int hashCode()>()
+-1ZZZput:com.vladium.util.ObjectIntMap:if $i1 == $i2 goto (branch)
+-1ZZZput:com.vladium.util.ObjectIntMap:$z0 = virtualinvoke $r4.<java.lang.Object: boolean equals(java.lang.Object)>($r1)
+-1ZZZput:com.vladium.util.ObjectIntMap:if $z0 == 0 goto $r3 = $r3.<com.vladium.util.ObjectIntMap$Entry: com.vladium.util.ObjectIntMap$Entry m_next>
+-1ZZZput:com.vladium.util.ObjectIntMap:if $r3 == null goto $i2 = $r0.<com.vladium.util.ObjectIntMap: int m_size>
+-1ZZZput:com.vladium.util.ObjectIntMap:$r3.<com.vladium.util.ObjectIntMap$Entry: int m_value> = $i0
+-1ZZZput:com.vladium.util.ObjectIntMap:return
+-1ZZZput:com.vladium.util.ObjectIntMap:$r3 = $r3.<com.vladium.util.ObjectIntMap$Entry: com.vladium.util.ObjectIntMap$Entry m_next>
+-1ZZZput:com.vladium.util.ObjectIntMap:goto [?= (branch)]
+-1ZZZput:com.vladium.util.ObjectIntMap:$i2 = $r0.<com.vladium.util.ObjectIntMap: int m_size>
+-1ZZZput:com.vladium.util.ObjectIntMap:$i3 = $r0.<com.vladium.util.ObjectIntMap: int m_sizeThreshold>
+-1ZZZput:com.vladium.util.ObjectIntMap:if $i2 < $i3 goto $r2 = $r0.<com.vladium.util.ObjectIntMap: com.vladium.util.ObjectIntMap$Entry[] m_buckets>
+-1ZZZput:com.vladium.util.ObjectIntMap:specialinvoke $r0.<com.vladium.util.ObjectIntMap: void rehash()>()
+-1ZZZput:com.vladium.util.ObjectIntMap:$i1 = $i1 & 2147483647
+-1ZZZput:com.vladium.util.ObjectIntMap:$i2 = lengthof $r2
+-1ZZZput:com.vladium.util.ObjectIntMap:$i1 = $i1 % $i2
+-1ZZZput:com.vladium.util.ObjectIntMap:$r3 = $r2[$i1]
+-1ZZZput:com.vladium.util.ObjectIntMap:$r5 = new com.vladium.util.ObjectIntMap$Entry
+-1ZZZput:com.vladium.util.ObjectIntMap:specialinvoke $r5.<com.vladium.util.ObjectIntMap$Entry: void <init>(java.lang.Object,int,com.vladium.util.ObjectIntMap$Entry)>($r1, $i0, $r3)
+-1ZZZput:com.vladium.util.ObjectIntMap:$r2[$i1] = $r5
+-1ZZZput:com.vladium.util.ObjectIntMap:$i0 = $r0.<com.vladium.util.ObjectIntMap: int m_size>
+-1ZZZput:com.vladium.util.ObjectIntMap:$i0 = $i0 + 1
+-1ZZZput:com.vladium.util.ObjectIntMap:$r0.<com.vladium.util.ObjectIntMap: int m_size> = $i0
+-1ZZZput:com.vladium.util.ObjectIntMap:$r3 = null
+180ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("name", 0)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:$r0 = new com.vladium.emma.report.ReportProperties$ReportPropertyMapper
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:specialinvoke $r0.<com.vladium.emma.report.ReportProperties$ReportPropertyMapper: void <init>(com.vladium.emma.report.ReportProperties$1)>(null)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:<com.vladium.emma.report.ReportProperties: com.vladium.util.IProperties$IMapper REPORT_PROPERTY_MAPPER> = $r0
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:$r1 = new com.vladium.util.ObjectIntMap
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:specialinvoke $r1.<com.vladium.util.ObjectIntMap: void <init>()>()
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("name", 0)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("class", 1)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("method", 2)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("block", 3)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("line", 4)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:<com.vladium.emma.report.ReportProperties: com.vladium.util.ObjectIntMap COLUMNS> = $r1
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:return
+180ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("name", 0)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:$r0 = new com.vladium.emma.report.ReportProperties$ReportPropertyMapper
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:specialinvoke $r0.<com.vladium.emma.report.ReportProperties$ReportPropertyMapper: void <init>(com.vladium.emma.report.ReportProperties$1)>(null)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:<com.vladium.emma.report.ReportProperties: com.vladium.util.IProperties$IMapper REPORT_PROPERTY_MAPPER> = $r0
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:$r1 = new com.vladium.util.ObjectIntMap
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:specialinvoke $r1.<com.vladium.util.ObjectIntMap: void <init>()>()
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("name", 0)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("class", 1)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("method", 2)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("block", 3)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("line", 4)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:<com.vladium.emma.report.ReportProperties: com.vladium.util.ObjectIntMap COLUMNS> = $r1
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:return
+158ZZZ<clinit>:com.vladium.emma.report.ReportProperties:specialinvoke $r1.<com.vladium.util.ObjectIntMap: void <init>()>()
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:$r0 = new com.vladium.emma.report.ReportProperties$ReportPropertyMapper
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:specialinvoke $r0.<com.vladium.emma.report.ReportProperties$ReportPropertyMapper: void <init>(com.vladium.emma.report.ReportProperties$1)>(null)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:<com.vladium.emma.report.ReportProperties: com.vladium.util.IProperties$IMapper REPORT_PROPERTY_MAPPER> = $r0
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:$r1 = new com.vladium.util.ObjectIntMap
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:specialinvoke $r1.<com.vladium.util.ObjectIntMap: void <init>()>()
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("name", 0)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("class", 1)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("method", 2)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("block", 3)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("line", 4)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:<com.vladium.emma.report.ReportProperties: com.vladium.util.ObjectIntMap COLUMNS> = $r1
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:return
+158ZZZ<clinit>:com.vladium.emma.report.ReportProperties:specialinvoke $r1.<com.vladium.util.ObjectIntMap: void <init>()>()
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:$r0 = new com.vladium.emma.report.ReportProperties$ReportPropertyMapper
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:specialinvoke $r0.<com.vladium.emma.report.ReportProperties$ReportPropertyMapper: void <init>(com.vladium.emma.report.ReportProperties$1)>(null)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:<com.vladium.emma.report.ReportProperties: com.vladium.util.IProperties$IMapper REPORT_PROPERTY_MAPPER> = $r0
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:$r1 = new com.vladium.util.ObjectIntMap
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:specialinvoke $r1.<com.vladium.util.ObjectIntMap: void <init>()>()
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("name", 0)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("class", 1)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("method", 2)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("block", 3)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("line", 4)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:<com.vladium.emma.report.ReportProperties: com.vladium.util.ObjectIntMap COLUMNS> = $r1
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:return
+151ZZZ<clinit>:com.vladium.emma.report.ReportProperties:specialinvoke $r0.<com.vladium.emma.report.ReportProperties$ReportPropertyMapper: void <init>(com.vladium.emma.report.ReportProperties$1)>(null)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:$r0 = new com.vladium.emma.report.ReportProperties$ReportPropertyMapper
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:specialinvoke $r0.<com.vladium.emma.report.ReportProperties$ReportPropertyMapper: void <init>(com.vladium.emma.report.ReportProperties$1)>(null)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:<com.vladium.emma.report.ReportProperties: com.vladium.util.IProperties$IMapper REPORT_PROPERTY_MAPPER> = $r0
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:$r1 = new com.vladium.util.ObjectIntMap
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:specialinvoke $r1.<com.vladium.util.ObjectIntMap: void <init>()>()
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("name", 0)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("class", 1)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("method", 2)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("block", 3)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("line", 4)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:<com.vladium.emma.report.ReportProperties: com.vladium.util.ObjectIntMap COLUMNS> = $r1
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:return
+151ZZZ<clinit>:com.vladium.emma.report.ReportProperties:specialinvoke $r0.<com.vladium.emma.report.ReportProperties$ReportPropertyMapper: void <init>(com.vladium.emma.report.ReportProperties$1)>(null)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:$r0 = new com.vladium.emma.report.ReportProperties$ReportPropertyMapper
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:specialinvoke $r0.<com.vladium.emma.report.ReportProperties$ReportPropertyMapper: void <init>(com.vladium.emma.report.ReportProperties$1)>(null)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:<com.vladium.emma.report.ReportProperties: com.vladium.util.IProperties$IMapper REPORT_PROPERTY_MAPPER> = $r0
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:$r1 = new com.vladium.util.ObjectIntMap
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:specialinvoke $r1.<com.vladium.util.ObjectIntMap: void <init>()>()
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("name", 0)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("class", 1)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("method", 2)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("block", 3)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:virtualinvoke $r1.<com.vladium.util.ObjectIntMap: void put(java.lang.Object,int)>("line", 4)
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:<com.vladium.emma.report.ReportProperties: com.vladium.util.ObjectIntMap COLUMNS> = $r1
+-1ZZZ<clinit>:com.vladium.emma.report.ReportProperties:return

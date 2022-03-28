@@ -1,0 +1,414 @@
+1710ZZZonPreferenceClick:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:virtualinvoke $r5.<es.senselesssolutions.gpl.weightchart.PreferencesActivity: void startActivity(android.content.Intent)>($r2)
+-1ZZZonPreferenceClick:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r0 := @this: es.senselesssolutions.gpl.weightchart.PreferencesActivity$8
+-1ZZZonPreferenceClick:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r1 := @parameter0: android.preference.Preference
+-1ZZZonPreferenceClick:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r3 = <es.senselesssolutions.gpl.weightchart.PreferencesActivity$8: boolean[][] $VRc>
+-1ZZZonPreferenceClick:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:if $r3 != null goto $r4 = $r3[1]
+-1ZZZonPreferenceClick:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r3 = staticinvoke <es.senselesssolutions.gpl.weightchart.PreferencesActivity$8: boolean[][] $VRi()>()
+-1ZZZonPreferenceClick:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r4 = $r3[1]
+-1ZZZonPreferenceClick:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r5 = $r0.<es.senselesssolutions.gpl.weightchart.PreferencesActivity$8: es.senselesssolutions.gpl.weightchart.PreferencesActivity this$0>
+-1ZZZonPreferenceClick:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r2 = new android.content.Intent
+-1ZZZonPreferenceClick:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r6 = $r0.<es.senselesssolutions.gpl.weightchart.PreferencesActivity$8: es.senselesssolutions.gpl.weightchart.PreferencesActivity this$0>
+-1ZZZonPreferenceClick:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r7 = virtualinvoke $r6.<es.senselesssolutions.gpl.weightchart.PreferencesActivity: java.lang.String getString(int)>(2131034200)
+-1ZZZonPreferenceClick:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r8 = staticinvoke <android.net.Uri: android.net.Uri parse(java.lang.String)>($r7)
+-1ZZZonPreferenceClick:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:specialinvoke $r2.<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>("android.intent.action.VIEW", $r8)
+-1ZZZonPreferenceClick:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:virtualinvoke $r5.<es.senselesssolutions.gpl.weightchart.PreferencesActivity: void startActivity(android.content.Intent)>($r2)
+-1ZZZonPreferenceClick:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r4[0] = 1
+-1ZZZonPreferenceClick:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:return 1
+1700ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r2[1] = $r3
+-1ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r0 = newarray (int)[1]
+-1ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r0[0] = 3
+-1ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r1 = staticinvoke <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])>(class "[Z", $r0)
+-1ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r2 = (boolean[][]) $r1
+-1ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:<es.senselesssolutions.gpl.weightchart.PreferencesActivity$8: boolean[][] $VRc> = $r2
+-1ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r3 = newarray (boolean)[1]
+-1ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r2[0] = $r3
+-1ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r2[1] = $r3
+-1ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:$r2[2] = $r3
+-1ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:staticinvoke <com.vladium.emma.rt.RT: void r(boolean[][],java.lang.String,long)>($r2, "es/senselesssolutions/gpl/weightchart/PreferencesActivity$8", 4320153515061585109L)
+-1ZZZ$VRi:es.senselesssolutions.gpl.weightchart.PreferencesActivity$8:return $r2
+1680ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$7:$r1[0] = 1
+-1ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$7:$r0 = staticinvoke <es.senselesssolutions.gpl.weightchart.PreferencesActivity$7: boolean[][] $VRi()>()
+-1ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$7:$r1 = $r0[2]
+-1ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$7:$r1[0] = 1
+-1ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$7:return
+1642ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$6:$r1[0] = 1
+-1ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$6:$r0 = staticinvoke <es.senselesssolutions.gpl.weightchart.PreferencesActivity$6: boolean[][] $VRi()>()
+-1ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$6:$r1 = $r0[2]
+-1ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$6:$r1[0] = 1
+-1ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$6:return
+1604ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$5:$r1[0] = 1
+-1ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$5:$r0 = staticinvoke <es.senselesssolutions.gpl.weightchart.PreferencesActivity$5: boolean[][] $VRi()>()
+-1ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$5:$r1 = $r0[2]
+-1ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$5:$r1[0] = 1
+-1ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$5:return
+1566ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$4:$r1[0] = 1
+-1ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$4:$r0 = staticinvoke <es.senselesssolutions.gpl.weightchart.PreferencesActivity$4: boolean[][] $VRi()>()
+-1ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$4:$r1 = $r0[2]
+-1ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$4:$r1[0] = 1
+-1ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$4:return
+1490ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$2:$r1[0] = 1
+-1ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$2:$r0 = staticinvoke <es.senselesssolutions.gpl.weightchart.PreferencesActivity$2: boolean[][] $VRi()>()
+-1ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$2:$r1 = $r0[2]
+-1ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$2:$r1[0] = 1
+-1ZZZ<clinit>:es.senselesssolutions.gpl.weightchart.PreferencesActivity$2:return
+1447ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:specialinvoke $r10.<es.senselesssolutions.gpl.weightchart.PreferencesActivity$1: void <init>(es.senselesssolutions.gpl.weightchart.PreferencesActivity,android.app.Activity)>($r0, $r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r0 := @this: es.senselesssolutions.gpl.weightchart.PreferencesActivity
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r1 := @parameter0: android.os.Bundle
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r2 = <es.senselesssolutions.gpl.weightchart.PreferencesActivity: boolean[][] $VRc>
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:if $r2 != null goto $r3 = $r2[1]
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r2 = staticinvoke <es.senselesssolutions.gpl.weightchart.PreferencesActivity: boolean[][] $VRi()>()
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r3 = $r2[1]
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:specialinvoke $r0.<android.preference.PreferenceActivity: void onCreate(android.os.Bundle)>($r1)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.PreferencesActivity: void addPreferencesFromResource(int)>(2130968576)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r4 = staticinvoke <android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)>($r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r5 = interfaceinvoke $r4.<android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)>("weight_unit", null)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:specialinvoke $r0.<es.senselesssolutions.gpl.weightchart.PreferencesActivity: void updateWeightUnit(java.lang.Object)>($r5)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r6 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.PreferencesActivity: android.preference.Preference findPreference(java.lang.CharSequence)>("weight_goal")
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r7 = new java.lang.StringBuilder
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:specialinvoke $r7.<java.lang.StringBuilder: void <init>()>()
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r5 = interfaceinvoke $r4.<android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)>("weight_goal", "")
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r7 = virtualinvoke $r7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r5)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r7 = virtualinvoke $r7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" ")
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r8 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.PreferencesActivity: android.preference.Preference findPreference(java.lang.CharSequence)>("weight_unit")
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r9 = virtualinvoke $r8.<android.preference.Preference: java.lang.CharSequence getSummary()>()
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r7 = virtualinvoke $r7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($r9)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r5 = virtualinvoke $r7.<java.lang.StringBuilder: java.lang.String toString()>()
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:virtualinvoke $r6.<android.preference.Preference: void setSummary(java.lang.CharSequence)>($r5)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r6 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.PreferencesActivity: android.preference.Preference findPreference(java.lang.CharSequence)>("weight_max")
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r5 = interfaceinvoke $r4.<android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)>("weight_max", "")
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:specialinvoke $r0.<es.senselesssolutions.gpl.weightchart.PreferencesActivity: void updateHeight()>()
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r10 = new es.senselesssolutions.gpl.weightchart.PreferencesActivity$1
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:specialinvoke $r10.<es.senselesssolutions.gpl.weightchart.PreferencesActivity$1: void <init>(es.senselesssolutions.gpl.weightchart.PreferencesActivity,android.app.Activity)>($r0, $r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r0.<es.senselesssolutions.gpl.weightchart.PreferencesActivity: es.senselesssolutions.gpl.weightchart.HeightDialog mHeightDialog> = $r10
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r6 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.PreferencesActivity: android.preference.Preference findPreference(java.lang.CharSequence)>("weight_unit")
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r11 = new es.senselesssolutions.gpl.weightchart.PreferencesActivity$2
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:specialinvoke $r11.<es.senselesssolutions.gpl.weightchart.PreferencesActivity$2: void <init>(es.senselesssolutions.gpl.weightchart.PreferencesActivity)>($r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:virtualinvoke $r6.<android.preference.Preference: void setOnPreferenceChangeListener(android.preference.Preference$OnPreferenceChangeListener)>($r11)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r6 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.PreferencesActivity: android.preference.Preference findPreference(java.lang.CharSequence)>("height")
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r12 = new es.senselesssolutions.gpl.weightchart.PreferencesActivity$3
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:specialinvoke $r12.<es.senselesssolutions.gpl.weightchart.PreferencesActivity$3: void <init>(es.senselesssolutions.gpl.weightchart.PreferencesActivity)>($r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:virtualinvoke $r6.<android.preference.Preference: void setOnPreferenceClickListener(android.preference.Preference$OnPreferenceClickListener)>($r12)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r13 = new es.senselesssolutions.gpl.weightchart.PreferencesActivity$4
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:specialinvoke $r13.<es.senselesssolutions.gpl.weightchart.PreferencesActivity$4: void <init>(es.senselesssolutions.gpl.weightchart.PreferencesActivity)>($r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:virtualinvoke $r6.<android.preference.Preference: void setOnPreferenceClickListener(android.preference.Preference$OnPreferenceClickListener)>($r13)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r14 = new es.senselesssolutions.gpl.weightchart.PreferencesActivity$5
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:specialinvoke $r14.<es.senselesssolutions.gpl.weightchart.PreferencesActivity$5: void <init>(es.senselesssolutions.gpl.weightchart.PreferencesActivity)>($r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:virtualinvoke $r6.<android.preference.Preference: void setOnPreferenceClickListener(android.preference.Preference$OnPreferenceClickListener)>($r14)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r6 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.PreferencesActivity: android.preference.Preference findPreference(java.lang.CharSequence)>("website")
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r15 = new es.senselesssolutions.gpl.weightchart.PreferencesActivity$6
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:specialinvoke $r15.<es.senselesssolutions.gpl.weightchart.PreferencesActivity$6: void <init>(es.senselesssolutions.gpl.weightchart.PreferencesActivity)>($r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:virtualinvoke $r6.<android.preference.Preference: void setOnPreferenceClickListener(android.preference.Preference$OnPreferenceClickListener)>($r15)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r6 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.PreferencesActivity: android.preference.Preference findPreference(java.lang.CharSequence)>("license")
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r16 = new es.senselesssolutions.gpl.weightchart.PreferencesActivity$7
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:specialinvoke $r16.<es.senselesssolutions.gpl.weightchart.PreferencesActivity$7: void <init>(es.senselesssolutions.gpl.weightchart.PreferencesActivity)>($r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:virtualinvoke $r6.<android.preference.Preference: void setOnPreferenceClickListener(android.preference.Preference$OnPreferenceClickListener)>($r16)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r6 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.PreferencesActivity: android.preference.Preference findPreference(java.lang.CharSequence)>("market")
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r17 = new es.senselesssolutions.gpl.weightchart.PreferencesActivity$8
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:specialinvoke $r17.<es.senselesssolutions.gpl.weightchart.PreferencesActivity$8: void <init>(es.senselesssolutions.gpl.weightchart.PreferencesActivity)>($r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:virtualinvoke $r6.<android.preference.Preference: void setOnPreferenceClickListener(android.preference.Preference$OnPreferenceClickListener)>($r17)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r6 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.PreferencesActivity: android.preference.Preference findPreference(java.lang.CharSequence)>("about")
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r18 = new es.senselesssolutions.gpl.weightchart.PreferencesActivity$9
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:specialinvoke $r18.<es.senselesssolutions.gpl.weightchart.PreferencesActivity$9: void <init>(es.senselesssolutions.gpl.weightchart.PreferencesActivity)>($r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:virtualinvoke $r6.<android.preference.Preference: void setOnPreferenceClickListener(android.preference.Preference$OnPreferenceClickListener)>($r18)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r6 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.PreferencesActivity: android.preference.Preference findPreference(java.lang.CharSequence)>("market_author")
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r19 = new es.senselesssolutions.gpl.weightchart.PreferencesActivity$10
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:specialinvoke $r19.<es.senselesssolutions.gpl.weightchart.PreferencesActivity$10: void <init>(es.senselesssolutions.gpl.weightchart.PreferencesActivity)>($r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:virtualinvoke $r6.<android.preference.Preference: void setOnPreferenceClickListener(android.preference.Preference$OnPreferenceClickListener)>($r19)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r6 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.PreferencesActivity: android.preference.Preference findPreference(java.lang.CharSequence)>("translate")
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r20 = new es.senselesssolutions.gpl.weightchart.PreferencesActivity$11
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:specialinvoke $r20.<es.senselesssolutions.gpl.weightchart.PreferencesActivity$11: void <init>(es.senselesssolutions.gpl.weightchart.PreferencesActivity)>($r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:virtualinvoke $r6.<android.preference.Preference: void setOnPreferenceClickListener(android.preference.Preference$OnPreferenceClickListener)>($r20)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r3[0] = 1
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.PreferencesActivity:return
+1296ZZZ<init>:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r2[0] = 1
+-1ZZZ<init>:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r0 := @this: es.senselesssolutions.gpl.weightchart.PreferencesActivity
+-1ZZZ<init>:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r1 = <es.senselesssolutions.gpl.weightchart.PreferencesActivity: boolean[][] $VRc>
+-1ZZZ<init>:es.senselesssolutions.gpl.weightchart.PreferencesActivity:if $r1 != null goto $r2 = $r1[0]
+-1ZZZ<init>:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r1 = staticinvoke <es.senselesssolutions.gpl.weightchart.PreferencesActivity: boolean[][] $VRi()>()
+-1ZZZ<init>:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r2 = $r1[0]
+-1ZZZ<init>:es.senselesssolutions.gpl.weightchart.PreferencesActivity:specialinvoke $r0.<android.preference.PreferenceActivity: void <init>()>()
+-1ZZZ<init>:es.senselesssolutions.gpl.weightchart.PreferencesActivity:$r2[0] = 1
+-1ZZZ<init>:es.senselesssolutions.gpl.weightchart.PreferencesActivity:return
+1202ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r5.<es.senselesssolutions.gpl.weightchart.ChartActivity$3: void <init>(es.senselesssolutions.gpl.weightchart.ChartActivity,android.app.Activity,es.senselesssolutions.gpl.weightchart.Database)>($r0, $r0, $r6)
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r0 := @this: es.senselesssolutions.gpl.weightchart.ChartActivity
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r1 := @parameter0: android.view.MenuItem
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r3 = <es.senselesssolutions.gpl.weightchart.ChartActivity: boolean[][] $VRc>
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:if $r3 != null goto $r2 = $r3[6]
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r3 = staticinvoke <es.senselesssolutions.gpl.weightchart.ChartActivity: boolean[][] $VRi()>()
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2 = $r3[6]
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$i0 = interfaceinvoke $r1.<android.view.MenuItem: int getItemId()>()
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[0] = 1
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:if $i0 != 2131296292 goto $r2[2] = 1
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r4 = new android.content.Intent
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r4.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r0, class "Les/senselesssolutions/gpl/weightchart/EntryListActivity;")
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: void startActivity(android.content.Intent)>($r4)
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[1] = 1
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[18] = 1
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:return 1
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[2] = 1
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:if $i0 != 2131296286 goto $r2[4] = 1
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: void setDays(int)>(7)
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[3] = 1
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:goto [?= $r2[18] = 1]
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[4] = 1
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:if $i0 != 2131296287 goto $r2[6] = 1
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: void setDays(int)>(14)
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[5] = 1
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[6] = 1
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:if $i0 != 2131296288 goto $r2[8] = 1
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: void setDays(int)>(21)
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[7] = 1
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[8] = 1
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:if $i0 != 2131296289 goto $r2[10] = 1
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: void setDays(int)>(30)
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[9] = 1
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[10] = 1
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:if $i0 != 2131296290 goto $r2[12] = 1
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: void setDays(int)>(60)
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[11] = 1
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[12] = 1
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:if $i0 != 2131296291 goto $r2[14] = 1
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: void setDays(int)>(90)
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[13] = 1
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[14] = 1
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:if $i0 != 2131296293 goto $r5 = new es.senselesssolutions.gpl.weightchart.ChartActivity$3
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r4.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r0, class "Les/senselesssolutions/gpl/weightchart/LegendActivity;")
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[15] = 1
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r5 = new es.senselesssolutions.gpl.weightchart.ChartActivity$3
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r6 = $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.Database mDatabase>
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r5.<es.senselesssolutions.gpl.weightchart.ChartActivity$3: void <init>(es.senselesssolutions.gpl.weightchart.ChartActivity,android.app.Activity,es.senselesssolutions.gpl.weightchart.Database)>($r0, $r0, $r6)
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$z0 = virtualinvoke $r5.<es.senselesssolutions.gpl.weightchart.ChartActivity$3: boolean onOptionsItemSelected(int)>($i0)
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[16] = 1
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:if $z0 != 0 goto $r2[18] = 1
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$z0 = specialinvoke $r0.<android.app.Activity: boolean onOptionsItemSelected(android.view.MenuItem)>($r1)
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[17] = 1
+-1ZZZonOptionsItemSelected:es.senselesssolutions.gpl.weightchart.ChartActivity:return $z0
+39ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r5.<es.senselesssolutions.gpl.weightchart.ChartDraw: void <init>(android.content.Context,es.senselesssolutions.gpl.weightchart.Database,java.util.GregorianCalendar)>($r0, $r4, $r6)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r0 := @this: es.senselesssolutions.gpl.weightchart.ChartActivity
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r1 := @parameter0: android.os.Bundle
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r3 = <es.senselesssolutions.gpl.weightchart.ChartActivity: boolean[][] $VRc>
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:if $r3 != null goto $r2 = $r3[1]
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r3 = staticinvoke <es.senselesssolutions.gpl.weightchart.ChartActivity: boolean[][] $VRi()>()
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2 = $r3[1]
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: void setContentView(int)>(2130903042)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r4 = new es.senselesssolutions.gpl.weightchart.Database
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r4.<es.senselesssolutions.gpl.weightchart.Database: void <init>(android.content.Context)>($r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.Database mDatabase> = $r4
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r5 = new es.senselesssolutions.gpl.weightchart.ChartDraw
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r4 = $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.Database mDatabase>
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r6 = new java.util.GregorianCalendar
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r6.<java.util.GregorianCalendar: void <init>()>()
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r5.<es.senselesssolutions.gpl.weightchart.ChartDraw: void <init>(android.content.Context,es.senselesssolutions.gpl.weightchart.Database,java.util.GregorianCalendar)>($r0, $r4, $r6)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.ChartDraw mDraw> = $r5
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r7 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: android.view.View findViewById(int)>(2131296258)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r8 = (es.senselesssolutions.gpl.weightchart.ChartView) $r7
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r5 = $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.ChartDraw mDraw>
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r8.<es.senselesssolutions.gpl.weightchart.ChartView: void setChartDraw(es.senselesssolutions.gpl.weightchart.ChartDraw)>($r5)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r9 = new android.view.GestureDetector
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r10 = new es.senselesssolutions.gpl.weightchart.ChartActivity$1
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r10.<es.senselesssolutions.gpl.weightchart.ChartActivity$1: void <init>(es.senselesssolutions.gpl.weightchart.ChartActivity)>($r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r9.<android.view.GestureDetector: void <init>(android.view.GestureDetector$OnGestureListener)>($r10)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: android.view.GestureDetector mGestureDetector> = $r9
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r9 = $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: android.view.GestureDetector mGestureDetector>
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r9.<android.view.GestureDetector: void setIsLongpressEnabled(boolean)>(0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r11 = staticinvoke <android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)>($r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r12 = interfaceinvoke $r11.<android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)>("weight_unit", null)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[0] = 1
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:if $r12 != null goto $r14 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: android.view.Window getWindow()>()
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r13 = new es.senselesssolutions.gpl.weightchart.ChartActivity$2
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r13.<es.senselesssolutions.gpl.weightchart.ChartActivity$2: void <init>(es.senselesssolutions.gpl.weightchart.ChartActivity,android.app.Activity)>($r0, $r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.HeightDialog mHeightDialog> = $r13
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: void showDialog(int)>(0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[1] = 1
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[3] = 1
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:return
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r14 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: android.view.Window getWindow()>()
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r14.<android.view.Window: void addFlags(int)>(1024)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[2] = 1
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:goto [?= $r2[3] = 1]
+16ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r4.<es.senselesssolutions.gpl.weightchart.Database: void <init>(android.content.Context)>($r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r0 := @this: es.senselesssolutions.gpl.weightchart.ChartActivity
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r1 := @parameter0: android.os.Bundle
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r3 = <es.senselesssolutions.gpl.weightchart.ChartActivity: boolean[][] $VRc>
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:if $r3 != null goto $r2 = $r3[1]
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r3 = staticinvoke <es.senselesssolutions.gpl.weightchart.ChartActivity: boolean[][] $VRi()>()
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2 = $r3[1]
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: void setContentView(int)>(2130903042)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r4 = new es.senselesssolutions.gpl.weightchart.Database
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r4.<es.senselesssolutions.gpl.weightchart.Database: void <init>(android.content.Context)>($r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.Database mDatabase> = $r4
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r5 = new es.senselesssolutions.gpl.weightchart.ChartDraw
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r4 = $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.Database mDatabase>
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r6 = new java.util.GregorianCalendar
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r6.<java.util.GregorianCalendar: void <init>()>()
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r5.<es.senselesssolutions.gpl.weightchart.ChartDraw: void <init>(android.content.Context,es.senselesssolutions.gpl.weightchart.Database,java.util.GregorianCalendar)>($r0, $r4, $r6)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.ChartDraw mDraw> = $r5
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r7 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: android.view.View findViewById(int)>(2131296258)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r8 = (es.senselesssolutions.gpl.weightchart.ChartView) $r7
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r5 = $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.ChartDraw mDraw>
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r8.<es.senselesssolutions.gpl.weightchart.ChartView: void setChartDraw(es.senselesssolutions.gpl.weightchart.ChartDraw)>($r5)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r9 = new android.view.GestureDetector
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r10 = new es.senselesssolutions.gpl.weightchart.ChartActivity$1
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r10.<es.senselesssolutions.gpl.weightchart.ChartActivity$1: void <init>(es.senselesssolutions.gpl.weightchart.ChartActivity)>($r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r9.<android.view.GestureDetector: void <init>(android.view.GestureDetector$OnGestureListener)>($r10)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: android.view.GestureDetector mGestureDetector> = $r9
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r9 = $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: android.view.GestureDetector mGestureDetector>
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r9.<android.view.GestureDetector: void setIsLongpressEnabled(boolean)>(0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r11 = staticinvoke <android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)>($r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r12 = interfaceinvoke $r11.<android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)>("weight_unit", null)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[0] = 1
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:if $r12 != null goto $r14 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: android.view.Window getWindow()>()
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r13 = new es.senselesssolutions.gpl.weightchart.ChartActivity$2
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r13.<es.senselesssolutions.gpl.weightchart.ChartActivity$2: void <init>(es.senselesssolutions.gpl.weightchart.ChartActivity,android.app.Activity)>($r0, $r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.HeightDialog mHeightDialog> = $r13
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: void showDialog(int)>(0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[1] = 1
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[3] = 1
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:return
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r14 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: android.view.Window getWindow()>()
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r14.<android.view.Window: void addFlags(int)>(1024)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[2] = 1
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:goto [?= $r2[3] = 1]
+16ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r4.<es.senselesssolutions.gpl.weightchart.Database: void <init>(android.content.Context)>($r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r0 := @this: es.senselesssolutions.gpl.weightchart.ChartActivity
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r1 := @parameter0: android.os.Bundle
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r3 = <es.senselesssolutions.gpl.weightchart.ChartActivity: boolean[][] $VRc>
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:if $r3 != null goto $r2 = $r3[1]
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r3 = staticinvoke <es.senselesssolutions.gpl.weightchart.ChartActivity: boolean[][] $VRi()>()
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2 = $r3[1]
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: void setContentView(int)>(2130903042)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r4 = new es.senselesssolutions.gpl.weightchart.Database
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r4.<es.senselesssolutions.gpl.weightchart.Database: void <init>(android.content.Context)>($r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.Database mDatabase> = $r4
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r5 = new es.senselesssolutions.gpl.weightchart.ChartDraw
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r4 = $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.Database mDatabase>
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r6 = new java.util.GregorianCalendar
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r6.<java.util.GregorianCalendar: void <init>()>()
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r5.<es.senselesssolutions.gpl.weightchart.ChartDraw: void <init>(android.content.Context,es.senselesssolutions.gpl.weightchart.Database,java.util.GregorianCalendar)>($r0, $r4, $r6)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.ChartDraw mDraw> = $r5
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r7 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: android.view.View findViewById(int)>(2131296258)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r8 = (es.senselesssolutions.gpl.weightchart.ChartView) $r7
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r5 = $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.ChartDraw mDraw>
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r8.<es.senselesssolutions.gpl.weightchart.ChartView: void setChartDraw(es.senselesssolutions.gpl.weightchart.ChartDraw)>($r5)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r9 = new android.view.GestureDetector
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r10 = new es.senselesssolutions.gpl.weightchart.ChartActivity$1
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r10.<es.senselesssolutions.gpl.weightchart.ChartActivity$1: void <init>(es.senselesssolutions.gpl.weightchart.ChartActivity)>($r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r9.<android.view.GestureDetector: void <init>(android.view.GestureDetector$OnGestureListener)>($r10)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: android.view.GestureDetector mGestureDetector> = $r9
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r9 = $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: android.view.GestureDetector mGestureDetector>
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r9.<android.view.GestureDetector: void setIsLongpressEnabled(boolean)>(0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r11 = staticinvoke <android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)>($r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r12 = interfaceinvoke $r11.<android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)>("weight_unit", null)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[0] = 1
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:if $r12 != null goto $r14 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: android.view.Window getWindow()>()
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r13 = new es.senselesssolutions.gpl.weightchart.ChartActivity$2
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r13.<es.senselesssolutions.gpl.weightchart.ChartActivity$2: void <init>(es.senselesssolutions.gpl.weightchart.ChartActivity,android.app.Activity)>($r0, $r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.HeightDialog mHeightDialog> = $r13
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: void showDialog(int)>(0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[1] = 1
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[3] = 1
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:return
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r14 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: android.view.Window getWindow()>()
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r14.<android.view.Window: void addFlags(int)>(1024)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[2] = 1
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:goto [?= $r2[3] = 1]
+9ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: void setContentView(int)>(2130903042)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r0 := @this: es.senselesssolutions.gpl.weightchart.ChartActivity
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r1 := @parameter0: android.os.Bundle
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r3 = <es.senselesssolutions.gpl.weightchart.ChartActivity: boolean[][] $VRc>
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:if $r3 != null goto $r2 = $r3[1]
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r3 = staticinvoke <es.senselesssolutions.gpl.weightchart.ChartActivity: boolean[][] $VRi()>()
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2 = $r3[1]
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: void setContentView(int)>(2130903042)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r4 = new es.senselesssolutions.gpl.weightchart.Database
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r4.<es.senselesssolutions.gpl.weightchart.Database: void <init>(android.content.Context)>($r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.Database mDatabase> = $r4
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r5 = new es.senselesssolutions.gpl.weightchart.ChartDraw
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r4 = $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.Database mDatabase>
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r6 = new java.util.GregorianCalendar
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r6.<java.util.GregorianCalendar: void <init>()>()
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r5.<es.senselesssolutions.gpl.weightchart.ChartDraw: void <init>(android.content.Context,es.senselesssolutions.gpl.weightchart.Database,java.util.GregorianCalendar)>($r0, $r4, $r6)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.ChartDraw mDraw> = $r5
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r7 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: android.view.View findViewById(int)>(2131296258)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r8 = (es.senselesssolutions.gpl.weightchart.ChartView) $r7
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r5 = $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.ChartDraw mDraw>
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r8.<es.senselesssolutions.gpl.weightchart.ChartView: void setChartDraw(es.senselesssolutions.gpl.weightchart.ChartDraw)>($r5)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r9 = new android.view.GestureDetector
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r10 = new es.senselesssolutions.gpl.weightchart.ChartActivity$1
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r10.<es.senselesssolutions.gpl.weightchart.ChartActivity$1: void <init>(es.senselesssolutions.gpl.weightchart.ChartActivity)>($r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r9.<android.view.GestureDetector: void <init>(android.view.GestureDetector$OnGestureListener)>($r10)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: android.view.GestureDetector mGestureDetector> = $r9
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r9 = $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: android.view.GestureDetector mGestureDetector>
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r9.<android.view.GestureDetector: void setIsLongpressEnabled(boolean)>(0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r11 = staticinvoke <android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)>($r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r12 = interfaceinvoke $r11.<android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)>("weight_unit", null)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[0] = 1
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:if $r12 != null goto $r14 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: android.view.Window getWindow()>()
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r13 = new es.senselesssolutions.gpl.weightchart.ChartActivity$2
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r13.<es.senselesssolutions.gpl.weightchart.ChartActivity$2: void <init>(es.senselesssolutions.gpl.weightchart.ChartActivity,android.app.Activity)>($r0, $r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.HeightDialog mHeightDialog> = $r13
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: void showDialog(int)>(0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[1] = 1
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[3] = 1
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:return
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r14 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: android.view.Window getWindow()>()
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r14.<android.view.Window: void addFlags(int)>(1024)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[2] = 1
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:goto [?= $r2[3] = 1]
+9ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: void setContentView(int)>(2130903042)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r0 := @this: es.senselesssolutions.gpl.weightchart.ChartActivity
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r1 := @parameter0: android.os.Bundle
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r3 = <es.senselesssolutions.gpl.weightchart.ChartActivity: boolean[][] $VRc>
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:if $r3 != null goto $r2 = $r3[1]
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r3 = staticinvoke <es.senselesssolutions.gpl.weightchart.ChartActivity: boolean[][] $VRi()>()
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2 = $r3[1]
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: void setContentView(int)>(2130903042)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r4 = new es.senselesssolutions.gpl.weightchart.Database
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r4.<es.senselesssolutions.gpl.weightchart.Database: void <init>(android.content.Context)>($r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.Database mDatabase> = $r4
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r5 = new es.senselesssolutions.gpl.weightchart.ChartDraw
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r4 = $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.Database mDatabase>
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r6 = new java.util.GregorianCalendar
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r6.<java.util.GregorianCalendar: void <init>()>()
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r5.<es.senselesssolutions.gpl.weightchart.ChartDraw: void <init>(android.content.Context,es.senselesssolutions.gpl.weightchart.Database,java.util.GregorianCalendar)>($r0, $r4, $r6)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.ChartDraw mDraw> = $r5
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r7 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: android.view.View findViewById(int)>(2131296258)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r8 = (es.senselesssolutions.gpl.weightchart.ChartView) $r7
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r5 = $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.ChartDraw mDraw>
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r8.<es.senselesssolutions.gpl.weightchart.ChartView: void setChartDraw(es.senselesssolutions.gpl.weightchart.ChartDraw)>($r5)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r9 = new android.view.GestureDetector
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r10 = new es.senselesssolutions.gpl.weightchart.ChartActivity$1
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r10.<es.senselesssolutions.gpl.weightchart.ChartActivity$1: void <init>(es.senselesssolutions.gpl.weightchart.ChartActivity)>($r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r9.<android.view.GestureDetector: void <init>(android.view.GestureDetector$OnGestureListener)>($r10)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: android.view.GestureDetector mGestureDetector> = $r9
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r9 = $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: android.view.GestureDetector mGestureDetector>
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r9.<android.view.GestureDetector: void setIsLongpressEnabled(boolean)>(0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r11 = staticinvoke <android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)>($r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r12 = interfaceinvoke $r11.<android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)>("weight_unit", null)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[0] = 1
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:if $r12 != null goto $r14 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: android.view.Window getWindow()>()
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r13 = new es.senselesssolutions.gpl.weightchart.ChartActivity$2
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r13.<es.senselesssolutions.gpl.weightchart.ChartActivity$2: void <init>(es.senselesssolutions.gpl.weightchart.ChartActivity,android.app.Activity)>($r0, $r0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: es.senselesssolutions.gpl.weightchart.HeightDialog mHeightDialog> = $r13
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: void showDialog(int)>(0)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[1] = 1
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[3] = 1
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:return
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r14 = virtualinvoke $r0.<es.senselesssolutions.gpl.weightchart.ChartActivity: android.view.Window getWindow()>()
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:virtualinvoke $r14.<android.view.Window: void addFlags(int)>(1024)
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[2] = 1
+-1ZZZonCreate:es.senselesssolutions.gpl.weightchart.ChartActivity:goto [?= $r2[3] = 1]
+0ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartActivity:$r1 = <es.senselesssolutions.gpl.weightchart.ChartActivity: boolean[][] $VRc>
+-1ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartActivity:$r0 := @this: es.senselesssolutions.gpl.weightchart.ChartActivity
+-1ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartActivity:$r1 = <es.senselesssolutions.gpl.weightchart.ChartActivity: boolean[][] $VRc>
+-1ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartActivity:if $r1 != null goto $r2 = $r1[0]
+-1ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartActivity:$r1 = staticinvoke <es.senselesssolutions.gpl.weightchart.ChartActivity: boolean[][] $VRi()>()
+-1ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2 = $r1[0]
+-1ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartActivity:specialinvoke $r0.<android.app.Activity: void <init>()>()
+-1ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartActivity:$r2[0] = 1
+-1ZZZ<init>:es.senselesssolutions.gpl.weightchart.ChartActivity:return

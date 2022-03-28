@@ -1,0 +1,715 @@
+10991ZZZfetchAllRecords:org.gnucash.android.db.adapter.DatabaseAdapter:$r4 = $r0.<org.gnucash.android.db.adapter.DatabaseAdapter: java.lang.String mTableName>
+-1ZZZfetchAllRecords:org.gnucash.android.db.adapter.DatabaseAdapter:$r0 := @this: org.gnucash.android.db.adapter.DatabaseAdapter
+-1ZZZfetchAllRecords:org.gnucash.android.db.adapter.DatabaseAdapter:$r1 := @parameter0: java.lang.String
+-1ZZZfetchAllRecords:org.gnucash.android.db.adapter.DatabaseAdapter:$r2 := @parameter1: java.lang.String[]
+-1ZZZfetchAllRecords:org.gnucash.android.db.adapter.DatabaseAdapter:$r3 := @parameter2: java.lang.String
+-1ZZZfetchAllRecords:org.gnucash.android.db.adapter.DatabaseAdapter:$r6 = $r0.<org.gnucash.android.db.adapter.DatabaseAdapter: android.database.sqlite.SQLiteDatabase mDb>
+-1ZZZfetchAllRecords:org.gnucash.android.db.adapter.DatabaseAdapter:$r4 = $r0.<org.gnucash.android.db.adapter.DatabaseAdapter: java.lang.String mTableName>
+-1ZZZfetchAllRecords:org.gnucash.android.db.adapter.DatabaseAdapter:$r5 = virtualinvoke $r6.<android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>($r4, null, $r1, $r2, null, null, null)
+-1ZZZfetchAllRecords:org.gnucash.android.db.adapter.DatabaseAdapter:return $r5
+10966ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:staticinvoke <org.gnucash.android.app.GnuCashApplication: void setDefaultCurrencyCode(java.lang.String)>($r12)
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r0 := @this: org.gnucash.android.ui.wizard.FirstRunWizardActivity$3
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r1 := @parameter0: android.view.View
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r3 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$3: org.gnucash.android.ui.wizard.FirstRunWizardActivity this$0>
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r4 = $r3.<org.gnucash.android.ui.wizard.FirstRunWizardActivity: android.support.v4.view.ViewPager mPager>
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$i0 = virtualinvoke $r4.<android.support.v4.view.ViewPager: int getCurrentItem()>()
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r5 = staticinvoke <org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.util.List access$400(org.gnucash.android.ui.wizard.FirstRunWizardActivity)>($r3)
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$i1 = interfaceinvoke $r5.<java.util.List: int size()>()
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:if $i0 != $i1 goto $r3 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$3: org.gnucash.android.ui.wizard.FirstRunWizardActivity this$0>
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r2 = new java.util.ArrayList
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:specialinvoke $r2.<java.util.ArrayList: void <init>()>()
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r6 = interfaceinvoke $r5.<java.util.List: java.util.Iterator iterator()>()
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$z0 = interfaceinvoke $r6.<java.util.Iterator: boolean hasNext()>()
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:if $z0 == 0 goto $r3 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$3: org.gnucash.android.ui.wizard.FirstRunWizardActivity this$0>
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r7 = interfaceinvoke $r6.<java.util.Iterator: java.lang.Object next()>()
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r8 = (com.tech.freak.wizardpager.model.Page) $r7
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:virtualinvoke $r8.<com.tech.freak.wizardpager.model.Page: void getReviewItems(java.util.ArrayList)>($r2)
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:goto [?= $z0 = interfaceinvoke $r6.<java.util.Iterator: boolean hasNext()>()]
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r9 = staticinvoke <org.gnucash.android.app.GnuCashApplication: java.lang.String getDefaultCurrencyCode()>()
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:staticinvoke <org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.lang.String access$502(org.gnucash.android.ui.wizard.FirstRunWizardActivity,java.lang.String)>($r3, $r9)
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r10 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$3: org.gnucash.android.ui.wizard.FirstRunWizardActivity this$0>
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r9 = virtualinvoke $r10.<org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.lang.String getString(int)>(2131296619)
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:staticinvoke <org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.lang.String access$602(org.gnucash.android.ui.wizard.FirstRunWizardActivity,java.lang.String)>($r3, $r9)
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r9 = virtualinvoke $r3.<org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.lang.String getString(int)>(2131296617)
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r6 = virtualinvoke $r2.<java.util.ArrayList: java.util.Iterator iterator()>()
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r11 = (com.tech.freak.wizardpager.model.ReviewItem) $r7
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r12 = virtualinvoke $r11.<com.tech.freak.wizardpager.model.ReviewItem: java.lang.String getTitle()>()
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r13 = virtualinvoke $r3.<org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.lang.String getString(int)>(2131296621)
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$z0 = virtualinvoke $r12.<java.lang.String: boolean equals(java.lang.Object)>($r13)
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r12 = virtualinvoke $r11.<com.tech.freak.wizardpager.model.ReviewItem: java.lang.String getDisplayValue()>()
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:staticinvoke <org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.lang.String access$502(org.gnucash.android.ui.wizard.FirstRunWizardActivity,java.lang.String)>($r3, $r12)
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r13 = virtualinvoke $r3.<org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.lang.String getString(int)>(2131296623)
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r13 = virtualinvoke $r3.<org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.lang.String getString(int)>(2131296620)
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:staticinvoke <org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.lang.String access$602(org.gnucash.android.ui.wizard.FirstRunWizardActivity,java.lang.String)>($r3, $r12)
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r13 = virtualinvoke $r3.<org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.lang.String getString(int)>(2131296622)
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:if $z0 == 0 goto $z0 = interfaceinvoke $r6.<java.util.Iterator: boolean hasNext()>()
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r9 = virtualinvoke $r11.<com.tech.freak.wizardpager.model.ReviewItem: java.lang.String getDisplayValue()>()
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r12 = staticinvoke <org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.lang.String access$500(org.gnucash.android.ui.wizard.FirstRunWizardActivity)>($r3)
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:staticinvoke <org.gnucash.android.app.GnuCashApplication: void setDefaultCurrencyCode(java.lang.String)>($r12)
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r14 = staticinvoke <android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)>($r3)
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r15 = interfaceinvoke $r14.<android.content.SharedPreferences: android.content.SharedPreferences$Editor edit()>()
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r12 = virtualinvoke $r3.<org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.lang.String getString(int)>(2131296614)
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$z0 = virtualinvoke $r9.<java.lang.String: boolean equals(java.lang.Object)>($r12)
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r9 = virtualinvoke $r3.<org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.lang.String getString(int)>(2131296865)
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:interfaceinvoke $r15.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>($r9, 1)
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:interfaceinvoke $r15.<android.content.SharedPreferences$Editor: void apply()>()
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$i0 = <android.os.Build$VERSION: int SDK_INT>
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:if $i0 < 23 goto $r3 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$3: org.gnucash.android.ui.wizard.FirstRunWizardActivity this$0>
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r16 = newarray (java.lang.String)[2]
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r16[0] = "android.permission.WRITE_EXTERNAL_STORAGE"
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r16[1] = "android.permission.READ_EXTERNAL_STORAGE"
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:virtualinvoke $r3.<org.gnucash.android.ui.wizard.FirstRunWizardActivity: void requestPermissions(java.lang.String[],int)>($r16, 171)
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:return
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:interfaceinvoke $r15.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>($r9, 0)
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:goto [?= interfaceinvoke $r15.<android.content.SharedPreferences$Editor: void apply()>()]
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:staticinvoke <org.gnucash.android.ui.wizard.FirstRunWizardActivity: void access$700(org.gnucash.android.ui.wizard.FirstRunWizardActivity)>($r3)
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$z0 = staticinvoke <org.gnucash.android.ui.wizard.FirstRunWizardActivity: boolean access$200(org.gnucash.android.ui.wizard.FirstRunWizardActivity)>($r3)
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r17 = staticinvoke <org.gnucash.android.ui.wizard.FirstRunWizardActivity: org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter access$000(org.gnucash.android.ui.wizard.FirstRunWizardActivity)>($r3)
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$i0 = virtualinvoke $r17.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter: int getCount()>()
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$i0 = $i0 + -1
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:virtualinvoke $r4.<android.support.v4.view.ViewPager: void setCurrentItem(int)>($i0)
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r18 = $r3.<org.gnucash.android.ui.wizard.FirstRunWizardActivity: android.support.v4.view.ViewPager mPager>
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$i0 = virtualinvoke $r18.<android.support.v4.view.ViewPager: int getCurrentItem()>()
+-1ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$i0 = $i0 + 1
+10815ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r0 := @this: com.tech.freak.wizardpager.model.SingleFixedChoicePage
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r4 = $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: android.os.Bundle mData>
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:return
+10808ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r0 := @this: com.tech.freak.wizardpager.model.SingleFixedChoicePage
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r4 = $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: android.os.Bundle mData>
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:return
+10808ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r0 := @this: com.tech.freak.wizardpager.model.SingleFixedChoicePage
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r4 = $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: android.os.Bundle mData>
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:return
+10797ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r0 := @this: com.tech.freak.wizardpager.model.SingleFixedChoicePage
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r4 = $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: android.os.Bundle mData>
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:return
+10797ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r0 := @this: com.tech.freak.wizardpager.model.SingleFixedChoicePage
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r4 = $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: android.os.Bundle mData>
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:return
+10793ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r0 := @this: com.tech.freak.wizardpager.model.SingleFixedChoicePage
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r4 = $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: android.os.Bundle mData>
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:return
+10793ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r0 := @this: com.tech.freak.wizardpager.model.SingleFixedChoicePage
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r4 = $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: android.os.Bundle mData>
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:return
+10779ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r0 := @this: org.gnucash.android.ui.wizard.CurrencySelectPage
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r3 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r4 = $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: android.os.Bundle mData>
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("currency_code_data_key")
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r6 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:return
+10779ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r0 := @this: org.gnucash.android.ui.wizard.CurrencySelectPage
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r3 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r4 = $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: android.os.Bundle mData>
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("currency_code_data_key")
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r6 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:return
+10768ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r6 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r0 := @this: org.gnucash.android.ui.wizard.CurrencySelectPage
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r3 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r4 = $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: android.os.Bundle mData>
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("currency_code_data_key")
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r6 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:return
+10768ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r6 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r0 := @this: org.gnucash.android.ui.wizard.CurrencySelectPage
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r3 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r4 = $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: android.os.Bundle mData>
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("currency_code_data_key")
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r6 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:return
+10764ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r3 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r0 := @this: org.gnucash.android.ui.wizard.CurrencySelectPage
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r3 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r4 = $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: android.os.Bundle mData>
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("currency_code_data_key")
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r6 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:return
+10764ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r3 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r0 := @this: org.gnucash.android.ui.wizard.CurrencySelectPage
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r3 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r4 = $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: android.os.Bundle mData>
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("currency_code_data_key")
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r6 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:return
+10750ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r0 := @this: com.tech.freak.wizardpager.model.BranchPage
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r4 = $r0.<com.tech.freak.wizardpager.model.BranchPage: android.os.Bundle mData>
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:return
+10750ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r0 := @this: com.tech.freak.wizardpager.model.BranchPage
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r4 = $r0.<com.tech.freak.wizardpager.model.BranchPage: android.os.Bundle mData>
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:return
+10746ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r0 := @this: com.tech.freak.wizardpager.model.BranchPage
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r4 = $r0.<com.tech.freak.wizardpager.model.BranchPage: android.os.Bundle mData>
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:return
+10746ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r0 := @this: com.tech.freak.wizardpager.model.BranchPage
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r4 = $r0.<com.tech.freak.wizardpager.model.BranchPage: android.os.Bundle mData>
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:return
+10742ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r0 := @this: com.tech.freak.wizardpager.model.BranchPage
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r4 = $r0.<com.tech.freak.wizardpager.model.BranchPage: android.os.Bundle mData>
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:return
+10742ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r0 := @this: com.tech.freak.wizardpager.model.BranchPage
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r4 = $r0.<com.tech.freak.wizardpager.model.BranchPage: android.os.Bundle mData>
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:return
+10722ZZZaccess$400:org.gnucash.android.ui.wizard.FirstRunWizardActivity:r1 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.util.List mCurrentPageSequence>
+-1ZZZaccess$400:org.gnucash.android.ui.wizard.FirstRunWizardActivity:$r0 := @parameter0: org.gnucash.android.ui.wizard.FirstRunWizardActivity
+-1ZZZaccess$400:org.gnucash.android.ui.wizard.FirstRunWizardActivity:r1 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.util.List mCurrentPageSequence>
+-1ZZZaccess$400:org.gnucash.android.ui.wizard.FirstRunWizardActivity:return r1
+10545ZZZaccess$400:org.gnucash.android.ui.wizard.FirstRunWizardActivity:r1 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.util.List mCurrentPageSequence>
+-1ZZZaccess$400:org.gnucash.android.ui.wizard.FirstRunWizardActivity:$r0 := @parameter0: org.gnucash.android.ui.wizard.FirstRunWizardActivity
+-1ZZZaccess$400:org.gnucash.android.ui.wizard.FirstRunWizardActivity:r1 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.util.List mCurrentPageSequence>
+-1ZZZaccess$400:org.gnucash.android.ui.wizard.FirstRunWizardActivity:return r1
+10515ZZZaccess$400:org.gnucash.android.ui.wizard.FirstRunWizardActivity:r1 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.util.List mCurrentPageSequence>
+-1ZZZaccess$400:org.gnucash.android.ui.wizard.FirstRunWizardActivity:$r0 := @parameter0: org.gnucash.android.ui.wizard.FirstRunWizardActivity
+-1ZZZaccess$400:org.gnucash.android.ui.wizard.FirstRunWizardActivity:r1 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.util.List mCurrentPageSequence>
+-1ZZZaccess$400:org.gnucash.android.ui.wizard.FirstRunWizardActivity:return r1
+10431ZZZaccess$400:org.gnucash.android.ui.wizard.FirstRunWizardActivity:r1 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.util.List mCurrentPageSequence>
+-1ZZZaccess$400:org.gnucash.android.ui.wizard.FirstRunWizardActivity:$r0 := @parameter0: org.gnucash.android.ui.wizard.FirstRunWizardActivity
+-1ZZZaccess$400:org.gnucash.android.ui.wizard.FirstRunWizardActivity:r1 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.util.List mCurrentPageSequence>
+-1ZZZaccess$400:org.gnucash.android.ui.wizard.FirstRunWizardActivity:return r1
+791ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r0 := @this: com.tech.freak.wizardpager.model.SingleFixedChoicePage
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r4 = $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: android.os.Bundle mData>
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:return
+791ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r0 := @this: com.tech.freak.wizardpager.model.SingleFixedChoicePage
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r4 = $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: android.os.Bundle mData>
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:return
+787ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r0 := @this: com.tech.freak.wizardpager.model.SingleFixedChoicePage
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r4 = $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: android.os.Bundle mData>
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:return
+787ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r0 := @this: com.tech.freak.wizardpager.model.SingleFixedChoicePage
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r4 = $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: android.os.Bundle mData>
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:return
+783ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r0 := @this: com.tech.freak.wizardpager.model.SingleFixedChoicePage
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r4 = $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: android.os.Bundle mData>
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:return
+783ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r0 := @this: com.tech.freak.wizardpager.model.SingleFixedChoicePage
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r4 = $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: android.os.Bundle mData>
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:return
+776ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r0 := @this: com.tech.freak.wizardpager.model.SingleFixedChoicePage
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r4 = $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: android.os.Bundle mData>
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:return
+769ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r0 := @this: com.tech.freak.wizardpager.model.SingleFixedChoicePage
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r4 = $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: android.os.Bundle mData>
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:return
+769ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r0 := @this: com.tech.freak.wizardpager.model.SingleFixedChoicePage
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r4 = $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: android.os.Bundle mData>
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:return
+758ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r0 := @this: com.tech.freak.wizardpager.model.SingleFixedChoicePage
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r4 = $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: android.os.Bundle mData>
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:return
+758ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r0 := @this: com.tech.freak.wizardpager.model.SingleFixedChoicePage
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r4 = $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: android.os.Bundle mData>
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:return
+754ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r0 := @this: com.tech.freak.wizardpager.model.SingleFixedChoicePage
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r4 = $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: android.os.Bundle mData>
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:return
+754ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r0 := @this: com.tech.freak.wizardpager.model.SingleFixedChoicePage
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r4 = $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: android.os.Bundle mData>
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:return
+740ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r0 := @this: org.gnucash.android.ui.wizard.CurrencySelectPage
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r3 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r4 = $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: android.os.Bundle mData>
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("currency_code_data_key")
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r6 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:return
+740ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r0 := @this: org.gnucash.android.ui.wizard.CurrencySelectPage
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r3 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r4 = $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: android.os.Bundle mData>
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("currency_code_data_key")
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r6 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:return
+729ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r6 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r0 := @this: org.gnucash.android.ui.wizard.CurrencySelectPage
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r3 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r4 = $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: android.os.Bundle mData>
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("currency_code_data_key")
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r6 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:return
+729ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r6 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r0 := @this: org.gnucash.android.ui.wizard.CurrencySelectPage
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r3 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r4 = $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: android.os.Bundle mData>
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("currency_code_data_key")
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r6 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:return
+725ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r3 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r0 := @this: org.gnucash.android.ui.wizard.CurrencySelectPage
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r3 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r4 = $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: android.os.Bundle mData>
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("currency_code_data_key")
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r6 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:return
+725ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r3 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r0 := @this: org.gnucash.android.ui.wizard.CurrencySelectPage
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r3 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r4 = $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: android.os.Bundle mData>
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("currency_code_data_key")
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r6 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:return
+711ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r0 := @this: com.tech.freak.wizardpager.model.BranchPage
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r4 = $r0.<com.tech.freak.wizardpager.model.BranchPage: android.os.Bundle mData>
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:return
+711ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r0 := @this: com.tech.freak.wizardpager.model.BranchPage
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r4 = $r0.<com.tech.freak.wizardpager.model.BranchPage: android.os.Bundle mData>
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:return
+707ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r0 := @this: com.tech.freak.wizardpager.model.BranchPage
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r4 = $r0.<com.tech.freak.wizardpager.model.BranchPage: android.os.Bundle mData>
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:return
+707ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r0 := @this: com.tech.freak.wizardpager.model.BranchPage
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r4 = $r0.<com.tech.freak.wizardpager.model.BranchPage: android.os.Bundle mData>
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:return
+703ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r0 := @this: com.tech.freak.wizardpager.model.BranchPage
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r4 = $r0.<com.tech.freak.wizardpager.model.BranchPage: android.os.Bundle mData>
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:return
+703ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r0 := @this: com.tech.freak.wizardpager.model.BranchPage
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r1 := @parameter0: java.util.ArrayList
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getTitle()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r4 = $r0.<com.tech.freak.wizardpager.model.BranchPage: android.os.Bundle mData>
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getKey()>()
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+-1ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:return
+491ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$r7 = virtualinvoke $r6.<java.lang.Object: java.lang.String toString()>()
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$r0 := @this: com.tech.freak.wizardpager.ui.SingleChoiceFragment
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$r1 := @parameter0: android.widget.ListView
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$r2 := @parameter1: android.view.View
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$i0 := @parameter2: int
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$l1 := @parameter3: long
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$r3 = $r0.<com.tech.freak.wizardpager.ui.SingleChoiceFragment: com.tech.freak.wizardpager.model.Page mPage>
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$r4 = virtualinvoke $r3.<com.tech.freak.wizardpager.model.Page: android.os.Bundle getData()>()
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$r5 = virtualinvoke $r0.<com.tech.freak.wizardpager.ui.SingleChoiceFragment: android.widget.ListAdapter getListAdapter()>()
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$r6 = interfaceinvoke $r5.<android.widget.ListAdapter: java.lang.Object getItem(int)>($i0)
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$r7 = virtualinvoke $r6.<java.lang.Object: java.lang.String toString()>()
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:virtualinvoke $r4.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("_", $r7)
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:virtualinvoke $r3.<com.tech.freak.wizardpager.model.Page: void notifyDataChanged()>()
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:return
+486ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$r4 = virtualinvoke $r3.<com.tech.freak.wizardpager.model.Page: android.os.Bundle getData()>()
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$r0 := @this: com.tech.freak.wizardpager.ui.SingleChoiceFragment
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$r1 := @parameter0: android.widget.ListView
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$r2 := @parameter1: android.view.View
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$i0 := @parameter2: int
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$l1 := @parameter3: long
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$r3 = $r0.<com.tech.freak.wizardpager.ui.SingleChoiceFragment: com.tech.freak.wizardpager.model.Page mPage>
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$r4 = virtualinvoke $r3.<com.tech.freak.wizardpager.model.Page: android.os.Bundle getData()>()
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$r5 = virtualinvoke $r0.<com.tech.freak.wizardpager.ui.SingleChoiceFragment: android.widget.ListAdapter getListAdapter()>()
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$r6 = interfaceinvoke $r5.<android.widget.ListAdapter: java.lang.Object getItem(int)>($i0)
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$r7 = virtualinvoke $r6.<java.lang.Object: java.lang.String toString()>()
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:virtualinvoke $r4.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("_", $r7)
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:virtualinvoke $r3.<com.tech.freak.wizardpager.model.Page: void notifyDataChanged()>()
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:return
+486ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$r4 = virtualinvoke $r3.<com.tech.freak.wizardpager.model.Page: android.os.Bundle getData()>()
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$r0 := @this: com.tech.freak.wizardpager.ui.SingleChoiceFragment
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$r1 := @parameter0: android.widget.ListView
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$r2 := @parameter1: android.view.View
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$i0 := @parameter2: int
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$l1 := @parameter3: long
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$r3 = $r0.<com.tech.freak.wizardpager.ui.SingleChoiceFragment: com.tech.freak.wizardpager.model.Page mPage>
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$r4 = virtualinvoke $r3.<com.tech.freak.wizardpager.model.Page: android.os.Bundle getData()>()
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$r5 = virtualinvoke $r0.<com.tech.freak.wizardpager.ui.SingleChoiceFragment: android.widget.ListAdapter getListAdapter()>()
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$r6 = interfaceinvoke $r5.<android.widget.ListAdapter: java.lang.Object getItem(int)>($i0)
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:$r7 = virtualinvoke $r6.<java.lang.Object: java.lang.String toString()>()
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:virtualinvoke $r4.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("_", $r7)
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:virtualinvoke $r3.<com.tech.freak.wizardpager.model.Page: void notifyDataChanged()>()
+-1ZZZonListItemClick:com.tech.freak.wizardpager.ui.SingleChoiceFragment:return
+191ZZZsetPrimaryItem:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter: android.support.v4.app.Fragment mPrimaryItem> = $r3
+-1ZZZsetPrimaryItem:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r0 := @this: org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter
+-1ZZZsetPrimaryItem:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r1 := @parameter0: android.view.ViewGroup
+-1ZZZsetPrimaryItem:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i0 := @parameter1: int
+-1ZZZsetPrimaryItem:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r2 := @parameter2: java.lang.Object
+-1ZZZsetPrimaryItem:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:specialinvoke $r0.<android.support.v4.app.FragmentStatePagerAdapter: void setPrimaryItem(android.view.ViewGroup,int,java.lang.Object)>($r1, $i0, $r2)
+-1ZZZsetPrimaryItem:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r3 = (android.support.v4.app.Fragment) $r2
+-1ZZZsetPrimaryItem:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter: android.support.v4.app.Fragment mPrimaryItem> = $r3
+-1ZZZsetPrimaryItem:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:return
+109ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i1 = $i1 + 1
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r0 := @this: org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i0 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter: int mCutOffPage>
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i0 = $i0 + 1
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r1 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter: org.gnucash.android.ui.wizard.FirstRunWizardActivity this$0>
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r2 = staticinvoke <org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.util.List access$400(org.gnucash.android.ui.wizard.FirstRunWizardActivity)>($r1)
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:if $r2 != null goto $r1 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter: org.gnucash.android.ui.wizard.FirstRunWizardActivity this$0>
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i1 = 1
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i0 = staticinvoke <java.lang.Math: int min(int,int)>($i0, $i1)
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:return $i0
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i1 = interfaceinvoke $r2.<java.util.List: int size()>()
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i1 = $i1 + 1
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:goto [?= $i0 = staticinvoke <java.lang.Math: int min(int,int)>($i0, $i1)]
+106ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r2 = staticinvoke <org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.util.List access$400(org.gnucash.android.ui.wizard.FirstRunWizardActivity)>($r1)
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r0 := @this: org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i0 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter: int mCutOffPage>
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i0 = $i0 + 1
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r1 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter: org.gnucash.android.ui.wizard.FirstRunWizardActivity this$0>
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r2 = staticinvoke <org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.util.List access$400(org.gnucash.android.ui.wizard.FirstRunWizardActivity)>($r1)
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:if $r2 != null goto $r1 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter: org.gnucash.android.ui.wizard.FirstRunWizardActivity this$0>
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i1 = 1
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i0 = staticinvoke <java.lang.Math: int min(int,int)>($i0, $i1)
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:return $i0
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i1 = interfaceinvoke $r2.<java.util.List: int size()>()
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i1 = $i1 + 1
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:goto [?= $i0 = staticinvoke <java.lang.Math: int min(int,int)>($i0, $i1)]
+106ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r2 = staticinvoke <org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.util.List access$400(org.gnucash.android.ui.wizard.FirstRunWizardActivity)>($r1)
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r0 := @this: org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i0 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter: int mCutOffPage>
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i0 = $i0 + 1
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r1 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter: org.gnucash.android.ui.wizard.FirstRunWizardActivity this$0>
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r2 = staticinvoke <org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.util.List access$400(org.gnucash.android.ui.wizard.FirstRunWizardActivity)>($r1)
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:if $r2 != null goto $r1 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter: org.gnucash.android.ui.wizard.FirstRunWizardActivity this$0>
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i1 = 1
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i0 = staticinvoke <java.lang.Math: int min(int,int)>($i0, $i1)
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:return $i0
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i1 = interfaceinvoke $r2.<java.util.List: int size()>()
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i1 = $i1 + 1
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:goto [?= $i0 = staticinvoke <java.lang.Math: int min(int,int)>($i0, $i1)]
+102ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r2 = staticinvoke <org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.util.List access$400(org.gnucash.android.ui.wizard.FirstRunWizardActivity)>($r1)
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r0 := @this: org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i0 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter: int mCutOffPage>
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i0 = $i0 + 1
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r1 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter: org.gnucash.android.ui.wizard.FirstRunWizardActivity this$0>
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r2 = staticinvoke <org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.util.List access$400(org.gnucash.android.ui.wizard.FirstRunWizardActivity)>($r1)
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:if $r2 != null goto $r1 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter: org.gnucash.android.ui.wizard.FirstRunWizardActivity this$0>
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i1 = 1
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i0 = staticinvoke <java.lang.Math: int min(int,int)>($i0, $i1)
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:return $i0
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i1 = interfaceinvoke $r2.<java.util.List: int size()>()
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i1 = $i1 + 1
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:goto [?= $i0 = staticinvoke <java.lang.Math: int min(int,int)>($i0, $i1)]
+102ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r2 = staticinvoke <org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.util.List access$400(org.gnucash.android.ui.wizard.FirstRunWizardActivity)>($r1)
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r0 := @this: org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i0 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter: int mCutOffPage>
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i0 = $i0 + 1
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r1 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter: org.gnucash.android.ui.wizard.FirstRunWizardActivity this$0>
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r2 = staticinvoke <org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.util.List access$400(org.gnucash.android.ui.wizard.FirstRunWizardActivity)>($r1)
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:if $r2 != null goto $r1 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter: org.gnucash.android.ui.wizard.FirstRunWizardActivity this$0>
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i1 = 1
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i0 = staticinvoke <java.lang.Math: int min(int,int)>($i0, $i1)
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:return $i0
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i1 = interfaceinvoke $r2.<java.util.List: int size()>()
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i1 = $i1 + 1
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:goto [?= $i0 = staticinvoke <java.lang.Math: int min(int,int)>($i0, $i1)]
+99ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i0 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter: int mCutOffPage>
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r0 := @this: org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i0 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter: int mCutOffPage>
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i0 = $i0 + 1
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r1 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter: org.gnucash.android.ui.wizard.FirstRunWizardActivity this$0>
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r2 = staticinvoke <org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.util.List access$400(org.gnucash.android.ui.wizard.FirstRunWizardActivity)>($r1)
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:if $r2 != null goto $r1 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter: org.gnucash.android.ui.wizard.FirstRunWizardActivity this$0>
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i1 = 1
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i0 = staticinvoke <java.lang.Math: int min(int,int)>($i0, $i1)
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:return $i0
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i1 = interfaceinvoke $r2.<java.util.List: int size()>()
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i1 = $i1 + 1
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:goto [?= $i0 = staticinvoke <java.lang.Math: int min(int,int)>($i0, $i1)]
+99ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i0 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter: int mCutOffPage>
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r0 := @this: org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i0 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter: int mCutOffPage>
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i0 = $i0 + 1
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r1 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter: org.gnucash.android.ui.wizard.FirstRunWizardActivity this$0>
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r2 = staticinvoke <org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.util.List access$400(org.gnucash.android.ui.wizard.FirstRunWizardActivity)>($r1)
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:if $r2 != null goto $r1 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter: org.gnucash.android.ui.wizard.FirstRunWizardActivity this$0>
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i1 = 1
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i0 = staticinvoke <java.lang.Math: int min(int,int)>($i0, $i1)
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:return $i0
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i1 = interfaceinvoke $r2.<java.util.List: int size()>()
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i1 = $i1 + 1
+-1ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:goto [?= $i0 = staticinvoke <java.lang.Math: int min(int,int)>($i0, $i1)]

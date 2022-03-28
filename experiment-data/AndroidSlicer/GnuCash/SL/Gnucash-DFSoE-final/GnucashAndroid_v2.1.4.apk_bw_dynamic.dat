@@ -1,0 +1,60 @@
+11048ZZZfetchAllRecords:org.gnucash.android.db.adapter.DatabaseAdapter:$r4 = $r0.<org.gnucash.android.db.adapter.DatabaseAdapter: java.lang.String mTableName>
+11047ZZZfetchAllRecords:org.gnucash.android.db.adapter.DatabaseAdapter:$r6 = $r0.<org.gnucash.android.db.adapter.DatabaseAdapter: android.database.sqlite.SQLiteDatabase mDb>
+11043ZZZsetDefaultCurrencyCode:org.gnucash.android.app.GnuCashApplication:$r6 = virtualinvoke $r5.<org.gnucash.android.db.adapter.CommoditiesDbAdapter: org.gnucash.android.model.Commodity getCommodity(java.lang.String)>($r0)
+11042ZZZsetDefaultCurrencyCode:org.gnucash.android.app.GnuCashApplication:$r5 = <org.gnucash.android.app.GnuCashApplication: org.gnucash.android.db.adapter.CommoditiesDbAdapter mCommoditiesDbAdapter>
+11041ZZZsetDefaultCurrencyCode:org.gnucash.android.app.GnuCashApplication:<org.gnucash.android.model.Money: java.lang.String DEFAULT_CURRENCY_CODE> = $r0
+11040ZZZsetDefaultCurrencyCode:org.gnucash.android.app.GnuCashApplication:interfaceinvoke $r3.<android.content.SharedPreferences$Editor: void apply()>()
+11038ZZZsetDefaultCurrencyCode:org.gnucash.android.app.GnuCashApplication:$r4 = virtualinvoke $r1.<android.content.Context: java.lang.String getString(int)>(2131296857)
+11036ZZZsetDefaultCurrencyCode:org.gnucash.android.app.GnuCashApplication:$r1 = staticinvoke <org.gnucash.android.app.GnuCashApplication: android.content.Context getAppContext()>()
+11035ZZZsetDefaultCurrencyCode:org.gnucash.android.app.GnuCashApplication:$r3 = interfaceinvoke $r2.<android.content.SharedPreferences: android.content.SharedPreferences$Editor edit()>()
+11025ZZZsetDefaultCurrencyCode:org.gnucash.android.app.GnuCashApplication:$r2 = staticinvoke <android.support.v7.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)>($r1)
+11024ZZZsetDefaultCurrencyCode:org.gnucash.android.app.GnuCashApplication:$r1 = <org.gnucash.android.app.GnuCashApplication: android.content.Context context>
+11023ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:staticinvoke <org.gnucash.android.app.GnuCashApplication: void setDefaultCurrencyCode(java.lang.String)>($r12)
+10888ZZZ<init>:com.tech.freak.wizardpager.model.ReviewItem:specialinvoke $r0.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String,int)>($r1, $r2, $r3, 0)
+10877ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:virtualinvoke $r8.<com.tech.freak.wizardpager.model.Page: void getReviewItems(java.util.ArrayList)>($r2)
+10876ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r8 = (com.tech.freak.wizardpager.model.Page) $r7
+10875ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r7 = interfaceinvoke $r6.<java.util.Iterator: java.lang.Object next()>()
+10874ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:if $z0 == 0 goto $r3 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$3: org.gnucash.android.ui.wizard.FirstRunWizardActivity this$0>
+10873ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$z0 = interfaceinvoke $r6.<java.util.Iterator: boolean hasNext()>()
+10872ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:virtualinvoke $r1.<java.util.ArrayList: boolean add(java.lang.Object)>($r2)
+10865ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+10854ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getKey()>()
+10853ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+10852ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r4 = $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: android.os.Bundle mData>
+10850ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.SingleFixedChoicePage: java.lang.String getTitle()>()
+10849ZZZgetReviewItems:com.tech.freak.wizardpager.model.SingleFixedChoicePage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+10836ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+10825ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r6 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getKey()>()
+10824ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("currency_code_data_key")
+10823ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r4 = $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: android.os.Bundle mData>
+10821ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r3 = virtualinvoke $r0.<org.gnucash.android.ui.wizard.CurrencySelectPage: java.lang.String getTitle()>()
+10820ZZZgetReviewItems:org.gnucash.android.ui.wizard.CurrencySelectPage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+10807ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:specialinvoke $r2.<com.tech.freak.wizardpager.model.ReviewItem: void <init>(java.lang.String,java.lang.String,java.lang.String)>($r3, $r5, $r6)
+10803ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r6 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getKey()>()
+10802ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_")
+10801ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r4 = $r0.<com.tech.freak.wizardpager.model.BranchPage: android.os.Bundle mData>
+10799ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r3 = virtualinvoke $r0.<com.tech.freak.wizardpager.model.BranchPage: java.lang.String getTitle()>()
+10798ZZZgetReviewItems:com.tech.freak.wizardpager.model.BranchPage:$r2 = new com.tech.freak.wizardpager.model.ReviewItem
+10785ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r5 = staticinvoke <org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.util.List access$400(org.gnucash.android.ui.wizard.FirstRunWizardActivity)>($r3)
+10784ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r3 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$3: org.gnucash.android.ui.wizard.FirstRunWizardActivity this$0>
+10783ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:specialinvoke $r2.<java.util.ArrayList: void <init>()>()
+10782ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$r2 = new java.util.ArrayList
+10781ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:if $i0 != $i1 goto $r3 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$3: org.gnucash.android.ui.wizard.FirstRunWizardActivity this$0>
+10780ZZZonClick:org.gnucash.android.ui.wizard.FirstRunWizardActivity$3:$i1 = interfaceinvoke $r5.<java.util.List: int size()>()
+10779ZZZaccess$400:org.gnucash.android.ui.wizard.FirstRunWizardActivity:r1 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.util.List mCurrentPageSequence>
+10704ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r2 = staticinvoke <org.gnucash.android.ui.wizard.FirstRunWizardActivity: java.util.List access$400(org.gnucash.android.ui.wizard.FirstRunWizardActivity)>($r1)
+10703ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$r1 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter: org.gnucash.android.ui.wizard.FirstRunWizardActivity this$0>
+10702ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:if $r2 != null goto $r1 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter: org.gnucash.android.ui.wizard.FirstRunWizardActivity this$0>
+7937ZZZonDraw:com.tech.freak.wizardpager.ui.StepPagerStrip:specialinvoke $r0.<android.view.View: void onDraw(android.graphics.Canvas)>($r1)
+7136ZZZaccess$300:org.gnucash.android.ui.wizard.FirstRunWizardActivity:specialinvoke $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity: void updateBottomBar()>()
+7123ZZZonPageSelected:org.gnucash.android.ui.wizard.FirstRunWizardActivity$2:virtualinvoke $r2.<com.tech.freak.wizardpager.ui.StepPagerStrip: void setCurrentPage(int)>($i0)
+7122ZZZonPageSelected:org.gnucash.android.ui.wizard.FirstRunWizardActivity$2:$r2 = $r1.<org.gnucash.android.ui.wizard.FirstRunWizardActivity: com.tech.freak.wizardpager.ui.StepPagerStrip mStepPagerStrip>
+7121ZZZonPageSelected:org.gnucash.android.ui.wizard.FirstRunWizardActivity$2:$r1 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$2: org.gnucash.android.ui.wizard.FirstRunWizardActivity this$0>
+6980ZZZgetCount:com.tech.freak.wizardpager.ui.ReviewFragment$ReviewAdapter:$r2 = staticinvoke <com.tech.freak.wizardpager.ui.ReviewFragment: java.util.List access$100(com.tech.freak.wizardpager.ui.ReviewFragment)>($r1)
+6979ZZZgetCount:com.tech.freak.wizardpager.ui.ReviewFragment$ReviewAdapter:$r1 = $r0.<com.tech.freak.wizardpager.ui.ReviewFragment$ReviewAdapter: com.tech.freak.wizardpager.ui.ReviewFragment this$0>
+6901ZZZgetCount:com.tech.freak.wizardpager.ui.ReviewFragment$ReviewAdapter:$i0 = interfaceinvoke $r2.<java.util.List: int size()>()
+6374ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i1 = interfaceinvoke $r2.<java.util.List: int size()>()
+6366ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i0 = $i0 + 1
+6365ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i0 = $r0.<org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter: int mCutOffPage>
+6286ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i0 = staticinvoke <java.lang.Math: int min(int,int)>($i0, $i1)
+6285ZZZgetCount:org.gnucash.android.ui.wizard.FirstRunWizardActivity$MyPagerAdapter:$i1 = $i1 + 1
