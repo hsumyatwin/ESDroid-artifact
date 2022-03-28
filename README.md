@@ -70,7 +70,7 @@ This replication package is structured as follows:
 
 Each of the folders listed above are described in details in the remaining of this readme.
 
-1. Implementation (Experiment apps)
+1. Implementation
 
 ```
 implementation
