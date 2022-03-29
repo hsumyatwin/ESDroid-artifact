@@ -85,17 +85,17 @@ implementation
 test-data
     .
     |--- AndroidSlicer     The experiment apps that compared against with AndroidSlicer.  
-      |--- <App name>     App name.
-      |--- DD           Delta Debugging result with python script and error log
-      |--- SL           The slicing result
-        |--- FSoE       The slice for the orginal event sequence
-        |--- DFSoE      The slice for the simplified event sequence
+      |--- <App name>      App name.
+      |--- DD              Delta Debugging result with python script and error log
+      |--- SL              The slicing result
+        |--- FSoE          The slice for the orginal event sequence
+        |--- DFSoE         The slice for the simplified event sequence
     |--- Mandoline         The experiment apps that compared against with AndroidSlicer.
-      |--- <App name>     App name.
-      |--- DD           Delta Debugging result with python script and error log
-      |--- SL           The slicing result
-        |--- FSoE       The slice for the orginal event sequence
-        |--- DFSoE      The slice for the simplified event sequence
+      |--- <App name>      App name.
+      |--- DD              Delta Debugging result with python script and error log
+      |--- SL              The slicing result
+        |--- FSoE          The slice for the orginal event sequence
+        |--- DFSoE         The slice for the simplified event sequence
 ```
 
 3. Working folder
