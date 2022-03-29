@@ -63,9 +63,9 @@ This replication package is structured as follows:
 ```
     /
     .
-    |--- implementation/      The implementation including libraries and source code
-    |--- test-data/           The list of apps tested
-    |--- tool/                The working directory including the scripts
+    |--- implementation/      Implementation including libraries and source code
+    |--- test-data/           List of apps tested
+    |--- tool/                Working directory including the scripts
 ```
 
 Each of the folders listed above are described in details in the remaining of this readme.
@@ -75,8 +75,8 @@ Each of the folders listed above are described in details in the remaining of th
 ```
 implementation
     .
-    |--- lib      The list of dependencies.   
-    |--- src      The source code of ESDroid. 
+    |--- lib      List of dependencies.   
+    |--- src      Source code of ESDroid. 
 ```
 
 2. Test data (Experiment apps)
@@ -84,18 +84,18 @@ implementation
 ```
 test-data
     .
-    |--- AndroidSlicer     The experiment apps that compared against with AndroidSlicer.  
+    |--- AndroidSlicer     Experiment apps that compared against with AndroidSlicer.  
       |--- <App name>      App name.
       |--- DD              Delta Debugging result with python script and error log
-      |--- SL              The slicing result
-        |--- FSoE          The slice for the orginal event sequence
-        |--- DFSoE         The slice for the simplified event sequence
-    |--- Mandoline         The experiment apps that compared against with AndroidSlicer.
+      |--- SL              Slicing result
+        |--- FSoE          Slice for the orginal event sequence
+        |--- DFSoE         Slice for the simplified event sequence
+    |--- Mandoline         Experiment apps that compared against with AndroidSlicer.
       |--- <App name>      App name.
       |--- DD              Delta Debugging result with python script and error log
-      |--- SL              The slicing result
-        |--- FSoE          The slice for the orginal event sequence
-        |--- DFSoE         The slice for the simplified event sequence
+      |--- SL              Slicing result
+        |--- FSoE          Slice for the orginal event sequence
+        |--- DFSoE         Slice for the simplified event sequence
 ```
 
 3. Working folder
@@ -103,8 +103,8 @@ test-data
 ```
 tool
     .
-    |--- resources      The required resources.   
-    |--- sootOutput     The directory for instrumented apps.
+    |--- resources      Required resources.   
+    |--- sootOutput     Directory for instrumented apps.
 ```
 
 # Note
