@@ -90,7 +90,7 @@ test-data
       |--- SL              Slicing result
         |--- FSoE          Slice for the orginal event sequence
         |--- DFSoE         Slice for the simplified event sequence
-    |--- Mandoline         Experiment apps that compared against with AndroidSlicer.
+    |--- Mandoline         Experiment apps that compared against with Mandoline.
       |--- <App name>      App name.
       |--- DD              Delta Debugging result with python script and error log
       |--- SL              Slicing result
