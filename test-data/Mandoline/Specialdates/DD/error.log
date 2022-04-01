@@ -1,0 +1,25 @@
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+03-21 02:06:01.081  7168  7168 E AndroidRuntime: FATAL EXCEPTION: main
+03-21 02:06:01.081  7168  7168 E AndroidRuntime: Process: com.alexstyl.specialdates, PID: 7168
+03-21 02:06:01.081  7168  7168 E AndroidRuntime: org.joda.time.IllegalFieldValueException: Value 30 for dayOfMonth must be in the range [1,28]
+03-21 02:06:01.081  7168  7168 E AndroidRuntime: 	at org.joda.time.field.FieldUtils.verifyValueBounds(Unknown Source:38)
+03-21 02:06:01.081  7168  7168 E AndroidRuntime: 	at org.joda.time.chrono.BasicChronology.getDateMidnightMillis(Unknown Source:86)
+03-21 02:06:01.081  7168  7168 E AndroidRuntime: 	at org.joda.time.chrono.BasicChronology.getDateTimeMillis(Unknown Source:57)
+03-21 02:06:01.081  7168  7168 E AndroidRuntime: 	at org.joda.time.chrono.AssembledChronology.getDateTimeMillis(Unknown Source:26)
+03-21 02:06:01.081  7168  7168 E AndroidRuntime: 	at org.joda.time.LocalDate.<init>(Unknown Source:32)
+03-21 02:06:01.081  7168  7168 E AndroidRuntime: 	at org.joda.time.LocalDate.<init>(Unknown Source:14)
+03-21 02:06:01.081  7168  7168 E AndroidRuntime: 	at com.alexstyl.specialdates.events.i.a(Unknown Source:12)
+03-21 02:06:01.081  7168  7168 E AndroidRuntime: 	at com.alexstyl.specialdates.events.g.a(Unknown Source:32)
+03-21 02:06:01.081  7168  7168 E AndroidRuntime: 	at com.alexstyl.specialdates.addevent.BirthdayLabelView.a(Unknown Source:14)
+03-21 02:06:01.081  7168  7168 E AndroidRuntime: 	at com.alexstyl.specialdates.addevent.j.a(Unknown Source:12)
+03-21 02:06:01.081  7168  7168 E AndroidRuntime: 	at com.alexstyl.specialdates.addevent.e.a(Unknown Source:21)
+03-21 02:06:01.081  7168  7168 E AndroidRuntime: 	at com.alexstyl.specialdates.addevent.o.onClick(Unknown Source:46)
+03-21 02:06:01.081  7168  7168 E AndroidRuntime: 	at android.support.v7.a.q.handleMessage(Unknown Source:25)
+03-21 02:06:01.081  7168  7168 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:105)
+03-21 02:06:01.081  7168  7168 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:164)
+03-21 02:06:01.081  7168  7168 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6541)
+03-21 02:06:01.081  7168  7168 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-21 02:06:01.081  7168  7168 E AndroidRuntime: 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+03-21 02:06:01.081  7168  7168 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)

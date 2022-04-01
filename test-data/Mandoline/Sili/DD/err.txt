@@ -1,0 +1,23 @@
+--------- beginning of system
+--------- beginning of main
+--------- beginning of crash
+03-24 16:56:11.184  6538  6538 E AndroidRuntime: FATAL EXCEPTION: main
+03-24 16:56:11.184  6538  6538 E AndroidRuntime: Process: hsu.android.commands.esdroideg, PID: 6538
+03-24 16:56:11.184  6538  6538 E AndroidRuntime: java.lang.IllegalStateException: Could not execute method for android:onClick
+03-24 16:56:11.184  6538  6538 E AndroidRuntime: 	at androidx.appcompat.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(Unknown Source:34)
+03-24 16:56:11.184  6538  6538 E AndroidRuntime: 	at android.view.View.performClick(View.java:6256)
+03-24 16:56:11.184  6538  6538 E AndroidRuntime: 	at android.view.View$PerformClick.run(View.java:24701)
+03-24 16:56:11.184  6538  6538 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:789)
+03-24 16:56:11.184  6538  6538 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:98)
+03-24 16:56:11.184  6538  6538 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:164)
+03-24 16:56:11.184  6538  6538 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6541)
+03-24 16:56:11.184  6538  6538 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-24 16:56:11.184  6538  6538 E AndroidRuntime: 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+03-24 16:56:11.184  6538  6538 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+03-24 16:56:11.184  6538  6538 E AndroidRuntime: Caused by: java.lang.reflect.InvocationTargetException
+03-24 16:56:11.184  6538  6538 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-24 16:56:11.184  6538  6538 E AndroidRuntime: 	at androidx.appcompat.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(Unknown Source:25)
+03-24 16:56:11.184  6538  6538 E AndroidRuntime: 	... 9 more
+03-24 16:56:11.184  6538  6538 E AndroidRuntime: Caused by: java.lang.ArithmeticException: divide by zero
+03-24 16:56:11.184  6538  6538 E AndroidRuntime: 	at hsu.android.commands.esdroideg.MainActivity.divClickHandler(Unknown Source:25)
+03-24 16:56:11.184  6538  6538 E AndroidRuntime: 	... 11 more

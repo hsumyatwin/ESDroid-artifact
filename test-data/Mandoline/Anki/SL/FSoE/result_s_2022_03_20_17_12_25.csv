@@ -1,0 +1,4 @@
+ID, Method, Class, Line, Source, Var
+0, void onClick(android.view.View), com.ichi2.anki.multimediacard.fields.BasicImageFieldController$2, $r11 = $r9.<com.ichi2.anki.multimediacard.fields.BasicImageFieldController: com.ichi2.anki.multimediacard.activity.MultimediaEditFieldActivity mActivity>, 28, -1, (r11:157377:-1)
+1, void <init>(com.ichi2.anki.multimediacard.fields.BasicImageFieldController), com.ichi2.anki.multimediacard.fields.BasicImageFieldController$2, r0.<com.ichi2.anki.multimediacard.fields.BasicImageFieldController$2: com.ichi2.anki.multimediacard.fields.BasicImageFieldController this$0> = $r1, 3, 2, (r0.this$0:157376:-1)
+2, void onClick(android.view.View), com.ichi2.anki.multimediacard.fields.BasicImageFieldController$2, $r9 = r0.<com.ichi2.anki.multimediacard.fields.BasicImageFieldController$2: com.ichi2.anki.multimediacard.fields.BasicImageFieldController this$0>, 22, 3, (r9:157377:-1)
