@@ -58,7 +58,7 @@ ESDroid is in Python and Java. You can find the source code under "implementatio
 
 # Replication package
 
-This replication package is structured as follows:
+The replication package is structured as follows:
 
 ```
     /
