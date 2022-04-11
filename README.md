@@ -11,6 +11,7 @@ ESDroid is in Python and Java. You can find the source code under "implementatio
 3. Run the instrumenter script for the app using the following command to instrument the app and sign the instrumented apk file.
 
    > **./instrumenter.sh <apk_file>**
+   
    P.S. Change the package name [E.g., com.muledog.calculator]   
 
 4. Make sure that either your emulator is running or the phone is connected and accessible via adb. 
