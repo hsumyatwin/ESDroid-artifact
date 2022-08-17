@@ -4,7 +4,7 @@ ESDroid is a debugging tool for Android App.
 # Usage
 ESDroid is in Python and Java. You can find the source code under "implementation" directory and the required scripts for running the tool under the "tool" directory. The tested data is available under "test-data."
 
-1. After cloning/extracting the tool directory in a folder (e.g., ~/ESDroid-artifact/tool), you need to change the ***PLATFORDIRFORSLICER*** parameter in 3 **instrumenter.sh**, **preSlicer.sh**, and **ESDroid.sh** script files. ***PLATFORDIRFORSLICER*** is the path of your android sdk/platforms folder.
+1. After cloning/extracting the tool directory in a folder (e.g., ~/ESDroid-artifact/tool), you need to change the ***PLATFORDIRFORSLICER*** parameter in 3 script files (**instrumenter.sh**, **preSlicer.sh**, and **ESDroid.sh**). ***PLATFORDIRFORSLICER*** is the path of your android sdk/platforms folder.
 
 2. Copy the app apk file (eg; app-debug.apk) that you want to do the slicing into the tool directory (i.e., ~/ESDroid-artifact/tool/). 
 
