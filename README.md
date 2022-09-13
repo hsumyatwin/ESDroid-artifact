@@ -110,4 +110,4 @@ tool
 
 # Note
 Hsu: I have used Ubuntu, Window command line and emulator since I run ESDroid on Windows OS.
-Due to file size, ESDroid.jar and preSlicer.jar are available at https://drive.google.com/drive/folders/1OOq9YEX9UxH4ewQSbnQJmS9pbCWCeu-m?usp=sharing
+<!---Due to file size, ESDroid.jar and preSlicer.jar are available at https://drive.google.com/drive/folders/1OOq9YEX9UxH4ewQSbnQJmS9pbCWCeu-m?usp=sharing -->
