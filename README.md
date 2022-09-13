@@ -111,7 +111,7 @@ tool
 # Note
 Hsu: I have used Ubuntu, Window command line and emulator since I run ESDroid on Windows OS.
 
-Cite the code: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7074680.svg)](https://doi.org/10.5281/zenodo.7074680)
+Due to file size, complete artifacts including ESDroid.jar and preSlicer.jar are available at : [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7074680.svg)](https://doi.org/10.5281/zenodo.7074680)
 
 Due to file size, ESDroid.jar and preSlicer.jar are available at above link.
 <!---Cite the code: [![DOI](https://zenodo.org/badge/303378286.svg)](https://zenodo.org/badge/latestdoi/303378286) -->
