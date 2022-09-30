@@ -115,7 +115,7 @@ Due to file size, ESDroid.jar is available at: [![DOI](https://zenodo.org/badge/
 
 Due to file size, preSlicer.jar is available at: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7127054.svg)](https://doi.org/10.5281/zenodo.7127054)
 
-# Zenodo
+# Cite the code
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7074680.svg)](https://doi.org/10.5281/zenodo.7074680)
 
 <!---Cite the code: [![DOI](https://zenodo.org/badge/303378286.svg)](https://zenodo.org/badge/latestdoi/303378286) -->
