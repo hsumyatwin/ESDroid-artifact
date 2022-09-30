@@ -110,6 +110,7 @@ tool
 
 # Note
 Hsu: I have used Ubuntu, Window command line and emulator since I run ESDroid on Windows OS.
+
 Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7074680.svg)](https://doi.org/10.5281/zenodo.7074680)
 
 Due to file size, ESDroid.jar is available at: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7127050.svg)](https://doi.org/10.5281/zenodo.7127050)
