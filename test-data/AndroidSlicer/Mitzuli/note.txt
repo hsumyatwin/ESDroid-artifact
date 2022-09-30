@@ -1,1 +1,1 @@
-APK file size is bigger than the maximum file size allowed by GitHub. Please get it from Zenodo (provided in README).
+APK file size is bigger than the maximum file size allowed by GitHub. Please get it from Zenodo (https://doi.org/10.5281/zenodo.7074680).
